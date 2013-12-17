@@ -9,12 +9,7 @@ settings.configure(
     DATABASES = {
         'default': dj_database_url.config(default='postgres://cz:cz@localhost/czweb')
     }
-    # TIME_ZONE = 'Europe/Luxembourg'
 )
-# DATABASES = {
-#     # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#     'default': dj_database_url.config(default='postgres://cz:cz@localhost/czweb')
-#     }
 
 from czoo.models import *
 
@@ -52,6 +47,16 @@ class UnicodeReader:
 
 
 def go ():
+
+    r = Relation(name = "subseteq")
+    r.save()
+
+    r = Relation(name = "subset")
+    r.save()
+
+    r = Relation(name = "eq")
+    r.save()
+
     complexityClassesFile = "data/ComplexityClass.csv"
     with open(complexityClassesFile, "rb") as f:
         rdr = UnicodeReader(f)
@@ -73,10 +78,7 @@ def go ():
                     notes       = notes
                 )
             cc.save()
-
-            # How to connect to the DB!
-            # print row[0], ":", row[2]
-            # print "".join(row)
+#
 
 
 if __name__ == "__main__":
