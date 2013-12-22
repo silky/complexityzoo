@@ -1,4 +1,6 @@
+import sys, datetime, re
 from django.db import models
+from django.utils.html import escape as djescape
 
 class ComplexityClass (models.Model):
     code          = models.CharField(max_length=256, blank=True)
@@ -12,6 +14,17 @@ class ComplexityClass (models.Model):
 
     def __unicode__ (self):
         return self.html_code
+
+    @property
+    def notes_for_display (self):
+        stuff = self.notes
+
+        # Something lame with refs
+        p = re.compile("\[([a-zA-Z0-9+]+)\]")
+        stuff = p.sub("[<a href='#'>\\1</a>]", stuff)
+
+        lines = stuff.splitlines()
+        return "<br />".join(lines)
 
 
 class Relation (models.Model):

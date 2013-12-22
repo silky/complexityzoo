@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Classes: {{ category }} ({{ found }})</h2>
+
+    {% for k in classes %}
+    <h4>{{ k.html_code|safe }} : {{ k.html_name|safe }}</h4>
+        <p>
+            {{ k.notes_for_display|safe }}
+        </p>
+    {% endfor %}
+{% endblock%}

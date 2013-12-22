@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Complexity Zoo -&gt; {{ title }}</title>
+    </head>
+    <body>
+        <h1><a href="/">Complexity Zoo</a></h1>
+        <hr />
+        <h2>Classes</h2>
+
+        <p>
+        {% for k in categories %}
+            <a href="/categories/{{ k }}">{{ k }}</a>
+        {% endfor %}
+        </p>
+        <hr />
+        {% block content %}{% endblock %}
+    </body>
+</html>

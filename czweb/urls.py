@@ -8,7 +8,11 @@ from czoo import views
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^$', views.index, name='index'),
+    url(r'^$',
+        views.index, name='index'),
+
+    url(r'categories/(?P<category>\w+)/$',
+        views.view_category, name='view_category'),
 
     # url(r'^$', 'czweb.views.home', name='home'),
     # url(r'^czweb/', include('czweb.foo.urls')),
