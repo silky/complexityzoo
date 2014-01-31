@@ -1,0 +1,4 @@
+- Wait for response from info@...
+- Figure out how to generate the Classes. I don't think they should be pages,
+    but revisions and what-not are needed. Don't want to require a database
+    but maybe that's the easiest way?
