@@ -24,10 +24,14 @@ from MoinMoin import config
 from MoinMoin.support.python_compatibility import rsplit
 from inspect import getargspec, isfunction, isclass, ismethod
 
+import json
+
 from MoinMoin import web # needed so that next lines work:
 import werkzeug
 from werkzeug.security import safe_str_cmp as safe_str_equal
 from MoinMoin.util import pysupport, lock
+
+import networkx as nx
 
 # Exceptions
 class InvalidFileNameError(Exception):
@@ -44,12 +48,38 @@ CHILD_PREFIX_LEN = len(CHILD_PREFIX)
 #############################################################################
 ### Utils for processing class pages.
 #############################################################################
+def classFilter (name):
+    """ Matches Complexity Class pages. """
+    return (re.match("^Class", name) != None)
+
+
 def getClassRelationJsonFromPage (page_data):
     matches = re.search(r"{{{#!class_relations(.*)}}}", page_data, flags=re.DOTALL) 
     if not matches:
         return None
 
     return matches.group(1)
+#
+
+
+def getRelationsAsDict (pages):
+    """
+        in: a collection of Page objects.
+    """
+    data = {}
+    for p in pages:
+        js = getClassRelationJsonFromPage(p.get_data())
+        if js:
+            data[p.page_name[len("Class_"):]] = json.loads(js)
+    return data
+#
+
+
+def getRelationsAsNxGraph (pages):
+    data = getRelationsAsDict()
+    graph = nx.Graph()
+    return graph
+#
 
 
 #############################################################################

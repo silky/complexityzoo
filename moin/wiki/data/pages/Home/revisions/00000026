@@ -1,4 +1,4 @@
-#acl All:admin,read,write,revert
+#acl AdminGroup:admin,read,write,revert, All:read
 
 = Complexity Zoo =
 

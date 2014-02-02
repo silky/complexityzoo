@@ -1,0 +1,49 @@
+
+
+= P - Polynomial-Time =
+
+The class that started it all.
+
+The class of decision problems solvable in polynomial time by a Turing machine.  (See also FP, for function problems.)
+
+Defined in [Edm65], [Cob64], [Rab60], and other seminal early papers.
+
+Contains some highly nontrivial problems, including linear programming [Kha79] and finding a maximum matching in a general graph [Edm65].
+
+Contains the problem of testing whether an integer is prime [AKS02], an important result that improved on a proof requiring an assumption of the generalized Riemann hypothesis [Mil76].
+
+A decision problem is P-complete if it is in P, and if every problem in P can be reduced to it in L (logarithmic space).  The canonical P-complete problem is circuit evaluation: given a Boolean circuit and an input, decide what the circuit outputs when given the input.
+
+Important subclasses of P include L, NL, NC, and SC.
+
+P is contained in NP, but whether they're equal seemed to be an open problem when I last checked.
+
+Efforts to generalize P resulted in BPP and BQP.
+
+The nonuniform version is P/poly, the monotone version is mP, and versions over the real and complex number fields are P,,R,, and P,,C,, respectively.
+
+In descriptive complexity, P can be defined by three different kind of formulae, FO(lfp) which is also FO()], and also as SO(Horn)
+
+P queries are exactly the one that can be written in the While^/cons^ languages.
+
+
+{{{#!class_relations
+{ "version": 1.0, "class": "P",
+    "relations": {
+        "contained_in": [
+            {"class": "NP" },
+            {"class": "EXP" },
+            {"class": "K", "condition": "Exponential time hypothesis", "ref": "Fake09"}
+        ],
+ 
+ 
+        "equals": [
+            {"class": "K"},
+            {"class": "J", "condition": "P=NP"}
+        ],
+ 
+ 
+        "contains": []
+    }
+}
+}}}
