@@ -40,6 +40,18 @@ PARENT_PREFIX_LEN = len(PARENT_PREFIX)
 CHILD_PREFIX = "/"
 CHILD_PREFIX_LEN = len(CHILD_PREFIX)
 
+
+#############################################################################
+### Utils for processing class pages.
+#############################################################################
+def getClassRelationJsonFromPage (page_data):
+    matches = re.search(r"{{{#!class_relations(.*)}}}", page_data, flags=re.DOTALL) 
+    if not matches:
+        return None
+
+    return matches.group(1)
+
+
 #############################################################################
 ### Getting data from user/Sending data to user
 #############################################################################
