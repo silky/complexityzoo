@@ -1,0 +1,8 @@
+
+
+
+= NPSPACE - Nondeterministic PSPACE =
+
+Equals PSPACE [Sav70].
+
+On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which NPSPACE is not contained in EXP [GTW+91].

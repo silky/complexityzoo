@@ -1,0 +1,31 @@
+
+
+
+= PP - Probabilistic Polynomial-Time =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is 'yes' then at least 1/2 of computation paths accept.
+If the answer is 'no' then less than 1/2 of computation paths accept.
+
+Defined in [Gil77].
+
+PP is closed under union and intersection [BRS91] (this was an open problem for 14 years).
+
+Contains P^NP[log]^ [BHW89].
+
+Equals PP^BPP^ [KST+89b] as well as PostBQP [Aar05b].
+
+However, there exists an oracle relative to which PP does not contain Δ,,2,,P [Bei94].
+
+PH is in P^PP^ [Tod89].
+
+BQP is low for PP; i.e. PP^BQP^ = PP [FR98].
+
+For a random oracle A, PP^A^ is strictly contained in PSPACE^A^ with probability 1 [ABF+94].
+
+For any fixed k, there exists a language in PP that does not have circuits of size n^k^ [Vin04b].  Indeed, there exists a language in PP that does not even have quantum circuits of size n^k^ with quantum advice [Aar06].
+
+By contrast, there exists an oracle relative to which PP has linear-size circuits [Aar06].
+
+PP can be generalized to the counting hierarchy CH.

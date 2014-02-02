@@ -1,0 +1,12 @@
+
+
+
+= AP - Alternating P =
+
+An alternating Turing machine is a nondeterministic machine with two kinds of states, AND states and OR states.  It accepts if and only if the tree of all computation paths, considered as an AND-OR tree, evaluates to 1.  (Here 'Accept' corresponds to 1 and 'Reject' to 0.)
+
+Then AP is the class of decision problems solvable in polynomial time by an alternating Turing machine.
+
+AP = PSPACE [CKS81].
+
+The abbreviation AP is also used for Approximable in Polynomial Time, see AxP.

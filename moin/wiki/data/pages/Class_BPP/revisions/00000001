@@ -1,0 +1,37 @@
+
+
+
+= BPP - Bounded-Error Probabilistic Polynomial-Time =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is 'yes' then at least 2/3 of the computation paths accept.
+If the answer is 'no' then at most 1/3 of the computation paths accept.
+
+(Here all computation paths have the same length.)
+
+Often identified as the class of feasible problems for a computer with access to a genuine random-number source.
+
+Defined in [Gil77].
+
+Contained in Σ,,2,,P ∩ Π,,2,,P [Lau83], and indeed in ZPP^NP^ [GZ97].
+
+If BPP contains NP, then RP = NP [Ko82,Gil77] and PH is contained in BPP [Zac88].
+
+If any problem in E requires circuits of size 2^Ω(n)^, then BPP = P [IW97] (in other words, BPP can be derandomized).
+
+Indeed, any proof that BPP = P requires showing either that NEXP is not in P/poly, or else that #P requires superpolynomial-size arithmetic circuits [KI02].
+
+BPP is not known to contain complete problems.  [Sip82], [HH86] give oracles relative to which BPP has no complete problems.
+
+There exist oracles relative to which P = RP but still P is not equal to BPP [BF99].
+
+In contrast to the case of P, it is unknown whether BPP collapses to BPTIME(n^c^) for some fixed constant c.  However, [Bar02] and [FS04] have shown hierarchy theorems for BPP with a small amount of advice.
+
+A zero-one law exists stating that BPP has p-measure zero unless BPP = EXP [Mel00].
+
+Equals Almost-P.
+
+See also: BPP,,path,,.
+
+If BPP contains NP, then RP = NP [Ko82] and PH is contained in BPP [Zac88].

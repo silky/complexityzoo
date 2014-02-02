@@ -1,0 +1,14 @@
+
+
+
+= (M,,k,,)P - Acceptance Mechanism by Monoid Mk =
+
+A monoid is a set with an associative operation and an identity element (so it's like a group, except that it need not have inverses).
+
+Then (M,,k,,)P is the class of decision problems solvable by an NP machine with the following acceptance mechanism.  The i^th^ computation path (under some lexicographic ordering) outputs an element m,,i,, of M,,k,,.  Then the machine accepts if and only if m,,1,,m,,2,,...m,,s,, is the identity (where s is the number of paths).
+
+Defined by Hertrampf [Her97], who also showed the following (in the special case M is a group):
+
+If G is any nonsolvable group (for example S,,5,,, the symmetric group on 5 elements), then (G)P = PSPACE.
+(Z,,k,,)P = coMod,,k,,P, where Z,,k,, is the cyclic group on k elements.
+If |G|=k, then (G)P contains coMod,,k,,P.

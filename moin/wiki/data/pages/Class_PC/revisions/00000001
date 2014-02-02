@@ -1,0 +1,10 @@
+
+
+
+= P,,C,, - Polynomial-Time Over The Complex Numbers =
+
+An analog of P for Turing machines over a complex number field.
+
+Defined in [BCS+97].
+
+See also P,,R,,, NP,,C,,, NP,,R,,, VP,,k,,.

@@ -1,0 +1,8 @@
+
+
+
+= HeurNTIME,,,, - Heuristic NTIME =
+
+Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.
+
+NP is not contained in HeurNTIME,,,,() for any constants  [Per07].

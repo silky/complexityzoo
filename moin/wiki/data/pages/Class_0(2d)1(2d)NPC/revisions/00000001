@@ -1,0 +1,10 @@
+
+
+
+= 0-1-NP,,C,, - Binary Restriction of NP Over The Complex Numbers =
+
+The intersection of NP,,C,, with {0,1}^*^ (i.e. the set of binary strings).
+
+Contains NP.
+
+Is contained in PSPACE, and in AM assuming the Extended Riemann Hypothesis [Koi96].

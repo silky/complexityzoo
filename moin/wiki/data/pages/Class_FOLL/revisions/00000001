@@ -1,0 +1,18 @@
+
+
+
+= FOLL - First-Order loglog n =
+
+The class of decision problems solvable by a uniform family of polynomial-size, unbounded-fanin, depth O(log log n) circuits with AND, OR, and NOT gates. Equals FO(log log n).
+
+Defined in [BKL+00], where it was also shown that many problems on finite groups are in FOLL.
+
+Contains uniform AC^0^, and is contained in uniform AC^1^.
+
+Is not known to be comparable to L or NL.
+
+The class of decision problems solvable by a nonuniform family of polynomial-size, unbounded-fanin, depth O(loglog n) circuits with AND, OR, and NOT gates.
+
+Contains AC^0^, and is contained in AC^1^.
+
+Is not known to be comparable to L/poly or NL/poly.

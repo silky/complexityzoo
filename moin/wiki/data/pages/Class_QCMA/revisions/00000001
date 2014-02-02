@@ -1,0 +1,16 @@
+
+
+
+= QCMA - Quantum Classical MA =
+
+The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of QMA with classical witnesses.
+
+Called MQA by Watrous [Wat09].
+
+Contains MA, and is contained in QMA.
+
+Given a black-box group G and a subgroup H, the problem of testing non-membership in H has polynomial QCMA query complexity [AK06].
+
+See [AK06] for a "quantum oracle separation" between QCMA and QMA.  No classical oracle separation between QCMA and QMA is currently known.
+
+The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof.

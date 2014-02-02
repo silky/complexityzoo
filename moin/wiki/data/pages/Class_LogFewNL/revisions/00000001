@@ -1,0 +1,8 @@
+
+
+
+= LogFewNL - Logspace-Bounded FewP =
+
+Same as FewP but for logspace-bounded (i.e. NL) machines.
+
+Defined in [BDH+92], where it was also shown that LogFewNL is contained in ModZ,,k,,L for all k>1.

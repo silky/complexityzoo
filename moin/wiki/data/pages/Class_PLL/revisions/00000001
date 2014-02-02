@@ -1,0 +1,6 @@
+
+
+
+= PLL - Polynomial Local Lemma =
+
+The class of TFNP function problems that are guaranteed to have a solution because of the Lovász Local Lemma.  Defined in [Pap94b].

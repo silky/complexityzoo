@@ -1,0 +1,9 @@
+
+
+
+= SO[TC] - Second-Order logic with transitive closure =
+
+SO[TC] is to SO what FO[TC] is to FO. The TC operator can now also take second-order variable as argument.
+
+In Descriptive complexity we can see that :
+SO[TC] is  equal to PSPACE.

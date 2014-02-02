@@ -1,0 +1,8 @@
+
+
+
+= W^*^[t] - W[t] With Parameter-Dependent Depth =
+
+Same as W[t], except that now the circuit depth can depend on the parameter k rather than being constant.  (The number of unbounded-fanin gates along any path to the root is still at most t.)
+
+W^*^[1] = W[1] [DFT96], and W^*^[2] = W[2] [DF97], but the problem is open for larger t.

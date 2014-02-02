@@ -1,0 +1,10 @@
+
+
+
+= compNP - Competitive NP Proof System =
+
+The class of decision problems L in NP such that, if the answer is "yes," then a proof can be constructed in polynomial time given access only to an oracle for L.
+
+Contains NPC.
+
+[BG94] show that compNP is contained in frIP, and that assuming NEE is not contained in BPEE, compNP does not equal NP.

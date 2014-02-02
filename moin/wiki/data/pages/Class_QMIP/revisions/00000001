@@ -1,0 +1,16 @@
+
+
+
+= QMIP - Quantum Multi-Prover Interactive Proofs =
+
+The quantum generalization of MIP, and the multi-prover generalization of QIP.
+
+A quantum multi-prover interactive proof system is the same as a classical one, except that all messages and verifier computations are quantum.  As in MIP, there is no communication among the provers; however, the provers share unlimited prior entanglement.  The number of provers and number of rounds can both be polynomial in n.
+
+Defined in [KM02].
+
+Shown to be equal to MIP* in [RUV12].
+
+QMIP contains NEXP simply because MIP* contains NEXP [IV12]. Since we know that NEXP = QMIP,,ne,,, this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
+
+Fascinatingly, no relationship between QMIP and NEXP is known.  We don't know whether allowing the provers unlimited prior entanglement makes the class more powerful, less powerful, or both!

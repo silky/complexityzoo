@@ -1,0 +1,8 @@
+
+
+
+= coRE - Complement of RE =
+
+Does not equal RE.
+
+The problem "given a computable predicate P, is P true of all positive integers?" is coRE-complete.

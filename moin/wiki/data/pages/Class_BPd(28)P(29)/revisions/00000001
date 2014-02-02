@@ -1,0 +1,14 @@
+
+
+
+= BP,,d,,(P) - Polynomial Size d-Times-Only Branching Program =
+
+Defined in [Weg88].
+
+The class of decision problems solvable by a family of polynomial size branching programs, with the additional condition that each bit of the input is tested at most d times.
+
+BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [Tha98].
+
+Contained in PBP.
+
+See also: P-OBDD, k-PBP.

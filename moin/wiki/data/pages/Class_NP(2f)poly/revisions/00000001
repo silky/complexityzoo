@@ -1,0 +1,10 @@
+
+
+
+= NP/poly - Nonuniform NP =
+
+Has the same relation to NP as P/poly does to P.
+
+Contains AM.  On the other hand, if NP/poly contains coNP then PH collapses to the third level.
+
+NP/poly-natural proofs cannot show that circuit families are outside P/poly, under a pseudorandomness assumption [Rud97].

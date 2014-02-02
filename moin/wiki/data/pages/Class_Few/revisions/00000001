@@ -1,0 +1,17 @@
+
+
+
+= Few - FewP With Flexible Acceptance Mechanism =
+
+The class of decision problems solvable by an NP machine such that
+
+The number of accepting paths a is bounded by a polynomial in the size of the input x.
+For some polynomial-time predicate Q, Q(x,a) is true if and only if the answer is 'yes.'
+
+Also called FewPaths.
+
+Defined in [CH89].
+
+Contains FewP, and is contained in P^FewP^ [Kob89] and in SPP [FFK94].
+
+See also the survey [Tor90].

@@ -1,0 +1,12 @@
+
+
+
+= SelfNP - Self-Witnessing NP =
+
+The class of languages L in NP such that the union, over all x in L, of the set of valid witnesses for x equals L itself.
+
+Defined in [HT03], where it was shown that the closure of SelfNP under polynomial-time many-one reductions is NP.
+
+They also show that if SelfNP = NP, then E = NE; and that SAT is contained in SelfNP.
+
+See also: PermUP.

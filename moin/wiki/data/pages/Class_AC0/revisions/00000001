@@ -1,0 +1,30 @@
+
+
+
+= AC^0^ - Unbounded Fanin Constant-Depth Circuits =
+
+An especially important subclass of AC, corresponding to constant-depth, unbounded-fanin, polynomial-size circuits with AND, OR, and NOT gates.
+
+Computing the Parity or Majority of n bits is not in AC^0^ [FSS84].
+
+There are functions in AC^0^ that are pseudorandom for all statistical tests in AC^0^ [NW94].  But there are no functions in AC^0^ that are pseudorandom for all statistical tests in QP (quasipolynomial time) [LMN93].
+
+[LMN93] showed furthermore that functions with AC^0^ circuits of depth d are learnable in QP, given their outputs on O(2^log(n)^O(d)^) randomly chosen inputs.  On the other hand, this learning algorithm is essentially optimal, unless there is a 2^n^o(1)^ algorithm for factoring [Kha93].
+
+Although there are no good pseudorandom functions in AC^0^, [IN96] showed that there are pseudorandom generators that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum.
+
+AC^0^ contains NC^0^, and is contained in QAC,,f,,^0^ and MAC^0^.
+
+In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [Lee02]). So it's equivalent to the class FO and to AL the alternating logtime hierarchy.
+
+[BLM+98] showed the following problem is complete for depth-k AC^0^ circuits (with a uniformity condition):
+
+Given a grid graph of polynomial length and width k, decide whether there is a path between vertices s and t (which can be given as part of the input).
+
+Computing the parity or majority of n bits is not in AC^0^ [FSS84].
+
+Although there are no good pseudorandom functions in AC^0^, [IN96] showed that there are pseudorandom generators in AC^0^ that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum. Work of [AIK04] shows pseudorandom generators in NC^0^ under more relaxed assumptions.
+
+AC^0^ contains NC^0^, and is contained in QAC^0^ and MAC^0^.
+
+In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [Lee02]).

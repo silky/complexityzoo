@@ -1,0 +1,12 @@
+
+
+
+= MIP - Multi-Prover Interactive Proof =
+
+Same as IP, except that now the verifier can exchange messages with many provers, not just one.  The provers cannot communicate with each other during the execution of the protocol, so the verifier can "cross-check" their assertions (as with suspects in separate interrogation rooms).
+
+Defined in [BGK+88].
+
+Let MIP[k] be the class of decision problems for which a "yes" answer can be verified with k provers.  Then for all k>2, MIP[k] = MIP[2] = MIP [BGK+88].
+
+MIP equals NEXP [BFL91]; this is a famous non-relativizing result.

@@ -1,0 +1,14 @@
+
+
+
+= W[P] - Weighted Circuit Satisfiability =
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
+
+Weighted Circuit-SAT: Given a Boolean circuit C (with no restriction on depth), does C have a satisfying assignment of Hamming weight k?
+
+See W[1] for the definition of fixed-parameter reducibility.
+
+Defined in [DF99].
+
+Contains W[SAT].

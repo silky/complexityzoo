@@ -1,0 +1,10 @@
+
+
+
+= QAM - Quantum AM =
+
+The class of decision problems for which a "yes" answer can be verified by a public-coin quantum AM protocol, as follows.  Arthur generates a uniformly random (classical) string and sends it to Merlin.  Merlin responds with a polynomial-size quantum certificate, on which Arthur can perform any BQP operation.  The completeness and soundness requirements are the same as for AM.
+
+Defined by Marriott and Watrous [MW05].
+
+Contains QMA and is contained in QIP[2] and BP•PP (and therefore PSPACE).

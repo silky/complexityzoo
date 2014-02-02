@@ -1,0 +1,12 @@
+
+
+
+= SLICEWISE PSPACE - Parametrized PSPACE =
+
+The parameterized version of PSPACE.
+
+Same as FPT, except that now on input (x,k) (k a parameter), the space used must be f(k)p(|x|), where p is a polynomial.
+
+If P = PSPACE, then FPT = SLICEWISE PSPACE.
+
+Defined in [DF99].

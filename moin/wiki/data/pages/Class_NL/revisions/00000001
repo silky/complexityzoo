@@ -1,0 +1,16 @@
+
+
+
+= NL - Nondeterministic Logarithmic-Space =
+
+Has the same relation to L as NP does to P.
+
+In a breakthrough result, was shown to equal coNL [Imm88] [Sze87].  (Though contrast to mNL.)
+
+Is contained in LOGCFL [Sud78], as well as NC^2^.
+
+Is contained in UL/poly [RA00].
+
+Deciding whether a bipartite graph has a perfect matching is hard for NL [KUW86].
+
+NL can be defined in a logical formalism as SO(krom) and also as FO(tc), reachability in directed graph is NL-Complete under FO-reduction.

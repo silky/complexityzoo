@@ -1,0 +1,17 @@
+
+
+
+= YP - Your Polynomial-Time or Yaroslav-Percival =
+
+The class of decision problems for which there exists a polynomial-time machine M such that:
+
+For all input sizes n, there exists a polynomial-size advice string s,,n,, such that M(x,s,,n,,) outputs the correct answer for all inputs x of size n.
+For all inputs x and advice strings s, M(x,s) outputs either the correct answer or "I don't know."
+
+Defined in a recent post of the blog Shtetl-Optimized.  See there for an explanation of the class's name.
+
+Contains ZPP by the same argument that places BPP in P/poly.
+
+Also contains P with TALLY ∩ NP ∩ coNP oracle.
+
+Is contained in NP ∩ coNP and YPP.

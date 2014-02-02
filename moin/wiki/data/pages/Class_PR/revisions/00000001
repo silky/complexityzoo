@@ -1,0 +1,20 @@
+
+
+
+= P,,R,, - Polynomial-Time Over The Reals =
+
+Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that PR is strictly contained in R.
+
+Alternatively, the PR functions are exactly those functions that can be computed via programs in any reasonable, idealized ALGOL-like programming language where only definite loops are allowed, that is, loops where the number of iterations is specified before the loop starts (so FOR-loops are okay but not WHILE- or REPEAT-loops), and recursive calls are not allowed.
+
+An interesting difference is that PR functions can be explicitly enumerated, whereas functions in R cannot be (since otherwise the halting problem would be decidable).  That is, PR is a "syntactic" class whereas R is "semantic."
+
+On the other hand, we can "enumerate" any RE set by a PR function in the following sense: given an input (M,k), where M is a Turing machine and k is an integer, if M halts within k steps then output M; otherwise output nothing.  Then the union of the outputs, over all possible inputs (M,k), is exactly the set of M that halt.
+
+PR strictly contains ELEMENTARY.
+
+An analog of P for Turing machines over a real number field.
+
+Defined in [BCS+97].
+
+See also P,,C,,, NP,,C,,, NP,,R,,, VP,,k,,.

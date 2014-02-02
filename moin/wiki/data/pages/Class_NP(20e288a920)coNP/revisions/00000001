@@ -1,0 +1,14 @@
+
+
+
+= NP ∩ coNP - NP ∩ coNP =
+
+The class of problems in both NP and coNP.
+
+Contains factoring [Pra75].
+
+Contains graph isomorphism under the assumption that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([MV99], improving [KM99]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
+
+Equals P^NP ∩ coNP^ [Bra79].  In particular, if a problem in NP ∩ coNP is NP-hard with Turing reduction, then NP = coNP.
+
+Is not believed to contain complete problems.

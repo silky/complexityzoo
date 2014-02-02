@@ -1,0 +1,14 @@
+
+
+
+= AC^0^[m] - AC0 With MOD m Gates =
+
+Same as AC^0^, but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)
+
+If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in AC^0^[m] [Raz87] [Smo87].  It follows that, for any such m, AC^0^[m] is strictly contained in NC^1^.
+
+However, if m is a product of distinct primes (e.g. 6), then it is not even known whether AC^0^[m] = NP!
+
+See also: QAC^0^[m].
+
+However, if m is a product of distinct primes (i.e. 6), then it is not even known whether AC^0^[m] = NP!

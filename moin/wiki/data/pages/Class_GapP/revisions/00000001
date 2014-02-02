@@ -1,0 +1,10 @@
+
+
+
+= GapP - Gap Polynomial-Time =
+
+The class of functions f(x) such that for some NP machine, f(x) is the number of accepting paths minus the number of rejecting paths.
+
+Equivalently, the closure of the #P functions under subtraction.
+
+Defined in [FFK94] and independently [Gup95].

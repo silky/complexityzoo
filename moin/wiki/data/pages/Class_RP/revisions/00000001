@@ -1,0 +1,23 @@
+
+
+
+= RP - Randomized Polynomial-Time =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is 'yes,' at least 1/2 of computation paths accept.
+If the answer is 'no,' all computation paths reject.
+
+Defined in [Gil77] (implicitly: the class VPP that is defined is equivalent to RP by running the recognizer as many times as necessary to reach probability 1/2).
+
+Contains the problem of testing whether an integer is prime [AH87], although this problem was subsequently shown to be in P [AKS02].
+
+For other problems in RP, see the standard text on randomized algorithms, [MR95].
+
+Has the same p-measure as ZPP. Moreover, this measure is either zero or one. If the measure is non-zero, then ZPP = BPP = EXP [IM03].
+
+See also: coRP, ZPP, BPP.
+
+Defined in [Gil77].
+
+Contains the problem of testing whether an integer is prime [AH87].

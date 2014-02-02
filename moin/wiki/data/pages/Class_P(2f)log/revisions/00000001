@@ -1,1 +1,10 @@
-= P/log - P with logarithmic advice =
+
+
+
+= P/log - P With Logarithmic Advice =
+
+Same as P/poly, except that the advice string for input size n can have length at most logarithmic in n, rather than polynomial.
+
+Strictly contained in IC[log,poly].
+
+If NP is contained in P/log then P = NP.

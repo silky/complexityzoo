@@ -1,0 +1,18 @@
+
+
+
+= Mod,,k,,P - Mod-k Polynomial-Time =
+
+For any k>1: The class of decision problems solvable by an NP machine such that the number of accepting paths is divisible by k, if and only if the answer is "no."
+
+Mod,,2,,P is more commonly known as ⊕P "parity-P."
+
+For every k, Mod,,k,,P contains graph isomorphism [AK02].
+
+Defined in [CH89], [Her90].
+
+[Her90] and [BG92] showed that Mod,,k,,P is the set of unions of languages in Mod,,p,,P for each prime p that divides k.  In particular, if p is prime, then Mod,,p,,P = Mod,,p^m,,P for all positive integers m.  A further fact is that Mod,,p,,P is closed under union, intersection, and complement for p prime.
+
+On the other hand, if k is not a prime power, then there exists an oracle relative to which Mod,,k,,P is not closed under intersection or complement [BBR94].
+
+For prime p, there exists an oracle relative to which Mod,,p,,P does not contain EQP [GV02].

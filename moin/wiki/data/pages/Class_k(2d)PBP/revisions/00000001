@@ -1,0 +1,16 @@
+
+
+
+= k-PBP - Polynomial-Size Width-k Branching Program =
+
+A branching program is a directed acyclic graph with a designated start vertex.  Each (non-sink) vertex is labeled by the name of an input bit, and has two outgoing edges, one of which is followed if that input bit is 0, the other if the bit is 1.  A sink vertex can be either an 'accept' or a 'reject' vertex.
+
+The size of the branching program is the number of vertices.  The branching program has width k if the vertices can be sorted into levels, each with at most k vertices, such that each edge goes from a level to the one immediately after it.
+
+Then k-PBP is the class of decision problems solvable by a family of polynomial-size, width-k branching programs.  (A uniformity condition may also be imposed.)
+
+k-PBP equals (nonuniform) NC^1^ for constant k at least 5 [Bar89].  On the other hand, 4-PBP is in ACC^0^ [BT88].
+
+Contained in k-EQBP, as well as PBP.
+
+See also BP,,d,,(P).

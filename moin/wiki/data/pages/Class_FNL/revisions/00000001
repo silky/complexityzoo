@@ -1,0 +1,8 @@
+
+
+
+= FNL - Function NL =
+
+Has the same relation to NL as FNP does to NP.
+
+Defined by [AJ93], who also showed that if NL = UL, then FNL is contained in #L.

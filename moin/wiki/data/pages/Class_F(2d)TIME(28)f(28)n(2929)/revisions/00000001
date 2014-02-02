@@ -1,0 +1,13 @@
+
+
+
+= F-TIME(f(n)) - Provable DTIME(f(n)) For Formal System F =
+
+The class of decision problems that can be proven to be solvable in O(f(n)) time on a deterministic Turing machine, from the axioms of formal system F.
+
+Defined in [Har78], where the following was also shown:
+
+If F-TIME(f(n)) = DTIME(f(n)), then DTIME(f(n)) is strictly contained in DTIME(f(n)g(n)) for any nondecreasing, unbounded, recursive g(n).
+There exist recursive, monotonically increasing f(n) such that F-TIME(f(n)) is strictly contained in DTIME(f(n)).
+
+See also F-TAPE(f(n)).

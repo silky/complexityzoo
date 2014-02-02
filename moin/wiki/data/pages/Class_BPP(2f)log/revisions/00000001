@@ -1,0 +1,8 @@
+
+
+
+= BPP/log - BPP With Logarithmic Karp-Lipton Advice =
+
+The class of problems solvable by a semantic BPP machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, the machine must provide some answer with probability at least 2/3.  See the discussion for BQP/poly.
+
+Contained in BPP/mlog.

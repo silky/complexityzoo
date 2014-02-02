@@ -1,0 +1,10 @@
+
+
+
+= RG[1] - One-Round Refereed Games =
+
+Same as RG, except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes RG[1] a symmetric class, indeed a randomized analogue of S,,2,,P.
+
+RG[1] is contained in PSPACE, and they are equal, unrelativized [FK97b].
+
+Contains S,,2,,P and is contained in SQG.

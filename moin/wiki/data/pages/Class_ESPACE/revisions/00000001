@@ -1,0 +1,16 @@
+
+
+
+= ESPACE - Exponential Space With Linear Exponent =
+
+Equals DSPACE(2^O(n)^).
+
+If E = ESPACE then P = BPP [HY84].
+
+Indeed if E has nonzero measure in ESPACE then P = BPP [Lut91].
+
+ESPACE is not contained in P/poly [Kan82].
+
+Is not contained in BQP/mpoly [NY03].
+
+See also: EXPSPACE.

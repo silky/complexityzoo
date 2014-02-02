@@ -1,0 +1,26 @@
+
+
+
+= NEXP - Nondeterministic EXP =
+
+Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).
+
+Equals MIP [BFL91] (but not relative to all oracles).
+
+NEXP is in MIP* [IV12].
+
+NEXP is in P/poly if and only if NEXP = MA [IKW01].
+
+[KI02] show the following:
+
+If P = RP, then NEXP is not computable by polynomial-size arithmetic circuits.
+If P = BPP and if checking whether a Boolean circuit computes a function that is close to a low-degree polynomial over a finite field is in P, then NEXP is not in P/poly.
+If NEXP is in P/poly, then matrix permanent is NEXP-complete.
+
+Does not equal NP [SFM78].
+
+Does not equal EXP if and only if there is a sparse set in NP that is not in P.
+
+There exists an oracle relative to which EXP = NEXP but still P does not equal NP [Dek76].
+
+The theory of reals with addition (see EXPSPACE) is hard for NEXP [FR74].

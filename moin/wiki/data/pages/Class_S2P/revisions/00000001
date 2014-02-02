@@ -1,0 +1,21 @@
+
+
+
+= S,,2,,P - Second Level of the Symmetric Hierarchy =
+
+The class of decision problems for which there is a polynomial-time predicate P such that, on input x,
+
+If the answer is 'yes,' then there exists a y such that for all z, P(x,y,z) is true.
+If the answer is 'no,' then there exists a z such that for all y, P(x,y,z) is false.
+
+Note that this differs from Σ,,2,,P in that the quantifiers in the second condition are reversed.
+
+Less formally, S,,2,,P is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In Σ,,2,,P, the disprover moves first.
+
+Defined in [RS98], where it was also shown that S,,2,,P contains MA and Δ,,2,,P.  Defined independently in [Can96].
+
+Contained in ZPP^NP^ [Cai01].
+
+S,,2,,-EXP•P^NP^: Don't Ask 
+One of the caged classes of the Complexity Zoo.
+Has been implicated in a collapse scandal involving AM[polylog], coNP, and EH.

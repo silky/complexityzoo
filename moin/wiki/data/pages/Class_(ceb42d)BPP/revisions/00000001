@@ -1,0 +1,10 @@
+
+
+
+= δ-BPP - δ-Semi-Random BPP =
+
+Same as BPP, except that the random bit source is biased as follows.  Each bit could depend on all the previous bits in arbitrarily complicated ways; the only promise is that the bit is 1 with probability in the range [δ,1-δ], conditioned on all previous bits.
+
+So clearly 0-BPP = P and 1/2-BPP = BPP.
+
+It turns out that, for any δ>0, δ-BPP = BPP [VV85], [Zuc91].

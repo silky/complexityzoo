@@ -1,0 +1,31 @@
+
+
+
+= SL - Symmetric Logarithmic-Space =
+
+The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that
+
+If the answer is 'yes,' one or more computation paths accept.
+If the answer is 'no,' all paths reject.
+If the machine can make a nondeterministic transition from configuration A to configuration B, then it can also transition from B to A.  (This is what 'symmetric' means.)
+
+Defined in [LP82].
+
+The undirected s-t connectivity problem (USTCON: is there a path from vertex s to vertex t in a given undirected graph?) is complete for SL, under L-reductions.
+
+SL contains L, and is contained in NL.
+
+It follows from [AKL+79] that SL is contained in L/poly.
+
+[KW93] showed that SL is contained in ⊕L, as well as Mod,,k,,L for every prime k.
+
+SL is also contained in DSPACE(log^3/2^n) [NSW92], and indeed in DSPACE(log^4/3^n) [ATW+00].
+
+[NT95] showed that SL equals coSL, and furthermore that SL^SL^ = SL (that is, the symmetric logspace hierarchy collapses).
+
+Reingold ultimately showed that SL = L [Rei04], even relative to an oracle. This subsumes many of the earlier results.
+
+The reachability problem (is there a path from vertex s to vertex t?) for undirected graphs is complete for SL, under L-reduction.
+
+The story ends with the remarkable result that SL = L (even relative to an oracle)
+[Rei04].

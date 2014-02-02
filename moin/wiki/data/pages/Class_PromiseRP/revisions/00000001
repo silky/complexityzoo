@@ -1,0 +1,10 @@
+
+
+
+= PromiseRP - Promise-Problem RP =
+
+The class of promise problems solvable by an RP machine. I.e., the machine must accept with probability at least 1/2 for "yes" inputs, and with probability 0 for "no" inputs, but could have acceptance probability between 0 and 1/2 for inputs that do not satisfy the promise.
+
+Defined in [BF99], where it was also shown that BPP is in RP^PromiseRP[1]^ (i.e. with a single oracle query to PromiseRP).
+
+Contained in PromiseBPP.

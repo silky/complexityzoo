@@ -1,0 +1,10 @@
+
+
+
+= BQP/qlog - BQP With Logarithmic-Size Quantum Advice =
+
+Same as BQP/mlog except that the advice is quantum instead of classical.
+
+Strictly contains BQP/mlog [NY03].
+
+Contained in BQP/mpoly.

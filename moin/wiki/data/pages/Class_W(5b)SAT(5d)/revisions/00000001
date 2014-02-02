@@ -1,0 +1,14 @@
+
+
+
+= W[SAT] - Weighted Satisfiability =
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
+
+Weighted SAT: Given a Boolean formula F (with no restriction on depth), does F have a satisfying assignment of Hamming weight k?
+
+See W[1] for the definition of fixed-parameter reducibility.
+
+Defined in [DF99].
+
+Contains W[t] for every t, and is contained in W[P].

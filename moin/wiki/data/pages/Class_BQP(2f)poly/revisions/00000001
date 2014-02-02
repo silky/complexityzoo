@@ -1,0 +1,8 @@
+
+
+
+= BQP/poly - BQP With Polynomial-Size Karp-Lipton Advice =
+
+Is to BQP/mpoly as ∃BPP is to MA.  Namely, the BQP machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though BQP/mpoly is a more natural class, BQP/poly follows the standard definition of advice as a class operator [KL82].
+
+Contained in BQP/mpoly and contains BQP/log.

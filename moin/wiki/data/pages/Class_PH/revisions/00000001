@@ -1,0 +1,33 @@
+
+
+
+= PH - Polynomial-Time Hierarchy =
+
+Let Δ,,0,,P = Σ,,0,,P = Π,,0,,P = P.  Then for i>0, let
+
+Δ,,i,,P = P with Σ,,i-1,,P oracle.
+Σ,,i,,P = NP with Σ,,i-1,,P oracle.
+Π,,i,,P = coNP with Σ,,i-1,,P oracle.
+
+Then PH is the union of these classes for all nonnegative constant i.
+
+PH can also be defined using alternating quantifiers: it's the class of problems of the form, "given an input x, does there exist a y such that for all z, there exists a w ... such that φ(x,y,z,w,...)," where y,z,w,... are polynomial-size strings and φ is a polynomial-time computable predicate.  It's not totally obvious that this is equivalent to the first definition, since the first one involves adaptive NP oracle queries and the second one doesn't, but it is.
+
+Defined in [Sto76].
+
+Contained in P with a PP oracle [Tod89].
+
+Contains BPP [Lau83].
+
+Relative to a random oracle, PH is strictly contained in PSPACE with probability 1 [Cai86].
+
+Furthermore, there exist oracles separating any Σ,,i,,P from Σ,,i+1,,P.  On the other hand, it is unknown whether Σ,,i,,P is strictly contained in Σ,,i+1,,P relative to a random oracle with probability 1 (see [Has87]).  Book [Boo94] shows that if PH collapses relative to a random oracle with probability 1, then it collapses unrelativized.
+
+It was shown in [CPO7] that if the NP Machine Hypothesis holds, then
+.
+
+For a compendium of problems complete for different classes of the Polynomial Hierarchy see [Sch02a] and [Sch02b].
+
+PH is equal to the set of boolean queries recognizable by a concurent random acess machine using exponentially many processors and constant time[Imm89].
+
+Since NP is the class of query expressible in second-order existantial logic, PH can also be defined as the query expressible in second-order logic.

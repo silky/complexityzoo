@@ -1,0 +1,16 @@
+
+
+
+= FPT - Fixed-Parameter Tractable =
+
+The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.
+
+The basic class of the theory of fixed-parameter tractability, as described by Downey and Fellows [DF99].
+
+To separate FPT and W[2], one could show there is no proof system for CNF formulae that admits proofs of size f(k)n^O(1)^, where f is a computable function and n is the size of the formula.
+
+Contained in FPT,,nu,,, W[1], and FPR.
+
+Contains FPTAS [CC97], as well as FPT,,su,,.
+
+Contains EPTAS unless FPT = W[1] [Baz95].

@@ -1,0 +1,18 @@
+
+
+
+= SC - Steve's Class =
+
+(Named in honor of Stephen Cook.)
+
+The class of decision problems solvable by a Turing machine that simultaneously uses polynomial time and polylogarithmic space.
+
+Note that SC might be smaller than P ∩ polyL, since for the latter, it suffices to have two separate algorithms: one polynomial-time and the other polylogarithmic-space.
+
+Deterministic context-free languages (DCFLs) can be recognized in SC [Coo79].
+
+SC contains RL and BPL [Nis92].
+
+SC equals DTISP(poly,polylog) by definition.
+
+Deterministic context-free languages (DCFL's) can be recognized in SC [Coo79].

@@ -1,0 +1,10 @@
+
+
+
+= OptP - Optimum Polynomial-Time =
+
+The class of functions computable by taking the maximum of the output values over all accepting paths of an NP machine.
+
+Defined in [Kre88].
+
+Contrast with FNP.

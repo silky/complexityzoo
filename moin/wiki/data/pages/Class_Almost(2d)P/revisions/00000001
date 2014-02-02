@@ -1,0 +1,8 @@
+
+
+
+= Almost-P - Languages Almost Surely in PA =
+
+The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.
+
+Equals BPP [BG81].

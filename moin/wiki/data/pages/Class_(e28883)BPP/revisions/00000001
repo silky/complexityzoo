@@ -1,0 +1,15 @@
+
+
+
+= ∃BPP - BPP With Existential Operator =
+
+The class of problems for which there exists a BPP machine M such that, for all inputs x,
+
+If the answer is "yes" then there exists a y such that M(x,y) accepts.
+If the answer is "no" then for all y, M(x,y) rejects.
+
+Alternatively defined as NP^BPP^.
+
+Contains NP and BPP, and is contained in MA and SBP.
+
+∃BPP seems obviously equal to MA, yet [FFK+93] constructed an oracle relative to which they're unequal!  Here is the difference: if the answer is "yes," MA requires only that there exist a y such that for at least 2/3 of random strings r, M(x,y,r) accepts (where M is a P predicate).  For all other y's, the proportion of r's such that M(x,y,r) accepts can be arbitrary (say, 1/2).  For ∃BPP, by contrast, the probability that M(x,y) accepts must always be either at most 1/3 or at least 2/3, for all y's.

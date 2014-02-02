@@ -1,0 +1,8 @@
+
+
+
+= LH - Logarithmic Time Hierarchy =
+
+A Turing machine with random access owns a special tape where it can write a binary number , and it can query the value of the th bit of the input. Hence any bit of the input can be read in only logtime.
+
+The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. LH is the union of all levels and is equal to tothe class AC^0^ and to FO Descriptive complexity.

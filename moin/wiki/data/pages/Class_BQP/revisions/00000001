@@ -1,0 +1,35 @@
+
+
+
+= BQP - Bounded-Error Quantum Polynomial-Time =
+
+The class of decision problems solvable in polynomial time by a quantum Turing machine, with at most 1/3 probability of error.
+
+One can equivalently define BQP as the class of decision problems solvable by a uniform family of polynomial-size quantum circuits, with at most 1/3 probability of error [Yao93].  Any universal gate set can be used as a basis; however, a technicality is that the transition amplitudes must be efficiently computable, since otherwise one could use them to encode the solutions to hard problems (see [ADH97]).
+
+BQP is often identified as the class of feasible problems for quantum computers.
+
+Contains the factoring and discrete logarithm problems [Sho97], the hidden Legendre symbol problem [DHI02], the Pell's equation and principal ideal problems [Hal02], and some other problems not thought to be in BPP.
+
+Defined in [BV97], where it is also shown that BQP contains BPP and is contained in P with a #P oracle.
+
+BQP^BQP^ = BQP [BV97].
+
+[ADH97] showed that BQP is contained in PP, and [FR98] showed that BQP is contained in AWPP.
+
+There exist oracles relative to which:
+
+BQP does not equal to BPP [BV97] (and by similar arguments, is not in P/poly).
+BQP is not contained in MA [Wat00].
+BQP is not contained in Mod,,p,,P for prime p [GV02].
+NP, and indeed NP ∩ coNP, are not contained in BQP  with probability 1 relative to a random oracle and a random permutation oracle, respectively [BBB+97].
+SZK is not contained in BQP [Aar02].
+BQP is not contained in SZK (follows easily using the quantum walk problem in [CCD+03]).
+PPAD is not contained in BQP [Li11].
+
+BQP does not equal BPP [BV97] (and by similar arguments, is not in P/poly).
+BQP is not contained in MA [Wat00].
+BQP is not contained in Mod,,p,,P for prime p [GV02].
+NP, and indeed NP ∩ coNP, are not contained in BQP (in fact, this holds with probability 1 relative to a random oracle and a random permutation oracle, respectively) [BBB+97].
+SZK is not contained in BQP [Aar02].
+BQP is not contained in SZK (follows easily using the quantum walk problem in [CCD+03]).

@@ -1,0 +1,17 @@
+
+
+
+= C,,k,,P - kth Level of CH =
+
+Defined as follows:
+
+C,,0,,P = P
+C,,1,,P = PP
+C,,2,,P = PP^PP^
+In general, C,,k+1,,P is PP with C,,k,,P oracle
+
+The union of the C,,k,,P's is called the counting hierarchy, CH.
+
+Defined in [Wag86].
+
+See [Tor91] or [AW90] for more information.

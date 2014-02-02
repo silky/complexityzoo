@@ -1,0 +1,16 @@
+
+
+
+= A,,0,,PP - One-Sided Analog of AWPP =
+
+Same as SBP, except that f is a nonnegative-valued GapP function rather than a #P function.
+
+Defined in [Vya03], where the following was also shown:
+
+A,,0,,PP contains QMA, AWPP, and coC,,=,,P.
+A,,0,,PP is contained in PP.
+If A,,0,,PP = PP then PH is contained in PP.
+
+Kuperberg ([Kup09]) showed that A,,0,,PP = SBQP.
+
+Same as SBP, except that f is a GapP rather than #P function.

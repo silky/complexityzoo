@@ -1,0 +1,8 @@
+
+
+
+= Almost-NP - Languages Almost Surely in NPA =
+
+The class of problems that are in NP^A^ with probability 1, where A is an oracle chosen uniformly at random.
+
+Equals AM [NW94].

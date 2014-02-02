@@ -1,0 +1,10 @@
+
+
+
+= NLT - Nearly Linear Time =
+
+Class of functions computable in nearly linear time n(log n)^O(1)^ on deterministic random access machines.
+
+Defined in [GS89].
+
+See also QL.

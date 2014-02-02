@@ -1,0 +1,12 @@
+
+
+
+= FPTAS - Fully Polynomial-Time Approximation Scheme =
+
+The subclass of NPO problems that admit an approximation scheme in the following sense.  For any ε>0, there is an algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  Furthermore, the running time of the algorithm is polynomial in n (the size of the problem) and in 1/ε.
+
+Contained in PTAS.
+
+Defined in [ACG+99].
+
+Contained in FPT [CC97].

@@ -1,0 +1,10 @@
+
+
+
+= AW[P] - Alternating W[P] =
+
+Same as AW[SAT] but with 'circuit' instead of 'formula.'
+
+Has the same relation to AW[SAT] as W[P] has to W[SAT].
+
+Defined in [DF99].

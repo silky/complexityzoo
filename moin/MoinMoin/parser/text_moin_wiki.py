@@ -1197,10 +1197,16 @@ class Parser:
         """Handle section headings."""
         heading_text = groups.get('heading_text', '')
         depth = min(len(groups.get('hmarker')), 5)
+        #
+        # HACK/NOON: Modification here to format text inside heading areas. I
+        # think this is correct.
+        #
+        heading_text = self.scan(heading_text, inhibit_p=False)
         return ''.join([
             self._closeP(),
             self.formatter.heading(1, depth, id=heading_text),
-            self.formatter.text(heading_text),
+            heading_text,
+            # self.formatter.text(heading_text),
             self.formatter.heading(0, depth),
         ])
     _heading_text_repl = _heading_repl

@@ -1,0 +1,10 @@
+
+
+
+= NE - Nondeterministic E =
+
+Nondeterministic exponential time with linear exponent (i.e. NTIME(2^O(n)^)).
+
+P^NE^ = NP^NE^ [Hem89].
+
+Contained in NEXP.

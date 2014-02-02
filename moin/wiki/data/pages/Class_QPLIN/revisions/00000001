@@ -1,0 +1,8 @@
+
+
+
+= QPLIN - Linear Quasipolynomial-Time =
+
+Equals DTIME(n^O(log n)^).
+
+Has the same relationship to QP that E does to EXP.

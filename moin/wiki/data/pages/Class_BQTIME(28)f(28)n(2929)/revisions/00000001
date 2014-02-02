@@ -1,0 +1,8 @@
+
+
+
+= BQTIME(f(n)) - Bounded-Error Quantum f(n)-Time =
+
+Same as BQP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
+
+Defined in [BV97].

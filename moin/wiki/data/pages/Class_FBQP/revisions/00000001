@@ -1,0 +1,8 @@
+
+
+
+= FBQP - Function BQP =
+
+Has the same relation to BQP as FNP does to NP.
+
+There exists an oracle relative to which PLS is not contained in FBQP [Aar03].

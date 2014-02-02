@@ -1,0 +1,16 @@
+
+
+
+= AC - Unbounded Fanin Polylogarithmic-Depth Circuits =
+
+AC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and unbounded fanin.  The gates allowed are AND, OR, and NOT.
+
+Then AC is the union of AC^i^ over all nonnegative i.
+
+AC^i^ is contained in NC^i+1^; thus, AC = NC.
+
+Contains NL.
+
+For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (uniform) AC^A^ is strictly contained in P^A^, with probability 1 [Mil92].
+
+fo-uniform AC with depth  is equal to FO[]

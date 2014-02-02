@@ -1,0 +1,10 @@
+
+
+
+= SO(Krom) - Second-order in Krom form =
+
+SO(krom) is the set of boolean queries definable with second-order formulae in normal form such that the quantifier-free part of the formula is in Krom form, wich means that in every clause there is at most two literals and the first-order portion contains no existential quantifiers.
+
+It was shown in [Grä92] that this class is equal to NL.
+
+Those formulaes can be made in prenex form where the second order is existential and the first order universal without loss of generalities.

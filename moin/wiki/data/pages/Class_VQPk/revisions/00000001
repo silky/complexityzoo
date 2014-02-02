@@ -1,0 +1,10 @@
+
+
+
+= VQP,,k,, - Valiant QP Over Field k =
+
+Has the same relation to VP,,k,, as QP does to P.
+
+Originated in [Val79b].
+
+The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under a type of reduction called qp-projections (see [Bur00] for example).  It is an open problem whether the determinant is VP,,k,,-complete.

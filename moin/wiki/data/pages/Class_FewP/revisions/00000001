@@ -1,0 +1,21 @@
+
+
+
+= FewP - NP With Few Witnesses =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is 'no,' then all computation paths reject.
+If the answer is 'yes,' then at least one path accepts; furthermore, the number of accepting paths is upper-bounded by a polynomial in n, the size of the input.
+
+Defined in [AR88].
+
+Is contained in ⊕P [CH89].
+
+There exists an oracle relative to which P, UP, FewP, and NP are all distinct [Rub88].
+
+Also, there exists an oracle relative to which FewP does not have a Turing-complete set [HJV93].
+
+Contained in Few.
+
+See also the survey [Tor90].

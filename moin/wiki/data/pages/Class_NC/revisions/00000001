@@ -1,0 +1,26 @@
+
+
+
+= NC - Nick's Class =
+
+(Named in honor of Nick Pippenger.)
+
+NC^i^ is the class of decision problems solvable by a uniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and fan-in 2.
+
+Then NC is the union of NC^i^ over all nonnegative i.
+
+Also, NC equals the union of PT/WK(log^k^n, n^k^)/poly over all constants k.
+
+NC^i^ is contained in AC^i^; thus, NC = AC.
+
+Contains NL.
+
+Generalizations include RNC and QNC.
+
+[IN96] construct a candidate pseudorandom generator in NC based on the subset sum problem.
+
+For a random oracle A, (NC^i^)^A^ is strictly contained in (NC^i+1^)^A^, and uniform NC^A^ is strictly contained in P^A^, with probability 1 [Mil92].
+
+In descriptive complexity, NC can be defined by FO[]
+
+NC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and fan-in 2.

@@ -1,0 +1,12 @@
+
+
+
+= MP - Middle-Bit P =
+
+The class of decision problems such that for some #P function f, the answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
+
+Defined in [GKR+95].
+
+Contains AmpMP and PH.
+
+MP with ModP oracle equals MP with #P oracle [KT96].

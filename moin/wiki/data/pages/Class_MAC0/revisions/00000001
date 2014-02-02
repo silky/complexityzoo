@@ -1,0 +1,10 @@
+
+
+
+= MAC^0^ - Majority of AC0 =
+
+Same as AC^0^, except now we're allowed a single unbounded-fanin majority gate at the root.
+
+Defined in [JKS02].
+
+MAC^0^ is strictly contained in TC^0^ [ABF+94].

@@ -1,0 +1,10 @@
+
+
+
+= P,,CTC,, - P With Closed Time Curves =
+
+Same as P with access to bits along a closed time curve.
+
+Implicitly defined in [Aar05c], where it was shown that PSPACE = P,,CTC,,.
+
+See also BQP,,CTC,,.

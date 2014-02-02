@@ -1,0 +1,8 @@
+
+
+
+= NNLT - Nondeterministic Nearly Linear Time =
+
+Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals NQL [GS89].
+
+Defined in [GS89].

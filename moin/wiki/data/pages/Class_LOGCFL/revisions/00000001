@@ -1,0 +1,12 @@
+
+
+
+= LOGCFL - Logarithmically Reducible to CFL =
+
+The class of decision problems reducible in L to the problem of deciding membership in a context-free language.
+
+Equivalently, LOGCFL is the class of decision problems solvable by a uniform family of AC^1^ circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [Joh90], p. 137).
+
+LOGCFL is closed under complement [BCD+89].
+
+Contains NL [Sud78].

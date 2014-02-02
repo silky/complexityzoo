@@ -1,0 +1,16 @@
+
+
+
+= EH - Exponential-Time Hierarchy With Linear Exponent =
+
+Has roughly the same relationship to E as PH does to P.
+
+More formally, EH is defined as the union of E, NE, NE^NP^, NE with Σ,,2,,P oracle, and so on.
+
+See [Har87] for more information.
+
+If coNP is contained in AM[polylog], then EH collapses to S,,2,,-EXP•P^NP^ [SS04] and indeed AM,,EXP,, [PV04].
+
+On the other hand, coNE is contained in NE/poly, so perhaps it wouldn't be so surprising if NE collapses.
+
+There exists an oracle relative to which EH does not contain SEH [Hem89]. EH and SEH are incomparable for all anyone knows.

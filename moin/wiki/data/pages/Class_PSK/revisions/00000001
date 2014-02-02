@@ -1,0 +1,12 @@
+
+
+
+= PSK - Polynomial Sink =
+
+Yeah, I'm told that's what the S and K stand for.  Go figure.
+
+The class of total function problems definable as follows: given a directed graph of indegree and outdegree at most 1, and given a source, find a sink.
+
+Defined in [Pap90].
+
+Equals PPADS.

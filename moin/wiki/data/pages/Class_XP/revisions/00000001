@@ -1,0 +1,12 @@
+
+
+
+= XP - Fixed-Parameter Tractable for Each Parameter =
+
+The class of decision problems of the form (x,k) (k a parameter) that are solvable in time O(|x|^f(k)^) for some function f.  The algorithm used may depend on k.
+
+Defined in [DF99].
+
+Contains XP,,uniform,,.
+
+Strictly contains FPT (by diagonalization).

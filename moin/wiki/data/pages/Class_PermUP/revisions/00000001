@@ -1,0 +1,14 @@
+
+
+
+= PermUP - Self-Permuting UP =
+
+The class of languages L in UP such that the mapping from an input x to the unique witness for x is a permutation of L.
+
+Contains P.
+
+Defined in [HT03], where it was also shown that the closure of PermUP under polynomial-time one-to-one reductions is UP.
+
+On the other hand, they show that if PermUP = UP then E = UE.
+
+See also: SelfNP.

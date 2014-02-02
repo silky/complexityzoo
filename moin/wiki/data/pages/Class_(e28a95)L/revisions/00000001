@@ -1,0 +1,12 @@
+
+
+
+= ⊕L - Parity L =
+
+Has the same relation to L as ⊕P does to P.
+
+Contains SL [KW93].
+
+Solving a linear system over Z,,2,, is complete for ⊕L [Dam90].
+
+⊕L^⊕L^ = ⊕L [HRV00].

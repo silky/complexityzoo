@@ -1,0 +1,18 @@
+
+
+
+= W[1] - Weighted Analog of NP =
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following:
+
+Weighted 3SAT: Given a 3SAT formula, does it have a satisfying assignment of Hamming weight k?
+
+A fixed-parameter reduction is a Turing reduction that takes time at most f(k)p(|x|), where f is an arbitrary function and p is a polynomial.  Also, if the input is (x,k), then all Weighted 3SAT instances the algorithm queries about must have the form <x',k'> where k' is at most k.
+
+Contains FPT.
+
+Defined in [DF99], where the following is also shown:
+
+If FPT = W[1] then NP is contained in DTIME(2^o(n)^).
+
+W[1] can be generalized to W[t].

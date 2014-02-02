@@ -1,0 +1,12 @@
+
+
+
+= mTC^0^ - Monotone TC0 =
+
+The class of decision problems solvable by a family of monotone TC^0^ circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).
+
+A uniformity condition could also be imposed.
+
+Defined in [GS90].
+
+Strictly contained in mNC^1^ [Yao89].

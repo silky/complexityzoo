@@ -1,0 +1,13 @@
+
+
+
+= PFCHK(t(n)) - Proof-Checker =
+
+The class of decision problems solvable in time O(t(n)) by a nondeterministic Turing machine, as follows.  The machine is given oracle access to a proof string of unbounded length.
+
+If the answer is "yes," then there exists a value of the proof string such that all computation paths accept.
+If the answer is "no," then for all values of the proof string, there exists a computation path that rejects.
+
+Credited in [For94] to S. Arora, R. Impagliazzo, and U. Vazirani.
+
+An interesting question is whether NP = PFCHK(log n) relative to all possible oracles.  Fortnow [For94] observes that the answer depends on what oracle access mechanism is used.

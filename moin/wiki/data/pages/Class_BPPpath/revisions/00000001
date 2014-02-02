@@ -1,0 +1,30 @@
+
+
+
+= BPP,,path,, - Threshold BPP =
+
+Same as BPP, except that now the computation paths need not all have the same length.
+
+Defined in [HHT97], where the following was also shown:
+
+BPP,,path,, contains MA and P^NP[log]^, and is contained in PP and BPP^NP^.
+BPP,,path,, is closed under complementation, intersection, and union.
+If BPP,,path,, = BPP,,path,,^BPP,,path,,^, then PH collapses to BPP,,path,,.
+If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.
+
+There exists an oracle relative to which BPP,,path,, is not contained in Σ,,2,,P [BGM02].
+
+An alternate characterization of BPP,,path,, uses the idea of post-selection. That is, BPP,,path,, is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
+
+If , .
+ If , .
+ .
+
+We say that  is the post-selector. Intuitively, this characterization allows a BPP machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion NP ⊆ BPP,,path,, nearly trivial.
+
+See Also: PostBQP (quantum analogue).
+
+BPP,,path,, contains MA and P^NP[log]^, and is contained in PP and BPP^NP^.
+BPP,,path,, is closed under complementation, intersection, and union.
+If BPP,,path,, = BPP,,path,,^BPPpath^, then PH collapses to BPP,,path,,.
+If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.

@@ -1,0 +1,13 @@
+
+
+
+= AmpMP - Amplifiable MP =
+
+The class of decision problems such that for some #P function f(x,0^m^),
+
+The answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
+The m bits of f(x) to the left and right of the middle bit are all 0.
+
+Defined in [GKR+95].
+
+Contains PH and Contained in MP.

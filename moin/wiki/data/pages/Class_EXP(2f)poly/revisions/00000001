@@ -1,0 +1,8 @@
+
+
+
+= EXP/poly - Exponential Time With Polynomial-Size Advice =
+
+The class of decision problems solvable in EXP with the help of a polynomial-length advice string that depends only on the input length.
+
+Contains BQP/qpoly [Aar04b].

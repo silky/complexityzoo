@@ -1,0 +1,24 @@
+
+
+
+= IP - Interactive Proof =
+
+The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a probabilistic polynomial-time verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:
+
+If the answer is "yes," the prover must be able to behave in such a way that the verifier accepts with probability at least 2/3 (over the choice of the verifier's random bits).
+If the answer is "no," then however the prover behaves the verifier must reject with probability at least 2/3.
+
+Defined in [GMR89], with the motivation of providing a framework for the introduction of zero-knowledge proofs (see the class ZK). Interestingly, the power of general interactive proof systems is not decreased if the verifier is only allowed random queries (i.e., it merely tosses coins and sends any outcome to the prover). The latter model, known as the Arthur-Merlin (or public-coin) model was introduced independently (but later) in [Bab85], and a strong equivalent (which preserves the number of rounds) is proved in [GS86]. 
+Often, it is required that the prover can convince the verifier to accept correct assertions with probability 1; this is called perfect completeness.
+However, the definitions with one-sided and two-sided error can be shown to be equivalent (see [FGM+89]).
+
+First demonstration to the power of interactive proofs was given by showing that for graph nonisomorphism (a problem not known in NP) has such proofs [GMW91]. Five years later is was shown that
+IP contains PH [LFK+90], and indeed (this was discovered only a few weeks later) equals PSPACE [Sha90].  On the other hand, coNP is not contained in IP relative to a random oracle [CCG+94].
+
+See also: MIP, QIP, MA, AM.
+
+The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a BPP (i.e. probabilistic polynomial-time) verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:
+
+IP contains PH [LFK+90], and indeed (this was discovered only a few days later) equals PSPACE [Sha90].  On the other hand, coNP is not contained in IP relative to a random oracle [CCG+94].
+
+See also: MIP, QIP, MA, AM.

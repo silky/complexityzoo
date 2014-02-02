@@ -1,0 +1,16 @@
+
+
+
+= mP - Monotone P =
+
+The definition of this class, due to [GS90], is not obvious.  First, a monotone nondeterministic Turing machine is one such that, whenever it can make a transition with a 0 on its input tape, it can also make that same transition with a 1 on its input tape. (This restriction does not apply to the work tape.)  A monotone alternating Turing machine is subject to the restriction that it can only reference an input bit x by, "there exists a z at most x," or "for all z at least x."
+
+Then applying the result of [CKS81] that P = AL, mP is defined to be mAL: the class of decision problems solvable by a monotone alternating log-space Turing machine.
+
+Actually there's a caveat: A monotone Turing machine or circuit can first negate the entire input, then perform a monotone computation.  That way it becomes meaningful to talk about whether a monotone complexity class is closed under complement.
+
+Strictly contained in mNP [Raz85].
+
+Deciding whether a bipartite graph has a perfect matching, despite being both a monotone problem and in P, requires monotone circuits of superpolynomial size [Raz85b].  Letting MONO be the class of monotone problems, it follows that mP is strictly contained in MONO ∩ P.
+
+See also: mNC^1^, mL, mNL, mcoNL.

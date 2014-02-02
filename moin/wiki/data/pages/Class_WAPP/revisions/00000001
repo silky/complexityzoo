@@ -1,0 +1,11 @@
+
+
+
+= WAPP - Weak Almost-Wide PP =
+
+The class of decision problems for which there exists a #P function f, a polynomial p, and an ε > 0, such that for all inputs x,
+
+If the answer is "yes" then 2^p(|x|)^ ≥ f(x) > (1+ε) 2^p(|x|)-1^.
+If the answer is "no" then 0 ≤ f(x) < (1-ε) 2^p(|x|)-1^.
+
+Defined in [BGM02], where it is also shown that WAPP is contained in AWPP and SBP.

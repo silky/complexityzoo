@@ -1,0 +1,33 @@
+
+
+
+= NP,,C,, - NP Over The Complex Numbers =
+
+The class of decision problems such that (1) they're in NP and (2) every problem in NP is reducible to them (under some notion of reduction).  In other words, the hardest problems in NP.
+
+Two notions of reduction from problem A to problem B are usually considered:
+
+Karp or many-one reductions.  Here a polynomial-time algorithm is given as input an instance of problem A, and must produce as output an instance of problem B.
+Turing reductions, in this context also called Cook reductions.  Here the algorithm for problem B can make arbitrarily many calls to an oracle for problem A.
+
+Some examples of NP-complete problems are discussed under the entry for NP.
+
+The classic reference on NPC is [GJ79].
+
+Unless P = NP, NPC does not contain any sparse problems: that is, problems such that the number of 'yes' instances of size n is upper-bounded by a polynomial in n [Mah82].
+
+A famous conjecture [BH77] asserts that all NP-complete problems are polynomial-time isomorphic -- i.e. between any two problems, there is a one-to-one and onto Karp reduction. If that's true, the NP-complete problems could be interpreted as mere "relabelings" of one another.
+
+NP-complete problems are p-superterse unless P = NP [BKS95].  This means that, given k Boolean formulas F,,1,,,...,F,,k,,, if you can rule out even one of the 2^k^ possibilities in polynomial time (e.g., "if F,,1,,,...,F,,k-1,, are all unsatisfiable then F,,k,, is satisfiable"), then P = NP.
+
+An analog of NP for Turing machines over a complex number field.
+
+Defined in [BCS+97].
+
+It is unknown whether P,,C,, = NP,,C,,, nor are implications known among this question, P,,R,, versus NP,,R,,, and P versus NP.
+
+However, [CKK+95] show that if P/poly does not equal NP/poly then P,,C,, does not equal NP,,C,,.
+
+[BCS+97] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then P,,C,, does not equal NP,,C,,.
+
+See also VNP,,k,,.

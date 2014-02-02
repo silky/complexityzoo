@@ -1,0 +1,8 @@
+
+
+
+= BPP/mlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
+
+The class of problems solvable by a syntactic BPP machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, it need not be.
+
+Contained in BPP/rlog.

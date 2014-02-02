@@ -1,0 +1,10 @@
+
+
+
+= PP^cc^ - Analogue of PP for Communication Complexity =
+
+Defined in [BFS86], PP^cc^ is one of two ways to define a communication complexity analogue of PP. In PP^cc^, we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in PP^cc^, the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.
+
+The difference between this class and UPP^cc^ is discussed further in [BVW07], where it is shown that PP^cc^ ⊂ UPP^cc^.
+
+See Also: UPP^cc^.

@@ -1,0 +1,10 @@
+
+
+
+= PBP - Polynomial-Size Branching Program =
+
+Same as k-PBP but with no width restriction.
+
+Equals L/poly [Cob66].
+
+Contains P-OBDD, BP,,d,,(P).

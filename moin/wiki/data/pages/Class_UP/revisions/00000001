@@ -1,0 +1,21 @@
+
+
+
+= UP - Unambiguous Polynomial-Time =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is 'yes,' exactly one computation path accepts.
+If the answer is 'no,' all computation paths reject.
+
+Defined by [Val76].
+
+"Worst-case" one-way functions exist if and only if P does not equal UP ([GS88] and independently [Ko85]).  "Worst-case" one-way permutations exist if and only if P does not equal UP ∩ coUP [HT03].  Note that these are weaker than the one-way functions and permutations that are needed for cryptographic applications.
+
+There exists an oracle relative to which P is strictly contained in UP is strictly contained in NP [Rac82]; indeed, these classes are distinct with probability 1 relative to a random oracle [Bei89].
+
+NP is contained in RP^PromiseUP^ [VV86].  On the other hand, [BBF98] give an oracle relative to which P = UP but still P does not equal NP.
+
+UP is not known or believed to contain complete problems.  [Sip82], [HH86] give oracles relative to which UP has no complete problems.
+
+NP is contained in RP^Promise-UP^ [VV86].  On the other hand, [BBF98] give an oracle relative to which P = UP but still P does not equal NP.

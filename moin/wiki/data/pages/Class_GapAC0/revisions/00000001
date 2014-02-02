@@ -1,0 +1,8 @@
+
+
+
+= GapAC^0^ - Gap #AC0 =
+
+The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from #AC^0^ is the ability to subtract, using the constant -1.)
+
+Equals DiffAC^0^ under logspace uniformity [ABL98].

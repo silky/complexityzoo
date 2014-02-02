@@ -1,0 +1,13 @@
+
+
+
+= EP - NP with 2k Accepting Paths =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is 'no,' then all computation paths reject.
+If the answer is 'yes,' then the number of accepting paths is a power of two.
+
+Contained in C,,=,,P, and in Mod,,k,,P for any odd k.  Contains UP.
+
+Defined in [BHR00].

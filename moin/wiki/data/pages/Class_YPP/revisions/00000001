@@ -1,0 +1,13 @@
+
+
+
+= YPP - Yaroslav BPP =
+
+The probabilistic analogue of YP; it is to YP what MA is to NP.  Formally, the class of decision problems for which there exists a syntactic BPP machine M such that:
+
+For all input sizes n, there exists a polynomial-size advice string a,,n,, such that for all inputs x of size n, M(x,a,,n,,) outputs the correct answer with probability at least 2/3.
+For all inputs x and advice strings a, the probability that M(x,a) outputs the incorrect answer is at most 1/3.  In other words, the sum of the probabilities of the correct answer and "I don't know" is at least 2/3.
+
+To amplify a YPP machine, one can run it multiple times, then accept if a majority of runs accept, reject if a majority reject, and otherwise output "I don't know."
+
+Contains BPP and YP, and is contained in MA and P/poly.

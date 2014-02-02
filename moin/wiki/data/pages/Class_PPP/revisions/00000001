@@ -1,0 +1,30 @@
+
+
+
+= P^PP^ - P With PP Oracle =
+
+Defined in [Pap94b]; see also [BCE+95].
+
+The subclass of TFNP function problems that are guaranteed to have a solution because of the Pigeonhole Principle.
+
+More precisely, we're given a Boolean circuit, that maps n-bit strings to n-bit strings.  The problem is to return either an input that maps to 0^n^, or two inputs that map to the same output.
+
+Contained in TFNP.
+
+Contains PPADS.
+
+[BCE+95] give oracles relative to which PPP is not contained in PPA and PPAD, and PPA is not contained in PPP.
+
+[Mor01] gives an oracle relative to which PPP is not contained in PLS.
+
+Whether PLS is not contained in PPP relative to some oracle remains open.
+
+A level of the counting hierarchy CH.
+
+It is not known whether there exists an oracle relative to which P^PP^ does not equal PSPACE.
+
+Contains PP^PH^ [Tod89].
+
+Equals P^#P^ (exercise for the visitor).
+
+Since the permanent of a matrix is #P-complete [Val79], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.

@@ -1,0 +1,10 @@
+
+
+
+= P^K^ - P With Kolmogorov-Complexity Oracle =
+
+P equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.
+
+A similar class was defined in [ABK+02], where it was also shown that P^K^ contains PSPACE.  It is not known whether P^K^ contains all of R, or even any recursive problem not in PSPACE.
+
+See also: BPP^KT^.

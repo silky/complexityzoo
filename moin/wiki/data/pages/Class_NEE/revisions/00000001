@@ -1,0 +1,12 @@
+
+
+
+= NEE - Nondeterministic EE =
+
+Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^^)).
+
+If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].
+
+Contained in NEEXP.
+
+Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^)).

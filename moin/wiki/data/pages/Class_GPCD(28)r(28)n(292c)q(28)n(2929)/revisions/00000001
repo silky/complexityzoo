@@ -1,0 +1,8 @@
+
+
+
+= GPCD(r(n),q(n)) - Generalized Probabilistically Checkable Debate =
+
+Same as PCD(r(n),q(n)), except that now the verifier is allowed nonadaptively to query O(q(n)) rounds of the debate, with no restriction on the number of bits it looks at within each round.
+
+Defined in [CFL+93], who also showed that PCD(log n, q(n)) = GPCD(log n, q(n)) for every q(n).

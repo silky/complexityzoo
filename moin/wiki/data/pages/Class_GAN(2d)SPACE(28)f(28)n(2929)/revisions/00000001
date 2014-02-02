@@ -1,0 +1,10 @@
+
+
+
+= GAN-SPACE(f(n)) - Games Against Nature f(n)-Space =
+
+The class of problems decidable by an O(f(n))-space Turing machine with two kinds of quantifiers: existential and randomized.
+
+Contains NSPACE(f(n)) and BPSPACE(f(n)), and is contained in AUC-SPACE(f(n)).
+
+By linear programming, GAN-SPACE(log n) is contained in P.

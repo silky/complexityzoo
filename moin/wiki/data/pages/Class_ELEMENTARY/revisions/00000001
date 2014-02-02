@@ -1,0 +1,10 @@
+
+
+
+= ELEMENTARY - Iterated Exponential Time =
+
+Equals the union of DTIME(2^n^), DTIME(2^2^n^^), DTIME(2^2^2^n^^^), and so on.
+
+Contained in PR.
+
+Equals the union of DTIME(2^n^), DTIME(2^2^n^), DTIME(2^2^2^n^), and so on.

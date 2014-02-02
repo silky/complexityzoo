@@ -1,0 +1,8 @@
+
+
+
+= QMIP,,ne,, - Quantum Multi-Prover Interactive Proofs With No Prior Entanglement =
+
+Same as QMIP, except that now the provers have no prior entanglement.
+
+Defined in [KM02], where it was also shown that QMIP,,ne,, = NEXP.  Thus, QMIP,,ne,, contains QMIP,,le,,.

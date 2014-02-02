@@ -1,0 +1,17 @@
+
+
+
+= GC(s(n),C) - Guess and Check =
+
+The class of decision problems for which a "yes" answer can be verified by
+
+guessing s(n) bits, then
+verifying the answer in complexity class C.
+
+For example, GC(p(n),P) = NP where p is a polynomial.
+
+Defined in [CC93].
+
+Umans [Uma98] has shown that given a DNF expression Φ, the Shortest Implicant problem is GC(log^2^n, coNP)-complete.
+
+Umans [Uma98] has shown that given a DNF expression Φ, the Shortest Implicant problem (is there a conjunction of at most k negated or non-negated literals that implies Φ?) is GC(log^2^n, coNP)-complete.

@@ -1,0 +1,16 @@
+
+
+
+= Δ,,2,,P - P With NP Oracle =
+
+A level of PH, the polynomial hierarchy.
+
+Contains BH.
+
+There exists an oracle relative to which Δ,,2,,P is not contained in PP [Bei94].
+
+There exists another oracle relative to which Δ,,2,,P is contained in P/poly [BGS75], and indeed has linear-size circuits [Wil85].
+
+There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ,,2,,P^B^ [KV96].
+
+If P = NP, then any polynomial-size circuit C can be learned in Δ,,2,,P with C oracle [Aar06].

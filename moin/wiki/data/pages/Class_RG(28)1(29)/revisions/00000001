@@ -1,0 +1,15 @@
+
+
+
+= RG(1) - One-turn Refereed Games =
+
+The class of problems for which there exists a BPP machine M such that, on input x:
+
+If the answer is 'yes,' then there exists a distribution Y such that for all distributions Z, M(x,Y,Z) accepts with probability at least 2/3.
+If the answer is 'no,' then there exists a distribution Z such that for all distributions Y, M(x,Y,Z) rejects with probability at least 2/3.
+
+In other words, it's the same as RG(k) for , the class of problems that admit interactive proofs with competing provers in which there's no communication from the verifier back to the provers.
+
+RG(1) trivially contains S,,2,,P.  Indeed, RG(1) can be viewed as a randomized version of S,,2,,P.
+
+RG(1) is trivially contained in RG(2) (and hence PSPACE).

@@ -1,0 +1,10 @@
+
+
+
+= (NP,P-samplable) - Average NP With Samplable Distributions =
+
+See AvgP for basic notions of average-case complexity.
+
+(NP,P-samplable) is the same as DistNP, except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
+
+Any problem complete for DistNP is also complete for (NP,P-samplable) [IL90].

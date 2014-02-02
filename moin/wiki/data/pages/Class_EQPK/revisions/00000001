@@ -1,0 +1,12 @@
+
+
+
+= EQP,,K,, - Exact Quantum Polynomial-Time with Gate Set K =
+
+The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set K, and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set K.  K may be either finite or countable and enumerated.  If S is a ring, the union of EQP,,K,, over all finite gate sets K whose amplitudes are in the ring R can be written EQP,,S,,.
+
+Defined in [ADH97] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of EQP,,K,,.
+
+[FR98] show that EQP,,Q,, is in LWPP.  The proof can be generalized to any finite, algebraic gate set K.
+
+The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's algorithm.  The discrete logarithm problem over Z/p is in EQP,,Q-bar,, using infinitely many gates [MZ03].

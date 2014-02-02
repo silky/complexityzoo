@@ -1,0 +1,22 @@
+
+
+
+= PLS - Polynomial Local Search =
+
+The subclass of TFNP function problems that are guaranteed to have a solution because of the lemma that "every finite directed acyclic graph has a sink."
+
+More precisely, for each input, there's a finite set of solutions (i.e. strings), and a polynomial-time algorithm that computes a cost for each solution, and a neighboring solution of lower cost provided that one exists.  Then the problem is to return any solution that has cost less than or equal to all of its neighbors.  (In other words, a local optimum.)
+
+(Note: In the Zookeeper's humble opinion, PLS should have been defined as follows: there exist polynomial-time algorithms that compute the cost of a solution, and the set of all neighbors of a given solution, not just a single solution of lower cost. Of course we'd require that every solution has only polynomially many neighbors.  The two definitions are not obviously equivalent, and it's conceivable that knowing all the neighbors would be helpful -- for example, in simulated annealing one sometimes makes uphill moves.)
+
+(Note to Note: The equivalance of these classes was shown (though not stated explicitly) in Theorem 1 of [JPY88].)
+
+Defined in [JPY88], [PY88].
+
+There exists an oracle relative to which PLS is not contained in FBQP [Aar03].
+
+Also, there exist oracles relative to which PLS is not contained in PPA [BM04], and PPA and PPP are not contained in PLS [Mor01].
+
+Whether PLS is not in PPP relative to some oracle remains open.
+
+[CT07] conjecture that if PPAD is in P, then PLS is in P.

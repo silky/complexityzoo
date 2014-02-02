@@ -1,0 +1,8 @@
+
+
+
+= ⊕SAC^1^ - AC1 With Unbounded Parity Gates =
+
+The class of problems solvable by a nonuniform family of polynomial-size, polylog-depth circuits with unbounded-fanin XOR and bounded-fanin AND gates.
+
+Defined in [GW96], where it was also shown that ⊕SAC^1^ contains SAC^1^.

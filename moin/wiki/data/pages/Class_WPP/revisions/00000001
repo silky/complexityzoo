@@ -1,0 +1,15 @@
+
+
+
+= WPP - Wide PP =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
+If the answer is "yes," then their difference exactly equals a function f(x) computable in polynomial time (i.e. FP).
+
+Defined in [FFK94].
+
+Contained in C,,=,,P ∩ coC,,=,,P, as well as AWPP.
+
+Contains SPP and LWPP.

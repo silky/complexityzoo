@@ -1,0 +1,8 @@
+
+
+
+= CNP - Continuous NP =
+
+A nondeterministic analog of CP.  Defined in [SF98], which should be consulted for the definition (it has something to do with strange attractors, I think).
+
+The authors raise the question of whether CP equals CNP.

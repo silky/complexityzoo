@@ -1,0 +1,8 @@
+
+
+
+= MA,,POLYLOG,, - MA With Polylog Verifier =
+
+Identical to MA except for that Arthur (the verifier) has random access to the proof string given by Merlin, and is limited to running times of order .
+
+This class was used by [SM03] to show that if EXP has circuits of polynomial size, then EXP = MA.

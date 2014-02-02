@@ -1,0 +1,8 @@
+
+
+
+= HeurBPP - Heuristic BPP =
+
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPP machine.
+
+[FS04] showed a strict hierarchy theorem for HeurBPP; thus, HeurBPP does not equal HeurBPTIME(n^c^) for any fixed c.

@@ -1,0 +1,10 @@
+
+
+
+= PromiseBQP - Promise-Problem BQP =
+
+Same as PromiseBPP, but for BQP instead of BPP.
+
+If PromiseBQP = PromiseP then BQP/mpoly = P/poly.
+
+Same as PromiseBQP, but for BQP instead of BPP.

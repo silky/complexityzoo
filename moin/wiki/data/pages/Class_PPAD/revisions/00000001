@@ -1,0 +1,17 @@
+
+
+
+= PPAD - Polynomial Parity Argument (Directed) =
+
+Defined in [Pap94b]; see also [BCE+95].
+
+Same as PPA, except now the graph is directed, and we're asked to find either a source or a sink.
+
+Contained in PPA and PPADS.
+
+NASH, the problem of finding a Nash equilibrium in a normal form game of two or more players with specified utilities, is in PPAD [Pap94b], and proved to be complete for PPAD with four players in [DGP05], and shortly after extended to the case of three players [DP05] and independently [CD05].
+
+There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].
+There exists an oracle relative to which PPAD is not contained in BQP [Li11].
+
+There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].

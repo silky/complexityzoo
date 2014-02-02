@@ -1,0 +1,8 @@
+
+
+
+= ATIME - Alternating TIME =
+
+ATIME(f(n)) is the class of problems for which there are alternating Turing machines (see AP) which decide the problem in time bounded by f(n).
+
+In particular, AP = ATIME(poly(n)).

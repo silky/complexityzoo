@@ -1,0 +1,8 @@
+
+
+
+= BPE - Bounded-Error Probabilistic E =
+
+Has the same relation to E as BPP does to P.
+
+EE = BPE if and only if EXP = BPP [IKW01].

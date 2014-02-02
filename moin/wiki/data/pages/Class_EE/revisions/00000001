@@ -1,0 +1,12 @@
+
+
+
+= EE - Double-Exponential Time With Linear Exponent =
+
+Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).
+
+EE = BPE if and only if EXP = BPP [IKW01].
+
+Contained in EEXP and NEE.
+
+Equals DTIME(2^2^O(n)^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n)^)).

@@ -1,0 +1,29 @@
+
+
+
+= P/poly - Nonuniform Polynomial-Time =
+
+The class of decision problems solvable by a family of polynomial-size Boolean circuits.  The family can be nonuniform; that is, there could be a completely different circuit for each input length.
+
+Equivalently, P/poly is the class of decision problems solvable by a polynomial-time Turing machine that receives an 'advice string,' that depends only on the size n of the input, and that itself has size upper-bounded by a polynomial in n.
+
+Contains BPP by the progenitor of derandomization arguments [Adl78] [KL82].  By extension, BPP/poly, BPP/mpoly, and BPP/rpoly all equal P/poly. (By contrast, there is an oracle relative to which BPP/log does not equal BPP/mlog, while BPP/mlog and BPP/rlog are not equal relative to any oracle.)
+
+[KL82] showed that, if P/poly contains NP, then PH collapses to the second level, Σ,,2,,P.
+
+They also showed:
+
+If PSPACE is in P/poly then PSPACE equals Σ,,2,,P ∩ Π,,2,,P.
+If EXP is in P/poly then EXP = Σ,,2,,P.
+
+It was later shown that, if NP is contained in P/poly, then PH collapses to ZPP^NP^ [KW98] and indeed S,,2,,P [Cai01]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to Δ,,2,,P [Wil85].
+
+If NP is not contained in P/poly, then P does not equal NP.  Much of the effort toward separating P from NP is based on this observation.  However, a 'natural proof' as defined by [RR97] cannot be used to show NP is outside P/poly, if there is any pseudorandom generator in P/poly that has hardness 2^Ω(n^ε)^ for some ε>0.
+
+If NP is contained in P/poly, then MA = AM [AKS+95]
+
+The monotone version of P/poly is mP/poly.
+
+P/poly has measure 0 in E with Σ,,2,,P oracle [May94b].
+
+Strictly contains IC[log,poly] and P/log.

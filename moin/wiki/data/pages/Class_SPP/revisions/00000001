@@ -1,0 +1,27 @@
+
+
+
+= SPP - Stoic PP =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
+If the answer is "yes," then these numbers differ by 2.
+
+(A technicality: If the total number of paths is even then the numbers can't differ by 1.)
+
+Defined in [FFK94], where it was also shown that SPP is low for PP, C,,=,,P, Mod,,k,,P, and SPP itself.  (I.e. adding SPP as an oracle does not increase the power of these classes.)
+
+Independently defined in [OH93], who called the class XP.
+
+Contained in LWPP, C,,=,,P, and WPP among other classes.
+
+Contains FewP; indeed, FewP is low for SPP, so that SPP^FewP^ = SPP [FFK94].
+
+Contains the problem of deciding whether a graph has any nontrivial automorphisms [KST92].
+
+Indeed, contains graph isomorphism [AK02].
+
+Contains a whole gaggle of problems for solvable black-box groups: solvability testing, membership testing, subgroup testing, normality testing, order verification, nilpotetence testing, group isomorphism, and group intersection [Vin04]
+
+[AK02] also showed that the Hidden Subgroup Problem for permutation groups, of interest in quantum computing, is in FP^SPP^.

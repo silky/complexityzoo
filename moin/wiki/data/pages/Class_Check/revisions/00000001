@@ -1,0 +1,15 @@
+
+
+
+= Check - Checkable Languages =
+
+The class of problems such that a polynomial-time program P that allegedly solves them can be checked efficiently.  That is, f is in Check if there exists a BPP algorithm C such that for all programs P and inputs x,
+
+If P(y)=f(y) for all inputs y, then C^P^(x) (C with oracle access to P) accepts with probability at least 2/3.
+If P(x) is not equal to f(x) then C^P^(x) accepts with probability at most 1/3.
+
+Introduced in [BK89], where it was also shown that Check equals frIP ∩ cofrIP.
+
+Check is contained in NEXP ∩ coNEXP [FRS88].
+
+[BG94] show that if NEE is not contained in BPEE then NP is not contained in Check.

@@ -1,1 +1,67 @@
-= NP - Non-deterministic Polynomial Time =
+
+
+
+= NP - Nondeterministic Polynomial-Time =
+
+The class of dashed hopes and idle dreams.
+
+More formally: an "NP machine" is a nondeterministic polynomial-time Turing machine.
+
+Then NP is the class of decision problems solvable by an NP machine such that
+
+If the answer is "yes," at least one computation path accepts.
+If the answer is "no," all computation paths reject.
+
+Equivalently, NP is the class of decision problems such that, if the answer is "yes," then there is a proof of this fact, of length polynomial in the size of the input, that can be verified in P (i.e. by a deterministic polynomial-time algorithm).  On the other hand, if the answer is "no," then the algorithm must declare invalid any purported proof that the answer is "yes."
+
+For example, the SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments. SAT is in NP, since a "yes" answer can be proved by just exhibiting a satisfying assignment.
+
+A decision problem is NP-complete if (1) it is in NP, and (2) any problem in NP can be reduced to it (under some notion of reduction).  The class of NP-complete problems is sometimes called NPC.
+
+That NP-complete problems exist is immediate from the definition.  The seminal result of Cook [Coo71], Karp [Kar72], and Levin [Lev73] is that many natural problems (that have nothing to do with Turing machines) are NP-complete.
+
+The first such problem to be shown NP-complete was SAT [Coo71].  Other classic NP-complete problems include:
+
+3-Colorability: Given a graph, can each vertex be colored red, green, or blue so that no two neighboring vertices have the same color?
+Hamiltonian Cycle: Given a graph, is there a cycle that visits each vertex exactly once?
+Traveling Salesperson: Given a set of n cities, and the distance
+between each pair of cities, is there a route that visits each city exactly
+once before returning to the starting city, and has length at most T?
+Maximum Clique: Given a graph, are there k vertices all of which are neighbors of each other?
+Subset Sum: Given a collection of integers, is there a subset of the integers that sums to exactly x?
+
+For many, many more NP-complete problems, see [GJ79].
+
+NP contains P.  I've discovered a marvelous proof that NP and P are unequal, but this web page is too small to contain it.  Too bad, since otherwise I'd be eligible for $1,000,000 [CMI00].
+
+There exists an oracle relative to which P and NP are unequal [BGS75].  Indeed, P and NP are unequal relative to a random oracle with probability 1 [BG81] (see [AFM01] for a novel take on this result).  Though random oracle results are not always indicative about the unrelativized case [CCG+94].
+
+There even exists an oracle relative to which the P versus NP problem is outside the usual axioms of set theory [HH76].
+
+If we restrict to monotone classes, mP is strictly contained in mNP [Raz85].
+
+Perhaps the most important insight anyone has had into P versus NP is to be found in [RR97].  There the authors show that no 'natural proof' can separate P from NP (or more precisely, place NP outside of P/poly), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate P versus NP to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [MS02] (and the survey article [Reg02]) for a development of this point of view.
+
+For more on P versus NP (circa 1992) see [Sip92].  For an opinion poll, see [Gas02].
+
+If P equals NP, then NP equals its complement coNP.  Whether NP equals coNP is also open.  NP and coNP can be extended to the polynomial hierarchy PH.
+
+The set of decision problems in NP, but not in P or NPC, is sometimes called NPI.  If P does not equal NP then NPI is nonempty [Lad75].
+
+Probabilistic generalizations of NP include MA and AM.  If NP is in coAM (or BPP) then PH collapses to Σ,,2,,P [BHZ87].
+
+PH also collapses to Σ,,2,,P if NP is in P/poly [KL82].
+
+There exist oracles relative to which NP is not in BQP [BBB+97].
+
+An alternate characterization is NP = PCP(log n, O(1)) [ALM+98].
+
+Also, [Fag74] showed that NP is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic. This leads to the subclass SNP.
+
+It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length ), then P = NP. [BH08] improved this result, showing that if any language in NP has an NP-hard set of subexponential density, then coNP is contained in NP/poly and thus, by [Yap82], PH collapses to the third level.
+
+NP is equal to SO-E, the second-order queries where the second-order quantifiers are only existantials.
+
+For example, the SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments.  SAT is in NP, since a "yes" answer can be proved by just exhibiting a satisfying assignment.
+
+Also, [Fag74] gave a logical characterization of NP, which leads to the subclass SNP.

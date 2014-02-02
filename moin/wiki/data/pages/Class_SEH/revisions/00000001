@@ -1,0 +1,15 @@
+
+
+
+= SEH - Strong Exponential Hierarchy =
+
+The union of NE, NP^NE^, NP^NP^NE^, and so on.
+
+Is called "strong" to contrast it with the ordinary Exponential Hierarchy EH.
+
+Note that we would get the same class if we replaced NE by NEXP.
+
+SEH collapses to P^NE^ [Hem89]
+
+There exists an oracle relative to which SEH is not contained in EH [Hem89].
+EH and SEH are incomparable for all anyone knows.

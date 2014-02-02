@@ -1,0 +1,6 @@
+
+
+
+= QP - Quasipolynomial-Time =
+
+Equals DTIME(2^polylog(n)^).

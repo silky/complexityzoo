@@ -1,0 +1,10 @@
+
+
+
+= CC - Comparator Circuits =
+
+A comparator gate consists of two inputs and outputs the minimum of its two inputs on its first output wire and outputs the maximum of its two inputs on its second output wire. One important restriction is that each output of a comparator gate has fanout at most one. The Comparator Circuit Value Problem (CCVP) is defined as following. Given a circuit composed of comparator gates, the inputs to the circuit, and one output of the circuit, calculate the value of this output.
+
+CC is defined as the class of problems log-space many-one reducible to CCVP [MS89]. At present it is only known that NLCCP [MS89]. CC is an example of a complexity class neither known to be in NC nor P-complete.
+
+Natural complete problems for the CC class include Stable Marriage Problem, Stable Roommate Problem, Lex-first Maximal Matching [Sub94].

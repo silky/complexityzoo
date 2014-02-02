@@ -1,0 +1,14 @@
+
+
+
+= P^NP[log]^ - P With Log NP Queries =
+
+The class of decision problems solvable by a P machine, that can make O(log n) queries to an NP oracle (where n is the length of the input).
+
+Equals P^||NP^, the class of decision problems solvable by a P machine that can make polynomially many nonadaptive queries to an NP oracle (i.e. queries that do not depend on the outcomes of previous queries) ([BH91] and [Hem89] independently).
+
+P^NP[log]^ is contained in PP [BHW89].
+
+Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for P^NP[log]^ [HHR97].
+
+Contains P^NP[k]^ for all constants k.

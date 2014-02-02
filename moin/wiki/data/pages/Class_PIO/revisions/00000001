@@ -1,0 +1,10 @@
+
+
+
+= PIO - Polynomial Input Output =
+
+The class of function problems, f:{0,1}^n^->{0,1}^m^, such that f(x) is computable in time polynomial in n and m.  Allows us to discuss whether a function is "efficiently computable" or not, even if the output is too long to write down in polynomial time.
+
+Defined in [Yan81].
+
+Strictly contains PINC.

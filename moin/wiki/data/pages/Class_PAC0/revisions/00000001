@@ -1,0 +1,10 @@
+
+
+
+= PAC^0^ - Probabilistic AC0 =
+
+The Political Action Committee for computational complexity research.
+
+The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)>0.
+
+Equals TC^0^ and C,,=,,AC^0^ under logspace uniformity [ABL98].

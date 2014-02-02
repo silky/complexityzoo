@@ -1,0 +1,6 @@
+
+
+
+= 1NAuxPDA^p^ - One-Way NAuxPDAp =
+
+Defined in [Bra77], where it was also shown that 1NAuxPDA^p^ strictly contains CFL and is strictly contained in LOGCFL. The class corresponds to the closure of CFL under one-way log-space reductions.

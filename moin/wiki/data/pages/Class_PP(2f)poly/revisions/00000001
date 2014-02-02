@@ -1,0 +1,8 @@
+
+
+
+= PP/poly - Nonuniform PP =
+
+Contains BQP/qpoly [Aar04b].
+
+If PP/poly = P/poly then PP is contained in P/poly.  Indeed this is true with any syntactically defined class in place of PP.  An implication is that any unrelativized separation of BQP/qpoly from BQP/mpoly would imply that PP does not have polynomial-size circuits.

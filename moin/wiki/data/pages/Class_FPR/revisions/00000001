@@ -1,0 +1,10 @@
+
+
+
+= FPR - Fixed-Parameter Randomized =
+
+Has the same relation to FPT as RP does to P.
+
+Defined in [AR01], where it was shown that, if the Resolution proof system is automatizable (that is, if a refutation can always be found in time polynomial in the length of the shortest refutation), then W[P] is contained in FPR.
+
+Has the same relation to FPT as R does to P.

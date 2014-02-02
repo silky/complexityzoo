@@ -1,0 +1,10 @@
+
+
+
+= P-OBDD - Polynomial-Size Ordered Binary Decision Diagram =
+
+An ordered binary decision diagram (OBDD) is a branching program (see k-PBP), with the additional constraint that if x,,i,, is queried before x,,j,, on any path, then i<j.
+
+Then P-OBDD is the class of decision problems solvable by polynomial-size OBDD's.
+
+Contained in PBP, as well as BPP-OBDD.

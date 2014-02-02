@@ -1,0 +1,8 @@
+
+
+
+= ZPE - Zero-Error Probabilistic E =
+
+Same as ZPP, but with 2^O(n)^-time instead of polynomial-time.
+
+ZPE = EE if and only if ZPP = EXP [IKW01].

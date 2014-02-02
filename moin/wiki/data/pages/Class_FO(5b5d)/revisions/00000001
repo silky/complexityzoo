@@ -1,0 +1,20 @@
+
+
+
+= FO[] - Iterated First-Order logic =
+
+Let  be a function from integers to integers.
+ abbreviates  and  abbreviates .
+
+A quantifier block is a list  where the s are quantifier free FO-formulae and each s is either  or .
+If  is a quantifier block then  is the block consisting of  iterated copies of . 
+Note that there are  quantifiers in the list, but only k variables; each variable is used  times.
+
+FO[] consists of the FO-formulae with quantifier blocks that are iterated  times.
+
+In Descriptive complexity we can see that :
+
+FO[] is equal to fo-uniform AC^i^, and in fact FO[] is fo-uniform AC of depth 
+FO[] is equal to NC
+FO[] is equal to P and FO(LFP)
+FO[] is equal to PSPACE and FO(PFP)

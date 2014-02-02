@@ -1,0 +1,26 @@
+
+
+
+= BH - Boolean Hierarchy Over NP =
+
+The smallest class that contains NP and is closed under union, intersection, and complement.
+
+The levels are defined as follows:
+
+BH,,1,, = NP.
+BH,,2i,, is the class of languages that are the intersection of a BH,,2i-1,, language with a coNP language.
+BH,,2i+1,, is the class of languages that are the union of a BH,,2i,, language with an NP language.
+
+Then BH is the union over all i of BH,,i,,.
+
+Defined in [WW85].
+
+For more detail see [CGH+88].
+
+Contained in Δ,,2,,P and indeed in P^NP[log]^.
+
+If BH collapses at any level, then PH collapses to Σ,,3,,P [Kad88].
+
+See also: DP, QH.
+
+See also: QH.

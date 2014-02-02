@@ -1,0 +1,14 @@
+
+
+
+= US - Unique Polynomial-Time =
+
+The all-American counting class.
+
+The class of decision problems solvable by an NP machine such that the answer is 'yes' if and only if exactly one computation path accepts.
+
+In contrast to UP, a machine can legally have more than one accepting path - that just means that the corresponding input is not in the language.
+
+Defined in [BG82].
+
+Contains coNP.

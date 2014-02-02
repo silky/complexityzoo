@@ -1,0 +1,16 @@
+
+
+
+= SBP - Small Bounded-Error Probability =
+
+The class of decision problems for which the following holds.  There exists a #P function f and an FP function g such that, for all inputs x,
+
+If the answer is "yes" then f(x) > g(x).
+If the answer is "no" then f(x) < g(x)/2.
+
+Defined in [BGM02], where the following was also shown:
+
+SBP contains MA, WAPP, and ∃BPP.
+SBP is contained in AM and BPP,,path,,.
+There exists an oracle relative to which SBP is not contained in Σ,,2,,P.
+SBP is closed under union.

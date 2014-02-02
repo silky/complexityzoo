@@ -1,0 +1,8 @@
+
+
+
+= AL - Alternating L =
+
+Same as AP, but for logarithmic-space instead of polynomial-time.
+
+AL = P [CKS81].

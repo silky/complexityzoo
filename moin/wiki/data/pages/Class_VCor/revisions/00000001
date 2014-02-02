@@ -1,0 +1,10 @@
+
+
+
+= VC,,or,, - Verification Class With OR =
+
+The class of languages that have verification presentable as the OR of m instances of SAT, each of size n. (m is the witness length of an instance and n is the instance length.)
+
+Introduced in [HN06].
+
+See also VC,,k,,.

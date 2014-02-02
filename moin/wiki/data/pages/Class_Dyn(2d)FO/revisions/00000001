@@ -1,0 +1,12 @@
+
+
+
+= Dyn-FO - Dynamic FO =
+
+The class of dynamic problems solvable using first-order predicates.
+
+Basically what this means is that an algorithm maintains some polynomial-size data structure (say a graph), and receives a sequence of updates (add this edge, delete that one, etc.).  For each update, it computes a new value for the data structure in FO -- that is, for each bit of the data structure, there is an FO function representing the new value of that bit, which takes as input both the update and the previous value of the data structure.  At the end the algorithm needs to answer some question (i.e. is the graph connected?).
+
+See [HI02] for more information, and a complete problem for Dyn-FO.
+
+See also Dyn-ThC^0^.

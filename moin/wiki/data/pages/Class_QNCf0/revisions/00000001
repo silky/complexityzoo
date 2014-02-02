@@ -1,0 +1,10 @@
+
+
+
+= QNC,,f,,^0^ - Quantum NC0 With Unbounded Fanout =
+
+Constant-depth quantum circuits with unbounded-fanout gates.
+
+Defined in [Spa02].
+
+Contains QNC^0^, and is contained in QACC^0^.

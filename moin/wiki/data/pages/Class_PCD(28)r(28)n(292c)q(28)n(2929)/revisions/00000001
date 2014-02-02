@@ -1,0 +1,12 @@
+
+
+
+= PCD(r(n),q(n)) - Probabilistically Checkable Debate =
+
+The class of decision problems decidable by a probabilistically checkable debate system, as follows.
+
+Two debaters B and C alternate writing strings on a "debate tape," with B arguing that the answer is "yes" and C arguing the answer is "no."  Then a polynomial-time verifier flips O(r(n)) random coins and makes O(q(n)) nonadaptive queries to the debate tape (meaning that they depend only on the input and the random coins, not the results of previous queries).  The verifier then outputs an answer, which should be correct with high probability.
+
+Defined in [CFL+93], who also showed that PCD(log n, 1) = PSPACE.  This result was used to show that certain problems are PSPACE-hard even to approximate.
+
+Contained in GPCD(r(n),q(n)).

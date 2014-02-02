@@ -1,0 +1,13 @@
+
+
+
+= CL#P - Cluster Sharp-P =
+
+The class of #P function problems such that some underlying NP machine  witnessing membership in #P has
+"clustered" accepting paths. That is:
+
+There exists a polynomial  such that each computation path of  on each input  is exactly  bits long.
+There is a length-respecting total order  having polynomial-time computable adjacency checks on the computation paths of .
+The accepting paths of  on any input  are contiguous with respect to .
+
+Defined in [HHK+05].

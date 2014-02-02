@@ -1,0 +1,12 @@
+
+
+
+= PTAS - Polynomial-Time Approximation Scheme =
+
+The subclass of NPO problems that admit an approximation scheme in the following sense.  For any ε>0, there is a polynomial-time algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  (However, the exponent of the polynomial might depend strongly on ε.)
+
+Contains FPTAS, and is contained in APX.
+
+As an example, the Traveling Salesman Problem in the Euclidean plane is in PTAS [Aro96].
+
+Defined in [ACG+99].

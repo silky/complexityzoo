@@ -1,0 +1,12 @@
+
+
+
+= NTIME(f(n)) - Nondeterministic f(n)-Time =
+
+Same as NP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
+
+The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible and f(n+1)=o(g), then NTIME(f(n)) does not equal NTIME(g(n)) [SFM78] (this is actually stronger than the hierarchy theorem for DTIME).
+
+NTIME(n) strictly contains DTIME(n) [PPS+83] (this result does not work for arbitrary f(n)).
+
+For any constructible superpolynomial f, NTIME(f(n)) with NP oracle is not in P/poly [Kan82].

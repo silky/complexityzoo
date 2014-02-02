@@ -1,0 +1,9 @@
+
+
+
+= SO[LFP] - Second-Order logic with least fixed point =
+
+SO[LFP] is to SO what FO[LFP] is to FO. The LFP operator can now also take second-order variable as argument.
+
+In Descriptive complexity we can see that 
+SO[LFP] is  equal to EXPTIME.

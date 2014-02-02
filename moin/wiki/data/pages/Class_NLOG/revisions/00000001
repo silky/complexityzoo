@@ -1,0 +1,10 @@
+
+
+
+= NLOG - NL With Nondeterministic Oracle Tape =
+
+Same as NL -- but if there's an oracle, then NLOG can make queries nondeterministically on a polynomial-size, one-way oracle tape.  (NL, by contrast, can use nondeterministic transitions only on the worktape; oracle queries have to be deterministic.)
+
+See [LL76] or [HCK+88] for more information.
+
+Although NLOG is contained in P, there exists an oracle relative to which that is not the case.  This illustrates that care is needed when defining oracle access mechanisms.

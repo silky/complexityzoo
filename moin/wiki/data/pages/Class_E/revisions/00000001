@@ -1,0 +1,20 @@
+
+
+
+= E - Exponential Time With Linear Exponent =
+
+Equals DTIME(2^O(n)^).
+
+Does not equal NP [Boo72] or PSPACE [Boo74] relative to any oracle.  However, there is an oracle relative to which E is contained in NP (see ZPP), and an oracle relative to PSPACE is contained in E (by equating the former with P).
+
+There exists a problem that is complete for E under polynomial-time Turing reductions but not polynomial-time truth-table reductions [Wat87].
+
+Problems hard for BPP under Turing reductions have measure 1 in E [AS94].
+
+It follows that, if the problems complete for E under Turing reductions do not have measure 1 in E, then BPP does not equal EXP.
+
+[IT89] gave an oracle relative to which E = NE but still there is an exponential-time binary predicate whose corresponding search problem is not in E.
+
+[BF03] gave a proof that if E = NE, then no sparse set is collapsing, where they defined a set  to be collapsing if  and if for all  such that  and  are Turing reducible to each other,  and  are many-to-one reducible to each other.
+
+Contrast with EXP.

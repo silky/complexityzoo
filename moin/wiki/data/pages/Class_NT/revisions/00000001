@@ -1,0 +1,8 @@
+
+
+
+= NT - Near-Testable =
+
+The class of decision problems such that whether the answer on input x agrees with the answer on input x-1 (that is, the lexicographic predecessor of x) is solvable in polynomial time.  The Turing machine has to decide agreement or disagreement without access to the answer for x-1.
+
+Is contained in E, NT*, and ⊕P.  Defined in [GHJ+91] to study ⊕P-complete problems.  They show  that P, NT, NT*, and ⊕P are either all equal or strictly nested.  In particular, they differ with probability 1 relative to a random oracle.

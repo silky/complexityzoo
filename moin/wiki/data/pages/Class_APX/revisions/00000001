@@ -1,0 +1,12 @@
+
+
+
+= APX - Approximable =
+
+The subclass of NPO problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)
+
+Contains PTAS.
+
+Equals the closure of MaxSNP and of MaxNP under PTAS reduction [KMS+99], [CT94].
+
+Defined in [ACG+99].

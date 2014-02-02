@@ -1,0 +1,10 @@
+
+
+
+= FO(DTC) - First-order with deterministic transitive closure =
+
+FO(DTC) is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC(), we know that for all , there exist at most one  such that phi(u,v).
+
+We can suppose that DTC() is syntactic sugar for TC() where .
+
+It was shown in [Imm99] page 144 that this class is equal to L.

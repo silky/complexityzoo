@@ -1,0 +1,10 @@
+
+
+
+= EESPACE - Double-Exponential Space With Linear Exponent =
+
+Equals DSPACE(2^2^O(n)^^).
+
+Is not contained in BQP/qpoly [NY03].
+
+Equals DSPACE(2^2^O(n)^).

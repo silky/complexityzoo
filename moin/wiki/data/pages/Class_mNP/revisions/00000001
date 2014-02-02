@@ -1,0 +1,10 @@
+
+
+
+= mNP - Monotone NP =
+
+The class of decision problems for which a 'yes' answer can be verified in mP (that is, monotone polynomial-time).  The monotonicity requirement applies only to the input bits, not to the bits that are guessed nondeterministically. So, in the corresponding circuit, one can have NOT gates so long as they depend only on the nondeterministic guess bits.
+
+Defined in [GS90], where it was also shown that mNP is 'trivial': that is, it contains exactly the monotone problems in NP.
+
+Strictly contains mP [Raz85].

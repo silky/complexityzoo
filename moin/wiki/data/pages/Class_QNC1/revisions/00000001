@@ -1,0 +1,10 @@
+
+
+
+= QNC^1^ - Quantum NC1 =
+
+Same as QNC^1^, but for the exact rather than bounded-error case.
+
+In contrast to NC^1^, it is not clear how to simulate QNC^1^ on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [ASV00].
+
+See also [MN02].

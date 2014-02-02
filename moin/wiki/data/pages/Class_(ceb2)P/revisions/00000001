@@ -1,0 +1,14 @@
+
+
+
+= βP - Limited-Nondeterminism NP =
+
+β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as NP.  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'
+
+Then βP is the union of β,,k,,P over all constant k.
+
+Defined in [KF84].  See also the survey [GLM96].
+
+There exist oracles relative to which basically any consistent inclusion structure among the β,,k,,P's can be realized [BG98].
+
+β,,2,,P contains LOGNP and LOGSNP.

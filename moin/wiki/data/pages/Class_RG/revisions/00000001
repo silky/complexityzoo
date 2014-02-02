@@ -1,0 +1,12 @@
+
+
+
+= RG - Refereed Games =
+
+The class of problems solvable by a probabilistic polynomial-time verifier who can exchange a polynomial number of messages with two competing, computationally-unbounded provers -- one trying to convince the verifier that the answer is "yes," the other that the answer is "no."  Note that the verifier can hide information from the provers.  Public-coin RG amounts to SAPTIME, which equals PSPACE [Pap83].
+
+RG is in EXP relative to any oracle [KM92]; they are equal, unrelativized [FK97b].
+
+See also PCD, GPCD.
+
+Contains RG[1], and is contained in QRG.

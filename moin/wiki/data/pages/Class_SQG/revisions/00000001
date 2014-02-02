@@ -1,0 +1,22 @@
+
+
+
+= SQG - Short Quantum Games =
+
+Same as QRG(2), except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.
+
+Defined in [GW05], where it was also shown that SQG contains QIP.
+
+SQG is contained in EXP [Gut05].
+
+SQG is trivially contained in QRG(4) (and hence EXP).
+
+SQG trivially contains QRG(2) (and hence PSPACE).
+
+SQG is contained in PSPACE [GW10].  Hence SQG = QRG(2) = RG(2) = PSPACE and the addition of quantum information, combined with the ability of the verifier to process the one prover's answer before preparing the other prover's question, has no effect on the complexity of two-turn (one-round) zero-sum games.
+
+Same as QRG, except that now the verifier can exchange only a single round of quantum messages with the two provers.  The verifier may process the yes-prover's response before sending a message to the no-prover (compare with RG[1], wherein the verifier's messages must be sent to the provers in parallel).
+
+SQG is contained in EXP [Gut05], as well as in QRG.
+
+SQG trivially contains QS,,2,,P.

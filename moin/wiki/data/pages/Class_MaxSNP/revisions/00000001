@@ -1,0 +1,13 @@
+
+
+
+= MaxSNP - Maximization SNP =
+
+The class of optimization problems reducible by an "L-reduction" to a problem in MaxSNP,,0,,.  (Note: 'L' stands for linear -- this is not the same as an L reduction!  For more details see [PY88].)
+
+Defined in [PY88], where the following was also shown:
+
+Max3SAT is MaxSNP-complete.  (Max3SAT is the problem of finding an assignment that maximizes the number of satisfied clauses in a CNF formula with at most 3 literals per clause.)
+Any problem in MaxSNP can be approximated to within a fixed ratio.
+
+The closure of MaxSNP under PTAS reduction is APX [KMS+99], [CT94].

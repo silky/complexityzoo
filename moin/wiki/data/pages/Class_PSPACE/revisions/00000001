@@ -1,0 +1,22 @@
+
+
+
+= PSPACE - Polynomial-Space =
+
+The class of decision problems solvable by a Turing machine in polynomial space.
+
+Equals NPSPACE [Sav70], AP [CKS81], IP [Sha90], and, assuming the existence of one-way functions, CZK [BGG+90].
+
+Contains P with #P oracle.
+
+A canonical PSPACE-complete problem is QBF.
+
+Relative to a random oracle, PSPACE strictly contains PH with probability 1 [Cai86].
+
+PSPACE has a complete problem that is both downward self-reducible and random self-reducible [TV02].  It is the largest class with such a complete problem.
+
+Contained in EXP.  There exists an oracle relative to which this containment is proper [Dek76].
+
+In descriptive complexity, PSPACE can be defined with 4 differents kind of formulae, FO() which is also FO(PFP) and SO() which is also SO(TC).
+
+A canonical PSPACE-complete problem is Quantified Boolean Formula (QBF): Given a Boolean formula with universal and existential quantifiers, decide whether it's true or false.

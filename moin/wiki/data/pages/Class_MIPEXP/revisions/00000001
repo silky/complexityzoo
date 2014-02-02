@@ -1,0 +1,10 @@
+
+
+
+= MIP,,EXP,, - Exponential-Time Multi-Prover Interactive Proof =
+
+The exponential-time analogue of MIP.
+
+In the unrelativized world, equals NEEXP.
+
+There exists an oracle relative to which MIP,,EXP,, equals the intersection of P/poly, P^NP^, and ⊕P [BFT98].

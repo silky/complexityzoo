@@ -1,0 +1,8 @@
+
+
+
+= PL,,1,, - Polynomially-Bounded L1 Spectral Norm =
+
+The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the sum of absolute values of Fourier coefficients of f is bounded by a polynomial in n.
+
+Defined in [BS90], where it was also shown that PL,,1,, is contained in PT,,1,, (and this inclusion is strict).

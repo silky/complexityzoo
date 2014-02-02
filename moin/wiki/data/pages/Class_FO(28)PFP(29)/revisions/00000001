@@ -1,0 +1,14 @@
+
+
+
+= FO(PFP) - First-order with partial fixed point =
+
+FO(pfp) is the set of boolean queries definable with first-order formulae with a partial fixed point operator.
+
+Let  be an integer,   vectors of  variables,  a second-order variable of arity , and  a FO(PFP) function using  and  as variables, then we can define iteratively  such that  and  which means that the property  is true on the input  if  is true on input , and when the variable  is replaced by . Then, either there is a fixed point, or the list of  is looping.
+
+PFP( is defined as the value of the fixed point of  on y if there is a fixed point, else as false.
+
+Since s are property of arity , there is at most  values for the s, so with a poly-space counter we can check if there is a loop or not.
+
+It was proved in [Imm98] that FO(pfp) is equal to PSPACE.

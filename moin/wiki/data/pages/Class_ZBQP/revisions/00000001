@@ -1,0 +1,12 @@
+
+
+
+= ZBQP - Strict Quantum ZPP =
+
+Defined as RBQP ∩ coRBQP.  Equivalently, the class of problems in NP ∩ coNP such that both positive and negative witnesses are in FBQP.
+
+For example, the language of square-free numbers is in ZBQP, because factoring is in FBQP and a factorization can be certified in ZPP (indeed in P, by [AKS02]).
+
+Unlike EQP or ZQP, ZBQP would generalize ZPP in practice if quantum computers existed, in the sense that it provides proven answers.
+
+Contains ZPP and is contained in RBQP and ZQP.  Also, ZBQP^ZBQP^ = ZBQP.  Defined here to clarify EQP and ZQP.

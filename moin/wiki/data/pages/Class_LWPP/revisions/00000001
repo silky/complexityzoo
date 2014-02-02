@@ -1,0 +1,21 @@
+
+
+
+= LWPP - Length-Dependent Wide PP =
+
+The class of decision problems solvable by an NP machine such that
+
+If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
+If the answer is "yes," then the difference of these numbers equals a function f(|x|) computable in polynomial time (i.e. FP).  Here |x| is the length of the input x, and ``polynomial time means polynomial in |x|, the length of x, rather than the length of |x|.
+
+Defined in [FFK94], where it was also shown that LWPP is low for PP and C,,=,,P.  (I.e. adding LWPP as an oracle does not increase the power of these classes.)
+
+Contained in WPP and AWPP.
+
+Contains SPP.
+
+Also, contains the graph isomorphism problem [KST92].
+
+Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04].
+
+Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04]

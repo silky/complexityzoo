@@ -1,0 +1,8 @@
+
+
+
+= QPSPACE - Quasipolynomial-Space =
+
+Equals DSPACE(2^polylog(n)^).
+
+According to [BG94], Beigel and Feigenbaum and (independently) Krawczyk showed that QPSPACE is not contained in Check.

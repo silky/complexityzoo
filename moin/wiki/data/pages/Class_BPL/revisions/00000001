@@ -1,0 +1,8 @@
+
+
+
+= BPL - Bounded-Error Probabilistic L =
+
+Has the same relation to L as BPP does to P.  The Turing machine has to halt with probability 1 on every input.
+
+Contained in SC [Nis92] and in PL.

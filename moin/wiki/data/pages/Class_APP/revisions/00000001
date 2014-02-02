@@ -1,0 +1,18 @@
+
+
+
+= APP - Amplified PP =
+
+Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist GapP functions f and g such that for all inputs x with n=|x|,
+
+If the answer is "yes" then 1 > f(x)/g(1^n^) > 1-2^-p(n)^.
+If the answer is "no" then 0 < f(x)/g(1^n^) < 2^-p(n)^.
+
+Defined in [Li93], where the following was also shown:
+
+APP is contained in PP, and indeed is low for PP.
+APP is closed under intersection, union, and complement.
+
+APP contains AWPP [Fen02].
+
+The abbreviation APP is also used for Approximable in Probabilistic Polynomial Time, see AxPP.

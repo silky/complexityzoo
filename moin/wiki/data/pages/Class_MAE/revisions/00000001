@@ -1,0 +1,8 @@
+
+
+
+= MA,,E,, - Exponential-Time MA With Linear Exponent =
+
+Same as MA, except now Arthur is E instead of polynomial-time.
+
+If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].

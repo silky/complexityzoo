@@ -1,0 +1,12 @@
+
+
+
+= XOR-MIP*[2,1] - MIP*[2,1] With 1-Bit Proofs =
+
+Same as MIP*[2,1], but with the further restriction that both provers send only a single bit to the verifier, and the verifier's output is a function of the exclusive-OR of those bits.  There should exist 0<a<b<1 such that if the answer is "yes", then for some responses of the provers the verifier accepts with probability at least b, while if the answer is "no", then for all responses of the provers the verifier accepts with probability at most a.
+
+Defined by [CHT+04], whose motivation was a connection to the Bell and CHSH inequalities of quantum physics.
+
+XOR-MIP*[2,1] is contained in NEXP [CHT+04].
+
+XOR-MIP*[2,1] is contained in QIP[2] [Weh06]
