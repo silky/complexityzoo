@@ -1,0 +1,4 @@
+#acl AdminGroup:read,write,revert,admin All:read
+#format wiki
+Members of this group will get admin rights. If you think you should be in this group, contact one of its members to add you.
+ * noon
