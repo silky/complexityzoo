@@ -1,0 +1,18 @@
+= P - Polynomial Time =
+
+The class that started it all.
+
+tags: P
+
+{ { {
+#!section
+#class meta
+#acl BadGuy: EditorsGroup:read,write,revert All:
+#Author Plony Almony
+#Description How to use section in wiki page
+#Status in progress
+#Type idea
+#Topic development
+#Topic plugins
+#Release 1.3
+} } }

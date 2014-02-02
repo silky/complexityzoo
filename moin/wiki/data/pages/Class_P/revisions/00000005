@@ -1,0 +1,11 @@
+= P - Polynomial Time =
+
+The class that started it all.
+
+tags: P
+
+        {{{#!meta
+        category: MoinMoin Extensions; software
+        author: Charlie DeTar
+        status: beta
+        }}}

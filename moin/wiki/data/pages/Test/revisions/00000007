@@ -1,0 +1,27 @@
+= Test =
+
+
+<<NewClass()>>
+
+
+
+{{{#!class_relations
+{ "version": 1.0, "class": "P",
+    "relations": {
+        "contained_in": [
+            {"class": "NP" },
+            {"class": "EXP" },
+            {"class": "K", "condition": "Exponential time hypothesis", "ref": "Fake09"}
+        ],
+ 
+ 
+        "equals": [
+            {"class": "K"},
+            {"class": "J", "condition": "P=NP"},
+        ],
+ 
+ 
+        "contains": []
+    }
+}
+}}}

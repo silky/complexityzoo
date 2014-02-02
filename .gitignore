@@ -1,6 +1,5 @@
 moin/wiki/underlay/pages/*
 
-moin/wiki/data/pages/*
 moin/wiki/data/cache/*
 moin/wiki/data/user/*
 moin/wiki/data/*-log
