@@ -76,8 +76,12 @@ def getRelationsAsDict (pages):
 
 
 def getRelationsAsNxGraph (pages):
-    data = getRelationsAsDict()
-    graph = nx.Graph()
+    data  = getRelationsAsDict(pages)
+    graph = nx.DiGraph()
+
+    for (key, val) in data.iteritems():
+        for c in val["relations"]["contained_in"]:
+            graph.add_edge(key, c["class"])
     return graph
 #
 
