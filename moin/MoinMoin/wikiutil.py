@@ -51,14 +51,20 @@ CHILD_PREFIX_LEN = len(CHILD_PREFIX)
 def classFilter (name):
     """ Matches Complexity Class pages. """
     return (re.match("^Class", name) != None)
+#
+
+
+def getPageSection (section_name, page_data):
+    matches = re.search(r"{{{#!%s(.*?)}}}" % section_name, page_data, flags=re.DOTALL) 
+    if not matches:
+        return ""
+
+    return matches.group(1)
+#
 
 
 def getClassRelationJsonFromPage (page_data):
-    matches = re.search(r"{{{#!class_relations(.*)}}}", page_data, flags=re.DOTALL) 
-    if not matches:
-        return None
-
-    return matches.group(1)
+    return getPageSection("class_relations", page_data)
 #
 
 

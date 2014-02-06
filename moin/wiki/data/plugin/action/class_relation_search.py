@@ -13,7 +13,7 @@ from parsedatetime.parsedatetime import Calendar
 CSS = '''
 path.link {
   fill: none;
-  stroke: #666;
+  stroke: #eaeaea;
   stroke-width: 1.5px;
 }
 
@@ -25,8 +25,15 @@ circle {
 
 text {
   fill: #000;
-  font: 10px sans-serif;
+  font: bold 12px sans-serif;
   pointer-events: none;
+}
+
+div.info { 
+    display: none;
+    width: 230px;
+    float: left;
+    color: black;
 }
 '''
 
@@ -39,7 +46,7 @@ text {
 #
 
 JS = '''
-var WIDTH = 800, HEIGHT = 500;
+var WIDTH = 600, HEIGHT = 500;
 
 var lastInfoBox = null;
 
@@ -47,10 +54,10 @@ var drawD3Document = function(links) {
     var nodes = {};
     links.forEach(function(link) {
         link.source = nodes[link.source] || (nodes[link.source] = {
-            label: link.label
+            label: link.source
         });
         link.target = nodes[link.target] || (nodes[link.target] = {
-            label: link.label
+            label: link.target
         });
         link.value = +link.value;
     });
@@ -113,7 +120,7 @@ var drawD3Document = function(links) {
         var label = d3.select(this).attr("label");
 
         if (d3.select(lastInfoBox) != null)  {
-            d3.select("#info" + label).style("display", "none");    
+            d3.select(lastInfoBox).style("display", "none");    
         }
         d3.select("#info" + label).style("display", "block");
         lastInfoBox = "#info" + label;
@@ -147,7 +154,7 @@ def json_for_d3 (graph):
     lst = []
 
     for (c1, c2) in graph.edges():
-        lst.append( {"source": c1, "target": c2, "value": c1} )
+        lst.append( {"source": c2, "target": c1, "label": c2} )
     return json.dumps(lst)
 #
 
@@ -162,24 +169,61 @@ def execute (pagename, request, fieldname='class_names'):
     pages  = [ Page(request, "Class_%s" % c.strip(' ')) for c in class_names ]
     pages  = [ p for p in pages if p.exists() ]
     graph  = wikiutil.getRelationsAsNxGraph(pages)
+
+    uniqueClasses = list(set(graph.nodes()))
+    allPages      = [ Page(request, "Class_%s" % uc) for uc in uniqueClasses ]
+
     d3list = json_for_d3(graph)
 
+    info_divs = ""
+
+    def pname (x):
+        return x[len("Class_"):]
+
+    for p in allPages:
+        info_divs += '''<div class="info" id="info%(page_name)s">
+    <h4>
+        <a href='Class_%(page_name)s'>%(page_name)s</a>
+    </h4>
+    <hr />
+    <b>Description</b>
+    <p>
+        %(desc)s
+    </p>
+
+    <b>Complete Problem</b>
+    <p>
+        %(prob)s
+    </p>
+
+</div>''' % {
+        "page_name": pname(p.page_name),
+        "desc":      wikiutil.getPageSection("description",      p.get_data()),
+        "prob":      wikiutil.getPageSection("complete_problem", p.get_data()),
+        }
+
+    js_data = "DATA = %s;" % d3list
+    html    = '''<h1>Inclusion graph</h1>
+<small>Notation: An arrow from A to B means A <em>contains</em> B.</small>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 
-    info_difs = ""
-
-
-    html = '''
 <style type='text/css'>%(css)s</style>
+<script type="text/javascript">
+    %(js_data)s
+
+    %(js)s
+</script>
+
+<br style='clear: both' />
+<div id="canvas" width="600" height="800" background="white" style='float: left'></div>
 
 %(divs)s
 
-<script type="text/javascript">
-    %(js)s
-</script>
-    ''' % { 'css': CSS, 'js': JS,
-        'divs': info_divs
-    }
+<script>
+    drawD3Document(DATA);
+</script>''' % { 'css': CSS, 'js': JS, 'divs': info_divs, 'js_data': js_data }
 
     # Then we 
 
@@ -187,7 +231,7 @@ def execute (pagename, request, fieldname='class_names'):
     # Alright, 
     #
 
-    outputResults(request, pagename, "%s" % len(pages), needle)
+    outputResults(request, pagename, html, needle)
 #
 
 

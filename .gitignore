@@ -1,7 +1,3 @@
-moin/wiki/underlay/pages/*
-
-moin/wiki/data/cache/*
-moin/wiki/data/user/*
 moin/wiki/data/*-log
 
 wikiconfig_local.py
