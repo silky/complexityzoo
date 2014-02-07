@@ -38,7 +38,7 @@ class LocalConfig(DefaultConfig):
     # Werkzeug run_simple arguments below here:
 
     # use '' for all interfaces or "1.2.3.4" for some specific IP
-    hostname = 'localhost'
+    hostname = ''
     # if you use port < 1024, you need to start as root
     port = int(os.environ.get("PORT", 8080))
 

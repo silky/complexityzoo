@@ -1,4 +1,3 @@
 moin/wiki/data/*-log
-wikiconfig_local.py
 venv
 *.pyc
