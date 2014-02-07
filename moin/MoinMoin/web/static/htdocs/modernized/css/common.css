@@ -557,3 +557,7 @@ TD.tip {
 
 /* admonition end */
 
+div.description, div.complete_problem {
+    background: #eaeaea;
+    padding: 5px;
+}
