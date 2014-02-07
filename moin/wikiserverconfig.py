@@ -40,7 +40,7 @@ class LocalConfig(DefaultConfig):
     # use '' for all interfaces or "1.2.3.4" for some specific IP
     hostname = 'localhost'
     # if you use port < 1024, you need to start as root
-    port = os.environ.get("PORT", 8080)
+    port = int(os.environ.get("PORT", 8080))
 
     # either multi-thread or multi-process (not both):
     # threaded = True, processes = 1 is usually what you want
