@@ -46,6 +46,7 @@ class Parser:
             me   = self.request.page.page_name[len("Class_"):]
 
             contains = []
+
             for (k, v) in data.iteritems():
                 if me == k: 
                     continue
@@ -53,8 +54,9 @@ class Parser:
                 if "contained_in" in v["relations"] and \
                     me in [ d["class"] for d in v["relations"]["contained_in"] ]:
                     contains.append( {"class": k })
-
             str_contains = classesToLinks(contains)
+
+            all_classes = [ c["class"] for c in (_in + contains) ]
 
             output = """
             <table class='inclusions'>
@@ -62,10 +64,16 @@ class Parser:
                 <tr><th>Equals</th><td>%s</td></tr>
                 <tr><th>Contains</th><td>%s</td></tr>
             </table>
-""" % (str_in, str_eq, str_contains)
+
+            <p>
+                <a href='ViewClassRelations?action=class_relation_search&class_names=%s'>View as graph.</a>
+            </p>
+            """ % (str_in, str_eq, str_contains, ','.join(all_classes))
+
         except Exception as e:
-            # import pdb
             print(e)
+            import traceback
+            traceback.print_exc()
             output = "<b>Error processing inclusions.</b>"
 
         self.out.write(formatter.rawHTML(output))

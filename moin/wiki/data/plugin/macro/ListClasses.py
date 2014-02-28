@@ -16,7 +16,10 @@ def macro_ListClasses (macro):
         return (re.match("^Class", name) != None)
 
     pages = macro.request.rootpage.getPageList(filter=classFilter,
-            return_objects=False)
+            return_objects=True)
+
+    # import pdb
+    # pdb.set_trace()
     
     def islatin (char):
         return not(not(re.match("[a-zA-Z]", char)))
@@ -27,7 +30,8 @@ def macro_ListClasses (macro):
 
         return char.upper()
 
-    def sorty (thing):
+    def sorty (blob):
+        (thing, _) = blob
         if not thing:
             return -1
 
@@ -41,14 +45,24 @@ def macro_ListClasses (macro):
 
         return m.group(1)
 
-    names = sorted( [ page_name[len("Class_"):] for page_name in pages ],
-            key=sorty)
+    def getTitle (content):
+        reg = u"= (.*) ="
+        srch = re.search(reg, content)
+        if srch:
+            bit = srch.group(0).split(' - ')
+            if len(bit) != 2:
+                # Probably a wrong thing.
+                return ""
+            else:
+                return bit[1].strip(' =')
+
+    tuples = [ (p.page_name[len("Class_"):], getTitle(p.getPageText())) for p in pages ]
+    info   = sorted(tuples, key=sorty)
 
     last = None
     output = ""
-    for name in names:
+    for (name, title) in info:
         if len(name) == 0:
-            print("ARCH NAME IS 0")
             continue
 
         tok = token(name[0])
@@ -60,8 +74,9 @@ def macro_ListClasses (macro):
             output += "<ul class='classes-list'>"
         last = tok
 
-        output += "<li><a href='Class_%(url_name)s'>%(name)s</a></li>" % {"name": name,
-                "url_name": urllib.quote(name.encode("utf-8")) } 
+        output += "<li><a href='Class_%(url_name)s'>%(name)s</a> - %(title)s</li>" % {"name": name,
+                "url_name": urllib.quote(name.encode("utf-8")),
+                "title": title } 
     output += "</ul>"
 
     return output
