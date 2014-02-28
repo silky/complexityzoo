@@ -9,11 +9,22 @@
 
 The all-American counting class.
 
-The class of decision problems solvable by an NP machine such that the answer is 'yes' if and only if exactly one computation path accepts.
 
-In contrast to UP, a machine can legally have more than one accepting path - that just means that the corresponding input is not in the language.
 
-Defined in [BG82].
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that the answer is 'yes' if and only if exactly one computation path accepts.
 
-Contains coNP.
+
+
+In contrast to [[Class_UP|$\text{UP}$]], a machine can legally have more than one accepting path - that just means that the corresponding input is not in the language.
+
+
+
+Defined in [[ZooRefs#BG82|[BG82] ]].
+
+
+
+Contains [[Class_coNP|$\text{coNP}$]].
 == Relations ==
+
+
+== See Also ==

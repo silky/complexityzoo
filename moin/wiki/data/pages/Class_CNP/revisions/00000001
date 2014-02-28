@@ -7,7 +7,12 @@
 
 == Comments ==
 
-A nondeterministic analog of CP.  Defined in [SF98], which should be consulted for the definition (it has something to do with strange attractors, I think).
+A nondeterministic analog of [[Class_CP|$\text{CP}$]].  Defined in [[ZooRefs#SF98|[SF98] ]], which should be consulted for the definition (it has something to do with strange attractors, I think).
 
-The authors raise the question of whether CP equals CNP.
+
+
+The authors raise the question of whether [[Class_CP|$\text{CP}$]] equals [[Class_CNP|$\text{CNP}$]].
 == Relations ==
+
+
+== See Also ==

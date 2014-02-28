@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to L as RP does to P.  The randomized machine must halt for every input and every setting of the random tape.
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_RP|$\text{RP}$]] does to [[Class_P|$\text{P}$]].  The randomized machine must halt for every input and every setting of the random tape.
 
-Contains undirected reachability (is there a path from vertex u to vertex v in an undirected graph?) [AKL+79].
 
-Contained in RL.
+
+Contains undirected reachability (is there a path from vertex u to vertex v in an undirected graph?) [[ZooRefs#AKL+79|[AKL+79] ]].
+
+
+
+Contained in [[Class_RL|$\text{RL}$]].
 == Relations ==
+
+
+== See Also ==

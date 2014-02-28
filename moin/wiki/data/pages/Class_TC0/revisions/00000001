@@ -9,23 +9,46 @@
 
 The class of decision problems solvable by polynomial-size, constant-depth circuits with unbounded fanin, which can use AND, OR, and NOT gates (as in AC^0^) as well as threshold gates.  A threshold gate returns 1 if at least half of its inputs are 1, and 0 otherwise.
 
+
+
 A uniformity requirement is sometimes also placed.
 
-TC^0^ contains ACC^0^, and is contained in NC^1^.
 
-TC^0^ circuits of depth 3 are strictly more powerful than TC^0^ circuits of depth 2 [HMP+93].
 
-TC^0^ circuits of depth 3 and quasipolynomial size can simulate all of ACC^0^ [Yao90].
+[[Class_TC0|$\text{TC0}$]] contains [[Class_ACC0|$\text{ACC0}$]], and is contained in [[Class_NC1|$\text{NC1}$]].
 
-There is a function in AC^0^ (explicitly given in [She08]), whose computation with TC^0^  circuits of depth 2 requires an exponential number of gates.
 
-[NR97] give a candidate pseudorandom function family computable in TC^0^, that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [NRR01] for an improvement of this construction, as well as [Kha93].)
 
-One implication is that, assuming such a bound, there is no natural proof in the sense of [RR97] separating TC^0^ from P/poly.  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in TC^0^.)  Another implication is that functions in TC^0^ are likely to be difficult to learn.
+[[Class_TC0|$\text{TC0}$]] circuits of depth 3 are strictly more powerful than [[Class_TC0|$\text{TC0}$]] circuits of depth 2 [[ZooRefs#HMP+93|[HMP+93] ]].
 
-The permanent of a 0-1 matrix cannot be computed in uniform TC^0^ [All99].
 
-In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in U,,D,,-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
 
-In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in L-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
+[[Class_TC0|$\text{TC0}$]] circuits of depth 3 and quasipolynomial size can simulate all of [[Class_ACC0|$\text{ACC0}$]] [[ZooRefs#Yao90|[Yao90] ]].
+
+
+
+There is a function in [[Class_AC0|$\text{AC0}$]] (explicitly given in [[ZooRefs#She08|[She08] ]]), whose computation with [[Class_TC0|$\text{TC0}$]]  circuits of depth 2 requires an exponential number of gates.
+
+
+
+[[ZooRefs#NR97|[NR97] ]] give a candidate pseudorandom function family computable in [[Class_TC0|$\text{TC0}$]], that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [[ZooRefs#NRR01|[NRR01] ]] for an improvement of this construction, as well as [[ZooRefs#Kha93|[Kha93] ]].)
+
+
+
+One implication is that, assuming such a bound, there is no natural proof in the sense of [[ZooRefs#RR97|[RR97] ]] separating [[Class_TC0|$\text{TC0}$]] from [[Class_P/poly|$\text{P/poly}$]].  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in TC^0^.)  Another implication is that functions in [[Class_TC0|$\text{TC0}$]] are likely to be difficult to learn.
+
+
+
+The permanent of a 0-1 matrix cannot be computed in uniform [[Class_TC0|$\text{TC0}$]] [[ZooRefs#All99|[All99] ]].
+
+
+
+In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in U,,D,,-uniform [[Class_TC0|$\text{TC0}$]].  Indeed division is complete for this class under [[Class_AC0|$\text{AC0}$]] reductions.
+
+
+
+In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in L-uniform [[Class_TC0|$\text{TC0}$]].  Indeed division is complete for this class under [[Class_AC0|$\text{AC0}$]] reductions.
 == Relations ==
+
+
+== See Also ==

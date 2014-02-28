@@ -9,7 +9,14 @@
 
 The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts on every input and every random tape setting.
 
-Contains R,,H,,SPACE(f(n)).
 
-Is contained in DSPACE(f(n)^3/2^) [SZ95].
+
+Contains [[Class_RHSPACE(f(n))|$\text{RHSPACE(f(n))}$]].
+
+
+
+Is contained in DSPACE(f(n)^3/2^) [[ZooRefs#SZ95|[SZ95] ]].
 == Relations ==
+
+
+== See Also ==

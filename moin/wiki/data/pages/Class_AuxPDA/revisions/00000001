@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Equivalent to NAuxPDA^p^ without the running-time restriction.
+Equivalent to [[Class_NAuxPDAp|$\text{NAuxPDAp}$]] without the running-time restriction.
 
-Equals P [Coo71b].
+
+
+Equals [[Class_P|$\text{P}$]] [Coo71b].
 == Relations ==
+
+
+== See Also ==

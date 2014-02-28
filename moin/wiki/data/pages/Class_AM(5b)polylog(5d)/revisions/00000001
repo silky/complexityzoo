@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as AM, except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.
+Same as [[Class_AM|$\text{AM}$]], except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.
 
-Not much is known about AM[polylog] -- for example, whether it sits in PH.  However, [SS04] show that if AM[polylog] contains coNP, then EH collapses to S,,2,,-EXP•P^NP^.  ([PV04] improved the collapse to AM,,EXP,,.)
+
+
+Not much is known about [[Class_AM[polylog]|$\text{AM[polylog]}$]] -- for example, whether it sits in [[Class_PH|$\text{PH}$]].  However, [[ZooRefs#SS04|[SS04] ]] show that if [[Class_AM[polylog]|$\text{AM[polylog]}$]] contains [[Class_coNP|$\text{coNP}$]], then [[Class_EH|$\text{EH}$]] collapses to [[Class_S2-EXP•PNP|$\text{S2-EXP•PNP}$]].  ([[ZooRefs#PV04|[PV04] ]] improved the collapse to AM,,EXP,,.)
 == Relations ==
+
+
+== See Also ==

@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The class of decision problems reducible in L to the problem of deciding membership in a context-free language.
+The class of decision problems reducible in [[Class_L|$\text{L}$]] to the problem of deciding membership in a context-free language.
 
-Equivalently, LOGCFL is the class of decision problems solvable by a uniform family of AC^1^ circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [Joh90], p. 137).
 
-LOGCFL is closed under complement [BCD+89].
 
-Contains NL [Sud78].
+Equivalently, [[Class_LOGCFL|$\text{LOGCFL}$]] is the class of decision problems solvable by a uniform family of [[Class_AC1|$\text{AC1}$]] circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [[ZooRefs#Joh90|[Joh90] ]], p. 137).
+
+
+
+[[Class_LOGCFL|$\text{LOGCFL}$]] is closed under complement [[ZooRefs#BCD+89|[BCD+89] ]].
+
+
+
+Contains [[Class_NL|$\text{NL}$]] [[ZooRefs#Sud78|[Sud78] ]].
 == Relations ==
+
+
+== See Also ==

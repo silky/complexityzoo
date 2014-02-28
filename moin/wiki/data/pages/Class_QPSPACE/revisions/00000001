@@ -9,5 +9,10 @@
 
 Equals DSPACE(2^polylog(n)^).
 
-According to [BG94], Beigel and Feigenbaum and (independently) Krawczyk showed that QPSPACE is not contained in Check.
+
+
+According to [[ZooRefs#BG94|[BG94] ]], Beigel and Feigenbaum and (independently) Krawczyk showed that [[Class_QPSPACE|$\text{QPSPACE}$]] is not contained in [[Class_Check|$\text{Check}$]].
 == Relations ==
+
+
+== See Also ==

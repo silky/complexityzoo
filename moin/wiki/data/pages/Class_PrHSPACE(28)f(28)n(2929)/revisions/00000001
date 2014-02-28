@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Has the same relation to DSPACE(f(n)) as PP does to P.  The Turing machine has to halt on every input and every setting of the random tape.
+Has the same relation to [[Class_DSPACE(f(n))|$\text{DSPACE(f(n))}$]] as [[Class_PP|$\text{PP}$]] does to [[Class_P|$\text{P}$]].  The Turing machine has to halt on every input and every setting of the random tape.
 
-Equals PrSPACE(f(n)) [Jun85].
+
+
+Equals [[Class_PrSPACE(f(n))|$\text{PrSPACE(f(n))}$]] [[ZooRefs#Jun85|[Jun85] ]].
 == Relations ==
+
+
+== See Also ==

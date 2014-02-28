@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Contains BQP/qpoly [Aar04b].
+Contains [[Class_BQP/qpoly|$\text{BQP/qpoly}$]] [Aar04b].
 
-If PP/poly = P/poly then PP is contained in P/poly.  Indeed this is true with any syntactically defined class in place of PP.  An implication is that any unrelativized separation of BQP/qpoly from BQP/mpoly would imply that PP does not have polynomial-size circuits.
+
+
+If [[Class_PP/poly|$\text{PP/poly}$]] = [[Class_P/poly|$\text{P/poly}$]] then [[Class_PP|$\text{PP}$]] is contained in [[Class_P/poly|$\text{P/poly}$]].  Indeed this is true with any syntactically defined class in place of [[Class_PP|$\text{PP}$]].  An implication is that any unrelativized separation of [[Class_BQP/qpoly|$\text{BQP/qpoly}$]] from [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] would imply that [[Class_PP|$\text{PP}$]] does not have polynomial-size circuits.
 == Relations ==
+
+
+== See Also ==

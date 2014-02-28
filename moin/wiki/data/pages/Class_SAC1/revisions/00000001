@@ -7,9 +7,16 @@
 
 == Comments ==
 
-See SAC for definition.
+See [[Class_SAC|$\text{SAC}$]] for definition.
 
-Equals LOGCFL/poly [Ven91].
 
-Contained in ⊕SAC^1^ [GW96].
+
+Equals LOGCFL/poly [[ZooRefs#Ven91|[Ven91] ]].
+
+
+
+Contained in [[Class_⊕SAC1|$\text{⊕SAC1}$]] [[ZooRefs#GW96|[GW96] ]].
 == Relations ==
+
+
+== See Also ==

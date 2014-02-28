@@ -9,7 +9,14 @@
 
 Constant-depth quantum circuits without fanout gates.
 
-Defined in [Spa02].
 
-Contained in QNC,,f,,^0^.
+
+Defined in [[ZooRefs#Spa02|[Spa02] ]].
+
+
+
+Contained in [[Class_QNCf0|$\text{QNCf0}$]].
 == Relations ==
+
+
+== See Also ==

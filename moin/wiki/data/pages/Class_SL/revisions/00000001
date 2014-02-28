@@ -9,28 +9,56 @@
 
 The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that
 
+
+
 If the answer is 'yes,' one or more computation paths accept.
+
 If the answer is 'no,' all paths reject.
+
 If the machine can make a nondeterministic transition from configuration A to configuration B, then it can also transition from B to A.  (This is what 'symmetric' means.)
 
-Defined in [LP82].
 
-The undirected s-t connectivity problem (USTCON: is there a path from vertex s to vertex t in a given undirected graph?) is complete for SL, under L-reductions.
 
-SL contains L, and is contained in NL.
+Defined in [[ZooRefs#LP82|[LP82] ]].
 
-It follows from [AKL+79] that SL is contained in L/poly.
 
-[KW93] showed that SL is contained in ⊕L, as well as Mod,,k,,L for every prime k.
 
-SL is also contained in DSPACE(log^3/2^n) [NSW92], and indeed in DSPACE(log^4/3^n) [ATW+00].
+The undirected s-t connectivity problem (USTCON: is there a path from vertex s to vertex t in a given undirected graph?) is complete for [[Class_SL|$\text{SL}$]], under L-reductions.
 
-[NT95] showed that SL equals coSL, and furthermore that SL^SL^ = SL (that is, the symmetric logspace hierarchy collapses).
 
-Reingold ultimately showed that SL = L [Rei04], even relative to an oracle. This subsumes many of the earlier results.
 
-The reachability problem (is there a path from vertex s to vertex t?) for undirected graphs is complete for SL, under L-reduction.
+[[Class_SL|$\text{SL}$]] contains [[Class_L|$\text{L}$]], and is contained in [[Class_NL|$\text{NL}$]].
 
-The story ends with the remarkable result that SL = L (even relative to an oracle)
-[Rei04].
+
+
+It follows from [[ZooRefs#AKL+79|[AKL+79] ]] that [[Class_SL|$\text{SL}$]] is contained in [[Class_L/poly|$\text{L/poly}$]].
+
+
+
+[[ZooRefs#KW93|[KW93] ]] showed that [[Class_SL|$\text{SL}$]] is contained in [[Class_⊕L|$\text{⊕L}$]], as well as [[Class_ModkL|$\text{ModkL}$]] for every prime k.
+
+
+
+[[Class_SL|$\text{SL}$]] is also contained in DSPACE(log^3/2^n) [[ZooRefs#NSW92|[NSW92] ]], and indeed in DSPACE(log^4/3^n) [[ZooRefs#ATW+00|[ATW+00] ]].
+
+
+
+[[ZooRefs#NT95|[NT95] ]] showed that [[Class_SL|$\text{SL}$]] equals [[Class_coSL|$\text{coSL}$]], and furthermore that SL^SL^ = [[Class_SL|$\text{SL}$]] (that is, the symmetric logspace hierarchy collapses).
+
+
+
+Reingold ultimately showed that [[Class_SL|$\text{SL}$]] = [[Class_L|$\text{L}$]] [[ZooRefs#Rei04|[Rei04] ]], even relative to an oracle. This subsumes many of the earlier results.
+
+
+
+The reachability problem (is there a path from vertex s to vertex t?) for undirected graphs is complete for [[Class_SL|$\text{SL}$]], under L-reduction.
+
+
+
+The story ends with the remarkable result that [[Class_SL|$\text{SL}$]] = [[Class_L|$\text{L}$]] (even relative to an oracle)
+
+[[ZooRefs#Rei04|[Rei04] ]].
 == Relations ==
+
+
+== See Also ==

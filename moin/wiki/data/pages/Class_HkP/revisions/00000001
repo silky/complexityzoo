@@ -7,15 +7,28 @@
 
 == Comments ==
 
-The class of problems A in NP such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.
+The class of problems A in [[Class_NP|$\text{NP}$]] such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.
+
+
 
 For all k, H,,k,, is contained in H,,k+1,,.
 
-H,,0,, consists exactly of the problems complete for NP under Cook reductions.
 
-H,,1,, consists exactly of the problems complete for NP under strong non-deterministic Turing reductions [Sch83].
 
-Defined in [Sch83].
+H,,0,, consists exactly of the problems complete for [[Class_NP|$\text{NP}$]] under Cook reductions.
 
-See also L,,k,,P.
+
+
+H,,1,, consists exactly of the problems complete for [[Class_NP|$\text{NP}$]] under strong non-deterministic Turing reductions [[ZooRefs#Sch83|[Sch83] ]].
+
+
+
+Defined in [[ZooRefs#Sch83|[Sch83] ]].
+
+
+
+See also [[Class_LkP|$\text{LkP}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Is to BQP/mpoly as ∃BPP is to MA.  Namely, the BQP machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though BQP/mpoly is a more natural class, BQP/poly follows the standard definition of advice as a class operator [KL82].
+Is to [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] as [[Class_∃BPP|$\text{∃BPP}$]] is to [[Class_MA|$\text{MA}$]].  Namely, the [[Class_BQP|$\text{BQP}$]] machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] is a more natural class, [[Class_BQP/poly|$\text{BQP/poly}$]] follows the standard definition of advice as a class operator [[ZooRefs#KL82|[KL82] ]].
 
-Contained in BQP/mpoly and contains BQP/log.
+
+
+Contained in [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] and contains [[Class_BQP/log|$\text{BQP/log}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as PromiseBPP, but for BQP instead of BPP.
+Same as [[Class_PromiseBPP|$\text{PromiseBPP}$]], but for [[Class_BQP|$\text{BQP}$]] instead of [[Class_BPP|$\text{BPP}$]].
 
-If PromiseBQP = PromiseP then BQP/mpoly = P/poly.
 
-Same as PromiseBQP, but for BQP instead of BPP.
+
+If [[Class_PromiseBQP|$\text{PromiseBQP}$]] = [[Class_PromiseP|$\text{PromiseP}$]] then [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] = [[Class_P/poly|$\text{P/poly}$]].
+
+
+
+Same as [[Class_PromiseBQP|$\text{PromiseBQP}$]], but for [[Class_BQP|$\text{BQP}$]] instead of [[Class_BPP|$\text{BPP}$]].
 == Relations ==
+
+
+== See Also ==

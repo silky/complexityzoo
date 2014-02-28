@@ -7,11 +7,20 @@
 
 == Comments ==
 
-There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [Szep94] and [LiRe93]. The alternation hierarchy for this class is infinite ([BGR93]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([Geff91]).
+There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [[ZooRefs#Szep94|[Szep94] ]] and [[ZooRefs#LiRe93|[LiRe93] ]]. The alternation hierarchy for this class is infinite ([[ZooRefs#BGR93|[BGR93] ]]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([[ZooRefs#Geff91|[Geff91] ]]).
 
-Sublogarithmically-bounded Turing reductions are equivalent to "regular" (constant-bounded) reductions, however ([Agr01]).
 
-Note that while there are no decision problems that can be tested in one-way loglog space, there are promise problems which can be so tested, such as Balanced Monotone Boolean Sentence Value [Buss91]. Also, the alternation hierarchy over 1-way loglog space still does not collapse.
 
-Obviously contained in L.
+Sublogarithmically-bounded Turing reductions are equivalent to "regular" (constant-bounded) reductions, however ([[ZooRefs#Agr01|[Agr01] ]]).
+
+
+
+Note that while there are no decision problems that can be tested in one-way loglog space, there are promise problems which can be so tested, such as Balanced Monotone Boolean Sentence Value [[ZooRefs#Buss91|[Buss91] ]]. Also, the alternation hierarchy over 1-way loglog space still does not collapse.
+
+
+
+Obviously contained in [[Class_L|$\text{L}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,8 +7,14 @@
 
 == Comments ==
 
-SO[TC] is to SO what FO[TC] is to FO. The TC operator can now also take second-order variable as argument.
+[[Class_SO[TC]|$\text{SO[TC]}$]] is to [[Class_SO|$\text{SO}$]] what FO[TC] is to [[Class_FO|$\text{FO}$]]. The TC operator can now also take second-order variable as argument.
+
+
 
 In Descriptive complexity we can see that :
-SO[TC] is  equal to PSPACE.
+
+[[Class_SO[TC]|$\text{SO[TC]}$]] is  equal to [[Class_PSPACE|$\text{PSPACE}$]].
 == Relations ==
+
+
+== See Also ==

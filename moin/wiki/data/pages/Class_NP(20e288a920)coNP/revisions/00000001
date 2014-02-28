@@ -7,13 +7,24 @@
 
 == Comments ==
 
-The class of problems in both NP and coNP.
+The class of problems in both [[Class_NP|$\text{NP}$]] and [[Class_coNP|$\text{coNP}$]].
 
-Contains factoring [Pra75].
 
-Contains graph isomorphism under the assumption that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([MV99], improving [KM99]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
 
-Equals P^NP ∩ coNP^ [Bra79].  In particular, if a problem in NP ∩ coNP is NP-hard with Turing reduction, then NP = coNP.
+Contains factoring [[ZooRefs#Pra75|[Pra75] ]].
+
+
+
+Contains graph isomorphism under the assumption that some language in [[Class_NE|$\text{NE}$]] ∩ [[Class_coNE|$\text{coNE}$]] requires nondeterministic circuits of size 2^Ω(n)^ ([[ZooRefs#MV99|[MV99] ]], improving [[ZooRefs#KM99|[KM99] ]]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
+
+
+
+Equals [[Class_PNP|$\text{PNP}$]] ∩ [[Class_coNP|$\text{coNP}$]] [[ZooRefs#Bra79|[Bra79] ]].  In particular, if a problem in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] is NP-hard with Turing reduction, then [[Class_NP|$\text{NP}$]] = [[Class_coNP|$\text{coNP}$]].
+
+
 
 Is not believed to contain complete problems.
 == Relations ==
+
+
+== See Also ==

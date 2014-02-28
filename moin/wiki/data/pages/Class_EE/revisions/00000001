@@ -9,9 +9,18 @@
 
 Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).
 
-EE = BPE if and only if EXP = BPP [IKW01].
 
-Contained in EEXP and NEE.
+
+[[Class_EE|$\text{EE}$]] = [[Class_BPE|$\text{BPE}$]] if and only if [[Class_EXP|$\text{EXP}$]] = [[Class_BPP|$\text{BPP}$]] [[ZooRefs#IKW01|[IKW01] ]].
+
+
+
+Contained in [[Class_EEXP|$\text{EEXP}$]] and [[Class_NEE|$\text{NEE}$]].
+
+
 
 Equals DTIME(2^2^O(n)^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n)^)).
 == Relations ==
+
+
+== See Also ==

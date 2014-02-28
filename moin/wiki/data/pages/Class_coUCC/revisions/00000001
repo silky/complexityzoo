@@ -7,7 +7,12 @@
 
 == Comments ==
 
-[Tor00] showed the following problem complete for coUCC under L reductions:
+[[ZooRefs#Tor00|[Tor00] ]] showed the following problem complete for [[Class_coUCC|$\text{coUCC}$]] under [[Class_L|$\text{L}$]] reductions:
+
+
 
 Given a colored graph G with at most two vertices having any given color, does G have any nontrivial automorphisms?
 == Relations ==
+
+
+== See Also ==

@@ -7,15 +7,28 @@
 
 == Comments ==
 
-The class of decision problems for which the following holds.  There exists a #P function f and an FP function g such that, for all inputs x,
+The class of decision problems for which the following holds.  There exists a [[Class_SharpP|$\text{#P}$]] function f and an [[Class_FP|$\text{FP}$]] function g such that, for all inputs x,
+
+
 
 If the answer is "yes" then f(x) > g(x).
+
 If the answer is "no" then f(x) < g(x)/2.
 
-Defined in [BGM02], where the following was also shown:
 
-SBP contains MA, WAPP, and ∃BPP.
-SBP is contained in AM and BPP,,path,,.
-There exists an oracle relative to which SBP is not contained in Σ,,2,,P.
-SBP is closed under union.
+
+Defined in [[ZooRefs#BGM02|[BGM02] ]], where the following was also shown:
+
+
+
+[[Class_SBP|$\text{SBP}$]] contains [[Class_MA|$\text{MA}$]], [[Class_WAPP|$\text{WAPP}$]], and [[Class_∃BPP|$\text{∃BPP}$]].
+
+[[Class_SBP|$\text{SBP}$]] is contained in [[Class_AM|$\text{AM}$]] and [[Class_BPPpath|$\text{BPPpath}$]].
+
+There exists an oracle relative to which [[Class_SBP|$\text{SBP}$]] is not contained in [[Class_Σ2P|$\text{Σ2P}$]].
+
+[[Class_SBP|$\text{SBP}$]] is closed under union.
 == Relations ==
+
+
+== See Also ==

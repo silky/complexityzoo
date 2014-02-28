@@ -9,5 +9,10 @@
 
 The set of all problems reducible to matrix multiplication. That is, the set of problems  that can be reduced to the multiplication of two square matrices can be reduced to  in linear time.
 
-Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [CW90]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.
+
+
+Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [[ZooRefs#CW90|[CW90] ]]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.
 == Relations ==
+
+
+== See Also ==

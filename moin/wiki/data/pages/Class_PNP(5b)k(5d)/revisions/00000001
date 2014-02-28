@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Equals P with 2^k^-1 parallel queries to NP (i.e. queries that do not depend on the outcomes of previous queries) ([BH91] and [Hem89] independently).
+Equals [[Class_P|$\text{P}$]] with 2^k^-1 parallel queries to [[Class_NP|$\text{NP}$]] (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
 
-If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = P^NP[log]^ and indeed PH collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
+
+
+If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = [[Class_PNP[log]|$\text{PNP[log]}$]] and indeed [[Class_PH|$\text{PH}$]] collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
 == Relations ==
+
+
+== See Also ==

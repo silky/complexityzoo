@@ -7,10 +7,18 @@
 
 == Comments ==
 
-The class of distributional problems solvable by a P machine. Defined in [Imp95], though he calls the class HP.
+The class of distributional problems solvable by a [[Class_P|$\text{P}$]] machine. Defined in [[ZooRefs#Imp95|[Imp95] ]], though he calls the class HP.
 
-Alternately, [BT06] define HeurP as being the set of tuples , where  is a language and  is a distribution of problem instances, such that there exists an algorithm  satisfying two properties:
+
+
+Alternately, [[ZooRefs#BT06|[BT06] ]] define [[Class_HeurP|$\text{HeurP}$]] as being the set of tuples , where  is a language and  is a distribution of problem instances, such that there exists an algorithm  satisfying two properties:
+
+
 
 For every , for every  in the support of , and for every ,  runs in time bounded by .
+
  For every ,  is a heuristic algorithm for  whose error probability is bounded by .
 == Relations ==
+
+
+== See Also ==

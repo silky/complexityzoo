@@ -9,9 +9,18 @@
 
 Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^^)).
 
-If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].
 
-Contained in NEEXP.
+
+If [[Class_MAE|$\text{MAE}$]] = [[Class_NEE|$\text{NEE}$]] then [[Class_MA|$\text{MA}$]] = [[Class_NEXP|$\text{NEXP}$]] ∩ [[Class_coNEXP|$\text{coNEXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
+
+
+
+Contained in [[Class_NEEXP|$\text{NEEXP}$]].
+
+
 
 Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^)).
 == Relations ==
+
+
+== See Also ==

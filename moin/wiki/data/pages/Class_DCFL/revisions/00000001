@@ -9,7 +9,14 @@
 
 The class of languages accepted by deterministic pushdown automata.
 
-Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL, contained in UCFL, and strictly contains REG.  The inclusion in UCFL is also strict.
 
-Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL and strictly contains REG.
+
+Defined in [[ZooRefs#GG66|[GG66] ]], where it was also shown that [[Class_DCFL|$\text{DCFL}$]] is strictly contained in [[Class_CFL|$\text{CFL}$]], contained in [[Class_UCFL|$\text{UCFL}$]], and strictly contains [[Class_REG|$\text{REG}$]].  The inclusion in [[Class_UCFL|$\text{UCFL}$]] is also strict.
+
+
+
+Defined in [[ZooRefs#GG66|[GG66] ]], where it was also shown that [[Class_DCFL|$\text{DCFL}$]] is strictly contained in [[Class_CFL|$\text{CFL}$]] and strictly contains [[Class_REG|$\text{REG}$]].
 == Relations ==
+
+
+== See Also ==

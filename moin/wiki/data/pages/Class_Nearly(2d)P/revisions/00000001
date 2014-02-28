@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n^/n^k^ inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
+The set of languages [[Class_L|$\text{L}$]] such that for every k, there is a language L_k in [[Class_P|$\text{P}$]] that differs from [[Class_L|$\text{L}$]] on at most 2^n^/n^k^ inputs of length n.  Discussed in [[ZooRefs#NS05|[NS05] ]] and implicitly defined in [[ZooRefs#Yam99|[Yam99] ]].
 
-The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n/n^k inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
+
+
+The set of languages [[Class_L|$\text{L}$]] such that for every k, there is a language L_k in [[Class_P|$\text{P}$]] that differs from [[Class_L|$\text{L}$]] on at most 2^n/n^k inputs of length n.  Discussed in [[ZooRefs#NS05|[NS05] ]] and implicitly defined in [[ZooRefs#Yam99|[Yam99] ]].
 == Relations ==
+
+
+== See Also ==

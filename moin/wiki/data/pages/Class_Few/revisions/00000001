@@ -7,16 +7,30 @@
 
 == Comments ==
 
-The class of decision problems solvable by an NP machine such that
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+
+
 
 The number of accepting paths a is bounded by a polynomial in the size of the input x.
-For some polynomial-time predicate Q, Q(x,a) is true if and only if the answer is 'yes.'
+
+For some polynomial-time predicate [[Class_Q|$\text{Q}$]], Q(x,a) is true if and only if the answer is 'yes.'
+
+
 
 Also called FewPaths.
 
-Defined in [CH89].
 
-Contains FewP, and is contained in P^FewP^ [Kob89] and in SPP [FFK94].
 
-See also the survey [Tor90].
+Defined in [[ZooRefs#CH89|[CH89] ]].
+
+
+
+Contains [[Class_FewP|$\text{FewP}$]], and is contained in P^FewP^ [[ZooRefs#Kob89|[Kob89] ]] and in [[Class_SPP|$\text{SPP}$]] [[ZooRefs#FFK94|[FFK94] ]].
+
+
+
+See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 == Relations ==
+
+
+== See Also ==

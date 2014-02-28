@@ -7,9 +7,16 @@
 
 == Comments ==
 
-See AvgP for basic notions of average-case complexity.
+See [[Class_AvgP|$\text{AvgP}$]] for basic notions of average-case complexity.
 
-(NP,P-samplable) is the same as DistNP, except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
 
-Any problem complete for DistNP is also complete for (NP,P-samplable) [IL90].
+
+[[Class_(NP,P-samplable)|$\text{(NP,P-samplable)}$]] is the same as [[Class_DistNP|$\text{DistNP}$]], except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
+
+
+
+Any problem complete for [[Class_DistNP|$\text{DistNP}$]] is also complete for [[Class_(NP,P-samplable)|$\text{(NP,P-samplable)}$]] [[ZooRefs#IL90|[IL90] ]].
 == Relations ==
+
+
+== See Also ==

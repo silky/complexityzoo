@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as FPT except that the algorithm can vary with the parameter k (though its running time must always be O(p(|x|)), for a fixed polynomial p).
+Same as [[Class_FPT|$\text{FPT}$]] except that the algorithm can vary with the parameter k (though its running time must always be O(p(|x|)), for a fixed polynomial p).
+
+
 
 An alternate view is that a single algorithm can take a polynomial-length advice string, depending on k.
 
-Defined in [DF99] (though they did not use our notation).
+
+
+Defined in [[ZooRefs#DF99|[DF99] ]] (though they did not use our notation).
 == Relations ==
+
+
+== See Also ==

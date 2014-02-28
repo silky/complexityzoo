@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of decision problems for which the number of 'yes' instances of size n is upper-bounded by a polynomial in n.  If SPARSE intersects NPC then P = NP [Mah82].
+The class of decision problems for which the number of 'yes' instances of size n is upper-bounded by a polynomial in n.  If [[Class_SPARSE|$\text{SPARSE}$]] intersects [[Class_NPC|$\text{NPC}$]] then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].
 
-Contains TALLY.
+
+
+Contains [[Class_TALLY|$\text{TALLY}$]].
 == Relations ==
+
+
+== See Also ==

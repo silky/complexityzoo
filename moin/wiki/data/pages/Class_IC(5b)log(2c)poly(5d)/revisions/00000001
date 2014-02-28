@@ -9,13 +9,26 @@
 
 The class of decision problems such that, for every n-bit string x, there exists a program A of size O(log n) that, given x as input, "correctly decides" the answer on x in time polynomial in n.  This means:
 
+
+
 There exists a polynomial p such that for any input y, A returns either "yes", "no", or "I don't know" in time p(|y|).
+
 Whenever A returns "yes" or "no", it is correct.
+
 A returns either "yes" or "no" on x.
 
-Defined in [OKS+94]; see also [LV97].
 
-If NP is contained in IC[log,poly], then P = NP [OKS+94].  Indeed, any self-reducible problem in IC[log,poly] is also in P.
 
-Strictly contains P/log, and is strictly contained in P/poly.
+Defined in [[ZooRefs#OKS+94|[OKS+94] ]]; see also [[ZooRefs#LV97|[LV97] ]].
+
+
+
+If [[Class_NP|$\text{NP}$]] is contained in [[Class_IC[log,poly]|$\text{IC[log,poly]}$]], then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#OKS+94|[OKS+94] ]].  Indeed, any self-reducible problem in [[Class_IC[log,poly]|$\text{IC[log,poly]}$]] is also in [[Class_P|$\text{P}$]].
+
+
+
+Strictly contains [[Class_P/log|$\text{P/log}$]], and is strictly contained in [[Class_P/poly|$\text{P/poly}$]].
 == Relations ==
+
+
+== See Also ==

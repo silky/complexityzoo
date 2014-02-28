@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The class of functions f(x) such that for some NP machine, f(x) is the number of accepting paths minus the number of rejecting paths.
+The class of functions f(x) such that for some [[Class_NP|$\text{NP}$]] machine, f(x) is the number of accepting paths minus the number of rejecting paths.
 
-Equivalently, the closure of the #P functions under subtraction.
 
-Defined in [FFK94] and independently [Gup95].
+
+Equivalently, the closure of the [[Class_SharpP|$\text{#P}$]] functions under subtraction.
+
+
+
+Defined in [[ZooRefs#FFK94|[FFK94] ]] and independently [[ZooRefs#Gup95|[Gup95] ]].
 == Relations ==
+
+
+== See Also ==

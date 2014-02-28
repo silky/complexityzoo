@@ -7,13 +7,24 @@
 
 == Comments ==
 
-Has the same relation to PL as SPP does to PP.
+Has the same relation to [[Class_PL|$\text{PL}$]] as [[Class_SPP|$\text{SPP}$]] does to [[Class_PP|$\text{PP}$]].
 
-Contains the maximum matching and perfect matching problems under a pseudorandom assumption [ARZ99].
 
-Contains UL.
 
-Contained in C,,=,,L and Mod,,k,,L.
+Contains the maximum matching and perfect matching problems under a pseudorandom assumption [[ZooRefs#ARZ99|[ARZ99] ]].
 
-Equals the set of problems low for GapL.
+
+
+Contains [[Class_UL|$\text{UL}$]].
+
+
+
+Contained in [[Class_C=L|$\text{C=L}$]] and [[Class_ModkL|$\text{ModkL}$]].
+
+
+
+Equals the set of problems low for [[Class_GapL|$\text{GapL}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,13 +7,24 @@
 
 == Comments ==
 
-The non-interactive analogue of SZK,,h,,.
+The non-interactive analogue of [[Class_SZKh|$\text{SZKh}$]].
 
-Defined in [BG03], where the following was also shown:
 
-NISZK,,h,, contains NISZK and is contained in SZK.
-Graph Isomorphism is in NISZK,,h,,.
-The following problem is complete for NISZK,,h,,: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
 
-The quantum lower bound for the set comparison problem in [Aar02] implies an oracle relative to which NISZK,,h,, is not in BQP.
+Defined in [[ZooRefs#BG03|[BG03] ]], where the following was also shown:
+
+
+
+[[Class_NISZKh|$\text{NISZKh}$]] contains [[Class_NISZK|$\text{NISZK}$]] and is contained in [[Class_SZK|$\text{SZK}$]].
+
+Graph Isomorphism is in [[Class_NISZKh|$\text{NISZKh}$]].
+
+The following problem is complete for [[Class_NISZKh|$\text{NISZKh}$]]: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
+
+
+
+The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|[Aar02] ]] implies an oracle relative to which [[Class_NISZKh|$\text{NISZKh}$]] is not in [[Class_BQP|$\text{BQP}$]].
 == Relations ==
+
+
+== See Also ==

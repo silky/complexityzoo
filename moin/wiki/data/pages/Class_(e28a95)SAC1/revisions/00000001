@@ -9,5 +9,10 @@
 
 The class of problems solvable by a nonuniform family of polynomial-size, polylog-depth circuits with unbounded-fanin XOR and bounded-fanin AND gates.
 
-Defined in [GW96], where it was also shown that ⊕SAC^1^ contains SAC^1^.
+
+
+Defined in [[ZooRefs#GW96|[GW96] ]], where it was also shown that [[Class_⊕SAC1|$\text{⊕SAC1}$]] contains [[Class_SAC1|$\text{SAC1}$]].
 == Relations ==
+
+
+== See Also ==

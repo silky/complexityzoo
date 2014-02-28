@@ -9,5 +9,10 @@
 
 The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.
 
-Equals BPP [BG81].
+
+
+Equals [[Class_BPP|$\text{BPP}$]] [[ZooRefs#BG81|[BG81] ]].
 == Relations ==
+
+
+== See Also ==

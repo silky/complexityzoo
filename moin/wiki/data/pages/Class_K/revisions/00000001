@@ -7,7 +7,12 @@
 
 == Comments ==
 
-A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [Con73], who mistakenly claimed it coincides with FP.
+A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [[ZooRefs#Con73|[Con73] ]], who mistakenly claimed it coincides with [[Class_FP|$\text{FP}$]].
 
-Equals U,,D,,-uniform FTC^0^ by [Hes01].
+
+
+Equals U,,D,,-uniform FTC^0^ by [[ZooRefs#Hes01|[Hes01] ]].
 == Relations ==
+
+
+== See Also ==

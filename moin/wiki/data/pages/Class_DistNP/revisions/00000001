@@ -9,13 +9,26 @@
 
 (also called (NP,P-computable) or RNP)
 
+
+
 A distributional problem consists of a decision problem A, and a probability distribution μ over problem instances.
 
-(A,μ) is in DistNP if A is in NP, and μ is P-computable (meaning that its cumulative density function can be evaluated in polynomial time).
 
-DistNP has complete problems [Lev86] (see also [Gur87]), although unlike for NP this is not immediate.
 
-Any DistNP-complete problem is also complete for (NP,P-samplable) [IL90].
+(A,μ) is in [[Class_DistNP|$\text{DistNP}$]] if A is in [[Class_NP|$\text{NP}$]], and μ is P-computable (meaning that its cumulative density function can be evaluated in polynomial time).
 
-DistNP has complete problems [Gur87], although unlike for NP this is not immediate.
+
+
+[[Class_DistNP|$\text{DistNP}$]] has complete problems [[ZooRefs#Lev86|[Lev86] ]] (see also [[ZooRefs#Gur87|[Gur87] ]]), although unlike for [[Class_NP|$\text{NP}$]] this is not immediate.
+
+
+
+Any DistNP-complete problem is also complete for [[Class_(NP,P-samplable)|$\text{(NP,P-samplable)}$]] [[ZooRefs#IL90|[IL90] ]].
+
+
+
+[[Class_DistNP|$\text{DistNP}$]] has complete problems [[ZooRefs#Gur87|[Gur87] ]], although unlike for [[Class_NP|$\text{NP}$]] this is not immediate.
 == Relations ==
+
+
+== See Also ==

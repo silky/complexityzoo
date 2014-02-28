@@ -7,15 +7,28 @@
 
 == Comments ==
 
-Has the same relation to L as NP does to P.
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_NP|$\text{NP}$]] does to [[Class_P|$\text{P}$]].
 
-In a breakthrough result, was shown to equal coNL [Imm88] [Sze87].  (Though contrast to mNL.)
 
-Is contained in LOGCFL [Sud78], as well as NC^2^.
 
-Is contained in UL/poly [RA00].
+In a breakthrough result, was shown to equal [[Class_coNL|$\text{coNL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze87] ]].  (Though contrast to mNL.)
 
-Deciding whether a bipartite graph has a perfect matching is hard for NL [KUW86].
 
-NL can be defined in a logical formalism as SO(krom) and also as FO(tc), reachability in directed graph is NL-Complete under FO-reduction.
+
+Is contained in [[Class_LOGCFL|$\text{LOGCFL}$]] [[ZooRefs#Sud78|[Sud78] ]], as well as [[Class_NC2|$\text{NC2}$]].
+
+
+
+Is contained in [[Class_UL/poly|$\text{UL/poly}$]] [[ZooRefs#RA00|[RA00] ]].
+
+
+
+Deciding whether a bipartite graph has a perfect matching is hard for [[Class_NL|$\text{NL}$]] [[ZooRefs#KUW86|[KUW86] ]].
+
+
+
+[[Class_NL|$\text{NL}$]] can be defined in a logical formalism as SO(krom) and also as FO(tc), reachability in directed graph is NL-Complete under FO-reduction.
 == Relations ==
+
+
+== See Also ==

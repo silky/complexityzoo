@@ -7,13 +7,24 @@
 
 == Comments ==
 
-An analog of NP for Turing machines over a real number field.
+An analog of [[Class_NP|$\text{NP}$]] for Turing machines over a real number field.
 
-Defined in [BCS+97].
 
-It is unknown whether P,,R,, = NP,,R,,, nor are implications known among this question, P,,C,, versus NP,,C,,, and P versus NP.
 
-Also, in contrast to the case of NP,,C,,, it is an open problem to show that P/poly distinct from NP/poly implies P,,R,, distinct from NP,,R,,.  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
+Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
-See also VNP,,k,,.
+
+
+It is unknown whether [[Class_PR|$\text{PR}$]] = [[Class_NPR|$\text{NPR}$]], nor are implications known among this question, [[Class_PC|$\text{PC}$]] versus [[Class_NPC|$\text{NPC}$]], and [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]].
+
+
+
+Also, in contrast to the case of [[Class_NPC|$\text{NPC}$]], it is an open problem to show that [[Class_P/poly|$\text{P/poly}$]] distinct from [[Class_NP/poly|$\text{NP/poly}$]] implies [[Class_PR|$\text{PR}$]] distinct from [[Class_NPR|$\text{NPR}$]].  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
+
+
+
+See also [[Class_VNPk|$\text{VNPk}$]].
 == Relations ==
+
+
+== See Also ==

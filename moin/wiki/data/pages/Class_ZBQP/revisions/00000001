@@ -7,11 +7,20 @@
 
 == Comments ==
 
-Defined as RBQP ∩ coRBQP.  Equivalently, the class of problems in NP ∩ coNP such that both positive and negative witnesses are in FBQP.
+Defined as [[Class_RBQP|$\text{RBQP}$]] ∩ coRBQP.  Equivalently, the class of problems in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] such that both positive and negative witnesses are in [[Class_FBQP|$\text{FBQP}$]].
 
-For example, the language of square-free numbers is in ZBQP, because factoring is in FBQP and a factorization can be certified in ZPP (indeed in P, by [AKS02]).
 
-Unlike EQP or ZQP, ZBQP would generalize ZPP in practice if quantum computers existed, in the sense that it provides proven answers.
 
-Contains ZPP and is contained in RBQP and ZQP.  Also, ZBQP^ZBQP^ = ZBQP.  Defined here to clarify EQP and ZQP.
+For example, the language of square-free numbers is in [[Class_ZBQP|$\text{ZBQP}$]], because factoring is in [[Class_FBQP|$\text{FBQP}$]] and a factorization can be certified in [[Class_ZPP|$\text{ZPP}$]] (indeed in [[Class_P|$\text{P}$]], by [[ZooRefs#AKS02|[AKS02] ]]).
+
+
+
+Unlike [[Class_EQP|$\text{EQP}$]] or [[Class_ZQP|$\text{ZQP}$]], [[Class_ZBQP|$\text{ZBQP}$]] would generalize [[Class_ZPP|$\text{ZPP}$]] in practice if quantum computers existed, in the sense that it provides proven answers.
+
+
+
+Contains [[Class_ZPP|$\text{ZPP}$]] and is contained in [[Class_RBQP|$\text{RBQP}$]] and [[Class_ZQP|$\text{ZQP}$]].  Also, ZBQP^ZBQP^ = [[Class_ZBQP|$\text{ZBQP}$]].  Defined here to clarify [[Class_EQP|$\text{EQP}$]] and [[Class_ZQP|$\text{ZQP}$]].
 == Relations ==
+
+
+== See Also ==

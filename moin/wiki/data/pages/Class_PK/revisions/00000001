@@ -7,9 +7,16 @@
 
 == Comments ==
 
-P equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.
+[[Class_P|$\text{P}$]] equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.
 
-A similar class was defined in [ABK+02], where it was also shown that P^K^ contains PSPACE.  It is not known whether P^K^ contains all of R, or even any recursive problem not in PSPACE.
 
-See also: BPP^KT^.
+
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that [[Class_PK|$\text{PK}$]] contains [[Class_PSPACE|$\text{PSPACE}$]].  It is not known whether [[Class_PK|$\text{PK}$]] contains all of [[Class_R|$\text{R}$]], or even any recursive problem not in [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+See also: [[Class_BPPKT|$\text{BPPKT}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,11 +7,20 @@
 
 == Comments ==
 
-Does not equal QCFL [MC00].
+Does not equal [[Class_QCFL|$\text{QCFL}$]] [[ZooRefs#MC00|[MC00] ]].
 
-Contained in LOGCFL.
 
-Strictly contains DCFL [Bra77] and indeed UCFL.
 
-Strictly contains DCFL [Bra77].
+Contained in [[Class_LOGCFL|$\text{LOGCFL}$]].
+
+
+
+Strictly contains [[Class_DCFL|$\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]] and indeed [[Class_UCFL|$\text{UCFL}$]].
+
+
+
+Strictly contains [[Class_DCFL|$\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]].
 == Relations ==
+
+
+== See Also ==

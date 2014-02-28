@@ -7,17 +7,32 @@
 
 == Comments ==
 
-A quantum analog of SZK (or more precisely HVSZK).
+A quantum analog of [[Class_SZK|$\text{SZK}$]] (or more precisely HVSZK).
 
-Arthur is a BQP (i.e. quantum) verifier who can exchange quantum messages with Merlin.  So Arthur and Merlin's states may become entangled during the course of the protocol.
+
+
+Arthur is a [[Class_BQP|$\text{BQP}$]] (i.e. quantum) verifier who can exchange quantum messages with Merlin.  So Arthur and Merlin's states may become entangled during the course of the protocol.
+
+
 
 Arthur's "view" of his interaction with Merlin is taken to be the sequence of mixed states he has, over all steps of the protocol.  The zero-knowledge requirement is that each of these states must have trace distance at most (say) 1/10 from a state that Arthur could prepare himself (in BQP), without help from Merlin.  Arthur is assumed to be an honest verifier.
 
-Defined in [Wat02], where the following was also shown:
 
-QSZK is contained in PSPACE.
-QSZK is closed under complement.
-Any protocol can be parallelized to consist of two messages, so that QSZK is in QIP[2].
-One can assume without loss of generality that protocols are public-coin, as for SZK.
-QSZK has a natural complete promise problem, called Quantum State Distinguishability (QSD).  We are given quantum circuits Q,,0,, and Q,,1,,.  Let ρ,,0,, and ρ,,1,, be the mixed states they produce respectively, when run on the all-0 state (and when non-output qubits are traced out).  We are promised that the trace distance between ρ,,0,, and ρ,,1,, is either at most α or at least β, where α and β are constants in [0,1] satisfying α < β^2^.  The problem is to decide which of these is the case.
+
+Defined in [[ZooRefs#Wat02|[Wat02] ]], where the following was also shown:
+
+
+
+[[Class_QSZK|$\text{QSZK}$]] is contained in [[Class_PSPACE|$\text{PSPACE}$]].
+
+[[Class_QSZK|$\text{QSZK}$]] is closed under complement.
+
+Any protocol can be parallelized to consist of two messages, so that [[Class_QSZK|$\text{QSZK}$]] is in [[Class_QIP[2]|$\text{QIP[2]}$]].
+
+One can assume without loss of generality that protocols are public-coin, as for [[Class_SZK|$\text{SZK}$]].
+
+[[Class_QSZK|$\text{QSZK}$]] has a natural complete promise problem, called Quantum State Distinguishability (QSD).  We are given quantum circuits Q,,0,, and Q,,1,,.  Let ρ,,0,, and ρ,,1,, be the mixed states they produce respectively, when run on the all-0 state (and when non-output qubits are traced out).  We are promised that the trace distance between ρ,,0,, and ρ,,1,, is either at most α or at least β, where α and β are constants in [0,1] satisfying α < β^2^.  The problem is to decide which of these is the case.
 == Relations ==
+
+
+== See Also ==

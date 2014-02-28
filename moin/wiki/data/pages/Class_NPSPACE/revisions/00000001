@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Equals PSPACE [Sav70].
+Equals [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Sav70|[Sav70] ]].
 
-On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which NPSPACE is not contained in EXP [GTW+91].
+
+
+On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which [[Class_NPSPACE|$\text{NPSPACE}$]] is not contained in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#GTW+91|[GTW+91] ]].
 == Relations ==
+
+
+== See Also ==

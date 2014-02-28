@@ -9,11 +9,22 @@
 
 The class of decision problems solvable by a family of constant-depth, polynomial-size quantum circuits.  Here each layer of the circuit is a tensor product of one-qubit gates and Toffoli gates, or is a tensor product of controlled-NOT gates.
 
+
+
 A uniformity condition may also be imposed.
 
-Defined in [Moo99].
 
-It is contained in QAC,,f,,^0^, but it is not known if it contains AC^0^. Notice that the latter containment is not obvious, since the set of gates in QAC^0^ do not allow to implement fanout in any way we may take for granted.
 
-Contains AC^0^, and is contained in QAC,,f,,^0^.
+Defined in [[ZooRefs#Moo99|[Moo99] ]].
+
+
+
+It is contained in [[Class_QACf0|$\text{QACf0}$]], but it is not known if it contains [[Class_AC0|$\text{AC0}$]]. Notice that the latter containment is not obvious, since the set of gates in [[Class_QAC0|$\text{QAC0}$]] do not allow to implement fanout in any way we may take for granted.
+
+
+
+Contains [[Class_AC0|$\text{AC0}$]], and is contained in [[Class_QACf0|$\text{QACf0}$]].
 == Relations ==
+
+
+== See Also ==

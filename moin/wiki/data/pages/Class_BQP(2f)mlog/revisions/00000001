@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as BQP/mpoly except that the advice is O(log n) bits instead of a polynomial number.
+Same as [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] except that the advice is O(log n) bits instead of a polynomial number.
 
-Strictly contained in BQP/qlog [NY03].
+
+
+Strictly contained in [[Class_BQP/qlog|$\text{BQP/qlog}$]] [[ZooRefs#NY03|[NY03] ]].
 == Relations ==
+
+
+== See Also ==

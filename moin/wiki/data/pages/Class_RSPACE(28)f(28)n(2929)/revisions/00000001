@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as RL, but for O(f(n))-space instead of logarithmic-space.  (Just as an RL machine must run in polynomial time, so an RSPACE(f(n)) machine must run in 2^O(f(n))^ time.)
+Same as [[Class_RL|$\text{RL}$]], but for O(f(n))-space instead of logarithmic-space.  (Just as an [[Class_RL|$\text{RL}$]] machine must run in polynomial time, so an [[Class_RSPACE(f(n))|$\text{RSPACE(f(n))}$]] machine must run in 2^O(f(n))^ time.)
 
-Contained in NSPACE(f(n)) and BPSPACE(f(n)).
 
-Same as RL, but for O(f(n))-space instead of logarithmic-space.
+
+Contained in [[Class_NSPACE(f(n))|$\text{NSPACE(f(n))}$]] and [[Class_BPSPACE(f(n))|$\text{BPSPACE(f(n))}$]].
+
+
+
+Same as [[Class_RL|$\text{RL}$]], but for O(f(n))-space instead of logarithmic-space.
 == Relations ==
+
+
+== See Also ==

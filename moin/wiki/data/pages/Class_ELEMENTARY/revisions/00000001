@@ -9,7 +9,14 @@
 
 Equals the union of DTIME(2^n^), DTIME(2^2^n^^), DTIME(2^2^2^n^^^), and so on.
 
-Contained in PR.
+
+
+Contained in [[Class_PR|$\text{PR}$]].
+
+
 
 Equals the union of DTIME(2^n^), DTIME(2^2^n^), DTIME(2^2^2^n^), and so on.
 == Relations ==
+
+
+== See Also ==

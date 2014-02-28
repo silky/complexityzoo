@@ -9,13 +9,26 @@
 
 Equals DSPACE(2^O(n)^).
 
-If E = ESPACE then P = BPP [HY84].
 
-Indeed if E has nonzero measure in ESPACE then P = BPP [Lut91].
 
-ESPACE is not contained in P/poly [Kan82].
+If [[Class_E|$\text{E}$]] = [[Class_ESPACE|$\text{ESPACE}$]] then [[Class_P|$\text{P}$]] = [[Class_BPP|$\text{BPP}$]] [[ZooRefs#HY84|[HY84] ]].
 
-Is not contained in BQP/mpoly [NY03].
 
-See also: EXPSPACE.
+
+Indeed if [[Class_E|$\text{E}$]] has nonzero measure in [[Class_ESPACE|$\text{ESPACE}$]] then [[Class_P|$\text{P}$]] = [[Class_BPP|$\text{BPP}$]] [[ZooRefs#Lut91|[Lut91] ]].
+
+
+
+[[Class_ESPACE|$\text{ESPACE}$]] is not contained in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#Kan82|[Kan82] ]].
+
+
+
+Is not contained in [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] [[ZooRefs#NY03|[NY03] ]].
+
+
+
+See also: [[Class_EXPSPACE|$\text{EXPSPACE}$]].
 == Relations ==
+
+
+== See Also ==

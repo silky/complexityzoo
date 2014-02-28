@@ -7,16 +7,30 @@
 
 == Comments ==
 
-The class of problems for which there exists a BQP machine M such that:
+The class of problems for which there exists a [[Class_BQP|$\text{BQP}$]] machine M such that:
+
+
 
 If the answer is "yes," then there exists a quantum state ρ such that for all quantum states σ, M(ρ,σ) accepts with probability at least 2/3.
+
 If the answer is "no," then there exists a σ such that for all ρ, M(ρ,σ) rejects with probability at least 2/3.
 
-In other words, it's the same as QRG(k) for , the class of problems that admit quantum interactive proofs with competing provers in which there's no communication from the verifier back to the provers.  QRG(1) is the quantum version of RG(1).
 
-Defined in [JW09], where it was shown that QRG(1) is contained in PSPACE .
 
-QRG(1) trivially contains QMA (and indeed P^QMA^).
+In other words, it's the same as [[Class_QRG(k)|$\text{QRG(k)}$]] for , the class of problems that admit quantum interactive proofs with competing provers in which there's no communication from the verifier back to the provers.  [[Class_QRG(1)|$\text{QRG(1)}$]] is the quantum version of [[Class_RG(1)|$\text{RG(1)}$]].
 
-QRG(1) is trivially contained in QRG(2) (and hence PSPACE).
+
+
+Defined in [[ZooRefs#JW09|[JW09] ]], where it was shown that [[Class_QRG(1)|$\text{QRG(1)}$]] is contained in [[Class_PSPACE|$\text{PSPACE}$]] .
+
+
+
+[[Class_QRG(1)|$\text{QRG(1)}$]] trivially contains [[Class_QMA|$\text{QMA}$]] (and indeed P^QMA^).
+
+
+
+[[Class_QRG(1)|$\text{QRG(1)}$]] is trivially contained in [[Class_QRG(2)|$\text{QRG(2)}$]] (and hence PSPACE).
 == Relations ==
+
+
+== See Also ==

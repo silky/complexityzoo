@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPTIME(f(n)) machine. Thus, HeurBPTIME(f(n)) has the same relationship with BPTIME as HeurDTIME.
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPTIME(f(n))|$\text{BPTIME(f(n))}$]] machine. Thus, [[Class_HeurBPTIME(f(n))|$\text{HeurBPTIME(f(n))}$]] has the same relationship with BPTIME as HeurDTIME.
 
-Thus HeurBPP is the union of HeurBPTIME(n^c^) over all c.
 
-The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPTIME(f(n)) machine.
+
+Thus [[Class_HeurBPP|$\text{HeurBPP}$]] is the union of HeurBPTIME(n^c^) over all c.
+
+
+
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPTIME(f(n))|$\text{BPTIME(f(n))}$]] machine.
 == Relations ==
+
+
+== See Also ==

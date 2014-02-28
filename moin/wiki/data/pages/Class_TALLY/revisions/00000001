@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If TALLY intersects NPC then P = NP [Mah82].
+The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If [[Class_TALLY|$\text{TALLY}$]] intersects [[Class_NPC|$\text{NPC}$]] then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].
 
-Contained in SPARSE.
+
+
+Contained in [[Class_SPARSE|$\text{SPARSE}$]].
 == Relations ==
+
+
+== See Also ==

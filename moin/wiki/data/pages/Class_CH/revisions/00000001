@@ -9,11 +9,22 @@
 
 The union of the C,,k,,P's over all constant k.
 
-Contained in PSPACE.
 
-Strictly contains DLOGTIME-uniform NC^1^ [CMTV98].
 
-It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^, since a padding argument shows that TC^0^ = NC^1^ implies CH = PSPACE.
+Contained in [[Class_PSPACE|$\text{PSPACE}$]].
 
-It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^.
+
+
+Strictly contains DLOGTIME-uniform [[Class_NC1|$\text{NC1}$]] [[ZooRefs#CMTV98|[CMTV98] ]].
+
+
+
+It is an open problem whether there exists an oracle relative to which [[Class_CH|$\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\text{TC0}$]] = [[Class_NC1|$\text{NC1}$]], since a padding argument shows that [[Class_TC0|$\text{TC0}$]] = [[Class_NC1|$\text{NC1}$]] implies [[Class_CH|$\text{CH}$]] = [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+It is an open problem whether there exists an oracle relative to which [[Class_CH|$\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\text{TC0}$]] = [[Class_NC1|$\text{NC1}$]].
 == Relations ==
+
+
+== See Also ==

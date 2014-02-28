@@ -9,5 +9,10 @@
 
 The class of problems solvable by nondeterministic logarithmic-space and polynomial-time Turing machines with auxiliary pushdown.
 
-Equals LOGCFL [Sud78].
+
+
+Equals [[Class_LOGCFL|$\text{LOGCFL}$]] [[ZooRefs#Sud78|[Sud78] ]].
 == Relations ==
+
+
+== See Also ==

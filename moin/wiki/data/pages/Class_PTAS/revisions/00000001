@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The subclass of NPO problems that admit an approximation scheme in the following sense.  For any ε>0, there is a polynomial-time algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  (However, the exponent of the polynomial might depend strongly on ε.)
+The subclass of [[Class_NPO|$\text{NPO}$]] problems that admit an approximation scheme in the following sense.  For any ε>0, there is a polynomial-time algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  (However, the exponent of the polynomial might depend strongly on ε.)
 
-Contains FPTAS, and is contained in APX.
 
-As an example, the Traveling Salesman Problem in the Euclidean plane is in PTAS [Aro96].
 
-Defined in [ACG+99].
+Contains [[Class_FPTAS|$\text{FPTAS}$]], and is contained in [[Class_APX|$\text{APX}$]].
+
+
+
+As an example, the Traveling Salesman Problem in the Euclidean plane is in [[Class_PTAS|$\text{PTAS}$]] [[ZooRefs#Aro96|[Aro96] ]].
+
+
+
+Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 == Relations ==
+
+
+== See Also ==

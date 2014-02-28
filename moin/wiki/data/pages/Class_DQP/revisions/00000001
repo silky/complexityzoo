@@ -7,13 +7,24 @@
 
 == Comments ==
 
-The class of decision problems solvable by a BQP machine with oracle access to a dynamical simulator. When given a polynomial-size quantum circuit, the simulator returns a sample from the distribution over "classical histories" induced by the circuit. The simulator can adversarially choose any history distribution that satisfies the axioms of "symmetry" and "locality" -- so that the DQP algorithm has to work for any distribution satisfying these axioms.
+The class of decision problems solvable by a [[Class_BQP|$\text{BQP}$]] machine with oracle access to a dynamical simulator. When given a polynomial-size quantum circuit, the simulator returns a sample from the distribution over "classical histories" induced by the circuit. The simulator can adversarially choose any history distribution that satisfies the axioms of "symmetry" and "locality" -- so that the [[Class_DQP|$\text{DQP}$]] algorithm has to work for any distribution satisfying these axioms.
 
-See [Aar05] for a full definition.
 
-There it is also shown that SZK is contained in DQP.
 
-Contains BQP, and is contained in EXP [Aar05].
+See [[ZooRefs#Aar05|[Aar05] ]] for a full definition.
 
-There exists an oracle relative to which DQP does not contain NP [Aar05].
+
+
+There it is also shown that [[Class_SZK|$\text{SZK}$]] is contained in [[Class_DQP|$\text{DQP}$]].
+
+
+
+Contains [[Class_BQP|$\text{BQP}$]], and is contained in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#Aar05|[Aar05] ]].
+
+
+
+There exists an oracle relative to which [[Class_DQP|$\text{DQP}$]] does not contain [[Class_NP|$\text{NP}$]] [[ZooRefs#Aar05|[Aar05] ]].
 == Relations ==
+
+
+== See Also ==

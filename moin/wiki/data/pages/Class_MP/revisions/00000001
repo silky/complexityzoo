@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The class of decision problems such that for some #P function f, the answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
+The class of decision problems such that for some [[Class_SharpP|$\text{#P}$]] function f, the answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
 
-Defined in [GKR+95].
 
-Contains AmpMP and PH.
 
-MP with ModP oracle equals MP with #P oracle [KT96].
+Defined in [[ZooRefs#GKR+95|[GKR+95] ]].
+
+
+
+Contains [[Class_AmpMP|$\text{AmpMP}$]] and [[Class_PH|$\text{PH}$]].
+
+
+
+[[Class_MP|$\text{MP}$]] with [[Class_ModP|$\text{ModP}$]] oracle equals [[Class_MP|$\text{MP}$]] with [[Class_SharpP|$\text{#P}$]] oracle [[ZooRefs#KT96|[KT96] ]].
 == Relations ==
+
+
+== See Also ==

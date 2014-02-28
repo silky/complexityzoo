@@ -9,23 +9,46 @@
 
 The class of decision problems for which a 'yes' answer can be verified by a Turing machine in a finite amount of time.  (If the answer is 'no,' on the other hand, the machine might never halt.)
 
+
+
 Equivalently, the class of decision problems for which a Turing machine can list all the 'yes' instances, one by one (this is what 'enumerable' means).
 
-A problem C is complete for RE if (1) C is in RE and (2) any problem in RE can be reduced to C by a Turing machine.
+
+
+A problem C is complete for [[Class_RE|$\text{RE}$]] if (1) C is in [[Class_RE|$\text{RE}$]] and (2) any problem in [[Class_RE|$\text{RE}$]] can be reduced to C by a Turing machine.
+
+
 
 Actually there are two types of reduction: M-reductions (for many-one), in which a single instance of the original problem is mapped to an instance of C, and T-reductions (for Turing), in which an algorithm for the original problem can make arbitrarily many calls to an oracle for C.
 
+
+
 RE-complete sets are also called creative sets for some reason.
+
+
 
 The canonical RE-complete problem is the halting problem: i.e., given a Turing machine, does it halt when started on a blank tape?
 
-The famous unsolvability of the halting problem [Tur36] implies that R does not equal RE.
 
-Also, RE does not equal coRE.
 
-RE and coRE can be generalized to the arithmetic hierarchy AH.
+The famous unsolvability of the halting problem [[ZooRefs#Tur36|[Tur36] ]] implies that [[Class_R|$\text{R}$]] does not equal [[Class_RE|$\text{RE}$]].
 
-There are problems in RE that are neither RE-complete under T-reductions, nor in R [Fri57] [Muc56].  This is the resolution of Post's problem [Pos44].
 
-Indeed, RE contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [Sho99].
+
+Also, [[Class_RE|$\text{RE}$]] does not equal [[Class_coRE|$\text{coRE}$]].
+
+
+
+[[Class_RE|$\text{RE}$]] and [[Class_coRE|$\text{coRE}$]] can be generalized to the arithmetic hierarchy [[Class_AH|$\text{AH}$]].
+
+
+
+There are problems in [[Class_RE|$\text{RE}$]] that are neither RE-complete under T-reductions, nor in [[Class_R|$\text{R}$]] [[ZooRefs#Fri57|[Fri57] ]] [[ZooRefs#Muc56|[Muc56] ]].  This is the resolution of Post's problem [[ZooRefs#Pos44|[Pos44] ]].
+
+
+
+Indeed, [[Class_RE|$\text{RE}$]] contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [[ZooRefs#Sho99|[Sho99] ]].
 == Relations ==
+
+
+== See Also ==

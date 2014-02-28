@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of decision problems solvable in EXP with the help of a polynomial-length advice string that depends only on the input length.
+The class of decision problems solvable in [[Class_EXP|$\text{EXP}$]] with the help of a polynomial-length advice string that depends only on the input length.
 
-Contains BQP/qpoly [Aar04b].
+
+
+Contains [[Class_BQP/qpoly|$\text{BQP/qpoly}$]] [Aar04b].
 == Relations ==
+
+
+== See Also ==

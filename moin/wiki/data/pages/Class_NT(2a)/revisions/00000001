@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Defined like NT, but with a more general ordering on inputs.  A problem L is in NT* if, first, there is a partially defined predecessor function pred(x) in FP that organizes the space of inputs into a forest.  The size of the lineage of each x must also be bounded by 2^poly(|x|)^.  Second, if L(x) is the Boolean answer to L on input x, then L(x)+L(pred(x)) is computable in polynomial time; or if pred(x) does not exist, L(x) is computable in polynomial time.
+Defined like [[Class_NT|$\text{NT}$]], but with a more general ordering on inputs.  A problem [[Class_L|$\text{L}$]] is in [[Class_NT*|$\text{NT*}$]] if, first, there is a partially defined predecessor function pred(x) in [[Class_FP|$\text{FP}$]] that organizes the space of inputs into a forest.  The size of the lineage of each x must also be bounded by 2^poly(|x|)^.  Second, if L(x) is the Boolean answer to [[Class_L|$\text{L}$]] on input x, then L(x)+L(pred(x)) is computable in polynomial time; or if pred(x) does not exist, L(x) is computable in polynomial time.
 
-Defined in [GHJ+91].
 
-Contains NT and is contained in ⊕P.  The inclusions are either both strict or both equalities (whence ⊕P = P as well).
+
+Defined in [[ZooRefs#GHJ+91|[GHJ+91] ]].
+
+
+
+Contains [[Class_NT|$\text{NT}$]] and is contained in [[Class_⊕P|$\text{⊕P}$]].  The inclusions are either both strict or both equalities (whence [[Class_⊕P|$\text{⊕P}$]] = [[Class_P|$\text{P}$]] as well).
 == Relations ==
+
+
+== See Also ==

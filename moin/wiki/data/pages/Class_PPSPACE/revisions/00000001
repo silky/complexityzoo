@@ -7,11 +7,20 @@
 
 == Comments ==
 
-Same as IPP, except that IPP uses private coins while PPSPACE uses public coins.
+Same as [[Class_IPP|$\text{IPP}$]], except that [[Class_IPP|$\text{IPP}$]] uses private coins while [[Class_PPSPACE|$\text{PPSPACE}$]] uses public coins.
 
-Can also be defined as a probabilistic version of PSPACE.
 
-Equals PSPACE.
 
-Defined in [Pap83].
+Can also be defined as a probabilistic version of [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+Equals [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+Defined in [[ZooRefs#Pap83|[Pap83] ]].
 == Relations ==
+
+
+== See Also ==

@@ -7,14 +7,26 @@
 
 == Comments ==
 
-Complement of Π,,2,,P.
+Complement of [[Class_Π2P|$\text{Π2P}$]].
 
-Along with Π,,2,,P, comprises the second level of PH, the polynomial hierarchy.
 
-[Uma98] has shown that the following problems are complete for Σ,,2,,P:
+
+Along with [[Class_Π2P|$\text{Π2P}$]], comprises the second level of [[Class_PH|$\text{PH}$]], the polynomial hierarchy.
+
+
+
+[[ZooRefs#Uma98|[Uma98] ]] has shown that the following problems are complete for [[Class_Σ2P|$\text{Σ2P}$]]:
+
+
 
 Minimum equivalent DNF.  Given a DNF formula F and integer k, is there a DNF formula equivalent to F with k or fewer occurences of literals?
-Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless Σ,,2,,P equals βP^NP^.)
 
-For any fixed k, there is a problem in Σ,,2,,P ∩ Π,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless [[Class_Σ2P|$\text{Σ2P}$]] equals βP^NP^.)
+
+
+
+For any fixed k, there is a problem in [[Class_Σ2P|$\text{Σ2P}$]] ∩ [[Class_Π2P|$\text{Π2P}$]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
+
+
+== See Also ==

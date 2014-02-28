@@ -9,11 +9,22 @@
 
 The class of problems A such that Σ,,k,,P^A^ = Σ,,k,,P; that is, adding A as an oracle does not increase the power of the k^th^ level of the polynomial hierarchy.
 
-L,,1,,P = NP ∩ coNP.
 
-For all k, L,,k,, is contained in L,,k+1,, and in NP.
 
-Defined in [Sch83].
+L,,1,,P = [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]].
 
-See also H,,k,,P.
+
+
+For all k, L,,k,, is contained in L,,k+1,, and in [[Class_NP|$\text{NP}$]].
+
+
+
+Defined in [[ZooRefs#Sch83|[Sch83] ]].
+
+
+
+See also [[Class_HkP|$\text{HkP}$]].
 == Relations ==
+
+
+== See Also ==

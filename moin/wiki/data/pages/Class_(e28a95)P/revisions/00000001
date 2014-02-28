@@ -7,18 +7,34 @@
 
 == Comments ==
 
-The class of decision problems solvable by an NP machine such that
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+
+
 
 If the answer is 'yes,' then the number of accepting paths is odd.
+
 If the answer is 'no,' then the number of accepting paths is even.
 
-Defined in [PZ83].
 
-Contains graph isomorphism; indeed, graph isomorphism is low for ⊕P [AK02].
 
-Contains FewP [CH89].
+Defined in [[ZooRefs#PZ83|[PZ83] ]].
 
-There exists an oracle relative to which P = ⊕P but P is not equal to NP (and indeed NP = EXP) [BBF98].
+
+
+Contains graph isomorphism; indeed, graph isomorphism is low for [[Class_⊕P|$\text{⊕P}$]] [[ZooRefs#AK02|[AK02] ]].
+
+
+
+Contains [[Class_FewP|$\text{FewP}$]] [[ZooRefs#CH89|[CH89] ]].
+
+
+
+There exists an oracle relative to which [[Class_P|$\text{P}$]] = [[Class_⊕P|$\text{⊕P}$]] but [[Class_P|$\text{P}$]] is not equal to [[Class_NP|$\text{NP}$]] (and indeed [[Class_NP|$\text{NP}$]] = EXP) [[ZooRefs#BBF98|[BBF98] ]].
+
+
 
 Equals Mod,,2^m,,P for every positive integer m.
 == Relations ==
+
+
+== See Also ==

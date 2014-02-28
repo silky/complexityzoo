@@ -9,29 +9,58 @@
 
 Equals the union of DTIME(2^p(n)^) over all polynomials p.
 
-Also equals P with E oracle.
 
-If L = P then PSPACE = EXP.
 
-If EXP is in P/poly then EXP = MA [BFL91].
+Also equals [[Class_P|$\text{P}$]] with [[Class_E|$\text{E}$]] oracle.
 
-Problems complete for EXP under many-one reductions have measure 0 in EXP [May94], [JL95].
+
+
+If [[Class_L|$\text{L}$]] = [[Class_P|$\text{P}$]] then [[Class_PSPACE|$\text{PSPACE}$]] = [[Class_EXP|$\text{EXP}$]].
+
+
+
+If [[Class_EXP|$\text{EXP}$]] is in [[Class_P/poly|$\text{P/poly}$]] then [[Class_EXP|$\text{EXP}$]] = [[Class_MA|$\text{MA}$]] [[ZooRefs#BFL91|[BFL91] ]].
+
+
+
+Problems complete for [[Class_EXP|$\text{EXP}$]] under many-one reductions have measure 0 in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#May94|[May94] ]], [[ZooRefs#JL95|[JL95] ]].
+
+
 
 There exist oracles relative to which
 
-EXP = NP = ZPP [Hel84a], [Hel84b], [Kur85], [Hel86],
-EXP = NEXP but still P does not equal NP [Dek76],
-EXP does not equal PSPACE [Dek76].
 
-[BT04] show the following rather striking result: let A be many-one complete for EXP, and let S be any set in P of subexponential density.  Then A-S is Turing-complete for EXP.
 
-[SM03] show that if EXP has circuits of polynomial size, then P can be simulated in MA,,POLYLOG,, such that no deterministic polynomial-time adversary can generate a list of inputs for a P problem that includes one which fails to be simulated. As a result, EXP ⊆ MA if EXP has circuits of polynomial size.
+[[Class_EXP|$\text{EXP}$]] = [[Class_NP|$\text{NP}$]] = [[Class_ZPP|$\text{ZPP}$]] [Hel84a], [Hel84b], [[ZooRefs#Kur85|[Kur85] ]], [[ZooRefs#Hel86|[Hel86] ]],
 
-[SU05] show that EXP  NP/poly implies EXP  P^||NP^/poly.
+[[Class_EXP|$\text{EXP}$]] = [[Class_NEXP|$\text{NEXP}$]] but still [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#Dek76|[Dek76] ]],
+
+[[Class_EXP|$\text{EXP}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Dek76|[Dek76] ]].
+
+
+
+[[ZooRefs#BT04|[BT04] ]] show the following rather striking result: let A be many-one complete for [[Class_EXP|$\text{EXP}$]], and let S be any set in [[Class_P|$\text{P}$]] of subexponential density.  Then A-S is Turing-complete for [[Class_EXP|$\text{EXP}$]].
+
+
+
+[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size, then [[Class_P|$\text{P}$]] can be simulated in [[Class_MAPOLYLOG|$\text{MAPOLYLOG}$]] such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|$\text{P}$]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|$\text{EXP}$]] ⊆ [[Class_MA|$\text{MA}$]] if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size.
+
+
+
+[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\text{EXP}$]]  [[Class_NP/poly|$\text{NP/poly}$]] implies [[Class_EXP|$\text{EXP}$]]  P^||NP^/poly.
+
+
 
 In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
 
-EXP = NP = ZPP [Hel84],
-EXP = NEXP but still P does not equal NP [Dek76],
-EXP does not equal PSPACE [Dek76].
+
+
+[[Class_EXP|$\text{EXP}$]] = [[Class_NP|$\text{NP}$]] = [[Class_ZPP|$\text{ZPP}$]] [[ZooRefs#Hel84|[Hel84] ]],
+
+[[Class_EXP|$\text{EXP}$]] = [[Class_NEXP|$\text{NEXP}$]] but still [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#Dek76|[Dek76] ]],
+
+[[Class_EXP|$\text{EXP}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Dek76|[Dek76] ]].
 == Relations ==
+
+
+== See Also ==

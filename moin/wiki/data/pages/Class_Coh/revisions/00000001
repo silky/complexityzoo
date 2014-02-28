@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The class of problems L that are efficiently autoreducible, in the sense that given an input x and access to an oracle for L, a BPP machine can compute L(x) by querying L only on points that differ from x.
+The class of problems [[Class_L|$\text{L}$]] that are efficiently autoreducible, in the sense that given an input x and access to an oracle for [[Class_L|$\text{L}$]], a [[Class_BPP|$\text{BPP}$]] machine can compute L(x) by querying [[Class_L|$\text{L}$]] only on points that differ from x.
+
+
 
 Defined in [Yao90b].
 
-[BG94] show that, assuming NEE is not contained in BPEE, Coh ∩ NP is not contained in any of compNP, Check, or frIP.
+
+
+[[ZooRefs#BG94|[BG94] ]] show that, assuming [[Class_NEE|$\text{NEE}$]] is not contained in [[Class_BPEE|$\text{BPEE}$]], [[Class_Coh|$\text{Coh}$]] ∩ [[Class_NP|$\text{NP}$]] is not contained in any of [[Class_compNP|$\text{compNP}$]], [[Class_Check|$\text{Check}$]], or [[Class_frIP|$\text{frIP}$]].
 == Relations ==
+
+
+== See Also ==

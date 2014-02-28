@@ -9,10 +9,20 @@
 
 A language  if there are functions  and  such that for all strings :
 
+
+
 There exists a prime  and a natural number  such that .
+
   if and only if .
 
-Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [AV04].
 
-Defined in [AV04].
+
+Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
+
+
+
+Defined in [[ZooRefs#AV04|[AV04] ]].
 == Relations ==
+
+
+== See Also ==

@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of decision problems solvable by a Mod,,k,,P machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
+The class of decision problems solvable by a [[Class_ModkP|$\text{ModkP}$]] machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
 
-Defined in [KT96], where it was also shown that ModP is contained in AmpMP.
+
+
+Defined in [[ZooRefs#KT96|[KT96] ]], where it was also shown that [[Class_ModP|$\text{ModP}$]] is contained in [[Class_AmpMP|$\text{AmpMP}$]].
 == Relations ==
+
+
+== See Also ==

@@ -9,7 +9,14 @@
 
 The class of decision problems solvable by a Turing machine that uses time O(t(n)) and space O(s(n)) simultaneously.
 
-Thus SC = DTISP(poly,polylog) for example.
 
-Defined in [Nis92], where it was also shown that for all space-constructible s(n)=Ω(log n), BPSPACE(s(n)) is contained in DTISP(2^O(s(n))^,s^2^(n)).
+
+Thus [[Class_SC|$\text{SC}$]] = DTISP(poly,polylog) for example.
+
+
+
+Defined in [[ZooRefs#Nis92|[Nis92] ]], where it was also shown that for all space-constructible s(n)=Ω(log n), BPSPACE(s(n)) is contained in DTISP(2^O(s(n))^,s^2^(n)).
 == Relations ==
+
+
+== See Also ==

@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of FNP search problems solvable in O(2^εn^) time for every ε>0.
+The class of [[Class_FNP|$\text{FNP}$]] search problems solvable in O(2^εn^) time for every ε>0.
 
-Defined in [IPZ01], who also gave reductions showing that if any of k-SAT, k-colorability, k-set cover, clique, or vertex cover is in SE, then all of them are.
+
+
+Defined in [[ZooRefs#IPZ01|[IPZ01] ]], who also gave reductions showing that if any of k-SAT, k-colorability, k-set cover, clique, or vertex cover is in [[Class_SE|$\text{SE}$]], then all of them are.
 == Relations ==
+
+
+== See Also ==

@@ -7,8 +7,14 @@
 
 == Comments ==
 
-Defined by [BFS86], UPP^cc^ is one of two communication complexity analogues of PP.
-UPP^cc^ is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
+Defined by [[ZooRefs#BFS86|[BFS86] ]], [[Class_UPPcc|$\text{UPPcc}$]] is one of two communication complexity analogues of [[Class_PP|$\text{PP}$]].
 
-See also: PP^cc^.
+[[Class_UPPcc|$\text{UPPcc}$]] is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
+
+
+
+See also: [[Class_PPcc|$\text{PPcc}$]].
 == Relations ==
+
+
+== See Also ==

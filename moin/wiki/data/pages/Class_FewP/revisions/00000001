@@ -7,20 +7,38 @@
 
 == Comments ==
 
-The class of decision problems solvable by an NP machine such that
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+
+
 
 If the answer is 'no,' then all computation paths reject.
+
 If the answer is 'yes,' then at least one path accepts; furthermore, the number of accepting paths is upper-bounded by a polynomial in n, the size of the input.
 
-Defined in [AR88].
 
-Is contained in ⊕P [CH89].
 
-There exists an oracle relative to which P, UP, FewP, and NP are all distinct [Rub88].
+Defined in [[ZooRefs#AR88|[AR88] ]].
 
-Also, there exists an oracle relative to which FewP does not have a Turing-complete set [HJV93].
 
-Contained in Few.
 
-See also the survey [Tor90].
+Is contained in [[Class_⊕P|$\text{⊕P}$]] [[ZooRefs#CH89|[CH89] ]].
+
+
+
+There exists an oracle relative to which [[Class_P|$\text{P}$]], [[Class_UP|$\text{UP}$]], [[Class_FewP|$\text{FewP}$]], and [[Class_NP|$\text{NP}$]] are all distinct [[ZooRefs#Rub88|[Rub88] ]].
+
+
+
+Also, there exists an oracle relative to which [[Class_FewP|$\text{FewP}$]] does not have a Turing-complete set [[ZooRefs#HJV93|[HJV93] ]].
+
+
+
+Contained in [[Class_Few|$\text{Few}$]].
+
+
+
+See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 == Relations ==
+
+
+== See Also ==

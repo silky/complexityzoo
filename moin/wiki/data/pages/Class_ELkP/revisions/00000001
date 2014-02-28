@@ -7,9 +7,16 @@
 
 == Comments ==
 
-An extension of L,,k,,P.
+An extension of [[Class_LkP|$\text{LkP}$]].
+
+
 
 The class of problems A such that Σ,,k,,P^A^ is contained in Σ,,k-1,,P^A,NP^.
 
-Defined in [BBS86].
+
+
+Defined in [[ZooRefs#BBS86|[BBS86] ]].
 == Relations ==
+
+
+== See Also ==

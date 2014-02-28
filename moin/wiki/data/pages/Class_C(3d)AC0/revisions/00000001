@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)=0.
+The class of problems for which there exists a [[Class_DiffAC0|$\text{DiffAC0}$]] function f such that the answer is "yes" on input x if and only if f(x)=0.
 
-Equals TC^0^ and PAC^0^ under logspace uniformity [ABL98].
+
+
+Equals [[Class_TC0|$\text{TC0}$]] and [[Class_PAC0|$\text{PAC0}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
+
+
+== See Also ==

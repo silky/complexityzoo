@@ -9,7 +9,14 @@
 
 The class of decision problems (x,m) (where x is an input of length |x|=n and m is an integer parameter), that are solvable by a nondeterministic (i.e. NP) machine in poly(n+m) time and O(m+log n) space simultaneously.
 
-Defined in [Mon80].
 
-See also FPT.
+
+Defined in [[ZooRefs#Mon80|[Mon80] ]].
+
+
+
+See also [[Class_FPT|$\text{FPT}$]].
 == Relations ==
+
+
+== See Also ==

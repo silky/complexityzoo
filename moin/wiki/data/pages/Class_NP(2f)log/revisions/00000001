@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as NP/poly, except that now the advice string is logarithmic-size.
+Same as [[Class_NP/poly|$\text{NP/poly}$]], except that now the advice string is logarithmic-size.
 
-Shown in [FK05] that EXP ⊆ NP/log if and only if EXP = P^||NP^.
+
+
+Shown in [[ZooRefs#FK05|[FK05] ]] that [[Class_EXP|$\text{EXP}$]] ⊆ [[Class_NP/log|$\text{NP/log}$]] if and only if [[Class_EXP|$\text{EXP}$]] = [[Class_P||NP|$\text{P||NP}$]].
 == Relations ==
+
+
+== See Also ==

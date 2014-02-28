@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals NQL [GS89].
+Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals [[Class_NQL|$\text{NQL}$]] [[ZooRefs#GS89|[GS89] ]].
 
-Defined in [GS89].
+
+
+Defined in [[ZooRefs#GS89|[GS89] ]].
 == Relations ==
+
+
+== See Also ==

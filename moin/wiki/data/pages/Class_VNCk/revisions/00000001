@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to VP,,k,, as NC does to P.
+Has the same relation to [[Class_VPk|$\text{VPk}$]] as [[Class_NC|$\text{NC}$]] does to [[Class_P|$\text{P}$]].
 
-More formally, the class of VP,,k,, problems computable by a straight-line program of depth polylogarithmic in n.
 
-Surprisingly, VNC,,k,, = VP,,k,, for any k [VSB+83].
+
+More formally, the class of [[Class_VPk|$\text{VPk}$]] problems computable by a straight-line program of depth polylogarithmic in n.
+
+
+
+Surprisingly, [[Class_VNCk|$\text{VNCk}$]] = [[Class_VPk|$\text{VPk}$]] for any k [[ZooRefs#VSB+83|[VSB+83] ]].
 == Relations ==
+
+
+== See Also ==

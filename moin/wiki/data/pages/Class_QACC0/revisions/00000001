@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as QAC^0^[m], except that Mod-m gates are allowed for any m.
+Same as [[Class_QAC0[m]|$\text{QAC0[m]}$]], except that Mod-m gates are allowed for any m.
 
-Defined in [Moo99].
 
-[GHP00] showed that QACC^0^ equals QAC^0^[p] for any prime p.
+
+Defined in [[ZooRefs#Moo99|[Moo99] ]].
+
+
+
+[[ZooRefs#GHP00|[GHP00] ]] showed that [[Class_QACC0|$\text{QACC0}$]] equals QAC^0^[p] for any prime p.
 == Relations ==
+
+
+== See Also ==

@@ -9,14 +9,28 @@
 
 Defined as follows:
 
-C,,0,,P = P
-C,,1,,P = PP
+
+
+C,,0,,P = [[Class_P|$\text{P}$]]
+
+C,,1,,P = [[Class_PP|$\text{PP}$]]
+
 C,,2,,P = PP^PP^
-In general, C,,k+1,,P is PP with C,,k,,P oracle
 
-The union of the C,,k,,P's is called the counting hierarchy, CH.
+In general, C,,k+1,,P is [[Class_PP|$\text{PP}$]] with [[Class_CkP|$\text{CkP}$]] oracle
 
-Defined in [Wag86].
 
-See [Tor91] or [AW90] for more information.
+
+The union of the C,,k,,P's is called the counting hierarchy, [[Class_CH|$\text{CH}$]].
+
+
+
+Defined in [[ZooRefs#Wag86|[Wag86] ]].
+
+
+
+See [[ZooRefs#Tor91|[Tor91] ]] or [[ZooRefs#AW90|[AW90] ]] for more information.
 == Relations ==
+
+
+== See Also ==

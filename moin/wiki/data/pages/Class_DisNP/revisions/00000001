@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The class of pairs (A,B), where A and B are NP problems whose sets of "yes" instances are nonempty and disjoint.
+The class of pairs (A,B), where A and B are [[Class_NP|$\text{NP}$]] problems whose sets of "yes" instances are nonempty and disjoint.
 
-If there exists an optimal propositional proof system, then DisNP has a complete pair [Raz94].  On the other hand, there exists an oracle relative to which DisNP does not have a complete pair [GSS+03].
 
-If P does not equal UP, then DisNP contains pairs not separated by any set in P [GS88].  On the other hand, there exists an oracle relative to which P does not equal NP but still DisNP does not contain any P-inseparable pairs [HS92].
+
+If there exists an optimal propositional proof system, then [[Class_DisNP|$\text{DisNP}$]] has a complete pair [[ZooRefs#Raz94|[Raz94] ]].  On the other hand, there exists an oracle relative to which [[Class_DisNP|$\text{DisNP}$]] does not have a complete pair [[ZooRefs#GSS+03|[GSS+03] ]].
+
+
+
+If [[Class_P|$\text{P}$]] does not equal [[Class_UP|$\text{UP}$]], then [[Class_DisNP|$\text{DisNP}$]] contains pairs not separated by any set in [[Class_P|$\text{P}$]] [[ZooRefs#GS88|[GS88] ]].  On the other hand, there exists an oracle relative to which [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] but still [[Class_DisNP|$\text{DisNP}$]] does not contain any P-inseparable pairs [[ZooRefs#HS92|[HS92] ]].
 == Relations ==
+
+
+== See Also ==

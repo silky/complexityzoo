@@ -7,5 +7,8 @@
 
 == Comments ==
 
-Has the same relation to BP,,H,,SPACE(f(n)) as RP does to BPP.
+Has the same relation to [[Class_BPHSPACE(f(n))|$\text{BPHSPACE(f(n))}$]] as [[Class_RP|$\text{RP}$]] does to [[Class_BPP|$\text{BPP}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as ZPP, but with 2^O(n)^-time instead of polynomial-time.
+Same as [[Class_ZPP|$\text{ZPP}$]], but with 2^O(n)^-time instead of polynomial-time.
 
-ZPE = EE if and only if ZPP = EXP [IKW01].
+
+
+[[Class_ZPE|$\text{ZPE}$]] = [[Class_EE|$\text{EE}$]] if and only if [[Class_ZPP|$\text{ZPP}$]] = [[Class_EXP|$\text{EXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
+
+
+== See Also ==

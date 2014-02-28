@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Complement of Σ,,2,,P.
+Complement of [[Class_Σ2P|$\text{Σ2P}$]].
 
-Along with Σ,,2,,P, comprises the second level of PH, the polynomial hierarchy. For any fixed k, there is a problem in Π,,2,,P ∩ Σ,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+
+
+Along with [[Class_Σ2P|$\text{Σ2P}$]], comprises the second level of [[Class_PH|$\text{PH}$]], the polynomial hierarchy. For any fixed k, there is a problem in [[Class_Π2P|$\text{Π2P}$]] ∩ [[Class_Σ2P|$\text{Σ2P}$]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
+
+
+== See Also ==

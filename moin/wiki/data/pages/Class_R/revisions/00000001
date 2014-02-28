@@ -9,9 +9,18 @@
 
 The class of decision problems solvable by a Turing machine.  Often identified with the class of 'effectively computable' functions (the Church-Turing thesis).
 
-Defined in [Tur36], [Chu41], and other seminal early papers.
 
-Equals RE ∩ coRE.
 
-Strictly contains PR, the primitive recursive functions (see [Kle71]).
+Defined in [[ZooRefs#Tur36|[Tur36] ]], [[ZooRefs#Chu41|[Chu41] ]], and other seminal early papers.
+
+
+
+Equals [[Class_RE|$\text{RE}$]] ∩ [[Class_coRE|$\text{coRE}$]].
+
+
+
+Strictly contains [[Class_PR|$\text{PR}$]], the primitive recursive functions (see [[ZooRefs#Kle71|[Kle71] ]]).
 == Relations ==
+
+
+== See Also ==

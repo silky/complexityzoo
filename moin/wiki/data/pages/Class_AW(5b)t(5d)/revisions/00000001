@@ -7,11 +7,20 @@
 
 == Comments ==
 
-Has the same relation to W[t] as PSPACE does to NP.
+Has the same relation to [[Class_W[t]|$\text{W[t]}$]] as [[Class_PSPACE|$\text{PSPACE}$]] does to [[Class_NP|$\text{NP}$]].
 
-Same as AW[SAT], except that the formula F can have depth at most t.
 
-Defined in [DF99].
 
-Contained in AW[*].
+Same as [[Class_AW[SAT]|$\text{AW[SAT]}$]], except that the formula F can have depth at most t.
+
+
+
+Defined in [[ZooRefs#DF99|[DF99] ]].
+
+
+
+Contained in [[Class_AW[*]|$\text{AW[*]}$]].
 == Relations ==
+
+
+== See Also ==

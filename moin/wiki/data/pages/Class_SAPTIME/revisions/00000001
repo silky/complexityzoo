@@ -9,5 +9,10 @@
 
 The class of problems solvable by a polynomial-time Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
-Defined in [Pap83], where it was also observed that SAPTIME = PSPACE.
+
+
+Defined in [[ZooRefs#Pap83|[Pap83] ]], where it was also observed that [[Class_SAPTIME|$\text{SAPTIME}$]] = [[Class_PSPACE|$\text{PSPACE}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,13 +7,24 @@
 
 == Comments ==
 
-The analogue of P^cc^ for bounded-error probabilistic communication complexity.
+The analogue of [[Class_Pcc|$\text{Pcc}$]] for bounded-error probabilistic communication complexity.
 
-Does not equal P^cc^, and is not contained in NP^cc^, because of the EQUALITY problem.
 
-Defined in [BFS86].
 
-Has the same relation to BPP^cc^ and BPP as P,,,,^cc^ does to P^cc^ and P.
+Does not equal [[Class_Pcc|$\text{Pcc}$]], and is not contained in [[Class_NPcc|$\text{NPcc}$]], because of the EQUALITY problem.
 
-NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant  [DP08].
+
+
+Defined in [[ZooRefs#BFS86|[BFS86] ]].
+
+
+
+Has the same relation to [[Class_BPPcc|$\text{BPPcc}$]] and [[Class_BPP|$\text{BPP}$]] as [[Class_Pcc|$\text{Pcc}$]] does to [[Class_Pcc|$\text{Pcc}$]] and [[Class_P|$\text{P}$]].
+
+
+
+[[Class_NPcc|$\text{NPcc}$]] is not contained in [[Class_BPPcc|$\text{BPPcc}$]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
+
+
+== See Also ==

@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Has the same relation to E as BPP does to P.
+Has the same relation to [[Class_E|$\text{E}$]] as [[Class_BPP|$\text{BPP}$]] does to [[Class_P|$\text{P}$]].
 
-EE = BPE if and only if EXP = BPP [IKW01].
+
+
+[[Class_EE|$\text{EE}$]] = [[Class_BPE|$\text{BPE}$]] if and only if [[Class_EXP|$\text{EXP}$]] = [[Class_BPP|$\text{BPP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
+
+
+== See Also ==

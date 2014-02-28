@@ -7,17 +7,32 @@
 
 == Comments ==
 
-Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist GapP functions f and g such that for all inputs x with n=|x|,
+Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist [[Class_GapP|$\text{GapP}$]] functions f and g such that for all inputs x with n=|x|,
+
+
 
 If the answer is "yes" then 1 > f(x)/g(1^n^) > 1-2^-p(n)^.
+
 If the answer is "no" then 0 < f(x)/g(1^n^) < 2^-p(n)^.
 
-Defined in [Li93], where the following was also shown:
 
-APP is contained in PP, and indeed is low for PP.
-APP is closed under intersection, union, and complement.
 
-APP contains AWPP [Fen02].
+Defined in [[ZooRefs#Li93|[Li93] ]], where the following was also shown:
 
-The abbreviation APP is also used for Approximable in Probabilistic Polynomial Time, see AxPP.
+
+
+[[Class_APP|$\text{APP}$]] is contained in [[Class_PP|$\text{PP}$]], and indeed is low for [[Class_PP|$\text{PP}$]].
+
+[[Class_APP|$\text{APP}$]] is closed under intersection, union, and complement.
+
+
+
+[[Class_APP|$\text{APP}$]] contains [[Class_AWPP|$\text{AWPP}$]] [[ZooRefs#Fen02|[Fen02] ]].
+
+
+
+The abbreviation [[Class_APP|$\text{APP}$]] is also used for Approximable in Probabilistic Polynomial Time, see [[Class_AxPP|$\text{AxPP}$]].
 == Relations ==
+
+
+== See Also ==

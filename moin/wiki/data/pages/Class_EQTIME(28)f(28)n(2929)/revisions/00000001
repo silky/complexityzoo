@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as EQP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
+Same as [[Class_EQP|$\text{EQP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
-Defined in [BV97].
+
+
+Defined in [[ZooRefs#BV97|[BV97] ]].
 == Relations ==
+
+
+== See Also ==

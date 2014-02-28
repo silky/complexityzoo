@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as AM, except that Arthur is exponential-time and can exchange exponentially long messages with Merlin.
+Same as [[Class_AM|$\text{AM}$]], except that Arthur is exponential-time and can exchange exponentially long messages with Merlin.
 
-Contains MA,,EXP,,, and is contained in EH and indeed S,,2,,-EXP•P^NP^.
 
-If coNP is contained in AM[polylog] then EH collapses to AM,,EXP,, [PV04].
+
+Contains [[Class_MAEXP|$\text{MAEXP}$]], and is contained in [[Class_EH|$\text{EH}$]] and indeed [[Class_S2-EXP•PNP|$\text{S2-EXP•PNP}$]].
+
+
+
+If [[Class_coNP|$\text{coNP}$]] is contained in [[Class_AM[polylog]|$\text{AM[polylog]}$]] then [[Class_EH|$\text{EH}$]] collapses to [[Class_AMEXP|$\text{AMEXP}$]] [[ZooRefs#PV04|[PV04] ]].
 == Relations ==
+
+
+== See Also ==

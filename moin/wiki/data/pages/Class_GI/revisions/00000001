@@ -9,13 +9,26 @@
 
 Can be defined as the class of problems polynomial-time Turing reducible to the Graph Isomorphism problem.
 
-Contains GA and is contained in Δ,,2,,P.
 
-The Graph Isomorphism problem itself (as opposed to the set of problems Turing reducible to Graph Isomorphism) is contained in NP as well as coAM (and indeed SZK).  So in particular, if Graph Isomorphism is NP-complete, then PH collapses.
 
-See [KST93] for much more information about GI.
+Contains [[Class_GA|$\text{GA}$]] and is contained in [[Class_Δ2P|$\text{Δ2P}$]].
+
+
+
+The Graph Isomorphism problem itself (as opposed to the set of problems Turing reducible to Graph Isomorphism) is contained in [[Class_NP|$\text{NP}$]] as well as [[Class_coAM|$\text{coAM}$]] (and indeed SZK).  So in particular, if Graph Isomorphism is NP-complete, then [[Class_PH|$\text{PH}$]] collapses.
+
+
+
+See [[ZooRefs#KST93|[KST93] ]] for much more information about [[Class_GI|$\text{GI}$]].
+
+
 
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether two graphs are isomorphic.
 
-The GI problem itself (as opposed to the set of problems Turing reducible to GI) is contained in NP as well as coAM (and indeed SZK).  So in particular, if graph isomorphism is NP-complete, then PH collapses.
+
+
+The [[Class_GI|$\text{GI}$]] problem itself (as opposed to the set of problems Turing reducible to GI) is contained in [[Class_NP|$\text{NP}$]] as well as [[Class_coAM|$\text{coAM}$]] (and indeed SZK).  So in particular, if graph isomorphism is NP-complete, then [[Class_PH|$\text{PH}$]] collapses.
 == Relations ==
+
+
+== See Also ==

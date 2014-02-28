@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as AP, but for logarithmic-space instead of polynomial-time.
+Same as [[Class_AP|$\text{AP}$]], but for logarithmic-space instead of polynomial-time.
 
-AL = P [CKS81].
+
+
+[[Class_AL|$\text{AL}$]] = [[Class_P|$\text{P}$]] [[ZooRefs#CKS81|[CKS81] ]].
 == Relations ==
+
+
+== See Also ==

@@ -9,5 +9,10 @@
 
 Equals DTIME(n^O(log n)^).
 
-Has the same relationship to QP that E does to EXP.
+
+
+Has the same relationship to [[Class_QP|$\text{QP}$]] that [[Class_E|$\text{E}$]] does to [[Class_EXP|$\text{EXP}$]].
 == Relations ==
+
+
+== See Also ==

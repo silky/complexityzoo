@@ -7,15 +7,28 @@
 
 == Comments ==
 
-A level of PH, the polynomial hierarchy.
+A level of [[Class_PH|$\text{PH}$]], the polynomial hierarchy.
 
-Contains BH.
 
-There exists an oracle relative to which Δ,,2,,P is not contained in PP [Bei94].
 
-There exists another oracle relative to which Δ,,2,,P is contained in P/poly [BGS75], and indeed has linear-size circuits [Wil85].
+Contains [[Class_BH|$\text{BH}$]].
 
-There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ,,2,,P^B^ [KV96].
 
-If P = NP, then any polynomial-size circuit C can be learned in Δ,,2,,P with C oracle [Aar06].
+
+There exists an oracle relative to which [[Class_Δ2P|$\text{Δ2P}$]] is not contained in [[Class_PP|$\text{PP}$]] [[ZooRefs#Bei94|[Bei94] ]].
+
+
+
+There exists another oracle relative to which [[Class_Δ2P|$\text{Δ2P}$]] is contained in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#BGS75|[BGS75] ]], and indeed has linear-size circuits [[ZooRefs#Wil85|[Wil85] ]].
+
+
+
+There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ,,2,,P^B^ [[ZooRefs#KV96|[KV96] ]].
+
+
+
+If [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]], then any polynomial-size circuit C can be learned in [[Class_Δ2P|$\text{Δ2P}$]] with C oracle [[ZooRefs#Aar06|[Aar06] ]].
 == Relations ==
+
+
+== See Also ==

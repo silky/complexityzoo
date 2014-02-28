@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as FewP but for logspace-bounded (i.e. NL) machines.
+Same as [[Class_FewP|$\text{FewP}$]] but for logspace-bounded (i.e. NL) machines.
 
-Defined in [BDH+92], where it was also shown that LogFewNL is contained in ModZ,,k,,L for all k>1.
+
+
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFewNL|$\text{LogFewNL}$]] is contained in [[Class_ModZkL|$\text{ModZkL}$]] for all k>1.
 == Relations ==
+
+
+== See Also ==

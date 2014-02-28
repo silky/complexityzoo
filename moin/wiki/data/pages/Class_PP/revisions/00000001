@@ -7,30 +7,58 @@
 
 == Comments ==
 
-The class of decision problems solvable by an NP machine such that
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+
+
 
 If the answer is 'yes' then at least 1/2 of computation paths accept.
+
 If the answer is 'no' then less than 1/2 of computation paths accept.
 
-Defined in [Gil77].
 
-PP is closed under union and intersection [BRS91] (this was an open problem for 14 years).
 
-Contains P^NP[log]^ [BHW89].
+Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
-Equals PP^BPP^ [KST+89b] as well as PostBQP [Aar05b].
 
-However, there exists an oracle relative to which PP does not contain Δ,,2,,P [Bei94].
 
-PH is in P^PP^ [Tod89].
+[[Class_PP|$\text{PP}$]] is closed under union and intersection [[ZooRefs#BRS91|[BRS91] ]] (this was an open problem for 14 years).
 
-BQP is low for PP; i.e. PP^BQP^ = PP [FR98].
 
-For a random oracle A, PP^A^ is strictly contained in PSPACE^A^ with probability 1 [ABF+94].
 
-For any fixed k, there exists a language in PP that does not have circuits of size n^k^ [Vin04b].  Indeed, there exists a language in PP that does not even have quantum circuits of size n^k^ with quantum advice [Aar06].
+Contains [[Class_PNP[log]|$\text{PNP[log]}$]] [[ZooRefs#BHW89|[BHW89] ]].
 
-By contrast, there exists an oracle relative to which PP has linear-size circuits [Aar06].
 
-PP can be generalized to the counting hierarchy CH.
+
+Equals PP^BPP^ [KST+89b] as well as [[Class_PostBQP|$\text{PostBQP}$]] [Aar05b].
+
+
+
+However, there exists an oracle relative to which [[Class_PP|$\text{PP}$]] does not contain [[Class_Δ2P|$\text{Δ2P}$]] [[ZooRefs#Bei94|[Bei94] ]].
+
+
+
+[[Class_PH|$\text{PH}$]] is in [[Class_PPP|$\text{PPP}$]] [[ZooRefs#Tod89|[Tod89] ]].
+
+
+
+[[Class_BQP|$\text{BQP}$]] is low for [[Class_PP|$\text{PP}$]]; i.e. PP^BQP^ = [[Class_PP|$\text{PP}$]] [[ZooRefs#FR98|[FR98] ]].
+
+
+
+For a random oracle A, [[Class_PPA|$\text{PPA}$]] is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|[ABF+94] ]].
+
+
+
+For any fixed k, there exists a language in [[Class_PP|$\text{PP}$]] that does not have circuits of size n^k^ [Vin04b].  Indeed, there exists a language in [[Class_PP|$\text{PP}$]] that does not even have quantum circuits of size n^k^ with quantum advice [[ZooRefs#Aar06|[Aar06] ]].
+
+
+
+By contrast, there exists an oracle relative to which [[Class_PP|$\text{PP}$]] has linear-size circuits [[ZooRefs#Aar06|[Aar06] ]].
+
+
+
+[[Class_PP|$\text{PP}$]] can be generalized to the counting hierarchy [[Class_CH|$\text{CH}$]].
 == Relations ==
+
+
+== See Also ==

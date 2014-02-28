@@ -9,10 +9,20 @@
 
 The class of problems for which there exists a polynomial-time predicate P(x,y,z) such that for all x, if the answer on input x is "yes," then
 
+
+
 For all y, there exists a z for which P(x,y,z).
+
 For all z, there exists a y for which P(x,y,z).
 
-Contained in Σ,,2,,P and Π,,2,,P.
 
-Defined in [Can96], where it was also observed that Φ,,2,,P = S,,2,,P.
+
+Contained in [[Class_Σ2P|$\text{Σ2P}$]] and [[Class_Π2P|$\text{Π2P}$]].
+
+
+
+Defined in [[ZooRefs#Can96|[Can96] ]], where it was also observed that [[Class_Φ2P|$\text{Φ2P}$]] = [[Class_S2P|$\text{S2P}$]].
 == Relations ==
+
+
+== See Also ==

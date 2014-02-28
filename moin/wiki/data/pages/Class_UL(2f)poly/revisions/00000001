@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to UL as P/poly does to P.
+Has the same relation to [[Class_UL|$\text{UL}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].
 
-Equals NL/poly [RA00]. (A corollary is that UL/poly is closed under complement).
 
-Note that in UL/poly, the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [RA00] show that they both equal NL/poly.
+
+Equals [[Class_NL/poly|$\text{NL/poly}$]] [[ZooRefs#RA00|[RA00] ]]. (A corollary is that [[Class_UL/poly|$\text{UL/poly}$]] is closed under complement).
+
+
+
+Note that in [[Class_UL/poly|$\text{UL/poly}$]], the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [[ZooRefs#RA00|[RA00] ]] show that they both equal [[Class_NL/poly|$\text{NL/poly}$]].
 == Relations ==
+
+
+== See Also ==

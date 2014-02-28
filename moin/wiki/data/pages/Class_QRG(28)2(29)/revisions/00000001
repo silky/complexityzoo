@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as QRG, except that now the verifier can exchange only two messages with each prover.  Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  QRG(2) is the quantum version of RG(2).  See also QRG(k).
+Same as [[Class_QRG|$\text{QRG}$]], except that now the verifier can exchange only two messages with each prover.  Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  [[Class_QRG(2)|$\text{QRG(2)}$]] is the quantum version of [[Class_RG(2)|$\text{RG(2)}$]].  See also [[Class_QRG(k)|$\text{QRG(k)}$]].
 
-QRG(2) trivially contains RG(2) (and hence PSPACE).
 
-QRG(2) is trivially contained in SQG (and hence PSPACE).  Hence QRG(2) = RG(2) = PSPACE and finding optimal strategies for two-turn zero-sum quantum games is no harder than finding optimal strategies for two-turn zero-sum classical games.
+
+[[Class_QRG(2)|$\text{QRG(2)}$]] trivially contains [[Class_RG(2)|$\text{RG(2)}$]] (and hence PSPACE).
+
+
+
+[[Class_QRG(2)|$\text{QRG(2)}$]] is trivially contained in [[Class_SQG|$\text{SQG}$]] (and hence PSPACE).  Hence [[Class_QRG(2)|$\text{QRG(2)}$]] = [[Class_RG(2)|$\text{RG(2)}$]] = [[Class_PSPACE|$\text{PSPACE}$]] and finding optimal strategies for two-turn zero-sum quantum games is no harder than finding optimal strategies for two-turn zero-sum classical games.
 == Relations ==
+
+
+== See Also ==

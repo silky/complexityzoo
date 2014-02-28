@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The class of languages L in NP such that the union, over all x in L, of the set of valid witnesses for x equals L itself.
+The class of languages [[Class_L|$\text{L}$]] in [[Class_NP|$\text{NP}$]] such that the union, over all x in [[Class_L|$\text{L}$]], of the set of valid witnesses for x equals [[Class_L|$\text{L}$]] itself.
 
-Defined in [HT03], where it was shown that the closure of SelfNP under polynomial-time many-one reductions is NP.
 
-They also show that if SelfNP = NP, then E = NE; and that SAT is contained in SelfNP.
 
-See also: PermUP.
+Defined in [[ZooRefs#HT03|[HT03] ]], where it was shown that the closure of [[Class_SelfNP|$\text{SelfNP}$]] under polynomial-time many-one reductions is [[Class_NP|$\text{NP}$]].
+
+
+
+They also show that if [[Class_SelfNP|$\text{SelfNP}$]] = [[Class_NP|$\text{NP}$]], then [[Class_E|$\text{E}$]] = [[Class_NE|$\text{NE}$]]; and that SAT is contained in [[Class_SelfNP|$\text{SelfNP}$]].
+
+
+
+See also: [[Class_PermUP|$\text{PermUP}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,17 +7,32 @@
 
 == Comments ==
 
-The analog of PH in computability theory.
+The analog of [[Class_PH|$\text{PH}$]] in computability theory.
 
-Let Δ,,0,, = Σ,,0,, = Π,,0,, = R.  Then for i>0, let
 
-Δ,,i,, = R with Σ,,i-1,, oracle.
-Σ,,i,, = RE with Σ,,i-1,, oracle.
-Π,,i,, = coRE with Σ,,i-1,, oracle.
 
-Then AH is the union of these classes for all nonnegative constant i.
+Let Δ,,0,, = Σ,,0,, = Π,,0,, = [[Class_R|$\text{R}$]].  Then for i>0, let
 
-Each level of AH strictly contains the levels below it.
+
+
+Δ,,i,, = [[Class_R|$\text{R}$]] with Σ,,i-1,, oracle.
+
+Σ,,i,, = [[Class_RE|$\text{RE}$]] with Σ,,i-1,, oracle.
+
+Π,,i,, = [[Class_coRE|$\text{coRE}$]] with Σ,,i-1,, oracle.
+
+
+
+Then [[Class_AH|$\text{AH}$]] is the union of these classes for all nonnegative constant i.
+
+
+
+Each level of [[Class_AH|$\text{AH}$]] strictly contains the levels below it.
+
+
 
 An equivalent definition is:  is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and . A bounded quantifier is of the form  or  where   is considered to be free in . Then  is the sets of number validating a formula of the form  with .  is the set of formula who are negation of  formula.
 == Relations ==
+
+
+== See Also ==

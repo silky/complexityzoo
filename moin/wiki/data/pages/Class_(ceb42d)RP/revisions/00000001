@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as δ-BPP, but for RP instead of BPP.
+Same as [[Class_δ-BPP|$\text{δ-BPP}$]], but for [[Class_RP|$\text{RP}$]] instead of [[Class_BPP|$\text{BPP}$]].
 
-For any δ>0, δ-RP = RP [VV85].
+
+
+For any δ>0, [[Class_δ-RP|$\text{δ-RP}$]] = [[Class_RP|$\text{RP}$]] [[ZooRefs#VV85|[VV85] ]].
 == Relations ==
+
+
+== See Also ==

@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as MA, except now Arthur is E instead of polynomial-time.
+Same as [[Class_MA|$\text{MA}$]], except now Arthur is [[Class_E|$\text{E}$]] instead of polynomial-time.
 
-If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].
+
+
+If [[Class_MAE|$\text{MAE}$]] = [[Class_NEE|$\text{NEE}$]] then [[Class_MA|$\text{MA}$]] = [[Class_NEXP|$\text{NEXP}$]] ∩ [[Class_coNEXP|$\text{coNEXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
+
+
+== See Also ==

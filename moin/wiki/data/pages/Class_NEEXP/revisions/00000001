@@ -9,7 +9,14 @@
 
 Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^^) for p a polynomial).
 
-Equals MIP,,EXP,, (unrelativized).
+
+
+Equals [[Class_MIPEXP|$\text{MIPEXP}$]] (unrelativized).
+
+
 
 Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^) for p a polynomial).
 == Relations ==
+
+
+== See Also ==

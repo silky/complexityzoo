@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Is to YPP as BQP is to BPP, and QMA is to MA.  The machine is now a quantum computer and the advice is a quantum state |ψ_n>.
+Is to [[Class_YPP|$\text{YPP}$]] as [[Class_BQP|$\text{BQP}$]] is to [[Class_BPP|$\text{BPP}$]], and [[Class_QMA|$\text{QMA}$]] is to [[Class_MA|$\text{MA}$]].  The machine is now a quantum computer and the advice is a quantum state |ψ_n>.
 
-Contains BQP and YPP, and is contained in QMA and BQP/qpoly.
+
+
+Contains [[Class_BQP|$\text{BQP}$]] and [[Class_YPP|$\text{YPP}$]], and is contained in [[Class_QMA|$\text{QMA}$]] and [[Class_BQP/qpoly|$\text{BQP/qpoly}$]].
 == Relations ==
+
+
+== See Also ==

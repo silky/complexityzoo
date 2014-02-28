@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as AW[SAT] but with 'circuit' instead of 'formula.'
+Same as [[Class_AW[SAT]|$\text{AW[SAT]}$]] but with 'circuit' instead of 'formula.'
 
-Has the same relation to AW[SAT] as W[P] has to W[SAT].
 
-Defined in [DF99].
+
+Has the same relation to [[Class_AW[SAT]|$\text{AW[SAT]}$]] as [[Class_W[P]|$\text{W[P]}$]] has to [[Class_W[SAT]|$\text{W[SAT]}$]].
+
+
+
+Defined in [[ZooRefs#DF99|[DF99] ]].
 == Relations ==
+
+
+== See Also ==

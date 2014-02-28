@@ -7,12 +7,22 @@
 
 == Comments ==
 
-The class of decision problems solvable by an NP machine such that
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+
+
 
 If the answer is 'no,' then all computation paths reject.
+
 If the answer is 'yes,' then the number of accepting paths is a power of two.
 
-Contained in C,,=,,P, and in Mod,,k,,P for any odd k.  Contains UP.
 
-Defined in [BHR00].
+
+Contained in [[Class_C=P|$\text{C=P}$]], and in [[Class_ModkP|$\text{ModkP}$]] for any odd k.  Contains [[Class_UP|$\text{UP}$]].
+
+
+
+Defined in [[ZooRefs#BHR00|[BHR00] ]].
 == Relations ==
+
+
+== See Also ==

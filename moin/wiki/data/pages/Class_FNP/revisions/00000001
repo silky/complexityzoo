@@ -9,15 +9,30 @@
 
 The class of function problems of the following form:
 
+
+
 Given an input x and a polynomial-time predicate F(x,y), if there exists a y satisfying F(x,y) then output any such y, otherwise output 'no.'
 
-FNP generalizes NP, which is defined in terms of decision problems only.
+
+
+[[Class_FNP|$\text{FNP}$]] generalizes [[Class_NP|$\text{NP}$]], which is defined in terms of decision problems only.
+
+
 
 Actually the word "function" is misleading, since there could be many valid outputs y.  That's unavoidable, since given a predicate F there's no "syntactic" criterion ensuring that y is unique.
 
-FP = FNP if and only if P = NP.
 
-Contains TFNP.
 
-A basic question about FNP problems is whether they're self-reducible; that is, whether they reduce to the corresponding NP decision problems.  Although this is true for all NPC problems, [BG94] shows that if EE does not equal NEE, then there is a problem in NP such that no corresponding FNP problem can be reduced to it.  [BG94] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that NE does not equal coNE.
+[[Class_FP|$\text{FP}$]] = [[Class_FNP|$\text{FNP}$]] if and only if [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]].
+
+
+
+Contains [[Class_TFNP|$\text{TFNP}$]].
+
+
+
+A basic question about [[Class_FNP|$\text{FNP}$]] problems is whether they're self-reducible; that is, whether they reduce to the corresponding [[Class_NP|$\text{NP}$]] decision problems.  Although this is true for all [[Class_NPC|$\text{NPC}$]] problems, [[ZooRefs#BG94|[BG94] ]] shows that if [[Class_EE|$\text{EE}$]] does not equal [[Class_NEE|$\text{NEE}$]], then there is a problem in [[Class_NP|$\text{NP}$]] such that no corresponding [[Class_FNP|$\text{FNP}$]] problem can be reduced to it.  [[ZooRefs#BG94|[BG94] ]] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that [[Class_NE|$\text{NE}$]] does not equal [[Class_coNE|$\text{coNE}$]].
 == Relations ==
+
+
+== See Also ==

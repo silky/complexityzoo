@@ -9,9 +9,18 @@
 
 The class of problems decidable by an O(f(n))-space Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
-Contains GAN-SPACE(f(n)).
 
-AUC-SPACE(poly(n)) = SAPTIME = PSPACE [Pap83].
 
-[Con92] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in NP ∩ coNP.
+Contains [[Class_GAN-SPACE(f(n))|$\text{GAN-SPACE(f(n))}$]].
+
+
+
+AUC-SPACE(poly(n)) = [[Class_SAPTIME|$\text{SAPTIME}$]] = [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Pap83|[Pap83] ]].
+
+
+
+[[ZooRefs#Con92|[Con92] ]] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]].
 == Relations ==
+
+
+== See Also ==

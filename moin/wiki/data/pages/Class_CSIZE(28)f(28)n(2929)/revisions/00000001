@@ -9,7 +9,14 @@
 
 The class of decision problems solvable by a (nonuniform) family of Boolean circuits of size O(f(n)).
 
-So for example, CSIZE(poly(n)) (the union of CSIZE(n^k^) over all k) equals P/poly.
 
-Defined in [SM02] among other places.
+
+So for example, CSIZE(poly(n)) (the union of CSIZE(n^k^) over all k) equals [[Class_P/poly|$\text{P/poly}$]].
+
+
+
+Defined in [[ZooRefs#SM02|[SM02] ]] among other places.
 == Relations ==
+
+
+== See Also ==

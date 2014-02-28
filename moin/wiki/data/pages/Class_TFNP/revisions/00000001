@@ -9,11 +9,22 @@
 
 The class of function problems of the following form:
 
+
+
 Given an input x and a polynomial-time predicate F(x,y), output any y satisfying F(x,y).  (Such a y is promised to exist.)
 
-Can be considered as the functional analogue of NP ∩ coNP. Defined in [MP91].
 
-Contained in FNP.
 
-Subclasses include PPA, PPP, and PLS.
+Can be considered as the functional analogue of [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]]. Defined in [[ZooRefs#MP91|[MP91] ]].
+
+
+
+Contained in [[Class_FNP|$\text{FNP}$]].
+
+
+
+Subclasses include [[Class_PPA|$\text{PPA}$]], [[Class_PPP|$\text{PPP}$]], and [[Class_PLS|$\text{PLS}$]].
 == Relations ==
+
+
+== See Also ==

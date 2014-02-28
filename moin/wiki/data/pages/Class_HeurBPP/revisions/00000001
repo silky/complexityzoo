@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPP machine.
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPP|$\text{BPP}$]] machine.
 
-[FS04] showed a strict hierarchy theorem for HeurBPP; thus, HeurBPP does not equal HeurBPTIME(n^c^) for any fixed c.
+
+
+[[ZooRefs#FS04|[FS04] ]] showed a strict hierarchy theorem for [[Class_HeurBPP|$\text{HeurBPP}$]]; thus, [[Class_HeurBPP|$\text{HeurBPP}$]] does not equal HeurBPTIME(n^c^) for any fixed c.
 == Relations ==
+
+
+== See Also ==

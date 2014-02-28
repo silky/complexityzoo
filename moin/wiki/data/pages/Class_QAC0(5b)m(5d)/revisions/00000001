@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as QAC^0^, except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.
+Same as [[Class_QAC0|$\text{QAC0}$]], except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.
 
-Defined in [Moo99].
+
+
+Defined in [[ZooRefs#Moo99|[Moo99] ]].
 == Relations ==
+
+
+== See Also ==

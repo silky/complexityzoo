@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to QSZK as NISZK does to SZK.
+Has the same relation to [[Class_QSZK|$\text{QSZK}$]] as [[Class_NISZK|$\text{NISZK}$]] does to [[Class_SZK|$\text{SZK}$]].
 
-Defined in [Kob02], where it was also shown that the following promise problem is complete for NIQSZK.  Given a quantum circuit, we are promised that the state it prepares (when run on the all-0 state, and tracing out non-output qubits) has trace distance either at most 1/3 or at least 2/3 from the maximally mixed state. The problem is to output "no" in the former case and "yes" in the latter.
+
+
+Defined in [[ZooRefs#Kob02|[Kob02] ]], where it was also shown that the following promise problem is complete for [[Class_NIQSZK|$\text{NIQSZK}$]].  Given a quantum circuit, we are promised that the state it prepares (when run on the all-0 state, and tracing out non-output qubits) has trace distance either at most 1/3 or at least 2/3 from the maximally mixed state. The problem is to output "no" in the former case and "yes" in the latter.
+
+
 
 NIQPZK can be defined similarly.
 == Relations ==
+
+
+== See Also ==

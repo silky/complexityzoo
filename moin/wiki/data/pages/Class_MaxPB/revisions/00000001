@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The subclass of MaxNP problems for which the cost function is guaranteed always to be bounded by a polynomial.
+The subclass of [[Class_MaxNP|$\text{MaxNP}$]] problems for which the cost function is guaranteed always to be bounded by a polynomial.
 
-MinPB can be defined similarly.
 
-Defined in [KT94].
 
-The closure of MaxPB under PTAS reductions equals NPOPB [CKS+99].
+[[Class_MinPB|$\text{MinPB}$]] can be defined similarly.
+
+
+
+Defined in [[ZooRefs#KT94|[KT94] ]].
+
+
+
+The closure of [[Class_MaxPB|$\text{MaxPB}$]] under [[Class_PTAS|$\text{PTAS}$]] reductions equals [[Class_NPOPB|$\text{NPOPB}$]] [[ZooRefs#CKS+99|[CKS+99] ]].
 == Relations ==
+
+
+== See Also ==

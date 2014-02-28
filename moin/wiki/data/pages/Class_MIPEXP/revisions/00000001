@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The exponential-time analogue of MIP.
+The exponential-time analogue of [[Class_MIP|$\text{MIP}$]].
 
-In the unrelativized world, equals NEEXP.
 
-There exists an oracle relative to which MIP,,EXP,, equals the intersection of P/poly, P^NP^, and ⊕P [BFT98].
+
+In the unrelativized world, equals [[Class_NEEXP|$\text{NEEXP}$]].
+
+
+
+There exists an oracle relative to which [[Class_MIPEXP|$\text{MIPEXP}$]] equals the intersection of [[Class_P/poly|$\text{P/poly}$]], [[Class_PNP|$\text{PNP}$]], and [[Class_⊕P|$\text{⊕P}$]] [[ZooRefs#BFT98|[BFT98] ]].
 == Relations ==
+
+
+== See Also ==

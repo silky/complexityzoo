@@ -9,5 +9,10 @@
 
 The class of decision problems solvable by a uniform family of Boolean circuits with depth upper-bounded by f(n) and size (number of gates) upper-bounded by g(n).
 
-The union of PT/WK(log^k^n, n^k^) over all constants k equals NC.
+
+
+The union of PT/WK(log^k^n, n^k^) over all constants k equals [[Class_NC|$\text{NC}$]].
 == Relations ==
+
+
+== See Also ==

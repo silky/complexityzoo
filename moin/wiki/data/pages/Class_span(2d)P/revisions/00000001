@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of functions computable as |S|, where S is the set of output values returned by the accepting paths of an NP machine.
+The class of functions computable as |S|, where S is the set of output values returned by the accepting paths of an [[Class_NP|$\text{NP}$]] machine.
 
-Defined in [KST+89], where it is also shown that span-P contains #P and OptP; and that span-P = #P if and only if UP = NP.
+
+
+Defined in [[ZooRefs#KST+89|[KST+89] ]], where it is also shown that [[Class_span-P|$\text{span-P}$]] contains [[Class_SharpP|$\text{#P}$]] and [[Class_OptP|$\text{OptP}$]]; and that [[Class_span-P|$\text{span-P}$]] = [[Class_SharpP|$\text{#P}$]] if and only if [[Class_UP|$\text{UP}$]] = [[Class_NP|$\text{NP}$]].
 == Relations ==
+
+
+== See Also ==

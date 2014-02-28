@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as QMIP, except that now the provers have no prior entanglement.
+Same as [[Class_QMIP|$\text{QMIP}$]], except that now the provers have no prior entanglement.
 
-Defined in [KM02], where it was also shown that QMIP,,ne,, = NEXP.  Thus, QMIP,,ne,, contains QMIP,,le,,.
+
+
+Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPne|$\text{QMIPne}$]] = [[Class_NEXP|$\text{NEXP}$]].  Thus, [[Class_QMIPne|$\text{QMIPne}$]] contains [[Class_QMIPle|$\text{QMIPle}$]].
 == Relations ==
+
+
+== See Also ==

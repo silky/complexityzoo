@@ -9,9 +9,18 @@
 
 Equals DTIME(2^2^p(n)^^) for p a polynomial.
 
+
+
 Also known as 2-EXP.
 
-Contains EE, and is contained in NEEXP.
+
+
+Contains [[Class_EE|$\text{EE}$]], and is contained in [[Class_NEEXP|$\text{NEEXP}$]].
+
+
 
 Equals DTIME(2^2^p(n)^) for p a polynomial.
 == Relations ==
+
+
+== See Also ==

@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to FPT as RP does to P.
+Has the same relation to [[Class_FPT|$\text{FPT}$]] as [[Class_RP|$\text{RP}$]] does to [[Class_P|$\text{P}$]].
 
-Defined in [AR01], where it was shown that, if the Resolution proof system is automatizable (that is, if a refutation can always be found in time polynomial in the length of the shortest refutation), then W[P] is contained in FPR.
 
-Has the same relation to FPT as R does to P.
+
+Defined in [[ZooRefs#AR01|[AR01] ]], where it was shown that, if the Resolution proof system is automatizable (that is, if a refutation can always be found in time polynomial in the length of the shortest refutation), then [[Class_W[P]|$\text{W[P]}$]] is contained in [[Class_FPR|$\text{FPR}$]].
+
+
+
+Has the same relation to [[Class_FPT|$\text{FPT}$]] as [[Class_R|$\text{R}$]] does to [[Class_P|$\text{P}$]].
 == Relations ==
+
+
+== See Also ==

@@ -9,5 +9,10 @@
 
 The class of decision problems solvable by a nonuniform family of Boolean circuits, with linear size, constant depth and unbounded fanin.
 
-It is equivalent to AC^0^ with bounded fanout and it is properly contained in AC^0^ [CR96].
+
+
+It is equivalent to [[Class_AC0|$\text{AC0}$]] with bounded fanout and it is properly contained in [[Class_AC0|$\text{AC0}$]] [[ZooRefs#CR96|[CR96] ]].
 == Relations ==
+
+
+== See Also ==

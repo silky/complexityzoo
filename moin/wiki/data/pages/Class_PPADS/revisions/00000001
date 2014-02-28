@@ -7,11 +7,20 @@
 
 == Comments ==
 
-Defined in [Pap94b]; see also [BCE+95].
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
 
-Same as PPA, except now the graph is directed, and we're asked to find a sink.
 
-Contained in PPP.
 
-Contains PPAD.
+Same as [[Class_PPA|$\text{PPA}$]], except now the graph is directed, and we're asked to find a sink.
+
+
+
+Contained in [[Class_PPP|$\text{PPP}$]].
+
+
+
+Contains [[Class_PPAD|$\text{PPAD}$]].
 == Relations ==
+
+
+== See Also ==

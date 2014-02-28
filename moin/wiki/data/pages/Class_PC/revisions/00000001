@@ -7,9 +7,16 @@
 
 == Comments ==
 
-An analog of P for Turing machines over a complex number field.
+An analog of [[Class_P|$\text{P}$]] for Turing machines over a complex number field.
 
-Defined in [BCS+97].
 
-See also P,,R,,, NP,,C,,, NP,,R,,, VP,,k,,.
+
+Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
+
+
+
+See also [[Class_PR|$\text{PR}$]], [[Class_NPC|$\text{NPC}$]], [[Class_NPR|$\text{NPR}$]], [[Class_VPk|$\text{VPk}$]].
 == Relations ==
+
+
+== See Also ==

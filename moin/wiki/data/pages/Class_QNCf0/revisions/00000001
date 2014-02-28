@@ -9,7 +9,14 @@
 
 Constant-depth quantum circuits with unbounded-fanout gates.
 
-Defined in [Spa02].
 
-Contains QNC^0^, and is contained in QACC^0^.
+
+Defined in [[ZooRefs#Spa02|[Spa02] ]].
+
+
+
+Contains [[Class_QNC0|$\text{QNC0}$]], and is contained in [[Class_QACC0|$\text{QACC0}$]].
 == Relations ==
+
+
+== See Also ==

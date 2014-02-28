@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as QMA except that the quantum proof has O(log n) qubits instead of a polynomial number.
+Same as [[Class_QMA|$\text{QMA}$]] except that the quantum proof has O(log n) qubits instead of a polynomial number.
 
-Equals BQP [MW05].
+
+
+Equals [[Class_BQP|$\text{BQP}$]] [[ZooRefs#MW05|[MW05] ]].
 == Relations ==
+
+
+== See Also ==

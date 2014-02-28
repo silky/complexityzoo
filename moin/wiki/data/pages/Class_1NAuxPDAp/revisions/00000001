@@ -7,5 +7,8 @@
 
 == Comments ==
 
-Defined in [Bra77], where it was also shown that 1NAuxPDA^p^ strictly contains CFL and is strictly contained in LOGCFL. The class corresponds to the closure of CFL under one-way log-space reductions.
+Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that [[Class_1NAuxPDAp|$\text{1NAuxPDAp}$]] strictly contains [[Class_CFL|$\text{CFL}$]] and is strictly contained in [[Class_LOGCFL|$\text{LOGCFL}$]]. The class corresponds to the closure of [[Class_CFL|$\text{CFL}$]] under one-way log-space reductions.
 == Relations ==
+
+
+== See Also ==

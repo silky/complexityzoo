@@ -7,13 +7,24 @@
 
 == Comments ==
 
-Same as AP, except we are promised that each existential quantifier has at most one 'yes' path, and each universal quantifier has at most one 'no' path.
+Same as [[Class_AP|$\text{AP}$]], except we are promised that each existential quantifier has at most one 'yes' path, and each universal quantifier has at most one 'no' path.
 
-Contains UP.
 
-Defined in [NR98], where it was also shown that, even though AP = PSPACE, it is unlikely that the same is true for UAP, since UAP is contained in SPP.
 
-[CGR+04] have also shown that UAP^UAP^ = UAP, and that UAP contains Graph Isomorphism problem.
+Contains [[Class_UP|$\text{UP}$]].
 
-[CGR+04] have also shown that UAP^UAP^ = UAP, and that UAP contains the Graph Isomorphism problem.
+
+
+Defined in [[ZooRefs#NR98|[NR98] ]], where it was also shown that, even though [[Class_AP|$\text{AP}$]] = [[Class_PSPACE|$\text{PSPACE}$]], it is unlikely that the same is true for [[Class_UAP|$\text{UAP}$]], since [[Class_UAP|$\text{UAP}$]] is contained in [[Class_SPP|$\text{SPP}$]].
+
+
+
+[[ZooRefs#CGR+04|[CGR+04] ]] have also shown that UAP^UAP^ = [[Class_UAP|$\text{UAP}$]], and that [[Class_UAP|$\text{UAP}$]] contains Graph Isomorphism problem.
+
+
+
+[[ZooRefs#CGR+04|[CGR+04] ]] have also shown that UAP^UAP^ = [[Class_UAP|$\text{UAP}$]], and that [[Class_UAP|$\text{UAP}$]] contains the Graph Isomorphism problem.
 == Relations ==
+
+
+== See Also ==

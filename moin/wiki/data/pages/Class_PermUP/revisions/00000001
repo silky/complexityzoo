@@ -7,13 +7,24 @@
 
 == Comments ==
 
-The class of languages L in UP such that the mapping from an input x to the unique witness for x is a permutation of L.
+The class of languages [[Class_L|$\text{L}$]] in [[Class_UP|$\text{UP}$]] such that the mapping from an input x to the unique witness for x is a permutation of [[Class_L|$\text{L}$]].
 
-Contains P.
 
-Defined in [HT03], where it was also shown that the closure of PermUP under polynomial-time one-to-one reductions is UP.
 
-On the other hand, they show that if PermUP = UP then E = UE.
+Contains [[Class_P|$\text{P}$]].
 
-See also: SelfNP.
+
+
+Defined in [[ZooRefs#HT03|[HT03] ]], where it was also shown that the closure of [[Class_PermUP|$\text{PermUP}$]] under polynomial-time one-to-one reductions is [[Class_UP|$\text{UP}$]].
+
+
+
+On the other hand, they show that if [[Class_PermUP|$\text{PermUP}$]] = [[Class_UP|$\text{UP}$]] then [[Class_E|$\text{E}$]] = [[Class_UE|$\text{UE}$]].
+
+
+
+See also: [[Class_SelfNP|$\text{SelfNP}$]].
 == Relations ==
+
+
+== See Also ==

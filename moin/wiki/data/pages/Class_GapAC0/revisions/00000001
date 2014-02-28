@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from #AC^0^ is the ability to subtract, using the constant -1.)
+The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from [[Class_SharpAC0|$\text{#AC0}$]] is the ability to subtract, using the constant -1.)
 
-Equals DiffAC^0^ under logspace uniformity [ABL98].
+
+
+Equals [[Class_DiffAC0|$\text{DiffAC0}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
+
+
+== See Also ==

@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to NP as P/poly does to P.
+Has the same relation to [[Class_NP|$\text{NP}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].
 
-Contains AM.  On the other hand, if NP/poly contains coNP then PH collapses to the third level.
 
-NP/poly-natural proofs cannot show that circuit families are outside P/poly, under a pseudorandomness assumption [Rud97].
+
+Contains [[Class_AM|$\text{AM}$]].  On the other hand, if [[Class_NP/poly|$\text{NP/poly}$]] contains [[Class_coNP|$\text{coNP}$]] then [[Class_PH|$\text{PH}$]] collapses to the third level.
+
+
+
+NP/poly-natural proofs cannot show that circuit families are outside [[Class_P/poly|$\text{P/poly}$]], under a pseudorandomness assumption [[ZooRefs#Rud97|[Rud97] ]].
 == Relations ==
+
+
+== See Also ==

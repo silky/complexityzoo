@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as NC, but with O(f(n)) nondeterministic gates. A nondeterministic gate has no inputs and a single output bit.
+Same as [[Class_NC|$\text{NC}$]], but with O(f(n)) nondeterministic gates. A nondeterministic gate has no inputs and a single output bit.
 
-Defined in [Wol94], where the author proves various inclusions, including but not limited to NNC(poly(n))=NP, NNC(log(n))=NC, and NNC(polylog)⊆DSPACE(polylog).
+
+
+Defined in [[ZooRefs#Wol94|[Wol94] ]], where the author proves various inclusions, including but not limited to NNC(poly(n))=NP, NNC(log(n))=NC, and NNC(polylog)⊆DSPACE(polylog).
 == Relations ==
+
+
+== See Also ==

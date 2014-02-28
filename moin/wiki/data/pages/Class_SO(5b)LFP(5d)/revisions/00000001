@@ -7,8 +7,14 @@
 
 == Comments ==
 
-SO[LFP] is to SO what FO[LFP] is to FO. The LFP operator can now also take second-order variable as argument.
+[[Class_SO[LFP]|$\text{SO[LFP]}$]] is to [[Class_SO|$\text{SO}$]] what FO[LFP] is to [[Class_FO|$\text{FO}$]]. The LFP operator can now also take second-order variable as argument.
+
+
 
 In Descriptive complexity we can see that 
-SO[LFP] is  equal to EXPTIME.
+
+[[Class_SO[LFP]|$\text{SO[LFP]}$]] is  equal to EXPTIME.
 == Relations ==
+
+
+== See Also ==

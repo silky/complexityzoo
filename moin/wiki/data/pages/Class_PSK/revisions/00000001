@@ -7,11 +7,20 @@
 
 == Comments ==
 
-Yeah, I'm told that's what the S and K stand for.  Go figure.
+Yeah, I'm told that's what the S and [[Class_K|$\text{K}$]] stand for.  Go figure.
+
+
 
 The class of total function problems definable as follows: given a directed graph of indegree and outdegree at most 1, and given a source, find a sink.
 
-Defined in [Pap90].
 
-Equals PPADS.
+
+Defined in [[ZooRefs#Pap90|[Pap90] ]].
+
+
+
+Equals [[Class_PPADS|$\text{PPADS}$]].
 == Relations ==
+
+
+== See Also ==

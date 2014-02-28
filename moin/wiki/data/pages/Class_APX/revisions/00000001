@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The subclass of NPO problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)
+The subclass of [[Class_NPO|$\text{NPO}$]] problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)
 
-Contains PTAS.
 
-Equals the closure of MaxSNP and of MaxNP under PTAS reduction [KMS+99], [CT94].
 
-Defined in [ACG+99].
+Contains [[Class_PTAS|$\text{PTAS}$]].
+
+
+
+Equals the closure of [[Class_MaxSNP|$\text{MaxSNP}$]] and of [[Class_MaxNP|$\text{MaxNP}$]] under [[Class_PTAS|$\text{PTAS}$]] reduction [[ZooRefs#KMS+99|[KMS+99] ]], [[ZooRefs#CT94|[CT94] ]].
+
+
+
+Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 == Relations ==
+
+
+== See Also ==

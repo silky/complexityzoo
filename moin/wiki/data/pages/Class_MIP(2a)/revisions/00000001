@@ -7,15 +7,28 @@
 
 == Comments ==
 
-Same as MIP, except that the provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
+Same as [[Class_MIP|$\text{MIP}$]], except that the provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
 
-Defined in [CHT+04], where evidence was given suggesting that MIP* does not "obviously" equal NEXP.
 
-MIP* contains NEXP [IV12]. By contrast, MIP, the corresponding class without entanglement, equals NEXP (and even MIP[2,1] with two provers and one round equals NEXP).
 
-Even MIP*[4,poly] and MIP[5,1] contain NEXP [IV12].
+Defined in [[ZooRefs#CHT+04|[CHT+04] ]], where evidence was given suggesting that [[Class_MIP*|$\text{MIP*}$]] does not "obviously" equal [[Class_NEXP|$\text{NEXP}$]].
 
-MIP*[2,1] contains XOR-MIP*[2,1].
 
-In 2012 it was shown that QMIP = MIP* [RUV12]
+
+[[Class_MIP*|$\text{MIP*}$]] contains [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]]. By contrast, [[Class_MIP|$\text{MIP}$]], the corresponding class without entanglement, equals [[Class_NEXP|$\text{NEXP}$]] (and even MIP[2,1] with two provers and one round equals NEXP).
+
+
+
+Even MIP*[4,poly] and MIP[5,1] contain [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]].
+
+
+
+[[Class_MIP*[2,1]|$\text{MIP*[2,1]}$]] contains [[Class_XOR-MIP*[2,1]|$\text{XOR-MIP*[2,1]}$]].
+
+
+
+In 2012 it was shown that [[Class_QMIP|$\text{QMIP}$]] = [[Class_MIP*|$\text{MIP*}$]] [[ZooRefs#RUV12|[RUV12] ]]
 == Relations ==
+
+
+== See Also ==

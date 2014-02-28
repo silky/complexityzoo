@@ -9,7 +9,14 @@
 
 The class of decision problems solvable by a polynomial-time algorithm that outputs the wrong answer on only a sparse (that is, polynomially-bounded) set of instances.
 
-Defined in [Yes83].
 
-Contains Almost-P and is contained in P/poly [Sch86].
+
+Defined in [[ZooRefs#Yes83|[Yes83] ]].
+
+
+
+Contains [[Class_Almost-P|$\text{Almost-P}$]] and is contained in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#Sch86|[Sch86] ]].
 == Relations ==
+
+
+== See Also ==

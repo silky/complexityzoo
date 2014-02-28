@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Together with NP/poly ∩ coNP/poly, has the same relation to NP ∩ coNP as P/poly has to P.  A language in (NP ∩ coNP)/poly is defined by a single language in NP ∩ coNP which is then modified by advice.  A language in NP/poly ∩ coNP/poly comes from two possibly different languages in NP and coNP which become the same with good advice.
+Together with [[Class_NP/poly|$\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\text{coNP/poly}$]], has the same relation to [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] as [[Class_P/poly|$\text{P/poly}$]] has to [[Class_P|$\text{P}$]].  A language in (NP ∩ coNP)/poly is defined by a single language in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] which is then modified by advice.  A language in [[Class_NP/poly|$\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\text{coNP/poly}$]] comes from two possibly different languages in [[Class_NP|$\text{NP}$]] and [[Class_coNP|$\text{coNP}$]] which become the same with good advice.
 
-There is an oracle relative to which NP/poly ∩ coNP/poly, indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [FFK+93].  Recently they improved this to NP/1 ∩ coNP [FF..].
 
-If NP is contained in (NP ∩ coNP)/poly, then PH collapses to S,,2,,P^NP ∩ coNP^ [CCH+01].
+
+There is an oracle relative to which [[Class_NP/poly|$\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\text{coNP/poly}$]], indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [[ZooRefs#FFK+93|[FFK+93] ]].  Recently they improved this to NP/1 ∩ [[Class_coNP|$\text{coNP}$]] [FF..].
+
+
+
+If [[Class_NP|$\text{NP}$]] is contained in (NP ∩ coNP)/poly, then [[Class_PH|$\text{PH}$]] collapses to S,,2,,P^NP ∩ [[Class_coNP|$\text{coNP}$]] [[ZooRefs#CCH+01|[CCH+01] ]].
 == Relations ==
+
+
+== See Also ==

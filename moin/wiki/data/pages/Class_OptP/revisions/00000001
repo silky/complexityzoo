@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The class of functions computable by taking the maximum of the output values over all accepting paths of an NP machine.
+The class of functions computable by taking the maximum of the output values over all accepting paths of an [[Class_NP|$\text{NP}$]] machine.
 
-Defined in [Kre88].
 
-Contrast with FNP.
+
+Defined in [[ZooRefs#Kre88|[Kre88] ]].
+
+
+
+Contrast with [[Class_FNP|$\text{FNP}$]].
 == Relations ==
+
+
+== See Also ==

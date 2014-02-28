@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as BQP/mlog except that the advice is quantum instead of classical.
+Same as [[Class_BQP/mlog|$\text{BQP/mlog}$]] except that the advice is quantum instead of classical.
 
-Strictly contains BQP/mlog [NY03].
 
-Contained in BQP/mpoly.
+
+Strictly contains [[Class_BQP/mlog|$\text{BQP/mlog}$]] [[ZooRefs#NY03|[NY03] ]].
+
+
+
+Contained in [[Class_BQP/mpoly|$\text{BQP/mpoly}$]].
 == Relations ==
+
+
+== See Also ==

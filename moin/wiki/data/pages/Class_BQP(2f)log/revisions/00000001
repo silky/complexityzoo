@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as BQP/poly except that the advice is O(log n) bits instead of a polynomial number.
+Same as [[Class_BQP/poly|$\text{BQP/poly}$]] except that the advice is O(log n) bits instead of a polynomial number.
 
-Contained in BQP/mlog.
+
+
+Contained in [[Class_BQP/mlog|$\text{BQP/mlog}$]].
 == Relations ==
+
+
+== See Also ==

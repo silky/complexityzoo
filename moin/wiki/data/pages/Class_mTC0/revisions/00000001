@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The class of decision problems solvable by a family of monotone TC^0^ circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).
+The class of decision problems solvable by a family of monotone [[Class_TC0|$\text{TC0}$]] circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).
+
+
 
 A uniformity condition could also be imposed.
 
-Defined in [GS90].
 
-Strictly contained in mNC^1^ [Yao89].
+
+Defined in [[ZooRefs#GS90|[GS90] ]].
+
+
+
+Strictly contained in [[Class_mNC1|$\text{mNC1}$]] [[ZooRefs#Yao89|[Yao89] ]].
 == Relations ==
+
+
+== See Also ==

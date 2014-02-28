@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The exponential-time analogue of ⊕P.
+The exponential-time analogue of [[Class_⊕P|$\text{⊕P}$]].
 
-There exists an oracle relative to which ⊕EXP = ZPP [BBF98].
+
+
+There exists an oracle relative to which [[Class_⊕EXP|$\text{⊕EXP}$]] = [[Class_ZPP|$\text{ZPP}$]] [[ZooRefs#BBF98|[BBF98] ]].
 == Relations ==
+
+
+== See Also ==

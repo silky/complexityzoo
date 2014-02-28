@@ -7,22 +7,42 @@
 
 == Comments ==
 
-The class of decision problems such that a "yes" answer can be verified by a quantum interactive proof.  Here the verifier is a BQP (i.e. quantum polynomial-time) algorithm, while the prover has unbounded computational resources (though cannot violate the linearity of quantum mechanics). The prover and verifier exchange a polynomial number of messages, which can be quantum states.  Thus, the verifier's and prover's states may become entangled during the course of the protocol.  Given the verifier's algorithm, we require that
+The class of decision problems such that a "yes" answer can be verified by a quantum interactive proof.  Here the verifier is a [[Class_BQP|$\text{BQP}$]] (i.e. quantum polynomial-time) algorithm, while the prover has unbounded computational resources (though cannot violate the linearity of quantum mechanics). The prover and verifier exchange a polynomial number of messages, which can be quantum states.  Thus, the verifier's and prover's states may become entangled during the course of the protocol.  Given the verifier's algorithm, we require that
+
+
 
 If the answer is "yes," then the prover can behave in such a way that the verifier accepts with probability at least 2/3.
+
 If the answer is "no," then however the prover behaves, the verifier rejects with probability at least 2/3.
 
-Let QIP[k] be QIP where the prover and verifier are restricted to exchanging k messages (with the prover going last).
 
-Defined in [Wat99], where it was also shown that PSPACE is in QIP[3].
 
-Subsequently [KW00] showed that for all k>3, QIP[k] = QIP[3] = QIP.
+Let QIP[k] be [[Class_QIP|$\text{QIP}$]] where the prover and verifier are restricted to exchanging k messages (with the prover going last).
 
-QIP is contained in EXP [KW00].
 
-QIP = IP = PSPACE [JJUW09]; thus quantum computing adds no power to interactive proofs.
 
-QIP(1) is more commonly known as QMA.
+Defined in [[ZooRefs#Wat99|[Wat99] ]], where it was also shown that [[Class_PSPACE|$\text{PSPACE}$]] is in QIP[3].
 
-See also: QIP[2], QSZK.
+
+
+Subsequently [[ZooRefs#KW00|[KW00] ]] showed that for all k>3, QIP[k] = QIP[3] = [[Class_QIP|$\text{QIP}$]].
+
+
+
+[[Class_QIP|$\text{QIP}$]] is contained in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#KW00|[KW00] ]].
+
+
+
+[[Class_QIP|$\text{QIP}$]] = [[Class_IP|$\text{IP}$]] = [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#JJUW09|[JJUW09] ]]; thus quantum computing adds no power to interactive proofs.
+
+
+
+QIP(1) is more commonly known as [[Class_QMA|$\text{QMA}$]].
+
+
+
+See also: [[Class_QIP[2]|$\text{QIP[2]}$]], [[Class_QSZK|$\text{QSZK}$]].
 == Relations ==
+
+
+== See Also ==

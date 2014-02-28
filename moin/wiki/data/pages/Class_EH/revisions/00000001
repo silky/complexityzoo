@@ -7,15 +7,28 @@
 
 == Comments ==
 
-Has roughly the same relationship to E as PH does to P.
+Has roughly the same relationship to [[Class_E|$\text{E}$]] as [[Class_PH|$\text{PH}$]] does to [[Class_P|$\text{P}$]].
 
-More formally, EH is defined as the union of E, NE, NE^NP^, NE with Σ,,2,,P oracle, and so on.
 
-See [Har87] for more information.
 
-If coNP is contained in AM[polylog], then EH collapses to S,,2,,-EXP•P^NP^ [SS04] and indeed AM,,EXP,, [PV04].
+More formally, [[Class_EH|$\text{EH}$]] is defined as the union of [[Class_E|$\text{E}$]], [[Class_NE|$\text{NE}$]], NE^NP^, [[Class_NE|$\text{NE}$]] with [[Class_Σ2P|$\text{Σ2P}$]] oracle, and so on.
 
-On the other hand, coNE is contained in NE/poly, so perhaps it wouldn't be so surprising if NE collapses.
 
-There exists an oracle relative to which EH does not contain SEH [Hem89]. EH and SEH are incomparable for all anyone knows.
+
+See [[ZooRefs#Har87|[Har87] ]] for more information.
+
+
+
+If [[Class_coNP|$\text{coNP}$]] is contained in [[Class_AM[polylog]|$\text{AM[polylog]}$]], then [[Class_EH|$\text{EH}$]] collapses to [[Class_S2-EXP•PNP|$\text{S2-EXP•PNP}$]] [[ZooRefs#SS04|[SS04] ]] and indeed [[Class_AMEXP|$\text{AMEXP}$]] [[ZooRefs#PV04|[PV04] ]].
+
+
+
+On the other hand, [[Class_coNE|$\text{coNE}$]] is contained in [[Class_NE/poly|$\text{NE/poly}$]], so perhaps it wouldn't be so surprising if [[Class_NE|$\text{NE}$]] collapses.
+
+
+
+There exists an oracle relative to which [[Class_EH|$\text{EH}$]] does not contain [[Class_SEH|$\text{SEH}$]] [[ZooRefs#Hem89|[Hem89] ]]. [[Class_EH|$\text{EH}$]] and [[Class_SEH|$\text{SEH}$]] are incomparable for all anyone knows.
 == Relations ==
+
+
+== See Also ==

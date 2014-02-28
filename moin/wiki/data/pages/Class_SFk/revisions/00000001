@@ -7,13 +7,24 @@
 
 == Comments ==
 
-The class of decision problems solvable by a k-bottleneck Turing machine. This is a machine that, after a polynomial amount of time, erases everything on the tape except for a single k-valued "safe-storage".  There's also a counter recording the number of erasings, which is in effect a non-deterministic witness.  For example, SF,,2,, contains both ⊕P and NP by using the counter as a witness.
+The class of decision problems solvable by a k-bottleneck Turing machine. This is a machine that, after a polynomial amount of time, erases everything on the tape except for a single k-valued "safe-storage".  There's also a counter recording the number of erasings, which is in effect a non-deterministic witness.  For example, SF,,2,, contains both [[Class_⊕P|$\text{⊕P}$]] and [[Class_NP|$\text{NP}$]] by using the counter as a witness.
 
-Defined in [CF91], where it was also shown that SF,,5,, = PSPACE.
 
-The complexity of SF,,2,,, SF,,3,,, and SF,,4,, was studied in [Ogi94] and [Her97].  The following result of those authors is among the caged beasts of the Complexity Zoo:
 
-SF,,4,, is contained in BP ⊕P^Mod_3P ^ ⊕P ^ Mod_3P ^ ⊕P^
+Defined in [[ZooRefs#CF91|[CF91] ]], where it was also shown that SF,,5,, = [[Class_PSPACE|$\text{PSPACE}$]].
 
-(Here the BP operator means that one makes the class into a bounded-error probabilistic class, the same way one makes P into BPP and NP into AM.)
+
+
+The complexity of SF,,2,,, SF,,3,,, and SF,,4,, was studied in [[ZooRefs#Ogi94|[Ogi94] ]] and [[ZooRefs#Her97|[Her97] ]].  The following result of those authors is among the caged beasts of the Complexity Zoo:
+
+
+
+SF,,4,, is contained in BP ⊕P^Mod_3P ^ [[Class_⊕P|$\text{⊕P}$]] ^ Mod_3P ^ [[Class_⊕P|$\text{⊕P}$]]
+
+
+
+(Here the BP operator means that one makes the class into a bounded-error probabilistic class, the same way one makes [[Class_P|$\text{P}$]] into [[Class_BPP|$\text{BPP}$]] and [[Class_NP|$\text{NP}$]] into AM.)
 == Relations ==
+
+
+== See Also ==

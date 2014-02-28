@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of problems solvable by a syntactic BPP machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, it need not be.
+The class of problems solvable by a syntactic [[Class_BPP|$\text{BPP}$]] machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, it need not be.
 
-Contained in BPP/rlog.
+
+
+Contained in [[Class_BPP/rlog|$\text{BPP/rlog}$]].
 == Relations ==
+
+
+== See Also ==

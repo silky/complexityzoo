@@ -9,5 +9,10 @@
 
 The class of decision problems solvable in space O(f(n)) by a reversible Turing machine (a deterministic Turing machine for which every configuration has at most one immediate predecessor).
 
-Was shown to equal DSPACE(f(n)) [LMT97].
+
+
+Was shown to equal [[Class_DSPACE(f(n))|$\text{DSPACE(f(n))}$]] [[ZooRefs#LMT97|[LMT97] ]].
 == Relations ==
+
+
+== See Also ==

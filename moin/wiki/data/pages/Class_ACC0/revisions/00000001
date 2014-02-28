@@ -7,19 +7,36 @@
 
 == Comments ==
 
-Same as AC^0^[m], but now the constant-depth circuit can contain MOD m gates for any m.
+Same as [[Class_AC0[m]|$\text{AC0[m]}$]], but now the constant-depth circuit can contain MOD m gates for any m.
 
-Contained in TC^0^.
 
-Indeed, can be simulated by depth-3 threshold circuits of quasipolynomial size [Yao90].
 
-According to [All96], there is no good evidence for the existence of cryptographically secure functions in ACC^0^.
+Contained in [[Class_TC0|$\text{TC0}$]].
 
-There is no non-uniform ACC^0^ circuits of polynomial size for NTIMES[2^n^] and no ACC^0^ circuit of size 2^n^O(1)^^ for E^NP^ (The class E with an NP oracle). These are the only two known nontrivial lower bounds against ACC^0^ and were recently discovered by [Wil11].
 
-Contains 4-PBP [BT88].
 
-See also: QACC^0^.
+Indeed, can be simulated by depth-3 threshold circuits of quasipolynomial size [[ZooRefs#Yao90|[Yao90] ]].
 
-In 1996, [All96] suggested the existence of cryptographically secure functions in ACC^0^ as an important open question. In 2004, work of [AIK04] showed pseudorandom generators in NC^0^ based on widely-believed assumptions.
+
+
+According to [[ZooRefs#All96|[All96] ]], there is no good evidence for the existence of cryptographically secure functions in [[Class_ACC0|$\text{ACC0}$]].
+
+
+
+There is no non-uniform [[Class_ACC0|$\text{ACC0}$]] circuits of polynomial size for NTIMES[2^n^] and no [[Class_ACC0|$\text{ACC0}$]] circuit of size 2^n^O(1)^^ for E^NP^ (The class [[Class_E|$\text{E}$]] with an [[Class_NP|$\text{NP}$]] oracle). These are the only two known nontrivial lower bounds against [[Class_ACC0|$\text{ACC0}$]] and were recently discovered by [[ZooRefs#Wil11|[Wil11] ]].
+
+
+
+Contains 4-PBP [[ZooRefs#BT88|[BT88] ]].
+
+
+
+See also: [[Class_QACC0|$\text{QACC0}$]].
+
+
+
+In 1996, [[ZooRefs#All96|[All96] ]] suggested the existence of cryptographically secure functions in [[Class_ACC0|$\text{ACC0}$]] as an important open question. In 2004, work of [[ZooRefs#AIK04|[AIK04] ]] showed pseudorandom generators in [[Class_NC0|$\text{NC0}$]] based on widely-believed assumptions.
 == Relations ==
+
+
+== See Also ==

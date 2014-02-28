@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as compNP but for interactive (IP) proofs instead of NP proofs.
+Same as [[Class_compNP|$\text{compNP}$]] but for interactive (IP) proofs instead of [[Class_NP|$\text{NP}$]] proofs.
 
-More formally, compIP is the class of decision problems L in IP = PSPACE such that, if the answer is "yes," then that can be proven by an interactive protocol between a BPP verifier and a prover, a BPP machine with access only to an oracle for L.
 
-Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in compIP [BG94].
+
+More formally, [[Class_compIP|$\text{compIP}$]] is the class of decision problems [[Class_L|$\text{L}$]] in [[Class_IP|$\text{IP}$]] = [[Class_PSPACE|$\text{PSPACE}$]] such that, if the answer is "yes," then that can be proven by an interactive protocol between a [[Class_BPP|$\text{BPP}$]] verifier and a prover, a [[Class_BPP|$\text{BPP}$]] machine with access only to an oracle for [[Class_L|$\text{L}$]].
+
+
+
+Assuming [[Class_NEE|$\text{NEE}$]] is not contained in [[Class_BPEE|$\text{BPEE}$]], [[Class_NP|$\text{NP}$]] (and indeed [[Class_NP|$\text{NP}$]] ∩ Coh) is not contained in [[Class_compIP|$\text{compIP}$]] [[ZooRefs#BG94|[BG94] ]].
 == Relations ==
+
+
+== See Also ==

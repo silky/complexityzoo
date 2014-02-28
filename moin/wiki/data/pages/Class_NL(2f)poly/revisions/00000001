@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to NL as P/poly does to P.
+Has the same relation to [[Class_NL|$\text{NL}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].
 
-Is contained in ⊕L/poly [GW96], as well as SAC^1^.
 
-Equals UL/poly [RA00].
+
+Is contained in [[Class_⊕L/poly|$\text{⊕L/poly}$]] [[ZooRefs#GW96|[GW96] ]], as well as [[Class_SAC1|$\text{SAC1}$]].
+
+
+
+Equals [[Class_UL/poly|$\text{UL/poly}$]] [[ZooRefs#RA00|[RA00] ]].
 == Relations ==
+
+
+== See Also ==

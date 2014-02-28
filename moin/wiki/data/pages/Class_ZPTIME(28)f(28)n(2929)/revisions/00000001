@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as ZPP, but with O(f(n))-time instead of polynomial-time.
+Same as [[Class_ZPP|$\text{ZPP}$]], but with O(f(n))-time instead of polynomial-time.
 
-For any constructible superpolynomial f, ZPTIME(f(n)) with NP oracle is not contained in P/poly [KW98].
+
+
+For any constructible superpolynomial f, [[Class_ZPTIME(f(n))|$\text{ZPTIME(f(n))}$]] with [[Class_NP|$\text{NP}$]] oracle is not contained in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#KW98|[KW98] ]].
 == Relations ==
+
+
+== See Also ==

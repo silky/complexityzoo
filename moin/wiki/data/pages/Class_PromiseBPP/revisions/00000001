@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as PromiseRP, but for BPP instead of RP.
+Same as [[Class_PromiseRP|$\text{PromiseRP}$]], but for [[Class_BPP|$\text{BPP}$]] instead of [[Class_RP|$\text{RP}$]].
 
-Defined in [BF99].
+
+
+Defined in [[ZooRefs#BF99|[BF99] ]].
 == Relations ==
+
+
+== See Also ==

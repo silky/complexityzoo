@@ -9,5 +9,10 @@
 
 Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.
 
-NP is not contained in HeurNTIME,,,,() for any constants  [Per07].
+
+
+[[Class_NP|$\text{NP}$]] is not contained in HeurNTIME,,,,() for any constants  [[ZooRefs#Per07|[Per07] ]].
 == Relations ==
+
+
+== See Also ==

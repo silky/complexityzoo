@@ -7,9 +7,16 @@
 
 == Comments ==
 
-QH,,k,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,k,, over all nonnegative k.
+QH,,k,, is defined to be [[Class_PNP[k]|$\text{PNP[k]}$]]; that is, [[Class_P|$\text{P}$]] with k queries to an [[Class_NP|$\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\text{QH}$]] is the union of QH,,k,, over all nonnegative k.
 
-QH = BH [Wag88]; thus, either both hierarchies are infinite or both collapse to some finite level.
 
-QH,,i,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,i,, over all nonnegative i.
+
+[[Class_QH|$\text{QH}$]] = [[Class_BH|$\text{BH}$]] [[ZooRefs#Wag88|[Wag88] ]]; thus, either both hierarchies are infinite or both collapse to some finite level.
+
+
+
+QH,,i,, is defined to be [[Class_PNP[k]|$\text{PNP[k]}$]]; that is, [[Class_P|$\text{P}$]] with k queries to an [[Class_NP|$\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\text{QH}$]] is the union of QH,,i,, over all nonnegative i.
 == Relations ==
+
+
+== See Also ==

@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as k-PBP but with no width restriction.
+Same as [[Class_k-PBP|$\text{k-PBP}$]] but with no width restriction.
 
-Equals L/poly [Cob66].
 
-Contains P-OBDD, BP,,d,,(P).
+
+Equals [[Class_L/poly|$\text{L/poly}$]] [[ZooRefs#Cob66|[Cob66] ]].
+
+
+
+Contains [[Class_P-OBDD|$\text{P-OBDD}$]], [[Class_BPd(P)|$\text{BPd(P)}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The intersection of NP,,C,, with {0,1}^*^ (i.e. the set of binary strings).
+The intersection of [[Class_NPC|$\text{NPC}$]] with {0,1}^*^ (i.e. the set of binary strings).
 
-Contains NP.
 
-Is contained in PSPACE, and in AM assuming the Extended Riemann Hypothesis [Koi96].
+
+Contains [[Class_NP|$\text{NP}$]].
+
+
+
+Is contained in [[Class_PSPACE|$\text{PSPACE}$]], and in [[Class_AM|$\text{AM}$]] assuming the Extended Riemann Hypothesis [[ZooRefs#Koi96|[Koi96] ]].
 == Relations ==
+
+
+== See Also ==

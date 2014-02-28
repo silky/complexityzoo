@@ -7,11 +7,20 @@
 
 == Comments ==
 
-(Actually, I've since been informed that PINC means "Incremental Polynomial-Time.")
+(Actually, I've since been informed that [[Class_PINC|$\text{PINC}$]] means "Incremental Polynomial-Time.")
+
+
 
 The class of function problems, f:{0,1}^n^->{0,1}^m^, such that the k^th^ output bit is computable in time polynomial in n and k.
 
-Defined in [JY88].
 
-Contained in PIO.  This containment is strict, since if m=2^n^ (say), then computing the first bit of f(x) might be EXP-complete.
+
+Defined in [[ZooRefs#JY88|[JY88] ]].
+
+
+
+Contained in [[Class_PIO|$\text{PIO}$]].  This containment is strict, since if m=2^n^ (say), then computing the first bit of f(x) might be EXP-complete.
 == Relations ==
+
+
+== See Also ==

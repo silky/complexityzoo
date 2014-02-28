@@ -7,13 +7,24 @@
 
 == Comments ==
 
-Same as RG, except that now the verifier is a BQP machine, and can exchange polynomially many quantum messages with the competing provers.
+Same as [[Class_RG|$\text{RG}$]], except that now the verifier is a [[Class_BQP|$\text{BQP}$]] machine, and can exchange polynomially many quantum messages with the competing provers.
+
+
 
 The two provers are computationally unbounded, but must obey the laws of quantum mechanics.  Also, we can assume without loss of generality that the provers share no entanglement, because adversaries gain no advantage by sharing information.
 
-Defined in [Gut05], where it was also shown that QRG is contained in NEXP ∩ coNEXP.
 
-QRG trivially contains RG (and hence EXP), as well as SQG.
 
-QRG is contained in EXP [GW07].  Hence QRG = RG = EXP and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
+Defined in [[ZooRefs#Gut05|[Gut05] ]], where it was also shown that [[Class_QRG|$\text{QRG}$]] is contained in [[Class_NEXP|$\text{NEXP}$]] ∩ [[Class_coNEXP|$\text{coNEXP}$]].
+
+
+
+[[Class_QRG|$\text{QRG}$]] trivially contains [[Class_RG|$\text{RG}$]] (and hence EXP), as well as [[Class_SQG|$\text{SQG}$]].
+
+
+
+[[Class_QRG|$\text{QRG}$]] is contained in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#GW07|[GW07] ]].  Hence [[Class_QRG|$\text{QRG}$]] = [[Class_RG|$\text{RG}$]] = [[Class_EXP|$\text{EXP}$]] and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
 == Relations ==
+
+
+== See Also ==

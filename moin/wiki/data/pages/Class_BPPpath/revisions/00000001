@@ -7,29 +7,56 @@
 
 == Comments ==
 
-Same as BPP, except that now the computation paths need not all have the same length.
+Same as [[Class_BPP|$\text{BPP}$]], except that now the computation paths need not all have the same length.
 
-Defined in [HHT97], where the following was also shown:
 
-BPP,,path,, contains MA and P^NP[log]^, and is contained in PP and BPP^NP^.
-BPP,,path,, is closed under complementation, intersection, and union.
-If BPP,,path,, = BPP,,path,,^BPP,,path,,^, then PH collapses to BPP,,path,,.
-If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.
 
-There exists an oracle relative to which BPP,,path,, is not contained in Σ,,2,,P [BGM02].
+Defined in [[ZooRefs#HHT97|[HHT97] ]], where the following was also shown:
 
-An alternate characterization of BPP,,path,, uses the idea of post-selection. That is, BPP,,path,, is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
+
+
+[[Class_BPPpath|$\text{BPPpath}$]] contains [[Class_MA|$\text{MA}$]] and [[Class_PNP[log]|$\text{PNP[log]}$]], and is contained in [[Class_PP|$\text{PP}$]] and BPP^NP^.
+
+[[Class_BPPpath|$\text{BPPpath}$]] is closed under complementation, intersection, and union.
+
+If [[Class_BPPpath|$\text{BPPpath}$]] = BPP,,path,,^BPP,,path,,^, then [[Class_PH|$\text{PH}$]] collapses to [[Class_BPPpath|$\text{BPPpath}$]].
+
+If [[Class_BPPpath|$\text{BPPpath}$]] contains [[Class_Σ2P|$\text{Σ2P}$]], then [[Class_PH|$\text{PH}$]] collapses to BPP^NP^.
+
+
+
+There exists an oracle relative to which [[Class_BPPpath|$\text{BPPpath}$]] is not contained in [[Class_Σ2P|$\text{Σ2P}$]] [[ZooRefs#BGM02|[BGM02] ]].
+
+
+
+An alternate characterization of [[Class_BPPpath|$\text{BPPpath}$]] uses the idea of post-selection. That is, [[Class_BPPpath|$\text{BPPpath}$]] is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
+
+
 
 If , .
+
  If , .
+
  .
 
-We say that  is the post-selector. Intuitively, this characterization allows a BPP machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion NP ⊆ BPP,,path,, nearly trivial.
 
-See Also: PostBQP (quantum analogue).
 
-BPP,,path,, contains MA and P^NP[log]^, and is contained in PP and BPP^NP^.
-BPP,,path,, is closed under complementation, intersection, and union.
-If BPP,,path,, = BPP,,path,,^BPPpath^, then PH collapses to BPP,,path,,.
-If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.
+We say that  is the post-selector. Intuitively, this characterization allows a [[Class_BPP|$\text{BPP}$]] machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion [[Class_NP|$\text{NP}$]] ⊆ [[Class_BPPpath|$\text{BPPpath}$]] nearly trivial.
+
+
+
+See Also: [[Class_PostBQP|$\text{PostBQP}$]] (quantum analogue).
+
+
+
+[[Class_BPPpath|$\text{BPPpath}$]] contains [[Class_MA|$\text{MA}$]] and [[Class_PNP[log]|$\text{PNP[log]}$]], and is contained in [[Class_PP|$\text{PP}$]] and BPP^NP^.
+
+[[Class_BPPpath|$\text{BPPpath}$]] is closed under complementation, intersection, and union.
+
+If [[Class_BPPpath|$\text{BPPpath}$]] = BPP,,path,,^BPPpath^, then [[Class_PH|$\text{PH}$]] collapses to [[Class_BPPpath|$\text{BPPpath}$]].
+
+If [[Class_BPPpath|$\text{BPPpath}$]] contains [[Class_Σ2P|$\text{Σ2P}$]], then [[Class_PH|$\text{PH}$]] collapses to BPP^NP^.
 == Relations ==
+
+
+== See Also ==

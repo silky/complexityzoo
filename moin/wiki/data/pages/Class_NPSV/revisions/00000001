@@ -7,11 +7,20 @@
 
 == Comments ==
 
-The class of NPMV functions that are single-valued (i.e., such that every accepting path outputs the same value).
+The class of [[Class_NPMV|$\text{NPMV}$]] functions that are single-valued (i.e., such that every accepting path outputs the same value).
 
-Defined in [BLS84].
 
-Contains NPSV,,t,,.
 
-P = NP if and only if FP = NPSV.
+Defined in [[ZooRefs#BLS84|[BLS84] ]].
+
+
+
+Contains [[Class_NPSVt|$\text{NPSVt}$]].
+
+
+
+[[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] if and only if [[Class_FP|$\text{FP}$]] = [[Class_NPSV|$\text{NPSV}$]].
 == Relations ==
+
+
+== See Also ==

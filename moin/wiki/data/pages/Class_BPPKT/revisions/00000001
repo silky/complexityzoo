@@ -7,9 +7,16 @@
 
 == Comments ==
 
-BPP with an oracle that, given a string x, returns the minimum over all programs P that output x,,i,, on input i, of the length of P plus the maximum time taken by P on any input.
+[[Class_BPP|$\text{BPP}$]] with an oracle that, given a string x, returns the minimum over all programs [[Class_P|$\text{P}$]] that output x,,i,, on input i, of the length of [[Class_P|$\text{P}$]] plus the maximum time taken by [[Class_P|$\text{P}$]] on any input.
 
-A similar class was defined in [ABK+02], where it was also shown that in BPP^KT^ one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
 
-See also: P^K^.
+
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that in [[Class_BPPKT|$\text{BPPKT}$]] one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
+
+
+
+See also: [[Class_PK|$\text{PK}$]].
 == Relations ==
+
+
+== See Also ==

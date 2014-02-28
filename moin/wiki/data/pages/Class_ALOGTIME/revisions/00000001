@@ -7,7 +7,12 @@
 
 == Comments ==
 
-ALOGTIME is the class of languages decidable in logarithmic time by a random access alternating Turing machine.
+[[Class_ALOGTIME|$\text{ALOGTIME}$]] is the class of languages decidable in logarithmic time by a random access alternating Turing machine.
 
-Known to be equal to U,,E^*^,,-uniform NC^1^.
+
+
+Known to be equal to U,,E^*^,,-uniform [[Class_NC1|$\text{NC1}$]].
 == Relations ==
+
+
+== See Also ==

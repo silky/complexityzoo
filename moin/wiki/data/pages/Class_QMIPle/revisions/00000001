@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as QMIP, except that now the provers share only a polynomial number of EPR pairs, instead of an unlimited number.
+Same as [[Class_QMIP|$\text{QMIP}$]], except that now the provers share only a polynomial number of EPR pairs, instead of an unlimited number.
 
-Defined in [KM02], where it was also shown that QMIP,,le,, is contained in NEXP = QMIP,,ne,,.
+
+
+Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPle|$\text{QMIPle}$]] is contained in [[Class_NEXP|$\text{NEXP}$]] = [[Class_QMIPne|$\text{QMIPne}$]].
 == Relations ==
+
+
+== See Also ==

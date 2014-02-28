@@ -7,13 +7,24 @@
 
 == Comments ==
 
-β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as NP.  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'
+β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as [[Class_NP|$\text{NP}$]].  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'
 
-Then βP is the union of β,,k,,P over all constant k.
 
-Defined in [KF84].  See also the survey [GLM96].
 
-There exist oracles relative to which basically any consistent inclusion structure among the β,,k,,P's can be realized [BG98].
+Then [[Class_βP|$\text{βP}$]] is the union of β,,k,,P over all constant k.
 
-β,,2,,P contains LOGNP and LOGSNP.
+
+
+Defined in [[ZooRefs#KF84|[KF84] ]].  See also the survey [[ZooRefs#GLM96|[GLM96] ]].
+
+
+
+There exist oracles relative to which basically any consistent inclusion structure among the β,,k,,P's can be realized [[ZooRefs#BG98|[BG98] ]].
+
+
+
+β,,2,,P contains [[Class_LOGNP|$\text{LOGNP}$]] and [[Class_LOGSNP|$\text{LOGSNP}$]].
 == Relations ==
+
+
+== See Also ==

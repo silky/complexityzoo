@@ -7,8 +7,14 @@
 
 == Comments ==
 
-The class of problems solvable by a BPP machine that is given O(log n) advice bits, which can depend on both the machine's random coin flips and the input length n, but not on the input itself.
+The class of problems solvable by a [[Class_BPP|$\text{BPP}$]] machine that is given O(log n) advice bits, which can depend on both the machine's random coin flips and the input length n, but not on the input itself.
 
-Defined in [TV02], where it was also shown that if EXP is in BPP//log then
-EXP = BPP, and if PSPACE is in BPP//log then PSPACE = BPP.
+
+
+Defined in [[ZooRefs#TV02|[TV02] ]], where it was also shown that if [[Class_EXP|$\text{EXP}$]] is in [[Class_BPP//log|$\text{BPP//log}$]] then
+
+[[Class_EXP|$\text{EXP}$]] = [[Class_BPP|$\text{BPP}$]], and if [[Class_PSPACE|$\text{PSPACE}$]] is in [[Class_BPP//log|$\text{BPP//log}$]] then [[Class_PSPACE|$\text{PSPACE}$]] = [[Class_BPP|$\text{BPP}$]].
 == Relations ==
+
+
+== See Also ==

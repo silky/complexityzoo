@@ -7,20 +7,38 @@
 
 == Comments ==
 
-The class of decision problems for which there is a polynomial-time predicate P such that, on input x,
+The class of decision problems for which there is a polynomial-time predicate [[Class_P|$\text{P}$]] such that, on input x,
+
+
 
 If the answer is 'yes,' then there exists a y such that for all z, P(x,y,z) is true.
+
 If the answer is 'no,' then there exists a z such that for all y, P(x,y,z) is false.
 
-Note that this differs from Σ,,2,,P in that the quantifiers in the second condition are reversed.
 
-Less formally, S,,2,,P is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In Σ,,2,,P, the disprover moves first.
 
-Defined in [RS98], where it was also shown that S,,2,,P contains MA and Δ,,2,,P.  Defined independently in [Can96].
+Note that this differs from [[Class_Σ2P|$\text{Σ2P}$]] in that the quantifiers in the second condition are reversed.
 
-Contained in ZPP^NP^ [Cai01].
 
-S,,2,,-EXP•P^NP^: Don't Ask 
+
+Less formally, [[Class_S2P|$\text{S2P}$]] is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In [[Class_Σ2P|$\text{Σ2P}$]], the disprover moves first.
+
+
+
+Defined in [[ZooRefs#RS98|[RS98] ]], where it was also shown that [[Class_S2P|$\text{S2P}$]] contains [[Class_MA|$\text{MA}$]] and [[Class_Δ2P|$\text{Δ2P}$]].  Defined independently in [[ZooRefs#Can96|[Can96] ]].
+
+
+
+Contained in ZPP^NP^ [[ZooRefs#Cai01|[Cai01] ]].
+
+
+
+[[Class_S2-EXP•PNP|$\text{S2-EXP•PNP}$]]: Don't Ask 
+
 One of the caged classes of the Complexity Zoo.
-Has been implicated in a collapse scandal involving AM[polylog], coNP, and EH.
+
+Has been implicated in a collapse scandal involving [[Class_AM[polylog]|$\text{AM[polylog]}$]], [[Class_coNP|$\text{coNP}$]], and [[Class_EH|$\text{EH}$]].
 == Relations ==
+
+
+== See Also ==

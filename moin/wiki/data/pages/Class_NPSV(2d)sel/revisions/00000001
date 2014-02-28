@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Has the same relation to NPSV as P-Sel does to P.
+Has the same relation to [[Class_NPSV|$\text{NPSV}$]] as [[Class_P-Sel|$\text{P-Sel}$]] does to [[Class_P|$\text{P}$]].
 
-Defined in [HHN+95].
 
-Has the same relation to href="#npsv">NPSV as P-Sel does to P.
+
+Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
+
+
+
+Has the same relation to href="#npsv">NPSV as [[Class_P-Sel|$\text{P-Sel}$]] does to [[Class_P|$\text{P}$]].
 == Relations ==
+
+
+== See Also ==

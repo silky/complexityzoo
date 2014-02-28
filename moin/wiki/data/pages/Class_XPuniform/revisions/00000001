@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Same as XP except that the algorithm used must be the same for each k (though it can take k as input).
+Same as [[Class_XP|$\text{XP}$]] except that the algorithm used must be the same for each k (though it can take k as input).
 
-Defined in [DF99].
+
+
+Defined in [[ZooRefs#DF99|[DF99] ]].
 == Relations ==
+
+
+== See Also ==

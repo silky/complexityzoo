@@ -7,9 +7,16 @@
 
 == Comments ==
 
-The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [Imm98] for a full definition.
+The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [[ZooRefs#Imm98|[Imm98] ]] for a full definition.
 
-SO-E = NP [Fag74].
+
+
+[[Class_SO-E|$\text{SO-E}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Fag74|[Fag74] ]].
+
+
 
 Contains FO(poly(n)).
 == Relations ==
+
+
+== See Also ==

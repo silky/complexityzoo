@@ -9,17 +9,34 @@
 
 The class of decision problems solvable by deterministic finite automata (DFAs).
 
+
+
 Equals the class solvable by nondeterministic finite automata (NDFAs).
 
-Equals DSPACE(O(1)) [She59], which equals DSPACE(o(log log n)) [HLS65].
+
+
+Equals DSPACE(O(1)) [[ZooRefs#She59|[She59] ]], which equals DSPACE(o(log log n)) [[ZooRefs#HLS65|[HLS65] ]].
+
+
 
 Includes, i.e., "Is the parity of the input odd?," but not "Are the majority of bits in the input 1's?"  This is sometimes expressed as "finite automata can't count."
 
-Contained in NC^1^.
 
-See e.g. [Koz97], [Gur89] for basic results on regular languages.
+
+Contained in [[Class_NC1|$\text{NC1}$]].
+
+
+
+See e.g. [[ZooRefs#Koz97|[Koz97] ]], [[ZooRefs#Gur89|[Gur89] ]] for basic results on regular languages.
+
+
 
 The class of decision problems solvable by deterministic finite automata (DFA's).
 
+
+
 Equals the class solvable by nondeterministic finite automata (NDFA's).
 == Relations ==
+
+
+== See Also ==

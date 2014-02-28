@@ -7,19 +7,36 @@
 
 == Comments ==
 
-In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  P^cc^ is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.
+In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  [[Class_Pcc|$\text{Pcc}$]] is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.
+
+
 
 Note that all functions of the form above are solvable given  bits of communication, since no bounds are placed on the computational abilities of Alice and Bob. Thus, when discussing this class, "polynomially" is sometimes used in place of "polylogarithmically."
 
-Is strictly contained in NP^cc^ and in BPP^cc^ because of the EQUALITY problem.
 
-Equals NP^cc^ ∩ coNP^cc^.
 
-Defined in [BFS86].
+Is strictly contained in [[Class_NPcc|$\text{NPcc}$]] and in [[Class_BPPcc|$\text{BPPcc}$]] because of the EQUALITY problem.
 
-Like P^cc^, but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
 
-More formally, P,,,,^cc^ is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
 
-P,,,,^cc^ is trivially contained in BPP,,,,^cc^, RP,,,,^cc^ and NP,,,,^cc^.
+Equals [[Class_NPcc|$\text{NPcc}$]] ∩ [[Class_coNPcc|$\text{coNPcc}$]].
+
+
+
+Defined in [[ZooRefs#BFS86|[BFS86] ]].
+
+
+
+Like [[Class_Pcc|$\text{Pcc}$]], but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
+
+
+
+More formally, [[Class_Pcc|$\text{Pcc}$]] is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
+
+
+
+[[Class_Pcc|$\text{Pcc}$]] is trivially contained in [[Class_BPPcc|$\text{BPPcc}$]], [[Class_RPcc|$\text{RPcc}$]] and [[Class_NPcc|$\text{NPcc}$]].
 == Relations ==
+
+
+== See Also ==

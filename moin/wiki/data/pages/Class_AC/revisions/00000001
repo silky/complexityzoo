@@ -9,13 +9,26 @@
 
 AC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and unbounded fanin.  The gates allowed are AND, OR, and NOT.
 
-Then AC is the union of AC^i^ over all nonnegative i.
 
-AC^i^ is contained in NC^i+1^; thus, AC = NC.
 
-Contains NL.
+Then [[Class_AC|$\text{AC}$]] is the union of AC^i^ over all nonnegative i.
 
-For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (uniform) AC^A^ is strictly contained in P^A^, with probability 1 [Mil92].
 
-fo-uniform AC with depth  is equal to FO[]
+
+AC^i^ is contained in NC^i+1^; thus, [[Class_AC|$\text{AC}$]] = [[Class_NC|$\text{NC}$]].
+
+
+
+Contains [[Class_NL|$\text{NL}$]].
+
+
+
+For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (uniform) AC^A^ is strictly contained in P^A^, with probability 1 [[ZooRefs#Mil92|[Mil92] ]].
+
+
+
+fo-uniform [[Class_AC|$\text{AC}$]] with depth  is equal to [[Class_FO[]|$\text{FO[]}$]]
 == Relations ==
+
+
+== See Also ==

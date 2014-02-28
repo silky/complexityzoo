@@ -7,15 +7,28 @@
 
 == Comments ==
 
-If NP = coNP, then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.
+If [[Class_NP|$\text{NP}$]] = [[Class_coNP|$\text{coNP}$]], then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.
 
-If NP does not equal coNP, then P does not equal NP.  But the other direction is not known.
 
-See also: NP ∩ coNP.
 
-Every problem in coNP has an IP (interactive proof) system, where moreover the prover can be restricted to BPP^#P^. If every problem in coNP has an interactive protocol whose rounds are bounded by a polylogarithmic function, then EH collapses to the third level [SS04].
+If [[Class_NP|$\text{NP}$]] does not equal [[Class_coNP|$\text{coNP}$]], then [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]].  But the other direction is not known.
+
+
+
+See also: [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]].
+
+
+
+Every problem in [[Class_coNP|$\text{coNP}$]] has an [[Class_IP|$\text{IP}$]] (interactive proof) system, where moreover the prover can be restricted to BPP^#P^. If every problem in [[Class_coNP|$\text{coNP}$]] has an interactive protocol whose rounds are bounded by a polylogarithmic function, then [[Class_EH|$\text{EH}$]] collapses to the third level [[ZooRefs#SS04|[SS04] ]].
+
+
 
 Co-NP is equal to SO-A, the second-order queries where the second-order quantifiers are only universals.
 
-Every problem in coNP has an IP (interactive proof) system, where moreover the prover can be restricted to BPP^#P^.
+
+
+Every problem in [[Class_coNP|$\text{coNP}$]] has an [[Class_IP|$\text{IP}$]] (interactive proof) system, where moreover the prover can be restricted to BPP^#P^.
 == Relations ==
+
+
+== See Also ==

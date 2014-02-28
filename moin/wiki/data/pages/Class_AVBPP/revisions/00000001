@@ -7,7 +7,12 @@
 
 == Comments ==
 
-Defined in [OW93] to be the class of decision problems that have a good average-case BPP algorithm, whenever the input is chosen from an efficiently samplable distribution.
+Defined in [[ZooRefs#OW93|[OW93] ]] to be the class of decision problems that have a good average-case [[Class_BPP|$\text{BPP}$]] algorithm, whenever the input is chosen from an efficiently samplable distribution.
 
-Note that this is not the same as the BPP version of AvgP.
+
+
+Note that this is not the same as the [[Class_BPP|$\text{BPP}$]] version of [[Class_AvgP|$\text{AvgP}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,9 +7,16 @@
 
 == Comments ==
 
-Same as AC^0^, except now we're allowed a single unbounded-fanin majority gate at the root.
+Same as [[Class_AC0|$\text{AC0}$]], except now we're allowed a single unbounded-fanin majority gate at the root.
 
-Defined in [JKS02].
 
-MAC^0^ is strictly contained in TC^0^ [ABF+94].
+
+Defined in [[ZooRefs#JKS02|[JKS02] ]].
+
+
+
+[[Class_MAC0|$\text{MAC0}$]] is strictly contained in [[Class_TC0|$\text{TC0}$]] [[ZooRefs#ABF+94|[ABF+94] ]].
 == Relations ==
+
+
+== See Also ==

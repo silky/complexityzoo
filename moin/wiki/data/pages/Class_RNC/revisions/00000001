@@ -7,11 +7,20 @@
 
 == Comments ==
 
-Has the same relation to NC as RP does to P.
+Has the same relation to [[Class_NC|$\text{NC}$]] as [[Class_RP|$\text{RP}$]] does to [[Class_P|$\text{P}$]].
 
-Contains the maximum matching problem for bipartite graphs [MVV87].
 
-Contained in QNC.
 
-See also: coRNC.
+Contains the maximum matching problem for bipartite graphs [[ZooRefs#MVV87|[MVV87] ]].
+
+
+
+Contained in [[Class_QNC|$\text{QNC}$]].
+
+
+
+See also: [[Class_coRNC|$\text{coRNC}$]].
 == Relations ==
+
+
+== See Also ==

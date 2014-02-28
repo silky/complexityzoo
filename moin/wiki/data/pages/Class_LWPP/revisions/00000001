@@ -7,20 +7,38 @@
 
 == Comments ==
 
-The class of decision problems solvable by an NP machine such that
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+
+
 
 If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
+
 If the answer is "yes," then the difference of these numbers equals a function f(|x|) computable in polynomial time (i.e. FP).  Here |x| is the length of the input x, and ``polynomial time means polynomial in |x|, the length of x, rather than the length of |x|.
 
-Defined in [FFK94], where it was also shown that LWPP is low for PP and C,,=,,P.  (I.e. adding LWPP as an oracle does not increase the power of these classes.)
 
-Contained in WPP and AWPP.
 
-Contains SPP.
+Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_LWPP|$\text{LWPP}$]] is low for [[Class_PP|$\text{PP}$]] and [[Class_C=P|$\text{C=P}$]].  (I.e. adding [[Class_LWPP|$\text{LWPP}$]] as an oracle does not increase the power of these classes.)
 
-Also, contains the graph isomorphism problem [KST92].
 
-Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04].
 
-Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04]
+Contained in [[Class_WPP|$\text{WPP}$]] and [[Class_AWPP|$\text{AWPP}$]].
+
+
+
+Contains [[Class_SPP|$\text{SPP}$]].
+
+
+
+Also, contains the graph isomorphism problem [[ZooRefs#KST92|[KST92] ]].
+
+
+
+Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [[ZooRefs#Vin04|[Vin04] ]].
+
+
+
+Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [[ZooRefs#Vin04|[Vin04] ]]
 == Relations ==
+
+
+== See Also ==

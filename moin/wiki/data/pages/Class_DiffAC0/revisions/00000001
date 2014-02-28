@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of functions from {0,1}^n^ to integers expressible as the difference of two #AC^0^ functions.
+The class of functions from {0,1}^n^ to integers expressible as the difference of two [[Class_SharpAC0|$\text{#AC0}$]] functions.
 
-Equals GapAC^0^ under logspace uniformity [ABL98].
+
+
+Equals [[Class_GapAC0|$\text{GapAC0}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
+
+
+== See Also ==

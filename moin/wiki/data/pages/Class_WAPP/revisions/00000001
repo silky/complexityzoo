@@ -7,10 +7,18 @@
 
 == Comments ==
 
-The class of decision problems for which there exists a #P function f, a polynomial p, and an ε > 0, such that for all inputs x,
+The class of decision problems for which there exists a [[Class_SharpP|$\text{#P}$]] function f, a polynomial p, and an ε > 0, such that for all inputs x,
+
+
 
 If the answer is "yes" then 2^p(|x|)^ ≥ f(x) > (1+ε) 2^p(|x|)-1^.
+
 If the answer is "no" then 0 ≤ f(x) < (1-ε) 2^p(|x|)-1^.
 
-Defined in [BGM02], where it is also shown that WAPP is contained in AWPP and SBP.
+
+
+Defined in [[ZooRefs#BGM02|[BGM02] ]], where it is also shown that [[Class_WAPP|$\text{WAPP}$]] is contained in [[Class_AWPP|$\text{AWPP}$]] and [[Class_SBP|$\text{SBP}$]].
 == Relations ==
+
+
+== See Also ==

@@ -7,7 +7,12 @@
 
 == Comments ==
 
-The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [BG69], where it was shown that Q equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).
+The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [[ZooRefs#BG69|[BG69] ]], where it was shown that [[Class_Q|$\text{Q}$]] equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).
 
-Contains GCSL.
+
+
+Contains [[Class_GCSL|$\text{GCSL}$]].
 == Relations ==
+
+
+== See Also ==
