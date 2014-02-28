@@ -204,7 +204,7 @@ def execute (pagename, request, fieldname='class_names'):
 
     js_data = "DATA = %s;" % d3list
     html    = '''<h1>Inclusion graph</h1>
-<small>Notation: An arrow from A to B means A <em>contains</em> B.</small>
+<small>Notation: An arrow from A to B means A is <em>contained in</em> B.</small>
 
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 

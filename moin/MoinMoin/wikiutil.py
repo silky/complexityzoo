@@ -87,7 +87,7 @@ def getRelationsAsNxGraph (pages):
 
     for (key, val) in data.iteritems():
         for c in val["relations"]["contained_in"]:
-            graph.add_edge(key, c["class"])
+            graph.add_edge(c["class"], key)
     return graph
 #
 

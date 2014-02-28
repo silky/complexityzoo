@@ -19,20 +19,16 @@ class Parser:
         self.formatter = formatter
 
         try:
-            obj = json.loads(self.raw)
+            obj   = json.loads(self.raw)
             relns = obj["relations"]
             _in   = relns["contained_in"]
             _eq   = relns["equals"]
-            # _cts  = relns["contains"]
-            #
             
             def classesToLinks (classes):
                 return u", ".join([ u'<a href="Class_%(class)s">%(class)s</a>' % x for x in classes ])
 
             str_in  = classesToLinks(_in)
             str_eq  = classesToLinks(_eq)
-            # str_cts = ", ".join([ '<a href="Class_%(class)s">%(class)s</a>' % x
-            #     for x in _cts ])
 
             str_contains = "TBA"
 

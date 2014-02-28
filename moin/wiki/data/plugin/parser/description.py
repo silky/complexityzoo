@@ -28,6 +28,4 @@ class Parser:
         formatter.startContent('')
         output = self.request.redirectedOutput(parser.format, formatter)
         formatter.endContent('')
-
-        output = '<div class="description"><hr />%s<hr /></div>' % output
         self.out.write(output)

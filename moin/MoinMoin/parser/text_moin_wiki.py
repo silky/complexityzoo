@@ -1412,7 +1412,7 @@ class Parser:
                 # Get replace method and replace hit
                 replace_func = getattr(self, '_%s_repl' % type)
                 result.append(replace_func(hit, match.groupdict()))
-                return ''.join([ str(r) for r in result ])
+                return ''.join([ r for r in result ])
         else:
             # We should never get here
             import pprint
