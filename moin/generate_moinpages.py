@@ -24,7 +24,7 @@ The class of functions from {0,1}^n^ to nonnegative integers computed by polynom
 
 
 
-Contained in GapAC^0^.
+Contained in [[Class_GapAC0|GapAC0]].
 == Relations ==
 
 
@@ -172,7 +172,7 @@ What makes that interesting is that the associated decision problem (whether a b
 
 
 
-[[Class_PH|PH]] is in P^#P^ [[ZooRefs#Tod89|[Tod89] ]].
+[[Class_PH|PH]] is in [[Class_P#P|P#P]] [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
@@ -250,7 +250,7 @@ A monoid is a set with an associative operation and an identity element (so it's
 
 
 
-Then (M,,k,,)P is the class of decision problems solvable by an [[Class_NP|NP]] machine with the following acceptance mechanism.  The i^th^ computation path (under some lexicographic ordering) outputs an element m,,i,, of M,,k,,.  Then the machine accepts if and only if m,,1,,m,,2,,...m,,s,, is the identity (where s is the number of paths).
+Then [[Class_(Mk)P|(Mk)P]] is the class of decision problems solvable by an [[Class_NP|NP]] machine with the following acceptance mechanism.  The i^th^ computation path (under some lexicographic ordering) outputs an element m,,i,, of M,,k,,.  Then the machine accepts if and only if m,,1,,m,,2,,...m,,s,, is the identity (where s is the number of paths).
 
 
 
@@ -260,9 +260,9 @@ Defined by Hertrampf [[ZooRefs#Her97|[Her97] ]], who also showed the following (
 
 If G is any nonsolvable group (for example S,,5,,, the symmetric group on 5 elements), then (G)P = [[Class_PSPACE|PSPACE]].
 
-(Z,,k,,)P = coMod,,k,,P, where Z,,k,, is the cyclic group on k elements.
+(Z,,k,,)P = [[Class_coModkP|coModkP]], where Z,,k,, is the cyclic group on k elements.
 
-If |G|=k, then (G)P contains coMod,,k,,P.
+If |G|=k, then (G)P contains [[Class_coModkP|coModkP]].
 == Relations ==
 
 
@@ -301,7 +301,7 @@ There is an oracle relative to which [[Class_NP/poly|NP/poly]] ∩ [[Class_coNP/
 
 
 
-If [[Class_NP|NP]] is contained in (NP ∩ coNP)/poly, then [[Class_PH|PH]] collapses to S,,2,,P^NP ∩ coNP^ [[ZooRefs#CCH+01|[CCH+01] ]].
+If [[Class_NP|NP]] is contained in (NP ∩ coNP)/poly, then [[Class_PH|PH]] collapses to S,,2,,P^NP ∩ [[Class_coNP|coNP]] [[ZooRefs#CCH+01|[CCH+01] ]].
 == Relations ==
 
 
@@ -371,7 +371,7 @@ text = u'''
 
 == Comments ==
 
-The intersection of NP,,C,, with {0,1}^*^ (i.e. the set of binary strings).
+The intersection of [[Class_NPC|NPC]] with {0,1}^*^ (i.e. the set of binary strings).
 
 
 
@@ -410,7 +410,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that 1NAuxPDA^p^ strictly contains [[Class_CFL|CFL]] and is strictly contained in [[Class_LOGCFL|LOGCFL]]. The class corresponds to the closure of [[Class_CFL|CFL]] under one-way log-space reductions.
+Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that [[Class_1NAuxPDAp|1NAuxPDAp]] strictly contains [[Class_CFL|CFL]] and is strictly contained in [[Class_LOGCFL|LOGCFL]]. The class corresponds to the closure of [[Class_CFL|CFL]] under one-way log-space reductions.
 == Relations ==
 
 
@@ -449,15 +449,15 @@ Defined in [[ZooRefs#Vya03|[Vya03] ]], where the following was also shown:
 
 
 
-A,,0,,PP contains [[Class_QMA|QMA]], [[Class_AWPP|AWPP]], and coC,,=,,P.
+[[Class_A0PP|A0PP]] contains [[Class_QMA|QMA]], [[Class_AWPP|AWPP]], and [[Class_coC=P|coC=P]].
 
-A,,0,,PP is contained in [[Class_PP|PP]].
+[[Class_A0PP|A0PP]] is contained in [[Class_PP|PP]].
 
-If A,,0,,PP = [[Class_PP|PP]] then [[Class_PH|PH]] is contained in [[Class_PP|PP]].
+If [[Class_A0PP|A0PP]] = [[Class_PP|PP]] then [[Class_PH|PH]] is contained in [[Class_PP|PP]].
 
 
 
-Kuperberg ([[ZooRefs#Kup09|[Kup09] ]]) showed that A,,0,,PP = [[Class_SBQP|SBQP]].
+Kuperberg ([[ZooRefs#Kup09|[Kup09] ]]) showed that [[Class_A0PP|A0PP]] = [[Class_SBQP|SBQP]].
 
 
 
@@ -547,31 +547,31 @@ An especially important subclass of [[Class_AC|AC]], corresponding to constant-d
 
 
 
-Computing the Parity or Majority of n bits is not in AC^0^ [[ZooRefs#FSS84|[FSS84] ]].
+Computing the Parity or Majority of n bits is not in [[Class_AC0|AC0]] [[ZooRefs#FSS84|[FSS84] ]].
 
 
 
-There are functions in AC^0^ that are pseudorandom for all statistical tests in AC^0^ [[ZooRefs#NW94|[NW94] ]].  But there are no functions in AC^0^ that are pseudorandom for all statistical tests in [[Class_QP|QP]] (quasipolynomial time) [[ZooRefs#LMN93|[LMN93] ]].
+There are functions in [[Class_AC0|AC0]] that are pseudorandom for all statistical tests in [[Class_AC0|AC0]] [[ZooRefs#NW94|[NW94] ]].  But there are no functions in [[Class_AC0|AC0]] that are pseudorandom for all statistical tests in [[Class_QP|QP]] (quasipolynomial time) [[ZooRefs#LMN93|[LMN93] ]].
 
 
 
-[[ZooRefs#LMN93|[LMN93] ]] showed furthermore that functions with AC^0^ circuits of depth d are learnable in [[Class_QP|QP]], given their outputs on O(2^log(n)^O(d)^) randomly chosen inputs.  On the other hand, this learning algorithm is essentially optimal, unless there is a 2^n^o(1)^ algorithm for factoring [[ZooRefs#Kha93|[Kha93] ]].
+[[ZooRefs#LMN93|[LMN93] ]] showed furthermore that functions with [[Class_AC0|AC0]] circuits of depth d are learnable in [[Class_QP|QP]], given their outputs on O(2^log(n)^O(d)^) randomly chosen inputs.  On the other hand, this learning algorithm is essentially optimal, unless there is a 2^n^o(1)^ algorithm for factoring [[ZooRefs#Kha93|[Kha93] ]].
 
 
 
-Although there are no good pseudorandom functions in AC^0^, [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum.
+Although there are no good pseudorandom functions in [[Class_AC0|AC0]], [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum.
 
 
 
-AC^0^ contains NC^0^, and is contained in QAC,,f,,^0^ and MAC^0^.
+[[Class_AC0|AC0]] contains [[Class_NC0|NC0]], and is contained in [[Class_QACf0|QACf0]] and [[Class_MAC0|MAC0]].
 
 
 
-In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]). So it's equivalent to the class [[Class_FO|FO]] and to [[Class_AL|AL]] the alternating logtime hierarchy.
+In descriptive complexity, uniform [[Class_AC0|AC0]] can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]). So it's equivalent to the class [[Class_FO|FO]] and to [[Class_AL|AL]] the alternating logtime hierarchy.
 
 
 
-[[ZooRefs#BLM+98|[BLM+98] ]] showed the following problem is complete for depth-k AC^0^ circuits (with a uniformity condition):
+[[ZooRefs#BLM+98|[BLM+98] ]] showed the following problem is complete for depth-k [[Class_AC0|AC0]] circuits (with a uniformity condition):
 
 
 
@@ -579,19 +579,19 @@ Given a grid graph of polynomial length and width k, decide whether there is a p
 
 
 
-Computing the parity or majority of n bits is not in AC^0^ [[ZooRefs#FSS84|[FSS84] ]].
+Computing the parity or majority of n bits is not in [[Class_AC0|AC0]] [[ZooRefs#FSS84|[FSS84] ]].
 
 
 
-Although there are no good pseudorandom functions in AC^0^, [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators in AC^0^ that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum. Work of [[ZooRefs#AIK04|[AIK04] ]] shows pseudorandom generators in NC^0^ under more relaxed assumptions.
+Although there are no good pseudorandom functions in [[Class_AC0|AC0]], [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators in [[Class_AC0|AC0]] that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum. Work of [[ZooRefs#AIK04|[AIK04] ]] shows pseudorandom generators in [[Class_NC0|NC0]] under more relaxed assumptions.
 
 
 
-AC^0^ contains NC^0^, and is contained in QAC^0^ and MAC^0^.
+[[Class_AC0|AC0]] contains [[Class_NC0|NC0]], and is contained in [[Class_QAC0|QAC0]] and [[Class_MAC0|MAC0]].
 
 
 
-In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]).
+In descriptive complexity, uniform [[Class_AC0|AC0]] can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]).
 == Relations ==
 
 
@@ -622,23 +622,23 @@ text = u'''
 
 == Comments ==
 
-Same as AC^0^, but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)
+Same as [[Class_AC0|AC0]], but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)
 
 
 
-If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in AC^0^[m] [[ZooRefs#Raz87|[Raz87] ]] [[ZooRefs#Smo87|[Smo87] ]].  It follows that, for any such m, AC^0^[m] is strictly contained in NC^1^.
+If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in [[Class_AC0[m]|AC0[m]]] [[ZooRefs#Raz87|[Raz87] ]] [[ZooRefs#Smo87|[Smo87] ]].  It follows that, for any such m, [[Class_AC0[m]|AC0[m]]] is strictly contained in [[Class_NC1|NC1]].
 
 
 
-However, if m is a product of distinct primes (e.g. 6), then it is not even known whether AC^0^[m] = NP!
+However, if m is a product of distinct primes (e.g. 6), then it is not even known whether [[Class_AC0[m]|AC0[m]]] = NP!
 
 
 
-See also: QAC^0^[m].
+See also: [[Class_QAC0[m]|QAC0[m]]].
 
 
 
-However, if m is a product of distinct primes (i.e. 6), then it is not even known whether AC^0^[m] = NP!
+However, if m is a product of distinct primes (i.e. 6), then it is not even known whether [[Class_AC0[m]|AC0[m]]] = NP!
 == Relations ==
 
 
@@ -700,11 +700,11 @@ text = u'''
 
 == Comments ==
 
-Same as AC^0^[m], but now the constant-depth circuit can contain MOD m gates for any m.
+Same as [[Class_AC0[m]|AC0[m]]], but now the constant-depth circuit can contain MOD m gates for any m.
 
 
 
-Contained in TC^0^.
+Contained in [[Class_TC0|TC0]].
 
 
 
@@ -712,11 +712,11 @@ Indeed, can be simulated by depth-3 threshold circuits of quasipolynomial size [
 
 
 
-According to [[ZooRefs#All96|[All96] ]], there is no good evidence for the existence of cryptographically secure functions in ACC^0^.
+According to [[ZooRefs#All96|[All96] ]], there is no good evidence for the existence of cryptographically secure functions in [[Class_ACC0|ACC0]].
 
 
 
-There is no non-uniform ACC^0^ circuits of polynomial size for NTIMES[2^n^] and no ACC^0^ circuit of size 2^n^O(1)^^ for E^NP^ (The class [[Class_E|E]] with an [[Class_NP|NP]] oracle). These are the only two known nontrivial lower bounds against ACC^0^ and were recently discovered by [[ZooRefs#Wil11|[Wil11] ]].
+There is no non-uniform [[Class_ACC0|ACC0]] circuits of polynomial size for NTIMES[2^n^] and no [[Class_ACC0|ACC0]] circuit of size 2^n^O(1)^^ for E^NP^ (The class [[Class_E|E]] with an [[Class_NP|NP]] oracle). These are the only two known nontrivial lower bounds against [[Class_ACC0|ACC0]] and were recently discovered by [[ZooRefs#Wil11|[Wil11] ]].
 
 
 
@@ -724,11 +724,11 @@ Contains 4-PBP [[ZooRefs#BT88|[BT88] ]].
 
 
 
-See also: QACC^0^.
+See also: [[Class_QACC0|QACC0]].
 
 
 
-In 1996, [[ZooRefs#All96|[All96] ]] suggested the existence of cryptographically secure functions in ACC^0^ as an important open question. In 2004, work of [[ZooRefs#AIK04|[AIK04] ]] showed pseudorandom generators in NC^0^ based on widely-believed assumptions.
+In 1996, [[ZooRefs#All96|[All96] ]] suggested the existence of cryptographically secure functions in [[Class_ACC0|ACC0]] as an important open question. In 2004, work of [[ZooRefs#AIK04|[AIK04] ]] showed pseudorandom generators in [[Class_NC0|NC0]] based on widely-believed assumptions.
 == Relations ==
 
 
@@ -869,7 +869,7 @@ Nor is it hard to show that MA,,EXP,,/rpoly = [[Class_ALL|ALL]].
 
 
 
-On the other hand, even though [[Class_PSPACE|PSPACE]] contains [[Class_PP|PP]], and [[Class_EXPSPACE|EXPSPACE]] contains MA,,EXP,,, it's easy to see that PSPACE/rpoly = [[Class_PSPACE/poly|PSPACE/poly]] and EXPSPACE/rpoly = EXPSPACE/poly are not [[Class_ALL|ALL]].
+On the other hand, even though [[Class_PSPACE|PSPACE]] contains [[Class_PP|PP]], and [[Class_EXPSPACE|EXPSPACE]] contains [[Class_MAEXP|MAEXP]], it's easy to see that PSPACE/rpoly = [[Class_PSPACE/poly|PSPACE/poly]] and EXPSPACE/rpoly = EXPSPACE/poly are not [[Class_ALL|ALL]].
 
 
 
@@ -912,7 +912,7 @@ text = u'''
 
 
 
-Known to be equal to U,,E^*^,,-uniform NC^1^.
+Known to be equal to U,,E^*^,,-uniform [[Class_NC1|NC1]].
 == Relations ==
 
 
@@ -969,11 +969,11 @@ Furthermore, define AM[k] similarly to [[Class_AM|AM]], except that Arthur and M
 
 
 
-Contains [[Class_NP|NP]], [[Class_BPP|BPP]], and [[Class_SZK|SZK]], and is contained in Π,,2,,P and [[Class_NP/poly|NP/poly]].
+Contains [[Class_NP|NP]], [[Class_BPP|BPP]], and [[Class_SZK|SZK]], and is contained in [[Class_Π2P|Π2P]] and [[Class_NP/poly|NP/poly]].
 
 
 
-If [[Class_AM|AM]] contains [[Class_coNP|coNP]] then [[Class_PH|PH]] collapses to Σ,,2,,P ∩ Π,,2,,P [[ZooRefs#BHZ87|[BHZ87] ]].
+If [[Class_AM|AM]] contains [[Class_coNP|coNP]] then [[Class_PH|PH]] collapses to [[Class_Σ2P|Σ2P]] ∩ [[Class_Π2P|Π2P]] [[ZooRefs#BHZ87|[BHZ87] ]].
 
 
 
@@ -1055,11 +1055,11 @@ Same as [[Class_AM|AM]], except that Arthur is exponential-time and can exchange
 
 
 
-Contains MA,,EXP,,, and is contained in [[Class_EH|EH]] and indeed S,,2,,-EXP•P^NP^.
+Contains [[Class_MAEXP|MAEXP]], and is contained in [[Class_EH|EH]] and indeed [[Class_S2-EXP•PNP|S2-EXP•PNP]].
 
 
 
-If [[Class_coNP|coNP]] is contained in [[Class_AM[polylog]|AM[polylog]]] then [[Class_EH|EH]] collapses to AM,,EXP,, [[ZooRefs#PV04|[PV04] ]].
+If [[Class_coNP|coNP]] is contained in [[Class_AM[polylog]|AM[polylog]]] then [[Class_EH|EH]] collapses to [[Class_AMEXP|AMEXP]] [[ZooRefs#PV04|[PV04] ]].
 == Relations ==
 
 
@@ -1094,7 +1094,7 @@ Same as [[Class_AM|AM]], except that we allow polylog(n) rounds of interaction b
 
 
 
-Not much is known about [[Class_AM[polylog]|AM[polylog]]] -- for example, whether it sits in [[Class_PH|PH]].  However, [[ZooRefs#SS04|[SS04] ]] show that if [[Class_AM[polylog]|AM[polylog]]] contains [[Class_coNP|coNP]], then [[Class_EH|EH]] collapses to S,,2,,-EXP•P^NP^.  ([[ZooRefs#PV04|[PV04] ]] improved the collapse to AM,,EXP,,.)
+Not much is known about [[Class_AM[polylog]|AM[polylog]]] -- for example, whether it sits in [[Class_PH|PH]].  However, [[ZooRefs#SS04|[SS04] ]] show that if [[Class_AM[polylog]|AM[polylog]]] contains [[Class_coNP|coNP]], then [[Class_EH|EH]] collapses to [[Class_S2-EXP•PNP|S2-EXP•PNP]].  ([[ZooRefs#PV04|[PV04] ]] improved the collapse to AM,,EXP,,.)
 == Relations ==
 
 
@@ -1824,7 +1824,7 @@ text = u'''
 
 == Comments ==
 
-Equivalent to NAuxPDA^p^ without the running-time restriction.
+Equivalent to [[Class_NAuxPDAp|NAuxPDAp]] without the running-time restriction.
 
 
 
@@ -2067,7 +2067,7 @@ For more detail see [[ZooRefs#CGH+88|[CGH+88] ]].
 
 
 
-Contained in Δ,,2,,P and indeed in P^NP[log]^.
+Contained in [[Class_Δ2P|Δ2P]] and indeed in [[Class_PNP[log]|PNP[log]]].
 
 
 
@@ -2180,7 +2180,7 @@ The class of decision problems solvable in O(f(n))-space with error probability 
 
 
 
-Contains R,,H,,SPACE(f(n)).
+Contains [[Class_RHSPACE(f(n))|RHSPACE(f(n))]].
 
 
 
@@ -2272,7 +2272,7 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 
 
-Contained in Σ,,2,,P ∩ Π,,2,,P [[ZooRefs#Lau83|[Lau83] ]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|[GZ97] ]].
+Contained in [[Class_Σ2P|Σ2P]] ∩ [[Class_Π2P|Π2P]] [[ZooRefs#Lau83|[Lau83] ]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|[GZ97] ]].
 
 
 
@@ -2308,7 +2308,7 @@ Equals [[Class_Almost-P|Almost-P]].
 
 
 
-See also: BPP,,path,,.
+See also: [[Class_BPPpath|BPPpath]].
 
 
 
@@ -2532,11 +2532,11 @@ text = u'''
 
 
 
-A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that in BPP^KT^ one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that in [[Class_BPPKT|BPPKT]] one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
 
 
 
-See also: P^K^.
+See also: [[Class_PK|PK]].
 == Relations ==
 
 
@@ -2567,11 +2567,11 @@ text = u'''
 
 == Comments ==
 
-The analogue of P^cc^ for bounded-error probabilistic communication complexity.
+The analogue of [[Class_Pcc|Pcc]] for bounded-error probabilistic communication complexity.
 
 
 
-Does not equal P^cc^, and is not contained in NP^cc^, because of the EQUALITY problem.
+Does not equal [[Class_Pcc|Pcc]], and is not contained in [[Class_NPcc|NPcc]], because of the EQUALITY problem.
 
 
 
@@ -2579,11 +2579,11 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 
-Has the same relation to BPP^cc^ and [[Class_BPP|BPP]] as P,,,,^cc^ does to P^cc^ and [[Class_P|P]].
+Has the same relation to [[Class_BPPcc|BPPcc]] and [[Class_BPP|BPP]] as [[Class_Pcc|Pcc]] does to [[Class_Pcc|Pcc]] and [[Class_P|P]].
 
 
 
-NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPcc|NPcc]] is not contained in [[Class_BPPcc|BPPcc]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 
@@ -2622,21 +2622,21 @@ Defined in [[ZooRefs#HHT97|[HHT97] ]], where the following was also shown:
 
 
 
-BPP,,path,, contains [[Class_MA|MA]] and P^NP[log]^, and is contained in [[Class_PP|PP]] and BPP^NP^.
+[[Class_BPPpath|BPPpath]] contains [[Class_MA|MA]] and [[Class_PNP[log]|PNP[log]]], and is contained in [[Class_PP|PP]] and BPP^NP^.
 
-BPP,,path,, is closed under complementation, intersection, and union.
+[[Class_BPPpath|BPPpath]] is closed under complementation, intersection, and union.
 
-If BPP,,path,, = BPP,,path,,^BPP,,path,,^, then [[Class_PH|PH]] collapses to BPP,,path,,.
+If [[Class_BPPpath|BPPpath]] = BPP,,path,,^BPP,,path,,^, then [[Class_PH|PH]] collapses to [[Class_BPPpath|BPPpath]].
 
-If BPP,,path,, contains Σ,,2,,P, then [[Class_PH|PH]] collapses to BPP^NP^.
-
-
-
-There exists an oracle relative to which BPP,,path,, is not contained in Σ,,2,,P [[ZooRefs#BGM02|[BGM02] ]].
+If [[Class_BPPpath|BPPpath]] contains [[Class_Σ2P|Σ2P]], then [[Class_PH|PH]] collapses to BPP^NP^.
 
 
 
-An alternate characterization of BPP,,path,, uses the idea of post-selection. That is, BPP,,path,, is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
+There exists an oracle relative to which [[Class_BPPpath|BPPpath]] is not contained in [[Class_Σ2P|Σ2P]] [[ZooRefs#BGM02|[BGM02] ]].
+
+
+
+An alternate characterization of [[Class_BPPpath|BPPpath]] uses the idea of post-selection. That is, [[Class_BPPpath|BPPpath]] is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
 
 
 
@@ -2648,7 +2648,7 @@ If , .
 
 
 
-We say that  is the post-selector. Intuitively, this characterization allows a [[Class_BPP|BPP]] machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion [[Class_NP|NP]] ⊆ BPP,,path,, nearly trivial.
+We say that  is the post-selector. Intuitively, this characterization allows a [[Class_BPP|BPP]] machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion [[Class_NP|NP]] ⊆ [[Class_BPPpath|BPPpath]] nearly trivial.
 
 
 
@@ -2656,13 +2656,13 @@ See Also: [[Class_PostBQP|PostBQP]] (quantum analogue).
 
 
 
-BPP,,path,, contains [[Class_MA|MA]] and P^NP[log]^, and is contained in [[Class_PP|PP]] and BPP^NP^.
+[[Class_BPPpath|BPPpath]] contains [[Class_MA|MA]] and [[Class_PNP[log]|PNP[log]]], and is contained in [[Class_PP|PP]] and BPP^NP^.
 
-BPP,,path,, is closed under complementation, intersection, and union.
+[[Class_BPPpath|BPPpath]] is closed under complementation, intersection, and union.
 
-If BPP,,path,, = BPP,,path,,^BPPpath^, then [[Class_PH|PH]] collapses to BPP,,path,,.
+If [[Class_BPPpath|BPPpath]] = BPP,,path,,^BPPpath^, then [[Class_PH|PH]] collapses to [[Class_BPPpath|BPPpath]].
 
-If BPP,,path,, contains Σ,,2,,P, then [[Class_PH|PH]] collapses to BPP^NP^.
+If [[Class_BPPpath|BPPpath]] contains [[Class_Σ2P|Σ2P]], then [[Class_PH|PH]] collapses to BPP^NP^.
 == Relations ==
 
 
@@ -2736,7 +2736,7 @@ The class of decision problems solvable in O(f(n))-space with error probability 
 
 
 
-Contains [[Class_RSPACE(f(n))|RSPACE(f(n))]] and BP,,H,,SPACE(f(n)).
+Contains [[Class_RSPACE(f(n))|RSPACE(f(n))]] and [[Class_BPHSPACE(f(n))|BPHSPACE(f(n))]].
 == Relations ==
 
 
@@ -2834,7 +2834,7 @@ The class of decision problems solvable by a family of polynomial size branching
 
 
 
-BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [[ZooRefs#Tha98|[Tha98] ]].
+[[Class_BPd(P)|BPd(P)]] strictly contains BP,,d-1,,(P), for every d > 1 [[ZooRefs#Tha98|[Tha98] ]].
 
 
 
@@ -3342,11 +3342,11 @@ Same as [[Class_BQP|BQP]] with access to two sets of qubits: causality-respectin
 
 
 
-Defined in [Aar05c], where it was shown that [[Class_PSPACE|PSPACE]] is contained in BQP,,CTC,,, which in turn is contained in [[Class_SQG|SQG]].
+Defined in [Aar05c], where it was shown that [[Class_PSPACE|PSPACE]] is contained in [[Class_BQPCTC|BQPCTC]], which in turn is contained in [[Class_SQG|SQG]].
 
 
 
-See also P,,CTC,,.
+See also [[Class_PCTC|PCTC]].
 == Relations ==
 
 
@@ -3412,7 +3412,7 @@ Same as [[Class_BQP/mpoly|BQP/mpoly]], except that the machine only gets to make
 
 
 
-Defined in [NY03b], where it was also shown that [[Class_P|P]] is not contained in BQP,,tt,,/poly relative to an oracle.
+Defined in [NY03b], where it was also shown that [[Class_P|P]] is not contained in [[Class_BQPtt/poly|BQPtt/poly]] relative to an oracle.
 == Relations ==
 
 
@@ -3478,11 +3478,11 @@ text = u'''
 
 == Comments ==
 
-The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)=0.
+The class of problems for which there exists a [[Class_DiffAC0|DiffAC0]] function f such that the answer is "yes" on input x if and only if f(x)=0.
 
 
 
-Equals TC^0^ and PAC^0^ under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_TC0|TC0]] and [[Class_PAC0|PAC0]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
 
 
@@ -3513,7 +3513,7 @@ text = u'''
 
 == Comments ==
 
-Has the same relation to [[Class_L|L]] as C,,=,,P does to [[Class_P|P]].
+Has the same relation to [[Class_L|L]] as [[Class_C=P|C=P]] does to [[Class_P|P]].
 
 
 
@@ -3708,15 +3708,15 @@ Contained in [[Class_PSPACE|PSPACE]].
 
 
 
-Strictly contains DLOGTIME-uniform NC^1^ [[ZooRefs#CMTV98|[CMTV98] ]].
+Strictly contains DLOGTIME-uniform [[Class_NC1|NC1]] [[ZooRefs#CMTV98|[CMTV98] ]].
 
 
 
-It is an open problem whether there exists an oracle relative to which [[Class_CH|CH]] is infinite, or even unequal to [[Class_PSPACE|PSPACE]].  This is closely related to the problem of whether TC^0^ = NC^1^, since a padding argument shows that TC^0^ = NC^1^ implies [[Class_CH|CH]] = [[Class_PSPACE|PSPACE]].
+It is an open problem whether there exists an oracle relative to which [[Class_CH|CH]] is infinite, or even unequal to [[Class_PSPACE|PSPACE]].  This is closely related to the problem of whether [[Class_TC0|TC0]] = [[Class_NC1|NC1]], since a padding argument shows that [[Class_TC0|TC0]] = [[Class_NC1|NC1]] implies [[Class_CH|CH]] = [[Class_PSPACE|PSPACE]].
 
 
 
-It is an open problem whether there exists an oracle relative to which [[Class_CH|CH]] is infinite, or even unequal to [[Class_PSPACE|PSPACE]].  This is closely related to the problem of whether TC^0^ = NC^1^.
+It is an open problem whether there exists an oracle relative to which [[Class_CH|CH]] is infinite, or even unequal to [[Class_PSPACE|PSPACE]].  This is closely related to the problem of whether [[Class_TC0|TC0]] = [[Class_NC1|NC1]].
 == Relations ==
 
 
@@ -3792,7 +3792,7 @@ text = u'''
 
 == Comments ==
 
-Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an NC^1^ formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.
+Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an [[Class_NC1|NC1]] formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.
 
 
 
@@ -3800,7 +3800,7 @@ Defined in [[ZooRefs#BSF02|[BSF02] ]], which should be consulted for more detail
 
 
 
-[[ZooRefs#BSF02|[BSF02] ]] show that finding the maximum of n integers is in [[Class_CLOG|CLOG]].  Thus, [[Class_CLOG|CLOG]] is best thought of as the continuous-time analog of NC^1^, not of DTIME(log n).
+[[ZooRefs#BSF02|[BSF02] ]] show that finding the maximum of n integers is in [[Class_CLOG|CLOG]].  Thus, [[Class_CLOG|CLOG]] is best thought of as the continuous-time analog of [[Class_NC1|NC1]], not of DTIME(log n).
 
 
 
@@ -4144,7 +4144,7 @@ C,,1,,P = [[Class_PP|PP]]
 
 C,,2,,P = PP^PP^
 
-In general, C,,k+1,,P is [[Class_PP|PP]] with C,,k,,P oracle
+In general, C,,k+1,,P is [[Class_PP|PP]] with [[Class_CkP|CkP]] oracle
 
 
 
@@ -4304,7 +4304,7 @@ Defined in [[ZooRefs#Coo85|[Coo85] ]].
 
 
 
-Contained in NC^2^, and contains [[Class_NL|NL]] and [[Class_PL|PL]] [[ZooRefs#BCP83|[BCP83] ]].
+Contained in [[Class_NC2|NC2]], and contains [[Class_NL|NL]] and [[Class_PL|PL]] [[ZooRefs#BCP83|[BCP83] ]].
 
 
 
@@ -4576,11 +4576,11 @@ text = u'''
 
 == Comments ==
 
-The class of functions from {0,1}^n^ to integers expressible as the difference of two #AC^0^ functions.
+The class of functions from {0,1}^n^ to integers expressible as the difference of two [[Class_#AC0|#AC0]] functions.
 
 
 
-Equals GapAC^0^ under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_GapAC0|GapAC0]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
 
 
@@ -4713,7 +4713,7 @@ See [[ZooRefs#HI02|[HI02] ]] for more information, and a complete problem for [[
 
 
 
-See also Dyn-ThC^0^.
+See also [[Class_Dyn-ThC0|Dyn-ThC0]].
 == Relations ==
 
 
@@ -4744,7 +4744,7 @@ text = u'''
 
 == Comments ==
 
-Same as [[Class_Dyn-FO|Dyn-FO]], except that now updates are computed via constant-depth predicates that have "COUNT" available, in addition to AND, OR, and NOT -- so it's a uniform version of TC^0^ rather than of AC^0^.
+Same as [[Class_Dyn-FO|Dyn-FO]], except that now updates are computed via constant-depth predicates that have "COUNT" available, in addition to AND, OR, and NOT -- so it's a uniform version of [[Class_TC0|TC0]] rather than of [[Class_AC0|AC0]].
 
 
 
@@ -5006,7 +5006,7 @@ Has roughly the same relationship to [[Class_E|E]] as [[Class_PH|PH]] does to [[
 
 
 
-More formally, [[Class_EH|EH]] is defined as the union of [[Class_E|E]], [[Class_NE|NE]], NE^NP^, [[Class_NE|NE]] with Σ,,2,,P oracle, and so on.
+More formally, [[Class_EH|EH]] is defined as the union of [[Class_E|E]], [[Class_NE|NE]], NE^NP^, [[Class_NE|NE]] with [[Class_Σ2P|Σ2P]] oracle, and so on.
 
 
 
@@ -5014,7 +5014,7 @@ See [[ZooRefs#Har87|[Har87] ]] for more information.
 
 
 
-If [[Class_coNP|coNP]] is contained in [[Class_AM[polylog]|AM[polylog]]], then [[Class_EH|EH]] collapses to S,,2,,-EXP•P^NP^ [[ZooRefs#SS04|[SS04] ]] and indeed AM,,EXP,, [[ZooRefs#PV04|[PV04] ]].
+If [[Class_coNP|coNP]] is contained in [[Class_AM[polylog]|AM[polylog]]], then [[Class_EH|EH]] collapses to [[Class_S2-EXP•PNP|S2-EXP•PNP]] [[ZooRefs#SS04|[SS04] ]] and indeed [[Class_AMEXP|AMEXP]] [[ZooRefs#PV04|[PV04] ]].
 
 
 
@@ -5092,7 +5092,7 @@ text = u'''
 
 == Comments ==
 
-An extension of L,,k,,P.
+An extension of [[Class_LkP|LkP]].
 
 
 
@@ -5141,7 +5141,7 @@ If the answer is 'yes,' then the number of accepting paths is a power of two.
 
 
 
-Contained in C,,=,,P, and in Mod,,k,,P for any odd k.  Contains [[Class_UP|UP]].
+Contained in [[Class_C=P|C=P]], and in [[Class_ModkP|ModkP]] for any odd k.  Contains [[Class_UP|UP]].
 
 
 
@@ -5188,7 +5188,7 @@ Defined in [[ZooRefs#CT97|[CT97] ]], where the following was also shown:
 
 
 
-If [[Class_FPT|FPT]] = XP,,uniform,, then [[Class_EPTAS|EPTAS]] = [[Class_PTAS|PTAS]].
+If [[Class_FPT|FPT]] = [[Class_XPuniform|XPuniform]] then [[Class_EPTAS|EPTAS]] = [[Class_PTAS|PTAS]].
 
 If [[Class_EPTAS|EPTAS]] = [[Class_PTAS|PTAS]] then [[Class_FPT|FPT]] = [[Class_W[P]|W[P]]].
 
@@ -5223,7 +5223,7 @@ text = u'''
 
 == Comments ==
 
-The same as [[Class_BQP|BQP]], except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [[ZooRefs#BV97|[BV97] ]], each language in [[Class_EQP|EQP]] is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set [[Class_K|K]] whose amplitudes can be computed in polynomial time. See EQP,,K,,.  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.
+The same as [[Class_BQP|BQP]], except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [[ZooRefs#BV97|[BV97] ]], each language in [[Class_EQP|EQP]] is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set [[Class_K|K]] whose amplitudes can be computed in polynomial time. See [[Class_EQPK|EQPK]].  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.
 
 
 
@@ -5231,7 +5231,7 @@ Without loss of generality, the amplitudes in the gate set [[Class_K|K]] are alg
 
 
 
-There is an oracle that separates [[Class_EQP|EQP]] from [[Class_NP|NP]] [[ZooRefs#BV97|[BV97] ]], indeed from Δ,,2,,P [[ZooRefs#GP01|[GP01] ]].  There is also an oracle relative to which [[Class_EQP|EQP]] is not in Mod,,p,,P where p is prime [[ZooRefs#GV02|[GV02] ]].  On the other hand, [[Class_EQP|EQP]] is in [[Class_LWPP|LWPP]] [[ZooRefs#FR98|[FR98] ]].
+There is an oracle that separates [[Class_EQP|EQP]] from [[Class_NP|NP]] [[ZooRefs#BV97|[BV97] ]], indeed from [[Class_Δ2P|Δ2P]] [[ZooRefs#GP01|[GP01] ]].  There is also an oracle relative to which [[Class_EQP|EQP]] is not in Mod,,p,,P where p is prime [[ZooRefs#GV02|[GV02] ]].  On the other hand, [[Class_EQP|EQP]] is in [[Class_LWPP|LWPP]] [[ZooRefs#FR98|[FR98] ]].
 
 
 
@@ -5270,11 +5270,11 @@ text = u'''
 
 == Comments ==
 
-The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set [[Class_K|K]], and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set [[Class_K|K]].  [[Class_K|K]] may be either finite or countable and enumerated.  If S is a ring, the union of EQP,,K,, over all finite gate sets [[Class_K|K]] whose amplitudes are in the ring [[Class_R|R]] can be written EQP,,S,,.
+The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set [[Class_K|K]], and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set [[Class_K|K]].  [[Class_K|K]] may be either finite or countable and enumerated.  If S is a ring, the union of [[Class_EQPK|EQPK]] over all finite gate sets [[Class_K|K]] whose amplitudes are in the ring [[Class_R|R]] can be written EQP,,S,,.
 
 
 
-Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of EQP,,K,,.
+Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of [[Class_EQPK|EQPK]].
 
 
 
@@ -5435,7 +5435,7 @@ There exist oracles relative to which
 
 
 
-[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|EXP]] has circuits of polynomial size, then [[Class_P|P]] can be simulated in MA,,POLYLOG,, such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|P]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|EXP]] ⊆ [[Class_MA|MA]] if [[Class_EXP|EXP]] has circuits of polynomial size.
+[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|EXP]] has circuits of polynomial size, then [[Class_P|P]] can be simulated in [[Class_MAPOLYLOG|MAPOLYLOG]] such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|P]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|EXP]] ⊆ [[Class_MA|MA]] if [[Class_EXP|EXP]] has circuits of polynomial size.
 
 
 
@@ -5912,7 +5912,7 @@ text = u'''
 
 == Comments ==
 
-First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class AC^0^ and to [[Class_AH|AH]], the alternating logtime hierarchy.
+First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class [[Class_AC0|AC0]] and to [[Class_AH|AH]], the alternating logtime hierarchy.
 
 
 
@@ -6188,7 +6188,7 @@ Defined in [[ZooRefs#BKL+00|[BKL+00] ]], where it was also shown that many probl
 
 
 
-Contains uniform AC^0^, and is contained in uniform AC^1^.
+Contains uniform [[Class_AC0|AC0]], and is contained in uniform [[Class_AC1|AC1]].
 
 
 
@@ -6200,7 +6200,7 @@ The class of decision problems solvable by a nonuniform family of polynomial-siz
 
 
 
-Contains AC^0^, and is contained in AC^1^.
+Contains [[Class_AC0|AC0]], and is contained in [[Class_AC1|AC1]].
 
 
 
@@ -6306,7 +6306,7 @@ However, if we want to compare [[Class_FP|FP]] to [[Class_FNP|FNP]], we should i
 
 
 
-If FP^NP^ = FP^NP[log]^ (that is, allowed only a logarithmic number of queries), then [[Class_P|P]] = [[Class_NP|NP]] [[ZooRefs#Kre88|[Kre88] ]].  The corresponding result for P^NP^ versus P^NP[log]^ is not known, and indeed fails relative to some oracles (see [Har87b]).
+If FP^NP^ = [[Class_FPNP[log]|FPNP[log]]] (that is, allowed only a logarithmic number of queries), then [[Class_P|P]] = [[Class_NP|NP]] [[ZooRefs#Kre88|[Kre88] ]].  The corresponding result for [[Class_PNP|PNP]] versus [[Class_PNP[log]|PNP[log]]] is not known, and indeed fails relative to some oracles (see [Har87b]).
 == Relations ==
 
 
@@ -6337,7 +6337,7 @@ text = u'''
 
 == Comments ==
 
-Given a graph, the problem of outputting the size of its maximum clique is complete for FP^NP[log]^.
+Given a graph, the problem of outputting the size of its maximum clique is complete for [[Class_FPNP[log]|FPNP[log]]].
 == Relations ==
 
 
@@ -6454,11 +6454,11 @@ To separate [[Class_FPT|FPT]] and W[2], one could show there is no proof system 
 
 
 
-Contained in FPT,,nu,,, [[Class_W[1]|W[1]]], and [[Class_FPR|FPR]].
+Contained in [[Class_FPTnu|FPTnu]], [[Class_W[1]|W[1]]], and [[Class_FPR|FPR]].
 
 
 
-Contains [[Class_FPTAS|FPTAS]] [[ZooRefs#CC97|[CC97] ]], as well as FPT,,su,,.
+Contains [[Class_FPTAS|FPTAS]] [[ZooRefs#CC97|[CC97] ]], as well as [[Class_FPTsu|FPTsu]].
 
 
 
@@ -6990,7 +6990,7 @@ Can be defined as the class of problems polynomial-time Turing reducible to the 
 
 
 
-Contains [[Class_GA|GA]] and is contained in Δ,,2,,P.
+Contains [[Class_GA|GA]] and is contained in [[Class_Δ2P|Δ2P]].
 
 
 
@@ -7150,11 +7150,11 @@ text = u'''
 
 == Comments ==
 
-The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from #AC^0^ is the ability to subtract, using the constant -1.)
+The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from [[Class_#AC0|#AC0]] is the ability to subtract, using the constant -1.)
 
 
 
-Equals DiffAC^0^ under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_DiffAC0|DiffAC0]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
 
 
@@ -7347,7 +7347,7 @@ Significantly, the number of candidate witnesses is restricted to be a power of 
 
 
 
-Contained in [[Class_RP|RP]], [[Class_EP|EP]], and Mod,,k,,P for every odd k.  Contained in [[Class_EQP|EQP]] by the Deutsch-Jozsa algorithm.
+Contained in [[Class_RP|RP]], [[Class_EP|EP]], and [[Class_ModkP|ModkP]] for every odd k.  Contained in [[Class_EQP|EQP]] by the Deutsch-Jozsa algorithm.
 
 
 
@@ -7614,7 +7614,7 @@ Defined in [[ZooRefs#Sch83|[Sch83] ]].
 
 
 
-See also L,,k,,P.
+See also [[Class_LkP|LkP]].
 == Relations ==
 
 
@@ -7872,7 +7872,7 @@ The class of decision problems solvable by a Turing machine restricted to use an
 
 
 
-[[Class_L|L]] is contained in [[Class_P|P]].  [[Class_L|L]] contains NC^1^ [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|NL]], [[Class_L/poly|L/poly]], [[Class_SL|SL]], [[Class_RL|RL]], [[Class_⊕L|⊕L]], and Mod,,k,,L.
+[[Class_L|L]] is contained in [[Class_P|P]].  [[Class_L|L]] contains [[Class_NC1|NC1]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|NL]], [[Class_L/poly|L/poly]], [[Class_SL|SL]], [[Class_RL|RL]], [[Class_⊕L|⊕L]], and [[Class_ModkL|ModkL]].
 
 
 
@@ -7888,7 +7888,7 @@ Immerman [[ZooRefs#Imm83|[Imm83] ]] showed that [[Class_L|L]] is the class FO(dt
 
 
 
-[[Class_L|L]] contains NC^1^ [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|NL]], [[Class_L/poly|L/poly]], [[Class_SL|SL]], [[Class_RL|RL]], [[Class_⊕L|⊕L]], and Mod,,k,,L.
+[[Class_L|L]] contains [[Class_NC1|NC1]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|NL]], [[Class_L/poly|L/poly]], [[Class_SL|SL]], [[Class_RL|RL]], [[Class_⊕L|⊕L]], and [[Class_ModkL|ModkL]].
 == Relations ==
 
 
@@ -7962,7 +7962,7 @@ The class of decision problems solvable by a nonuniform family of Boolean circui
 
 
 
-It is equivalent to AC^0^ with bounded fanout and it is properly contained in AC^0^ [[ZooRefs#CR96|[CR96] ]].
+It is equivalent to [[Class_AC0|AC0]] with bounded fanout and it is properly contained in [[Class_AC0|AC0]] [[ZooRefs#CR96|[CR96] ]].
 == Relations ==
 
 
@@ -7997,7 +7997,7 @@ A Turing machine with random access owns a special tape where it can write a bin
 
 
 
-The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. [[Class_LH|LH]] is the union of all levels and is equal to tothe class AC^0^ and to [[Class_FO|FO]] Descriptive complexity.
+The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. [[Class_LH|LH]] is the union of all levels and is equal to tothe class [[Class_AC0|AC0]] and to [[Class_FO|FO]] Descriptive complexity.
 == Relations ==
 
 
@@ -8071,7 +8071,7 @@ The class of decision problems reducible in [[Class_L|L]] to the problem of deci
 
 
 
-Equivalently, [[Class_LOGCFL|LOGCFL]] is the class of decision problems solvable by a uniform family of AC^1^ circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [[ZooRefs#Joh90|[Joh90] ]], p. 137).
+Equivalently, [[Class_LOGCFL|LOGCFL]] is the class of decision problems solvable by a uniform family of [[Class_AC1|AC1]] circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [[ZooRefs#Joh90|[Joh90] ]], p. 137).
 
 
 
@@ -8277,7 +8277,7 @@ If the answer is "yes," then the difference of these numbers equals a function f
 
 
 
-Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_LWPP|LWPP]] is low for [[Class_PP|PP]] and C,,=,,P.  (I.e. adding [[Class_LWPP|LWPP]] as an oracle does not increase the power of these classes.)
+Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_LWPP|LWPP]] is low for [[Class_PP|PP]] and [[Class_C=P|C=P]].  (I.e. adding [[Class_LWPP|LWPP]] as an oracle does not increase the power of these classes.)
 
 
 
@@ -8344,7 +8344,7 @@ Defined in [[ZooRefs#Sch83|[Sch83] ]].
 
 
 
-See also H,,k,,P.
+See also [[Class_HkP|HkP]].
 == Relations ==
 
 
@@ -8385,7 +8385,7 @@ The answer is 'yes' if and only if R(x,f(x))=1, where [[Class_R|R]] is some pred
 
 
 
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFew|LogFew]] is contained in Mod,,k,,L for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFew|LogFew]] is contained in [[Class_ModkL|ModkL]] for all k>1.
 == Relations ==
 
 
@@ -8420,7 +8420,7 @@ Same as [[Class_FewP|FewP]] but for logspace-bounded (i.e. NL) machines.
 
 
 
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFewNL|LogFewNL]] is contained in ModZ,,k,,L for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFewNL|LogFewNL]] is contained in [[Class_ModZkL|ModZkL]] for all k>1.
 == Relations ==
 
 
@@ -8471,7 +8471,7 @@ Contains [[Class_NP|NP]] and [[Class_BPP|BPP]]
 
 
 
-Also contained in Σ,,2,,P ∩ Π,,2,,P.
+Also contained in [[Class_Σ2P|Σ2P]] ∩ [[Class_Π2P|Π2P]].
 
 
 
@@ -8487,7 +8487,7 @@ Shown in [[ZooRefs#San07|[San07] ]] that MA/1 does not have circuits of size  fo
 
 
 
-See also: MA,,E,,, MA,,EXP,,.
+See also: [[Class_MAE|MAE]], [[Class_MAEXP|MAEXP]].
 
 
 
@@ -8565,7 +8565,7 @@ text = u'''
 
 == Comments ==
 
-Same as AC^0^, except now we're allowed a single unbounded-fanin majority gate at the root.
+Same as [[Class_AC0|AC0]], except now we're allowed a single unbounded-fanin majority gate at the root.
 
 
 
@@ -8573,7 +8573,7 @@ Defined in [[ZooRefs#JKS02|[JKS02] ]].
 
 
 
-MAC^0^ is strictly contained in TC^0^ [[ZooRefs#ABF+94|[ABF+94] ]].
+[[Class_MAC0|MAC0]] is strictly contained in [[Class_TC0|TC0]] [[ZooRefs#ABF+94|[ABF+94] ]].
 == Relations ==
 
 
@@ -8608,7 +8608,7 @@ Same as [[Class_MA|MA]], except now Arthur is [[Class_E|E]] instead of polynomia
 
 
 
-If MA,,E,, = [[Class_NEE|NEE]] then [[Class_MA|MA]] = [[Class_NEXP|NEXP]] ∩ [[Class_coNEXP|coNEXP]] [[ZooRefs#IKW01|[IKW01] ]].
+If [[Class_MAE|MAE]] = [[Class_NEE|NEE]] then [[Class_MA|MA]] = [[Class_NEXP|NEXP]] ∩ [[Class_coNEXP|coNEXP]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
 
 
@@ -8643,11 +8643,11 @@ Same as [[Class_MA|MA]], except now Arthur is [[Class_EXP|EXP]] instead of polyn
 
 
 
-There is a problem in MA,,EXP,, that does not have polynomial-size circuits [[ZooRefs#BFT98|[BFT98] ]].  On the other hand, there is an oracle relative to which every problem in MA,,EXP,, does have polynomial-size circuits.
+There is a problem in [[Class_MAEXP|MAEXP]] that does not have polynomial-size circuits [[ZooRefs#BFT98|[BFT98] ]].  On the other hand, there is an oracle relative to which every problem in [[Class_MAEXP|MAEXP]] does have polynomial-size circuits.
 
 
 
-[[ZooRefs#MVW99|[MVW99] ]] considered the best circuit lower bound obtainable for a problem in MA,,EXP,,, using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
+[[ZooRefs#MVW99|[MVW99] ]] considered the best circuit lower bound obtainable for a problem in [[Class_MAEXP|MAEXP]], using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
 == Relations ==
 
 
@@ -8862,7 +8862,7 @@ In the unrelativized world, equals [[Class_NEEXP|NEEXP]].
 
 
 
-There exists an oracle relative to which MIP,,EXP,, equals the intersection of [[Class_P/poly|P/poly]], P^NP^, and [[Class_⊕P|⊕P]] [[ZooRefs#BFT98|[BFT98] ]].
+There exists an oracle relative to which [[Class_MIPEXP|MIPEXP]] equals the intersection of [[Class_P/poly|P/poly]], [[Class_PNP|PNP]], and [[Class_⊕P|⊕P]] [[ZooRefs#BFT98|[BFT98] ]].
 == Relations ==
 
 
@@ -9155,7 +9155,7 @@ text = u'''
 
 == Comments ==
 
-The class of optimization problems reducible by an "L-reduction" to a problem in MaxSNP,,0,,.  (Note: 'L' stands for linear -- this is not the same as an [[Class_L|L]] reduction!  For more details see [[ZooRefs#PY88|[PY88] ]].)
+The class of optimization problems reducible by an "L-reduction" to a problem in [[Class_MaxSNP0|MaxSNP0]].  (Note: 'L' stands for linear -- this is not the same as an [[Class_L|L]] reduction!  For more details see [[ZooRefs#PY88|[PY88] ]].)
 
 
 
@@ -9319,7 +9319,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems solvable by a Mod,,k,,P machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
+The class of decision problems solvable by a [[Class_ModkP|ModkP]] machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
 
 
 
@@ -9364,11 +9364,11 @@ If the answer is "no," then there are no accepting paths.
 
 
 
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that ModZ,,k,,L contains [[Class_LogFewNL|LogFewNL]] for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_ModZkL|ModZkL]] contains [[Class_LogFewNL|LogFewNL]] for all k>1.
 
 
 
-Contained in Mod,,k,,L and in [[Class_NL|NL]].
+Contained in [[Class_ModkL|ModkL]] and in [[Class_NL|NL]].
 == Relations ==
 
 
@@ -9399,15 +9399,15 @@ text = u'''
 
 == Comments ==
 
-Has the same relation to [[Class_L|L]] as Mod,,k,,P does to [[Class_P|P]].
+Has the same relation to [[Class_L|L]] as [[Class_ModkP|ModkP]] does to [[Class_P|P]].
 
 
 
-For any prime k, Mod,,k,,L contains [[Class_SL|SL]] [[ZooRefs#KW93|[KW93] ]].
+For any prime k, [[Class_ModkL|ModkL]] contains [[Class_SL|SL]] [[ZooRefs#KW93|[KW93] ]].
 
 
 
-For any prime k, Mod,,k,,L^ModkL^ = Mod,,k,,L [[ZooRefs#HRV00|[HRV00] ]].
+For any prime k, Mod,,k,,L^ModkL^ = [[Class_ModkL|ModkL]] [[ZooRefs#HRV00|[HRV00] ]].
 
 
 
@@ -9450,7 +9450,7 @@ Mod,,2,,P is more commonly known as [[Class_⊕P|⊕P]] "parity-P."
 
 
 
-For every k, Mod,,k,,P contains graph isomorphism [[ZooRefs#AK02|[AK02] ]].
+For every k, [[Class_ModkP|ModkP]] contains graph isomorphism [[ZooRefs#AK02|[AK02] ]].
 
 
 
@@ -9458,11 +9458,11 @@ Defined in [[ZooRefs#CH89|[CH89] ]], [[ZooRefs#Her90|[Her90] ]].
 
 
 
-[[ZooRefs#Her90|[Her90] ]] and [[ZooRefs#BG92|[BG92] ]] showed that Mod,,k,,P is the set of unions of languages in Mod,,p,,P for each prime p that divides k.  In particular, if p is prime, then Mod,,p,,P = Mod,,p^m,,P for all positive integers m.  A further fact is that Mod,,p,,P is closed under union, intersection, and complement for p prime.
+[[ZooRefs#Her90|[Her90] ]] and [[ZooRefs#BG92|[BG92] ]] showed that [[Class_ModkP|ModkP]] is the set of unions of languages in Mod,,p,,P for each prime p that divides k.  In particular, if p is prime, then Mod,,p,,P = Mod,,p^m,,P for all positive integers m.  A further fact is that Mod,,p,,P is closed under union, intersection, and complement for p prime.
 
 
 
-On the other hand, if k is not a prime power, then there exists an oracle relative to which Mod,,k,,P is not closed under intersection or complement [[ZooRefs#BBR94|[BBR94] ]].
+On the other hand, if k is not a prime power, then there exists an oracle relative to which [[Class_ModkP|ModkP]] is not closed under intersection or complement [[ZooRefs#BBR94|[BBR94] ]].
 
 
 
@@ -9603,15 +9603,15 @@ text = u'''
 
 == Comments ==
 
-By definition, a decision problem in NC^0^ can depend on only a constant number of bits of the input.  Thus, NC^0^ usually refers to functions computable by constant-depth, bounded-fanin circuits.
+By definition, a decision problem in [[Class_NC0|NC0]] can depend on only a constant number of bits of the input.  Thus, [[Class_NC0|NC0]] usually refers to functions computable by constant-depth, bounded-fanin circuits.
 
 
 
-There is a family of permutations computable by a uniform family of NC^0^ circuits that is P-hard to invert [[ZooRefs#Has88|[Has88] ]].
+There is a family of permutations computable by a uniform family of [[Class_NC0|NC0]] circuits that is P-hard to invert [[ZooRefs#Has88|[Has88] ]].
 
 
 
-Recently [[ZooRefs#AIK04|[AIK04] ]] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in NC^0^, based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [[ZooRefs#AIK04|[AIK04] ]] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
+Recently [[ZooRefs#AIK04|[AIK04] ]] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in [[Class_NC0|NC0]], based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [[ZooRefs#AIK04|[AIK04] ]] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
 == Relations ==
 
 
@@ -9646,15 +9646,15 @@ See [[Class_NC|NC]] for definition.
 
 
 
-[[ZooRefs#KV94|[KV94] ]] give a family of functions that is computable in NC^1^, but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
+[[ZooRefs#KV94|[KV94] ]] give a family of functions that is computable in [[Class_NC1|NC1]], but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
 
 
 
-Was shown to equal 5-PBP [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, width 5 is necessary unless NC^1^ = ACC^0^ [[ZooRefs#BT88|[BT88] ]].
+Was shown to equal 5-PBP [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, width 5 is necessary unless [[Class_NC1|NC1]] = [[Class_ACC0|ACC0]] [[ZooRefs#BT88|[BT88] ]].
 
 
 
-As an application of this result, NC^1^ can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].  Surprisingly, [[ZooRefs#AMP02|[AMP02] ]] showed that only a single qubit is needed to simulate NC^1^ - i.e. that NC^1^ is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
+As an application of this result, [[Class_NC1|NC1]] can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].  Surprisingly, [[ZooRefs#AMP02|[AMP02] ]] showed that only a single qubit is needed to simulate [[Class_NC1|NC1]] - i.e. that [[Class_NC1|NC1]] is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
 
 
 
@@ -9662,15 +9662,15 @@ Is contained in [[Class_L|L]] [[ZooRefs#Bor77|[Bor77] ]].
 
 
 
-Contains TC^0^.
+Contains [[Class_TC0|TC0]].
 
 
 
-NC^1^ contains the integer division problem [[ZooRefs#BCH86|[BCH86] ]], even if an L-uniformity condition is imposed [[ZooRefs#CDL01|[CDL01] ]].
+[[Class_NC1|NC1]] contains the integer division problem [[ZooRefs#BCH86|[BCH86] ]], even if an L-uniformity condition is imposed [[ZooRefs#CDL01|[CDL01] ]].
 
 
 
-U,,E^*^,,-uniform NC^1^ is equal to [[Class_ALOGTIME|ALOGTIME]] [[ZooRefs#RUZ81|[RUZ81] ]].
+U,,E^*^,,-uniform [[Class_NC1|NC1]] is equal to [[Class_ALOGTIME|ALOGTIME]] [[ZooRefs#RUZ81|[RUZ81] ]].
 == Relations ==
 
 
@@ -9810,7 +9810,7 @@ Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(
 
 
 
-If MA,,E,, = [[Class_NEE|NEE]] then [[Class_MA|MA]] = [[Class_NEXP|NEXP]] ∩ [[Class_coNEXP|coNEXP]] [[ZooRefs#IKW01|[IKW01] ]].
+If [[Class_MAE|MAE]] = [[Class_NEE|NEE]] then [[Class_MA|MA]] = [[Class_NEXP|NEXP]] ∩ [[Class_coNEXP|coNEXP]] [[ZooRefs#IKW01|[IKW01] ]].
 
 
 
@@ -9884,7 +9884,7 @@ Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^^) for p a polynom
 
 
 
-Equals MIP,,EXP,, (unrelativized).
+Equals [[Class_MIPEXP|MIPEXP]] (unrelativized).
 
 
 
@@ -10158,7 +10158,7 @@ text = u'''
 
 == Comments ==
 
-The non-interactive analogue of SZK,,h,,.
+The non-interactive analogue of [[Class_SZKh|SZKh]].
 
 
 
@@ -10166,15 +10166,15 @@ Defined in [[ZooRefs#BG03|[BG03] ]], where the following was also shown:
 
 
 
-NISZK,,h,, contains [[Class_NISZK|NISZK]] and is contained in [[Class_SZK|SZK]].
+[[Class_NISZKh|NISZKh]] contains [[Class_NISZK|NISZK]] and is contained in [[Class_SZK|SZK]].
 
-Graph Isomorphism is in NISZK,,h,,.
+Graph Isomorphism is in [[Class_NISZKh|NISZKh]].
 
-The following problem is complete for NISZK,,h,,: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
+The following problem is complete for [[Class_NISZKh|NISZKh]]: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
 
 
 
-The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|[Aar02] ]] implies an oracle relative to which NISZK,,h,, is not in [[Class_BQP|BQP]].
+The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|[Aar02] ]] implies an oracle relative to which [[Class_NISZKh|NISZKh]] is not in [[Class_BQP|BQP]].
 == Relations ==
 
 
@@ -10213,7 +10213,7 @@ In a breakthrough result, was shown to equal [[Class_coNL|coNL]] [[ZooRefs#Imm88
 
 
 
-Is contained in [[Class_LOGCFL|LOGCFL]] [[ZooRefs#Sud78|[Sud78] ]], as well as NC^2^.
+Is contained in [[Class_LOGCFL|LOGCFL]] [[ZooRefs#Sud78|[Sud78] ]], as well as [[Class_NC2|NC2]].
 
 
 
@@ -10260,7 +10260,7 @@ Has the same relation to [[Class_NL|NL]] as [[Class_P/poly|P/poly]] does to [[Cl
 
 
 
-Is contained in [[Class_⊕L/poly|⊕L/poly]] [[ZooRefs#GW96|[GW96] ]], as well as SAC^1^.
+Is contained in [[Class_⊕L/poly|⊕L/poly]] [[ZooRefs#GW96|[GW96] ]], as well as [[Class_SAC1|SAC1]].
 
 
 
@@ -10607,11 +10607,11 @@ The set of decision problems in [[Class_NP|NP]], but not in [[Class_P|P]] or [[C
 
 
 
-Probabilistic generalizations of [[Class_NP|NP]] include [[Class_MA|MA]] and [[Class_AM|AM]].  If [[Class_NP|NP]] is in [[Class_coAM|coAM]] (or BPP) then [[Class_PH|PH]] collapses to Σ,,2,,P [[ZooRefs#BHZ87|[BHZ87] ]].
+Probabilistic generalizations of [[Class_NP|NP]] include [[Class_MA|MA]] and [[Class_AM|AM]].  If [[Class_NP|NP]] is in [[Class_coAM|coAM]] (or BPP) then [[Class_PH|PH]] collapses to [[Class_Σ2P|Σ2P]] [[ZooRefs#BHZ87|[BHZ87] ]].
 
 
 
-[[Class_PH|PH]] also collapses to Σ,,2,,P if [[Class_NP|NP]] is in [[Class_P/poly|P/poly]] [[ZooRefs#KL82|[KL82] ]].
+[[Class_PH|PH]] also collapses to [[Class_Σ2P|Σ2P]] if [[Class_NP|NP]] is in [[Class_P/poly|P/poly]] [[ZooRefs#KL82|[KL82] ]].
 
 
 
@@ -10682,7 +10682,7 @@ Contains graph isomorphism under the assumption that some language in [[Class_NE
 
 
 
-Equals P^NP ∩ coNP^ [[ZooRefs#Bra79|[Bra79] ]].  In particular, if a problem in [[Class_NP|NP]] ∩ [[Class_coNP|coNP]] is NP-hard with Turing reduction, then [[Class_NP|NP]] = [[Class_coNP|coNP]].
+Equals [[Class_PNP|PNP]] ∩ [[Class_coNP|coNP]] [[ZooRefs#Bra79|[Bra79] ]].  In particular, if a problem in [[Class_NP|NP]] ∩ [[Class_coNP|coNP]] is NP-hard with Turing reduction, then [[Class_NP|NP]] = [[Class_coNP|coNP]].
 
 
 
@@ -10721,7 +10721,7 @@ Same as [[Class_NP/poly|NP/poly]], except that now the advice string is logarith
 
 
 
-Shown in [[ZooRefs#FK05|[FK05] ]] that [[Class_EXP|EXP]] ⊆ [[Class_NP/log|NP/log]] if and only if [[Class_EXP|EXP]] = P^||NP^.
+Shown in [[ZooRefs#FK05|[FK05] ]] that [[Class_EXP|EXP]] ⊆ [[Class_NP/log|NP/log]] if and only if [[Class_EXP|EXP]] = [[Class_P||NP|P||NP]].
 == Relations ==
 
 
@@ -10833,19 +10833,19 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-It is unknown whether P,,C,, = NP,,C,,, nor are implications known among this question, P,,R,, versus NP,,R,,, and [[Class_P|P]] versus [[Class_NP|NP]].
+It is unknown whether [[Class_PC|PC]] = [[Class_NPC|NPC]], nor are implications known among this question, [[Class_PR|PR]] versus [[Class_NPR|NPR]], and [[Class_P|P]] versus [[Class_NP|NP]].
 
 
 
-However, [[ZooRefs#CKK+95|[CKK+95] ]] show that if [[Class_P/poly|P/poly]] does not equal [[Class_NP/poly|NP/poly]] then P,,C,, does not equal NP,,C,,.
+However, [[ZooRefs#CKK+95|[CKK+95] ]] show that if [[Class_P/poly|P/poly]] does not equal [[Class_NP/poly|NP/poly]] then [[Class_PC|PC]] does not equal [[Class_NPC|NPC]].
 
 
 
-[[ZooRefs#BCS+97|[BCS+97] ]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then P,,C,, does not equal NP,,C,,.
+[[ZooRefs#BCS+97|[BCS+97] ]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then [[Class_PC|PC]] does not equal [[Class_NPC|NPC]].
 
 
 
-See also VNP,,k,,.
+See also [[Class_VNPk|VNPk]].
 == Relations ==
 
 
@@ -10919,7 +10919,7 @@ The class of all (possibly partial, possibly multivalued) functions computed by 
 
 
 
-Contains [[Class_NPSV|NPSV]] and NPMV,,t,,.
+Contains [[Class_NPSV|NPSV]] and [[Class_NPMVt|NPMVt]].
 
 
 
@@ -11024,7 +11024,7 @@ text = u'''
 
 == Comments ==
 
-Has the same relation to NPMV,,t,, as [[Class_P-Sel|P-Sel]] does to [[Class_P|P]].
+Has the same relation to [[Class_NPMVt|NPMVt]] as [[Class_P-Sel|P-Sel]] does to [[Class_P|P]].
 
 
 
@@ -11145,15 +11145,15 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-It is unknown whether P,,R,, = NP,,R,,, nor are implications known among this question, P,,C,, versus NP,,C,,, and [[Class_P|P]] versus [[Class_NP|NP]].
+It is unknown whether [[Class_PR|PR]] = [[Class_NPR|NPR]], nor are implications known among this question, [[Class_PC|PC]] versus [[Class_NPC|NPC]], and [[Class_P|P]] versus [[Class_NP|NP]].
 
 
 
-Also, in contrast to the case of NP,,C,,, it is an open problem to show that [[Class_P/poly|P/poly]] distinct from [[Class_NP/poly|NP/poly]] implies P,,R,, distinct from NP,,R,,.  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
+Also, in contrast to the case of [[Class_NPC|NPC]], it is an open problem to show that [[Class_P/poly|P/poly]] distinct from [[Class_NP/poly|NP/poly]] implies [[Class_PR|PR]] distinct from [[Class_NPR|NPR]].  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
 
 
 
-See also VNP,,k,,.
+See also [[Class_VNPk|VNPk]].
 == Relations ==
 
 
@@ -11227,7 +11227,7 @@ Defined in [[ZooRefs#BLS84|[BLS84] ]].
 
 
 
-Contains NPSV,,t,,.
+Contains [[Class_NPSVt|NPSVt]].
 
 
 
@@ -11305,7 +11305,7 @@ The class of all [[Class_NPSV|NPSV]] functions that are total (that is, defined 
 
 
 
-Contained in NPMV,,t,,.
+Contained in [[Class_NPMVt|NPMVt]].
 == Relations ==
 
 
@@ -11336,7 +11336,7 @@ text = u'''
 
 == Comments ==
 
-Has the same relation to NPSV,,t,, as [[Class_P-Sel|P-Sel]] does to [[Class_P|P]].
+Has the same relation to [[Class_NPSVt|NPSVt]] as [[Class_P-Sel|P-Sel]] does to [[Class_P|P]].
 
 
 
@@ -11375,11 +11375,11 @@ text = u'''
 
 == Comments ==
 
-The analogue of P^cc^ for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.
+The analogue of [[Class_Pcc|Pcc]] for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.
 
 
 
-Does not equal P^cc^ or coNP^cc^ because of the EQUALITY problem.  Also, does not contain BPP^cc^ because of that problem.
+Does not equal [[Class_Pcc|Pcc]] or [[Class_coNPcc|coNPcc]] because of the EQUALITY problem.  Also, does not contain [[Class_BPPcc|BPPcc]] because of that problem.
 
 
 
@@ -11387,15 +11387,15 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 
-Contained in PH^cc^.
+Contained in [[Class_PHcc|PHcc]].
 
 
 
-Has the same relation to NP^cc^ and [[Class_NP|NP]] as P,,,,^cc^ does to P^cc^ and [[Class_P|P]].
+Has the same relation to [[Class_NPcc|NPcc]] and [[Class_NP|NP]] as [[Class_Pcc|Pcc]] does to [[Class_Pcc|Pcc]] and [[Class_P|P]].
 
 
 
-NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant . As a result, NP,,,,^cc^ is not equal to RP,,,,^cc^ under the same conditions [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPcc|NPcc]] is not contained in [[Class_BPPcc|BPPcc]] for  players, for any constant . As a result, [[Class_NPcc|NPcc]] is not equal to [[Class_RPcc|RPcc]] under the same conditions [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 
@@ -11473,7 +11473,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, [[Class_NQP|NQP]] has the same technical caveats as [[Class_EQP|EQP]].  Or it would, except that it turns out to equal coC,,=,,P [[ZooRefs#FGH+98|[FGH+98] ]].
+The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, [[Class_NQP|NQP]] has the same technical caveats as [[Class_EQP|EQP]].  Or it would, except that it turns out to equal [[Class_coC=P|coC=P]] [[ZooRefs#FGH+98|[FGH+98] ]].
 
 
 
@@ -11821,7 +11821,7 @@ Efforts to generalize [[Class_P|P]] resulted in [[Class_BPP|BPP]] and [[Class_BQ
 
 
 
-The nonuniform version is [[Class_P/poly|P/poly]], the monotone version is [[Class_mP|mP]], and versions over the real and complex number fields are P,,R,, and P,,C,, respectively.
+The nonuniform version is [[Class_P/poly|P/poly]], the monotone version is [[Class_mP|mP]], and versions over the real and complex number fields are [[Class_PR|PR]] and [[Class_PC|PC]] respectively.
 
 
 
@@ -11868,7 +11868,7 @@ Contains [[Class_PH|PH]] [[ZooRefs#Tod89|[Tod89] ]], and is contained in [[Class
 
 
 
-Equals P^PP^ (exercise for the visitor).
+Equals [[Class_PPP|PPP]] (exercise for the visitor).
 == Relations ==
 
 
@@ -12098,7 +12098,7 @@ Contains [[Class_BPP|BPP]] by the progenitor of derandomization arguments [[ZooR
 
 
 
-[[ZooRefs#KL82|[KL82] ]] showed that, if [[Class_P/poly|P/poly]] contains [[Class_NP|NP]], then [[Class_PH|PH]] collapses to the second level, Σ,,2,,P.
+[[ZooRefs#KL82|[KL82] ]] showed that, if [[Class_P/poly|P/poly]] contains [[Class_NP|NP]], then [[Class_PH|PH]] collapses to the second level, [[Class_Σ2P|Σ2P]].
 
 
 
@@ -12106,13 +12106,13 @@ They also showed:
 
 
 
-If [[Class_PSPACE|PSPACE]] is in [[Class_P/poly|P/poly]] then [[Class_PSPACE|PSPACE]] equals Σ,,2,,P ∩ Π,,2,,P.
+If [[Class_PSPACE|PSPACE]] is in [[Class_P/poly|P/poly]] then [[Class_PSPACE|PSPACE]] equals [[Class_Σ2P|Σ2P]] ∩ [[Class_Π2P|Π2P]].
 
-If [[Class_EXP|EXP]] is in [[Class_P/poly|P/poly]] then [[Class_EXP|EXP]] = Σ,,2,,P.
+If [[Class_EXP|EXP]] is in [[Class_P/poly|P/poly]] then [[Class_EXP|EXP]] = [[Class_Σ2P|Σ2P]].
 
 
 
-It was later shown that, if [[Class_NP|NP]] is contained in [[Class_P/poly|P/poly]], then [[Class_PH|PH]] collapses to ZPP^NP^ [[ZooRefs#KW98|[KW98] ]] and indeed S,,2,,P [[ZooRefs#Cai01|[Cai01] ]]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to Δ,,2,,P [[ZooRefs#Wil85|[Wil85] ]].
+It was later shown that, if [[Class_NP|NP]] is contained in [[Class_P/poly|P/poly]], then [[Class_PH|PH]] collapses to ZPP^NP^ [[ZooRefs#KW98|[KW98] ]] and indeed [[Class_S2P|S2P]] [[ZooRefs#Cai01|[Cai01] ]]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to [[Class_Δ2P|Δ2P]] [[ZooRefs#Wil85|[Wil85] ]].
 
 
 
@@ -12128,7 +12128,7 @@ The monotone version of [[Class_P/poly|P/poly]] is [[Class_mP/poly|mP/poly]].
 
 
 
-[[Class_P/poly|P/poly]] has measure 0 in [[Class_E|E]] with Σ,,2,,P oracle [May94b].
+[[Class_P/poly|P/poly]] has measure 0 in [[Class_E|E]] with [[Class_Σ2P|Σ2P]] oracle [May94b].
 
 
 
@@ -12167,11 +12167,11 @@ The Political Action Committee for computational complexity research.
 
 
 
-The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)>0.
+The class of problems for which there exists a [[Class_DiffAC0|DiffAC0]] function f such that the answer is "yes" on input x if and only if f(x)>0.
 
 
 
-Equals TC^0^ and C,,=,,AC^0^ under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_TC0|TC0]] and [[Class_C=AC0|C=AC0]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
 
 
@@ -12210,7 +12210,7 @@ Equals [[Class_L/poly|L/poly]] [[ZooRefs#Cob66|[Cob66] ]].
 
 
 
-Contains [[Class_P-OBDD|P-OBDD]], BP,,d,,(P).
+Contains [[Class_P-OBDD|P-OBDD]], [[Class_BPd(P)|BPd(P)]].
 == Relations ==
 
 
@@ -12249,7 +12249,7 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-See also P,,R,,, NP,,C,,, NP,,R,,, VP,,k,,.
+See also [[Class_PR|PR]], [[Class_NPC|NPC]], [[Class_NPR|NPR]], [[Class_VPk|VPk]].
 == Relations ==
 
 
@@ -12408,11 +12408,11 @@ Same as [[Class_P|P]] with access to bits along a closed time curve.
 
 
 
-Implicitly defined in [Aar05c], where it was shown that [[Class_PSPACE|PSPACE]] = P,,CTC,,.
+Implicitly defined in [Aar05c], where it was shown that [[Class_PSPACE|PSPACE]] = [[Class_PCTC|PCTC]].
 
 
 
-See also BQP,,CTC,,.
+See also [[Class_BQPCTC|BQPCTC]].
 == Relations ==
 
 
@@ -12639,7 +12639,7 @@ text = u'''
 
 == Comments ==
 
-The obvious generalization of NP^cc^ and coNP^cc^ to a nondeterministic hierarchy.
+The obvious generalization of [[Class_NPcc|NPcc]] and [[Class_coNPcc|coNPcc]] to a nondeterministic hierarchy.
 
 
 
@@ -12647,7 +12647,7 @@ It is unknown whether Σ,,2,,^cc^ equals Π,,2,,^cc^.
 
 
 
-Defined in [[ZooRefs#BFS86|[BFS86] ]], where it was also shown (among other things) that BPP^cc^ is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
+Defined in [[ZooRefs#BFS86|[BFS86] ]], where it was also shown (among other things) that [[Class_BPPcc|BPPcc]] is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
 == Relations ==
 
 
@@ -12764,11 +12764,11 @@ text = u'''
 
 
 
-A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that P^K^ contains [[Class_PSPACE|PSPACE]].  It is not known whether P^K^ contains all of [[Class_R|R]], or even any recursive problem not in [[Class_PSPACE|PSPACE]].
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that [[Class_PK|PK]] contains [[Class_PSPACE|PSPACE]].  It is not known whether [[Class_PK|PK]] contains all of [[Class_R|R]], or even any recursive problem not in [[Class_PSPACE|PSPACE]].
 
 
 
-See also: BPP^KT^.
+See also: [[Class_BPPKT|BPPKT]].
 == Relations ==
 
 
@@ -12877,7 +12877,7 @@ The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the sum of absolute
 
 
 
-Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that PL,,1,, is contained in PT,,1,, (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL1|PL1]] is contained in [[Class_PT1|PT1]] (and this inclusion is strict).
 == Relations ==
 
 
@@ -13041,7 +13041,7 @@ The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the maximum of |α|
 
 
 
-Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that PL,,∞,, contains PT,,1,, (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL∞|PL∞]] contains [[Class_PT1|PT1]] (and this inclusion is strict).
 == Relations ==
 
 
@@ -13072,7 +13072,7 @@ text = u'''
 
 == Comments ==
 
-See Δ,,2,,P.
+See [[Class_Δ2P|Δ2P]].
 == Relations ==
 
 
@@ -13107,7 +13107,7 @@ Equals [[Class_P|P]] with 2^k^-1 parallel queries to [[Class_NP|NP]] (i.e. queri
 
 
 
-If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = P^NP[log]^ and indeed [[Class_PH|PH]] collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
+If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = [[Class_PNP[log]|PNP[log]]] and indeed [[Class_PH|PH]] collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
 == Relations ==
 
 
@@ -13142,19 +13142,19 @@ The class of decision problems solvable by a [[Class_P|P]] machine, that can mak
 
 
 
-Equals P^||NP^, the class of decision problems solvable by a [[Class_P|P]] machine that can make polynomially many nonadaptive queries to an [[Class_NP|NP]] oracle (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
+Equals [[Class_P||NP|P||NP]], the class of decision problems solvable by a [[Class_P|P]] machine that can make polynomially many nonadaptive queries to an [[Class_NP|NP]] oracle (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
 
 
 
-P^NP[log]^ is contained in [[Class_PP|PP]] [[ZooRefs#BHW89|[BHW89] ]].
+[[Class_PNP[log]|PNP[log]]] is contained in [[Class_PP|PP]] [[ZooRefs#BHW89|[BHW89] ]].
 
 
 
-Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for P^NP[log]^ [[ZooRefs#HHR97|[HHR97] ]].
+Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for [[Class_PNP[log]|PNP[log]]] [[ZooRefs#HHR97|[HHR97] ]].
 
 
 
-Contains P^NP[k]^ for all constants k.
+Contains [[Class_PNP[k]|PNP[k]]] for all constants k.
 == Relations ==
 
 
@@ -13185,7 +13185,7 @@ text = u'''
 
 == Comments ==
 
-Same as P^NP[log]^, except that now log^2^ queries can be made.
+Same as [[Class_PNP[log]|PNP[log]]], except that now log^2^ queries can be made.
 
 
 
@@ -13277,7 +13277,7 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 
 
-Contains P^NP[log]^ [[ZooRefs#BHW89|[BHW89] ]].
+Contains [[Class_PNP[log]|PNP[log]]] [[ZooRefs#BHW89|[BHW89] ]].
 
 
 
@@ -13285,11 +13285,11 @@ Equals PP^BPP^ [KST+89b] as well as [[Class_PostBQP|PostBQP]] [Aar05b].
 
 
 
-However, there exists an oracle relative to which [[Class_PP|PP]] does not contain Δ,,2,,P [[ZooRefs#Bei94|[Bei94] ]].
+However, there exists an oracle relative to which [[Class_PP|PP]] does not contain [[Class_Δ2P|Δ2P]] [[ZooRefs#Bei94|[Bei94] ]].
 
 
 
-[[Class_PH|PH]] is in P^PP^ [[ZooRefs#Tod89|[Tod89] ]].
+[[Class_PH|PH]] is in [[Class_PPP|PPP]] [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
@@ -13297,7 +13297,7 @@ However, there exists an oracle relative to which [[Class_PP|PP]] does not conta
 
 
 
-For a random oracle A, PP^A^ is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|[ABF+94] ]].
+For a random oracle A, [[Class_PPA|PPA]] is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|[ABF+94] ]].
 
 
 
@@ -13568,7 +13568,7 @@ A level of the counting hierarchy [[Class_CH|CH]].
 
 
 
-It is not known whether there exists an oracle relative to which P^PP^ does not equal [[Class_PSPACE|PSPACE]].
+It is not known whether there exists an oracle relative to which [[Class_PPP|PPP]] does not equal [[Class_PSPACE|PSPACE]].
 
 
 
@@ -13576,7 +13576,7 @@ Contains PP^PH^ [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
-Equals P^#P^ (exercise for the visitor).
+Equals [[Class_P#P|P#P]] (exercise for the visitor).
 
 
 
@@ -13654,15 +13654,15 @@ text = u'''
 
 == Comments ==
 
-Defined in [[ZooRefs#BFS86|[BFS86] ]], PP^cc^ is one of two ways to define a communication complexity analogue of [[Class_PP|PP]]. In PP^cc^, we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in PP^cc^, the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.
+Defined in [[ZooRefs#BFS86|[BFS86] ]], [[Class_PPcc|PPcc]] is one of two ways to define a communication complexity analogue of [[Class_PP|PP]]. In [[Class_PPcc|PPcc]], we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in [[Class_PPcc|PPcc]], the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.
 
 
 
-The difference between this class and UPP^cc^ is discussed further in [[ZooRefs#BVW07|[BVW07] ]], where it is shown that PP^cc^ ⊂ UPP^cc^.
+The difference between this class and [[Class_UPPcc|UPPcc]] is discussed further in [[ZooRefs#BVW07|[BVW07] ]], where it is shown that [[Class_PPcc|PPcc]] ⊂ [[Class_UPPcc|UPPcc]].
 
 
 
-See Also: UPP^cc^.
+See Also: [[Class_UPPcc|UPPcc]].
 == Relations ==
 
 
@@ -13760,7 +13760,7 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-See also P,,C,,, NP,,C,,, NP,,R,,, VP,,k,,.
+See also [[Class_PC|PC]], [[Class_NPC|NPC]], [[Class_NPR|NPR]], [[Class_VPk|VPk]].
 == Relations ==
 
 
@@ -13967,7 +13967,7 @@ The class of Boolean functions f:{-1,1}^n^->{-1,1} such that f(x)=sgn(p(x)), whe
 
 
 
-Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that PT,,1,, contains PL,,1,, (and this inclusion is strict), and that PT,,1,, is contained in PL,,∞,, (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PT1|PT1]] contains [[Class_PL1|PL1]] (and this inclusion is strict), and that [[Class_PT1|PT1]] is contained in [[Class_PL∞|PL∞]] (and this inclusion is strict).
 == Relations ==
 
 
@@ -14115,7 +14115,7 @@ text = u'''
 
 == Comments ==
 
-In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  P^cc^ is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.
+In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  [[Class_Pcc|Pcc]] is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.
 
 
 
@@ -14123,11 +14123,11 @@ Note that all functions of the form above are solvable given  bits of communicat
 
 
 
-Is strictly contained in NP^cc^ and in BPP^cc^ because of the EQUALITY problem.
+Is strictly contained in [[Class_NPcc|NPcc]] and in [[Class_BPPcc|BPPcc]] because of the EQUALITY problem.
 
 
 
-Equals NP^cc^ ∩ coNP^cc^.
+Equals [[Class_NPcc|NPcc]] ∩ [[Class_coNPcc|coNPcc]].
 
 
 
@@ -14135,15 +14135,15 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 
-Like P^cc^, but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
+Like [[Class_Pcc|Pcc]], but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
 
 
 
-More formally, P,,,,^cc^ is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
+More formally, [[Class_Pcc|Pcc]] is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
 
 
 
-P,,,,^cc^ is trivially contained in BPP,,,,^cc^, RP,,,,^cc^ and NP,,,,^cc^.
+[[Class_Pcc|Pcc]] is trivially contained in [[Class_BPPcc|BPPcc]], [[Class_RPcc|RPcc]] and [[Class_NPcc|NPcc]].
 == Relations ==
 
 
@@ -14284,7 +14284,7 @@ Defined in [Aar05b], where it is also shown that [[Class_PostBQP|PostBQP]] equal
 
 
 
-The quantum analogue of BPP,,path,,.
+The quantum analogue of [[Class_BPPpath|BPPpath]].
 
 The class of problems solvable in quantum polynomial time if we allow arbitrary linear operations (not just unitary ones). Before measuring, we divide all amplitudes by a normalizing factor to make the probabilities sum to 1.
 
@@ -14362,7 +14362,7 @@ Contained in DSPACE(f(n)^2^) [[ZooRefs#BCP83|[BCP83] ]].
 
 
 
-Equals Pr,,H,,SPACE(f(n)) [[ZooRefs#Jun85|[Jun85] ]].
+Equals [[Class_PrHSPACE(f(n))|PrHSPACE(f(n))]] [[ZooRefs#Jun85|[Jun85] ]].
 == Relations ==
 
 
@@ -14572,7 +14572,7 @@ text = u'''
 
 == Comments ==
 
-Equals P^NP[log]^ ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
+Equals [[Class_PNP[log]|PNP[log]]] ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
 == Relations ==
 
 
@@ -14650,11 +14650,11 @@ Defined in [[ZooRefs#Moo99|[Moo99] ]].
 
 
 
-It is contained in QAC,,f,,^0^, but it is not known if it contains AC^0^. Notice that the latter containment is not obvious, since the set of gates in QAC^0^ do not allow to implement fanout in any way we may take for granted.
+It is contained in [[Class_QACf0|QACf0]], but it is not known if it contains [[Class_AC0|AC0]]. Notice that the latter containment is not obvious, since the set of gates in [[Class_QAC0|QAC0]] do not allow to implement fanout in any way we may take for granted.
 
 
 
-Contains AC^0^, and is contained in QAC,,f,,^0^.
+Contains [[Class_AC0|AC0]], and is contained in [[Class_QACf0|QACf0]].
 == Relations ==
 
 
@@ -14685,7 +14685,7 @@ text = u'''
 
 == Comments ==
 
-Same as QAC^0^, except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.
+Same as [[Class_QAC0|QAC0]], except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.
 
 
 
@@ -14720,7 +14720,7 @@ text = u'''
 
 == Comments ==
 
-Same as QAC^0^[m], except that Mod-m gates are allowed for any m.
+Same as [[Class_QAC0[m]|QAC0[m]]], except that Mod-m gates are allowed for any m.
 
 
 
@@ -14728,7 +14728,7 @@ Defined in [[ZooRefs#Moo99|[Moo99] ]].
 
 
 
-[[ZooRefs#GHP00|[GHP00] ]] showed that QACC^0^ equals QAC^0^[p] for any prime p.
+[[ZooRefs#GHP00|[GHP00] ]] showed that [[Class_QACC0|QACC0]] equals QAC^0^[p] for any prime p.
 == Relations ==
 
 
@@ -14759,13 +14759,13 @@ text = u'''
 
 == Comments ==
 
-Same as QAC^0^, except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.
+Same as [[Class_QAC0|QAC0]], except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.
 
 
 
-Defined in [[ZooRefs#Moo99|[Moo99] ]], where it was also shown that QAC,,f,,^0^ =
+Defined in [[ZooRefs#Moo99|[Moo99] ]], where it was also shown that [[Class_QACf0|QACf0]] =
 
-QAC^0^[2] = QACC^0^.
+QAC^0^[2] = [[Class_QACC0|QACC0]].
 == Relations ==
 
 
@@ -14917,7 +14917,7 @@ text = u'''
 
 == Comments ==
 
-QH,,k,, is defined to be P^NP[k]^; that is, [[Class_P|P]] with k queries to an [[Class_NP|NP]] oracle (where k is a constant).  Then [[Class_QH|QH]] is the union of QH,,k,, over all nonnegative k.
+QH,,k,, is defined to be [[Class_PNP[k]|PNP[k]]]; that is, [[Class_P|P]] with k queries to an [[Class_NP|NP]] oracle (where k is a constant).  Then [[Class_QH|QH]] is the union of QH,,k,, over all nonnegative k.
 
 
 
@@ -14925,7 +14925,7 @@ QH,,k,, is defined to be P^NP[k]^; that is, [[Class_P|P]] with k queries to an [
 
 
 
-QH,,i,, is defined to be P^NP[k]^; that is, [[Class_P|P]] with k queries to an [[Class_NP|NP]] oracle (where k is a constant).  Then [[Class_QH|QH]] is the union of QH,,i,, over all nonnegative i.
+QH,,i,, is defined to be [[Class_PNP[k]|PNP[k]]]; that is, [[Class_P|P]] with k queries to an [[Class_NP|NP]] oracle (where k is a constant).  Then [[Class_QH|QH]] is the union of QH,,i,, over all nonnegative i.
 == Relations ==
 
 
@@ -15129,7 +15129,7 @@ Compare to [[Class_NQP|NQP]].
 
 
 
-If [[Class_QMA|QMA]] = [[Class_PP|PP]] then [[Class_PP|PP]] contains [[Class_PH|PH]] [[ZooRefs#Vya03|[Vya03] ]].  This result uses the fact that [[Class_QMA|QMA]] is contained in A,,0,,PP.
+If [[Class_QMA|QMA]] = [[Class_PP|PP]] then [[Class_PP|PP]] contains [[Class_PH|PH]] [[ZooRefs#Vya03|[Vya03] ]].  This result uses the fact that [[Class_QMA|QMA]] is contained in [[Class_A0PP|A0PP]].
 
 
 
@@ -15438,7 +15438,7 @@ Shown to be equal to [[Class_MIP*|MIP*]] in [[ZooRefs#RUV12|[RUV12] ]].
 
 
 
-[[Class_QMIP|QMIP]] contains [[Class_NEXP|NEXP]] simply because [[Class_MIP*|MIP*]] contains [[Class_NEXP|NEXP]] [[ZooRefs#IV12|[IV12] ]]. Since we know that [[Class_NEXP|NEXP]] = QMIP,,ne,,, this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
+[[Class_QMIP|QMIP]] contains [[Class_NEXP|NEXP]] simply because [[Class_MIP*|MIP*]] contains [[Class_NEXP|NEXP]] [[ZooRefs#IV12|[IV12] ]]. Since we know that [[Class_NEXP|NEXP]] = [[Class_QMIPne|QMIPne]], this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
 
 
 
@@ -15477,7 +15477,7 @@ Same as [[Class_QMIP|QMIP]], except that now the provers share only a polynomial
 
 
 
-Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that QMIP,,le,, is contained in [[Class_NEXP|NEXP]] = QMIP,,ne,,.
+Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPle|QMIPle]] is contained in [[Class_NEXP|NEXP]] = [[Class_QMIPne|QMIPne]].
 == Relations ==
 
 
@@ -15512,7 +15512,7 @@ Same as [[Class_QMIP|QMIP]], except that now the provers have no prior entanglem
 
 
 
-Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that QMIP,,ne,, = [[Class_NEXP|NEXP]].  Thus, QMIP,,ne,, contains QMIP,,le,,.
+Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPne|QMIPne]] = [[Class_NEXP|NEXP]].  Thus, [[Class_QMIPne|QMIPne]] contains [[Class_QMIPle|QMIPle]].
 == Relations ==
 
 
@@ -15598,7 +15598,7 @@ Defined in [[ZooRefs#Spa02|[Spa02] ]].
 
 
 
-Contained in QNC,,f,,^0^.
+Contained in [[Class_QNCf0|QNCf0]].
 == Relations ==
 
 
@@ -15629,11 +15629,11 @@ text = u'''
 
 == Comments ==
 
-Same as QNC^1^, but for the exact rather than bounded-error case.
+Same as [[Class_QNC1|QNC1]], but for the exact rather than bounded-error case.
 
 
 
-In contrast to NC^1^, it is not clear how to simulate QNC^1^ on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].
+In contrast to [[Class_NC1|NC1]], it is not clear how to simulate [[Class_QNC1|QNC1]] on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].
 
 
 
@@ -15676,7 +15676,7 @@ Defined in [[ZooRefs#Spa02|[Spa02] ]].
 
 
 
-Contains QNC^0^, and is contained in QACC^0^.
+Contains [[Class_QNC0|QNC0]], and is contained in [[Class_QACC0|QACC0]].
 == Relations ==
 
 
@@ -16255,7 +16255,7 @@ Includes, i.e., "Is the parity of the input odd?," but not "Are the majority of 
 
 
 
-Contained in NC^1^.
+Contained in [[Class_NC1|NC1]].
 
 
 
@@ -16355,7 +16355,7 @@ In other words, it's the same as [[Class_RG(k)|RG(k)]] for , the class of proble
 
 
 
-[[Class_RG(1)|RG(1)]] trivially contains S,,2,,P.  Indeed, [[Class_RG(1)|RG(1)]] can be viewed as a randomized version of S,,2,,P.
+[[Class_RG(1)|RG(1)]] trivially contains [[Class_S2P|S2P]].  Indeed, [[Class_RG(1)|RG(1)]] can be viewed as a randomized version of [[Class_S2P|S2P]].
 
 
 
@@ -16460,7 +16460,7 @@ text = u'''
 
 == Comments ==
 
-Same as [[Class_RG|RG]], except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes [[Class_RG[1]|RG[1]]] a symmetric class, indeed a randomized analogue of S,,2,,P.
+Same as [[Class_RG|RG]], except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes [[Class_RG[1]|RG[1]]] a symmetric class, indeed a randomized analogue of [[Class_S2P|S2P]].
 
 
 
@@ -16468,7 +16468,7 @@ Same as [[Class_RG|RG]], except that now the verifier can exchange only a single
 
 
 
-Contains S,,2,,P and is contained in [[Class_SQG|SQG]].
+Contains [[Class_S2P|S2P]] and is contained in [[Class_SQG|SQG]].
 == Relations ==
 
 
@@ -16538,7 +16538,7 @@ text = u'''
 
 == Comments ==
 
-Has the same relation to BP,,H,,SPACE(f(n)) as [[Class_RP|RP]] does to [[Class_BPP|BPP]].
+Has the same relation to [[Class_BPHSPACE(f(n))|BPHSPACE(f(n))]] as [[Class_RP|RP]] does to [[Class_BPP|BPP]].
 == Relations ==
 
 
@@ -16575,7 +16575,7 @@ NL).
 
 
 
-Contains R,,H,,L.
+Contains [[Class_RHL|RHL]].
 
 
 
@@ -16771,7 +16771,7 @@ The communication cost (the sum of the number of random bits used and bits writt
 
 
 
-NP,,,,^cc^ is not equal to RP,,,,^cc^ for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPcc|NPcc]] is not equal to [[Class_RPcc|RPcc]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 
@@ -16956,15 +16956,15 @@ If the answer is 'no,' then there exists a z such that for all y, P(x,y,z) is fa
 
 
 
-Note that this differs from Σ,,2,,P in that the quantifiers in the second condition are reversed.
+Note that this differs from [[Class_Σ2P|Σ2P]] in that the quantifiers in the second condition are reversed.
 
 
 
-Less formally, S,,2,,P is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In Σ,,2,,P, the disprover moves first.
+Less formally, [[Class_S2P|S2P]] is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In [[Class_Σ2P|Σ2P]], the disprover moves first.
 
 
 
-Defined in [[ZooRefs#RS98|[RS98] ]], where it was also shown that S,,2,,P contains [[Class_MA|MA]] and Δ,,2,,P.  Defined independently in [[ZooRefs#Can96|[Can96] ]].
+Defined in [[ZooRefs#RS98|[RS98] ]], where it was also shown that [[Class_S2P|S2P]] contains [[Class_MA|MA]] and [[Class_Δ2P|Δ2P]].  Defined independently in [[ZooRefs#Can96|[Can96] ]].
 
 
 
@@ -16972,7 +16972,7 @@ Contained in ZPP^NP^ [[ZooRefs#Cai01|[Cai01] ]].
 
 
 
-S,,2,,-EXP•P^NP^: Don't Ask 
+[[Class_S2-EXP•PNP|S2-EXP•PNP]]: Don't Ask 
 
 One of the caged classes of the Complexity Zoo.
 
@@ -17089,7 +17089,7 @@ Equals LOGCFL/poly [[ZooRefs#Ven91|[Ven91] ]].
 
 
 
-Contained in ⊕SAC^1^ [[ZooRefs#GW96|[GW96] ]].
+Contained in [[Class_⊕SAC1|⊕SAC1]] [[ZooRefs#GW96|[GW96] ]].
 == Relations ==
 
 
@@ -17171,9 +17171,9 @@ Defined in [[ZooRefs#BGM02|[BGM02] ]], where the following was also shown:
 
 [[Class_SBP|SBP]] contains [[Class_MA|MA]], [[Class_WAPP|WAPP]], and [[Class_∃BPP|∃BPP]].
 
-[[Class_SBP|SBP]] is contained in [[Class_AM|AM]] and BPP,,path,,.
+[[Class_SBP|SBP]] is contained in [[Class_AM|AM]] and [[Class_BPPpath|BPPpath]].
 
-There exists an oracle relative to which [[Class_SBP|SBP]] is not contained in Σ,,2,,P.
+There exists an oracle relative to which [[Class_SBP|SBP]] is not contained in [[Class_Σ2P|Σ2P]].
 
 [[Class_SBP|SBP]] is closed under union.
 == Relations ==
@@ -17210,7 +17210,7 @@ The class of decision problems for which there exists a polynomial-time quantum 
 
 
 
-Defined by Kuperberg in [[ZooRefs#Kup09|[Kup09] ]], where he showed that [[Class_SBQP|SBQP]] = A,,0,,PP.
+Defined by Kuperberg in [[ZooRefs#Kup09|[Kup09] ]], where he showed that [[Class_SBQP|SBQP]] = [[Class_A0PP|A0PP]].
 == Relations ==
 
 
@@ -17392,7 +17392,7 @@ The complexity of SF,,2,,, SF,,3,,, and SF,,4,, was studied in [[ZooRefs#Ogi94|[
 
 
 
-SF,,4,, is contained in BP ⊕P^Mod_3P ^ [[Class_⊕P|⊕P]] ^ Mod_3P ^ ⊕P^
+SF,,4,, is contained in BP ⊕P^Mod_3P ^ [[Class_⊕P|⊕P]] ^ Mod_3P ^ [[Class_⊕P|⊕P]]
 
 
 
@@ -17508,7 +17508,7 @@ It follows from [[ZooRefs#AKL+79|[AKL+79] ]] that [[Class_SL|SL]] is contained i
 
 
 
-[[ZooRefs#KW93|[KW93] ]] showed that [[Class_SL|SL]] is contained in [[Class_⊕L|⊕L]], as well as Mod,,k,,L for every prime k.
+[[ZooRefs#KW93|[KW93] ]] showed that [[Class_SL|SL]] is contained in [[Class_⊕L|⊕L]], as well as [[Class_ModkL|ModkL]] for every prime k.
 
 
 
@@ -17954,7 +17954,7 @@ Defined in [[ZooRefs#KRS90|[KRS90] ]].
 
 
 
-[[Class_SP|SP]] is also an alternate name for XP,,uniform,,
+[[Class_SP|SP]] is also an alternate name for [[Class_XPuniform|XPuniform]]
 == Relations ==
 
 
@@ -18032,7 +18032,7 @@ Contains [[Class_UL|UL]].
 
 
 
-Contained in C,,=,,L and Mod,,k,,L.
+Contained in [[Class_C=L|C=L]] and [[Class_ModkL|ModkL]].
 
 
 
@@ -18081,7 +18081,7 @@ If the answer is "yes," then these numbers differ by 2.
 
 
 
-Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_SPP|SPP]] is low for [[Class_PP|PP]], C,,=,,P, Mod,,k,,P, and [[Class_SPP|SPP]] itself.  (I.e. adding [[Class_SPP|SPP]] as an oracle does not increase the power of these classes.)
+Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_SPP|SPP]] is low for [[Class_PP|PP]], [[Class_C=P|C=P]], [[Class_ModkP|ModkP]], and [[Class_SPP|SPP]] itself.  (I.e. adding [[Class_SPP|SPP]] as an oracle does not increase the power of these classes.)
 
 
 
@@ -18089,7 +18089,7 @@ Independently defined in [[ZooRefs#OH93|[OH93] ]], who called the class [[Class_
 
 
 
-Contained in [[Class_LWPP|LWPP]], C,,=,,P, and [[Class_WPP|WPP]] among other classes.
+Contained in [[Class_LWPP|LWPP]], [[Class_C=P|C=P]], and [[Class_WPP|WPP]] among other classes.
 
 
 
@@ -18172,7 +18172,7 @@ Same as [[Class_QRG|QRG]], except that now the verifier can exchange only a sing
 
 
 
-[[Class_SQG|SQG]] trivially contains QS,,2,,P.
+[[Class_SQG|SQG]] trivially contains [[Class_QS2P|QS2P]].
 == Relations ==
 
 
@@ -18349,11 +18349,11 @@ The class of decision problems for which a "yes" answer can be verified by a sta
 
 
 
-Defined in [[ZooRefs#BG03|[BG03] ]], where it was also shown that SZK,,h,, = [[Class_SZK|SZK]].
+Defined in [[ZooRefs#BG03|[BG03] ]], where it was also shown that [[Class_SZKh|SZKh]] = [[Class_SZK|SZK]].
 
 
 
-Contains NISZK,,h,,.
+Contains [[Class_NISZKh|NISZKh]].
 == Relations ==
 
 
@@ -18470,39 +18470,39 @@ A uniformity requirement is sometimes also placed.
 
 
 
-TC^0^ contains ACC^0^, and is contained in NC^1^.
+[[Class_TC0|TC0]] contains [[Class_ACC0|ACC0]], and is contained in [[Class_NC1|NC1]].
 
 
 
-TC^0^ circuits of depth 3 are strictly more powerful than TC^0^ circuits of depth 2 [[ZooRefs#HMP+93|[HMP+93] ]].
+[[Class_TC0|TC0]] circuits of depth 3 are strictly more powerful than [[Class_TC0|TC0]] circuits of depth 2 [[ZooRefs#HMP+93|[HMP+93] ]].
 
 
 
-TC^0^ circuits of depth 3 and quasipolynomial size can simulate all of ACC^0^ [[ZooRefs#Yao90|[Yao90] ]].
+[[Class_TC0|TC0]] circuits of depth 3 and quasipolynomial size can simulate all of [[Class_ACC0|ACC0]] [[ZooRefs#Yao90|[Yao90] ]].
 
 
 
-There is a function in AC^0^ (explicitly given in [[ZooRefs#She08|[She08] ]]), whose computation with TC^0^  circuits of depth 2 requires an exponential number of gates.
+There is a function in [[Class_AC0|AC0]] (explicitly given in [[ZooRefs#She08|[She08] ]]), whose computation with [[Class_TC0|TC0]]  circuits of depth 2 requires an exponential number of gates.
 
 
 
-[[ZooRefs#NR97|[NR97] ]] give a candidate pseudorandom function family computable in TC^0^, that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [[ZooRefs#NRR01|[NRR01] ]] for an improvement of this construction, as well as [[ZooRefs#Kha93|[Kha93] ]].)
+[[ZooRefs#NR97|[NR97] ]] give a candidate pseudorandom function family computable in [[Class_TC0|TC0]], that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [[ZooRefs#NRR01|[NRR01] ]] for an improvement of this construction, as well as [[ZooRefs#Kha93|[Kha93] ]].)
 
 
 
-One implication is that, assuming such a bound, there is no natural proof in the sense of [[ZooRefs#RR97|[RR97] ]] separating TC^0^ from [[Class_P/poly|P/poly]].  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in TC^0^.)  Another implication is that functions in TC^0^ are likely to be difficult to learn.
+One implication is that, assuming such a bound, there is no natural proof in the sense of [[ZooRefs#RR97|[RR97] ]] separating [[Class_TC0|TC0]] from [[Class_P/poly|P/poly]].  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in TC^0^.)  Another implication is that functions in [[Class_TC0|TC0]] are likely to be difficult to learn.
 
 
 
-The permanent of a 0-1 matrix cannot be computed in uniform TC^0^ [[ZooRefs#All99|[All99] ]].
+The permanent of a 0-1 matrix cannot be computed in uniform [[Class_TC0|TC0]] [[ZooRefs#All99|[All99] ]].
 
 
 
-In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in U,,D,,-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
+In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in U,,D,,-uniform [[Class_TC0|TC0]].  Indeed division is complete for this class under [[Class_AC0|AC0]] reductions.
 
 
 
-In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in L-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
+In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in L-uniform [[Class_TC0|TC0]].  Indeed division is complete for this class under [[Class_AC0|AC0]] reductions.
 == Relations ==
 
 
@@ -18953,13 +18953,13 @@ text = u'''
 
 == Comments ==
 
-Defined by [[ZooRefs#BFS86|[BFS86] ]], UPP^cc^ is one of two communication complexity analogues of [[Class_PP|PP]].
+Defined by [[ZooRefs#BFS86|[BFS86] ]], [[Class_UPPcc|UPPcc]] is one of two communication complexity analogues of [[Class_PP|PP]].
 
-UPP^cc^ is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
+[[Class_UPPcc|UPPcc]] is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
 
 
 
-See also: PP^cc^.
+See also: [[Class_PPcc|PPcc]].
 == Relations ==
 
 
@@ -19041,7 +19041,7 @@ For k = 0, VC,,0,, is the class of compressible languages.
 
  For k = 1, VC,,1,, is the class of languages that have local verification: they can be verified by testing only a small part of the instance. (Small means polynomial in the witness length and the log of the instance length.)
 
- For k ≥ 2, VC,,k,, is the class of languages that can be verified by a circuit of depth k, with size polynomial in the witness length and instance length.
+ For k ≥ 2, [[Class_VCk|VCk]] is the class of languages that can be verified by a circuit of depth k, with size polynomial in the witness length and instance length.
 
 
 
@@ -19088,7 +19088,7 @@ Introduced in [[ZooRefs#HN06|[HN06] ]].
 
 
 
-See also VC,,k,,.
+See also [[Class_VCk|VCk]].
 == Relations ==
 
 
@@ -19119,15 +19119,15 @@ text = u'''
 
 == Comments ==
 
-Has the same relation to VP,,k,, as [[Class_NC|NC]] does to [[Class_P|P]].
+Has the same relation to [[Class_VPk|VPk]] as [[Class_NC|NC]] does to [[Class_P|P]].
 
 
 
-More formally, the class of VP,,k,, problems computable by a straight-line program of depth polylogarithmic in n.
+More formally, the class of [[Class_VPk|VPk]] problems computable by a straight-line program of depth polylogarithmic in n.
 
 
 
-Surprisingly, VNC,,k,, = VP,,k,, for any k [[ZooRefs#VSB+83|[VSB+83] ]].
+Surprisingly, [[Class_VNCk|VNCk]] = [[Class_VPk|VPk]] for any k [[ZooRefs#VSB+83|[VSB+83] ]].
 == Relations ==
 
 
@@ -19158,15 +19158,15 @@ text = u'''
 
 == Comments ==
 
-A superclass of VP,,k,, in Valiant's algebraic complexity theory, but not quite the analogue of [[Class_NP|NP]].
+A superclass of [[Class_VPk|VPk]] in Valiant's algebraic complexity theory, but not quite the analogue of [[Class_NP|NP]].
 
 
 
-A problem is in VNP,,k,, if there exists a polynomial p with the following properties:
+A problem is in [[Class_VNPk|VNPk]] if there exists a polynomial p with the following properties:
 
 
 
-p is computable in VP,,k,,; that is, by a polynomial-size straight-line program.
+p is computable in [[Class_VPk|VPk]]; that is, by a polynomial-size straight-line program.
 
 The inputs to p are constants c,,1,,,...,c,,m,,,e,,1,,,...,e,,h,, and indeterminates X,,1,,,...,X,,n,, over the base field k.
 
@@ -19182,7 +19182,7 @@ If the field k has characteristic greater than 2, then the permanent of an n-by-
 
 
 
-A central conjecture is that for all k, VP,,k,, is not equal to VNP,,k,,.  Bürgisser [[ZooRefs#Bur00|[Bur00] ]] shows that if this were false then:
+A central conjecture is that for all k, [[Class_VPk|VPk]] is not equal to [[Class_VNPk|VNPk]].  Bürgisser [[ZooRefs#Bur00|[Bur00] ]] shows that if this were false then:
 
 
 
@@ -19192,7 +19192,7 @@ If k has characteristic 0, then assuming the Generalized Riemann Hypothesis (GRH
 
 
 
-In both cases, [[Class_PH|PH]] collapses to Σ,,2,,P.
+In both cases, [[Class_PH|PH]] collapses to [[Class_Σ2P|Σ2P]].
 == Relations ==
 
 
@@ -19266,7 +19266,7 @@ The class of efficiently-solvable problems in Valiant's algebraic complexity the
 
 
 
-More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X,,1,,,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  VP,,k,, is the class of problems whose complexity is polynomial in n.  (Hence, VP,,k,, is a nonuniform class, in contrast to P,,C,, and P,,R,,.)
+More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X,,1,,,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  [[Class_VPk|VPk]] is the class of problems whose complexity is polynomial in n.  (Hence, [[Class_VPk|VPk]] is a nonuniform class, in contrast to [[Class_PC|PC]] and P,,R,,.)
 
 
 
@@ -19274,11 +19274,11 @@ Originated in [Val79b]; see [[ZooRefs#Bur00|[Bur00] ]] for more information.
 
 
 
-Contained in VNP,,k,, and VQP,,k,,, and contains VNC,,k,,.
+Contained in [[Class_VNPk|VNPk]] and [[Class_VQPk|VQPk]], and contains [[Class_VNCk|VNCk]].
 
 
 
-More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X^1^,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  VP,,k,, is the class of problems whose complexity is polynomial in n.  (Hence, VP,,k,, is a nonuniform class, in contrast to P,,C,, and P,,R,,.)
+More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X^1^,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  [[Class_VPk|VPk]] is the class of problems whose complexity is polynomial in n.  (Hence, [[Class_VPk|VPk]] is a nonuniform class, in contrast to [[Class_PC|PC]] and P,,R,,.)
 == Relations ==
 
 
@@ -19309,7 +19309,7 @@ text = u'''
 
 == Comments ==
 
-Has the same relation to VP,,k,, as [[Class_QP|QP]] does to [[Class_P|P]].
+Has the same relation to [[Class_VPk|VPk]] as [[Class_QP|QP]] does to [[Class_P|P]].
 
 
 
@@ -19505,7 +19505,7 @@ Defined in [[ZooRefs#FFK94|[FFK94] ]].
 
 
 
-Contained in C,,=,,P ∩ coC,,=,,P, as well as [[Class_AWPP|AWPP]].
+Contained in [[Class_C=P|C=P]] ∩ [[Class_coC=P|coC=P]], as well as [[Class_AWPP|AWPP]].
 
 
 
@@ -19740,7 +19740,7 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 
 
-Contained in [[Class_W[SAT]|W[SAT]]] and in W^*^[t].
+Contained in [[Class_W[SAT]|W[SAT]]] and in [[Class_W*[t]|W*[t]]].
 == Relations ==
 
 
@@ -19822,7 +19822,7 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 
 
-Contains XP,,uniform,,.
+Contains [[Class_XPuniform|XPuniform]].
 
 
 
@@ -20648,7 +20648,7 @@ text = u'''
 
 == Comments ==
 
-Equals C,,=,,P [[ZooRefs#FGH+98|[FGH+98] ]].
+Equals [[Class_C=P|C=P]] [[ZooRefs#FGH+98|[FGH+98] ]].
 == Relations ==
 
 
@@ -21109,7 +21109,7 @@ A quantum branching program is the natural quantum generalization: we have a qua
 
 
 
-Defined in [[ZooRefs#AMP02|[AMP02] ]], where it was also shown that NC^1^ is contained in 2-EQBP.
+Defined in [[ZooRefs#AMP02|[AMP02] ]], where it was also shown that [[Class_NC1|NC1]] is contained in 2-EQBP.
 
 
 
@@ -21156,7 +21156,7 @@ Then [[Class_k-PBP|k-PBP]] is the class of decision problems solvable by a famil
 
 
 
-[[Class_k-PBP|k-PBP]] equals (nonuniform) NC^1^ for constant k at least 5 [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, 4-PBP is in ACC^0^ [[ZooRefs#BT88|[BT88] ]].
+[[Class_k-PBP|k-PBP]] equals (nonuniform) [[Class_NC1|NC1]] for constant k at least 5 [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, 4-PBP is in [[Class_ACC0|ACC0]] [[ZooRefs#BT88|[BT88] ]].
 
 
 
@@ -21164,7 +21164,7 @@ Contained in [[Class_k-EQBP|k-EQBP]], as well as [[Class_PBP|PBP]].
 
 
 
-See also BP,,d,,(P).
+See also [[Class_BPd(P)|BPd(P)]].
 == Relations ==
 
 
@@ -21234,7 +21234,7 @@ Defined in [[ZooRefs#GS90|[GS90] ]], who raise as an open problem to define a un
 
 
 
-Strictly contains mNC^1^ [[ZooRefs#GS91|[GS91] ]].
+Strictly contains [[Class_mNC1|mNC1]] [[ZooRefs#GS91|[GS91] ]].
 
 
 
@@ -21269,7 +21269,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems solvable by a family of monotone NC^1^ circuits (i.e. AND and OR gates only).
+The class of decision problems solvable by a family of monotone [[Class_NC1|NC1]] circuits (i.e. AND and OR gates only).
 
 
 
@@ -21285,7 +21285,7 @@ Strictly contained in [[Class_mNL|mNL]] [[ZooRefs#KW88|[KW88] ]], and indeed in 
 
 
 
-Strictly contains mTC^0^ [[ZooRefs#Yao89|[Yao89] ]].
+Strictly contains [[Class_mTC0|mTC0]] [[ZooRefs#Yao89|[Yao89] ]].
 == Relations ==
 
 
@@ -21328,7 +21328,7 @@ See [[Class_mP|mP]] for the definition of a monotone nondeterministic Turing mac
 
 
 
-Also, [[Class_mNL|mNL]] strictly contains mNC^1^ [[ZooRefs#KW88|[KW88] ]].
+Also, [[Class_mNL|mNL]] strictly contains [[Class_mNC1|mNC1]] [[ZooRefs#KW88|[KW88] ]].
 
 
 
@@ -21422,7 +21422,7 @@ Deciding whether a bipartite graph has a perfect matching, despite being both a 
 
 
 
-See also: mNC^1^, [[Class_mL|mL]], [[Class_mNL|mNL]], [[Class_mcoNL|mcoNL]].
+See also: [[Class_mNC1|mNC1]], [[Class_mL|mL]], [[Class_mNL|mNL]], [[Class_mcoNL|mcoNL]].
 == Relations ==
 
 
@@ -21488,7 +21488,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems solvable by a family of monotone TC^0^ circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).
+The class of decision problems solvable by a family of monotone [[Class_TC0|TC0]] circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).
 
 
 
@@ -21500,7 +21500,7 @@ Defined in [[ZooRefs#GS90|[GS90] ]].
 
 
 
-Strictly contained in mNC^1^ [[ZooRefs#Yao89|[Yao89] ]].
+Strictly contained in [[Class_mNC1|mNC1]] [[ZooRefs#Yao89|[Yao89] ]].
 == Relations ==
 
 
@@ -21675,11 +21675,11 @@ Contains [[Class_BH|BH]].
 
 
 
-There exists an oracle relative to which Δ,,2,,P is not contained in [[Class_PP|PP]] [[ZooRefs#Bei94|[Bei94] ]].
+There exists an oracle relative to which [[Class_Δ2P|Δ2P]] is not contained in [[Class_PP|PP]] [[ZooRefs#Bei94|[Bei94] ]].
 
 
 
-There exists another oracle relative to which Δ,,2,,P is contained in [[Class_P/poly|P/poly]] [[ZooRefs#BGS75|[BGS75] ]], and indeed has linear-size circuits [[ZooRefs#Wil85|[Wil85] ]].
+There exists another oracle relative to which [[Class_Δ2P|Δ2P]] is contained in [[Class_P/poly|P/poly]] [[ZooRefs#BGS75|[BGS75] ]], and indeed has linear-size circuits [[ZooRefs#Wil85|[Wil85] ]].
 
 
 
@@ -21687,7 +21687,7 @@ There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ
 
 
 
-If [[Class_P|P]] = [[Class_NP|NP]], then any polynomial-size circuit C can be learned in Δ,,2,,P with C oracle [[ZooRefs#Aar06|[Aar06] ]].
+If [[Class_P|P]] = [[Class_NP|NP]], then any polynomial-size circuit C can be learned in [[Class_Δ2P|Δ2P]] with C oracle [[ZooRefs#Aar06|[Aar06] ]].
 == Relations ==
 
 
@@ -21749,11 +21749,11 @@ text = u'''
 
 == Comments ==
 
-Complement of Σ,,2,,P.
+Complement of [[Class_Σ2P|Σ2P]].
 
 
 
-Along with Σ,,2,,P, comprises the second level of [[Class_PH|PH]], the polynomial hierarchy. For any fixed k, there is a problem in Π,,2,,P ∩ Σ,,2,,P that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
+Along with [[Class_Σ2P|Σ2P]], comprises the second level of [[Class_PH|PH]], the polynomial hierarchy. For any fixed k, there is a problem in [[Class_Π2P|Π2P]] ∩ [[Class_Σ2P|Σ2P]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
 
 
@@ -21784,25 +21784,25 @@ text = u'''
 
 == Comments ==
 
-Complement of Π,,2,,P.
+Complement of [[Class_Π2P|Π2P]].
 
 
 
-Along with Π,,2,,P, comprises the second level of [[Class_PH|PH]], the polynomial hierarchy.
+Along with [[Class_Π2P|Π2P]], comprises the second level of [[Class_PH|PH]], the polynomial hierarchy.
 
 
 
-[[ZooRefs#Uma98|[Uma98] ]] has shown that the following problems are complete for Σ,,2,,P:
+[[ZooRefs#Uma98|[Uma98] ]] has shown that the following problems are complete for [[Class_Σ2P|Σ2P]]:
 
 
 
 Minimum equivalent DNF.  Given a DNF formula F and integer k, is there a DNF formula equivalent to F with k or fewer occurences of literals?
 
-Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless Σ,,2,,P equals βP^NP^.)
+Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless [[Class_Σ2P|Σ2P]] equals βP^NP^.)
 
 
 
-For any fixed k, there is a problem in Σ,,2,,P ∩ Π,,2,,P that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
+For any fixed k, there is a problem in [[Class_Σ2P|Σ2P]] ∩ [[Class_Π2P|Π2P]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
 
 
@@ -21843,11 +21843,11 @@ For all z, there exists a y for which P(x,y,z).
 
 
 
-Contained in Σ,,2,,P and Π,,2,,P.
+Contained in [[Class_Σ2P|Σ2P]] and [[Class_Π2P|Π2P]].
 
 
 
-Defined in [[ZooRefs#Can96|[Can96] ]], where it was also observed that Φ,,2,,P = S,,2,,P.
+Defined in [[ZooRefs#Can96|[Can96] ]], where it was also observed that [[Class_Φ2P|Φ2P]] = [[Class_S2P|S2P]].
 == Relations ==
 
 
@@ -22284,7 +22284,7 @@ The class of problems solvable by a nonuniform family of polynomial-size, polylo
 
 
 
-Defined in [[ZooRefs#GW96|[GW96] ]], where it was also shown that ⊕SAC^1^ contains SAC^1^.
+Defined in [[ZooRefs#GW96|[GW96] ]], where it was also shown that [[Class_⊕SAC1|⊕SAC1]] contains [[Class_SAC1|SAC1]].
 == Relations ==
 
 
