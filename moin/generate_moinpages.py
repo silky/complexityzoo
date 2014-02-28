@@ -297,7 +297,7 @@ Together with [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{
 
 
 
-There is an oracle relative to which [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]], indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [[ZooRefs#FFK+93|[FFK+93] ]].  Recently they improved this to NP/1 ∩ [[Class_coNP|$\\text{coNP}$]] [FF..].
+There is an oracle relative to which [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]], indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [[ZooRefs#FFK+93|[FFK+93] ]].  Recently they improved this to NP/1 ∩ [[Class_coNP|$\\text{coNP}$]] [[ZooRefs#FF..|[FF..] ]].
 
 
 
