@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QRG - Quantum Refereed Games =
+
+== Comments ==
 
 Same as RG, except that now the verifier is a BQP machine, and can exchange polynomially many quantum messages with the competing provers.
 
@@ -12,3 +16,4 @@ Defined in [Gut05], where it was also shown that QRG is contained in NEXP ∩ co
 QRG trivially contains RG (and hence EXP), as well as SQG.
 
 QRG is contained in EXP [GW07].  Hence QRG = RG = EXP and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
+== Relations ==

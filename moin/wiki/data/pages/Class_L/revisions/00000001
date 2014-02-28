@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = L - Logarithmic Space =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine restricted to use an amount of memory logarithmic in the size of the input, n.  (The input itself is not counted as part of the memory.)
 
@@ -14,3 +18,4 @@ Immerman [Imm83] showed that L is the class FO(dtc) of first-order expressible q
 L queries are exactly the one that can be written in a syntactic restriction of  While languages.
 
 L contains NC^1^ [Bor77], and is contained in generalizations including NL, L/poly, SL, RL, ⊕L, and Mod,,k,,L.
+== Relations ==

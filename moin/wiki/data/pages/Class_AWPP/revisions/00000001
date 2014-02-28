@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AWPP - Almost WPP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that for some polynomial-time computable (i.e. FP) function f,
 
@@ -13,3 +17,4 @@ Defined in [FFK94].
 Contains BQP [FR98], WAPP [BGM02], LWPP, and WPP.
 
 Contained in APP [Fen02].
+== Relations ==

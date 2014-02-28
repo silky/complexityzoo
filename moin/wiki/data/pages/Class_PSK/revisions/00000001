@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PSK - Polynomial Sink =
+
+== Comments ==
 
 Yeah, I'm told that's what the S and K stand for.  Go figure.
 
@@ -10,3 +14,4 @@ The class of total function problems definable as follows: given a directed grap
 Defined in [Pap90].
 
 Equals PPADS.
+== Relations ==

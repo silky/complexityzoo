@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = BQP/log - BQP With Logarithmic-Size Karp-Lipton Advice =
 
+== Comments ==
+
 Same as BQP/poly except that the advice is O(log n) bits instead of a polynomial number.
 
 Contained in BQP/mlog.
+== Relations ==

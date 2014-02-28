@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = P^PP^ - P With PP Oracle =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -28,3 +32,4 @@ Contains PP^PH^ [Tod89].
 Equals P^#P^ (exercise for the visitor).
 
 Since the permanent of a matrix is #P-complete [Val79], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.
+== Relations ==

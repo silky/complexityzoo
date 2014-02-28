@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AUC-SPACE(f(n)) - Randomized Alternating f(n)-Space =
+
+== Comments ==
 
 The class of problems decidable by an O(f(n))-space Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
@@ -10,3 +14,4 @@ Contains GAN-SPACE(f(n)).
 AUC-SPACE(poly(n)) = SAPTIME = PSPACE [Pap83].
 
 [Con92] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in NP ∩ coNP.
+== Relations ==

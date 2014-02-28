@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NPSV - NP Single Value =
+
+== Comments ==
 
 The class of NPMV functions that are single-valued (i.e., such that every accepting path outputs the same value).
 
@@ -10,3 +14,4 @@ Defined in [BLS84].
 Contains NPSV,,t,,.
 
 P = NP if and only if FP = NPSV.
+== Relations ==

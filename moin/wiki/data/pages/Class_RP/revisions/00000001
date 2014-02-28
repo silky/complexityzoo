@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = RP - Randomized Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -21,3 +25,4 @@ See also: coRP, ZPP, BPP.
 Defined in [Gil77].
 
 Contains the problem of testing whether an integer is prime [AH87].
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PH - Polynomial-Time Hierarchy =
+
+== Comments ==
 
 Let Δ,,0,,P = Σ,,0,,P = Π,,0,,P = P.  Then for i>0, let
 
@@ -31,3 +35,4 @@ For a compendium of problems complete for different classes of the Polynomial Hi
 PH is equal to the set of boolean queries recognizable by a concurent random acess machine using exponentially many processors and constant time[Imm89].
 
 Since NP is the class of query expressible in second-order existantial logic, PH can also be defined as the query expressible in second-order logic.
+== Relations ==

@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = NPSV,,t,, - NPSV Total =
 
+== Comments ==
+
 The class of all NPSV functions that are total (that is, defined on every input).
 
 Contained in NPMV,,t,,.
+== Relations ==

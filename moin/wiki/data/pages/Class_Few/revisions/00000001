@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = Few - FewP With Flexible Acceptance Mechanism =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -15,3 +19,4 @@ Defined in [CH89].
 Contains FewP, and is contained in P^FewP^ [Kob89] and in SPP [FFK94].
 
 See also the survey [Tor90].
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = GA - Graph Automorphism =
+
+== Comments ==
 
 Can be defined as the class of problems polynomial-time Turing reducible to the Graph Automorphism problem.
 
@@ -10,3 +14,4 @@ Contains P and is contained in GI.
 See [KST93] for much more information about GA.
 
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether a given graph has any nontrivial automorphisms.
+== Relations ==

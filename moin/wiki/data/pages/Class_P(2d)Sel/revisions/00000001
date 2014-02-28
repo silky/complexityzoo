@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = P-Sel - P-Selective Sets =
+
+== Comments ==
 
 The class of decision problems for which there's a polynomial-time algorithm with the following property.  Whenever it's given two instances, a "yes" and a "no" instance, the algorithm can always decide which is the "yes" instance.
 
 Defined in [Sel79], where it was also shown that if NP is contained in P-Sel then P = NP.
 
 There exist P-selective sets that are not recursive (i.e. not in R).
+== Relations ==

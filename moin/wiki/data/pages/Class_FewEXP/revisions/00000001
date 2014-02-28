@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FewEXP - NEXP With Few Witnesses =
+
+== Comments ==
 
 The class of decision problems solvable by an NEXP machine such that, given a "yes" instance, no more than an exponential number of computation paths accept.
 
@@ -11,3 +15,4 @@ Alternatively, FewEXP can refer to the sparsity of accepting paths in a given in
 
 There exists an EXP machine  such that if given a string ,  accepts and has exponentially bounded accepting paths, then  produces one such path.
  There exists an EXP/poly machine  which accepts a string  if and only  accepts.
+== Relations ==

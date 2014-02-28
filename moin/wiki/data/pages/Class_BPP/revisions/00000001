@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = BPP - Bounded-Error Probabilistic Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -35,3 +39,4 @@ Equals Almost-P.
 See also: BPP,,path,,.
 
 If BPP contains NP, then RP = NP [Ko82] and PH is contained in BPP [Zac88].
+== Relations ==

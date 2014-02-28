@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = VNP,,k,, - Valiant NP Over Field k =
+
+== Comments ==
 
 A superclass of VP,,k,, in Valiant's algebraic complexity theory, but not quite the analogue of NP.
 
@@ -21,3 +25,4 @@ If k is finite, NC^2^/poly = P/poly = NP/poly = PH/poly.
 If k has characteristic 0, then assuming the Generalized Riemann Hypothesis (GRH), NC^3^/poly = P/poly = NP/poly = PH/poly, and #P/poly = FP/poly.
 
 In both cases, PH collapses to Σ,,2,,P.
+== Relations ==

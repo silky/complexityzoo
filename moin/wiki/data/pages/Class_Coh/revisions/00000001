@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = Coh - Coherent Languages =
+
+== Comments ==
 
 The class of problems L that are efficiently autoreducible, in the sense that given an input x and access to an oracle for L, a BPP machine can compute L(x) by querying L only on points that differ from x.
 
 Defined in [Yao90b].
 
 [BG94] show that, assuming NEE is not contained in BPEE, Coh ∩ NP is not contained in any of compNP, Check, or frIP.
+== Relations ==

@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = FQMA - Function QMA =
 
+== Comments ==
+
 The class of problems for which the task is to output a quantum certificate for a QMA problem, when such a certificate exists.  Thus, the desired output is a quantum state.
 
 Defined in [JWB03], where it is also shown that state preparation for 3-local Hamiltonians is FQMA-complete.  The authors also observe that, in contrast to the case of FNP versus NP, there is no obvious reduction of FQMA problems to QMA problems.
+== Relations ==

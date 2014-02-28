@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = BQP,,tt,,/poly - BQP/mpoly With Truth-Table Queries =
 
+== Comments ==
+
 Same as BQP/mpoly, except that the machine only gets to make nonadaptive queries to whatever oracle it might have.
 
 Defined in [NY03b], where it was also shown that P is not contained in BQP,,tt,,/poly relative to an oracle.
+== Relations ==

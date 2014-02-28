@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = EEE - Triple-Exponential Time With Linear Exponent =
+
+== Comments ==
 
 Equals DTIME(2^2^2^O(n)^^^).
 
 In contrast to the case of EE, it is not known whether EEE = BPEE implies EE = BPE [IKW01].
 
 Equals DTIME(2^2^2^O(n)^).
+== Relations ==

@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = P^NP[log^2]^ - P With Log2 NP Queries =
+
+== Comments ==
 
 Same as P^NP[log]^, except that now log^2^ queries can be made.
 
 The model-checking problem for a certain temporal logic is P^NP[log^2]^-complete [Sch03].
 
 For all k, P with log^k^ adaptive queries to NP coincides with P with log^k+1^ nonadaptive queries [CS92].
+== Relations ==

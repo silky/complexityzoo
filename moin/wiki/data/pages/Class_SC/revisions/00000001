@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SC - Steve's Class =
+
+== Comments ==
 
 (Named in honor of Stephen Cook.)
 
@@ -16,3 +20,4 @@ SC contains RL and BPL [Nis92].
 SC equals DTISP(poly,polylog) by definition.
 
 Deterministic context-free languages (DCFL's) can be recognized in SC [Coo79].
+== Relations ==

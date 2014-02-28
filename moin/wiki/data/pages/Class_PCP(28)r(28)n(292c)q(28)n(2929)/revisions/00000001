@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PCP(r(n),q(n)) - Probabilistically Checkable Proof =
+
+== Comments ==
 
 The class of decision problems such that a "yes" answer can be verified by a probabilistically checkable proof, as follows.
 
@@ -29,3 +33,4 @@ On the other hand, if NP is contained in PCP(o(log n), o(log n)), then P = NP [F
 Also, even though there exists an oracle relative to which NP = EXP [Hel84], if we could show there exists an oracle relative to which PCP(log n, 1) = EXP, then we'd have proved P not equal to NP [For94].
 
 Another weird oracle fact: since NP does not equal NEXP [SFM78], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [HCC+92].
+== Relations ==

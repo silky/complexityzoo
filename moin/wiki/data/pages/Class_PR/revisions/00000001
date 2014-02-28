@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = P,,R,, - Polynomial-Time Over The Reals =
+
+== Comments ==
 
 Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that PR is strictly contained in R.
 
@@ -18,3 +22,4 @@ An analog of P for Turing machines over a real number field.
 Defined in [BCS+97].
 
 See also P,,C,,, NP,,C,,, NP,,R,,, VP,,k,,.
+== Relations ==

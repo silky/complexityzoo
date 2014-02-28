@@ -1,9 +1,14 @@
 
+<<TableOfContents()>>
+
 
 
 = QAC,,f,,^0^ - QAC0 With Fanout =
+
+== Comments ==
 
 Same as QAC^0^, except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.
 
 Defined in [Moo99], where it was also shown that QAC,,f,,^0^ =
 QAC^0^[2] = QACC^0^.
+== Relations ==

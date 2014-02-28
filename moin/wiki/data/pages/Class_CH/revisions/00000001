@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = CH - Counting Hierarchy =
+
+== Comments ==
 
 The union of the C,,k,,P's over all constant k.
 
@@ -12,3 +16,4 @@ Strictly contains DLOGTIME-uniform NC^1^ [CMTV98].
 It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^, since a padding argument shows that TC^0^ = NC^1^ implies CH = PSPACE.
 
 It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^.
+== Relations ==

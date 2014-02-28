@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = QMIP,,le,, - Quantum Multi-Prover Interactive Proofs With Limited Prior Entanglement =
 
+== Comments ==
+
 Same as QMIP, except that now the provers share only a polynomial number of EPR pairs, instead of an unlimited number.
 
 Defined in [KM02], where it was also shown that QMIP,,le,, is contained in NEXP = QMIP,,ne,,.
+== Relations ==

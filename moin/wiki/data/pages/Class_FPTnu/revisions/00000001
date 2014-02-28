@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = FPT,,nu,, - Fixed-Parameter Tractable (nonuniform) =
+
+== Comments ==
 
 Same as FPT except that the algorithm can vary with the parameter k (though its running time must always be O(p(|x|)), for a fixed polynomial p).
 
 An alternate view is that a single algorithm can take a polynomial-length advice string, depending on k.
 
 Defined in [DF99] (though they did not use our notation).
+== Relations ==

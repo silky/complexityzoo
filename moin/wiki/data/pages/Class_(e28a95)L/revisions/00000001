@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = ⊕L - Parity L =
+
+== Comments ==
 
 Has the same relation to L as ⊕P does to P.
 
@@ -10,3 +14,4 @@ Contains SL [KW93].
 Solving a linear system over Z,,2,, is complete for ⊕L [Dam90].
 
 ⊕L^⊕L^ = ⊕L [HRV00].
+== Relations ==

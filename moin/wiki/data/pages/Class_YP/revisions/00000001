@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = YP - Your Polynomial-Time or Yaroslav-Percival =
+
+== Comments ==
 
 The class of decision problems for which there exists a polynomial-time machine M such that:
 
@@ -15,3 +19,4 @@ Contains ZPP by the same argument that places BPP in P/poly.
 Also contains P with TALLY ∩ NP ∩ coNP oracle.
 
 Is contained in NP ∩ coNP and YPP.
+== Relations ==

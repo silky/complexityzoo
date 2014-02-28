@@ -1,0 +1,3174 @@
+===== A =====
+<span id="aar02" style="color:maroon">[Aar02]</span>
+S. Aaronson.
+Quantum lower bound for the collision problem,
+<i>Proceedings of ACM STOC'2002</i>, pp. 635-642, 2002.
+arXiv:[http://arxiv.org/abs/quant-ph/0111102 quant-ph/0111102].
+
+<span id="aar03" style="color:maroon">[Aar03]</span>
+S. Aaronson.
+Lower bounds for local search by quantum arguments,
+<i>Proceedings of ACM STOC 2004</i>.
+arXiv:[http://arxiv.org/abs/quant-ph/0307149 quant-ph/0307149],
+ECCC [http://eccc.uni-trier.de/eccc-reports/2003/TR03-057/ TR03-057].
+
+<span id="aar03b" style="color:maroon">[Aar03b]</span>
+S. Aaronson.
+Multilinear formulas and skepticism of quantum computing,
+<i>Proceedings of ACM STOC 2004</i>.
+arXiv:[http://arxiv.org/abs/quant-ph/0311039 quant-ph/0311039],
+ECCC [http://eccc.uni-trier.de/eccc-reports/2003/TR03-079/ TR03-079].
+
+<span id="aar04b" style="color:maroon">[Aar04b]</span>
+S. Aaronson.
+Limitations of quantum advice and one-way communication,
+<i>Proceedings of IEEE Complexity 2004</i>, pp. 320-332, 2004.
+arXiv:[http://arxiv.org/abs/quant-ph/0402095 quant-ph/0402095],
+ECCC [http://eccc.uni-trier.de/eccc-reports/2004/TR04-026/ TR04-026].
+
+<span id="aar05" style="color:maroon">[Aar05]</span>
+S. Aaronson.
+Quantum computing and hidden variables,
+<i>Physical Review A</i> 71:032325, March 2005.
+arXiv:[http://arxiv.org/abs/quant-ph/0408035 quant-ph/0408035].
+
+<span id="aar05b" style="color:maroon">[Aar05b]</span>
+S. Aaronson.
+Quantum computing, postselection, and probabilistic polynomial-time,
+<i>Proceedings of the Royal Society A</i>, 461(2063):3473-3482, 2005.
+arXiv:[http://arxiv.org/abs/quant-ph/0412187 quant-ph/0412187].
+
+<span id="aar05c" style="color:maroon">[Aar05c]</span>
+S. Aaronson.
+NP-complete problems and physical reality.
+<i>ACM SIGACT News</i>, March 2005
+[http://arxiv.org/abs/quant-ph/0502072 quant-ph/0502072].
+
+<span id="aar06" style="color:maroon">[Aar06]</span>
+S. Aaronson.
+Oracles are subtle but not malicious,
+<i>Proceedings of IEEE Complexity 2006</i>, 2006.
+arXiv:[http://arxiv.org/abs/cs.CC/0504048 cs.CC/0504048],
+ECCC [http://eccc.uni-trier.de/eccc-reports/2004/TR05-040/ TR05-040].
+
+<span id="aar06b" style="color:maroon">[Aar06b]</span>
+S. Aaronson.
+QMA/qpoly is contained in PSPACE/poly: de-Merlinizing quantum protocols,
+<i>Proceedings of IEEE Complexity 2006</i>, 2006.
+arXiv:[http://arxiv.org/abs/quant-ph/0510230 quant-ph/0510230].
+
+<span id="ak06" style="color:maroon">[AK06]</span>
+S. Aaronson and G. Kuperberg.
+Quantum versus classical proofs and advice,
+submitted, 2006.
+arXiv:[http://arxiv.org/abs/quant-ph/0604056 quant-ph/0604056].
+
+<span id="ab00" style="color:maroon">[AB00]</span>
+E. Allender and D. A. M. Barrington.
+Uniform Circuits for Division: Consequences and Problems.
+J. Comput. System Sci. 65 (2002), no. 4, 695--716.
+ECCC [http://eccc.uni-trier.de/eccc-reports/2000/TR00-65/ TR00-65], 2000.
+
+{{Reference
+    |id=abd08 |tag=ABD+08
+    |authors=S. Aaronson, S. Beigi, A. Drucker, et al
+    |title=The power of unentanglement
+    |journal=Electronic Colloquium on Computational Complexity
+    |srcdetail=ECCC Report TR08-051, accepted on May 02, 2008
+    |link=[http://eccc.hpi-web.de/eccc-reports/2008/TR08-051/index.html http://eccc.hpi-web.de/eccc-reports/2008/TR08-051/index.html]
+}}
+
+<span id="abf94" style="color:maroon">[ABF+94]</span>
+J. Aspnes, R. Beigel, M. L. Furst, and S. Rudich.
+The expressive power of voting polynomials,
+<i>Combinatorica</i> 14(2):135-148, 1994.
+[http://www.cs.yale.edu/~aspnes/stoc91voting.ps http://www.cs.yale.edu/~aspnes/stoc91voting.ps]
+
+<span id="abk02" style="color:maroon">[ABK+02]</span>
+E. Allender, H. Buhrman, M. Kouck&yacute;, D. van Melkebeek, and D. Ronneburger.
+Power from random strings,
+<i>Proceedings of IEEE FOCS'2002</i>, pp. 669-678, 2002.
+ECCC [http://eccc.uni-trier.de/eccc-reports/2002/TR02-028/ TR02-028].
+
+<span id="abl98" style="color:maroon">[ABL98]</span>
+A. Ambainis, D. M. Barrington, and H. L&ecirc;Thanh.
+On counting AC<sup>0</sup> circuits with negative constants,
+<i>Proceedings of MFCS (Mathematical Foundations of Computer Science)</i>, pp. 419-427, 1998.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1998/TR98-020/ TR98-020].
+
+<span id="abo99" style="color:maroon">[ABO99]</span>
+E. Allender, R. Beals, and M. Ogihara.
+The complexity of matrix rank and feasible systems of linear equations,
+<i>Computational Complexity</i> 8(2):99-126, 1999.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1996/TR96-024/ TR96-024],
+DIMACS [http://dimacs.rutgers.edu/TechnicalReports/abstracts/1997/97-40.html TR 97-40].
+
+<span id="abv95" style="color:maroon">[ABV95]</span>
+W. Aiello, M. Bellare, and R. Venkatesan.
+Knowledge on the average - perfect, statistical, and logarithmic,
+<i>Proceedings of ACM STOC'95</i>, 1995.
+
+<span id="acg99" style="color:maroon">[ACG+99]</span>
+G. Ausiello, P. Crescenzi, G. Gambosi, V. Kann, A. Marchetti-Spaccamela, and M. Protasi.
+<i>Complexity and Approximation: Combinatorial optimization problems and their approximability properties</i>,
+Springer-Verlag, 1999.
+See also "A compendium of NP optimization problems" (P. Crescenzi and V. Kann, eds.),
+[http://www.nada.kth.se/~viggo/wwwcompendium/ http://www.nada.kth.se/~viggo/wwwcompendium/].
+
+<span id="adh97" style="color:maroon">[ADH97]</span>
+L. Adleman, J. DeMarrais, and M. Huang.
+Quantum computability,
+<i>SIAM Journal on Computing</i> 26:1524-1540, 1997.
+
+<span id="adl78" style="color:maroon">[Adl78]</span>
+L. Adleman.
+Two theorems on random polynomial time.
+FOCS 78.
+
+<span id="afm01" style="color:maroon">[AFM01]</span>
+L. Antu&ntilde;es, L. Fortnow, and D. van Melkebeek.
+Computational depth,
+<i>Proceedings of IEEE Complexity'01</i>, pp. 266-273, 2001.
+[http://people.cs.uchicago.edu/~fortnow/papers/depth.ps http://people.cs.uchicago.edu/~fortnow/papers/depth.ps]
+
+<span id="ag00" style="color:maroon">[AG00]</span>
+C. Alvarez and R. Greenlaw.
+A compendium of problems complete for symmetric logarithmic space,
+<i>Journal of Computational Complexity</i> 9:73-95, 2000.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1996/TR96-039/ TR96-039].
+
+<span id="agh90" style="color:maroon">[AGH90]</span>
+W. Aiello, S. Goldwasser, and J. H&aring;stad.
+On The Power Of Interaction.
+Combinatorica 10 (1990), no. 1, 3--25.
+
+<span id="agk07" style="color:maroon">[AGK07]</span>
+D. Aharonov, D. Gottesman, and J. Kempe;stad.
+The power of quantum systems on a line.
+FOCS 2007.
+
+{{Reference
+    |tag=Agr01
+    |authors=Agrawal, Manindra
+    |title=For completeness, sublogarithmic space is no space
+    |journal=Information Processing Letters (82), 2001-2002
+    |srcdetail=iss. 6, 321-325
+    |link=http://www.cse.iitk.ac.in/~manindra/isomorphism/sublog-completeness.pdf
+}}
+
+{{Reference
+    |id=Ajt83
+    |tag=AJT83
+    |authors=M. Ajtai
+    |title=Σ-1-1-Formulae on finite structures
+    |journal=Annals of Pure and Applied Logic (24), 1983
+    |srcdetail=1-48
+}}
+
+<span id="ah87" style="color:maroon">[AH87]</span>
+L. Adleman and M. Huang.
+Recognizing primes in random polynomial time,
+<i>Proceedings of ACM STOC'87</i>, pp. 462-470, 1987.
+
+<span id="ah87b" style="color:maroon">[AH87b]</span>
+W. Aiello and J. H&aring;stad.
+Perfect zero-knowledge languages can be recognized in two rounds,
+<i>Proceedings of IEEE FOCS 1987</i>, pp. 439-448, 1987.
+
+<span id="aik04" style="color:maroon">[AIK04]</span>
+B. Applebaum, Y. Ishai, and E. Kushilevitz.
+Cryptography in NC<sup>0</sup>,
+<i>Proceedings of IEEE FOCS 2004</i>.
+[http://www.cs.technion.ac.il/~yuvali/pubs/AIK04.ps http://www.cs.technion.ac.il/~yuvali/pubs/AIK04.ps].
+
+<span id="aj93" style="color:maroon">[AJ93]</span>
+C. Alvarez and B. Jenner.
+A very hard log-space counting class,
+<i>Theoretical Computer Science</i> 107:3-30, 1993.
+
+<span id="ak02" style="color:maroon">[AK02]</span>
+V. Arvind and P. Kurur.
+Graph isomorphism is in SPP,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2002/TR02-037/ TR02-037], 2002.
+
+<span id="ak06" style="color:maroon">[AK06]</span>
+S. Aaronson and G. Kuperberg.
+Quantum Versus Classical Proofs and Advice.
+arXiv:[http://arxiv.org/quant-ph/0604056 quant-ph/0604056], 2006.
+
+<span id="ak96" style="color:maroon">[AK96]</span>
+F. Ablayev and M. Karpinski.
+On the power of randomized branching programs,
+<i>Proceedings of the International Colloquium on Automata, Languages, and Programming (ICALP)</i>, Springer-Verlag 1099, pp. 348-356, 1996.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1995/TR95-054/ TR95-054],
+DIMACS [http://dimacs.rutgers.edu/TechnicalReports/abstracts/1996/96-46.html TR 96-46].
+
+<span id="akl79" style="color:maroon">[AKL+79]</span>
+R. Aleliunas, R. M. Karp, R. J. Lipton, L. Lov&aacute;sz, and C. Rackoff.
+Random walks, traversal sequences, and the complexity of maze problems,
+<i>Proceedings of IEEE FOCS'79</i>, pp. 218-223, 1979.
+
+{{Reference
+    |tag=AKR+03
+    |authors=E. Allender, M. Koucký, D. Ronneburger, et al
+    |title=Derandomization and distinguishing complexity
+    |journal=Proceedings of the 18th Annual IEEE Conference on Computational Complexity
+    |srcdetail=209-220
+}}
+
+{{Reference
+    |tag=AKS94
+    |authors=V. Arvind, J. Köbler and R. Schuler
+    |title=On helping and interactive proof systems
+    |journal=Algorithms and Computation: 5th International Symposium
+    |srcdetail=137-145
+}}
+
+<span id="aks02" style="color:maroon">[AKS02]</span>
+M. Agrawal, N. Kayal, and N. Saxena.
+Primes is in P,
+Annals of Mathematics, 160 (2004), 781-793.
+[http://www.cse.iitk.ac.in/primality.pdf http://www.cse.iitk.ac.in/primality.pdf].
+
+<span id="aks95" style="color:maroon">[AKS+95]</span>
+V. Arvind, J. K&ouml;bler, U. Sch&ouml;ning, and R. Schuler.
+If NP has polynomial-size circuits, then MA=AM,
+<i>Theoretical Computer Science</i> 137, 1995.
+[http://www.informatik.hu-berlin.de/Institut/struktur/algorithmenII/Papers/ma-am.ps.gz http://www.informatik.hu-berlin.de/Institut/struktur/algorithmenII/Papers/ma-am.ps.gz]
+
+<span id="all96" style="color:maroon">[All96]</span>
+E. Allender.
+Circuit complexity before the dawn of the new millennium,
+<i>Proceedings of the 16th Annual Conference on Foundations of Software Technology and Theoretical Computer Science (FST&amp;TCS)</i>, Lecture Notes in Computer Science 1180, pp. 1-18, 1996.
+DIMACS [http://dimacs.rutgers.edu/TechnicalReports/abstracts/1997/97-49.html TR 97-49].
+
+<span id="all99" style="color:maroon">[All99]</span>
+E. Allender.
+The permanent requires large uniform threshold circuits,
+<i>Chicago Journal of Theoretical Computer Science</i> 7, 1999.
+DIMACS [http://dimacs.rutgers.edu/TechnicalReports/abstracts/1997/97-51.html TR 97-51].
+
+<span id="alm98" style="color:maroon">[ALM+98]</span>
+S. Arora, C. Lund, R. Motwani, M. Sudan, and M. Szegedy.
+Proof verification and hardness of approximation problems,
+<i>Journal of the ACM</i> 45(3):501-555, 1998.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1998/TR98-008/ TR98-008].
+
+{{Reference
+    |id=am04 |tag=AM04
+    |title=Visibly Pushdown Languages
+    |authors=R. Alur and P. Madhusudan
+    |journal=Proceedings of ACM STOC'04, 2004.
+    |srcdetail=202-211
+ }}
+
+{{Reference
+    |id=am09 |tag=AM09
+    |title=Adding Nesting Structure to Words.
+    |authors=R. Alur and P. Madhusudan
+    |journal=Journal of the ACM 56(3)
+    |srcdetail=Article 16, May 2009
+ }}
+
+<span id="amp02" style="color:maroon">[AMP02]</span>
+F. Ablayev, C. Moore, and C. Pollett.
+Quantum and stochastic branching programs of bounded width,
+<i>Proceedings of the International Colloquium on Automata, Languages, and Programming (ICALP)</i>, 2002.
+arXiv:[http://arxiv.org/abs/quant-ph/0201139 quant-ph/0201139],
+ECCC [http://eccc.uni-trier.de/eccc-reports/2002/TR02-013/ TR02-013].
+
+<span id="ams06" style="color:maroon">[AMS06]</span>
+N. Alon, D. Moshkovitz, and S. Safra. 
+Algorithmic construction of sets for k-restrictions, 
+<i>ACM Transactions on Algorithms (TALG)</i> 2(2): 153–177, 2006.
+[http://dx.doi.org/10.1145/1150334.1150336 doi:10.1145/1150334.1150336]
+
+<span id="an02" style="color:maroon">[AN02]</span>
+D. Aharonov and T. Naveh.
+Quantum NP - a survey,
+arXiv:[http://arxiv.org/abs/quant-ph/0210077 quant-ph/0210077].
+
+<span id="ap95" style="color:maroon">[AP95]</span>
+G. Ausiello and M. Protasi
+Local search, reducibility, and approximability of NP optimization problems,
+<i>Information Processing Letters</i> 54:73-79, 1995.
+
+<span id="ar01" style="color:maroon">[AR01]</span>
+M. Alekhnovich and A. A. Razborov.
+Resolution is not automatizable unless W[P] is tractable,
+<i>Proceedings of IEEE FOCS'01</i>, pp. 210-219, 2001.
+
+<span id="ar03" style="color:maroon">[AR03]</span>
+D. Aharonov and O. Regev.
+A lattice problem in quantum NP,
+arXiv:[http://arxiv.org/abs/quant-ph/0307220 quant-ph/0307220].
+
+<span id="ar88" style="color:maroon">[AR88]</span>
+E. Allender and R. Rubinstein.
+P-printable sets,
+<i>SIAM Journal on Computing</i> 17(6):1193-1202, 1988.
+
+<span id="aro96" style="color:maroon">[Aro96]</span>
+S. Arora.
+Polynomial time approximation scheme for Euclidean TSP and other geometric problems,
+<i>Proceedings of IEEE FOCS'96</i>, pp. 2-11, 1996.
+[http://www.cs.princeton.edu/~arora/pubs/tsp1.ps http://www.cs.princeton.edu/~arora/pubs/tsp1.ps]
+
+<span id="arz99" style="color:maroon">[ARZ99]</span>
+E. Allender, K. Reinhardt, and S. Zhou.
+Isolation, matching, and counting: uniform and nonuniform upper bounds,
+<i>Journal of Computer and System Sciences</i> 59:164-181, 1999.
+[http://www.cs.rutgers.edu/pub/allender/matching.pdf http://www.cs.rutgers.edu/pub/allender/matching.pdf].
+
+<span id="as94" style="color:maroon">[AS94]</span>
+E. Allender and M. Strauss.
+Measure on small complexity classes with applications for BPP,
+<i>Proceedings of IEEE FOCS'94</i>, pp. 807-818, 1994.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1994/TR94-004/ TR94-004],
+DIMACS [http://dimacs.rutgers.edu/TechnicalReports/abstracts/1994/94-18.html TR 94-18].
+
+<span id="as98" style="color:maroon">[AS98]</span>
+S. Arora and M. Safra.
+Probabilistic checking of proofs: a new characterization of NP,
+<i>Journal of the ACM</i> 45(1):70-122, 1998.
+[http://www.cs.princeton.edu/~arora/pubs/as.ps http://www.cs.princeton.edu/~arora/pubs/as.ps].
+
+<span id="asv00" style="color:maroon">[ASV00]</span>
+A. Ambainis, L. Schulman, and U. Vazirani.
+Quantum computing with highly mixed states,
+<i>Proceedings of ACM STOC'2000</i>, pp. 705-714, 2000.
+arXiv:[http://arxiv.org/abs/quant-ph/0003136 quant-ph/0003136].
+
+<span id="atw00" style="color:maroon">[ATW+00]</span>
+R. Armoni, A. Ta-Shma, A. Wigderson, and S. Zhou.
+An O(log(n)<sup>4/3</sup>) algorithm for (s,t) connectivity in undirected graphs,
+<i>Journal of the ACM</i> 47(2):294-311, 2000.
+[http://whiteboard.cs.tau.ac.il/~amnon/Papers/ATWZ.jacm00.pdf http://whiteboard.cs.tau.ac.il/~amnon/Papers/ATWZ.jacm00.pdf]
+
+{{Reference
+    |tag=AV04
+    |title=Abelian permutation group problems and logspace counting classes
+    |authors=V. Arvind and T. C. Vijayaraghavan
+    |journal=Proceedings of the 19th IEEE Conference on Computational Complexity
+    |srcdetails=204-214, 2004
+}}
+
+<span id="aw90" style="color:maroon">[AW90]</span>
+E. Allender and K. W. Wagner.
+Counting hierarchies: polynomial time and constant depth circuits,
+<i>Bulletin of the EATCS</i> 40, February 1990.
+[http://people.cs.uchicago.edu/~fortnow/beatcs/column40.ps http://people.cs.uchicago.edu/~fortnow/beatcs/column40.ps].
+
+===== B =====
+
+<span id="babai85" style="color:maroon">[Bab85]</span>
+L. Babai.
+Trading Group Theory for Randomness.
+In <i>17th STOC</i>, pages 421--429, 1985.
+
+<span id="bab87" style="color:maroon">[Bab87]</span>
+L. Babai.
+Random oracles separate PSPACE from the polynomial-time hierarchy.
+Information Processing Letters, 26 (1987) 51-53.
+
+<span id="bar02" style="color:maroon">[Bar02]</span>
+B. Barak.
+A probabilistic-time hierarchy theorem for "slightly non-uniform" algorithms,
+<i>Proceedings of RANDOM'2002</i>, 2002.
+[http://www.math.weizmann.ac.il/~/boaz/Papers/bptime.ps http://www.math.weizmann.ac.il/~/boaz/Papers/bptime.ps]
+
+<span id="bar89" style="color:maroon">[Bar89]</span>
+D. A. M. Barrington.
+Bounded-width polynomial-size branching programs can recognize exactly those languages in NC<sub>1</sub>,
+<i>Journal of Computer and System Sciences</i> 38:150-164, 1989.
+
+<span id="baz95" style="color:maroon">[Baz95]</span>
+C. Bazgan.
+Approximation de probl&egrave;mes d'optimisation et de fonctions totales de NP,
+PhD thesis, INRIA, Orsay, France, 1998.
+[http://l1.lamsade.dauphine.fr/~bazgan/Papers/these.ps http://l1.lamsade.dauphine.fr/~bazgan/Papers/these.ps]
+
+<span id="bb92" style="color:maroon">[BB92]</span>
+A. Berthiaume and G. Brassard.
+The quantum challenge to structural complexity theory.
+Proceedings of Structure in Complexity Theory, 1992, 132--137.
+
+<span id="bbb97" style="color:maroon">[BBB+97]</span>
+C. H. Bennett, E. Bernstein, G. Brassard, and U. Vazirani.
+Strengths and weaknesses of quantum computing,
+<i>SIAM Journal on Computing</i>, 26(5):1510-1523, 1997.
+arXiv:[http://arxiv.org/abs/quant-ph/9701001 quant-ph/9701001].
+
+<span id="bbf98" style="color:maroon">[BBF98]</span>
+R. Beigel, H. Buhrman, and L. Fortnow.
+NP might not be as easy as detecting unique solutions,
+<i>Proceedings of ACM STOC'98</i>, pp. 203-208, 1998.
+[http://people.cs.uchicago.edu/~fortnow/papers/newiso.ps http://people.cs.uchicago.edu/~fortnow/papers/newiso.ps].
+
+<span id="bbr94" style="color:maroon">[BBR94]</span>
+D. A. M. Barrington, R. Beigel, and S. Rudich.
+Representing Boolean functions as polynomials modulo composite integers,
+<i>Computational Complexity</i>, 4:367-382, 1994.
+[http://www.cis.temple.edu/~beigel/papers/bbr-mods-cc.html http://www.cis.temple.edu/~beigel/papers/bbr-mods-cc.html].
+
+<span id="bbs86" style="color:maroon">[BBS86]</span>
+J. Balc&aacute;zar, R. Book, and U. Sch&ouml;ning.
+Sparse sets, lowness, and highness,
+<i>SIAM Journal on Computing</i> 15:739-747, 1986.
+
+<span id="bce95" style="color:maroon">[BCE+95]</span>
+P. Beame, S. Cook, J. Edmonds, R. Impagliazzo, and T. Pitassi.
+The relative complexity of NP search problems,
+<i>Proceedings of ACM STOC'95</i>, pp. 303-314, 1995.
+[http://www.cs.washington.edu/homes/beame/search.ps http://www.cs.washington.edu/homes/beame/search.ps]
+
+<span id="bch86" style="color:maroon">[BCH86]</span>
+P. Beame, S. Cook, and J. Hoover.
+Log depth circuits for division and related problems,
+<i>SIAM Journal on Computing</i> 15:994-1003, 1986
+[http://www.cs.washington.edu/homes/beame/papers/division.ps http://www.cs.washington.edu/homes/beame/papers/division.ps].
+
+<span id="bcg92" style="color:maroon">[BCG+92]</span>
+S. Ben-David, B. Chor, O. Goldreich, and M. Luby.
+On the theory of average case complexity,
+<i>Journal of Computer and System Sciences</i> 44(2):193-219, 1992.
+[http://www.cs.technion.ac.il/~shai/aver.pdf http://www.cs.technion.ac.il/~shai/aver.pdf]
+
+<span id="bcs97" style="color:maroon">[BCS+97]</span>
+L. Blum, F. Cucker, M. Shub, and S. Smale.
+<i>Complexity and Real Computation</i>,
+Springer-Verlag, 1997.
+
+<span id="bcd89" style="color:maroon">[BCD+89]</span>
+A. Borodin, S. A. Cook, P. W. Dymond, W. L. Ruzzo, and M. L. Tompa.
+Two applications of inductive counting for complementation problems,
+<i>SIAM Journal on Computing</i> 18:559-578, 1989.
+
+<span id="bcp83" style="color:maroon">[BCP83]</span>
+A. Borodin, S. A. Cook, and N. Pippenger.
+Parallel computations for well-endowed rings and space-bounded probabilistic machines,
+<i>Information and Control</i> 58:113-136, 1983.
+
+<span id="bd99" style="color:maroon">[BD99]</span>
+H. Buhrman and W. van Dam.
+Bounded quantum query complexity,
+<i>Proceedings of IEEE Complexity'99</i>, pp. 149-156, 1999.
+arXiv:[http://arxiv.org/abs/quant-ph/9903035 quant-ph/9903035].
+
+<span id="bdg88" style="color:maroon">[BDG88]</span>
+J. L. Balc&aacute;zar, J. D&iacute;az, and J. Gabarr&oacute;
+Structural complexity 1
+
+<span id="bdh92" style="color:maroon">[BDH+92]</span>
+G. Buntrock, C. Damm, U. Hertrampf, and Ch. Meinel.
+Structure and importance of logspace-MOD-classes,
+<i>Mathematical Systems Theory</i> 25:223-237, 1992.
+[http://www.num.math.uni-goettingen.de/damm/papers/BDHM92.ps.gz http://www.num.math.uni-goettingen.de/damm/papers/BDHM92.ps.gz].
+
+<span id="bei89" style="color:maroon">[Bei89]</span>
+R. Beigel.
+On the relativized power of additional accepting paths,
+<i>Proceedings of IEEE Complexity'89</i>, pp. 216-224, 1989.
+[http://www.cis.temple.edu/~beigel/papers/ukp-structures.PS.gz http://www.cis.temple.edu/~beigel/papers/ukp-structures.PS.gz].
+
+<span id="bei94" style="color:maroon">[Bei94]</span>
+R. Beigel.
+Perceptrons, PP, and the polynomial hierarchy,
+<i>Computational Complexity</i> 4:339-349, 1994.
+[http://www.cis.temple.edu/~beigel/papers/delta2p-cc.PS.gz http://www.cis.temple.edu/~beigel/papers/delta2p-cc.PS.gz].
+
+<span id="ber80" style="color:maroon">[Ber80]</span>
+L. Berman.
+The complexity of logical theories,
+<i>Theoretical Computer Science</i> 11:71-78, 1980.
+
+<span id="bf92" style="color:maroon">[BF92]</span>
+R. Beigel and J. Feigenbaum.
+On Being Incoherent Without Being Very Hard.
+Comput. Complexity 2 (1992), no. 1, 1--17
+[http://www.cis.temple.edu/~beigel/papers/bf-coherent-cc.html http://www.cis.temple.edu/~beigel/papers/bf-coherent-cc.html]
+
+<span id="bf99" style="color:maroon">[BF99]</span>
+H. Buhrman and L. Fortnow.
+One-sided versus two-sided randomness,
+<i>Proceedings of the 16th Symposium on Theoretical Aspects of Computer Science (STACS)</i>, pp. 100-109, 1999.
+[http://people.cs.uchicago.edu/~fortnow/papers/rpvsbpp.ps http://people.cs.uchicago.edu/~fortnow/papers/rpvsbpp.ps].
+
+{{Reference
+    |tag=BF03
+    |authors=R. Beigel
+    |title=Are Cook and Karp ever the same?
+    |journal=Proceedings of the 18th Annual IEEE Conference on Computational Complexity
+    |srcdetail=333-336
+}}
+
+<span id="bfl91" style="color:maroon">[BFL91]</span>
+L. Babai, L. Fortnow, and C. Lund.
+Nondeterministic exponential time has two-prover interactive protocols,
+<i>Computational Complexity</i> 1:3-40, 1991.
+[http://people.cs.uchicago.edu/~fortnow/papers/mip2.ps http://people.cs.uchicago.edu/~fortnow/papers/mip2.ps].
+
+<span id="bfm88" style="color:maroon">[BFM88]</span>
+M. Blum, P. Feldman, and S. Micali. 
+Non-interactive zero-knowledge proofs and their applications,
+<i>Proceedings of the 20th STOC, ACM</i>, 1988.
+
+<span id="bfs86" style="color:maroon">[BFS86]</span>
+L. Babai, P. Frankl, and J. Simon.
+Complexity classes in communication complexity theory,
+<i>Proceedings of IEEE FOCS'86</i>, pp. 337-347, 1986.
+
+<span id="bft98" style="color:maroon">[BFT98]</span>
+H. Buhrman, L. Fortnow, and T. Thierauf.
+Nonrelativizing separations,
+<i>Proceedings of IEEE Complexity'98</i>, pp. 8-12, 1998.
+[http://people.cs.uchicago.edu/~fortnow/papers/nonrel.ps http://people.cs.uchicago.edu/~fortnow/papers/nonrel.ps].
+
+<span id="bgs75" style="color:maroon">[BGS75]</span>
+T. Baker, J. Gill, and R. Solovay.
+Relativizations of the P=?NP question,
+<i>SIAM Journal on Computing</i> 4:431-442, 1975.
+
+<span id="bh77" style="color:maroon">[BH77]</span>
+L. Berman and J. Hartmanis.
+On isomorphism and density of NP and other complete sets,
+<i>SIAM Journal on Computing</i> 6:305-322, 1977.
+
+<span id="bg03" style="color:maroon">[BG03]</span>
+M. Ben-Or and D. Gutfreund.
+Trading help for interaction in statistical zero-knowledge proofs,
+<i>J. Cryptology</i> 16 (2003), no. 2, 95--116.
+[http://www.cs.huji.ac.il/~danig/pubs/help_interaction.ps http://www.cs.huji.ac.il/~danig/pubs/help_interaction.ps]
+
+<span id="bg69" style="color:maroon">[BG69]</span>
+R. Book and S. Greibach.
+Quasi-realtime languages,
+<i>Proceedings of ACM STOC</i> pp. 15-18, 1969.
+http://portal.acm.org/citation.cfm?id=800169.805416
+
+<span id="bg81" style="color:maroon">[BG81]</span>
+C. H. Bennett and J. Gill.
+Relative to a random oracle A, P<sup>A</sup> != NP<sup>A</sup> != coNP<sup>A</sup> with probability 1,
+<i>SIAM Journal on Computing</i>, 10(1):96-113, 1981.
+DOI:[http://dx.doi.org/10.1137/0210008 10.1137/0210008]
+
+<span id="bg92" style="color:maroon">[BG92]</span>
+R. Beigel and J. Gill.
+Counting classes: thresholds, parity, mods, and fewness,
+<i>Theoretical Computer Science</i> 103(1):3-23, 1992.
+[http://www.cis.temple.edu/~beigel/papers/bg-mods-tcs.PS.gz http://www.cis.temple.edu/~beigel/papers/bg-mods-tcs.PS.gz].
+
+<span id="bg98" style="color:maroon">[BG98]</span>
+R. Beigel and J. Goldsmith.
+Downward separation fails catastrophically for limited nondeterminism classes,
+<i>SIAM Journal on Computing</i> 17(5):1420-1429, 1998.
+[http://www.cis.temple.edu/~beigel/papers/bg-beta-draft.PS.gz http://www.cis.temple.edu/~beigel/papers/bg-beta-draft.PS.gz].
+
+<span id="bg94" style="color:maroon">[BG94]</span>
+M. Bellare and S. Goldwasser.
+The complexity of decision versus search,
+<i>SIAM Journal on Computing</i> 23(1):91-119, 1994.
+[http://www.cs.ucsd.edu/users/mihir/papers/compip.pdf http://www.cs.ucsd.edu/users/mihir/papers/compip.pdf]
+
+<span id="bgg90" style="color:maroon">[BGG+90]</span>
+M. Ben-Or, O. Goldreich, S. Goldwasser, J. H&aring;stad, J. Kilian, S. Micali, and P. Rogaway.
+Everything provable is provable in zero-knowledge,
+<i>Advances in Cryptology: CRYPTO'88</i> (S. Goldwasser, ed.), Lecture Notes in Computer Science 403, Springer-Verlag, pp. 37-56, 1990.
+
+<span id="bgk88" style="color:maroon">[BGK+88]</span>
+M. Ben-Or, S. Goldwasser, J. Kilian, and A. Wigderson.
+Multi-prover interactive proofs: how to remove intractability,
+<i>Proceedings of ACM STOC'88</i>, pp. 113-131, 1988.
+
+<span id="bg82" style="color:maroon">[BG82]</span>
+A. Blass and Y. Gurevich.
+On the unique satisfiability problem,
+<i>Information and Control</i> 55(1-3):80-88, 1982.
+
+<span id="bgm02" style="color:maroon">[BGM02]</span>
+E. B&ouml;hler, C. Gla&szlig;er, and D. Meister.
+Error-bounded probabilistic computations between MA and AM,
+Mathematical foundations of computer science 2003, 249--258.
+[http://haegar.informatik.uni-wuerzburg.de/users/glasser/publications/sbp-ma-am-tr.pdf http://haegar.informatik.uni-wuerzburg.de/users/glasser/publications/sbp-ma-am-tr.pdf]
+
+<span id="bgr93" style="color:maroon">[BGR93]</span> 
+Burchard von Braunmühl, Romain Gengler, Robert Rettinger.
+The alternation hierarchy for sublogarithmic space is infinite,
+Computational Complexity, v.3 n.3, p.207-230, July 1993 
+[doi>10.1007/BF01271368]
+[http://portal.acm.org/citation.cfm?id=218886]
+
+<span id="bh91" style="color:maroon">[BH91]</span>
+S. R. Buss and L. Hay.
+On truth-table reducibility to SAT,
+<i>Information and Computation</i> 91(1):86-102, 1991.
+
+<span id="bh97" style="color:maroon">[BH97]</span>
+C. Berg and J. H&aring;stad.
+On the BPP hierarchy problem,
+Technical Report TRITA-NA-9702, Royal Institute of Technology, Sweden, 1997.
+[ftp://ftp.nada.kth.se/pub/documents/Theory/Christer-Berg/bpp.ps ftp://ftp.nada.kth.se/pub/documents/Theory/Christer-Berg/bpp.ps].
+
+{{Reference
+    |tag=BH08
+    |title=NP-Hard sets are exponentially eense unless NP is contained in coNP/poly
+    |journal=Electronic Colloquium on Computational Complexity
+    |authors=H. Buhrman and J. Hitchcock 
+    |srcdetail=ECCC Report TR08-022, accepted on Mar 11, 2008
+    |link=[http://eccc.hpi-web.de/eccc-reports/2008/TR08-022/index.html http://eccc.hpi-web.de/eccc-reports/2008/TR08-022/index.html]
+}}
+
+<span id="bhr00" style="color:maroon">[BHR00]</span>
+B. Borchert, L. Hemaspaandra, and J. Rothe.
+Restrictive Acceptance Suffices for Equivalence Problems.
+LMS J. Comput. Math. 3 (2000), 86--95
+arXiv:[http://arxiv.org/cs.CC/9907041 cs.CC/9907041].
+
+<span id="bhw89" style="color:maroon">[BHW89]</span>
+R. Beigel, L. Hemachandra, and G. Wechsung.
+On the power of probabilistic polynomial time,
+<i>Proceedings of IEEE Complexity'89</i>, pp. 225-230, 1989.
+
+<span id="bhz87" style="color:maroon">[BHZ87]</span>
+R. B. Boppana, J. H&aring;stad, and S. Zachos.
+Does co-NP have short interactive proofs?,
+<i>Information Processing Letters</i> 25:127-132, 1987.
+
+<span id="bk89" style="color:maroon">[BK89]</span>
+M. Blum and S. Kannan.
+Designing programs that check their work,
+<i>Proceedings of ACM STOC'89</i>, 1989.
+
+<span id="bkl00" style="color:maroon">[BKL+00]</span>
+D. A. M. Barrington, P. Kadau, K.-J. Lange, and P. McKenzie.
+On the complexity of some problems on groups input as multiplication tables,
+[http://www-fs.informatik.uni-tuebingen.de/~lange/Arbeiten/fologlog/bklm/neu.ps.gz http://www-fs.informatik.uni-tuebingen.de/~lange/Arbeiten/fologlog/bklm/neu.ps.gz]
+<i>Proceedings of IEEE Complexity'2000</i>, 2000.
+
+<span id="bks95" style="color:maroon">[BKS95]</span>
+R. Beigel, M. Kummer, and F. Stephan.
+Approximable sets,
+<i>Information and Computation</i> 120(2):304-314, 1995.
+[http://www.cis.temple.edu/~beigel/papers/bks-queries2-ic.PS.gz http://www.cis.temple.edu/~beigel/papers/bks-queries2-ic.PS.gz].
+
+<span id="blm98" style="color:maroon">[BLM+98]</span>
+D. A. M. Barrington, C.-J. Lu, P. B. Miltersen, and S. Skyum.
+Searching constant width mazes captures the AC<sup>0</sup> hierarchy,
+<i>Proceedings of the 1998 Symposium of Theoretical Aspects of Computer Science (STACS'98)</i>, 1998.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1997/TR97-044/ TR97-044].
+
+<span id="blm99" style="color:maroon">[BLM+99]</span>
+D. A. M. Barrington, C.-J. Lu, P. B. Miltersen, and S. Skyum.
+On monotone planar circuits,
+<i>Proceedings of IEEE Complexity'99</i>, 1999.
+[http://www.brics.dk/~bromille/Papers/mpc.ps http://www.brics.dk/~bromille/Papers/mpc.ps]
+
+<span id="bls84" style="color:maroon">[BLS84]</span>
+R. Book, T. Long, and A. Selman.
+Quantitative relativizations of complexity classes,
+<i>SIAM Journal on Computing</i> 13(3):461-487, 1984.
+
+<span id="blu67" style="color:maroon">[Blu67]</span>
+M. Blum. A Machine-Independent Theory of the Complexity of Recursive Functions. <i>J. ACM</i> 14: 322-336, 1967. 
+
+<span id="bm04" style="color:maroon">[BM04]</span>
+J. Buresh-Oppenheim and T. Morioka.
+Relativized NP search problems and propositional proof systems,
+<i>Proceedings of IEEE Complexity 2004</i>, pp. 54-67, 2004.
+ECCC [http://eccc.uni-trier.de/eccc-reports/2003/TR03-084/ TR03-084].
+
+<span id="bm88" style="color:maroon">[BM88]</span>
+L. Babai and S. Moran.
+Arthur-Merlin games: a randomized proof system, and a hierarchy of complexity classes,
+<i>Journal of Computer and Systems Sciences</i> 36:254-276, 1988.
+
+<span id="boo72" style="color:maroon">[Boo72]</span>
+R. Book.
+On languages accepted in polynomial time,
+<i>SIAM Journal on Computing</i> 1(4):281-287, 1972.
+
+<span id="boo74" style="color:maroon">[Boo74]</span>
+R. Book.
+Comparing complexity classes,
+<i>Journal of Computer and System Sciences</i> 3(9):213-229, 1974.
+
+<span id="boo94" style="color:maroon">[Boo94]</span>
+R. Book.
+On collapsing the polynomial-time hierarchy,
+<i>Information Processing Letters</i> 52(5):235-237, 1994.
+
+<span id="bor77" style="color:maroon">[Bor77]</span>
+A. Borodin.
+On relating time and space to size and depth,
+<i>SIAM Journal on Computing</i> 6:733-744, 1977.
+
+<span id="bra77" style="color:maroon">[Bra77]</span>
+F.-J. Brandenburg.
+On one-way auxiliary pushdown automata,
+<i>Proceedings of the Third GI-Conference on Theoretical Computer Science</i>, Springer LNCS vol. 48, pp. 132-144, 1977.
+
+<span id="bra79" style="color:maroon">[Bra79]</span>
+G. Brassard.
+A note on the complexity of cryptography
+<i>IEEE Transactions on Information Theory</i>, 25(2):232-233, 1979.
+
+<span id="bra06" style="color:maroon">[Bra06]</span>
+S. Bravyi.
+Efficient algorithm for a quantum analogue of 2-SAT,
+arXiv:[http://arxiv.org/abs/quant-ph/0602108v1 quant-ph/0602108v1], 2006.
+
+<span id="brs91" style="color:maroon">[BRS91]</span>
+R. Beigel, N. Reingold, and D. A. Spielman.
+PP is closed under intersection,
+<i>Proceedings of ACM STOC'91</i>, pp. 1-9, 1991.
+[http://www.cis.temple.edu/~beigel/papers/brs-pp-jcss.PS.gz http://www.cis.temple.edu/~beigel/papers/brs-pp-jcss.PS.gz].
+
+<span id="bru90" style="color:maroon">[Bru90]</span>
+J. Bruck.
+Harmonic analysis of polynomial threshold functions,
+SIAM J. Discrete Math., 3 (1990) 168-177.
+
+<span id="bs00" style="color:maroon">[BS00]</span>
+B. Borchert and F. Stephan.
+Looking for an Analogue of Rice's Theorem in Circuit Complexity Theory.
+MLQ Math. Log. Q. 46 (2000), no. 4, 489--504
+[http://math.uni-heidelberg.de/logic/bb/papers/Rice.ps http://math.uni-heidelberg.de/logic/bb/papers/Rice.ps]
+
+<span id="bs90" style="color:maroon">[BS90]</span>
+J. Bruck and R. Smolensky.
+Polynomial threshold functions, AC<sup>0</sup> functions and spectral norms,
+<i>Proceedings of IEEE FOCS'90</i>, pp. 632-641, 1990.
+
+<span id="bs90b" style="color:maroon">[BS90b]</span>
+R. B. Boppana and M. Sipser. The complexity of finite functions. 
+chapter in <i>Handbook of Theoretical Computer Science</i>, Volume A (J. van Leeuwen, editor), Elsevier, 1990.
+
+<span id="bsf02" style="color:maroon">[BSF02]</span>
+A. Ben-Hur, H. T. Siegelmann, and S. Fishman.
+A theory of complexity for continuous time systems,
+<i>Journal of Complexity</i> 18(1):51-86, 2002.
+[http://cmgm.stanford.edu/~asab/Papers/dds2.ps.gz http://cmgm.stanford.edu/~asab/Papers/dds2.ps.gz]
+
+<span id="bt04" style="color:maroon">[BT04]</span>
+H. Buhrman and L. Torenvliet.
+Separating complexity classes using structural properties,
+<i>Proceedings of IEEE Complexity 2004</i>, pp. 130-138, 2004.
+[http://staff.science.uva.nl/~leen/PAPERS/superrobustsets.pdf http://staff.science.uva.nl/~leen/PAPERS/superrobustsets.pdf]
+
+{{Reference
+    |tag=BT06
+    |authors=A. Bogdanov and L. Trevisan
+    |title=Average-Case Complexity
+    |journal=ECCC Report TR06-073
+    |srcdetail=Revision 01, accepted on Fri Sep 29 22:13:11 2006
+}}
+
+<span id="bt88" style="color:maroon">[BT88]</span>
+D. A. M. Barrington and D. Th&eacute;rien.
+Finite monoids and the fine structure of NC<sup>1</sup>,
+<i>Journal of the ACM</i> 35(4):941-952, 1988.
+
+<span id="bur00" style="color:maroon">[Bur00]</span>
+P. B&uuml;rgisser.
+<i>Completeness and Reduction in Algebraic Complexity Theory</i>,
+Springer Series in Algorithms and Computation in Mathematics, Volume 7, 2000.
+
+{{Reference
+ |tag=Buss93
+ |authors = Buss, Samuel R.
+ |title = Algorithms for Boolean formula evaluation and for tree-contraction
+ |journal=Proof Theory, Complexity, and Arithmetic, P. Clote and J. Krajicek (eds) 
+ |srcdetail=Oxford University Press, 1993, pp. 95-115
+ |link=http://math.ucsd.edu/~sbuss/ResearchWeb/Boolean3/index.html
+}}
+
+<span id="bv97" style="color:maroon">[BV97]</span>
+E. Bernstein and U. Vazirani.
+Quantum complexity theory,
+<i>SIAM Journal on Computing</i>, 26(5):1411-1473, 1997.
+[http://www.cs.berkeley.edu/~vazirani/bv.ps http://www.cs.berkeley.edu/~vazirani/bv.ps]
+
+<span id="bvw98" style="color:maroon">[BVW98]</span>
+R. Book, H. Vollmer, and K. W. Wagner.
+Probabilistic type-2 operators and "almost"-classes,
+<i>Computational Complexity</i> 7(3):265-289, 1998.
+
+<span id="bvw07" style="color:maroon">[BVW07]</span>
+H. Burhman, N. Vereshchajin, R. de Wolf.
+On computation and communication with small bias.
+<i>Proceedings of IEEE Conference on Computational Complexity 2007</i> 24-32, 2007.
+
+<span id="bw03" style="color:maroon">[BW03]</span>
+H. Buhrman and R. de Wolf.
+Quantum Zero-Error Algorithms Cannot be Composed,
+Information Processing Letters, 87(2):79-84, 2003.
+arXiv:[http://arxiv.org/abs/quant-ph/0211029 quant-ph/0211029].
+
+===== C =====
+
+<span id="cai01" style="color:maroon">[Cai01]</span>
+J.-Y. Cai.
+S<sub>2</sub>P is contained in ZPP<sup>NP</sup>,
+<i>Proceedings of IEEE FOCS'2001</i>, pp. 620-629, 2001.
+
+<span id="cai86" style="color:maroon">[Cai86]</span>
+J.-Y. Cai.
+With probability one, a random oracle separates PSPACE from the polynomial hierarchy,
+<i>Proceedings of ACM STOC'86</i>, pp. 21-29, 1986.
+
+<span id="cai87" style="color:maroon">[Cai87]</span>
+J. Cai.
+Probability one separation of the Boolean hieararchy,
+Lecture Notes in Computer Science, vol 247, p148-158, 1987.
+
+<span id="can96" style="color:maroon">[Can96]</span>
+R. Canetti.
+More on BPP and the polynomial-time hierarchy,
+<i>Information Processing Letters</i> 57:237-241, 1996.
+
+<span id="cc93" style="color:maroon">[CC93]</span>
+L. Cai and J. Chen.
+On fixed-parameter tractability and approximability of NP-hard optimization problems,
+<i>Proceedings of ISTCS'93 - Israel Symposium on Theory of Computing and Systems</i>, pp. 118-126, 1993.
+
+<span id="cc97" style="color:maroon">[CC97]</span>
+L. Cai and J. Chen.
+On fixed-parameter tractability and approximability of NP optimization problems,
+<i>Journal of Computer and System Sciences</i> 54(3):465-474, 1997.
+
+<span id="ccd03" style="color:maroon">[CCD+03]</span>
+A. M. Childs, R. Cleve, E. Deotto, E. Farhi, S. Gutmann, and D. A. Spielman.
+Exponential algorithmic speedup by quantum walk,
+<i>Proceedings of ACM Symposium on Theory of Computing</i>, pp. 59-68, 2003.
+arXiv:[http://arxiv.org/abs/quant-ph/0209131 quant-ph/0209131].
+
+<span id="ccg94" style="color:maroon">[CCG+94]</span>
+R. Chang, B. Chor, O. Goldreich, J. Hartmanis, J. H&aring;stad, D. Ranjan, and P. Rohatgi.
+The random oracle hypothesis is false,
+<i>Journal of Computer and System Sciences</i> 49(1):24-39, 1994.
+
+<span id="cch01" style="color:maroon">[CCH+01]</span>
+J.-Y. Cai, V. Chakaravarthy, L. Hemaspaandra, and M. Ogihara.
+Some Karp-Lipton-type theorems based on S<sub>2</sub>,
+University of Rochester Computer Science Technical Report TR-759, November 2001.
+
+<span id="cd05" style="color:maroon">[CD05]</span>
+X. Chen and X. Deng
+3-NASH is PPAD-Complete, online: [http://eccc.uni-trier.de/eccc-reports/2005/TR05-134/Paper.pdf http://eccc.uni-trier.de/eccc-reports/2005/TR05-134/Paper.pdf], nov. 2005.
+
+<span id="cdl01" style="color:maroon">[CDL01]</span>
+A. Chiu, G. Davida, and B. Litow.
+Division in logspace-uniform NC<sub>1</sub>,
+<i>Theoretical Informatics and Applications</i> 35(3):259, 2001.
+
+<span id="cf91" style="color:maroon">[CF91]</span>
+J.-Y. Cai and M. Furst.
+PSPACE survives constant-width bottlenecks,
+<i>International Journal of Foundations of Computer Science</i> 2(1):67-76, 1991.
+
+{{Reference
+    |id=cf07 |tag=CP07
+    |title=On parameterized path and chordless path problems
+    |authors=Y. Chen and J. Flum
+    |journal=Proceedings of the IEEE Conference on Computational Complexity 2007
+    |srcdetail=250-263
+}}
+
+{{Reference
+    |tag=CFL83
+    |title=Unbounded fan-in circuits and associative functions
+    |authors=A. Chandra, S. Fortune, R. Lipton
+    |journal=Proceedings of the fifteenth annual ACM symposium on Theory of computing
+    |srcdetail=52-60, 1983
+}}
+
+<span id="cfl93" style="color:maroon">[CFL+93]</span>
+A. Condon, J. Feigenbaum, C. Lund, and P. Shor.
+Probabilistically checkable debate systems and approximation algorithms for PSPACE-hard functions (extended abstract),
+<i>Proceedings of ACM STOC'93</i>, pp. 305-314, 1993.
+
+<span id="cgh88" style="color:maroon">[CGH+88]</span>
+J.-Y. Cai, T. Gundermann, J. Hartmanis, L. Hemachandra, V. Sewelson, K. Wagner, and G. Wechsung.
+The Boolean hierarchy I: structural properties,
+<i>SIAM Journal on Computing</i> 17:1232-1252, 1988.
+Part II: applications in 18:95-111, 1989.
+
+<span id="cgr04" style="color:maroon">[CGR+04]</span>
+M. Crasmaru, C. Gla&szlig;er, K. W. Regan, and S. Sengupta.
+A protocol for serializing unique strategies,
+submitted, 2004.
+[http://www.cse.buffalo.edu/faculty/regan/papers/ps/CGRS03.ps http://www.cse.buffalo.edu/faculty/regan/papers/ps/CGRS03.ps].
+
+<span id="ch89" style="color:maroon">[CH89]</span>
+J.-Y. Cai and L. A. Hemachandra.
+On the power of parity polynomial time,
+<i>Proceedings of the Symposium on Theoretical Aspects of Computer Science (STACS)</i>, Lecture Notes in Computer Science 349, pp. 229-240, Springer, 1989.
+
+<span id="cht04" style="color:maroon">[CHT+04]</span>
+R. Cleve, P. H&oslash;yer, B. Toner, and J. Watrous.
+Consequences and limits of nonlocal strategies,
+<i>Proceedings of IEEE Complexity</i>, pp. 236-249, 2004.
+arXiv:[http://arxiv.org/abs/quant-ph/0404076 quant-ph/0404076].
+
+<span id="chu41" style="color:maroon">[Chu41]</span>
+A. Church.
+The calculi of lambda-conversion,
+<i>Annals of Mathematical Studies</i> 6, Princeton Univ. Press, 1941.
+
+{{Reference
+    |tag=CIK+03
+    |title=The complexity of Unique <math>k</math>-SAT: An isolation lemma for <math>k</math>-CNFs.
+    |authors=C. Calabro, R. Impagliazzo, V. Kabanets, et al
+    |journal=Proceedings of the IEEE Conference on Computational Complexity 2003
+    |srcdetail=135-141
+}}
+
+<span id="ckk95" style="color:maroon">[CKK+95]</span>
+F. Cucker, M. Karpinski, P. Koiran, T. Lickteig, and K. Werther.
+On real Turing machines that toss coins,
+<i>Proceedings of ACM STOC'95</i>, pp. 335-342, 1995.
+
+<span id="cks81" style="color:maroon">[CKS81]</span>
+A. K. Chandra, D. C. Kozen, and L. J. Stockmeyer.
+Alternation,
+<i>Journal of the ACM</i> 28:114-133, 1981.
+
+<span id="cks99" style="color:maroon">[CKS+99]</span>
+P. Crescenzi, V. Kann, R. Silvestri, and L. Trevisan.
+Structure in approximation classes,
+<i>SIAM Journal on Computing</i> 28:1759-1782, 1999.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1996/TR96-066/ TR96-066].
+
+<span id="cksu05" style="color:maroon">[CKSU05]</span>
+H. Cohn, R. Kleinberg, B. Szegedy, and C. Umans. Group-theoretic Algorithms for Matrix Multiplication. <i>Proceedings of the 46th Annual IEEE Symposium on Foundations of Computer Science (FOCS)</i> 379-388, 2005.
+
+<span id="cm01" style="color:maroon">[CM01]</span>
+M. Cryan and P. B. Miltersen.
+On pseudorandom generators in NC<sup>0</sup>,
+<i>Proceedings of the 26th International Symposium on Mathematical Foundations of Computer Science (MFCS)</i>, pp. 272-284, 2001.
+
+{{Reference
+    |tag=CMTV98
+    |title=Nondeterministic NC1 computation
+    |authors=Caussinus, Herv&eacute; and McKenzie, Pierre and Th&eacute;rien, Denis and Vollmer, Heribert
+    |journal=J. Comput. Syst. Sci.
+    |srcdetail=200-212, 1998
+}}
+
+<span id="cmi00" style="color:maroon">[CMI00]</span>
+Clay Mathematics Institute.
+The P versus NP problem (a millennium prize problem), with official problem description by S. Cook,
+[http://www.claymath.org/prizeproblems/pvsnp.htm http://www.claymath.org/prizeproblems/pvsnp.htm], 2000.
+
+<span id="cns99" style="color:maroon">[CNS99]</span>
+J.-Y. Cai, A. P. Nerurkar, and D. Sivakumar.
+Hardness and hierarchy theorems for probabilistic quasi-polynomial time,
+<i>Proceedings of ACM STOC'99</i>, pp. 726-735, 1999.
+
+<span id="cob64" style="color:maroon">[Cob64]</span>
+A. Cobham.
+The intrinsic computational difficulty of functions,
+<i>Proceedings of the 1964 Congress on Logic, Mathematics and the Methodology of Science</i>, pp. 24-30, 1964.
+
+<span id="cob66" style="color:maroon">[Cob66]</span>
+A. Cobham.
+The recognition problem for the set of perfect squares,
+<i>Proceedings of the 7th Symposium on Switching and Automata Theory</i>, pp. 78-87, 1966.
+
+<span id="con73" style="color:maroon">[Con73]</span>
+R. Constable.
+Type 2 computational complexity,
+<i>Proceedings of ACM STOC'73</i>, pp. 108­-121, 1973.
+
+<span id="con92" style="color:maroon">[Con92]</span>
+A. Condon.
+The complexity of stochastic games,
+<i>Information and Computation</i> 96(2):203-224, 1992.
+
+<span id="coo71" style="color:maroon">[Coo71]</span>
+S. A. Cook.
+The complexity of theorem-proving procedures,
+<i>Proceedings of ACM STOC'71</i>, pp. 151-158, 1971.
+
+<span id="coo71b" style="color:maroon">[Coo71b]</span>
+S. A. Cook.
+Characterizations of pushdown machines in terms of time-bounded computers,
+<i>Journal of the ACM</i> 18(1):4-18, 1971.
+
+<span id="coo79" style="color:maroon">[Coo79]</span>
+S. A. Cook.
+Deterministic CFL's are accepted simultaneously in polynomial time and log squared space,
+<i>Proceedings of ACM STOC'79</i>, pp. 338-345, 1979.
+
+<span id="coo85" style="color:maroon">[Coo85]</span>
+S. A. Cook.
+A taxonomy of problems with fast parallel algorithms,
+<i>Information and Control</i> 64:2-22, 1985.
+
+<span id="cp95" style="color:maroon">[CP95]</span>
+P. Crescenzi and C. Papadimitriou.
+Reversible simulation of space-bounded computations,
+<i>Theoretical Computer Science</i> 143:159-165, 1995.
+
+{{Reference
+    |id=cp07 |tag=CP07
+    |title=Bounded queries and the NP Machine Hypothesis.
+    |authors=R. Chang and S. Purini
+    |journal=Proceedings of the IEEE Conference on Computational Complexity 2007
+    |srcdetail=52-59
+}}
+
+<span id="cr96" style="color:maroon">[CR96]</span>
+S. Chaudhuri and J. Radhakrishnan. 
+Deterministic Restrictions in Circuit Complexity, 
+<i>Proceedings of ACM STOC 1996</i>, pp. 30-36, 1996.
+
+<span id="cs92" style="color:maroon">[CS92]</span>
+J. Castro and C. Seara.
+Characterizations of some complexity classes between &#920;<sub>2</sub><sup>p</sup> and &#916;<sub>2</sub><sup>p</sup>,
+<i>Proceedings of STACS 1992</i>, pp. 305-317, 1992.
+
+<span id="ct94" style="color:maroon">[CT94]</span>
+P. Crescenzi and L. Trevisan.
+An approximation scheme preserving reducibility and its applications,
+<i>Proceedings of 14th Annual Conference on Foundations of Software Technology and Theoretical Computer Computer Science (FSTTCS)</i>, pp. 330-341, Lecture Notes in Computer Science 880, Springer-Verlag, 1994.
+
+<span id="ct97" style="color:maroon">[CT97]</span>
+M. Cesati and L. Trevisan.
+On the efficiency of polynomial time approximation schemes,
+ECCC [http://eccc.uni-trier.de/eccc-reports/1997/TR97-001/ TR97-001], 1997.
+
+<span id="ct07" style="color:maroon">[CT07]</span>
+Xi Chen and Shang-Hua Teng.
+Paths beyond local search: A nearly tight bound for randomized fixed-point computation.
+FOCS 2007.
+
+<span id="cw82" style="color:maroon">[CW82]</span> D. Coppersmith and S. Winograd. On the Asymptotic Complexity of Matrix Multiplication. <i>SIAM J. Comput.</i> 11(3): 472-492,1982.
+
+{{Reference
+    |tag=CW90
+    |title=Matrix multiplication via arithmetic progressions
+    |journal=Journal of Symbolic Computation
+    |srcdetail=9:251–280, 1990
+    |authors=D. Coppersmith and S. Winograd
+}}
+
+<span id="cw00" style="color:maroon">[CW00]</span>
+R. Cleve and J. Watrous.
+Fast parallel circuits for the quantum Fourier transform,
+<i>Proceedings of IEEE Focs'2000</i>, pp. 526-536, 2000.
+arXiv:[http://arxiv.org/abs/quant-ph/0006004 quant-ph/0006004].
+
+===== D =====
+
+<span id="dam90" style="color:maroon">[Dam90]</span>
+C. Damm.
+Problems complete for L,
+<i>Information Processing Letters</i> 36:247-250, 1990.
+
+<span id="dc89" style="color:maroon">[DC89]</span>
+P. W. Dymond and S. Cook.
+Complexity theory of parallel time and hardware,
+<i>Information and Computation</i> 80:205-226, 1989.
+
+<span id="ddp98" style="color:maroon">[DDP+98]</span>
+A. De Santis, G. Di Crescenzo, G. Persiano, and M. Yung.
+Image density is complete for non-interactive SZK,
+<i>Proceedings of the 25th International Colloquium on Automata, Languages, and Programming (ICALP)</i>, Lecture Notes in Computer Science, pp. 784-795, 1998.
+(Note: Some results in the paper were later retracted.)
+
+<span id="dek76" style="color:maroon">[Dek76]</span>
+M. I. Dekhtyar.
+On the relativization of deterministic and nondeterministic complexity classes,
+<i>Mathematical Foundations of Computer Science</i>, pp. 255-259, Springer LNCS 45, 1976.
+
+<span id="df97" style="color:maroon">[DF97]</span>
+R. G. Downey and M. R. Fellows.
+Threshold dominating sets and an improved characterization of W[2],
+<i>Theoretical Computer Science</i> 189, 1997.
+
+<span id="df99" style="color:maroon">[DF99]</span>
+R. G. Downey and M. R. Fellows.
+<i>Parameterized Complexity</i>,
+Springer-Verlag Monographs in Computer Science, 1999.
+
+<span id="dft96" style="color:maroon">[DFT96]</span>
+R. G. Downey, M. R. Fellows, and U. Taylor.
+On the parameteric complexity of relational database queries and a sharper characterization of W[1],
+<i>Combinatorics, Complexity, and Logic</i>, Proceedings of DMTCS'96, Springer-Verlag, pp. 194-213, 1996.
+
+<span id="dgp05" style="color:maroon">[DGP05]</span>
+C. Daskalakis, P. W. Goldberg, and C. H. Papadimitriou
+The Complexity of Computing a Nash Equilibrium, online: [http://www.cs.berkeley.edu/~christos/papers/ppad.ps ppad.ps], sep. 2005.
+
+<span id="dhi02" style="color:maroon">[DHI02]</span>
+W. van Dam, S. Hallgren, and L. Ip.
+Quantum algorithms for hidden shift problems,
+arXiv:[http://arxiv.org/abs/quant-ph/0211140 quant-ph/0211140], 2002.
+
+<span id="dp05" style="color:maroon">[DP05]</span>
+C. Daskalakis and C. H. Papadimitriou
+The Complexity of Computing a Nash Equilibrium, online: [http://www.cs.berkeley.edu/~christos/papers/3players.pdf 3players.pdf], nov. 2005.
+
+{{Reference-ECCC
+    |tag=DP08 |year=2008 |date=Feb 28 |eccc-num=TR08-014
+    |authors=M. David and T. Pitassi
+    |title=Separating NOF communication complexity classes RP and NP
+}}
+
+<span id="dw86" style="color:maroon">[DW86]</span>
+E. Dahlhaus and M. K. Warmuth.
+Membership for growing context-sensitive grammars is polynomial,
+<i>Journal of Computer and System Sciences</i> 33:456-472, 1986.
+
+===== E =====
+
+<span id="edm65" style="color:maroon">[Edm65]</span>
+J. Edmonds.
+Paths, trees, and flowers,
+<i>Canadian Journal of Mathematics</i> 17(3):449-467, 1965.
+
+<span id="ey07" style="color:maroon">[EY07]</span>
+K. Etessami and M. Yannakakis.
+On the Complexity of Nash Equilibria and Other Fixed Points.
+Unpublished.
+
+Paths, trees, and flowers,
+<i>Canadian Journal of Mathematics</i> 17(3):449-467, 1965.
+
+===== F =====
+
+<span id="fag73" style="color:maroon">[Fag73]</span>
+R. Fagin.
+Contributions to the Model Theory of Finite Strucutres,
+<i>Ph.D. Thesis (1973), U.C. Berkeley</i>
+
+<span id="fag74" style="color:maroon">[Fag74]</span>
+R. Fagin.
+Generalized first-order spectra and polynomial-time recognizable sets,
+<i>Complexity of Computation</i> (R. M. Karp, ed.), SIAM-AMS Proceedings Vol. 7, 1974.
+
+<span id="fen02" style="color:maroon">[Fen02]</span>
+S. Fenner.
+PP-lowness and a simple definition of AWPP,
+<i>Theory Comput. Syst.</i> 36 (2003), no. 2, 199--212.
+ECCC [http://eccc.uni-trier.de/eccc-reports/2002/TR02-036/ TR02-036].
+
+<span id="ff.." style="color:maroon">[FF..]</span>
+S. Fenner, L. Fortnow,
+Unpublished.
+
+<span id="ffk93" style="color:maroon">[FFK+93]</span>
+S. Fenner, L. Fortnow, S. Kurtz, and L. Li.
+An oracle builder's toolkit,
+<i>Proceedings of Structure in Complexity Theory</i>, pages 120-131, 1993.
+[http://people.cs.uchicago.edu/~fortnow/papers/obt.ps http://people.cs.uchicago.edu/~fortnow/papers/obt.ps].
+
+<span id="ffk94" style="color:maroon">[FFK94]</span>
+S. Fenner, L. Fortnow, and S. Kurtz.
+Gap-definable counting classes,
+<i>Journal of Computer and System Sciences</i> 48(1):116-148, 1994.
+[http://people.cs.uchicago.edu/~fortnow/papers/gaps.ps http://people.cs.uchicago.edu/~fortnow/papers/gaps.ps].
+
+<span id="fg02" style="color:maroon">[FG02]</span>
+J. Flum and M. Grohe.
+The parameterized complexity of counting problems,
+<i>Proceedings of IEEE FOCS'2002</i>, 2002.
+
+<span id="fgh98" style="color:maroon">[FGH+98]</span>
+S. Fenner, F. Green, S. Homer, and R. Pruim.
+Quantum NP is hard for PH,
+<i>Proceedings of the Sixth Italian Conference on Theoretical Computer Science</i>, World-Scientific, pp. 241-252, 1998.
+arXiv:[http://arxiv.org/abs/quant-ph/9812056 quant-ph/9812056].
+
+<span id="fgl91" style="color:maroon">[FGL+91]</span>
+U. Feige, S. Goldwasser, L. Lov&aacute;sz, S. Safra, and M. Szegedy.
+Approximating clique is almost NP-complete,
+<i>Proceedings of IEEE FOCS'91</i>, pp. 2-12, 1991.
+
+<span id="fgmsz89" style="color:maroon">[FGM+89]</span>
+M. Furer, O. Goldreich, Y. Mansour, M. Sipser, and S. Zachos.
+On Completeness and Soundness in Interactive Proof Systems.
+In <i>Advances in Computing Research: a research annual</i>,
+Vol.~5 (Randomness and Computation, S. Micali, ed.),
+pages 429--442, 1989.
+
+<span id="fie98" style="color:maroon">[Fie98]</span>
+U. Feige.
+A threshold of ln(n) for approximating set cover.
+<i>Journal of the ACM (JACM)</i>, 45(4): 634--652, 1998.
+[http://dx.doi.org/10.1145/285055.285059 doi:10.1145/285055.285059]
+
+<span id="fk05" style="color:maroon">[FK05]</span>
+L. Fortnow and A. Klivans.
+NP with small advice,
+<i>Proceedings of IEEE Complexity'2005</i>, pp. 228-234, 2005.
+[http://people.cs.uchicago.edu/~fortnow/papers/fk.ps http://people.cs.uchicago.edu/~fortnow/papers/fk.ps].
+
+<span id="fk97" style="color:maroon">[FK97]</span>
+U. Feige and J. Kilian.
+Limited versus polynomial nondeterminism,
+<i>Chicago Journal of Theoretical Computer Science</i> Article 1, 1997.
+
+<span id="fk97b" style="color:maroon">[FK97b]</span>
+U. Feige and J. Kilian.
+Making games short,
+<i>Proceedings of ACM STOC'1997</i>, pp. 506-516, 1997.
+
+<span id="for94" style="color:maroon">[For94]</span>
+L. Fortnow.
+The role of relativization in complexity theory,
+<i>Bulletin of the EATCS</i> 52, February 1994.
+[http://people.cs.uchicago.edu/~fortnow/papers/relative.ps http://people.cs.uchicago.edu/~fortnow/papers/relative.ps].
+
+<span id="fr74" style="color:maroon">[FR74]</span>
+M. J. Fischer and M. O. Rabin.
+Super-exponential complexity of Presburger arithmetic,
+<i>Complexity of Computation</i> (R. M. Karp, ed.), SIAM-AMS Symposium on Applied Mathematics, 1974.
+
+<span id="fr98" style="color:maroon">[FR98]</span>
+L. Fortnow and J. D. Rogers.
+Complexity limitations on quantum computation,
+<i>Proceedings of IEEE Complexity'98</i>, pp. 202-209, 1998.
+arXiv:[http://arxiv.org/abs/cs.CC/9811023 cs.CC/9811023].
+
+<span id="fri57" style="color:maroon">[Fri57]</span>
+R. M. Friedberg.
+Two recursively enumerable sets of incomparable degrees of unsolvability,
+<i>Proceedings of the National Academy of Sciences</i>, 43:236-238, 1957.
+[http://www.pubmedcentral.nih.gov/picrender.fcgi?artid=528418&amp;blobtype=pdf http://www.pubmedcentral.nih.gov/picrender.fcgi?artid=528418&amp;blobtype=pdf].
+
+<span id="frs88" style="color:maroon">[FRS88]</span>
+L. Fortnow, J. Rompel, and M. Sipser.
+On the power of multiprover interactive protocols,
+<i>Proceedings of IEEE Complexity'88</i>, 1988.
+[http://people.cs.uchicago.edu/~fortnow/papers/mip.ps http://people.cs.uchicago.edu/~fortnow/papers/mip.ps].
+
+<span id="fs04" style="color:maroon">[FS04]</span>
+L. Fortnow and R. Santhanam.
+Hierarchy theorems for probabilistic polynomial time,
+<i>Proceedings of IEEE FOCS'2004</i>, 2004.
+[http://people.cs.uchicago.edu/~fortnow/papers/probhier.ps http://people.cs.uchicago.edu/~fortnow/papers/probhier.ps].
+
+<span id="fs88" style="color:maroon">[FS88]</span>
+L. Fortnow and M. Sipser.
+Are there interactive protocols for co-NP languages?
+Inform. Process. Lett. 28 (1988), no. 5, 249--251.
+[http://cs-www.uchicago.edu/~fortnow/papers/conpipl.ps http://cs-www.uchicago.edu/~fortnow/papers/conpipl.ps]
+
+<span id="fss84" style="color:maroon">[FSS84]</span>
+M. Furst, J. Saxe, and M. Sipser.
+Parity, circuits, and the polynomial hierarchy,
+<i>Mathematical Systems Theory</i> 17:13-27, 1984.
+
+<span id="fur07" style="color:maroon">[Fur07]</span>
+M. Furer.
+Fast Integer Multiplication,
+STOC, 2007.
+
+<span id="fv93" style="color:maroon">[FV93]</span>
+T. Feder and M. Y. Vardi.
+Monotone monadic SNP and constraint satisfaction,
+<i>Proceedings of the 25th ACM Symposium on Theory of Computing</i>, pp. 612-622, 1993.
+DOI:[http://doi.acm.org/10.1145/167088.167245 10.1145/167088.167245].
+
+===== G =====
+
+<span id="gas02" style="color:maroon">[Gas02]</span>
+William Gasarch.
+The P=?NP poll,
+<i>SIGACT News Complexity Theory Column 36</i> (L. A. Hemaspaandra, ed.), 2002.
+
+<span id="gas02" style="color:maroon">[Geff91]</span>
+Viliam Geffert.
+Nondeterministic computations in sublogarithmic space and space constructibility,
+<i>SIAM Journal on Computing</i> v. 20 iss. 3, 1991.
+[http://portal.acm.org/citation.cfm?id=114454&dl=GUIDE&coll=GUIDE&CFID=74222314&CFTOKEN=30698817]
+
+<span id="gg66" style="color:maroon">[GG66]</span>
+S. Ginsburg and S. Greibach.
+Deterministic context free languages,
+<i>Information and Control</i> 9:620-648, 1966.
+
+<span id="ggk03" style="color:maroon">[GGK03]</span>
+William Gasarch, Evan Golub and Clyde Kruskal. 
+Constant time parallel sorting: an empirical view,
+<i>J. Comput. Syst. Sci.</i> 67:63-91, 2003.
+
+<span id="ghj91" style="color:maroon">[GHJ+91]</span>
+J. Goldsmith, L. A. Hemaspaandra, D. Joseph, and P. Young.
+Near-testable sets.
+SIAM J. Comput. 20 (1991), no. 3, 506--523
+
+<span id="ghp00" style="color:maroon">[GHP00]</span>
+F. Green, S. Homer, and C. Pollett.
+On the complexity of quantum ACC,
+<i>Proceeedings of IEEE Complexity'2000</i>, pp. 250-262, 2000.
+See also:
+F. Green, S. Homer, C. Moore, and S. Pollett.
+Counting, fanout, and the complexity of quantum ACC,
+arXiv:[http://arxiv.org/abs/quant-ph/0106017 quant-ph/0106017], 2001.
+
+<span id="gil77" style="color:maroon">[Gil77]</span>
+J. Gill.
+Computational complexity of probabilistic Turing machines,
+<i>SIAM Journal on Computing</i> 6(4):675-695, 1977.
+
+<span id="gj79" style="color:maroon">[GJ79]</span>
+M. R. Garey and D. S. Johnson.
+<i>Computers and Intractability: A Guide to the Theory of NP-Completeness</i>,
+Freeman, 1979.
+
+<span id="gkr95" style="color:maroon">[GKR+95]</span>
+F. Green, J. K&ouml;bler, K. W. Regan, T. Schwentick, and J. Tor&aacute;n.
+The power of the middle bit of a #P function,
+<i>Journal of Computer and System Sciences</i> 50(3):456-467, 1995.
+
+<span id="glm96" style="color:maroon">[GLM96]</span>
+J. Goldsmith, M. A. Levy, and M. Mundhenk.
+Limited nondeterminism,
+<i>SIGACT News</i> 27(2):20-29, 1996.
+[http://cs.engr.uky.edu/~goldsmit/papers/extended.ps http://cs.engr.uky.edu/~goldsmit/papers/extended.ps]
+
+<span id="gmr89" style="color:maroon">[GMR89]</span>
+S. Goldwasser, S. Micali, and C. Rackoff.
+The knowledge complexity of interactive proof systems,
+<i>SIAM Journal on Computing</i> 18(1):186-208, 1989.
+
+<span id="gmw91" style="color:maroon">[GMW91]</span>
+O. Goldreich, S. Micali, and A. Wigderson.
+Proofs that yield nothing but their validity or all languages in NP have zero-knowledge proof systems,
+<i>Journal of the ACM</i> 38(1):691-729, 1991.
+
+<span id="gn13" style="color:maroon">[GN13]</span>
+David Gosset and Daniel Nagaj.
+Quantum 3-SAT is QMA1-complete,
+arXiv:[http://arxiv.org/abs/1302.0290], 2013.
+
+{{Reference
+    |tag=GO95
+    |title=On a class of <math>O(n^2)</math> problems in computational geometry
+    |authors=A. Gajentaan and M. Overmars
+    |journal=Computational Geometry
+    |srcdetail=Volume 5, Issue 3, October 1995, pages 165-185
+}}
+
+<span id="gol97" style="color:maroon">[Gol97]</span>
+O. Goldreich.
+Notes on Levin's theory of average-case complexity,
+ECCC [http://eccc.uni-trier.de/eccc-reports/1997/TR97-058/ TR97-058].
+
+<span id="gp01" style="color:maroon">[GP01]</span>
+F. Green and R. Pruim.
+Relativized separation of EQP from P^NP,
+Information Processing Letters 80 (2001) 257-260.
+[http://cs.clarku.edu/~fgreen/papers/eqp.ps http://cs.clarku.edu/~fgreen/papers/eqp.ps]
+
+<span id="gp86" style="color:maroon">[GP86]</span>
+L. Goldschlager and I. Parberry.
+On the construction of parallel computers from various bases of Boolean functions,
+<i>Theoretical Computer Science</i> 43(1):43-58, 1986.
+
+<span id="gp91" style="color:maroon">[GP91]</span>
+O. Goldreich and E. Petrank.
+Quantifying knowledge complexity,
+<i>Proceedings of IEEE FOCS'91</i>, pp. 59-68, 1991.
+[http://www.wisdom.weizmann.ac.il/~oded/PS/gp.ps http://www.wisdom.weizmann.ac.il/~oded/PS/gp.ps]
+
+<span id="gra92" style="color:maroon">[Grä92]</span>
+E. Grädel
+Capturing complexity classes b fragments of second order logic
+<i>Information and computaiton</i> 119 (1995), 129-135
+
+<span id="gre90" style="color:maroon">[Gre90]</span>
+F. Green.
+An oracle separating +P from PP<sup>PH</sup>,
+Inform. Process. Lett. 37 (1991), no. 3, 149--153.
+
+<span id="gre93" style="color:maroon">[Gre93]</span>
+F. Green.
+On the power of deterministic reductions to C<sub>=</sub>P,
+Math. Systems Theory 26 (1993), no. 2, 215--233.
+
+<span id="gs86" style="color:maroon">[GS86]</span>
+S. Goldwasser and M. Sipser.
+Private coins versus public coins in interactive proof systems,
+<i>Proceedings of ACM STOC'86</i>, pp. 58-68, 1986.
+
+<span id="gs88" style="color:maroon">[GS88]</span>
+J. Grollman and A. L. Selman.
+Complexity measures for public-key cryptosystems,
+<i>SIAM Journal on Computing</i> 17:309-335, 1988.
+
+<span id="gs89" style="color:maroon">[GS89]</span>
+Y. Gurevich and S. Shelah.
+Nearly Linear Time,
+<i>Proceedings of LFCS'89</i>, Springer LNCS 363, pp. 108-118, 1989.
+
+<span id="gs90" style="color:maroon">[GS90]</span>
+M. Grigni and M. Sipser.
+Monotone complexity,
+<i>Proceedings of LMS Workshop on Boolean Function Complexity</i> (M. S. Paterson, ed.), Durham, Cambridge University Press, 1990.
+[http://www.mathcs.emory.edu/~mic/papers/4.ps http://www.mathcs.emory.edu/~mic/papers/4.ps]
+
+<span id="gs91" style="color:maroon">[GS91]</span>
+M. Grigni and M. Sipser.
+Monotone separation of NC<sup>1</sup> from logspace,
+<i>Proceedings of IEEE Complexity'91</i>, pp. 294-298, 1991.
+
+<span id="gss03" style="color:maroon">[GSS+03]</span>
+C. Gla&szlig;er, A. L. Selman, S. Sengupta, and L. Zhang.
+Disjoint NP-pairs,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2003/TR03-011/ TR03-011], 2003.
+
+<span id="gst03" style="color:maroon">[GST03]</span>
+D. Gutfreund, R. Shaltiel, and A. Ta-Shma.
+Uniform hardness vs. randomness tradeoffs for Arthur-Merlin games,
+<i>Comput. Complexity</i> 12 (2003), no. 3-4, 85--130.
+[http://www.cs.huji.ac.il/~danig/pubs/ccc.ps http://www.cs.huji.ac.il/~danig/pubs/ccc.ps].
+
+<span id="gsv99" style="color:maroon">[GSV99]</span>
+O. Goldreich, A. Sahai, and S. Vadhan.
+Can statistical zero knowledge be made non-interactive? or on the relationship of SZK and NISZK,
+ECCC [http://eccc.uni-trier.de/eccc-reports/1999/TR99-013/ TR99-013], 1999.
+Abstract appeared in CRYPTO'99.
+
+<span id="gtw91" style="color:maroon">[GTW+91]</span>
+R. Gavald&aacute;, L. Torenvliet, O. Watanabe, and J. Balc&aacute;zar.
+Generalized Kolmogorov complexity in relativized separations,
+<i>Proceedings of MFCS'91 (Mathematical Foundations of Computer Science)</i>, Springer-Verlag Lecture Notes in Computer Science, vol. 452, pp. 269-276, 1991.
+
+<span id="gup95" style="color:maroon">[Gup95]</span>
+S. Gupta.
+Closure properties and witness reduction,
+<i>Journal of Computer and System Sciences</i> 50(3):412-432, 1995.
+[ftp://ftp.cis.ohio-state.edu/pub/tech-report/1993/TR46.ps.gz ftp://ftp.cis.ohio-state.edu/pub/tech-report/1993/TR46.ps.gz]
+
+<span id="gur87" style="color:maroon">[Gur87]</span>
+Y. Gurevich.
+Complete and incomplete randomized NP problems,
+<i>Proceedings of IEEE FOCS'87</i>, pp. 111-117, 1987.
+
+<span id="gur89" style="color:maroon">[Gur89]</span>
+E. Gurari.
+<i>An Introduction to the Theory of Computation</i>,
+Computer Science Press, 1989.
+[http://www.cse.ohio-state.edu/~gurari/theory-bk/theory-bk.html http://www.cse.ohio-state.edu/~gurari/theory-bk/theory-bk.html].
+
+<span id="gut05" style="color:maroon">[Gut05]</span>
+G. Gutoski.
+Upper bounds for quantum interactive proofs with competing provers,
+<i>Proceedings of IEEE Complexity'2005</i>, pp. 334-343, 2005.
+[http://www.cs.uwaterloo.ca/~gmgutosk/gutoskig_competing.pdf http://www.cs.uwaterloo.ca/~gmgutosk/gutoskig_competing.pdf].
+
+<span id="gv02" style="color:maroon">[GV02]</span>
+M. de Graaf and P. Valiant.
+Comparing EQP and MOD<sub>p^k</sub>P using polynomial degree lower bounds,
+arXiv:[http://arxiv.org/abs/quant-ph/0211179 quant-ph/0211179], 2002.
+
+<span id="gv99" style="color:maroon">[GV99]</span>
+O. Goldreich and S. Vadhan.
+Comparing entropies in statistical zero-knowledge with applications to the structure of SZK,
+<i>Proceedings of IEEE Complexity'99</i>, pp. 54-73, 1999.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1998/TR98-063/ TR98-063].
+
+<span id="gw05" style="color:maroon">[GW05]</span>
+G. Gutoski and J. Watrous.
+Quantum interactive proofs with competing provers,
+<i>Proceedings of STACS'2005</i>, pp. 605-616, Springer-Verlag, 2005.
+arXiv:[http://arxiv.org/abs/cs.CC/0412102 cs.CC/0412102].
+
+<span id="gw07" style="color:maroon">[GW07]</span>
+G. Gutoski and J. Watrous.
+Toward a general theory of quantum games,
+In <i>Proceedings of the 39th ACM Symposium on Theory of Computing (STOC'07)</i>, pages 565-574, 2007.
+arXiv:[http://arxiv.org/abs/quant-ph/0611234 quant-ph/0611234].
+
+<span id="gw10" style="color:maroon">[GW10]</span>
+G. Gutoski and X. Wu.
+Short quantum games characterize PSPACE,
+2010.
+arXiv:[http://arxiv.org/abs/1011.2787 arXiv:1011.2787].
+
+<span id="gw96" style="color:maroon">[GW96]</span>
+A. G&aacute;l and A. Wigderson.
+Boolean complexity classes vs. their arithmetic analogs,
+<i>Random Structures and Algorithms</i> 9:1-13, 1996.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1995/TR95-049/ TR95-049].
+
+<span id="gz97" style="color:maroon">[GZ97]</span>
+O. Goldreich and D. Zuckerman.
+Another proof that BPP subseteq PH (and more),
+ECCC [http://eccc.uni-trier.de/eccc-reports/1997/TR97-045/ TR97-045].
+
+===== H =====
+
+<span id="hal02" style="color:maroon">[Hal02]</span>
+S. Hallgren.
+Polynomial-time quantum algorithms for Pell's equation and the principal ideal problem,
+<i>Proceedings of ACM STOC'2002</i>, 2002.
+[http://www.cse.psu.edu/~hallgren/pell.pdf http://www.cse.psu.edu/~hallgren/pell.pdf].
+
+<span id="har78" style="color:maroon">[Har78]</span>
+J. Hartmanis.
+<i>Feasible Computations and Provable Complexity Properties</i>,
+SIAM, 1978.
+
+<span id="har87" style="color:maroon">[Har87]</span>
+J. Hartmanis.
+The collapsing hierarchies,
+<i>Bulletin of the EATCS</i> 33, October 1987.
+[http://external.nj.nec.com/homepages/fortnow/beatcs/column33.ps http://external.nj.nec.com/homepages/fortnow/beatcs/column33.ps].
+
+<span id="har87b" style="color:maroon">[Har87b]</span>
+J. Hartmanis.
+Sparse complete sets for NP and the optimal collapse of the polynomial hierarchy,
+<i>Bulletin of the EATCS</i> 32, June 1987.
+[http://external.nj.nec.com/homepages/fortnow/beatcs/column32.ps http://external.nj.nec.com/homepages/fortnow/beatcs/column32.ps].
+
+<span id="has87" style="color:maroon">[Has87]</span>
+J. H&aring;stad.
+<i>Computational Limitations for Small-Depth Circuits</i>,
+MIT Press, 1987.
+
+<span id="has88" style="color:maroon">[Has88]</span>
+J. H&aring;stad.
+Oneway permutations in NC<sup>0</sup>,
+<i>Information Processing Letters</i> 26:153-155, 1988.
+
+<span id="has90" style="color:maroon">[Has90]</span>
+J. H&aring;stad. Tensor rank is NP-complete, ''J. Algorithms'', 11(4):644-654, 1990.
+
+<span id="has01" style="color:maroon">[Has01]</span>
+J. H&aring;stad.
+Some optimal inapproximability results,
+''Journal of the ACM'', 48(4):798-3859, 2001.
+[http://www-sunos4.nada.kth.se/~johanh/optimalinap.ps http://www-sunos4.nada.kth.se/~johanh/optimalinap.ps]
+
+<span id="hcc92" style="color:maroon">[HCC+92]</span>
+J. Hartmanis, R. Chang, S. Chari, D. Ranjan, and P. Rohatgi.
+Relativization: a revisionistic retrospective,
+<i>Bulletin of the EATCS</i> 47, June 1992.
+[http://external.nj.nec.com/homepages/fortnow/beatcs/column47.ps http://external.nj.nec.com/homepages/fortnow/beatcs/column47.ps].
+
+<span id="hck88" style="color:maroon">[HCK+88]</span>
+J. Hartmanis, R. Chang, J. Kadin, and S. G. Mitchell.
+Some observations about relativization of space bounded computations,
+<i>Bulletin of the EATCS</i> 35, June 1988.
+[http://external.nj.nec.com/homepages/fortnow/beatcs/column35.ps http://external.nj.nec.com/homepages/fortnow/beatcs/column35.ps].
+
+<span id="hel84" style="color:maroon">[Hel84a]</span>
+H. Heller.
+Relativized polynomial hierarchies extending two levels,
+<i>Mathematical Systems Theory</i> 17(2):71-84, 1984.
+
+<span id="hel84b" style="color:maroon">[Hel84b]</span>
+H. Heller.
+On Relativized Polynomial and Exponential Computations,
+<i>SIAM Journal on Computing</i> 13(4):717-725, 1984.
+
+<span id="hel86" style="color:maroon">[Hel86]</span>
+H. Heller.
+On Relativized Exponential and Probabilistic Complexity Classes,
+Inform. and Control 71 (1986), no. 3, 231--243
+
+<span id="hem89" style="color:maroon">[Hem89]</span>
+L. Hemachandra.
+The strong exponential hierarchy collapses,
+<i>Journal of Computer and System Sciences</i> 39(3):299-322, 1989.
+
+<span id="her90" style="color:maroon">[Her90]</span>
+U. Hertrampf.
+Relations among MOD-classes,
+<i>Theoretical Computer Science</i> 74:325-328, 1990.
+
+<span id="her97" style="color:maroon">[Her97]</span>
+U. Hertrampf.
+Acceptance by transformation monoids (with an application to local self-reductions),
+<i>Proceedings of IEEE Complexity'97</i>, pp. 213-224, 1997.
+
+<span id="hes01" style="color:maroon">[Hes01]</span>
+W. Hesse.
+Division is in uniform TC<sup>0</sup>,
+<i>Proceedings of the International Colloquium on Automata, Languages, and Programming (ICALP)</i>, 2001.
+[http://www.cs.umass.edu/~whesse/div.ps http://www.cs.umass.edu/~whesse/div.ps]
+
+<span id="hh76" style="color:maroon">[HH76]</span>
+J. Hartmanis and J. Hopcroft.
+Independence results in computer science,
+<i>ACM SIGACT News</i> 8(4):13-24, 1976.
+
+<span id="hh86" style="color:maroon">[HH86]</span>
+J. Hartmanis and L. Hemachandra.
+Complexity classes without machines: on complete languages for UP,
+<i>Proceedings of ICALP'86</i>, Springer-Verlag Lecture Notes in Computer Science volume 226, pp. 123-135, 1986.
+
+<span id="hhh98" style="color:maroon">[HHH98]</span>
+E. Hemaspaandra, L. Hemaspaandra, and H. Hempel.
+What's up with downward collapse: using the easy-hard technique to link Boolean and polynomial hierarchy collapses,
+<i>SIGACT News</i> 29(3):10-22, 1998.
+arXiv:[http://arxiv.org/abs/cs.CC/9910002 cs.CC/9910002].
+
+<span id="hhk05" style="color:maroon">[HHK+05]</span>
+L. Hemaspaandra, C. Homan, S. Kosub, and K. Wagner.
+The complexity of computing the size of an interval,
+Technical Report TR-856, Department of Computer Science, University of
+Rochester, 2005. This is an expanded version of [[#hkw01|HKW01]]
+
+<span id="hhn95" style="color:maroon">[HHN+95]</span>
+L. Hemaspaandra, A. Hoene, A. Naik, M. Ogihara, A. Selman, T. Thierauf, and J. Wang.
+Nondeterministically selective sets,
+<i>International Journal of Foundations of Computer Science (IJFCS)</i>, 6(4):403-416, 1995.
+
+<span id="hhr97" style="color:maroon">[HHR97]</span>
+E. Hemaspaandra, L. Hemaspaandra, and J. Rothe.
+Exact analysis of Dodgson elections: Lewis Carroll's 1876 voting system is complete for parallel access to NP,
+<i>Proceedings of ICALP'97</i>, Springer-Verlag Lecture Notes in Computer Science, 1997.
+arXiv:[http://arxiv.org/abs/cs.CC/9907036 cs.CC/9907036].
+
+<span id="hht97" style="color:maroon">[HHT97]</span>
+Y. Han, L. Hemaspaandra, and T. Thierauf.
+Threshold computation and cryptographic security,
+<i>SIAM Journal on Computing</i> 26(1):59-78, 1997.
+
+<span id="hi02" style="color:maroon">[HI02]</span>
+W. Hesse and N. Immerman.
+Complete problems for dynamic complexity classes,
+<i>Proceedings of Logic in Computer Science (LICS)</i>, 2002.
+[http://www.cs.umass.edu/~immerman/pub/completeLICS.pdf http://www.cs.umass.edu/~immerman/pub/completeLICS.pdf]
+
+<span id="hjv93" style="color:maroon">[HJV93]</span>
+L. Hemaspaandra, R. Jain, and N. K. Vereshchagin.
+Banishing robust Turing completeness,
+<i>International Journal of Foundations of Computer Science</i>, 3-4:245-265, 1993.
+
+<span id="hkw01" style="color:maroon">[HKW01]</span>
+L. Hemaspaandra, S. Kosub, and K. Wagner.
+The complexity of computing the size of an interval,
+<i>Proceedings of ICALP'01</i>, Springer-Verlag Lecture Notes in Computer Science, 2001.
+
+<span id="hls65" style="color:maroon">[HLS65]</span>
+J. Hartmanis, P. L. Lewis II, and R. E. Stearns.
+Hierarchies of memory-limited computations,
+<i>Proceedings of the 6th Annual IEEE Symposium on Switching Circuit Theory and Logic Design</i>, pp. 179-190, 1965.
+
+<span id="hm13" style="color:maroon">[HM13]</span>
+Aram W. Harrow, Ashley Montanaro.
+Testing product states, quantum Merlin-Arthur games and tensor optimisation,
+<i>Journal of the ACM</i> vol. 60 no. 1, 2013
+
+<span id="hmp93" style="color:maroon">[HMP+93]</span>
+A. Hajnal, W. Maass, P. Pudl&aacute;k, M. Szegedy, and G. Tur&aacute;n.
+Threshold circuits of bounded depth,
+<i>Journal of Computer and System Sciences</i> 46(2):129-154, 1993.
+
+<span id="hn06" style="color:maroon">[HN06]</span>
+D. Harnik and M. Naor.
+On the compressibility of NP instances and cryptographic applications.
+<i>Proceedings of the 47th Annual IEEE Symposium on Foundations of Computer Science (FOCS)</i>, 719-728, 2006.
+[http://www.cs.technion.ac.il/~harnik/Compress.pdf http://www.cs.technion.ac.il/~harnik/Compress.pdf]
+
+<span id="hno96" style="color:maroon">[HNO+96]</span>
+L. Hemaspaandra, A. Naik, M. Ogihara, and A. Selman.
+Computing solutions uniquely collapses the polynomial hierarchy,
+<i>SIAM Journal on Computing</i> 25(4):697-708, 1996.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1996/TR96-027/ TR96-027].
+
+<span id="ho02" style="color:maroon">[HO02]</span>
+L. Hemaspaandra and M. Ogihara.
+<i>The Complexity Theory Companion</i>,
+Springer-Verlag, 2002.
+See also [http://www.cs.rochester.edu/u/lane/=companion/ http://www.cs.rochester.edu/u/lane/=companion/].
+
+<span id="hpv77" style="color:maroon">[HPV77]</span>
+J. Hopcroft, W. Paul, and L. Valiant.
+On time versus space,
+<i>Journal of the ACM</i> 24(2):332-337, 1977.
+
+<span id="hrv00" style="color:maroon">[HRV00]</span>
+U. Hertrampf, S. Reith, and H. Vollmer.
+A note on closure properties of logspace MOD classes,
+<i>Information Processing Letters</i> 75(3):91-93, 2000.
+[http://www.thi.uni-hannover.de/forschung/publikationen/daten/he-re-vo99.ps.gz http://www.thi.uni-hannover.de/forschung/publikationen/daten/he-re-vo99.ps.gz]
+
+<span id="hs65" style="color:maroon">[HS65]</span>
+J. Hartmanis and R. E. Stearns.
+On the computational complexity of algorithms,
+<i>Transactions of the AMS</i> 117:285-305, 1965.
+
+<span id="hs92" style="color:maroon">[HS92]</span>
+S. Homer and A. L. Selman.
+Oracles for structural properties: the isomorphism problem and public-key cryptography,
+<i>Journal of Computer and System Sciences</i> 44(2):287-301, 1992.
+
+<span id="ht03" style="color:maroon">[HT03]</span>
+Christopher M. Homan, Mayur Thakur
+One-way permutations and self-witnessing languages
+<i>Journal of Computer and System Sciences</i> 67 (2003), 608--622.
+[https://www.sciencedirect.com/science/article/pii/S0022000003000680].
+
+<span id="ht06" style="color:maroon">[HT06]</span>
+Lauri Hella , José María Turull-Torres
+Computing queries with higher-order logics
+<i>Theorical. Comput. Sci.</i> 355 (2006),  197--214.
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V1G-4J614M7-6&_user=1516330&_coverDate=04%2F11%2F2006&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1404146870&_rerunOrigin=google&_acct=C000053443&_version=1&_urlVersion=0&_userid=1516330&md5=6d794cde4e4a89dfa74f13967cdacb08].
+
+
+
+<span id="hy84" style="color:maroon">[HY84]</span>
+J. Hartmanis and Y. Yesha.
+Computation times of NP sets of different densities,
+<i>Theoretical Computer Science</i> 34:17-32, 1984.
+
+===== I =====
+
+<span id="iba72" style="color:maroon">[Iba72]</span>
+O. Ibarra.
+A note concerning nondeterministic tape complexities,
+<i>Journal of the ACM</i> 4:608-612, 1972.
+
+<span id="ikw01" style="color:maroon">[IKW01]</span>
+R. Impagliazzo, V. Kabanets, and A. Wigderson.
+In search of an easy witness: exponential time vs. probabilistic polynomial time,
+<i>Proceedings of IEEE Complexity'2001</i>, 2001.
+[http://www.cs.sfu.ca/~kabanets/papers/exp_journal.ps.gz http://www.cs.sfu.ca/~kabanets/papers/exp_journal.ps.gz]
+
+<span id="il90" style="color:maroon">[IL90]</span>
+R. Impagliazzo and L. A. Levin.
+No better ways to generate hard NP instances than picking uniformly at random,
+<i>Proceedings of IEEE FOCS'90</i>, pp. 812-821, 1990.
+
+{{Reference
+    |tag=IM03
+    |title=A zero one law for RP
+    |authors=R. Impagliazzo and P. Moser
+    |journal=Proceedings of the 18th Conference on Computational Complexity
+    |srcdetail=48-52. IEEE Computer Society Press, 2003
+}}
+
+{{Reference
+    |tag=Imp95
+    |title=A personal view of average-case complexity
+    |authors=R. Impagliazzo
+    |journal=Proceedings of the 10th Conference on Structure in Complexity Theory
+    |srcdetail=134-147. IEEE Computer Society Press, 1995
+}}
+
+<span id="imm82" style="color:maroon">[Imm82]</span>
+N. Immerman.
+Relational queries computable in in polynomial time.
+<i>14th ACM STOC Symp. (1987), 86-104</i>
+
+
+<span id="imm83" style="color:maroon">[Imm83]</span>
+N. Immerman.
+Languages That Capture Complexity Classes
+<i>15th ACM STOC Symp. (1983), 347-354</i>
+[http://www.cs.umass.edu/~immerman/pub/capture.pdf]
+
+<span id="imm88" style="color:maroon">[Imm88]</span>
+N. Immerman.
+Nondeterministic space is closed under complement,
+<i>SIAM Journal on Computing</i>, 17:935-938, 1988.
+
+<span id="imm89" style="color:maroon">[Imm89]</span>
+N. Immerman.
+Expressibility and Parallel Complexity
+<i>SIAM Journal on Computing</i>, 18:625-638, 1989.
+[http://www.cs.umass.edu/~immerman/pub/parallel.pdf]
+
+<span id="imm98" style="color:maroon">[Imm98]</span>
+N. Immerman.
+<i>Descriptive Complexity</i>,
+Springer Graduate Texts in Computer Science, 1998.
+
+<span id="imp02" style="color:maroon">[Imp02]</span>
+R. Impagliazzo.
+Hardness as randomness: a survey of universal derandomization,
+<i>Proceedings of the ICM</i>, Beijing, vol. 3, pp. 649-658, 2002.
+arXiv:[http://arxiv.org/abs/cs.CC/0304040 cs.CC/0304040].
+
+<span id="in96" style="color:maroon">[IN96]</span>
+R. Impagliazzo and M. Naor.
+Efficient cryptographic schemes provably as secure as subset sum,
+<i>Journal of Cryptology</i> 9(4):199-216, 1996.
+[http://www.wisdom.weizmann.ac.il/~naor/PAPERS/subset.ps.gz http://www.wisdom.weizmann.ac.il/~naor/PAPERS/subset.ps.gz]
+
+<span id="ipz01" style="color:maroon">[IPZ01]</span>
+R. Impagliazzo, R. Paturi, and F. Zane.
+Which problems have strongly exponential complexity,
+<i>Journal of Computer and System Sciences</i> 63(4):512-530, 2001.
+[http://cm.bell-labs.com/cm/ms/who/francis/papers/focs98-subexp.pdf http://cm.bell-labs.com/cm/ms/who/francis/papers/focs98-subexp.pdf].
+
+<span id="is91" style="color:maroon">[IS91]</span>
+R. Impagliazzo and M. Sudan.
+Private communication,
+cited in [#bg94" style="color:maroon">[BG94], 1991.
+
+<span id="it89" style="color:maroon">[IT89]</span>
+R. Impagliazzo and G. Tardos.
+Decision versus search problems in super-polynomial time,
+in <i>Proceedings of IEEE FOCS 1989</i>, pp. 222-227, 1989.
+
+<span id="iv12" style="color:maroon">[IV12]</span>
+T. Ito and T. Vidick.
+A multi-prover interactive proof for NEXP sound against entangled provers,
+to appear in <i>Proceedings of IEEE FOCS 2012</i>
+arXiv:[http://arxiv.org/abs/1207.0550 1207.0550].
+
+<span id="iw97" style="color:maroon">[IW97]</span>
+R. Impagliazzo and A. Wigderson.
+P=BPP if E requires exponential circuits: derandomizing the XOR lemma,
+<i>Proceedings of ACM STOC'97</i>, pp. 220-229, 1997.
+
+===== J =====
+
+<span id="jer07" style="color:maroon">[Jeř07]</span>
+E. Jeřábek.
+Approximate counting in bounded arithmetic,
+''Journal of Symbolic Logic'' 72(3):959–993, 2007.
+
+<span id="JJUW09" style="color:maroon">[JJUW09]</span>
+Rahul Jain, Zhengfeng Ji, Sarvagya Upadhyay, and John Watrous.
+QIP = PSPACE
+arXiv:[http://arxiv.org/abs/0907.4737 0907.4737], 2009.
+
+<span id="jks02" style="color:maroon">[JKS02]</span>
+J. C. Jackson, A. R. Klivans, and R. A. Servedio.
+Learnability beyond AC<sup>0</sup>,
+<i>Proceedings of ACM STOC'2002</i>, pp. 776-784, 2002.
+
+<span id="jl95" style="color:maroon">[JL95]</span>
+D. W. Juedes and J. H. Lutz.
+The complexity and distribution of hard problems,
+<i>SIAM Journal on Computing</i> 24(2):279-295, 1995.
+[http://www.cs.iastate.edu/~lutz/%3DPAPERS/cdhp.ps http://www.cs.iastate.edu/~lutz/%3DPAPERS/cdhp.ps]
+
+<span id="joh90" style="color:maroon">[Joh90]</span>
+D. S. Johnson.
+A catalog of complexity classes,
+chapter 2 in <i>Handbook of Theoretical Computer Science</i>, Volume A (J. van Leeuwen, editor), Elsevier, 1990.
+
+<span id="jon98" style="color:maroon">[Jon98]</span>
+Neil D. Jones
+Logspace and Ptime Characteried by Programming Languages
+[ftp://ftp.diku.dk/pub/diku/semantics/papers/D-398.ps.gz]
+
+<span id="jpy88" style="color:maroon">[JPY88]</span>
+D. S. Johnson, C. H. Papadimitriou, and M. Yannakakis.
+How easy is local search?,
+<i>Journal of Computer and System Sciences</i> 37:79-100, 1988.
+
+<span id="jsv01" style="color:maroon">[JSV01]</span>
+M. Jerrum, A. Sinclair, and E. Vigoda.
+A polynomial-time approximation algorithm for the permanent of a matrix with non-negative entries,
+<i>Proceedings of ACM STOC'2001</i>, pp. 712-721, 2001.
+ECCC [http://eccc.uni-trier.de/eccc-reports/2000/TR00-079/ TR00-079].
+
+<span id="jun85" style="color:maroon">[Jun85]</span>
+H. Jung.
+On probabilistic time and space,
+<i>Proceedings of 12th International Colloquium on Automata, Languages, and Programming (ICALP)</i>, Lecture Notes in Computer Science, 194:310-317, 1985.
+
+<span id="jw04" style="color:maroon">[JW04]</span>
+M. Jerrum and U. Wagner.
+<i>Counting, Sampling, and Integrating: Algorithms and Complexity</i>,
+Chapter 3 (lecture notes labeled as under construction).
+[http://www.dcs.ed.ac.uk/home/mrj/ETHbook/chap3.ps http://www.dcs.ed.ac.uk/home/mrj/ETHbook/chap3.ps].
+
+<span id="jw09" style="color:maroon">[JW09]</span>
+Rahul Jain and John Watrous.
+Parallel approximation of non-interactive zero-sum quantum games.
+<i>Proceedings of the 24th Annual IEEE Conference on Computational Complexity</i>, pages 243–253, 2009.
+arXiv:[http://arxiv.org/abs/0808.2775 0808.2775 [quant-ph]].
+
+<span id="jwb03" style="color:maroon">[JWB03]</span>
+D. Janzing, P. Wocjan, and T. Beth.
+Cooling and low energy state preparation for 3-local Hamiltonians are FQMA-complete,
+arXiv:[http://arxiv.org/abs/quant-ph/0303186 quant-ph/0303186], 2003.
+
+<span id="jy88" style="color:maroon">[JY88]</span>
+D. S. Johnson and M. Yannakakis.
+On generating all maximal independent sets,
+<i>Information Processing Letters</i> 27(3):119-123, 1988.
+
+===== K =====
+
+<span id="kad88" style="color:maroon">[Kad88]</span>
+J. Kadin.
+The polynomial time hierarchy collapses if the Boolean hierarchy collapses,
+<i>SIAM Journal on Computing</i> 17:1263-1282, 1988.
+
+<span id="kan82" style="color:maroon">[Kan82]</span>
+R. Kannan.
+Circuit-size lower bounds and non-reducibility to sparse sets,
+<i>Information and Control</i> 55:40-56, 1982.
+
+<span id="kar72" style="color:maroon">[Kar72]</span>
+R. M. Karp.
+Reducibility among combinatorial problems,
+<i>Complexity of Computer Computations</i> (J. W. Thatcher and R. E. Miller, eds.), Plenum Press, 1972.
+
+<span id="kar86" style="color:maroon">[Kar86]</span>
+H. Karloff.
+A Las Vegas algorithm for maximum matching,
+<i>Combinatorica</i> 6:387-392, 1986.
+
+<span id="kf84" style="color:maroon">[KF84]</span>
+C. M. R. Kintala and P. Fischer.
+Refining nondeterminism in relativized complexity classes,
+<i>SIAM Journal on Computing</i> 13:329-337, 1984.
+
+<span id="kha79" style="color:maroon">[Kha79]</span>
+L. G. Khachiyan.
+A polynomial algorithm for linear programming,
+<i>Soviet Math Doklady</i> 20:191-194, 1979.
+
+<span id="kha93" style="color:maroon">[Kha93]</span>
+M. Kharitonov.
+Cryptographic hardness of distribution-specific learning,
+<i>Proceedings of ACM STOC'93</i>, pp. 372-381, 1993.
+
+<span id="ki02" style="color:maroon">[KI02]</span>
+V. Kabanets and R. Impagliazzo.
+Derandomizing polynomial identity tests means proving circuit lower bounds,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2002/TR02-055/ TR02-055], 2002.
+
+<span id="kkr04" style="color:maroon">[KKR04]</span>
+J. Kempe, A. Kitaev, and O. Regev.
+The Complexity of the Local Hamiltonian Problem,
+<i>SIAM Journal of Computing</i>, Vol. 35(5), p. 1070-1097 (2006).
+arXiv:[http://arxiv.org/abs/quant-ph/0406180 quant-ph/0406180].
+
+<span id="kl82" style="color:maroon">[KL82]</span>
+R. M. Karp and R. J. Lipton.
+Turing machines that take advice,
+<i>Enseign. Math.</i> 28:191-201, 1982.
+
+<span id="kle71" style="color:maroon">[Kle71]</span>
+S. C. Kleene.
+<i>Introduction to Metamathematics</i>,
+Elsevier, 1971.
+
+<span id="km02" style="color:maroon">[KM02]</span>
+H. Kobayashi and K. Matsumoto.
+Quantum multi-prover interactive proof systems with limited prior entanglement,
+<i>Proceedings of ISAAC'2002</i>, pp. 115-127, 2002.
+arXiv:[http://arxiv.org/abs/cs.CC/0102013 cs.CC/0102013].
+
+<span id="km92" style="color:maroon">[KM92]</span>
+D. Koller and N. Megiddo.
+On the Complexity of Two-person Zero-sum Games in Extensive Form,
+Games and Economic Behavior 4, 528-552, 1992.
+[http://theory.stanford.edu/~megiddo/pdf/recall.pdf http://theory.stanford.edu/~megiddo/pdf/recall.pdf]
+
+<span id="km99" style="color:maroon">[KM99]</span>
+A. Klivans and D. van Melkebeek.
+Graph nonisomorphism has subexponential size proofs unless the polynomial hierarchy collapses,
+in <i>Proceedings of ACM STOC'99</i>, pp. 659-667, 1999.
+
+<span id="kms99" style="color:maroon">[KMS+99]</span>
+S. Khanna, R. Motwani, M. Sudan, and U. Vazirani.
+On syntactic versus computational views of approximability,
+<i>SIAM Journal on Computing</i> 28:164-191, 1999.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1995/TR95-023/ TR95-023].
+
+<span id="kmy01" style="color:maroon">[KMY01]</span>
+H. Kobayashi, K. Matsumoto, and T. Yamakami.
+Quantum certificate verification: single versus multiple quantum certificates,
+arXiv:[http://arxiv.org/abs/quant-ph/0110006 quant-ph/0110006], 2001.
+
+<span id="ko82" style="color:maroon">[Ko82]</span>
+K. Ko.
+Some observations on the probabilistic algorithms and NP-hard problems,
+<i>Information Processing Letters</i> 14(1):39-43, 1982.
+
+<span id="ko85" style="color:maroon">[Ko85]</span>
+K. Ko.
+On some natural complete operators,
+<i>Theoretical Computer Science</i> 37(1):1-30, 1985.
+
+<span id="kob02" style="color:maroon">[Kob02]</span>
+H. Kobayashi.
+Non-interactive quantum statistical and perfect zero-knowledge,
+arXiv:[http://arxiv.org/abs/quant-ph/0207158 quant-ph/0207158], 2002.
+
+<span id="kob89" style="color:maroon">[Kob89]</span>
+J. K&ouml;bler.
+<i>Strukturelle Komplexit&auml;t von Anzahlproblemen</i>,
+PhD thesis, Universit&auml;t Stuttgart, 1989.
+
+<span id="koi96" style="color:maroon">[Koi96]</span>
+P. Koiran.
+Hilbert's Nullstellensatz is in the polynomial hierarchy,
+<i>Journal of Complexity</i> 12(4):273-286, 1996,
+DIMACS [http://dimacs.rutgers.edu/TechnicalReports/abstracts/1996/96-27.html TR 96-27].
+
+<span id="koz92" style="color:maroon">[Koz92]</span>
+D. C. Kozen.
+On the Myhill-Nerode theorem for trees,
+<i>Bulletin of the EATCS</i> 47:170-173, 1992.
+
+<span id="koz97" style="color:maroon">[Koz97]</span>
+D. C. Kozen.
+<i>Automata and Computability</i>,
+Springer-Verlag, 1997.
+
+<span id="kp89" style="color:maroon">[KP89]</span>
+Jan Krajicek and Pavel Pudlak.
+Propositional Proof Systems, the Consistency of First Order Theories and the Complexity of Computations,
+<i>J. Symb. Log.</i>, 54:1063-79, 1989.
+
+<span id="kr03" style="color:maroon">[KR03]</span>
+J. Kempe and O. Regev.
+3-Local Hamiltonian is QMA-complete,
+<i>Quantum Inf. Comput.</i>, 3(3):258-264, 2003.
+arXiv:[http://arxiv.org/abs/quant-ph/0302079 quant-ph/0302079].
+
+<span id="kra.." style="color:maroon">[Kra..]</span>
+H. Krawczyk.
+Unpublished.
+
+<span id="krc00" style="color:maroon">[KRC00]</span>
+V. Kabanets, C. Rackoff, and S. A. Cook.
+Efficiently approximable real-valued functions,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2000/TR00-034/ TR00-034], 2000.
+
+<span id="kre88" style="color:maroon">[Kre88]</span>
+M. Krentel.
+The complexity of optimization problems,
+<i>Journal of Computer and System Sciences</i> 36:490-509, 1988.
+
+<span id="krs90" style="color:maroon">[KRS90]</span>
+C. P. Kruskal, L. Rudolph, and M. Snir.
+A complexity theory of efficient parallel algorithms,
+<i>Theoretical Computer Science</i> 71:95-132, 1990.
+
+{{Reference
+    |tag=KS05
+    |authors=N. Kayal and N. Saxena
+    |title=On the ring isomorphism and automorphism problems
+    |journal=Proceedings of the 20th Annual IEEE Conference on Computational Complexity
+    |srcdetail=2-12, 2005}}
+
+<span id="kst89" style="color:maroon">[KST+89]</span>
+J. K&ouml;bler, U. Sch&ouml;ning, and J. Tor&aacute;n.
+On counting and approximation,
+<i>Acta Informatica</i> 26:363-379, 1989.
+
+<span id="kst89b" style="color:maroon">[KST+89b]</span>
+J. K&ouml;bler, U. Sch&ouml;ning, S. Toda, and J. Tor&aacute;n.
+Turing machines with few accepting computations and low sets for PP,
+<i>Proceedings of IEEE Complexity'89</i>, pp. 208-215, 1989.
+[http://www.informatik.hu-berlin.de/Forschung_Lehre/algorithmenII/Papers/few.ps.gz http://www.informatik.hu-berlin.de/Forschung_Lehre/algorithmenII/Papers/few.ps.gz]
+
+<span id="kst92" style="color:maroon">[KST92]</span>
+J. K&ouml;bler, U. Sch&ouml;ning, and J. Tor&aacute;n.
+Graph isomorphism is low for PP,
+<i>Computational Complexity</i> 2:301-330, 1992.
+
+<span id="kst93" style="color:maroon">[KST93]</span>
+J. K&ouml;bler, U. Sch&ouml;ning, and J. Tor&aacute;n.
+<i>The Graph Isomorphism Problem: Its Structural Complexity</i>,
+Birkh&auml;user, 1993.
+
+<span id="ksv02" style="color:maroon">[KSV02]</span>
+A. Kitaev, A. Shen, and M. N. Vyalyi.
+<i>Classical and Quantum Computation</i>,
+American Mathematical Society, 2002.
+
+<span id="kt94" style="color:maroon">[KT94]</span>
+P. G. Koliatis and M. N. Thakur.
+Logical definability of NP optimization problems,
+<i>Information and Computation</i> 115:321-353, 1994.
+
+<span id="kt96" style="color:maroon">[KT96]</span>
+J. K&ouml;bler and S. Toda.
+On the power of generalized MOD-classes,
+<i>Mathematical Systems Theory</i> 29(1):33-46, 1996.
+[ftp://theorie.informatik.uni-ulm.de/pub/papers/ti/mod.ps.gz ftp://theorie.informatik.uni-ulm.de/pub/papers/ti/mod.ps.gz]
+
+<span id="kup09" style="color:maroon">[Kup09]</span>
+G. Kuperberg.
+How hard is it to approximate the Jones polynomial?, 2009.
+arXiv:[http://arxiv.org/abs/0908.0512 quant-ph/0908.0512v1].
+
+<span id="kur64" style="color:maroon">[Kur64]</span>
+S. Y. Kuroda.
+Classes of languages and linear-bounded automata,
+<i>Information and Control</i> 7:207-233, 1964.
+
+<span id="kur83" style="color:maroon">[Kur83]</span>
+S. Kurtz.
+On the random oracle hypothesis,
+<i>Information and Control</i> 57:40-47, 1983.
+
+<span id="kur85" style="color:maroon">[Kur85]</span>
+S. Kurtz.
+On Relativized Exponential and Probabilistic Complexity Classes,
+<i>Information and Control</i> 71:231-243, 1985.
+
+<span id="kuw86" style="color:maroon">[KUW86]</span>
+R. Karp, E. Upfal, and A. Wigderson.
+Constructing a perfect matching is in random NC,
+<i>Combinatorica</i> 6:35-48, 1986.
+
+<span id="kv88" style="color:maroon">[KV88]</span>
+M. Karpinski and R. Verbeek.
+Randomness, provability, and the separation of Monte Carlo time and space,
+<i>Lecture Notes in Computer Science</i> 270, pp. 189-207, Springer, 1988.
+
+<span id="kv94" style="color:maroon">[KV94]</span>
+M. Kearns and L. Valiant.
+Cryptographic limitations on learning Boolean formulae and finite automata,
+<i>Journal of the ACM</i> 41(1):67-95, 1994.
+[http://www.cis.upenn.edu/~mkearns/papers/crypto.pdf http://www.cis.upenn.edu/~mkearns/papers/crypto.pdf]
+
+<span id="kv96" style="color:maroon">[KV96]</span>
+M. Karpinski and R. Verbeek.
+On Randomized Versus Deterministic Computation,
+Theoret. Comput. Sci. 154 (1996), no. 1, 23--39.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1995/TR95-021/ TR95-021].
+
+<span id="kw.." style="color:maroon">[KW..]</span>
+A. Kitaev and J. Watrous.
+Unpublished.
+
+<span id="kw00" style="color:maroon">[KW00]</span>
+A. Kitaev and J. Watrous.
+Parallelization, amplification, and exponential time simulation of quantum interactive proof systems,
+<i>Proceedings of ACM STOC'2000</i>, pp. 608-617, 2000.
+[https://cs.uwaterloo.ca/~watrous/Papers/QuantumInteractiveProofs.pdf https://cs.uwaterloo.ca/~watrous/Papers/QuantumInteractiveProofs.pdf]
+
+<span id="kw88" style="color:maroon">[KW88]</span>
+M. Karchmer and A. Wigderson.
+Monotone circuits for connectivity require superlogarithmic depth,
+<i>Proceedings of ACM STOC'88</i>, pp. 539-550, 1988.
+
+<span id="kw93" style="color:maroon">[KW93]</span>
+M. Karchmer and A. Wigderson.
+On span programs,
+<i>Proceedings of IEEE Complexity'93</i>, pp. 102-111, 1993.
+
+<span id="kw98" style="color:maroon">[KW98]</span>
+J. K&ouml;bler and O. Watanabe.
+New collapse consequences of NP having small circuits,
+<i>SIAM Journal on Computing</i> 28(1):311-324, 1998.
+[http://www.informatik.hu-berlin.de/forschung/gebiete/algorithmenII/Publikationen/Papers/collapse.ps.gz http://www.informatik.hu-berlin.de/forschung/gebiete/algorithmenII/Publikationen/Papers/collapse.ps.gz]
+
+===== L =====
+
+<span id="lad75" style="color:maroon">[Lad75]</span>
+R. Ladner.
+On the structure of polynomial time reducibility,
+<i>Journal of the ACM</i> 22:155-171, 1975.
+
+<span id="lau83" style="color:maroon">[Lau83]</span>
+C. Lautemann.
+BPP and the polynomial time hierarchy,
+<i>Information Processing Letters</i> 17:215-218, 1983.
+
+<span id="lee02" style="color:maroon">[Lee02]</span>
+T. Lee.
+Arithmetical definability over finite structures,
+Mathematical Logic Quarterly, Vol. 49(4), 2003. 
+[http://www.lri.fr/~lee/arith.pdf http://www.lri.fr/~lee/arith.pdf].
+
+<span id="lev73" style="color:maroon">[Lev73]</span>
+L. A. Levin.
+Universal search problems (in Russian),
+<i>Problemy Peredachi Informatsii</i> 9(3):265-266, 1973.
+
+<span id="lev86" style="color:maroon">[Lev86]</span>
+L. A. Levin.
+Average case complete problems,
+<i>SIAM Journal on Computing</i>, 15:285-286, 1986.
+
+<span id="lfk90" style="color:maroon">[LFK+90]</span>
+C. Lund, L. Fortnow, H. Karloff, and N. Nisan.
+Algebraic methods for interactive proofs,
+<i>Proceedings of IEEE FOCS'90</i>, pp. 1-10, 1990.
+[http://people.cs.uchicago.edu/~fortnow/papers/ip.ps http://people.cs.uchicago.edu/~fortnow/papers/ip.ps]
+
+<span id="li93" style="color:maroon">[Li93]</span>
+L. Li.
+<i>On the Counting Functions</i>,
+PhD thesis, University of Chicago, 1993.
+
+{{Reference
+|tag=LiRe93
+|authors=M. Liskiewicz, R. Reischuk
+|title=The complexity world below logarithmic space
+|journal=Proceedings of the Structure in Complexity Theory Conference
+|srcdetail=1993, 64-78
+}}
+
+<span id="li11" style="color:maroon">[Li11]</span>
+Y. D. Li.
+BQP and PPAD,
+<i>Electronic Colloquium on Computational Complexity</i> TR11-103, 2011.
+
+<span id="ll76" style="color:maroon">[LL76]</span>
+R. Ladner and N. A. Lynch.
+Relativization of questions about log space computability,
+<i>Mathematical Systems Theory</i> 10:19-32, 1976.
+
+<span id="lmn93" style="color:maroon">[LMN93]</span>
+N. Linial, Y. Mansour, and N. Nisan.
+Constant depth circuits, Fourier transform, and learnability,
+<i>Journal of the ACM</i> 40(3):607-620, 1993.
+
+<span id="lmt97" style="color:maroon">[LMT97]</span>
+K. Lange, P. McKenzie, and A. Tapp.
+Reversible space equals deterministic space (extended abstract),
+<i>Proceedings of IEEE FOCS'97</i>, pp. 45-50, 1997.
+
+<span id="lp82" style="color:maroon">[LP82]</span>
+H. R. Lewis and C. H. Papadimitriou.
+Symmetric space-bounded computation,
+<i>Theoretical Computer Science</i> 19:161-187, 1982.
+
+<span id="ls74" style="color:maroon">[LS74]</span>
+E. A. Lamagna and J. E. Savage
+Combinational complexity of some monotone functions,
+<i>FOCS</i> 140-44, 1974.
+
+<span id="lut91" style="color:maroon">[Lut91]</span>
+J. H. Lutz.
+An upward measure separation theorem,
+<i>Theoretical Computer Science</i> 81:127-135, 1991.
+
+{{Reference
+    |tag=Lut93
+    |authors=J. H. Lutz
+    |title=The quantitative structure of exponential time
+    |journal=Proc. 8th Structure in Complexity Theory Conference
+    |srcdetail=(IEEE Comput. Soc. Press, 1993) 158-175
+}}[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.53.1845&rep=rep1&type=pdf]
+
+<span id="lv97" style="color:maroon">[LV97]</span>
+M. Li and P. Vit&aacute;nyi.
+<i>An Introduction to Kolmogorov Complexity and Its Applications</i> (second edition),
+Springer, 1997.
+
+===== M =====
+
+<span id="m08" style="color:maroon">[M08]</span>
+L. Malka.
+How to achieve perfect simulation, and a complete problem for non-interactive perfect zero-knowledge. <i>IACR 5th Theory of Cryptography Conference (TCC)</i>, 2008.
+[http://www.cs.uvic.ca/~liorma/publications/NIZK9.pdf].
+
+<span id="mah82" style="color:maroon">[Mah82]</span>
+S. R. Mahaney.
+Sparse complete sets for NP: Solution of a conjecture by Berman and Hartmanis,
+<i>Journal of Computer and System Sciences</i> 25:130-143, 1982.
+
+<span id="may94" style="color:maroon">[May94]</span>
+E. Mayordomo.
+Almost every set in exponential time is P-bi-immune,
+<i>Theoretical Computer Science</i> 136(2):487-506, 1994.
+
+<span id="may94b" style="color:maroon">[May94b]</span>
+E. Mayordomo.
+<i>Contributions to the study of resource-bounded measure</i>,
+PhD thesis, Universitat Politecnica de Catalunya, 1994.
+
+<span id="ms89" style="color:maroon">[MS89]</span>
+E.W. Mayr and A. Subramanian. 
+The complexity of circuit value and network stability, Proceedings of the Fourth Annual Conference on <i>Structure in Complexity Theory</i>, pp.114-123, 1989.
+
+<span id="mc00" style="color:maroon">[MC00]</span>
+C. Moore and J. P. Crutchfield.
+Quantum automata and quantum grammars,
+<i>Theoretical Computer Science</i> 237:275-306, 2000.
+
+{{Reference
+    |tag=Mel00
+    |authors=D. Melkebeek
+    |title=The zero-one law holds for BPP
+    |journal=Theoretical Computer Science
+    |srcdetail=Volume 244, Issues 1-2, 6 August 2000, Pages 283-288
+}}
+
+<span id="mes99" style="color:maroon">[Mes99]</span>
+J. Messner.
+On optimal algorithms and optimal proof systems,
+<i>Lecture Notes in Computer Science</i> 1563:541-550, 1999.
+
+<span id="mil76" style="color:maroon">[Mil76]</span>
+G. Miller.
+Riemann's hypothesis and tests for primality,
+<i>Journal of Computer and System Sciences</i>, 13:300-317, 1976.
+
+<span id="mil92" style="color:maroon">[Mil92]</span>
+P. B. Miltersen.
+Circuit depth relative to a random oracle,
+<i>Information Processing Letters</i> 42(6):295-298, 1992.
+
+<span id="mn02" style="color:maroon">[MN02]</span>
+C. Moore and M. Nilsson.
+Parallel quantum computation and quantum codes,
+<i>SIAM Journal on Computing</i> 31(3):799-815, 2002.
+arXiv:[http://arxiv.org/abs/quant-ph/9808027 quant-ph/9808027].
+
+<span id="mon80" style="color:maroon">[Mon80]</span>
+B. Monien.
+On a subclass of pseudopolynomial problems,
+<i>Mathematical Foundations of Computer Science (MFCS'80)</i>, Springer LNCS 88, pp. 414-425, 1980.
+
+<span id="moo99" style="color:maroon">[Moo99]</span>
+C. Moore.
+Quantum circuits: fanout, parity, and counting,
+ECCC [http://eccc.uni-trier.de/eccc-reports/1999/TR99-032/ TR99-032].
+
+<span id="mor01" style="color:maroon">[Mor01]</span>
+T. Morioka.
+Classification of search problems and their definability in bounded arithmetic,
+master's thesis, University of Toronto, 2001.
+ECCC [http://eccc.uni-trier.de/eccc-reports/2001/TR01-082/ TR01-082].
+
+<span id="mp75" style="color:maroon">[MP75]</span>
+D. E. Muller and F. P. Preparata.
+Bounds to complexities of networks for sorting and for switching,
+<i>Journal of the ACM</i> 22:195-201, 1975.
+
+<span id="mp91" style="color:maroon">[MP91]</span>
+N. Megiddo and C. H. Papadimitriou.
+On total functions, existence theorems, and computational complexity,
+<i>Theoretical Computer Science</i> 81(2):317-324, 1991.
+
+<span id="mr95" style="color:maroon">[MR95]</span>
+R. Motwani and P. Raghavan.
+<i>Randomized Algorithms</i>,
+Cambridge University Press, 1995.
+
+<span id="ms02" style="color:maroon">[MS02]</span>
+K. Mulmuley and M. Sohoni.
+Geometric complexity theory I: An approach to the P vs. NP and related problems,
+<i>SIAM Journal on Computing</i> 31(2):496-526, 2002.
+
+<span id="muc56" style="color:maroon">[Muc56]</span>
+A. A. Muchnik.
+On the unsolvability of the problem of reducibility in the theory of algorithms,
+<i>Doklady Akademii Nauk SSSR</i> 108:194-197, 1956.
+
+<span id="mv99" style="color:maroon">[MV99]</span>
+P. B. Miltersen and N. V. Vinodchandran.
+Derandomizing Arthur-Merlin games using hitting sets,
+<i>Proceedings of IEEE FOCS'99</i>, pp. 71-80, 1999.
+
+<span id="mvv87" style="color:maroon">[MVV87]</span>
+K. Mulmuley, U. V. Vazirani, and V. V. Vazirani.
+Matching is as easy as matrix inversion,
+<i>Proceedings of ACM STOC'87</i>, pp. 345-354, 1987.
+
+<span id="mvw99" style="color:maroon">[MVW99]</span>
+P. B. Miltersen, N. V. Vinodchandran, and O. Watanabe.
+Super-polynomial versus half-exponential circuit size in the exponential hierarchy,
+<i>Proceedings of the 5th Annual Conference on Computing and Combinatorics (COCOON'99)</i>, pp. 210-220, Lecture Notes in Computer Science 1627, Springer-Verlag, 1999.
+
+<span id="mw05" style="color:maroon">[MW05]</span>
+C. Marriott and J. Watrous.
+Quantum Arthur-Merlin Games,
+<i>Computational Complexity</i>, 14(2):122-152, 2005.
+arXiv:[http://arxiv.org/abs/cs/0506068 cs/0506068].
+
+===== N =====
+
+<span id="nc00" style="color:maroon">[NC00]</span>
+M. Nielsen and I. Chuang.
+<i>Quantum Computation and Quantum Information</i>,
+Cambridge University Press, 2000.
+
+<span id="nhk00" style="color:maroon">[NHK00]</span>
+M. Nakanishi, K. Hamaguchi, and T. Kashiwabara.
+Ordered quantum branching programs are more powerful than ordered probabilistic branching programs under a bounded-width restriction,
+<i>Proceedings of COCOON'2000 (Computing and Combinatorics)</i>, Springer LNCS 1858, pp. 467-476, 2000.
+
+<span id="nie02" style="color:maroon">[Nie02]</span>
+G. Niemann and J. R. Woinowski.
+The Growing Context-Sensitive Languages Are the Acyclic Context-Sensitive Languages,
+<i>Developments in Language Theory</i>. LNCS 2295, pp. 197-205.
+</span>
+
+<span id="nis02" style="color:maroon">[Nis02]</span>
+T. Nishino.
+Mathematical models of quantum computation,
+New Gen. Comput. 20 (2002), no 4, 317-337.
+
+<span id="nis92" style="color:maroon">[Nis92]</span>
+N. Nisan.
+RL is contained in SC,
+<i>Proceedings of ACM STOC'92</i>, pp. 619-623, 1992.
+
+<span id="nr97" style="color:maroon">[NR97]</span>
+M. Naor and O. Reingold.
+Number-theoretic constructions of efficient pseudorandom functions,
+<i>Proceedings of IEEE FOCS'97</i>, pp. 458-467, 1997.
+
+<span id="nr98" style="color:maroon">[NR98]</span>
+R. Niedermeier and P. Rossmanith.
+Unambiguous computations and locally definable acceptance types,
+<i>Theoretical Computer Science</i> 194:137-161, 1998.
+
+<span id="nrr01" style="color:maroon">[NRR01]</span>
+M. Naor, O. Reingold, and A. Rosen.
+Pseudo-random functions and factoring,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2001/TR01-064/ TR01-064].
+
+<span id="ns05" style="color:maroon">[NS05]</span>
+A. Nickelsen and B. Schelm.
+Average-case computations - comparing AvgP, HP, and Nearly-P,
+<i>Proceedings of IEEE Complexity'2005</i>, pp. 235-242, 2005.
+[http://www.thi.uni-hannover.de/forschung/publikationen/daten/ni-sc05.pdf http://www.thi.uni-hannover.de/forschung/publikationen/daten/ni-sc05.pdf].
+
+<span id="nsw92" style="color:maroon">[NSW92]</span>
+N. Nisan, E. Szemer&eacute;di, and A. Wigderson.
+Undirected connectivity in O(log<sup>1.5</sup>n) space,
+<i>Proceedings of IEEE FOCS'92</i>, pp. 24-29, 1992.
+
+<span id="nt95" style="color:maroon">[NT95]</span>
+N. Nisan and A. Ta-Shma.
+Symmetric logspace is closed under complement,
+<i>Proceedings of ACM STOC'95</i>, pp. 140-146, 1995.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1994/TR94-003/ TR94-003].
+
+<span id="nw94" style="color:maroon">[NW94]</span>
+N. Nisan and A. Wigderson.
+Hardness versus randomness,
+<i>Journal of Computer and System Sciences</i> 49:149-167, 1994.
+
+<span id="ny03" style="color:maroon">[NY03]</span>
+H. Nishimura and T. Yamakami.
+Polynomial time quantum computation with advice,
+arXiv:[http://arxiv.org/abs/quant-ph/0305100 quant-ph/0305100],
+ECCC [http://eccc.uni-trier.de/eccc-reports/2003/TR03-059/ TR03-059], 2003.
+
+<span id="ny03b" style="color:maroon">[NY03b]</span>
+H. Nishimura and T. Yamakami.
+An algorithmic argument [http://www.cheatcodesforsim3.com/ for] query complexity lower bounds of advised quantum computation,
+arXiv:[http://arxiv.org/abs/quant-ph/0312003 quant-ph/0312003], 2003.
+
+===== O =====
+
+<span id="ogi94" style="color:maroon">[Ogi94]</span>
+M. Ogihara.
+On serializable languages,
+<i>International Journal of Foundations of Computer Science</i> 5(3-4):303-318, 1994.
+
+<span id="oh93" style="color:maroon">[OH93]</span>
+M. Ogihara and L. Hemachandra.
+A complexity theory for feasible closure properties,
+<i>Journal of Computer and System Sciences</i> 46(3):295-325, 1993.
+
+<span id="oka96" style="color:maroon">[Oka96]</span>
+T. Okamoto.
+On relationships between statistical zero-knowledge proofs,
+<i>Proceedings of ACM STOC'96</i>, 1996.
+
+<span id="oks94" style="color:maroon">[OKS+94]</span>
+P. Orponen, K.-I. Ko, U. Sch&ouml;ning, and O. Watanabe.
+Instance complexity,
+<i>Journal of the ACM</i> 41:96-121, 1994.
+
+<span id="ost91" style="color:maroon">[Ost91]</span>
+R. Ostrovsky.
+One-way functions, hard on average problems and statistical zero-knowledge proofs,
+<i>Proceedings of IEEE Complexity'91</i>, pp. 51-59, 1991.
+
+<span id="ow93" style="color:maroon">[OW93]</span>
+R. Ostrovsky and A. Wigderson.
+One-way functions are essential for non-trivial zero-knowledge,
+<i>Proceedings of the 2nd Israel Symposium on Theory of Computing and Systems (ISTCS-93)</i>, 1993.
+
+===== P =====
+
+<span id="pap83" style="color:maroon">[Pap83]</span>
+C. H. Papadimitriou.
+Games against nature,
+<i>Proceedings of IEEE FOCS'83</i>, pp. 446-450, 1983.
+
+<span id="pap90" style="color:maroon">[Pap90]</span>
+C. H. Papadimitriou.
+On graph-theoretic lemmata and complexity classes,
+<i>Proceedings of IEEE FOCS'90</i>, pp. 794-801, 1990.
+
+<span id="pap94" style="color:maroon">[Pap94]</span>
+C. H. Papadimitriou.
+<i>Computational Complexity</i>,
+Addison-Wesley, 1994.
+
+<span id="pap94b" style="color:maroon">[Pap94b]</span>
+C. H. Papadimitriou.
+On the complexity of the parity argument and other inefficient proofs of existence,
+<i>Journal of Computer and System Sciences</i> 48(3):498-532, 1994.
+
+{{Reference
+    |tag=Per07
+    |authors=K. Pervyshev
+    |title=On heuristic time hierarchies
+    |journal=Proceedings of the 22nd Annual IEEE Conference on Computational Complexity
+    |srcdetail=347-357, 2007
+}}
+
+<span id="pos44" style="color:maroon">[Pos44]</span>
+E. L. Post.
+Recursively enumerable sets of positive integers and their decision problems,
+<i>Bulletin of the American Mathematical Society</i> 50:284-316, 1944.
+
+<span id="pp00" style="color:maroon">[PP00]</span>
+S. Parker and M. B. Plenio.
+Efficient factorization with a single pure qubit and log N mixed qubits,
+<i>Physical Review Letters</i> 85:3049, 2000.
+arXiv:[http://arxiv.org/abs/quant-ph/0001066 quant-ph/0001066].
+
+<span id="pps83" style="color:maroon">[PPS+83]</span>
+W. J. Paul, N. Pippenger, E. Szemer&eacute;di, and W. T. Trotter.
+On determinism versus nondeterminism and related problems,
+<i>Proceedings of IEEE FOCS'83</i>, pp. 429-438, 1983.
+
+<span id="pra74" style="color:maroon">[Pra74]</span>
+V. R. Pratt.
+The power of negative thinking in multiplying Boolean matrices,
+<i>STOC '74: Proceedings of the sixth annual ACM Symposium on Theory of Computing</i>, 80-83, 1974.
+
+<span id="pra75" style="color:maroon">[Pra75]</span>
+V. R. Pratt.
+Every prime has a succinct certificate,
+<i>SIAM Journal on Computing</i>, 4:214-220, 1975.
+
+<span id="pv04" style="color:maroon">[PV04]</span>
+A. Pavan and N. V. Vinodchandran.
+[http://ftp.eccc.uni-trier.de/eccc-reports/2004/TR04-053/ TR04-053].
+
+<span id="py84" style="color:maroon">[PY84]</span>
+C. H. Papadimitriou and M. Yannakakis.
+The complexity of facets (and some facets of complexity),
+<i>Journal of Computer and System Sciences</i> 28:244-259, 1984.
+
+<span id="py88" style="color:maroon">[PY88]</span>
+C. H. Papadimitriou and M. Yannakakis.
+Optimization, approximation, and complexity classes,
+<i>Proceedings of ACM STOC'88</i>, pp. 229-234, 1988.
+
+<span id="py96" style="color:maroon">[PY96]</span>
+C. H. Papadimitriou and M. Yannakakis.
+On limited nondeterminism and the complexity of the VC dimension,
+<i>Journal of Computer and System Sciences</i> 53(2):161-170, 1996.
+
+<span id="pz83" style="color:maroon">[PZ83]</span>
+C. H. Papadimitriou and S. Zachos.
+Two remarks on the power of counting,
+<i>Proceedings of the 6th GI Conference in Theoretical Computer Science</i>, Lecture Notes in Computer Science Vol. 145, Springer-Verlag, pp. 269-276, 1983.
+
+===== R =====
+
+<span id="ra00" style="color:maroon">[RA00]</span>
+K. Reinhardt and E. Allender.
+Making nondeterminism unambiguous,
+<i>SIAM Journal on Computing</i> 29:1118-1131, 2000.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1997/TR97-014/ TR97-014],
+DIMACS [http://dimacs.rutgers.edu/TechnicalReports/abstracts/1997/97-46.html TR 97-46].
+
+<span id="rab60" style="color:maroon">[Rab60]</span>
+M. O. Rabin.
+Degree of difficulty of computing a function and a partial ordering of recursive sets,
+Tech Report No. 2, Hebrew University, 1960.
+
+<span id="rac82" style="color:maroon">[Rac82]</span>
+C. Rackoff.
+Relativized questions involving probabilistic algorithms,
+<i>Journal of the ACM</i> 29(1):261-268, 1982.
+
+<span id="raz05" style="color:maroon">[Raz05]</span>
+R. Raz.
+Quantum information and the PCP theorem,
+to appear in <i>Proc. IEEE FOCS</i>, 2005.
+ECCC [http://www.eccc.uni-trier.de/eccc-reports/2005/TR05-038/index.html TR05-038].
+
+<span id="raz85" style="color:maroon">[Raz85]</span>
+A. A. Razborov.
+Lower bounds on the monotone complexity of some Boolean functions,
+<i>Dokl. Akad. Nauk SSSR</i> 281(4):798-801, 1985.
+English translation in <i>Soviet Math. Dokl.</i> 31:354-357, 1985.
+
+<span id="raz85b" style="color:maroon">[Raz85b]</span>
+A. A. Razborov.
+A lower bound on the monotone network complexity of the logical permanent,
+<i>Mat. Zametky</i> 37(6):887-900, 1985.
+English translation in <i>Russian Mathematical Notes</i> 37:485-493, 1985.
+
+<span id="raz87" style="color:maroon">[Raz87]</span>
+A. A. Razborov.
+Lower bounds for the size of circuits of bounded depth with basis {&amp;,},
+<i>Mathematicheskie Zametki</i> 41(4):598-607, 1987.
+English translation in <i>Math. Notes. USSR</i> 41(4):333-338, 1987.
+
+<span id="raz94" style="color:maroon">[Raz94]</span>
+A. A. Razborov.
+On provably disjoint NP-pairs,
+ECCC [http://eccc.uni-trier.de/eccc-reports/1994/TR94-006/ TR94-006], 1994.
+
+<span id="reg02" style="color:maroon">[Reg02]</span>
+K. Regan.
+Understanding the Mulmuley-Sohoni approach to P vs. NP,
+<i>Bulletin of the EATCS</i> 78, October 2002.
+[http://people.cs.uchicago.edu/~fortnow/beatcs/column78.pdf http://people.cs.uchicago.edu/~fortnow/beatcs/column78.pdf].
+
+<span id="rei04" style="color:maroon">[Rei04]</span>
+O. Reingold.
+Undirected st-connectivity in log-space,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2004/TR04-094/ TR04-094], 2004.
+
+<span id="rr95" style="color:maroon">[RR95]</span>
+K. Regan, J. Royer.
+On Closure Properties of Bounded two-Sided Error Complexity Classes,
+Math. Systems Theory, 28 (1995) 229-243.
+ftp://ftp.cis.syr.edu/users/royer/coinflips.ps
+
+<span id="rr97" style="color:maroon">[RR97]</span>
+A. A. Razborov and S. Rudich.
+Natural proofs,
+<i>Journal of Computer and System Sciences</i> 55(1):24-35, 1997.
+ECCC [http://eccc.uni-trier.de/eccc-reports/1994/TR94-010/ TR94-010].
+
+<span id="rs98" style="color:maroon">[RS98]</span>
+A. Russell and R. Sundaram.
+Symmetric alternation captures BPP,
+<i>Computational Complexity</i> 7(2):152-162, 1998.
+
+<span id="rtv05" style="color:maroon">[RTV05]</span>
+O. Reingold and L. Trevisan and S. Vadhan.
+Pseudorandom walks in biregular graphs and the RL vs. L problem,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2005/TR05-022/ TR05-022], 2004.
+
+<span id="rub88" style="color:maroon">[Rub88]</span>
+R. Rubinstein.
+<i>Structural Complexity Classes of Sparse Sets: Intractability, Data Compression, and Printability</i>,
+PhD Thesis, Northeastern University (Boston, MA), 1988.
+
+<span id="rud97" style="color:maroon">[Rud97]</span>
+S. Rudich.
+Super-bits, demi-bits, and NP/qpoly-natural proofs,
+<i>RANDOM: International Workshop on Randomization and Approximation Techniques in Computer Science</i>, Lecture Notes in Computer Science, Springer-Verlag, 1997.
+
+<span id="rus85" style="color:maroon">[Rus85]</span>
+D. A. Russo.
+Structural Properties of Complexity Classes.
+PhD thesis, UC Santa Barbara, 1985.
+
+<span id="ruv12" style="color:maroon">[RUV12]</span>
+Ben W. Reichardt, Falk Unger, Umesh Vazirani.
+A classical leash for a quantum system: Command of quantum systems via rigidity of CHSH games,
+<i>Nature</i>  496:456–460, 2013.
+
+<span id="ruz81" style="color:maroon">[Ruz81]</span>
+W. L. Ruzzo.
+On uniform circuit complexity,
+<i>Journal of Computer and System Sciences</i> 22(3):365-383, 1971.
+
+<span id="rw01" style="color:maroon">[RW01]</span>
+S. Reith and K. Wagner.
+On Boolean lowness and Boolean highness,
+<i>Theoretical Computer Science</i> 261(2):305-321, 2001.
+
+===== S =====
+
+{{Reference
+    |tag=San07
+    |title=Circuit lower bounds for Merlin-Arthur classes
+    |journal=Electronic Colloquium on Computational Complexity
+    |authors=R. Santhanam
+    |srcdetail=Report TR07-005
+}}
+
+<span id="sav70" style="color:maroon">[Sav70]</span>
+W. Savitch.
+Relationships between nondeterministic and deterministic tape complexities,
+<i>Journal of Computer and System Sciences</i> 4(2):177-192, 1970.
+
+<span id="sch02a" style="color:maroon">[Sch02a]</span>
+M. Schaefer and C. Umans.
+Completeness in the Polynomial-Time Hierarchy: A Compendium,
+<i>Sigact News</i> September, 2002.
+
+<span id="sch02b" style="color:maroon">[Sch02b]</span>
+M. Schaefer and C. Umans.
+Completeness in the Polynomial-Time Hierarchy: Part II,
+<i>Sigact News</i> December, 2002.
+
+<span id="sch03" style="color:maroon">[Sch03]</span>
+P. Schnoebelen.
+Oracle circuits for branching-time model checking,
+<i>Proceedings of ICALP 2003</i>, pp. 790-801, 2003.
+
+<span id="sch78" style="color:maroon">[Sch78]</span>
+C. P. Schnorr.
+Satisfiability Is Quasilinear Complete in NQL,
+<i>Journal of the ACM</i> 25(1):136-145, 1978.
+
+<span id="sch83" style="color:maroon">[Sch83]</span>
+U. Sch&ouml;ning.
+A low and a high hierarchy within NP,
+<i>Journal of Computer and System Sciences</i> 27:14-28, 1983.
+
+<span id="sch86" style="color:maroon">[Sch86]</span>
+U. Sch&ouml;ning.
+Complete Sets and Closeness to Complexity Classes,
+<i>Mathematical Systems Theory</i> 19:29-41, 1986.
+DOI:[http://dx.doi.org/10.1007/BF01704904 10.1007/BF01704904]
+
+<span id="sel79" style="color:maroon">[Sel79]</span>
+A. Selman.
+P-selective sets, tally languages, and the behavior of polynomial time reducibilities in NP,
+<i>Mathematical Systems Theory</i> 13(1):55-65, 1979.
+
+<span id="sf98" style="color:maroon">[SF98]</span>
+H. T. Siegelmann and S. Fishman.
+Analog computation with dynamical systems,
+Physica 120D, p. 214, 1998.
+
+<span id="sfm78" style="color:maroon">[SFM78]</span>
+J. Seiferas, M. Fischer, and A. Meyer.
+Separating nondeterministic time complexity classes,
+<i>Journal of the ACM</i> 25:146-167, 1978.
+
+<span id="sha90" style="color:maroon">[Sha90]</span>
+A. Shamir.
+IP=PSPACE,
+<i>Proceedings of IEEE FOCS'90</i>, pp. 11-15, 1990.
+
+<span id="she59" style="color:maroon">[She59]</span>
+J. C. Shepherdson.
+The reduction of two-way automata to one-way automata,
+<i>IBM Journal of Research and Development</i>, 3:198-200, 1959.
+
+<span id="she08" style="color:maroon">[She08]</span>
+A. A. Sherstov.
+Separating AC<sup>0</sup> from depth-2 majority circuits,
+<i>Computational Complexity</i>, 17(2):149-178, 2008.
+[http://www.cs.utexas.edu/~sherstov/publications/pdf/cc08hsmat.pdf http://www.cs.utexas.edu/~sherstov/publications/pdf/cc08hsmat.pdf]
+
+<span id="shi03" style="color:maroon">[Shi03]</span>
+Y. Shi.
+Quantum and classical tradeoffs,
+arXiv:[http://arxiv.org/abs/quant-ph/0312213 quant-ph/0312213],
+ECCC [http://eccc.uni-trier.de/eccc-reports/2004/TR04-023/ TR04-023], 2003.
+
+<span id="sho97" style="color:maroon">[Sho97]</span>
+P. Shor.
+Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer,
+<i>SIAM Journal on Computing</i> 26(5):1484-1509, 1997.
+arXiv:[http://arxiv.org/abs/quant-ph/9508027 quant-ph/9508027].
+
+<span id="sho99" style="color:maroon">[Sho99]</span>
+R. A. Shore.
+The recursively enumerable degrees,
+<i>Handbook of Recursion Theory</i> (E. Griffor, ed.), pp. 169-197, North-Holland, Amsterdam, 1999.
+
+<span id="sip82" style="color:maroon">[Sip82]</span>
+M. Sipser.
+On relativization and the existence of complete sets,
+<i>Proceedings of ICALP'82</i>, Springer-Verlag Lecture Notes in Computer Science volume 140, pp. 523-531, 1982.
+
+<span id="sip92" style="color:maroon">[Sip92]</span>
+M. Sipser.
+The history and status of the P versus NP question,
+<i>Proceedings of ACM STOC'92</i>, pp. 603-618, 1992.
+
+<span id="sm02" style="color:maroon">[SM02]</span>
+L. J. Stockmeyer and A. R. Meyer.
+Cosmological lower bound on the circuit complexity of a small problem in logic,
+<i>Journal of the ACM</i> 49(6):753-784, 2002.
+[http://theory.lcs.mit.edu/~meyer/stock-circuit-jacm.pdf http://theory.lcs.mit.edu/~meyer/stock-circuit-jacm.pdf].
+
+{{Reference
+    |tag=SM03
+    |authors=R. Santhanam, D. Melkebeek
+    |title=Holographic proofs and derandomization
+    |journal=Proceedings of the 18th Annual IEEE Conference on Computational Complexity
+    |srcdetail=269-283
+}}
+
+<span id="smo87" style="color:maroon">[Smo87]</span>
+R. Smolensky.
+Algebraic methods in the theory of lower bounds for Boolean circuit complexity,
+<i>Proceedings of ACM STOC'87</i>, pp. 77-82, 1987.
+
+<span id="sp98" style="color:maroon">[SP98]</span>
+U. Sch&ouml;ning and R. Pruim.
+<i>Gems of Theoretical Computer Science</i>,
+Springer-Verlag, 1998.
+
+<span id="spa02" style="color:maroon">[Spa02]</span>
+R. &#352;palek.
+Quantum circuits with unbounded fan-out,
+arXiv:[http://arxiv.org/abs/quant-ph/0208043 quant-ph/0208043], 2002.
+
+<span id="ss04" style="color:maroon">[SS04]</span>
+A. Selman and S. Sengupta.
+Polylogarithmic-round interactive proofs for coNP collapse the exponential hierarchy,
+<i>Proceedings of IEEE Complexity 2004</i>, pp. 82-90, 2004.
+ECCC [http://eccc.uni-trier.de/eccc-reports/2004/TR04-007/ TR04-007].
+
+<span id="ss77" style="color:maroon">[SS77]</span>
+R. Solovay and V. Strassen.
+A fast Monte-Carlo test for primality,
+<i>SIAM Journal on Computing</i>, 6:84-86, 1977.
+
+<span id="sto76" style="color:maroon">[Sto76]</span>
+L. J. Stockmeyer.
+The polynomial hierarchy,
+<i>Theoretical Computer Science</i> 3:1-22, 1976.
+
+<span id="sto85" style="color:maroon">[Sto85]</span>
+L. J. Stockmeyer.
+On approximation algorithms for #P,
+<i>SIAM Journal on Computing</i> 14:849-861, 1985.
+
+<span id="stt05" style="color:maroon">[STT05]</span>
+Holger Spakowski, Mayur Thakur, and Rahul Tripathi.
+Quantum and Classical Complexity Classes: Separations, Collapses, and Closure Properties,
+Inform. and Comput. 200 (2005), no. 1, 1--34.
+[http://web.umr.edu/~thakurk/publications/quantum-j.pdf http://web.umr.edu/~thakurk/publications/quantum-j.pdf]
+
+<span id="su05" style="color:maroon">[SU05]</span>
+R. Shaltiel and C. Umans.
+Pseudorandomness for approximate counting and sampling,
+<i>Proceedings of IEEE Complexity'2005</i>, pp. 212-226, 2005.
+[http://www.cs.haifa.ac.il/~ronen/online_papers/derand-ccc-final.ps http://www.cs.haifa.ac.il/~ronen/online_papers/derand-ccc-final.ps].
+
+<span id="sub94" style="color:maroon">[Sub94]</span>
+A. Subramanian. 
+A New Approach to Stable Matching Problems, 
+<i>SIAM Journal on Computing</i> 23(4), 671-701, 1994. 
+
+<span id="sud78" style="color:maroon">[Sud78]</span>
+I. Sudborough.
+On the tape complexity of deterministic context-free languages,
+<i>Journal of the ACM</i> 25(3):405-414, 1978.
+
+<span id="sv97" style="color:maroon">[SV97]</span>
+A. Sahai and S. Vadhan.
+A complete promise problem for statistical zero-knowledge,
+<i>Proceedings of IEEE FOCS'97</i>.
+[http://www.eecs.harvard.edu/~salil/papers/complete-abs.html http://www.eecs.harvard.edu/~salil/papers/complete-abs.html].
+
+<span id="sz95" style="color:maroon">[SZ95]</span>
+M. Saks and S. Zhou.
+RSPACE(s) is contained in DSPACE(s<sup>3/2</sup>),
+<i>Proceedings of IEEE FOCS'95</i>, pp. 344-353, 1995.
+
+<span id="sze87" style="color:maroon">[Sze87]</span>
+R. Szelepcs&eacute;nyi.
+The method of forcing for nondeterministic automata,
+<i>Bulletin of the EATCS</i> 33:96-100, 1987.
+
+{{Reference
+    |id="szep94" |tag=Szep94
+    |title=Turing Machines With Sublogarithmic Space
+    |journal=Lecture Notes in Computer Science
+    |authors=Andrzej Szepietowski
+    |srcdetail=volume 843
+ }}
+
+===== T =====
+
+<span id="tar88" style="color:maroon">[Tar88]</span>
+E. Tardos.
+The gap between monotone and non-monotone circuit complexity is exponential,
+<i>Combinatorica</i>, 8:141-142, 1988.
+
+<span id="tar89" style="color:maroon">[Tar89]</span>
+G. Tardos.
+Query complexity, or why is it difficult to separate NP<sup>A</sup> intersect coNP<sup>A</sup> from P<sup>A</sup> by random oracles A,
+<i>Combinatorica</i>, 9:385-392, 1989.
+
+<span id="tha98" style="color:maroon">[Tha98]</span>
+J. S. Thathachar.
+On Separating the Read-k-Times Branching Program Hierarchy,
+<i>Proceedings of the 30th ACM Symposium on Theory of Computing</i>, pp. 653-662, 1998.
+ECCC [http://eccc.hpi-web.de/eccc-reports/1998/TR98-002/ TR98-02], DOI:[http://doi.acm.org/10.1145/276698.276881 10.1145/276698.276881].
+
+<span id="tod89" style="color:maroon">[Tod89]</span>
+S. Toda.
+On the computational power of PP and P,
+<i>Proceedings of IEEE FOCS'89</i>, pp. 514-519, 1989.
+
+<span id="tor00" style="color:maroon">[Tor00]</span>
+J. Tor&aacute;n.
+On the hardness of graph isomorphism,
+<i>Proceedings of IEEE FOCS'2000</i>, pp. 180-186, 2000.
+
+<span id="tor88" style="color:maroon">[Tor88]</span>
+J. Tor\'an.
+Structural Properties of the Counting Hierarchies,
+Ph.D Theis, 1988.
+
+<span id="tor90" style="color:maroon">[Tor90]</span>
+J. Tor&aacute;n.
+Counting the number of solutions,
+<i>Proceedings of 15th Conference on Mathematical Foundations of Computer Science (MFCS)</i>, pp. 121-135, Springer-Verlag Lecture Notes in Computer Science 452, 1990.
+
+<span id="tor91" style="color:maroon">[Tor91]</span>
+J. Tor&aacute;n.
+Complexity classes defined by counting quantifiers,
+<i>Journal of the ACM</i> 38:753-774, 1991.
+
+<span id="tur36" style="color:maroon">[Tur36]</span>
+A. M. Turing.
+On computable numbers, with an application to the <i>Entscheidungsproblem</i>,
+<i>Proceedings of the London Mathematical Society</i> 2(42):230-265, 1936; 2(43):544-546, 1937.
+
+<span id="tv02" style="color:maroon">[TV02]</span>
+L. Trevisan and S. Vadhan.
+Pseudorandomness and average-case complexity via uniform reductions,
+<i>Proceedings of CCC'2002</i>, pp. 129-138, 2002.
+
+===== U =====
+
+<span id="uma98" style="color:maroon">[Uma98]</span>
+C. Umans.
+The minimum equivalent DNF problem and shortest implicants,
+<i>Proceedings of IEEE FOCS'98</i>, pp. 556-563, 1998.
+
+===== V =====
+
+<span id="vad06" style="color:maroon">[Vad06]</span>
+S. Vadhan.
+An Unconditional Study of Computational Zero Knowledge,
+ECCC [http://eccc.hpi-web.de/eccc-reports/2006/TR06-056/ TR06-056].
+
+<span id="val03" style="color:maroon">[Val03]</span>
+L. G. Valiant.
+Three problems in computer science,
+<i>Journal of the ACM</i> 50(1):96-99, 2003.
+
+<span id="val76" style="color:maroon">[Val76]</span>
+L. G. Valiant.
+Relative complexity of checking and evaluating,
+<i>Information Processing Letters</i>, 5:20-23, 1976.
+
+<span id="val79" style="color:maroon">[Val79]</span>
+L. G. Valiant.
+The complexity of computing the permanent,
+<i>Theoretical Computer Science</i>, 8:189-201, 1979.
+
+<span id="val79b" style="color:maroon">[Val79b]</span>
+L. G. Valiant.
+Completeness classes in algebra,
+<i>Proceedings of ACM STOC'79</i>, pp. 249-261, 1979.
+
+<span id="var82" style="color:maroon">[Var82]</span>
+M. Vardi.
+Complexity of relational query languages,
+<i>Proceedings of ACM STOC'82</i>, pp. 137-146, 1982.
+
+<span id="ven91" style="color:maroon">[Ven91]</span>
+H. Venkateswaran.
+Properties that characterize LOGCFL,
+<i>Journal of Computer and System Sciences</i> 43(2):380-404, 1991.
+
+<span id="ver92" style="color:maroon">[Ver92]</span>
+N. K. Vereshchagin.
+On the power of PP,
+<i>Proceedings of IEEE Complexity'92</i>, pp. 138-143, 1992.
+
+<span id="ver95" style="color:maroon">[Ver95]</span>
+N. K. Vereshchagin.
+Oracle separation of complexity classes and lower bounds for perceptrons solving separation problems,
+<i>Izvestiya Mathematics</i> 59(6):1103-1122, 1995.
+
+<span id="vid03" style="color:maroon">[Vid03]</span>
+G. Vidal.
+Efficient classical simulation of slightly entangled quantum computations,
+<i>Physical Review Letters</i> 91:147902, 2003.
+arXiv:[http://arxiv.org/abs/quant-ph/0301063 quant-ph/0301063].
+
+<span id="vin04" style="color:maroon">[Vin04]</span>
+N. V. Vinodchandran.
+Counting complexity of solvable group problems,
+<i>SIAM Journal on Computing</i> 33(4):852-869, 2004,
+[http://www.cse.unl.edu/~vinod/papers/SIAMFinal.ps http://www.cse.unl.edu/~vinod/papers/SIAMFinal.ps].
+
+<span id="vin04b" style="color:maroon">[Vin04b]</span>
+N. V. Vinodchandran.
+A note on the circuit complexity of PP,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2004/TR04-056/ TR04-056], 2004.
+
+<span id="vsb83" style="color:maroon">[VSB+83]</span>
+L. G. Valiant, S. Skyum, S. Berkowitz, and C. Rackoff.
+Fast parallel computation of polynomials using few processors,
+<i>SIAM Journal on Computing</i> 12(4):641-644, 1983.
+
+<span id="vv85" style="color:maroon">[VV85]</span>
+U. V. Vazirani and V. V. Vazirani.
+Random polynomial time equals semi-random polynomial time,
+<i>Proceedings of IEEE FOCS'85</i>, pp. 417-428, 1985.
+
+<span id="vv86" style="color:maroon">[VV86]</span>
+L. G. Valiant and V. V. Vazirani.
+NP is as easy as detecting unique solutions,
+<i>Theoretical Computer Science</i> 47(3):85-93, 1986.
+
+<span id="vya03" style="color:maroon">[Vya03]</span>
+M. Vyalyi.
+QMA=PP implies that PP contains PH,
+ECCC [http://eccc.uni-trier.de/eccc-reports/2003/TR03-021/ TR03-021], 2003.
+
+===== W =====
+
+<span id="wag86" style="color:maroon">[Wag86]</span>
+K. W. Wagner.
+The complexity of combinatorial problems with succinct input representation,
+<i>Acta Informatica</i> 23:325-356, 1986.
+
+<span id="wag88" style="color:maroon">[Wag88]</span>
+K. W. Wagner.
+Bounded query computation,
+<i>Proceedings of IEEE Complexity'88</i>, pp. 260-277, 1988.
+
+<span id="ww85" style="color:maroon">[WW85]</span>
+K. W. Wagner and G. Wechsung.
+On the Boolean closure of NP,
+<i>Proceedings of the International Conference on Fundamentals of Computation Theory</i>, LNCS volume 199, Springer-Verlag, pp. 485-493.
+
+<span id="wat00" style="color:maroon">[Wat00]</span>
+J. Watrous.
+Succinct quantum proofs for properties of finite groups,
+<i>Proceedings of IEEE FOCS'2000</i>, pp. 537-546, 2000.
+arXiv:[http://arxiv.org/abs/cs.CC/0009002 cs.CC/0009002].
+
+<span id="wat02" style="color:maroon">[Wat02]</span>
+J. Watrous.
+Limits on the power of quantum statistical zero-knowledge,
+to appear in <i>Proceedings of IEEE FOCS'2002</i>.
+arXiv:[http://arxiv.org/abs/quant-ph/0202111 quant-ph/0202111].
+
+<span id="wat09" style="color:maroon">[Wat09]</span>
+J. Watrous.
+Quantum Computational Complexity, <i>Encyclopedia of Complexity and Systems Science</i>, Springer, pp. 7174-7201, 2009.
+arXiv:[http://arxiv.org/abs/0804.3401 quant-ph/0804.3401].
+
+<span id="wat87" style="color:maroon">[Wat87]</span>
+O. Watanabe.
+Comparison of polynomial time completeness notions,
+<i>Theoretical Computer Science</i> 53:249-265, 1987.
+
+<span id="wat99" style="color:maroon">[Wat99]</span>
+J. Watrous.
+PSPACE has constant-round quantum interactive proof systems,
+<i>Proceedings of IEEE FOCS'99</i>, pp. 112-119, 1999.
+arXiv:[http://arxiv.org/abs/cs.CC/9901015 cs.CC/9901015].
+
+<span id="wat99b" style="color:maroon">[Wat99b]</span>
+J. Watrous.
+Space-bounded quantum complexity,
+<i>Journal of Computer and System Sciences</i> 59(2):281-326, 1999.
+[http://www.cpsc.ucalgary.ca/%7Ejwatrous/papers/jcss_space.ps http://www.cpsc.ucalgary.ca/%7Ejwatrous/papers/jcss_space.ps].
+
+<span id="weg87" style="color:maroon">[Weg87]</span>
+I. Wegener.
+The Complexity of Boolean Functions, New York: Wiley 1987.
+
+<span id="weg88" style="color:maroon">[Weg88]</span>
+I. Wegener.
+On the Complexity of Branching Programs and Decision Trees for Clique Functions,
+<i>Journal of the ACM</i> 35(2):461-471, 1988.
+DOI:[http://doi.acm.org/10.1145/42282.46161 10.1145/42282.46161].
+
+<span id="weh06" style="color:maroon">[Weh06]</span>
+S. Wehner.
+Entanglement in interactive proof systems with binary answers. In <i>Proceedings of
+the 23rd Annual Symposium on Theoretical Aspects of Computer Science</i>, volume 3884 of <i>Lecture
+Notes in Computer Science</i>, pages 162–171. Springer, 2006
+
+<span id="wig06" style="color:maroon">[Wig06]</span>
+A. Wigderson
+P, NP, and mathematics--a computational complexity perspective, 2006 mimeo.
+[www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/W06/W06.pdf].
+
+<span id="wil85" style="color:maroon">[Wil85]</span>
+C. Wilson.
+Relativized circuit complexity,
+<i>Journal of Computer and System Sciences</i> 31:169-181, 1985.
+
+<span id="wil11" style="color:maroon">[Wil11]</span>
+R. Williams. Non-uniform ACC circuit lower bounds.
+<i>To appear in IEEE Conference
+on Computational Complexity</i> 2011.
+
+<span id="wol94" style="color: maroon;">[Wol94]</span>
+Marty J. Wolf.
+Nondeterministic circuits, space complexity and quasigroups.
+<i>Theoretical Computer Science</i> 125:295–313, 1994.
+
+===== Y =====
+
+{{Reference
+    |tag=Yap83
+    |authors=C. Yap
+    |title=Some consequences of non-uniform conditions on uniform classes
+    |journal=Theoretical Computer Science
+    |srcdetail=(1983), 26, 287-300
+}}
+
+<span id="yam99" style="color:maroon">[Yam99]</span>
+T. Yamakami.
+Polynomial time samplable distributions,
+J. Complexity 15 (1999), no. 4, 557--574.
+ECCC [http://eccc.hpi-web.de/eccc-reports/1995/TR95-039/ TR95-039].
+
+<span id="yan81" style="color:maroon">[Yan81]</span>
+M. Yannakakis.
+Algorithms for acyclic database schemas,
+<i>Proceedings of VLDB</i> (Very Large Databases), 1981.
+
+<span id="yao85" style="color:maroon">[Yao85]</span>
+A. C.-C. Yao.
+Separating the polynomial hierarchy by oracles,
+<i>Proceedings of IEEE FOCS'85</i>, pp. 1-10, 1985.
+
+<span id="yao89" style="color:maroon">[Yao89]</span>
+A. C.-C. Yao.
+Circuits and local computation,
+<i>Proceedings of ACM STOC'89</i>, pp. 186-196, 1989.
+
+<span id="yao90" style="color:maroon">[Yao90]</span>
+A. C.-C. Yao.
+On ACC and threshold circuits,
+<i>Proceedings of IEEE FOCS'90</i>, pp. 619-627, 1990.
+
+<span id="yao90b" style="color:maroon">[Yao90b]</span>
+A. C.-C. Yao.
+Coherent functions and program checkers,
+<i>Proceedings of ACM STOC'90</i>, 1990.
+
+<span id="yao93" style="color:maroon">[Yao93]</span>
+A. C.-C. Yao.
+Quantum circuit complexity,
+<i>Proceedings of IEEE FOCS'93</i>, pp. 352-361, 1993.
+
+<span id="yes83" style="color:maroon">[Yes83]</span>
+Y. Yesha.
+On certain polynomial-time truth-table reducibilities of complete sets to sparse sets,
+<i>SIAM Journal on Computing</i>, 12(3):411-425, 1983.
+DOI:[http://dx.doi.org/10.1137/0212027 10.1137/0212027]
+
+===== Z =====
+
+<span id="zac88" style="color:maroon">[Zac88]</span>
+S. Zachos.
+Probabilistic quantifiers and games,
+<i>Journal of Computer and System Sciences</i> 36(3):433-451, 1988.
+
+<span id="zh86" style="color:maroon">[ZH86]</span>
+S. Zachos and H. Heller.
+A decisive characterization of BPP.
+''Information and Control'', 69(1&ndash;3):125&ndash;135, 1986.
+
+<span id="zuc91" style="color:maroon">[Zuc91]</span>
+D. Zuckerman.
+Simulating BPP using a general weak random source,
+<i>Algorithmica</i> 16 (1996), no. 4-5, 367--391
+[http://www.cs.utexas.edu/users/diz/pubs/bpp.ps http://www.cs.utexas.edu/users/diz/pubs/bpp.ps].

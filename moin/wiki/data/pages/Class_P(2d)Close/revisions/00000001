@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = P-Close - Problems Close to P =
+
+== Comments ==
 
 The class of decision problems solvable by a polynomial-time algorithm that outputs the wrong answer on only a sparse (that is, polynomially-bounded) set of instances.
 
 Defined in [Yes83].
 
 Contains Almost-P and is contained in P/poly [Sch86].
+== Relations ==

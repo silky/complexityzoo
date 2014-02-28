@@ -1,9 +1,14 @@
 
+<<TableOfContents()>>
+
 
 
 = BPP//log - BPP With Logarithmic Randomness-Dependent Advice =
+
+== Comments ==
 
 The class of problems solvable by a BPP machine that is given O(log n) advice bits, which can depend on both the machine's random coin flips and the input length n, but not on the input itself.
 
 Defined in [TV02], where it was also shown that if EXP is in BPP//log then
 EXP = BPP, and if PSPACE is in BPP//log then PSPACE = BPP.
+== Relations ==

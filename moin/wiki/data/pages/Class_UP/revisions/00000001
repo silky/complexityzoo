@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = UP - Unambiguous Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -19,3 +23,4 @@ NP is contained in RP^PromiseUP^ [VV86].  On the other hand, [BBF98] give an ora
 UP is not known or believed to contain complete problems.  [Sip82], [HH86] give oracles relative to which UP has no complete problems.
 
 NP is contained in RP^Promise-UP^ [VV86].  On the other hand, [BBF98] give an oracle relative to which P = UP but still P does not equal NP.
+== Relations ==

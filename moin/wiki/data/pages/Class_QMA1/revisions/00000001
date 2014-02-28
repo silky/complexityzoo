@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = QMA,,1,, - One Sided QMA =
+
+== Comments ==
 
 Same as QMA except that for a "yes" instance, there exists a state that is accepted with probability 1.
 
 Defined in [Bra06]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any . It was also shown there that Quantum 2-SAT is in P.
 
 This result was later improved in [GN13] where it was shown that Quantum 3-SAT is QMA,,1,,-complete.
+== Relations ==

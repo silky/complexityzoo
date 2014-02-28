@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = ⊕P - Parity P =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -17,3 +21,4 @@ Contains FewP [CH89].
 There exists an oracle relative to which P = ⊕P but P is not equal to NP (and indeed NP = EXP) [BBF98].
 
 Equals Mod,,2^m,,P for every positive integer m.
+== Relations ==

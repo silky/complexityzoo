@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = P^||NP^ - P With Parallel Queries To NP =
 
+== Comments ==
+
 Equals P^NP[log]^ ([BH91] and [Hem89] independently).
+== Relations ==

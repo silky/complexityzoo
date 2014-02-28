@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = AuxPDA - Auxiliary Pushdown Automata =
 
+== Comments ==
+
 Equivalent to NAuxPDA^p^ without the running-time restriction.
 
 Equals P [Coo71b].
+== Relations ==

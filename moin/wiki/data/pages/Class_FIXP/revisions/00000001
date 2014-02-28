@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FIXP - Fixed Point =
+
+== Comments ==
 
 The class of fixed point problems. In the framework of fixed point problems, an instance I is associated with a (continuous) function F,,I,,, and a solution of I is a fixed point of F,,I,,.
 
@@ -17,3 +21,4 @@ The Nash equilibrium problem for 3 or more players is FIXP-complete.
 Linear-FIXP = PPAD.
 
 Defined in [EY07].
+== Relations ==

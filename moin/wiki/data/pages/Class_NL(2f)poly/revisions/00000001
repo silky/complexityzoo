@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = NL/poly - Nonuniform NL =
+
+== Comments ==
 
 Has the same relation to NL as P/poly does to P.
 
 Is contained in ⊕L/poly [GW96], as well as SAC^1^.
 
 Equals UL/poly [RA00].
+== Relations ==

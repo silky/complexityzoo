@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = HeurPP - Heuristic PP =
 
+== Comments ==
+
 The class of distributional problems solvable by a PP machine. Defined in [Ill95], though he calls the class HPP.
+== Relations ==

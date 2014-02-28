@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = QH - Query Hierarchy Over NP =
+
+== Comments ==
 
 QH,,k,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,k,, over all nonnegative k.
 
 QH = BH [Wag88]; thus, either both hierarchies are infinite or both collapse to some finite level.
 
 QH,,i,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,i,, over all nonnegative i.
+== Relations ==

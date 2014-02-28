@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PSPACE - Polynomial-Space =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine in polynomial space.
 
@@ -20,3 +24,4 @@ Contained in EXP.  There exists an oracle relative to which this containment is 
 In descriptive complexity, PSPACE can be defined with 4 differents kind of formulae, FO() which is also FO(PFP) and SO() which is also SO(TC).
 
 A canonical PSPACE-complete problem is Quantified Boolean Formula (QBF): Given a Boolean formula with universal and existential quantifiers, decide whether it's true or false.
+== Relations ==

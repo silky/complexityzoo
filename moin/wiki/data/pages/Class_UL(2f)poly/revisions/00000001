@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = UL/poly - Nonuniform UL =
+
+== Comments ==
 
 Has the same relation to UL as P/poly does to P.
 
 Equals NL/poly [RA00]. (A corollary is that UL/poly is closed under complement).
 
 Note that in UL/poly, the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [RA00] show that they both equal NL/poly.
+== Relations ==

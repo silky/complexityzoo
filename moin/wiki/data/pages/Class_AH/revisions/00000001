@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AH - Arithmetic Hierarchy =
+
+== Comments ==
 
 The analog of PH in computability theory.
 
@@ -16,3 +20,4 @@ Then AH is the union of these classes for all nonnegative constant i.
 Each level of AH strictly contains the levels below it.
 
 An equivalent definition is:  is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and . A bounded quantifier is of the form  or  where   is considered to be free in . Then  is the sets of number validating a formula of the form  with .  is the set of formula who are negation of  formula.
+== Relations ==

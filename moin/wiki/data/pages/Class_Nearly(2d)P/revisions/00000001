@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = Nearly-P - Languages Superpolynomially Close to P =
 
+== Comments ==
+
 The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n^/n^k^ inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
 
 The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n/n^k inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
+== Relations ==

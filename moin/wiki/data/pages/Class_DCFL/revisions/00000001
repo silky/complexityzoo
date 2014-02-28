@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = DCFL - Deterministic CFL =
+
+== Comments ==
 
 The class of languages accepted by deterministic pushdown automata.
 
 Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL, contained in UCFL, and strictly contains REG.  The inclusion in UCFL is also strict.
 
 Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL and strictly contains REG.
+== Relations ==

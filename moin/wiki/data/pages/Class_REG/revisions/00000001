@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = REG - Regular Languages =
+
+== Comments ==
 
 The class of decision problems solvable by deterministic finite automata (DFAs).
 
@@ -18,3 +22,4 @@ See e.g. [Koz97], [Gur89] for basic results on regular languages.
 The class of decision problems solvable by deterministic finite automata (DFA's).
 
 Equals the class solvable by nondeterministic finite automata (NDFA's).
+== Relations ==

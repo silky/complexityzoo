@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PPA - Polynomial Parity Argument =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -19,3 +23,4 @@ Contained in TFNP.
 Contains PPAD.
 
 There exist oracles relative to which PPA does not contain PLS [BM04] and PPP [BCE+95].  There also exists an oracle relative to which PPA is not contained in PPP [BCE+95].
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = E - Exponential Time With Linear Exponent =
+
+== Comments ==
 
 Equals DTIME(2^O(n)^).
 
@@ -18,3 +22,4 @@ It follows that, if the problems complete for E under Turing reductions do not h
 [BF03] gave a proof that if E = NE, then no sparse set is collapsing, where they defined a set  to be collapsing if  and if for all  such that  and  are Turing reducible to each other,  and  are many-to-one reducible to each other.
 
 Contrast with EXP.
+== Relations ==

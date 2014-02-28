@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = R - Recursive Languages =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine.  Often identified with the class of 'effectively computable' functions (the Church-Turing thesis).
 
@@ -10,3 +14,4 @@ Defined in [Tur36], [Chu41], and other seminal early papers.
 Equals RE ∩ coRE.
 
 Strictly contains PR, the primitive recursive functions (see [Kle71]).
+== Relations ==

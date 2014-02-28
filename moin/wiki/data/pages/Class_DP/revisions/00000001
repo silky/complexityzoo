@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = DP - Difference Polynomial-Time =
 
+== Comments ==
+
 DP = BH,,2,,, the second level of the Boolean hierarchy.
 
 Defined in [PY84].
+== Relations ==

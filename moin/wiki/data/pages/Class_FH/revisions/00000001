@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FH - Fourier Hierarchy =
+
+== Comments ==
 
 FH,,k,, is the class of problems solvable by a uniform family of polynomial-size quantum circuits, with k levels of Hadamard gates and all other gates preserving the computational basis.  (Conditional phase flip gates are fine, for example.)  Thus
 
@@ -16,3 +20,4 @@ Defined in [Shi03].
 FH,,0,, = P
 FH,,1,, = BPP
 FH,,2,, contains factoring, because of Kitaev's phase estimation algorithm
+== Relations ==

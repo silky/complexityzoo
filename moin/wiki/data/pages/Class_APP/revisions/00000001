@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = APP - Amplified PP =
+
+== Comments ==
 
 Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist GapP functions f and g such that for all inputs x with n=|x|,
 
@@ -16,3 +20,4 @@ APP is closed under intersection, union, and complement.
 APP contains AWPP [Fen02].
 
 The abbreviation APP is also used for Approximable in Probabilistic Polynomial Time, see AxPP.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MaxSNP,,0,, - Generating Class of MaxSNP =
+
+== Comments ==
 
 The class of function problems expressible as "find a relation such that the set of k-tuples for which a given SNP predicate holds has maximum cardinality."
 
@@ -10,3 +14,4 @@ For example (see [Pap94]), the Max-Cut problem can be expressed as follows:
 Given a graph G, find a subset S of vertices that maximizes the number of pairs (u,v) of vertices such that u is in S, and v is not in S, and G has an edge from u to v.
 
 Defined in [PY88].
+== Relations ==

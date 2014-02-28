@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = P^#P^ - P With #P Oracle =
+
+== Comments ==
 
 I decided this class is so important that it deserves an entry of its own, apart from #P.
 
 Contains PH [Tod89], and is contained in PSPACE.
 
 Equals P^PP^ (exercise for the visitor).
+== Relations ==

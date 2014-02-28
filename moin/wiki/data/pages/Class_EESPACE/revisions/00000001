@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = EESPACE - Double-Exponential Space With Linear Exponent =
+
+== Comments ==
 
 Equals DSPACE(2^2^O(n)^^).
 
 Is not contained in BQP/qpoly [NY03].
 
 Equals DSPACE(2^2^O(n)^).
+== Relations ==

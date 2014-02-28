@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = ESPACE - Exponential Space With Linear Exponent =
+
+== Comments ==
 
 Equals DSPACE(2^O(n)^).
 
@@ -14,3 +18,4 @@ ESPACE is not contained in P/poly [Kan82].
 Is not contained in BQP/mpoly [NY03].
 
 See also: EXPSPACE.
+== Relations ==

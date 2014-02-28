@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = span-P - Span Polynomial-Time =
 
+== Comments ==
+
 The class of functions computable as |S|, where S is the set of output values returned by the accepting paths of an NP machine.
 
 Defined in [KST+89], where it is also shown that span-P contains #P and OptP; and that span-P = #P if and only if UP = NP.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = YPP - Yaroslav BPP =
+
+== Comments ==
 
 The probabilistic analogue of YP; it is to YP what MA is to NP.  Formally, the class of decision problems for which there exists a syntactic BPP machine M such that:
 
@@ -11,3 +15,4 @@ For all inputs x and advice strings a, the probability that M(x,a) outputs the i
 To amplify a YPP machine, one can run it multiple times, then accept if a majority of runs accept, reject if a majority reject, and otherwise output "I don't know."
 
 Contains BPP and YP, and is contained in MA and P/poly.
+== Relations ==

@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = BPEE - Bounded-Error Probabilistic EE =
 
+== Comments ==
+
 Has the same relation to EE as BPP does to P.
+== Relations ==

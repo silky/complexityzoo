@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = ModZ,,k,,L - Restricted ModkL =
+
+== Comments ==
 
 The class of decision problems solvable by a nondeterministic logspace Turing machine, such that
 
@@ -11,3 +15,4 @@ If the answer is "no," then there are no accepting paths.
 Defined in [BDH+92], where it was also shown that ModZ,,k,,L contains LogFewNL for all k>1.
 
 Contained in Mod,,k,,L and in NL.
+== Relations ==

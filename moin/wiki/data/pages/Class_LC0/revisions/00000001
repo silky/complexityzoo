@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = LC^0^ - Unbounded Fanin Linear Size Constant-Depth Circuits =
 
+== Comments ==
+
 The class of decision problems solvable by a nonuniform family of Boolean circuits, with linear size, constant depth and unbounded fanin.
 
 It is equivalent to AC^0^ with bounded fanout and it is properly contained in AC^0^ [CR96].
+== Relations ==

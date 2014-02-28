@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PromiseP - Promise-Problem P =
 
+== Comments ==
+
 The class of promise problems solvable by a P machine.
+== Relations ==

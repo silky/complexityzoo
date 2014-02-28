@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = #P - Sharp-P =
+
+== Comments ==
 
 The class of function problems of the form "compute f(x)," where f is the number of accepting paths of an NP machine.
 
@@ -14,3 +18,4 @@ What makes that interesting is that the associated decision problem (whether a b
 PH is in P^#P^ [Tod89].
 
 Any function in #P can be approximated to within a polynomial factor in BPP with NP oracle [Sto85].
+== Relations ==

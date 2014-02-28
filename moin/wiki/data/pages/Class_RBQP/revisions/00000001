@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = RBQP - Strict Quantum RP =
 
+== Comments ==
+
 The class of problems in NP whose witnesses are in FBQP.  For example, the set of square-free numbers is in coRBQP using only the fact that factoring is in FBQP.  (Even without a proof that the factors are prime, the factorization proves that there is a square divisor.)
 
 Contains RP and ZBQP, and is contained in BQP and RQP.  Defined here to clarify EQP; see also ZBQP.
+== Relations ==

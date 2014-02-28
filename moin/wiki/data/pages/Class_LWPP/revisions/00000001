@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = LWPP - Length-Dependent Wide PP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -19,3 +23,4 @@ Also, contains the graph isomorphism problem [KST92].
 Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04].
 
 Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04]
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MMSNP - Monadic Monotone SNP =
+
+== Comments ==
 
 Defined in [FV93] as a subclass of SNP.  There are three syntactic restrictions defining the subclass MMSNP, based on the form of the SNP formula defining the language:
 
@@ -18,3 +22,4 @@ Defined in [FV93] as a subclass of SNP, where the second order existentially qua
 MMSNP seems to obey dichotomy, by excluding Ladner languages.  This is still open but widely believed.  Dropping any of the restrictions monotone/monadic/without inequalities          allows Ladner languages unless P = NP, since any problem in NP is polynomial time equivalent to a problem in each of these broader classes.  MMSNP therefore seems to be a maximal fragment of NP where Ladner languages are excluded.
 
 Every constraint satisfaction problem is expressible in MMSNP, and there is a polynomial time Turing reduction from every MMSNP query to finitely many constraint satisfaction problems.  MMSNP therefore seems to capture the class of constraint satisfaction problems.
+== Relations ==

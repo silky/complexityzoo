@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = CL#P - Cluster Sharp-P =
+
+== Comments ==
 
 The class of #P function problems such that some underlying NP machine  witnessing membership in #P has
 "clustered" accepting paths. That is:
@@ -11,3 +15,4 @@ There is a length-respecting total order  having polynomial-time computable adja
 The accepting paths of  on any input  are contiguous with respect to .
 
 Defined in [HHK+05].
+== Relations ==

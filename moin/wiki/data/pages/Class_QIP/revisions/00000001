@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QIP - Quantum IP =
+
+== Comments ==
 
 The class of decision problems such that a "yes" answer can be verified by a quantum interactive proof.  Here the verifier is a BQP (i.e. quantum polynomial-time) algorithm, while the prover has unbounded computational resources (though cannot violate the linearity of quantum mechanics). The prover and verifier exchange a polynomial number of messages, which can be quantum states.  Thus, the verifier's and prover's states may become entangled during the course of the protocol.  Given the verifier's algorithm, we require that
 
@@ -21,3 +25,4 @@ QIP = IP = PSPACE [JJUW09]; thus quantum computing adds no power to interactive 
 QIP(1) is more commonly known as QMA.
 
 See also: QIP[2], QSZK.
+== Relations ==

@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = compIP - Competitive IP Proof System =
+
+== Comments ==
 
 Same as compNP but for interactive (IP) proofs instead of NP proofs.
 
 More formally, compIP is the class of decision problems L in IP = PSPACE such that, if the answer is "yes," then that can be proven by an interactive protocol between a BPP verifier and a prover, a BPP machine with access only to an oracle for L.
 
 Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in compIP [BG94].
+== Relations ==

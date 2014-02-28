@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = Σ,,2,,P - NP With NP Oracle =
+
+== Comments ==
 
 Complement of Π,,2,,P.
 
@@ -13,3 +17,4 @@ Minimum equivalent DNF.  Given a DNF formula F and integer k, is there a DNF for
 Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless Σ,,2,,P equals βP^NP^.)
 
 For any fixed k, there is a problem in Σ,,2,,P ∩ Π,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+== Relations ==

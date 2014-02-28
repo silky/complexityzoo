@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = CSP - Constraint Satisfaction Problems =
+
+== Comments ==
 
 Defined in [FV93] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet ) containing :
 
 For example, a 3SAT clause  is represented in the CSP construction as . By similar constructions, any k-SAT problem can be seen to be in CSP. The class also includes Graph k-Coloring (for ), Graph H-Coloring (for some graph ) and Linear Programming mod .
 
 In [FV93], where the class is defined, the authors show that every problem in MMSNP is reducible under randomized polynomial-time reductions to a problem in CSP.
+== Relations ==

@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = Π,,2,,P - coNP With NP Oracle =
 
+== Comments ==
+
 Complement of Σ,,2,,P.
 
 Along with Σ,,2,,P, comprises the second level of PH, the polynomial hierarchy. For any fixed k, there is a problem in Π,,2,,P ∩ Σ,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+== Relations ==

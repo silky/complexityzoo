@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AM - Arthur-Merlin =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by an Arthur-Merlin protocol, as follows.
 
@@ -23,3 +27,4 @@ If AM contains coNP then PH collapses to Σ,,2,,P ∩ Π,,2,,P [BHZ87].
 There exists an oracle relative to which AM is not contained in PP [Ver92].
 
 AM = NP under a strong derandomization assumption: namely that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([MV99], improving [KM99]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
+== Relations ==

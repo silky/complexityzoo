@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = TALLY - Tally Languages =
 
+== Comments ==
+
 The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If TALLY intersects NPC then P = NP [Mah82].
 
 Contained in SPARSE.
+== Relations ==

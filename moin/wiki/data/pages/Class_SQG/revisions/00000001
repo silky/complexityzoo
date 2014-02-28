@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SQG - Short Quantum Games =
+
+== Comments ==
 
 Same as QRG(2), except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.
 
@@ -20,3 +24,4 @@ Same as QRG, except that now the verifier can exchange only a single round of qu
 SQG is contained in EXP [Gut05], as well as in QRG.
 
 SQG trivially contains QS,,2,,P.
+== Relations ==

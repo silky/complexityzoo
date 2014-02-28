@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MPC - Monotone Planar Circuits =
+
+== Comments ==
 
 The class of decision problems solvable by a family of monotone stratified planar circuits (a uniformity condition may also be imposed).
 
@@ -10,3 +14,4 @@ Such a circuit can contain only AND and OR gates of bounded fanin.  It must be e
 Defined in [DC89].
 
 [BLM+99] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.
+== Relations ==

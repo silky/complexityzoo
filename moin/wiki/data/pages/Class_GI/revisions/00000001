@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = GI - Graph Isomorphism =
+
+== Comments ==
 
 Can be defined as the class of problems polynomial-time Turing reducible to the Graph Isomorphism problem.
 
@@ -14,3 +18,4 @@ See [KST93] for much more information about GI.
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether two graphs are isomorphic.
 
 The GI problem itself (as opposed to the set of problems Turing reducible to GI) is contained in NP as well as coAM (and indeed SZK).  So in particular, if graph isomorphism is NP-complete, then PH collapses.
+== Relations ==

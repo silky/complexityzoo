@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SEH - Strong Exponential Hierarchy =
+
+== Comments ==
 
 The union of NE, NP^NE^, NP^NP^NE^, and so on.
 
@@ -13,3 +17,4 @@ SEH collapses to P^NE^ [Hem89]
 
 There exists an oracle relative to which SEH is not contained in EH [Hem89].
 EH and SEH are incomparable for all anyone knows.
+== Relations ==

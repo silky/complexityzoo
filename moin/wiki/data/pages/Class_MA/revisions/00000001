@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MA - Merlin-Arthur =
+
+== Comments ==
 
 The class of decision problems solvable by a Merlin-Arthur protocol, which goes as follows.  Merlin, who has unbounded computational resources, sends Arthur a polynomial-size purported proof that the answer to the problem is "yes."  Arthur must verify the proof in BPP (i.e. probabilistic polynomial-time), so that
 
@@ -28,3 +32,4 @@ An alternative definition requires that if the answer is "yes," then there exist
 Contains NP and ∃BPP, and is contained in AM and in QMA.
 
 Equals NP under a derandomization assumption.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SBP - Small Bounded-Error Probability =
+
+== Comments ==
 
 The class of decision problems for which the following holds.  There exists a #P function f and an FP function g such that, for all inputs x,
 
@@ -14,3 +18,4 @@ SBP contains MA, WAPP, and ∃BPP.
 SBP is contained in AM and BPP,,path,,.
 There exists an oracle relative to which SBP is not contained in Σ,,2,,P.
 SBP is closed under union.
+== Relations ==

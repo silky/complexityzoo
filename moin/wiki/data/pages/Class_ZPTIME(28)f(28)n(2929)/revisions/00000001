@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = ZPTIME(f(n)) - Zero-Error Probabilistic f(n)-Time =
 
+== Comments ==
+
 Same as ZPP, but with O(f(n))-time instead of polynomial-time.
 
 For any constructible superpolynomial f, ZPTIME(f(n)) with NP oracle is not contained in P/poly [KW98].
+== Relations ==

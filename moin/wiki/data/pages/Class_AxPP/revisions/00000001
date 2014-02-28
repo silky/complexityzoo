@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AxPP - Approximable in Probabilistic Polynomial Time =
+
+== Comments ==
 
 Usually called APP.  I've renamed it AxPP to distinguish it from the "other" APP.
 
@@ -16,3 +20,4 @@ On the other hand, there exists an oracle relative to which BPP = P but AxPP doe
 AxPP is recursively enumerable [Jeř07].
 
 Interestingly, it is unclear whether the set of AxPP machines is in RE.
+== Relations ==

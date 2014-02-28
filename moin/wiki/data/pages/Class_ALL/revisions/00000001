@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = ALL - The Class of All Languages =
+
+== Comments ==
 
 Literally, the class of ALL languages.
 
@@ -18,3 +22,4 @@ On the other hand, even though PSPACE contains PP, and EXPSPACE contains MA,,EXP
 So does ALL have no respect for complexity class inclusions at ALL?  (Sorry.)
 
 It is not as contradictory as it first seems.  The deterministic base class in all of these examples is modified by computational non-determinism after it is modified by advice.  For example, MA,,EXP,,/rpoly means M(A,,EXP,,/rpoly), while (MA,,EXP,,)/rpoly equals MA,,EXP,,/poly by a standard argument.  In other words, it's only the verifier, not the prover or post-selector, who receives the randomized or quantum advice. The prover knows a description of the advice state, but not its measured values.  Modification by /rpoly does preserve class inclusions when it is applied after other changes.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MaxPB - MaxNP Polynomially Bounded =
+
+== Comments ==
 
 The subclass of MaxNP problems for which the cost function is guaranteed always to be bounded by a polynomial.
 
@@ -10,3 +14,4 @@ MinPB can be defined similarly.
 Defined in [KT94].
 
 The closure of MaxPB under PTAS reductions equals NPOPB [CKS+99].
+== Relations ==

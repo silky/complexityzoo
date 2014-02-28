@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PCD(r(n),q(n)) - Probabilistically Checkable Debate =
+
+== Comments ==
 
 The class of decision problems decidable by a probabilistically checkable debate system, as follows.
 
@@ -10,3 +14,4 @@ Two debaters B and C alternate writing strings on a "debate tape," with B arguin
 Defined in [CFL+93], who also showed that PCD(log n, 1) = PSPACE.  This result was used to show that certain problems are PSPACE-hard even to approximate.
 
 Contained in GPCD(r(n),q(n)).
+== Relations ==

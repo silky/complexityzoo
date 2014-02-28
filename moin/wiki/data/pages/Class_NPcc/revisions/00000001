@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NP^cc^ - Communication Complexity NP =
+
+== Comments ==
 
 The analogue of P^cc^ for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.
 
@@ -14,3 +18,4 @@ Contained in PH^cc^.
 Has the same relation to NP^cc^ and NP as P,,,,^cc^ does to P^cc^ and P.
 
 NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant . As a result, NP,,,,^cc^ is not equal to RP,,,,^cc^ under the same conditions [DP08].
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = BP,,d,,(P) - Polynomial Size d-Times-Only Branching Program =
+
+== Comments ==
 
 Defined in [Weg88].
 
@@ -12,3 +16,4 @@ BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [Tha98].
 Contained in PBP.
 
 See also: P-OBDD, k-PBP.
+== Relations ==

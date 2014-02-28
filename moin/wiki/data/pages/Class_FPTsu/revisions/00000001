@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = FPT,,su,, - Fixed-Parameter Tractable (strongly uniform) =
 
+== Comments ==
+
 Same as FPT except that f has to be recursive.
 
 Defined in [DF99] (though they did not use our notation).
+== Relations ==

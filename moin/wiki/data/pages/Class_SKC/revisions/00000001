@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SKC - Statistical Knowledge Complexity =
+
+== Comments ==
 
 A hierarchy of generalizations of SZK, in which Arthur is allowed to gain some information from his interaction with Merlin.
 
@@ -15,3 +19,4 @@ SKC,,avg,,(k(n)): Average oracle sense.  For each input, the expected number of 
 SKC,,ent,,(k(n)): Entropy sense.  Defined in [ABV95]. For each input, the expectation (over Arthur's random coins) of -log(P) is at most k(n), where P is the probability that the view output by the simulator equals the view resulting from the actual protocol.
 
 See also: PKC.
+== Relations ==

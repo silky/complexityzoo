@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = BPE - Bounded-Error Probabilistic E =
 
+== Comments ==
+
 Has the same relation to E as BPP does to P.
 
 EE = BPE if and only if EXP = BPP [IKW01].
+== Relations ==

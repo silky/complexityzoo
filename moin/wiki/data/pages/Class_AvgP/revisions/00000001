@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AvgP - Average Polynomial-Time =
+
+== Comments ==
 
 A distributional problem consists of a decision problem A, and a probability distribution μ over problem instances.
 
@@ -16,3 +20,4 @@ If AvgP = DistNP then EXP = NEXP [BCG+92].
 Strictly contained in HeurP [NS05].
 
 See also: (NP,P-samplable).
+== Relations ==

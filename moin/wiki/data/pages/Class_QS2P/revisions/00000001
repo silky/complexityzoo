@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QS,,2,,P - Quantum S2P =
+
+== Comments ==
 
 The class of problems for which there exists a BQP machine M such that:
 
@@ -11,3 +15,4 @@ If the answer is "no," then there exists a σ such that for all ρ, M(ρ,σ) rej
 In other words, it's the same as SQG, but without communication from the verifier back to the provers.
 
 Contains QMA (and indeed P^QMA^), and is contained in SQG and hence EXP.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FNP - Function NP =
+
+== Comments ==
 
 The class of function problems of the following form:
 
@@ -16,3 +20,4 @@ FP = FNP if and only if P = NP.
 Contains TFNP.
 
 A basic question about FNP problems is whether they're self-reducible; that is, whether they reduce to the corresponding NP decision problems.  Although this is true for all NPC problems, [BG94] shows that if EE does not equal NEE, then there is a problem in NP such that no corresponding FNP problem can be reduced to it.  [BG94] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that NE does not equal coNE.
+== Relations ==

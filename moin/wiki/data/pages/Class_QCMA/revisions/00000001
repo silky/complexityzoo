@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QCMA - Quantum Classical MA =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of QMA with classical witnesses.
 
@@ -14,3 +18,4 @@ Given a black-box group G and a subgroup H, the problem of testing non-membershi
 See [AK06] for a "quantum oracle separation" between QCMA and QMA.  No classical oracle separation between QCMA and QMA is currently known.
 
 The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof.
+== Relations ==

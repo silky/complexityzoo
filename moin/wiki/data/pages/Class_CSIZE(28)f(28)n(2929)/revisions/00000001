@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = CSIZE(f(n)) - Circuit Size f(n) =
+
+== Comments ==
 
 The class of decision problems solvable by a (nonuniform) family of Boolean circuits of size O(f(n)).
 
 So for example, CSIZE(poly(n)) (the union of CSIZE(n^k^) over all k) equals P/poly.
 
 Defined in [SM02] among other places.
+== Relations ==

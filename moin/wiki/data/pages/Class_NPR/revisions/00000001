@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NP,,R,, - NP Over The Reals =
+
+== Comments ==
 
 An analog of NP for Turing machines over a real number field.
 
@@ -12,3 +16,4 @@ It is unknown whether P,,R,, = NP,,R,,, nor are implications known among this qu
 Also, in contrast to the case of NP,,C,,, it is an open problem to show that P/poly distinct from NP/poly implies P,,R,, distinct from NP,,R,,.  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
 
 See also VNP,,k,,.
+== Relations ==

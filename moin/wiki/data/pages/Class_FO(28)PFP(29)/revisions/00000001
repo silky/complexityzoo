@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FO(PFP) - First-order with partial fixed point =
+
+== Comments ==
 
 FO(pfp) is the set of boolean queries definable with first-order formulae with a partial fixed point operator.
 
@@ -12,3 +16,4 @@ PFP( is defined as the value of the fixed point of  on y if there is a fixed poi
 Since s are property of arity , there is at most  values for the s, so with a poly-space counter we can check if there is a loop or not.
 
 It was proved in [Imm98] that FO(pfp) is equal to PSPACE.
+== Relations ==

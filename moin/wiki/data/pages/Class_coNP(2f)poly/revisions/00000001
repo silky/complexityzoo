@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = coNP/poly - Complement of NP/poly =
+
+== Comments ==
 
 If NP is contained in coNP/poly then PH collapses to S,,2,,P^NP^ [CCH+01].
 
 NP^NP^NP^(coNP/poly ∩ NP)^ = NP^NP^NP^ [HNO+96]
 
 Note: At the suggestion of Luis Antuñes, the above specimen of the Complexity Zoo has been locked in a cage.
+== Relations ==

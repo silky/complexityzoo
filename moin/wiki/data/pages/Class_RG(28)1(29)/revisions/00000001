@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = RG(1) - One-turn Refereed Games =
+
+== Comments ==
 
 The class of problems for which there exists a BPP machine M such that, on input x:
 
@@ -13,3 +17,4 @@ In other words, it's the same as RG(k) for , the class of problems that admit in
 RG(1) trivially contains S,,2,,P.  Indeed, RG(1) can be viewed as a randomized version of S,,2,,P.
 
 RG(1) is trivially contained in RG(2) (and hence PSPACE).
+== Relations ==

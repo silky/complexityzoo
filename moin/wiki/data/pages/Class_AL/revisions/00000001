@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = AL - Alternating L =
 
+== Comments ==
+
 Same as AP, but for logarithmic-space instead of polynomial-time.
 
 AL = P [CKS81].
+== Relations ==

@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = NPI - NP-Intermediate =
+
+== Comments ==
 
 Sometimes used to denote the set of decision problems in NP that are neither NP-complete (that is, in NPC) nor in P.
 
 Is thought to contain (for example) decision versions of factoring and graph isomorphism.
 
 Is nonempty if P does not equal NP [Lad75].  Indeed, under this assumption, it contains an infinite number of distinct polynomial-time equivalence classes.
+== Relations ==

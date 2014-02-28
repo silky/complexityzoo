@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = BPP-OBDD - Polynomial-Size Bounded-Error Ordered Binary Decision Diagram =
+
+== Comments ==
 
 Same as P-OBDD, except that probabilistic transitions are allowed and the OBDD need only accept with probability at least 2/3.
 
 Does not contain the integer multiplication problem [AK96].
 
 Strictly contained in BQP-OBDD [NHK00].
+== Relations ==

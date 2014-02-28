@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = NAuxPDA^p^ - Nondeterministic Auxiliary Pushdown Automata =
 
+== Comments ==
+
 The class of problems solvable by nondeterministic logarithmic-space and polynomial-time Turing machines with auxiliary pushdown.
 
 Equals LOGCFL [Sud78].
+== Relations ==

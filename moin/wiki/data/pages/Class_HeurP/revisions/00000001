@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = HeurP - Heuristic P =
+
+== Comments ==
 
 The class of distributional problems solvable by a P machine. Defined in [Imp95], though he calls the class HP.
 
@@ -9,3 +13,4 @@ Alternately, [BT06] define HeurP as being the set of tuples , where  is a langua
 
 For every , for every  in the support of , and for every ,  runs in time bounded by .
  For every ,  is a heuristic algorithm for  whose error probability is bounded by .
+== Relations ==

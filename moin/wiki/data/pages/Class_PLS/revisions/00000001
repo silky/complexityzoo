@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PLS - Polynomial Local Search =
+
+== Comments ==
 
 The subclass of TFNP function problems that are guaranteed to have a solution because of the lemma that "every finite directed acyclic graph has a sink."
 
@@ -20,3 +24,4 @@ Also, there exist oracles relative to which PLS is not contained in PPA [BM04], 
 Whether PLS is not in PPP relative to some oracle remains open.
 
 [CT07] conjecture that if PPAD is in P, then PLS is in P.
+== Relations ==

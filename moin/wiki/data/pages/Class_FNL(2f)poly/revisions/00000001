@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = FNL/poly - Nonuniform FNL =
 
+== Comments ==
+
 Has the same relation to FNL as P/poly does to P.
 
 Contained in #L/poly [RA00].
+== Relations ==

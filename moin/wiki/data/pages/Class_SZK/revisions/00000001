@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SZK - Statistical Zero Knowledge =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol.  In such an interactive proof
 (see IP), we have a probabilistic polynomial-time verifier, and a prover who has unbounded computational resources.  By exchanging messages with the prover, the verifier must become convinced (with high probability) that the answer is "yes," without learning anything else about the problem (statistically).
@@ -44,3 +48,4 @@ Amazingly, we can also assume without loss of generality that the protocol is pu
 Finally, we can assume without loss of generality that the verifier (Arthur) is honest. A dishonest verifier would be one that tries to learn something about the problem (violating the zero-knowledge requirement) by deviating from the protocol.
 
 Zero-knowledge proofs were first studied in [GMW91], [GMR89].
+== Relations ==

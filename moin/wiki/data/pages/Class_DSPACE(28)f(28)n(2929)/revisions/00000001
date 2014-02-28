@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = DSPACE(f(n)) - Deterministic f(n)-Space =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine in space O(f(n)).
 
@@ -13,3 +17,4 @@ For space constructible f(n), strictly contains DTIME(f(n)) [HPV77].
 DSPACE(n) does not equal NP (though we have no idea if one contains the other)!
 
 See also: NSPACE(f(n)).
+== Relations ==

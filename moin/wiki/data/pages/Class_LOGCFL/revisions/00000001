@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = LOGCFL - Logarithmically Reducible to CFL =
+
+== Comments ==
 
 The class of decision problems reducible in L to the problem of deciding membership in a context-free language.
 
@@ -10,3 +14,4 @@ Equivalently, LOGCFL is the class of decision problems solvable by a uniform fam
 LOGCFL is closed under complement [BCD+89].
 
 Contains NL [Sud78].
+== Relations ==

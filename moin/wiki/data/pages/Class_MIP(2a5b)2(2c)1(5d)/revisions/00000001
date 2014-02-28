@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MIP*[2,1] - 2-Prover, 1-Round MIP With Quantum Provers =
+
+== Comments ==
 
 Same as MIP[2], except that now only one round is allowed, and the two provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
 
@@ -12,3 +16,4 @@ Indeed, the relationship between MIP* and MIP = NEXP is completely unknown -- ei
 It is also unknown whether increasing the number of provers or rounds changes MIP*[2,1].
 
 Contains XOR-MIP*[2,1].
+== Relations ==

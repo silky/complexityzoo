@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = CZK - Computational Zero-Knowledge =
+
+== Comments ==
 
 Same as SZK, except that now the two distributions are merely required to be computationally indistinguishable by any BPP algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of their interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
 
@@ -18,3 +22,4 @@ Same as SZK, except that now the two distributions are merely required to be com
 Unlike SZK, it is not known if CZK is closed under complement.  CZK is now known to share other properties with SZK: the verifier may as well be honest and may as well show his coins, and CZK is closed under unions [Vad06].  (Previously, these properties were only established in the presence of one-way functions.)
 
 Assuming the existence of one-way functions, CZK contains NP [GMW91], and indeed equals IP=PSPACE [BGG+90].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
+== Relations ==

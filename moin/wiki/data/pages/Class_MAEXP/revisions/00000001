@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = MA,,EXP,, - Exponential-Time MA =
+
+== Comments ==
 
 Same as MA, except now Arthur is EXP instead of polynomial-time, and the message from Merlin can be exponentially long.
 
 There is a problem in MA,,EXP,, that does not have polynomial-size circuits [BFT98].  On the other hand, there is an oracle relative to which every problem in MA,,EXP,, does have polynomial-size circuits.
 
 [MVW99] considered the best circuit lower bound obtainable for a problem in MA,,EXP,,, using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
+== Relations ==

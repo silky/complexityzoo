@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = QPLIN - Linear Quasipolynomial-Time =
 
+== Comments ==
+
 Equals DTIME(n^O(log n)^).
 
 Has the same relationship to QP that E does to EXP.
+== Relations ==

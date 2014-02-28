@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = TFNP - Total Function NP =
+
+== Comments ==
 
 The class of function problems of the following form:
 
@@ -12,3 +16,4 @@ Can be considered as the functional analogue of NP ∩ coNP. Defined in [MP91].
 Contained in FNP.
 
 Subclasses include PPA, PPP, and PLS.
+== Relations ==

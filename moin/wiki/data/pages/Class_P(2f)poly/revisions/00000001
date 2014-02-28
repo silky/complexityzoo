@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = P/poly - Nonuniform Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by a family of polynomial-size Boolean circuits.  The family can be nonuniform; that is, there could be a completely different circuit for each input length.
 
@@ -27,3 +31,4 @@ The monotone version of P/poly is mP/poly.
 P/poly has measure 0 in E with Σ,,2,,P oracle [May94b].
 
 Strictly contains IC[log,poly] and P/log.
+== Relations ==

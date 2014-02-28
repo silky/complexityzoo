@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QRG(1) - One-turn Quantum Refereed Games =
+
+== Comments ==
 
 The class of problems for which there exists a BQP machine M such that:
 
@@ -15,3 +19,4 @@ Defined in [JW09], where it was shown that QRG(1) is contained in PSPACE .
 QRG(1) trivially contains QMA (and indeed P^QMA^).
 
 QRG(1) is trivially contained in QRG(2) (and hence PSPACE).
+== Relations ==

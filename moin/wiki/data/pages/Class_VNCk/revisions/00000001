@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = VNC,,k,, - Valiant NC Over Field k =
+
+== Comments ==
 
 Has the same relation to VP,,k,, as NC does to P.
 
 More formally, the class of VP,,k,, problems computable by a straight-line program of depth polylogarithmic in n.
 
 Surprisingly, VNC,,k,, = VP,,k,, for any k [VSB+83].
+== Relations ==

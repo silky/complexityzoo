@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FO(TC) - First-order with transitive closure =
+
+== Comments ==
 
 FO(TC) is the set of boolean queries definable with first-order formulae with a transitive closure (TC) operator.
 
@@ -10,3 +14,4 @@ TC is defined this way: let  be a positiver integer and  be vectors of  variable
 Every formula of TC can be written in a normal form FO( where  is a FO formula and we suppose that there is an order on the model where variables are quantified, so we can choose the minimum and maximum element.
 
 It was shown in [Imm98] page 150 that this class is equal to NL.
+== Relations ==

@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = AM ∩ coAM - AM ∩ coAM =
+
+== Comments ==
 
 The class of decision problems for which both "yes" and "no" answers can be verified by an AM protocol.
 
 If EXP requires exponential time even for AM protocols, then AM ∩ coAM = NP ∩ coNP [GST03].
 
 There exists an oracle relative to which AM ∩ coAM is not contained in PP [Ver95].
+== Relations ==

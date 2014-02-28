@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QP - Quasipolynomial-Time =
 
+== Comments ==
+
 Equals DTIME(2^polylog(n)^).
+== Relations ==

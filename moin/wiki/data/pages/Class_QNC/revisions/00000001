@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QNC - Quantum NC =
+
+== Comments ==
 
 The class of decision problems solvable by polylogarithmic-depth quantum circuits with bounded probability of error.  (A uniformity condition may also be imposed.)
 
@@ -12,3 +16,4 @@ Has the same relation to NC as BQP does to P.
 Is incomparable with BPP as far as anyone knows.
 
 See also: RNC.
+== Relations ==

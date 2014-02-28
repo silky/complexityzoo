@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = FO(LFP) - First-order with least fixed point =
+
+== Comments ==
 
 FO(LFP) is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is , then  always implies .
 
 We can obtain the monotony by restricting the formula  to have only positive occurrences of  (i.e. there is an even number of negations before every occurrence of ). We can also describe LFP() as syntactic sugar of PFP() where .
 
 Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [Imm82] that FO(LFP)=P. This definition is equivalent to FO().
+== Relations ==

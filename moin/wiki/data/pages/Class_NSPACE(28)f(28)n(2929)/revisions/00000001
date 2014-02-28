@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NSPACE(f(n)) - Nondeterministic f(n)-Space =
+
+== Comments ==
 
 Same as NPSPACE, but with f(n)-space (for some constructible function f) rather than polynomial-space machines.
 
@@ -10,3 +14,4 @@ Contained in DSPACE(f(n)^2^) [Sav70], and indeed RevSPACE(f(n)^2^) 95|[CP95].
 NSPACE(n^k^) is strictly contained in NSPACE(n^k+ε^) for ε>0 [Iba72] (actually the hierarchy theorem is stronger than this, but pretty technical to state).
 
 Contained in DSPACE(f(n)^2^) [Sav70], and indeed RevSPACE(f(n)^2^) [CP95].
+== Relations ==

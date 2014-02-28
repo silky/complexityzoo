@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PPSPACE - Probabilistic PSPACE =
+
+== Comments ==
 
 Same as IPP, except that IPP uses private coins while PPSPACE uses public coins.
 
@@ -10,3 +14,4 @@ Can also be defined as a probabilistic version of PSPACE.
 Equals PSPACE.
 
 Defined in [Pap83].
+== Relations ==

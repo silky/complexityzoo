@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NP - Nondeterministic Polynomial-Time =
+
+== Comments ==
 
 The class of dashed hopes and idle dreams.
 
@@ -65,3 +69,4 @@ NP is equal to SO-E, the second-order queries where the second-order quantifiers
 For example, the SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments.  SAT is in NP, since a "yes" answer can be proved by just exhibiting a satisfying assignment.
 
 Also, [Fag74] gave a logical characterization of NP, which leads to the subclass SNP.
+== Relations ==

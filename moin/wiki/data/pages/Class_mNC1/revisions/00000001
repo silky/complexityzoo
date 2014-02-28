@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = mNC^1^ - Monotone NC1 =
+
+== Comments ==
 
 The class of decision problems solvable by a family of monotone NC^1^ circuits (i.e. AND and OR gates only).
 
@@ -12,3 +16,4 @@ Defined in [GS90].
 Strictly contained in mNL [KW88], and indeed in mL [GS91].
 
 Strictly contains mTC^0^ [Yao89].
+== Relations ==

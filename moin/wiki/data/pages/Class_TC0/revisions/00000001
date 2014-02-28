@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = TC^0^ - Constant-Depth Threshold Circuits =
+
+== Comments ==
 
 The class of decision problems solvable by polynomial-size, constant-depth circuits with unbounded fanin, which can use AND, OR, and NOT gates (as in AC^0^) as well as threshold gates.  A threshold gate returns 1 if at least half of its inputs are 1, and 0 otherwise.
 
@@ -24,3 +28,4 @@ The permanent of a 0-1 matrix cannot be computed in uniform TC^0^ [All99].
 In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in U,,D,,-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
 
 In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in L-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
+== Relations ==

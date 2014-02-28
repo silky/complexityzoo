@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = mNL - Monotone NL =
+
+== Comments ==
 
 See mP for the definition of a monotone nondeterministic Turing machine, due to [GS90].
 
@@ -12,3 +16,4 @@ mNL does not equal mcoNL [GS90], in contrast to the case for NL and coNL.
 Also, mNL strictly contains mNC^1^ [KW88].
 
 See also: mL.
+== Relations ==

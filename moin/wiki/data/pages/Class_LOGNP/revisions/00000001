@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = LOGNP - Logarithmically-Restricted NP =
+
+== Comments ==
 
 The class of decision problems expressible in logical form as
 
@@ -18,3 +22,4 @@ Vapnik-Chervonenkis (V-C) Dimension.  Given a family F of subsets of a set U, fi
 Contains LOGSNP, and is contained in βP (indeed β,,2,,P).
 
 The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists y such that for all j, the predicate φ(I,s,,j,,,x,y,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in P.
+== Relations ==

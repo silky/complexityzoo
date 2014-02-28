@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = YQP - Yaroslav BQP =
 
+== Comments ==
+
 Is to YPP as BQP is to BPP, and QMA is to MA.  The machine is now a quantum computer and the advice is a quantum state |ψ_n>.
 
 Contains BQP and YPP, and is contained in QMA and BQP/qpoly.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NP,,C,, - NP Over The Complex Numbers =
+
+== Comments ==
 
 The class of decision problems such that (1) they're in NP and (2) every problem in NP is reducible to them (under some notion of reduction).  In other words, the hardest problems in NP.
 
@@ -31,3 +35,4 @@ However, [CKK+95] show that if P/poly does not equal NP/poly then P,,C,, does no
 [BCS+97] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then P,,C,, does not equal NP,,C,,.
 
 See also VNP,,k,,.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = H,,k,,P - High Hierarchy In NP =
+
+== Comments ==
 
 The class of problems A in NP such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.
 
@@ -14,3 +18,4 @@ H,,1,, consists exactly of the problems complete for NP under strong non-determi
 Defined in [Sch83].
 
 See also L,,k,,P.
+== Relations ==

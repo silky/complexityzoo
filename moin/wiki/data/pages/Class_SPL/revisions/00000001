@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SPL - Stoic PL =
+
+== Comments ==
 
 Has the same relation to PL as SPP does to PP.
 
@@ -12,3 +16,4 @@ Contains UL.
 Contained in C,,=,,L and Mod,,k,,L.
 
 Equals the set of problems low for GapL.
+== Relations ==

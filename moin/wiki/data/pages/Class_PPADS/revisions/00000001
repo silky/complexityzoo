@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PPADS - Polynomial Parity Argument (Directed, Sink) =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -10,3 +14,4 @@ Same as PPA, except now the graph is directed, and we're asked to find a sink.
 Contained in PPP.
 
 Contains PPAD.
+== Relations ==

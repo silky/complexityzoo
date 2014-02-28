@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = Pr,,H,,SPACE(f(n)) - Unbounded-Error Halting Probabilistic f(n)-Space =
 
+== Comments ==
+
 Has the same relation to DSPACE(f(n)) as PP does to P.  The Turing machine has to halt on every input and every setting of the random tape.
 
 Equals PrSPACE(f(n)) [Jun85].
+== Relations ==

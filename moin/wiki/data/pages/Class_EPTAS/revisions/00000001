@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = EPTAS - Efficient Polynomial-Time Approximation Scheme =
+
+== Comments ==
 
 The class of optimization problems such that, given an instance of length n, we can find a solution within a factor 1+ε of the optimum in time f(ε)p(n), where p is a polynomial and f is arbitrary.
 
@@ -12,3 +16,4 @@ Defined in [CT97], where the following was also shown:
 If FPT = XP,,uniform,, then EPTAS = PTAS.
 If EPTAS = PTAS then FPT = W[P].
 If FPT is strictly contained in W[1], then there is a natural problem that is in PTAS but not in EPTAS.  (See [CT97] for the statement of the problem, since it's not that natural.)
+== Relations ==

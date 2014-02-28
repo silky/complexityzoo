@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = W[P] - Weighted Circuit Satisfiability =
+
+== Comments ==
 
 The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
 
@@ -12,3 +16,4 @@ See W[1] for the definition of fixed-parameter reducibility.
 Defined in [DF99].
 
 Contains W[SAT].
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = Check - Checkable Languages =
+
+== Comments ==
 
 The class of problems such that a polynomial-time program P that allegedly solves them can be checked efficiently.  That is, f is in Check if there exists a BPP algorithm C such that for all programs P and inputs x,
 
@@ -13,3 +17,4 @@ Introduced in [BK89], where it was also shown that Check equals frIP ∩ cofrIP.
 Check is contained in NEXP ∩ coNEXP [FRS88].
 
 [BG94] show that if NEE is not contained in BPEE then NP is not contained in Check.
+== Relations ==

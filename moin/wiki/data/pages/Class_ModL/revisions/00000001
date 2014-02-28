@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = ModL - ModL =
+
+== Comments ==
 
 A language  if there are functions  and  such that for all strings :
 
@@ -11,3 +15,4 @@ There exists a prime  and a natural number  such that .
 Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [AV04].
 
 Defined in [AV04].
+== Relations ==

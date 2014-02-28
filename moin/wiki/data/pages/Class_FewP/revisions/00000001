@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FewP - NP With Few Witnesses =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -19,3 +23,4 @@ Also, there exists an oracle relative to which FewP does not have a Turing-compl
 Contained in Few.
 
 See also the survey [Tor90].
+== Relations ==

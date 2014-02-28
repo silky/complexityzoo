@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = polyL - Polylogarithmic Space =
 
+== Comments ==
+
 Equals DSPACE((log n)^c^).
 
 In contrast to L, which is contained in P, it is not known if polyL is contained in P or vice versa.  On the other hand, we do know that polyL does not equal P, since (for example) polyL does not have complete problems under many-to-one logspace reductions.
+== Relations ==

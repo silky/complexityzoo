@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MaxSNP - Maximization SNP =
+
+== Comments ==
 
 The class of optimization problems reducible by an "L-reduction" to a problem in MaxSNP,,0,,.  (Note: 'L' stands for linear -- this is not the same as an L reduction!  For more details see [PY88].)
 
@@ -11,3 +15,4 @@ Max3SAT is MaxSNP-complete.  (Max3SAT is the problem of finding an assignment th
 Any problem in MaxSNP can be approximated to within a fixed ratio.
 
 The closure of MaxSNP under PTAS reduction is APX [KMS+99], [CT94].
+== Relations ==

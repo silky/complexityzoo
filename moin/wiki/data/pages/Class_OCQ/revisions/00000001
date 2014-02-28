@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = OCQ - One Clean Qubit =
+
+== Comments ==
 
 The class of problems solvable by a BQP machine in which a single qubit is initialized to the '0' state, and the remaining qubits are initialized to the maximally mixed state.  (This definition is not known to be robust, so one also needs to specify a gate set.)
 
 We also need to stipulate that there are no "strong measurements" -- intermediate measurements on which later operations are conditioned -- since otherwise we can do all of BQP by first initializing the computer to the all-0 state.  Parker and Plenio [PP00] failed to appreciate this point.
 
 Defined by [ASV00] (though they didn't use the name OCQ), who also showed that if OCQ = BQP, something other than gate-by-gate simulation will be needed to show this.
+== Relations ==

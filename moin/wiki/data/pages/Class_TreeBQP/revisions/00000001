@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = TreeBQP - BQP Restricted To Tree States =
+
+== Comments ==
 
 The class of languages accepted by a BQP machine subject to the constraint that at every time step t, the machine's state is exponentially close to a tree state -- that is, a state expressible by a polynomial-size tree of additions and tensor products (together with complex constants and |0> and |1> leaf nodes).
 
@@ -12,3 +16,4 @@ Contains BPP, and is contained in BQP.
 Defined in [Aar03b], where it was also shown that TreeBQP is
 contained in the third level of PH, which might provide weak evidence that
 TreeBQP does not equal BQP.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = Dyn-FO - Dynamic FO =
+
+== Comments ==
 
 The class of dynamic problems solvable using first-order predicates.
 
@@ -10,3 +14,4 @@ Basically what this means is that an algorithm maintains some polynomial-size da
 See [HI02] for more information, and a complete problem for Dyn-FO.
 
 See also Dyn-ThC^0^.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = Mod,,k,,P - Mod-k Polynomial-Time =
+
+== Comments ==
 
 For any k>1: The class of decision problems solvable by an NP machine such that the number of accepting paths is divisible by k, if and only if the answer is "no."
 
@@ -16,3 +20,4 @@ Defined in [CH89], [Her90].
 On the other hand, if k is not a prime power, then there exists an oracle relative to which Mod,,k,,P is not closed under intersection or complement [BBR94].
 
 For prime p, there exists an oracle relative to which Mod,,p,,P does not contain EQP [GV02].
+== Relations ==

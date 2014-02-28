@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = k-PBP - Polynomial-Size Width-k Branching Program =
+
+== Comments ==
 
 A branching program is a directed acyclic graph with a designated start vertex.  Each (non-sink) vertex is labeled by the name of an input bit, and has two outgoing edges, one of which is followed if that input bit is 0, the other if the bit is 1.  A sink vertex can be either an 'accept' or a 'reject' vertex.
 
@@ -14,3 +18,4 @@ k-PBP equals (nonuniform) NC^1^ for constant k at least 5 [Bar89].  On the other
 Contained in k-EQBP, as well as PBP.
 
 See also BP,,d,,(P).
+== Relations ==

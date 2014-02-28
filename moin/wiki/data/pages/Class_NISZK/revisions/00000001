@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NISZK - Non-Interactive SZK =
+
+== Comments ==
 
 Defined in [DDP+98].
 
@@ -17,3 +21,4 @@ NISZK has natural complete promise problems:
     Entropy Approximation (EA): Now we're promised that the entropy of the circuit's output distribution is either at least k+1 or at most k-1.  The problem is to output "yes" in the former case and "no" in the latter.
 
 NIPZK can be defined similarly.
+== Relations ==

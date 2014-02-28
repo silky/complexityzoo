@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AC^0^ - Unbounded Fanin Constant-Depth Circuits =
+
+== Comments ==
 
 An especially important subclass of AC, corresponding to constant-depth, unbounded-fanin, polynomial-size circuits with AND, OR, and NOT gates.
 
@@ -28,3 +32,4 @@ Although there are no good pseudorandom functions in AC^0^, [IN96] showed that t
 AC^0^ contains NC^0^, and is contained in QAC^0^ and MAC^0^.
 
 In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [Lee02]).
+== Relations ==

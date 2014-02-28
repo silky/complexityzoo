@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = RSPACE(f(n)) - Randomized f(n)-Space =
+
+== Comments ==
 
 Same as RL, but for O(f(n))-space instead of logarithmic-space.  (Just as an RL machine must run in polynomial time, so an RSPACE(f(n)) machine must run in 2^O(f(n))^ time.)
 
 Contained in NSPACE(f(n)) and BPSPACE(f(n)).
 
 Same as RL, but for O(f(n))-space instead of logarithmic-space.
+== Relations ==

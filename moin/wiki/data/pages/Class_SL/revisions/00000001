@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SL - Symmetric Logarithmic-Space =
+
+== Comments ==
 
 The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that
 
@@ -29,3 +33,4 @@ The reachability problem (is there a path from vertex s to vertex t?) for undire
 
 The story ends with the remarkable result that SL = L (even relative to an oracle)
 [Rei04].
+== Relations ==

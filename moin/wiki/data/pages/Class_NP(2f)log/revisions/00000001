@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = NP/log - NP With Logarithmic Advice =
 
+== Comments ==
+
 Same as NP/poly, except that now the advice string is logarithmic-size.
 
 Shown in [FK05] that EXP ⊆ NP/log if and only if EXP = P^||NP^.
+== Relations ==

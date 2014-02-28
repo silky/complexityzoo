@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = LogFew - Logspace-Bounded Few =
+
+== Comments ==
 
 The class of decision problems solvable by an NL machine such that
 
@@ -9,3 +13,4 @@ The number of accepting paths on input x is f(x), and
 The answer is 'yes' if and only if R(x,f(x))=1, where R is some predicate computable in L.
 
 Defined in [BDH+92], where it was also shown that LogFew is contained in Mod,,k,,L for all k>1.
+== Relations ==

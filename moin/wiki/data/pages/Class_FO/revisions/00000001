@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FO - First-Order logic =
+
+== Comments ==
 
 First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class AC^0^ and to AH, the alternating logtime hierarchy.
 
@@ -19,3 +23,4 @@ The semantics of the formulae in FO is straightforward,  is true iff  is false, 
 A querie in FO will then be to check if a FO formulae is true over a given structure, this structure is the input of the problem. One should not confuse this kind of problem with checking if a quantified boolean formula is true, which is the definition of QBF, which is Pspace-complete. The difference between those two problem is that in QBF the size of the problem is the size of the formula and elements are just boolean value, whereas in FO the size of the problem is the size of the structure and the formula is fixed.
 
 Every formulae is equivalent to a formulae in prenexe normal form where we put recursively every quantifier and then a quantifier-free formulae.
+== Relations ==

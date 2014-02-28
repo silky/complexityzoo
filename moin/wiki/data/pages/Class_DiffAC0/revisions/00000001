@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = DiffAC^0^ - Difference #AC0 =
 
+== Comments ==
+
 The class of functions from {0,1}^n^ to integers expressible as the difference of two #AC^0^ functions.
 
 Equals GapAC^0^ under logspace uniformity [ABL98].
+== Relations ==

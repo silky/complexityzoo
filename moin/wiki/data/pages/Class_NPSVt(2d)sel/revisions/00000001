@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = NPSV,,t,,-sel - NPSVt Selective =
+
+== Comments ==
 
 Has the same relation to NPSV,,t,, as P-Sel does to P.
 
 Also known as NP-sel.
 
 Defined in [HHN+95].
+== Relations ==

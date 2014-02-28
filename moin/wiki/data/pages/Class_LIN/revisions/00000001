@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = LIN - Linear Time =
+
+== Comments ==
 
 The class of decision problems solvable by a deterministic Turing machine in linear time.
 
 Strictly Contained in NLIN. [PPS+83].
 
 Contained in NLIN.
+== Relations ==

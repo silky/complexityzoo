@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = QMA-plus - QMA With Super-Verifier =
 
+== Comments ==
+
 Same as QMA, except now the verifier can directly obtain the probability that a given observable of the certificate state, if measured, would equal 1.  (In the usual model, by contrast, one can only sample an observable.)
 
 Defined in [AR03], where it was also shown that QMA-plus = QMA.
+== Relations ==

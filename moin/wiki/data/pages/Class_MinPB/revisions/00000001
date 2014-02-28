@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MinPB - MinNP Polynomially Bounded =
 
+== Comments ==
+
 Same as MaxPB but for minimization instead of maximization problems.
+== Relations ==

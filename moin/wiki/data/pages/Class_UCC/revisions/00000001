@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = UCC - Unique Connected Component =
+
+== Comments ==
 
 The class of problems reducible in L to the problem of whether an undirected graph has a unique connected component.
 
@@ -10,3 +14,4 @@ See [AG00] for more information.
 Contained in SL.
 
 See also coUCC.
+== Relations ==

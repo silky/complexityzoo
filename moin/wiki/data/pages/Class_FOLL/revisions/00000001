@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FOLL - First-Order loglog n =
+
+== Comments ==
 
 The class of decision problems solvable by a uniform family of polynomial-size, unbounded-fanin, depth O(log log n) circuits with AND, OR, and NOT gates. Equals FO(log log n).
 
@@ -16,3 +20,4 @@ The class of decision problems solvable by a nonuniform family of polynomial-siz
 Contains AC^0^, and is contained in AC^1^.
 
 Is not known to be comparable to L/poly or NL/poly.
+== Relations ==

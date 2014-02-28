@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = AW[t] - Alternating W[t] =
+
+== Comments ==
 
 Has the same relation to W[t] as PSPACE does to NP.
 
@@ -10,3 +14,4 @@ Same as AW[SAT], except that the formula F can have depth at most t.
 Defined in [DF99].
 
 Contained in AW[*].
+== Relations ==

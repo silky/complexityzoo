@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = RP,,,,^cc^ - Randomized Pcc =
+
+== Comments ==
 
 The class of functions  which can be computed by  players with access to shared random bits in the number-on-forehead (defined as in P,,,,^cc^) model, subject to two constraints:
 
@@ -9,3 +13,4 @@ The communication cost (the sum of the number of random bits used and bits writt
  If , then the players decide correctly with probably at least 2/3, whereas if , the players always decide correctly.
 
 NP,,,,^cc^ is not equal to RP,,,,^cc^ for  players, for any constant  [DP08].
+== Relations ==

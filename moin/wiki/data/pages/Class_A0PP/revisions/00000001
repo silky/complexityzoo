@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = A,,0,,PP - One-Sided Analog of AWPP =
+
+== Comments ==
 
 Same as SBP, except that f is a nonnegative-valued GapP function rather than a #P function.
 
@@ -14,3 +18,4 @@ If A,,0,,PP = PP then PH is contained in PP.
 Kuperberg ([Kup09]) showed that A,,0,,PP = SBQP.
 
 Same as SBP, except that f is a GapP rather than #P function.
+== Relations ==

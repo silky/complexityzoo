@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = US - Unique Polynomial-Time =
+
+== Comments ==
 
 The all-American counting class.
 
@@ -12,3 +16,4 @@ In contrast to UP, a machine can legally have more than one accepting path - tha
 Defined in [BG82].
 
 Contains coNP.
+== Relations ==

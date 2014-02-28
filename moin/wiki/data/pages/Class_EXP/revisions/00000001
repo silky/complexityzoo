@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = EXP - Exponential Time =
+
+== Comments ==
 
 Equals the union of DTIME(2^p(n)^) over all polynomials p.
 
@@ -30,3 +34,4 @@ In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
 EXP = NP = ZPP [Hel84],
 EXP = NEXP but still P does not equal NP [Dek76],
 EXP does not equal PSPACE [Dek76].
+== Relations ==

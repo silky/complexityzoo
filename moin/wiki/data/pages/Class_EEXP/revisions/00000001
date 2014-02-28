@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = EEXP - Double-Exponential Time =
+
+== Comments ==
 
 Equals DTIME(2^2^p(n)^^) for p a polynomial.
 
@@ -10,3 +14,4 @@ Also known as 2-EXP.
 Contains EE, and is contained in NEEXP.
 
 Equals DTIME(2^2^p(n)^) for p a polynomial.
+== Relations ==

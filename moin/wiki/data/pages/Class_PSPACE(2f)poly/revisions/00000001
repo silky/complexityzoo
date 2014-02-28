@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PSPACE/poly - PSPACE With Polynomial-Size Advice =
 
+== Comments ==
+
 Contains QMA/qpoly [Aar06b].
+== Relations ==

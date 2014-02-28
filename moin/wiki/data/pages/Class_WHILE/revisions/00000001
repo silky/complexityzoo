@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = WHILE - While programs and some restrictions =
+
+== Comments ==
 
 While is a theorical programing language defined in [jon98],  is a way to define syntacticaly P and a syntactic resctriction of WHILE is exactly L. The important point is that those two languages are powerful enough to simulate all of P (and L) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !
 
@@ -22,3 +26,4 @@ We can then define WHILE^/cons-rec^ which is WHILE without "cons" primitive and 
 We can then also define WHILE^rec/cons^ which is WHILE without "cons" primitive but with procedure calls, and hence recursion. It is equivalent to P. 
 The trick to do a computation of a WHILE^rec/cons^ in P is to memoize the couple (global variables, input) when a procedure is called and the value of the globals variable when the procedure end, since we don't have cons, only a polynomial number of call will really be executed and we can detect loop.
 Simulating P in WHILE^rec/cons^ is quite more subtle, P TM are equivalent to some counter machine wich can easily be simulated by WHILE programs with cons, and then we can simulate the cons thanks to the call stack.
+== Relations ==

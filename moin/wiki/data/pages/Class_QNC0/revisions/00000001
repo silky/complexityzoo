@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = QNC^0^ - Quantum NC0 =
+
+== Comments ==
 
 Constant-depth quantum circuits without fanout gates.
 
 Defined in [Spa02].
 
 Contained in QNC,,f,,^0^.
+== Relations ==

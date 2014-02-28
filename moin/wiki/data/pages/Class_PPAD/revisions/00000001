@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PPAD - Polynomial Parity Argument (Directed) =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -15,3 +19,4 @@ There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].
 There exists an oracle relative to which PPAD is not contained in BQP [Li11].
 
 There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].
+== Relations ==

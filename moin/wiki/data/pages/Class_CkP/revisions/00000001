@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = C,,k,,P - kth Level of CH =
+
+== Comments ==
 
 Defined as follows:
 
@@ -15,3 +19,4 @@ The union of the C,,k,,P's is called the counting hierarchy, CH.
 Defined in [Wag86].
 
 See [Tor91] or [AW90] for more information.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = W[1] - Weighted Analog of NP =
+
+== Comments ==
 
 The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following:
 
@@ -16,3 +20,4 @@ Defined in [DF99], where the following is also shown:
 If FPT = W[1] then NP is contained in DTIME(2^o(n)^).
 
 W[1] can be generalized to W[t].
+== Relations ==

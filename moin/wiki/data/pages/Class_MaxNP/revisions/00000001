@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = MaxNP - Maximization NP =
+
+== Comments ==
 
 Has the same relation to NP as MaxSNP does to SNP.
 
 Contains MaxPB.
 
 The closure of MaxNP under PTAS reduction is APX [KMS+99], [CT94].
+== Relations ==

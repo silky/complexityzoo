@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = PromiseUP - Promise-Problem UP =
 
+== Comments ==
+
 The class of promise problems solvable by an UP machine. I.e., the nondeterministic machine must have a unique accepting path for "yes" inputs, and no accepting paths "no" inputs, but could have any number of accepting paths for inputs that do not satisfy the promise.
 
 Although not originally stated with this notation, the main result of [VV86] is that NP is contained in RP^PromiseUP^.
+== Relations ==

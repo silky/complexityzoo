@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = Dyn-ThC^0^ - Dynamic Threshold Circuits =
 
+== Comments ==
+
 Same as Dyn-FO, except that now updates are computed via constant-depth predicates that have "COUNT" available, in addition to AND, OR, and NOT -- so it's a uniform version of TC^0^ rather than of AC^0^.
 
 See [HI02] for more information.
+== Relations ==

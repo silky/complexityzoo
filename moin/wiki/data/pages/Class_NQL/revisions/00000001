@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NQL - Nondet Quasi-Linear =
+
+== Comments ==
 
 The class of problems that can be decided in quasi-linear time by a multitape nondeterministic Turing machine.  Quasi-linear here means n(log n)^k^ + k, for some k.
 
@@ -12,3 +16,4 @@ SAT is NQL-complete under quasi-linear-time reductions (which can be computed in
 Defined in [Sch78].
 
 See also: NLT, Q, QL.
+== Relations ==

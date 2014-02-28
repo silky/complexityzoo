@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SPP - Stoic PP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -25,3 +29,4 @@ Indeed, contains graph isomorphism [AK02].
 Contains a whole gaggle of problems for solvable black-box groups: solvability testing, membership testing, subgroup testing, normality testing, order verification, nilpotetence testing, group isomorphism, and group intersection [Vin04]
 
 [AK02] also showed that the Hidden Subgroup Problem for permutation groups, of interest in quantum computing, is in FP^SPP^.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = HalfP - RP With Exactly Half Acceptance =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -13,3 +17,4 @@ Significantly, the number of candidate witnesses is restricted to be a power of 
 Contained in RP, EP, and Mod,,k,,P for every odd k.  Contained in EQP by the Deutsch-Jozsa algorithm.
 
 Defined in [BB92], where it was called C,,==,,P[half].  The name used here is from [BS00].  There it was shown that HalfP is contained in every similar class in which 1/2 is replaced by some other dyadic fraction.
+== Relations ==

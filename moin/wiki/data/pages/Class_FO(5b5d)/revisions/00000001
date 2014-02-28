@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FO[] - Iterated First-Order logic =
+
+== Comments ==
 
 Let  be a function from integers to integers.
  abbreviates  and  abbreviates .
@@ -18,3 +22,4 @@ FO[] is equal to fo-uniform AC^i^, and in fact FO[] is fo-uniform AC of depth
 FO[] is equal to NC
 FO[] is equal to P and FO(LFP)
 FO[] is equal to PSPACE and FO(PFP)
+== Relations ==

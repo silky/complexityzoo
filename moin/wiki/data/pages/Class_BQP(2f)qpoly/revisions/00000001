@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = BQP/qpoly - BQP With Polynomial-Size Quantum Advice =
+
+== Comments ==
 
 The class of problems solvable by a BQP machine that receives a quantum state ψ,,n,, as advice, which depends only on the input length n.
 
@@ -17,3 +21,4 @@ BQP/qpoly is contained in PP/poly.
 A classical oracle separation between BQP/qpoly and BQP/mpoly is presently unknown, but there is a quantum oracle separation [AK06].  An unrelativized separation is too much to hope for, since it would imply that PP is not contained in P/poly.
 
 Contains BQP/mpoly.
+== Relations ==

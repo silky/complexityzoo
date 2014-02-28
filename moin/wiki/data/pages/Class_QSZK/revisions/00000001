@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QSZK - Quantum Statistical Zero-Knowledge =
+
+== Comments ==
 
 A quantum analog of SZK (or more precisely HVSZK).
 
@@ -16,3 +20,4 @@ QSZK is closed under complement.
 Any protocol can be parallelized to consist of two messages, so that QSZK is in QIP[2].
 One can assume without loss of generality that protocols are public-coin, as for SZK.
 QSZK has a natural complete promise problem, called Quantum State Distinguishability (QSD).  We are given quantum circuits Q,,0,, and Q,,1,,.  Let ρ,,0,, and ρ,,1,, be the mixed states they produce respectively, when run on the all-0 state (and when non-output qubits are traced out).  We are promised that the trace distance between ρ,,0,, and ρ,,1,, is either at most α or at least β, where α and β are constants in [0,1] satisfying α < β^2^.  The problem is to decide which of these is the case.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = DET - Determinant =
+
+== Comments ==
 
 The class of decision problems reducible in L to the problem of computing the determinant of an n-by-n matrix of n-bit integers.
 
@@ -10,3 +14,4 @@ Defined in [Coo85].
 Contained in NC^2^, and contains NL and PL [BCP83].
 
 Graph isomorphism is hard for DET under L-reductions [Tor00].
+== Relations ==

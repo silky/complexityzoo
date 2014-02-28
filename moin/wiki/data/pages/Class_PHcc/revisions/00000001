@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = PH^cc^ - Communication Complexity PH =
+
+== Comments ==
 
 The obvious generalization of NP^cc^ and coNP^cc^ to a nondeterministic hierarchy.
 
 It is unknown whether Σ,,2,,^cc^ equals Π,,2,,^cc^.
 
 Defined in [BFS86], where it was also shown (among other things) that BPP^cc^ is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
+== Relations ==

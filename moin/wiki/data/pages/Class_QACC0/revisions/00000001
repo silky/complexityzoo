@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = QACC^0^ - Quantum ACC0 =
+
+== Comments ==
 
 Same as QAC^0^[m], except that Mod-m gates are allowed for any m.
 
 Defined in [Moo99].
 
 [GHP00] showed that QACC^0^ equals QAC^0^[p] for any prime p.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = P^cc^ - Communication Complexity P =
+
+== Comments ==
 
 In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  P^cc^ is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.
 
@@ -18,3 +22,4 @@ Like P^cc^, but with  players, where each player can see all of the other player
 More formally, P,,,,^cc^ is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
 
 P,,,,^cc^ is trivially contained in BPP,,,,^cc^, RP,,,,^cc^ and NP,,,,^cc^.
+== Relations ==

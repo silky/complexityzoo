@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = DistNP - Distributional NP =
+
+== Comments ==
 
 (also called (NP,P-computable) or RNP)
 
@@ -14,3 +18,4 @@ DistNP has complete problems [Lev86] (see also [Gur87]), although unlike for NP 
 Any DistNP-complete problem is also complete for (NP,P-samplable) [IL90].
 
 DistNP has complete problems [Gur87], although unlike for NP this is not immediate.
+== Relations ==

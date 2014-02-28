@@ -12,13 +12,20 @@ from MoinMoin.Page import Page
 pagename = u"Class_#AC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = #AC^0^ - Sharp-AC0 =
 
+== Comments ==
+
 The class of functions from {0,1}^n^ to nonnegative integers computed by polynomial-size constant-depth arithmetic circuits, using addition and multiplication gates and the constants 0 and 1.
 
-Contained in GapAC^0^.'''
+Contained in GapAC^0^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -35,13 +42,20 @@ if p:
 pagename = u"Class_#GA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = #GA - Graph Automorphism =
 
+== Comments ==
+
 The class of problems (Karp-)reducible to counting the number of automorphisms of a graph.
 
-Counterpart of GI.'''
+Counterpart of GI.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -58,13 +72,20 @@ if p:
 pagename = u"Class_#L"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = #L - Sharp-L =
 
+== Comments ==
+
 Has the same relation to L as #P does to P.
 
-#L is contained in DET [AJ93].'''
+#L is contained in DET [AJ93].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -81,11 +102,18 @@ if p:
 pagename = u"Class_#L/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = #L/poly - Nonuniform #L =
 
-Has the same relation to #L as P/poly does to P.'''
+== Comments ==
+
+Has the same relation to #L as P/poly does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -102,9 +130,13 @@ if p:
 pagename = u"Class_#P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = #P - Sharp-P =
+
+== Comments ==
 
 The class of function problems of the form "compute f(x)," where f is the number of accepting paths of an NP machine.
 
@@ -116,7 +148,10 @@ What makes that interesting is that the associated decision problem (whether a b
 
 PH is in P^#P^ [Tod89].
 
-Any function in #P can be approximated to within a polynomial factor in BPP with NP oracle [Sto85].'''
+Any function in #P can be approximated to within a polynomial factor in BPP with NP oracle [Sto85].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -133,15 +168,22 @@ if p:
 pagename = u"Class_#W[t]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = #W[t] - Sharp-W[t] =
+
+== Comments ==
 
 Roughly, the analogue of #P for parameterized complexity.  I.e. the class of parameterized counting problems that are fixed-parameter parsimonious reducible to the following problem:
 
 #WSAT: Given a Boolean formula, count the number of satisfying assignments of Hamming weight k (where k is the parameter).
 
-Defined in [FG02], which should be consulted for the full definition.  [FG02] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in FPT).'''
+Defined in [FG02], which should be consulted for the full definition.  [FG02] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in FPT).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -158,9 +200,13 @@ if p:
 pagename = u"Class_(Mk)P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = (M,,k,,)P - Acceptance Mechanism by Monoid Mk =
+
+== Comments ==
 
 A monoid is a set with an associative operation and an identity element (so it's like a group, except that it need not have inverses).
 
@@ -170,7 +216,10 @@ Defined by Hertrampf [Her97], who also showed the following (in the special case
 
 If G is any nonsolvable group (for example S,,5,,, the symmetric group on 5 elements), then (G)P = PSPACE.
 (Z,,k,,)P = coMod,,k,,P, where Z,,k,, is the cyclic group on k elements.
-If |G|=k, then (G)P contains coMod,,k,,P.'''
+If |G|=k, then (G)P contains coMod,,k,,P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -187,15 +236,22 @@ if p:
 pagename = u"Class_(NP ∩ coNP)/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = (NP ∩ coNP)/poly - Nonuniform NP ∩ coNP =
+
+== Comments ==
 
 Together with NP/poly ∩ coNP/poly, has the same relation to NP ∩ coNP as P/poly has to P.  A language in (NP ∩ coNP)/poly is defined by a single language in NP ∩ coNP which is then modified by advice.  A language in NP/poly ∩ coNP/poly comes from two possibly different languages in NP and coNP which become the same with good advice.
 
 There is an oracle relative to which NP/poly ∩ coNP/poly, indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [FFK+93].  Recently they improved this to NP/1 ∩ coNP [FF..].
 
-If NP is contained in (NP ∩ coNP)/poly, then PH collapses to S,,2,,P^NP ∩ coNP^ [CCH+01].'''
+If NP is contained in (NP ∩ coNP)/poly, then PH collapses to S,,2,,P^NP ∩ coNP^ [CCH+01].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -212,15 +268,22 @@ if p:
 pagename = u"Class_(NP,P-samplable)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = (NP,P-samplable) - Average NP With Samplable Distributions =
+
+== Comments ==
 
 See AvgP for basic notions of average-case complexity.
 
 (NP,P-samplable) is the same as DistNP, except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
 
-Any problem complete for DistNP is also complete for (NP,P-samplable) [IL90].'''
+Any problem complete for DistNP is also complete for (NP,P-samplable) [IL90].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -237,15 +300,22 @@ if p:
 pagename = u"Class_0-1-NPC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = 0-1-NP,,C,, - Binary Restriction of NP Over The Complex Numbers =
+
+== Comments ==
 
 The intersection of NP,,C,, with {0,1}^*^ (i.e. the set of binary strings).
 
 Contains NP.
 
-Is contained in PSPACE, and in AM assuming the Extended Riemann Hypothesis [Koi96].'''
+Is contained in PSPACE, and in AM assuming the Extended Riemann Hypothesis [Koi96].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -262,11 +332,18 @@ if p:
 pagename = u"Class_1NAuxPDAp"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = 1NAuxPDA^p^ - One-Way NAuxPDAp =
 
-Defined in [Bra77], where it was also shown that 1NAuxPDA^p^ strictly contains CFL and is strictly contained in LOGCFL. The class corresponds to the closure of CFL under one-way log-space reductions.'''
+== Comments ==
+
+Defined in [Bra77], where it was also shown that 1NAuxPDA^p^ strictly contains CFL and is strictly contained in LOGCFL. The class corresponds to the closure of CFL under one-way log-space reductions.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -283,9 +360,13 @@ if p:
 pagename = u"Class_A0PP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = A,,0,,PP - One-Sided Analog of AWPP =
+
+== Comments ==
 
 Same as SBP, except that f is a nonnegative-valued GapP function rather than a #P function.
 
@@ -297,7 +378,10 @@ If A,,0,,PP = PP then PH is contained in PP.
 
 Kuperberg ([Kup09]) showed that A,,0,,PP = SBQP.
 
-Same as SBP, except that f is a GapP rather than #P function.'''
+Same as SBP, except that f is a GapP rather than #P function.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -314,9 +398,13 @@ if p:
 pagename = u"Class_AC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AC - Unbounded Fanin Polylogarithmic-Depth Circuits =
+
+== Comments ==
 
 AC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and unbounded fanin.  The gates allowed are AND, OR, and NOT.
 
@@ -328,7 +416,10 @@ Contains NL.
 
 For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (uniform) AC^A^ is strictly contained in P^A^, with probability 1 [Mil92].
 
-fo-uniform AC with depth  is equal to FO[]'''
+fo-uniform AC with depth  is equal to FO[]
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -345,9 +436,13 @@ if p:
 pagename = u"Class_AC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AC^0^ - Unbounded Fanin Constant-Depth Circuits =
+
+== Comments ==
 
 An especially important subclass of AC, corresponding to constant-depth, unbounded-fanin, polynomial-size circuits with AND, OR, and NOT gates.
 
@@ -373,7 +468,10 @@ Although there are no good pseudorandom functions in AC^0^, [IN96] showed that t
 
 AC^0^ contains NC^0^, and is contained in QAC^0^ and MAC^0^.
 
-In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [Lee02]).'''
+In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [Lee02]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -390,9 +488,13 @@ if p:
 pagename = u"Class_AC0[m]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AC^0^[m] - AC0 With MOD m Gates =
+
+== Comments ==
 
 Same as AC^0^, but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)
 
@@ -402,7 +504,10 @@ However, if m is a product of distinct primes (e.g. 6), then it is not even know
 
 See also: QAC^0^[m].
 
-However, if m is a product of distinct primes (i.e. 6), then it is not even known whether AC^0^[m] = NP!'''
+However, if m is a product of distinct primes (i.e. 6), then it is not even known whether AC^0^[m] = NP!
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -419,11 +524,18 @@ if p:
 pagename = u"Class_AC1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AC^1^ - Unbounded Fanin Log-Depth Circuits =
 
-See AC.'''
+== Comments ==
+
+See AC.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -440,9 +552,13 @@ if p:
 pagename = u"Class_ACC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ACC^0^ - AC0 With Arbitrary MOD Gates =
+
+== Comments ==
 
 Same as AC^0^[m], but now the constant-depth circuit can contain MOD m gates for any m.
 
@@ -458,7 +574,10 @@ Contains 4-PBP [BT88].
 
 See also: QACC^0^.
 
-In 1996, [All96] suggested the existence of cryptographically secure functions in ACC^0^ as an important open question. In 2004, work of [AIK04] showed pseudorandom generators in NC^0^ based on widely-believed assumptions.'''
+In 1996, [All96] suggested the existence of cryptographically secure functions in ACC^0^ as an important open question. In 2004, work of [AIK04] showed pseudorandom generators in NC^0^ based on widely-believed assumptions.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -475,9 +594,13 @@ if p:
 pagename = u"Class_AH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AH - Arithmetic Hierarchy =
+
+== Comments ==
 
 The analog of PH in computability theory.
 
@@ -491,7 +614,10 @@ Then AH is the union of these classes for all nonnegative constant i.
 
 Each level of AH strictly contains the levels below it.
 
-An equivalent definition is:  is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and . A bounded quantifier is of the form  or  where   is considered to be free in . Then  is the sets of number validating a formula of the form  with .  is the set of formula who are negation of  formula.'''
+An equivalent definition is:  is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and . A bounded quantifier is of the form  or  where   is considered to be free in . Then  is the sets of number validating a formula of the form  with .  is the set of formula who are negation of  formula.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -508,13 +634,20 @@ if p:
 pagename = u"Class_AL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AL - Alternating L =
 
+== Comments ==
+
 Same as AP, but for logarithmic-space instead of polynomial-time.
 
-AL = P [CKS81].'''
+AL = P [CKS81].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -531,9 +664,13 @@ if p:
 pagename = u"Class_ALL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ALL - The Class of All Languages =
+
+== Comments ==
 
 Literally, the class of ALL languages.
 
@@ -549,7 +686,10 @@ On the other hand, even though PSPACE contains PP, and EXPSPACE contains MA,,EXP
 
 So does ALL have no respect for complexity class inclusions at ALL?  (Sorry.)
 
-It is not as contradictory as it first seems.  The deterministic base class in all of these examples is modified by computational non-determinism after it is modified by advice.  For example, MA,,EXP,,/rpoly means M(A,,EXP,,/rpoly), while (MA,,EXP,,)/rpoly equals MA,,EXP,,/poly by a standard argument.  In other words, it's only the verifier, not the prover or post-selector, who receives the randomized or quantum advice. The prover knows a description of the advice state, but not its measured values.  Modification by /rpoly does preserve class inclusions when it is applied after other changes.'''
+It is not as contradictory as it first seems.  The deterministic base class in all of these examples is modified by computational non-determinism after it is modified by advice.  For example, MA,,EXP,,/rpoly means M(A,,EXP,,/rpoly), while (MA,,EXP,,)/rpoly equals MA,,EXP,,/poly by a standard argument.  In other words, it's only the verifier, not the prover or post-selector, who receives the randomized or quantum advice. The prover knows a description of the advice state, but not its measured values.  Modification by /rpoly does preserve class inclusions when it is applied after other changes.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -566,13 +706,20 @@ if p:
 pagename = u"Class_ALOGTIME"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ALOGTIME - Logarithmic time alternating RAM =
 
+== Comments ==
+
 ALOGTIME is the class of languages decidable in logarithmic time by a random access alternating Turing machine.
 
-Known to be equal to U,,E^*^,,-uniform NC^1^.'''
+Known to be equal to U,,E^*^,,-uniform NC^1^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -589,9 +736,13 @@ if p:
 pagename = u"Class_AM"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AM - Arthur-Merlin =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by an Arthur-Merlin protocol, as follows.
 
@@ -612,7 +763,10 @@ If AM contains coNP then PH collapses to Σ,,2,,P ∩ Π,,2,,P [BHZ87].
 
 There exists an oracle relative to which AM is not contained in PP [Ver92].
 
-AM = NP under a strong derandomization assumption: namely that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([MV99], improving [KM99]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)'''
+AM = NP under a strong derandomization assumption: namely that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([MV99], improving [KM99]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -629,15 +783,22 @@ if p:
 pagename = u"Class_AM ∩ coAM"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AM ∩ coAM - AM ∩ coAM =
+
+== Comments ==
 
 The class of decision problems for which both "yes" and "no" answers can be verified by an AM protocol.
 
 If EXP requires exponential time even for AM protocols, then AM ∩ coAM = NP ∩ coNP [GST03].
 
-There exists an oracle relative to which AM ∩ coAM is not contained in PP [Ver95].'''
+There exists an oracle relative to which AM ∩ coAM is not contained in PP [Ver95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -654,15 +815,22 @@ if p:
 pagename = u"Class_AMEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AM,,EXP,, - Exponential-Time AM =
+
+== Comments ==
 
 Same as AM, except that Arthur is exponential-time and can exchange exponentially long messages with Merlin.
 
 Contains MA,,EXP,,, and is contained in EH and indeed S,,2,,-EXP•P^NP^.
 
-If coNP is contained in AM[polylog] then EH collapses to AM,,EXP,, [PV04].'''
+If coNP is contained in AM[polylog] then EH collapses to AM,,EXP,, [PV04].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -679,13 +847,20 @@ if p:
 pagename = u"Class_AM[polylog]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AM[polylog] - AM With Polylog Rounds =
 
+== Comments ==
+
 Same as AM, except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.
 
-Not much is known about AM[polylog] -- for example, whether it sits in PH.  However, [SS04] show that if AM[polylog] contains coNP, then EH collapses to S,,2,,-EXP•P^NP^.  ([PV04] improved the collapse to AM,,EXP,,.)'''
+Not much is known about AM[polylog] -- for example, whether it sits in PH.  However, [SS04] show that if AM[polylog] contains coNP, then EH collapses to S,,2,,-EXP•P^NP^.  ([PV04] improved the collapse to AM,,EXP,,.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -702,9 +877,13 @@ if p:
 pagename = u"Class_AP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AP - Alternating P =
+
+== Comments ==
 
 An alternating Turing machine is a nondeterministic machine with two kinds of states, AND states and OR states.  It accepts if and only if the tree of all computation paths, considered as an AND-OR tree, evaluates to 1.  (Here 'Accept' corresponds to 1 and 'Reject' to 0.)
 
@@ -712,7 +891,10 @@ Then AP is the class of decision problems solvable in polynomial time by an alte
 
 AP = PSPACE [CKS81].
 
-The abbreviation AP is also used for Approximable in Polynomial Time, see AxP.'''
+The abbreviation AP is also used for Approximable in Polynomial Time, see AxP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -729,9 +911,13 @@ if p:
 pagename = u"Class_APP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = APP - Amplified PP =
+
+== Comments ==
 
 Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist GapP functions f and g such that for all inputs x with n=|x|,
 
@@ -745,7 +931,10 @@ APP is closed under intersection, union, and complement.
 
 APP contains AWPP [Fen02].
 
-The abbreviation APP is also used for Approximable in Probabilistic Polynomial Time, see AxPP.'''
+The abbreviation APP is also used for Approximable in Probabilistic Polynomial Time, see AxPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -762,9 +951,13 @@ if p:
 pagename = u"Class_APX"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = APX - Approximable =
+
+== Comments ==
 
 The subclass of NPO problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)
 
@@ -772,7 +965,10 @@ Contains PTAS.
 
 Equals the closure of MaxSNP and of MaxNP under PTAS reduction [KMS+99], [CT94].
 
-Defined in [ACG+99].'''
+Defined in [ACG+99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -789,13 +985,20 @@ if p:
 pagename = u"Class_ATIME"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ATIME - Alternating TIME =
 
+== Comments ==
+
 ATIME(f(n)) is the class of problems for which there are alternating Turing machines (see AP) which decide the problem in time bounded by f(n).
 
-In particular, AP = ATIME(poly(n)).'''
+In particular, AP = ATIME(poly(n)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -812,9 +1015,13 @@ if p:
 pagename = u"Class_AUC-SPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AUC-SPACE(f(n)) - Randomized Alternating f(n)-Space =
+
+== Comments ==
 
 The class of problems decidable by an O(f(n))-space Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
@@ -822,7 +1029,10 @@ Contains GAN-SPACE(f(n)).
 
 AUC-SPACE(poly(n)) = SAPTIME = PSPACE [Pap83].
 
-[Con92] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in NP ∩ coNP.'''
+[Con92] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in NP ∩ coNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -839,13 +1049,20 @@ if p:
 pagename = u"Class_AVBPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AVBPP - Average-Case BPP =
 
+== Comments ==
+
 Defined in [OW93] to be the class of decision problems that have a good average-case BPP algorithm, whenever the input is chosen from an efficiently samplable distribution.
 
-Note that this is not the same as the BPP version of AvgP.'''
+Note that this is not the same as the BPP version of AvgP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -862,9 +1079,13 @@ if p:
 pagename = u"Class_AWPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AWPP - Almost WPP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that for some polynomial-time computable (i.e. FP) function f,
 
@@ -875,7 +1096,10 @@ Defined in [FFK94].
 
 Contains BQP [FR98], WAPP [BGM02], LWPP, and WPP.
 
-Contained in APP [Fen02].'''
+Contained in APP [Fen02].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -892,11 +1116,18 @@ if p:
 pagename = u"Class_AW[*]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AW[*] - Alternating W[*] =
 
-The union of AW[t] over all t.'''
+== Comments ==
+
+The union of AW[t] over all t.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -913,15 +1144,22 @@ if p:
 pagename = u"Class_AW[P]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AW[P] - Alternating W[P] =
+
+== Comments ==
 
 Same as AW[SAT] but with 'circuit' instead of 'formula.'
 
 Has the same relation to AW[SAT] as W[P] has to W[SAT].
 
-Defined in [DF99].'''
+Defined in [DF99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -938,9 +1176,13 @@ if p:
 pagename = u"Class_AW[SAT]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AW[SAT] - Alternating W[SAT] =
+
+== Comments ==
 
 Basically has the same relation to W[SAT] as PSPACE does to NP.
 
@@ -952,7 +1194,10 @@ See W[1] for the definition of fixed-parameter reducibility.
 
 Defined in [DF99].
 
-Contains AW[*], and is contained in AW[P].'''
+Contains AW[*], and is contained in AW[P].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -969,9 +1214,13 @@ if p:
 pagename = u"Class_AW[t]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AW[t] - Alternating W[t] =
+
+== Comments ==
 
 Has the same relation to W[t] as PSPACE does to NP.
 
@@ -979,7 +1228,10 @@ Same as AW[SAT], except that the formula F can have depth at most t.
 
 Defined in [DF99].
 
-Contained in AW[*].'''
+Contained in AW[*].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -996,15 +1248,22 @@ if p:
 pagename = u"Class_AlgP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AlgP/poly - Polynomial-Size Algebraic Circuits =
+
+== Comments ==
 
 The class of multivariate polynomials over the integers that can be evaluated using a polynomial (in the input size n) number of additions, subtractions, and multiplications, together with the constants -1 and 1.  The class is nonuniform, in the sense that the polynomial for each input size n can be completely different.
 
 Named in [Imp02], though it has been considered since the 1970's.
 
-If P = BPP (or even BPP is contained in NE), then either NEXP is not in P/poly, or else the permanent polynomial of a matrix is not in AlgP/poly [KI02].'''
+If P = BPP (or even BPP is contained in NE), then either NEXP is not in P/poly, or else the permanent polynomial of a matrix is not in AlgP/poly [KI02].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1021,13 +1280,20 @@ if p:
 pagename = u"Class_Almost-NP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Almost-NP - Languages Almost Surely in NPA =
 
+== Comments ==
+
 The class of problems that are in NP^A^ with probability 1, where A is an oracle chosen uniformly at random.
 
-Equals AM [NW94].'''
+Equals AM [NW94].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1044,13 +1310,20 @@ if p:
 pagename = u"Class_Almost-P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Almost-P - Languages Almost Surely in PA =
 
+== Comments ==
+
 The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.
 
-Equals BPP [BG81].'''
+Equals BPP [BG81].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1067,9 +1340,13 @@ if p:
 pagename = u"Class_Almost-PSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Almost-PSPACE - Languages Almost Surely in PSPACEA =
+
+== Comments ==
 
 The class of problems that are in PSPACE^A^ with probability 1, where A is an oracle chosen uniformly at random.
 
@@ -1077,7 +1354,10 @@ Almost-PSPACE is not known to equal PSPACE -- rather surprisingly, given the fac
 
 What's known is that Almost-PSPACE = BP^exp^•PSPACE, where BP^exp^• is like the BP• operator but with exponentially-long strings [BVW98].  It follows that Almost-PSPACE is contained in NEXP^NP^ ∩ coNEXP^NP^.
 
-Whereas both BP^exp^•PSPACE and BPPSPACE machines are allowed exponentially many random bits, the former has a reusable record of all of these bits on a witness tape, while the latter can only preserve a fraction of them on the work tape.'''
+Whereas both BP^exp^•PSPACE and BPPSPACE machines are allowed exponentially many random bits, the former has a reusable record of all of these bits on a witness tape, while the latter can only preserve a fraction of them on the work tape.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1094,9 +1374,13 @@ if p:
 pagename = u"Class_AmpMP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AmpMP - Amplifiable MP =
+
+== Comments ==
 
 The class of decision problems such that for some #P function f(x,0^m^),
 
@@ -1105,7 +1389,10 @@ The m bits of f(x) to the left and right of the middle bit are all 0.
 
 Defined in [GKR+95].
 
-Contains PH and Contained in MP.'''
+Contains PH and Contained in MP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1122,13 +1409,20 @@ if p:
 pagename = u"Class_AmpP-BQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AmpP-BQP - BQP Restricted To AmpP States =
 
+== Comments ==
+
 Similar to TreeBQP except that the quantum computer's state at each time step is restricted to being exponentially close to a state in AmpP (that is, a state for which the amplitudes are computable by a classical polynomial-size circuit).
 
-Defined in [Aar03b], where it was also observed that AmpP-BQP is contained in the third level of PH, just as TreeBQP is.'''
+Defined in [Aar03b], where it was also observed that AmpP-BQP is contained in the third level of PH, just as TreeBQP is.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1145,13 +1439,20 @@ if p:
 pagename = u"Class_AuxPDA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AuxPDA - Auxiliary Pushdown Automata =
 
+== Comments ==
+
 Equivalent to NAuxPDA^p^ without the running-time restriction.
 
-Equals P [Coo71b].'''
+Equals P [Coo71b].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1168,11 +1469,18 @@ if p:
 pagename = u"Class_AvgE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AvgE - Average Exponential-Time With Linear Exponent =
 
-Has the same relation to E as AvgP does to P.'''
+== Comments ==
+
+Has the same relation to E as AvgP does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1189,9 +1497,13 @@ if p:
 pagename = u"Class_AvgP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AvgP - Average Polynomial-Time =
+
+== Comments ==
 
 A distributional problem consists of a decision problem A, and a probability distribution μ over problem instances.
 
@@ -1205,7 +1517,10 @@ If AvgP = DistNP then EXP = NEXP [BCG+92].
 
 Strictly contained in HeurP [NS05].
 
-See also: (NP,P-samplable).'''
+See also: (NP,P-samplable).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1222,15 +1537,22 @@ if p:
 pagename = u"Class_AxP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AxP - Approximable in Polynomial Time =
+
+== Comments ==
 
 Usually called AP in the literature.  I've renamed it AxP to distinguish it from the "other" AP.
 
 The class of real-valued functions from {0,1}^n^ to [0,1] that can be approximated within any ε>0 by a deterministic Turing machine in time polynomial in n and 1/ε.
 
-Defined by [KRC00], who also showed that the set of AxP machines is in RE.'''
+Defined by [KRC00], who also showed that the set of AxP machines is in RE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1247,9 +1569,13 @@ if p:
 pagename = u"Class_AxPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = AxPP - Approximable in Probabilistic Polynomial Time =
+
+== Comments ==
 
 Usually called APP.  I've renamed it AxPP to distinguish it from the "other" APP.
 
@@ -1263,7 +1589,10 @@ On the other hand, there exists an oracle relative to which BPP = P but AxPP doe
 
 AxPP is recursively enumerable [Jeř07].
 
-Interestingly, it is unclear whether the set of AxPP machines is in RE.'''
+Interestingly, it is unclear whether the set of AxPP machines is in RE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1280,9 +1609,13 @@ if p:
 pagename = u"Class_BH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BH - Boolean Hierarchy Over NP =
+
+== Comments ==
 
 The smallest class that contains NP and is closed under union, intersection, and complement.
 
@@ -1304,7 +1637,10 @@ If BH collapses at any level, then PH collapses to Σ,,3,,P [Kad88].
 
 See also: DP, QH.
 
-See also: QH.'''
+See also: QH.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1321,13 +1657,20 @@ if p:
 pagename = u"Class_BPE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPE - Bounded-Error Probabilistic E =
 
+== Comments ==
+
 Has the same relation to E as BPP does to P.
 
-EE = BPE if and only if EXP = BPP [IKW01].'''
+EE = BPE if and only if EXP = BPP [IKW01].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1344,11 +1687,18 @@ if p:
 pagename = u"Class_BPEE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPEE - Bounded-Error Probabilistic EE =
 
-Has the same relation to EE as BPP does to P.'''
+== Comments ==
+
+Has the same relation to EE as BPP does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1365,15 +1715,22 @@ if p:
 pagename = u"Class_BPHSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BP,,H,,SPACE(f(n)) - Bounded-Error Halting Probabilistic f(n)-Space =
+
+== Comments ==
 
 The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts on every input and every random tape setting.
 
 Contains R,,H,,SPACE(f(n)).
 
-Is contained in DSPACE(f(n)^3/2^) [SZ95].'''
+Is contained in DSPACE(f(n)^3/2^) [SZ95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1390,13 +1747,20 @@ if p:
 pagename = u"Class_BPL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPL - Bounded-Error Probabilistic L =
 
+== Comments ==
+
 Has the same relation to L as BPP does to P.  The Turing machine has to halt with probability 1 on every input.
 
-Contained in SC [Nis92] and in PL.'''
+Contained in SC [Nis92] and in PL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1413,9 +1777,13 @@ if p:
 pagename = u"Class_BPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP - Bounded-Error Probabilistic Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -1448,7 +1816,10 @@ Equals Almost-P.
 
 See also: BPP,,path,,.
 
-If BPP contains NP, then RP = NP [Ko82] and PH is contained in BPP [Zac88].'''
+If BPP contains NP, then RP = NP [Ko82] and PH is contained in BPP [Zac88].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1465,15 +1836,22 @@ if p:
 pagename = u"Class_BPP-OBDD"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP-OBDD - Polynomial-Size Bounded-Error Ordered Binary Decision Diagram =
+
+== Comments ==
 
 Same as P-OBDD, except that probabilistic transitions are allowed and the OBDD need only accept with probability at least 2/3.
 
 Does not contain the integer multiplication problem [AK96].
 
-Strictly contained in BQP-OBDD [NHK00].'''
+Strictly contained in BQP-OBDD [NHK00].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1490,14 +1868,21 @@ if p:
 pagename = u"Class_BPP//log"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP//log - BPP With Logarithmic Randomness-Dependent Advice =
+
+== Comments ==
 
 The class of problems solvable by a BPP machine that is given O(log n) advice bits, which can depend on both the machine's random coin flips and the input length n, but not on the input itself.
 
 Defined in [TV02], where it was also shown that if EXP is in BPP//log then
-EXP = BPP, and if PSPACE is in BPP//log then PSPACE = BPP.'''
+EXP = BPP, and if PSPACE is in BPP//log then PSPACE = BPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1514,13 +1899,20 @@ if p:
 pagename = u"Class_BPP/log"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP/log - BPP With Logarithmic Karp-Lipton Advice =
 
+== Comments ==
+
 The class of problems solvable by a semantic BPP machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, the machine must provide some answer with probability at least 2/3.  See the discussion for BQP/poly.
 
-Contained in BPP/mlog.'''
+Contained in BPP/mlog.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1537,13 +1929,20 @@ if p:
 pagename = u"Class_BPP/mlog"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP/mlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
 
+== Comments ==
+
 The class of problems solvable by a syntactic BPP machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, it need not be.
 
-Contained in BPP/rlog.'''
+Contained in BPP/rlog.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1560,15 +1959,22 @@ if p:
 pagename = u"Class_BPP/rlog"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP/rlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
+
+== Comments ==
 
 The class of problems solvable by a syntactic BPP machine with O(log n) random advice bits whose probability distribution depends only on the input length n.  For each n, there exists good advice such that the output is correct with probability at least 2/3.
 
 Contains BPP/mlog.  The inclusion is strict, because BPP/rlog contains any finitely sparse language by fingerprinting; see the discussion for ALL.
 
-Contained in BPP//log.'''
+Contained in BPP//log.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1585,15 +1991,22 @@ if p:
 pagename = u"Class_BPPKT"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP^KT^ - BPP With Time-Bounded Kolmogorov Complexity Oracle =
+
+== Comments ==
 
 BPP with an oracle that, given a string x, returns the minimum over all programs P that output x,,i,, on input i, of the length of P plus the maximum time taken by P on any input.
 
 A similar class was defined in [ABK+02], where it was also shown that in BPP^KT^ one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
 
-See also: P^K^.'''
+See also: P^K^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1610,9 +2023,13 @@ if p:
 pagename = u"Class_BPPcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP^cc^ - Communication Complexity BPP =
+
+== Comments ==
 
 The analogue of P^cc^ for bounded-error probabilistic communication complexity.
 
@@ -1622,7 +2039,10 @@ Defined in [BFS86].
 
 Has the same relation to BPP^cc^ and BPP as P,,,,^cc^ does to P^cc^ and P.
 
-NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant  [DP08].'''
+NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant  [DP08].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1639,9 +2059,13 @@ if p:
 pagename = u"Class_BPPpath"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPP,,path,, - Threshold BPP =
+
+== Comments ==
 
 Same as BPP, except that now the computation paths need not all have the same length.
 
@@ -1667,7 +2091,10 @@ See Also: PostBQP (quantum analogue).
 BPP,,path,, contains MA and P^NP[log]^, and is contained in PP and BPP^NP^.
 BPP,,path,, is closed under complementation, intersection, and union.
 If BPP,,path,, = BPP,,path,,^BPPpath^, then PH collapses to BPP,,path,,.
-If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.'''
+If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1684,15 +2111,22 @@ if p:
 pagename = u"Class_BPQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPQP - Bounded-Error Probabilistic QP =
+
+== Comments ==
 
 Equals BPTIME(2^O((log n)^k)^); that is, the class of problems solvable in quasipolynomial-time on a bounded-error machine.
 
 Defined in [CNS99], where the following was also shown:
 
-If either (1) #P does not have a subexponential-time bounded-error algorithm, or (2) EXP does not have subexponential-size circuits, then the BPQP hierarchy is strict -- that is, for all a < b at least 1, BPTIME(2^(log n)^a^) is strictly contained in BPTIME(2^(log n)^b^).'''
+If either (1) #P does not have a subexponential-time bounded-error algorithm, or (2) EXP does not have subexponential-size circuits, then the BPQP hierarchy is strict -- that is, for all a < b at least 1, BPTIME(2^(log n)^a^) is strictly contained in BPTIME(2^(log n)^b^).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1709,13 +2143,20 @@ if p:
 pagename = u"Class_BPSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPSPACE(f(n)) - Bounded-Error Probabilistic f(n)-Space =
 
+== Comments ==
+
 The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts with probability 1 on every input.
 
-Contains RSPACE(f(n)) and BP,,H,,SPACE(f(n)).'''
+Contains RSPACE(f(n)) and BP,,H,,SPACE(f(n)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1732,9 +2173,13 @@ if p:
 pagename = u"Class_BPTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BPTIME(f(n)) - Bounded-Error Probabilistic f(n)-Time =
+
+== Comments ==
 
 Same as BPP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
@@ -1750,7 +2195,10 @@ BPTIME(n) does not equal NP.
 
 Subsequently, [FS04] managed to reduce the number of advice bits to only 1: BPTIME(n^d^)/1 does not equal BPTIME(n^d+1^)/1.  They also proved a hierarchy theorem for HeurBPTIME.
 
-For another bounded-error hierarchy result, see BPQP.'''
+For another bounded-error hierarchy result, see BPQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1767,9 +2215,13 @@ if p:
 pagename = u"Class_BPd(P)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BP,,d,,(P) - Polynomial Size d-Times-Only Branching Program =
+
+== Comments ==
 
 Defined in [Weg88].
 
@@ -1779,7 +2231,10 @@ BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [Tha98].
 
 Contained in PBP.
 
-See also: P-OBDD, k-PBP.'''
+See also: P-OBDD, k-PBP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1796,11 +2251,18 @@ if p:
 pagename = u"Class_BP•NP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BP•NP - Probabilistic NP =
 
-Equals AM.'''
+== Comments ==
+
+Equals AM.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1817,9 +2279,16 @@ if p:
 pagename = u"Class_BQNC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQNC - Alternate Name for QNC =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -1838,9 +2307,16 @@ if p:
 pagename = u"Class_BQNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQNP - Alternate Name for QMA =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -1859,9 +2335,13 @@ if p:
 pagename = u"Class_BQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP - Bounded-Error Quantum Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable in polynomial time by a quantum Turing machine, with at most 1/3 probability of error.
 
@@ -1892,7 +2372,10 @@ BQP is not contained in MA [Wat00].
 BQP is not contained in Mod,,p,,P for prime p [GV02].
 NP, and indeed NP ∩ coNP, are not contained in BQP (in fact, this holds with probability 1 relative to a random oracle and a random permutation oracle, respectively) [BBB+97].
 SZK is not contained in BQP [Aar02].
-BQP is not contained in SZK (follows easily using the quantum walk problem in [CCD+03]).'''
+BQP is not contained in SZK (follows easily using the quantum walk problem in [CCD+03]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1909,13 +2392,20 @@ if p:
 pagename = u"Class_BQP-OBDD"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP-OBDD - Polynomial-Size Bounded-Error Quantum Ordered Binary Decision Diagram =
 
+== Comments ==
+
 Same as P-OBDD, except that unitary (quantum) transitions are allowed and the OBDD need only accept with probability at least 2/3.
 
-Strictly contains BPP-OBDD [NHK00].'''
+Strictly contains BPP-OBDD [NHK00].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1932,13 +2422,20 @@ if p:
 pagename = u"Class_BQP/log"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP/log - BQP With Logarithmic-Size Karp-Lipton Advice =
 
+== Comments ==
+
 Same as BQP/poly except that the advice is O(log n) bits instead of a polynomial number.
 
-Contained in BQP/mlog.'''
+Contained in BQP/mlog.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1955,13 +2452,20 @@ if p:
 pagename = u"Class_BQP/mlog"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP/mlog - BQP With Logarithmic-Size Deterministic Merlin-Like Advice =
 
+== Comments ==
+
 Same as BQP/mpoly except that the advice is O(log n) bits instead of a polynomial number.
 
-Strictly contained in BQP/qlog [NY03].'''
+Strictly contained in BQP/qlog [NY03].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -1978,9 +2482,13 @@ if p:
 pagename = u"Class_BQP/mpoly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP/mpoly - BQP With Polynomial-Size Deterministic Merlin-Like Advice =
+
+== Comments ==
 
 The class of languages recognized by a syntactic BQP machine with deterministic polynomial advice that depends only on the input length, such that the output is correct with probability 2/3 when the advice is good.
 
@@ -1990,7 +2498,10 @@ Referred to with a variety of other ad hoc names, including BQP/poly on occassio
 
 Contains BQP/qlog, and is contained in BQP/qpoly.
 
-Does not contain ESPACE [NY03].'''
+Does not contain ESPACE [NY03].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2007,13 +2518,20 @@ if p:
 pagename = u"Class_BQP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP/poly - BQP With Polynomial-Size Karp-Lipton Advice =
 
+== Comments ==
+
 Is to BQP/mpoly as ∃BPP is to MA.  Namely, the BQP machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though BQP/mpoly is a more natural class, BQP/poly follows the standard definition of advice as a class operator [KL82].
 
-Contained in BQP/mpoly and contains BQP/log.'''
+Contained in BQP/mpoly and contains BQP/log.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2030,15 +2548,22 @@ if p:
 pagename = u"Class_BQP/qlog"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP/qlog - BQP With Logarithmic-Size Quantum Advice =
+
+== Comments ==
 
 Same as BQP/mlog except that the advice is quantum instead of classical.
 
 Strictly contains BQP/mlog [NY03].
 
-Contained in BQP/mpoly.'''
+Contained in BQP/mpoly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2055,9 +2580,13 @@ if p:
 pagename = u"Class_BQP/qpoly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP/qpoly - BQP With Polynomial-Size Quantum Advice =
+
+== Comments ==
 
 The class of problems solvable by a BQP machine that receives a quantum state ψ,,n,, as advice, which depends only on the input length n.
 
@@ -2072,7 +2601,10 @@ BQP/qpoly is contained in PP/poly.
 
 A classical oracle separation between BQP/qpoly and BQP/mpoly is presently unknown, but there is a quantum oracle separation [AK06].  An unrelativized separation is too much to hope for, since it would imply that PP is not contained in P/poly.
 
-Contains BQP/mpoly.'''
+Contains BQP/mpoly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2089,15 +2621,22 @@ if p:
 pagename = u"Class_BQPCTC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP,,CTC,, - BQP With Closed Time Curves =
+
+== Comments ==
 
 Same as BQP with access to two sets of qubits: causality-respecting qubits and CTC qubits.
 
 Defined in [Aar05c], where it was shown that PSPACE is contained in BQP,,CTC,,, which in turn is contained in SQG.
 
-See also P,,CTC,,.'''
+See also P,,CTC,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2114,11 +2653,18 @@ if p:
 pagename = u"Class_BQPSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQPSPACE - Bounded-Error Quantum PSPACE =
 
-Equals PSPACE and PPSPACE.'''
+== Comments ==
+
+Equals PSPACE and PPSPACE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2135,13 +2681,20 @@ if p:
 pagename = u"Class_BQPtt/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQP,,tt,,/poly - BQP/mpoly With Truth-Table Queries =
 
+== Comments ==
+
 Same as BQP/mpoly, except that the machine only gets to make nonadaptive queries to whatever oracle it might have.
 
-Defined in [NY03b], where it was also shown that P is not contained in BQP,,tt,,/poly relative to an oracle.'''
+Defined in [NY03b], where it was also shown that P is not contained in BQP,,tt,,/poly relative to an oracle.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2158,13 +2711,20 @@ if p:
 pagename = u"Class_BQTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = BQTIME(f(n)) - Bounded-Error Quantum f(n)-Time =
 
+== Comments ==
+
 Same as BQP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
-Defined in [BV97].'''
+Defined in [BV97].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2181,13 +2741,20 @@ if p:
 pagename = u"Class_C=AC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = C,,=,,AC^0^ - Exact-Counting AC0 =
 
+== Comments ==
+
 The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)=0.
 
-Equals TC^0^ and PAC^0^ under logspace uniformity [ABL98].'''
+Equals TC^0^ and PAC^0^ under logspace uniformity [ABL98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2204,13 +2771,20 @@ if p:
 pagename = u"Class_C=L"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = C,,=,,L - Exact-Counting L =
 
+== Comments ==
+
 Has the same relation to L as C,,=,,P does to P.
 
-C,,=,,L^C=L^ = L^C=L^ [ABO99].'''
+C,,=,,L^C=L^ = L^C=L^ [ABO99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2227,13 +2801,20 @@ if p:
 pagename = u"Class_C=P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = C,,=,,P - Exact-Counting Polynomial-Time =
 
+== Comments ==
+
 The class of decision problems solvable by an NP machine such that the number of accepting paths exactly equals the number of rejecting paths, if and only if the answer is 'yes.'
 
-Equals coNQP [FGH+98].'''
+Equals coNQP [FGH+98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2250,15 +2831,22 @@ if p:
 pagename = u"Class_CC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CC - Comparator Circuits =
+
+== Comments ==
 
 A comparator gate consists of two inputs and outputs the minimum of its two inputs on its first output wire and outputs the maximum of its two inputs on its second output wire. One important restriction is that each output of a comparator gate has fanout at most one. The Comparator Circuit Value Problem (CCVP) is defined as following. Given a circuit composed of comparator gates, the inputs to the circuit, and one output of the circuit, calculate the value of this output.
 
 CC is defined as the class of problems log-space many-one reducible to CCVP [MS89]. At present it is only known that NLCCP [MS89]. CC is an example of a complexity class neither known to be in NC nor P-complete.
 
-Natural complete problems for the CC class include Stable Marriage Problem, Stable Roommate Problem, Lex-first Maximal Matching [Sub94].'''
+Natural complete problems for the CC class include Stable Marriage Problem, Stable Roommate Problem, Lex-first Maximal Matching [Sub94].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2275,13 +2863,20 @@ if p:
 pagename = u"Class_CC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CC^0^ - Constant-Depth MODm Circuits =
 
+== Comments ==
+
 The set of problems solvable by by constant-depth circuits having only MOD,,m,, gates for constant .
 
-This complexity class entry is a stub. If you feel so inclined, please help out!'''
+This complexity class entry is a stub. If you feel so inclined, please help out!
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2298,9 +2893,13 @@ if p:
 pagename = u"Class_CFL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CFL - Context-Free Languages =
+
+== Comments ==
 
 Does not equal QCFL [MC00].
 
@@ -2308,7 +2907,10 @@ Contained in LOGCFL.
 
 Strictly contains DCFL [Bra77] and indeed UCFL.
 
-Strictly contains DCFL [Bra77].'''
+Strictly contains DCFL [Bra77].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2325,9 +2927,13 @@ if p:
 pagename = u"Class_CH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CH - Counting Hierarchy =
+
+== Comments ==
 
 The union of the C,,k,,P's over all constant k.
 
@@ -2337,7 +2943,10 @@ Strictly contains DLOGTIME-uniform NC^1^ [CMTV98].
 
 It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^, since a padding argument shows that TC^0^ = NC^1^ implies CH = PSPACE.
 
-It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^.'''
+It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2354,9 +2963,13 @@ if p:
 pagename = u"Class_CL#P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CL#P - Cluster Sharp-P =
+
+== Comments ==
 
 The class of #P function problems such that some underlying NP machine  witnessing membership in #P has
 "clustered" accepting paths. That is:
@@ -2365,7 +2978,10 @@ There exists a polynomial  such that each computation path of  on each input  is
 There is a length-respecting total order  having polynomial-time computable adjacency checks on the computation paths of .
 The accepting paths of  on any input  are contiguous with respect to .
 
-Defined in [HHK+05].'''
+Defined in [HHK+05].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2382,9 +2998,13 @@ if p:
 pagename = u"Class_CLOG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CLOG - Continuous Logarithmic-Time =
+
+== Comments ==
 
 Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an NC^1^ formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.
 
@@ -2392,7 +3012,10 @@ Defined in [BSF02], which should be consulted for more details.
 
 [BSF02] show that finding the maximum of n integers is in CLOG.  Thus, CLOG is best thought of as the continuous-time analog of NC^1^, not of DTIME(log n).
 
-Contained in CP.'''
+Contained in CP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2409,13 +3032,20 @@ if p:
 pagename = u"Class_CNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CNP - Continuous NP =
 
+== Comments ==
+
 A nondeterministic analog of CP.  Defined in [SF98], which should be consulted for the definition (it has something to do with strange attractors, I think).
 
-The authors raise the question of whether CP equals CNP.'''
+The authors raise the question of whether CP equals CNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2432,9 +3062,13 @@ if p:
 pagename = u"Class_CP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CP - Continuous P =
+
+== Comments ==
 
 Same as CLOG, except that the convergence time can be polynomial rather than logarithmic in the input size.
 
@@ -2442,7 +3076,10 @@ Defined in [BSF02] and [SF98].
 
 Finding a maximum flow, which is P-complete, can be done in CP [BSF02].  Based on this the authors argue that "P is contained in CP," but this seems hard to formalize, since CP is not a complexity class in the usual sense.  They also conjecture that "CP is contained in P" (i.e. the class of ODE's they consider can be integrated efficiently on a standard Turing machine), but this is open.
 
-Contained in CNP.'''
+Contained in CNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2459,15 +3096,22 @@ if p:
 pagename = u"Class_CSIZE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CSIZE(f(n)) - Circuit Size f(n) =
+
+== Comments ==
 
 The class of decision problems solvable by a (nonuniform) family of Boolean circuits of size O(f(n)).
 
 So for example, CSIZE(poly(n)) (the union of CSIZE(n^k^) over all k) equals P/poly.
 
-Defined in [SM02] among other places.'''
+Defined in [SM02] among other places.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2484,13 +3128,20 @@ if p:
 pagename = u"Class_CSL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CSL - Context Sensitive Languages =
 
+== Comments ==
+
 The class of languages generated by context-sensitive grammars.
 
-Equals NSPACE(n) [Kur64].'''
+Equals NSPACE(n) [Kur64].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2507,15 +3158,22 @@ if p:
 pagename = u"Class_CSP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CSP - Constraint Satisfaction Problems =
+
+== Comments ==
 
 Defined in [FV93] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet ) containing :
 
 For example, a 3SAT clause  is represented in the CSP construction as . By similar constructions, any k-SAT problem can be seen to be in CSP. The class also includes Graph k-Coloring (for ), Graph H-Coloring (for some graph ) and Linear Programming mod .
 
-In [FV93], where the class is defined, the authors show that every problem in MMSNP is reducible under randomized polynomial-time reductions to a problem in CSP.'''
+In [FV93], where the class is defined, the authors show that every problem in MMSNP is reducible under randomized polynomial-time reductions to a problem in CSP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2532,9 +3190,13 @@ if p:
 pagename = u"Class_CZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = CZK - Computational Zero-Knowledge =
+
+== Comments ==
 
 Same as SZK, except that now the two distributions are merely required to be computationally indistinguishable by any BPP algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of their interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
 
@@ -2550,7 +3212,10 @@ Same as SZK, except that now the two distributions are merely required to be com
 
 Unlike SZK, it is not known if CZK is closed under complement.  CZK is now known to share other properties with SZK: the verifier may as well be honest and may as well show his coins, and CZK is closed under unions [Vad06].  (Previously, these properties were only established in the presence of one-way functions.)
 
-Assuming the existence of one-way functions, CZK contains NP [GMW91], and indeed equals IP=PSPACE [BGG+90].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).'''
+Assuming the existence of one-way functions, CZK contains NP [GMW91], and indeed equals IP=PSPACE [BGG+90].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2567,9 +3232,13 @@ if p:
 pagename = u"Class_Check"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Check - Checkable Languages =
+
+== Comments ==
 
 The class of problems such that a polynomial-time program P that allegedly solves them can be checked efficiently.  That is, f is in Check if there exists a BPP algorithm C such that for all programs P and inputs x,
 
@@ -2580,7 +3249,10 @@ Introduced in [BK89], where it was also shown that Check equals frIP ∩ cofrIP.
 
 Check is contained in NEXP ∩ coNEXP [FRS88].
 
-[BG94] show that if NEE is not contained in BPEE then NP is not contained in Check.'''
+[BG94] show that if NEE is not contained in BPEE then NP is not contained in Check.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2597,9 +3269,13 @@ if p:
 pagename = u"Class_CkP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = C,,k,,P - kth Level of CH =
+
+== Comments ==
 
 Defined as follows:
 
@@ -2612,7 +3288,10 @@ The union of the C,,k,,P's is called the counting hierarchy, CH.
 
 Defined in [Wag86].
 
-See [Tor91] or [AW90] for more information.'''
+See [Tor91] or [AW90] for more information.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2629,15 +3308,22 @@ if p:
 pagename = u"Class_Coh"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Coh - Coherent Languages =
+
+== Comments ==
 
 The class of problems L that are efficiently autoreducible, in the sense that given an input x and access to an oracle for L, a BPP machine can compute L(x) by querying L only on points that differ from x.
 
 Defined in [Yao90b].
 
-[BG94] show that, assuming NEE is not contained in BPEE, Coh ∩ NP is not contained in any of compNP, Check, or frIP.'''
+[BG94] show that, assuming NEE is not contained in BPEE, Coh ∩ NP is not contained in any of compNP, Check, or frIP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2654,9 +3340,16 @@ if p:
 pagename = u"Class_D#P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = D#P - Alternate Name for P#P =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -2675,15 +3368,22 @@ if p:
 pagename = u"Class_DCFL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DCFL - Deterministic CFL =
+
+== Comments ==
 
 The class of languages accepted by deterministic pushdown automata.
 
 Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL, contained in UCFL, and strictly contains REG.  The inclusion in UCFL is also strict.
 
-Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL and strictly contains REG.'''
+Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL and strictly contains REG.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2700,9 +3400,13 @@ if p:
 pagename = u"Class_DET"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DET - Determinant =
+
+== Comments ==
 
 The class of decision problems reducible in L to the problem of computing the determinant of an n-by-n matrix of n-bit integers.
 
@@ -2710,7 +3414,10 @@ Defined in [Coo85].
 
 Contained in NC^2^, and contains NL and PL [BCP83].
 
-Graph isomorphism is hard for DET under L-reductions [Tor00].'''
+Graph isomorphism is hard for DET under L-reductions [Tor00].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2727,13 +3434,20 @@ if p:
 pagename = u"Class_DP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DP - Difference Polynomial-Time =
 
+== Comments ==
+
 DP = BH,,2,,, the second level of the Boolean hierarchy.
 
-Defined in [PY84].'''
+Defined in [PY84].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2750,9 +3464,13 @@ if p:
 pagename = u"Class_DQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DQP - Dynamical Quantum Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by a BQP machine with oracle access to a dynamical simulator. When given a polynomial-size quantum circuit, the simulator returns a sample from the distribution over "classical histories" induced by the circuit. The simulator can adversarially choose any history distribution that satisfies the axioms of "symmetry" and "locality" -- so that the DQP algorithm has to work for any distribution satisfying these axioms.
 
@@ -2762,7 +3480,10 @@ There it is also shown that SZK is contained in DQP.
 
 Contains BQP, and is contained in EXP [Aar05].
 
-There exists an oracle relative to which DQP does not contain NP [Aar05].'''
+There exists an oracle relative to which DQP does not contain NP [Aar05].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2779,9 +3500,13 @@ if p:
 pagename = u"Class_DSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DSPACE(f(n)) - Deterministic f(n)-Space =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine in space O(f(n)).
 
@@ -2792,7 +3517,10 @@ For space constructible f(n), strictly contains DTIME(f(n)) [HPV77].
 
 DSPACE(n) does not equal NP (though we have no idea if one contains the other)!
 
-See also: NSPACE(f(n)).'''
+See also: NSPACE(f(n)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2809,9 +3537,13 @@ if p:
 pagename = u"Class_DTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DTIME(f(n)) - Deterministic f(n)-Time =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine in time . Note that some authors choose to call this class TIME.
 
@@ -2831,7 +3563,10 @@ For any space constructible f(n), DTIME(f(n)) is strictly contained in DSPACE(f(
 
 Also, DTIME(n) is strictly contained in NTIME(n) [PPS+83] (this result does not work for arbitrary f(n)).
 
-For any constructible superpolynomial f(n), DTIME(f(n)) with PP oracle is not in P/poly (see [All96]).'''
+For any constructible superpolynomial f(n), DTIME(f(n)) with PP oracle is not in P/poly (see [All96]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2848,15 +3583,22 @@ if p:
 pagename = u"Class_DTISP(t(n),s(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DTISP(t(n),s(n)) - Simultaneous t(n)-Time and s(n)-Space =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine that uses time O(t(n)) and space O(s(n)) simultaneously.
 
 Thus SC = DTISP(poly,polylog) for example.
 
-Defined in [Nis92], where it was also shown that for all space-constructible s(n)=Ω(log n), BPSPACE(s(n)) is contained in DTISP(2^O(s(n))^,s^2^(n)).'''
+Defined in [Nis92], where it was also shown that for all space-constructible s(n)=Ω(log n), BPSPACE(s(n)) is contained in DTISP(2^O(s(n))^,s^2^(n)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2873,13 +3615,20 @@ if p:
 pagename = u"Class_DiffAC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DiffAC^0^ - Difference #AC0 =
 
+== Comments ==
+
 The class of functions from {0,1}^n^ to integers expressible as the difference of two #AC^0^ functions.
 
-Equals GapAC^0^ under logspace uniformity [ABL98].'''
+Equals GapAC^0^ under logspace uniformity [ABL98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2896,15 +3645,22 @@ if p:
 pagename = u"Class_DisNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DisNP - Disjoint NP Pairs =
+
+== Comments ==
 
 The class of pairs (A,B), where A and B are NP problems whose sets of "yes" instances are nonempty and disjoint.
 
 If there exists an optimal propositional proof system, then DisNP has a complete pair [Raz94].  On the other hand, there exists an oracle relative to which DisNP does not have a complete pair [GSS+03].
 
-If P does not equal UP, then DisNP contains pairs not separated by any set in P [GS88].  On the other hand, there exists an oracle relative to which P does not equal NP but still DisNP does not contain any P-inseparable pairs [HS92].'''
+If P does not equal UP, then DisNP contains pairs not separated by any set in P [GS88].  On the other hand, there exists an oracle relative to which P does not equal NP but still DisNP does not contain any P-inseparable pairs [HS92].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2921,9 +3677,13 @@ if p:
 pagename = u"Class_DistNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = DistNP - Distributional NP =
+
+== Comments ==
 
 (also called (NP,P-computable) or RNP)
 
@@ -2935,7 +3695,10 @@ DistNP has complete problems [Lev86] (see also [Gur87]), although unlike for NP 
 
 Any DistNP-complete problem is also complete for (NP,P-samplable) [IL90].
 
-DistNP has complete problems [Gur87], although unlike for NP this is not immediate.'''
+DistNP has complete problems [Gur87], although unlike for NP this is not immediate.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2952,9 +3715,13 @@ if p:
 pagename = u"Class_Dyn-FO"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Dyn-FO - Dynamic FO =
+
+== Comments ==
 
 The class of dynamic problems solvable using first-order predicates.
 
@@ -2962,7 +3729,10 @@ Basically what this means is that an algorithm maintains some polynomial-size da
 
 See [HI02] for more information, and a complete problem for Dyn-FO.
 
-See also Dyn-ThC^0^.'''
+See also Dyn-ThC^0^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -2979,13 +3749,20 @@ if p:
 pagename = u"Class_Dyn-ThC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Dyn-ThC^0^ - Dynamic Threshold Circuits =
 
+== Comments ==
+
 Same as Dyn-FO, except that now updates are computed via constant-depth predicates that have "COUNT" available, in addition to AND, OR, and NOT -- so it's a uniform version of TC^0^ rather than of AC^0^.
 
-See [HI02] for more information.'''
+See [HI02] for more information.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3002,9 +3779,13 @@ if p:
 pagename = u"Class_E"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = E - Exponential Time With Linear Exponent =
+
+== Comments ==
 
 Equals DTIME(2^O(n)^).
 
@@ -3020,7 +3801,10 @@ It follows that, if the problems complete for E under Turing reductions do not h
 
 [BF03] gave a proof that if E = NE, then no sparse set is collapsing, where they defined a set  to be collapsing if  and if for all  such that  and  are Turing reducible to each other,  and  are many-to-one reducible to each other.
 
-Contrast with EXP.'''
+Contrast with EXP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3037,9 +3821,13 @@ if p:
 pagename = u"Class_EE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EE - Double-Exponential Time With Linear Exponent =
+
+== Comments ==
 
 Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).
 
@@ -3047,7 +3835,10 @@ EE = BPE if and only if EXP = BPP [IKW01].
 
 Contained in EEXP and NEE.
 
-Equals DTIME(2^2^O(n)^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n)^)).'''
+Equals DTIME(2^2^O(n)^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n)^)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3064,15 +3855,22 @@ if p:
 pagename = u"Class_EEE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EEE - Triple-Exponential Time With Linear Exponent =
+
+== Comments ==
 
 Equals DTIME(2^2^2^O(n)^^^).
 
 In contrast to the case of EE, it is not known whether EEE = BPEE implies EE = BPE [IKW01].
 
-Equals DTIME(2^2^2^O(n)^).'''
+Equals DTIME(2^2^2^O(n)^).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3089,15 +3887,22 @@ if p:
 pagename = u"Class_EESPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EESPACE - Double-Exponential Space With Linear Exponent =
+
+== Comments ==
 
 Equals DSPACE(2^2^O(n)^^).
 
 Is not contained in BQP/qpoly [NY03].
 
-Equals DSPACE(2^2^O(n)^).'''
+Equals DSPACE(2^2^O(n)^).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3114,9 +3919,13 @@ if p:
 pagename = u"Class_EEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EEXP - Double-Exponential Time =
+
+== Comments ==
 
 Equals DTIME(2^2^p(n)^^) for p a polynomial.
 
@@ -3124,7 +3933,10 @@ Also known as 2-EXP.
 
 Contains EE, and is contained in NEEXP.
 
-Equals DTIME(2^2^p(n)^) for p a polynomial.'''
+Equals DTIME(2^2^p(n)^) for p a polynomial.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3141,9 +3953,13 @@ if p:
 pagename = u"Class_EH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EH - Exponential-Time Hierarchy With Linear Exponent =
+
+== Comments ==
 
 Has roughly the same relationship to E as PH does to P.
 
@@ -3155,7 +3971,10 @@ If coNP is contained in AM[polylog], then EH collapses to S,,2,,-EXP•P^NP^ [SS
 
 On the other hand, coNE is contained in NE/poly, so perhaps it wouldn't be so surprising if NE collapses.
 
-There exists an oracle relative to which EH does not contain SEH [Hem89]. EH and SEH are incomparable for all anyone knows.'''
+There exists an oracle relative to which EH does not contain SEH [Hem89]. EH and SEH are incomparable for all anyone knows.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3172,15 +3991,22 @@ if p:
 pagename = u"Class_ELEMENTARY"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ELEMENTARY - Iterated Exponential Time =
+
+== Comments ==
 
 Equals the union of DTIME(2^n^), DTIME(2^2^n^^), DTIME(2^2^2^n^^^), and so on.
 
 Contained in PR.
 
-Equals the union of DTIME(2^n^), DTIME(2^2^n^), DTIME(2^2^2^n^), and so on.'''
+Equals the union of DTIME(2^n^), DTIME(2^2^n^), DTIME(2^2^2^n^), and so on.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3197,15 +4023,22 @@ if p:
 pagename = u"Class_ELkP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EL,,k,,P - Extended Low Hierarchy =
+
+== Comments ==
 
 An extension of L,,k,,P.
 
 The class of problems A such that Σ,,k,,P^A^ is contained in Σ,,k-1,,P^A,NP^.
 
-Defined in [BBS86].'''
+Defined in [BBS86].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3222,9 +4055,13 @@ if p:
 pagename = u"Class_EP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EP - NP with 2k Accepting Paths =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -3233,7 +4070,10 @@ If the answer is 'yes,' then the number of accepting paths is a power of two.
 
 Contained in C,,=,,P, and in Mod,,k,,P for any odd k.  Contains UP.
 
-Defined in [BHR00].'''
+Defined in [BHR00].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3250,9 +4090,13 @@ if p:
 pagename = u"Class_EPTAS"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EPTAS - Efficient Polynomial-Time Approximation Scheme =
+
+== Comments ==
 
 The class of optimization problems such that, given an instance of length n, we can find a solution within a factor 1+ε of the optimum in time f(ε)p(n), where p is a polynomial and f is arbitrary.
 
@@ -3262,7 +4106,10 @@ Defined in [CT97], where the following was also shown:
 
 If FPT = XP,,uniform,, then EPTAS = PTAS.
 If EPTAS = PTAS then FPT = W[P].
-If FPT is strictly contained in W[1], then there is a natural problem that is in PTAS but not in EPTAS.  (See [CT97] for the statement of the problem, since it's not that natural.)'''
+If FPT is strictly contained in W[1], then there is a natural problem that is in PTAS but not in EPTAS.  (See [CT97] for the statement of the problem, since it's not that natural.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3279,9 +4126,13 @@ if p:
 pagename = u"Class_EQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EQP - Exact Quantum Polynomial-Time =
+
+== Comments ==
 
 The same as BQP, except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [BV97], each language in EQP is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set K whose amplitudes can be computed in polynomial time. See EQP,,K,,.  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.
 
@@ -3291,7 +4142,10 @@ There is an oracle that separates EQP from NP [BV97], indeed from Δ,,2,,P [GP01
 
 P^||NP[2k]^ is contained in EQP^||NP[k]^, where "||NP[k]" denotes k nonadaptive oracle queries to NP (queries that cannot depend on the results of previous queries) [BD99].
 
-See also ZBQP.'''
+See also ZBQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3308,9 +4162,13 @@ if p:
 pagename = u"Class_EQPK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EQP,,K,, - Exact Quantum Polynomial-Time with Gate Set K =
+
+== Comments ==
 
 The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set K, and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set K.  K may be either finite or countable and enumerated.  If S is a ring, the union of EQP,,K,, over all finite gate sets K whose amplitudes are in the ring R can be written EQP,,S,,.
 
@@ -3318,7 +4176,10 @@ Defined in [ADH97] in the special case of a finite set of 1-qubit gates controll
 
 [FR98] show that EQP,,Q,, is in LWPP.  The proof can be generalized to any finite, algebraic gate set K.
 
-The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's algorithm.  The discrete logarithm problem over Z/p is in EQP,,Q-bar,, using infinitely many gates [MZ03].'''
+The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's algorithm.  The discrete logarithm problem over Z/p is in EQP,,Q-bar,, using infinitely many gates [MZ03].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3335,13 +4196,20 @@ if p:
 pagename = u"Class_EQTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EQTIME(f(n)) - Exact Quantum f(n)-Time =
 
+== Comments ==
+
 Same as EQP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
-Defined in [BV97].'''
+Defined in [BV97].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3358,9 +4226,13 @@ if p:
 pagename = u"Class_ESPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ESPACE - Exponential Space With Linear Exponent =
+
+== Comments ==
 
 Equals DSPACE(2^O(n)^).
 
@@ -3372,7 +4244,10 @@ ESPACE is not contained in P/poly [Kan82].
 
 Is not contained in BQP/mpoly [NY03].
 
-See also: EXPSPACE.'''
+See also: EXPSPACE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3389,9 +4264,13 @@ if p:
 pagename = u"Class_EXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EXP - Exponential Time =
+
+== Comments ==
 
 Equals the union of DTIME(2^p(n)^) over all polynomials p.
 
@@ -3419,7 +4298,10 @@ In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
 
 EXP = NP = ZPP [Hel84],
 EXP = NEXP but still P does not equal NP [Dek76],
-EXP does not equal PSPACE [Dek76].'''
+EXP does not equal PSPACE [Dek76].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3436,13 +4318,20 @@ if p:
 pagename = u"Class_EXP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EXP/poly - Exponential Time With Polynomial-Size Advice =
 
+== Comments ==
+
 The class of decision problems solvable in EXP with the help of a polynomial-length advice string that depends only on the input length.
 
-Contains BQP/qpoly [Aar04b].'''
+Contains BQP/qpoly [Aar04b].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3459,15 +4348,22 @@ if p:
 pagename = u"Class_EXPSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = EXPSPACE - Exponential Space =
+
+== Comments ==
 
 Equals the union of DSPACE(2^p(n)^) over all polynomials p.
 
 See also: ESPACE.
 
-Given a first-order statement about real numbers, involving only addition and comparison (no multiplication), we can decide in EXPSPACE whether it's true or not [Ber80].'''
+Given a first-order statement about real numbers, involving only addition and comparison (no multiplication), we can decide in EXPSPACE whether it's true or not [Ber80].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3484,15 +4380,22 @@ if p:
 pagename = u"Class_F-TAPE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = F-TAPE(f(n)) - Provable DSPACE(f(n)) For Formal System F =
+
+== Comments ==
 
 The class of decision problems that can be proven to be solvable in O(f(n)) space on a deterministic Turing machine, from the axioms of formal system F.
 
 Defined in [Har78].
 
-See also F-TIME(f(n)).  The results about F-TAPE mirror those about F-TIME, but in some cases are sharper.'''
+See also F-TIME(f(n)).  The results about F-TAPE mirror those about F-TIME, but in some cases are sharper.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3509,9 +4412,13 @@ if p:
 pagename = u"Class_F-TIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = F-TIME(f(n)) - Provable DTIME(f(n)) For Formal System F =
+
+== Comments ==
 
 The class of decision problems that can be proven to be solvable in O(f(n)) time on a deterministic Turing machine, from the axioms of formal system F.
 
@@ -3520,7 +4427,10 @@ Defined in [Har78], where the following was also shown:
 If F-TIME(f(n)) = DTIME(f(n)), then DTIME(f(n)) is strictly contained in DTIME(f(n)g(n)) for any nondecreasing, unbounded, recursive g(n).
 There exist recursive, monotonically increasing f(n) such that F-TIME(f(n)) is strictly contained in DTIME(f(n)).
 
-See also F-TAPE(f(n)).'''
+See also F-TAPE(f(n)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3537,13 +4447,20 @@ if p:
 pagename = u"Class_FBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FBQP - Function BQP =
 
+== Comments ==
+
 Has the same relation to BQP as FNP does to NP.
 
-There exists an oracle relative to which PLS is not contained in FBQP [Aar03].'''
+There exists an oracle relative to which PLS is not contained in FBQP [Aar03].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3560,9 +4477,13 @@ if p:
 pagename = u"Class_FH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FH - Fourier Hierarchy =
+
+== Comments ==
 
 FH,,k,, is the class of problems solvable by a uniform family of polynomial-size quantum circuits, with k levels of Hadamard gates and all other gates preserving the computational basis.  (Conditional phase flip gates are fine, for example.)  Thus
 
@@ -3576,7 +4497,10 @@ Defined in [Shi03].
 
 FH,,0,, = P
 FH,,1,, = BPP
-FH,,2,, contains factoring, because of Kitaev's phase estimation algorithm'''
+FH,,2,, contains factoring, because of Kitaev's phase estimation algorithm
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3593,9 +4517,13 @@ if p:
 pagename = u"Class_FIXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FIXP - Fixed Point =
+
+== Comments ==
 
 The class of fixed point problems. In the framework of fixed point problems, an instance I is associated with a (continuous) function F,,I,,, and a solution of I is a fixed point of F,,I,,.
 
@@ -3610,7 +4538,10 @@ The Nash equilibrium problem for 3 or more players is FIXP-complete.
 
 Linear-FIXP = PPAD.
 
-Defined in [EY07].'''
+Defined in [EY07].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3627,13 +4558,20 @@ if p:
 pagename = u"Class_FNL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FNL - Function NL =
 
+== Comments ==
+
 Has the same relation to NL as FNP does to NP.
 
-Defined by [AJ93], who also showed that if NL = UL, then FNL is contained in #L.'''
+Defined by [AJ93], who also showed that if NL = UL, then FNL is contained in #L.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3650,13 +4588,20 @@ if p:
 pagename = u"Class_FNL/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FNL/poly - Nonuniform FNL =
 
+== Comments ==
+
 Has the same relation to FNL as P/poly does to P.
 
-Contained in #L/poly [RA00].'''
+Contained in #L/poly [RA00].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3673,9 +4618,13 @@ if p:
 pagename = u"Class_FNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FNP - Function NP =
+
+== Comments ==
 
 The class of function problems of the following form:
 
@@ -3689,7 +4638,10 @@ FP = FNP if and only if P = NP.
 
 Contains TFNP.
 
-A basic question about FNP problems is whether they're self-reducible; that is, whether they reduce to the corresponding NP decision problems.  Although this is true for all NPC problems, [BG94] shows that if EE does not equal NEE, then there is a problem in NP such that no corresponding FNP problem can be reduced to it.  [BG94] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that NE does not equal coNE.'''
+A basic question about FNP problems is whether they're self-reducible; that is, whether they reduce to the corresponding NP decision problems.  Although this is true for all NPC problems, [BG94] shows that if EE does not equal NEE, then there is a problem in NP such that no corresponding FNP problem can be reduced to it.  [BG94] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that NE does not equal coNE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3706,9 +4658,13 @@ if p:
 pagename = u"Class_FO"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FO - First-Order logic =
+
+== Comments ==
 
 First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class AC^0^ and to AH, the alternating logtime hierarchy.
 
@@ -3725,7 +4681,10 @@ The semantics of the formulae in FO is straightforward,  is true iff  is false, 
 
 A querie in FO will then be to check if a FO formulae is true over a given structure, this structure is the input of the problem. One should not confuse this kind of problem with checking if a quantified boolean formula is true, which is the definition of QBF, which is Pspace-complete. The difference between those two problem is that in QBF the size of the problem is the size of the formula and elements are just boolean value, whereas in FO the size of the problem is the size of the structure and the formula is fixed.
 
-Every formulae is equivalent to a formulae in prenexe normal form where we put recursively every quantifier and then a quantifier-free formulae.'''
+Every formulae is equivalent to a formulae in prenexe normal form where we put recursively every quantifier and then a quantifier-free formulae.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3742,15 +4701,22 @@ if p:
 pagename = u"Class_FO(DTC)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FO(DTC) - First-order with deterministic transitive closure =
+
+== Comments ==
 
 FO(DTC) is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC(), we know that for all , there exist at most one  such that phi(u,v).
 
 We can suppose that DTC() is syntactic sugar for TC() where .
 
-It was shown in [Imm99] page 144 that this class is equal to L.'''
+It was shown in [Imm99] page 144 that this class is equal to L.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3767,15 +4733,22 @@ if p:
 pagename = u"Class_FO(LFP)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FO(LFP) - First-order with least fixed point =
+
+== Comments ==
 
 FO(LFP) is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is , then  always implies .
 
 We can obtain the monotony by restricting the formula  to have only positive occurrences of  (i.e. there is an even number of negations before every occurrence of ). We can also describe LFP() as syntactic sugar of PFP() where .
 
-Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [Imm82] that FO(LFP)=P. This definition is equivalent to FO().'''
+Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [Imm82] that FO(LFP)=P. This definition is equivalent to FO().
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3792,9 +4765,13 @@ if p:
 pagename = u"Class_FO(PFP)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FO(PFP) - First-order with partial fixed point =
+
+== Comments ==
 
 FO(pfp) is the set of boolean queries definable with first-order formulae with a partial fixed point operator.
 
@@ -3804,7 +4781,10 @@ PFP( is defined as the value of the fixed point of  on y if there is a fixed poi
 
 Since s are property of arity , there is at most  values for the s, so with a poly-space counter we can check if there is a loop or not.
 
-It was proved in [Imm98] that FO(pfp) is equal to PSPACE.'''
+It was proved in [Imm98] that FO(pfp) is equal to PSPACE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3821,9 +4801,13 @@ if p:
 pagename = u"Class_FO(TC)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FO(TC) - First-order with transitive closure =
+
+== Comments ==
 
 FO(TC) is the set of boolean queries definable with first-order formulae with a transitive closure (TC) operator.
 
@@ -3831,7 +4815,10 @@ TC is defined this way: let  be a positiver integer and  be vectors of  variable
 
 Every formula of TC can be written in a normal form FO( where  is a FO formula and we suppose that there is an order on the model where variables are quantified, so we can choose the minimum and maximum element.
 
-It was shown in [Imm98] page 150 that this class is equal to NL.'''
+It was shown in [Imm98] page 150 that this class is equal to NL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3848,15 +4835,22 @@ if p:
 pagename = u"Class_FO(t(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FO(t(n)) - First-Order =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be expressed by a first-order logic predicate, with a block of restricted quantifiers repeated t(n) times.  See [Imm98] for a full definition.
 
 FO(poly(n)) = P (see [Var82] for example).
 
-FO(poly(n)) is contained in SO-E.'''
+FO(poly(n)) is contained in SO-E.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3873,9 +4867,13 @@ if p:
 pagename = u"Class_FOLL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FOLL - First-Order loglog n =
+
+== Comments ==
 
 The class of decision problems solvable by a uniform family of polynomial-size, unbounded-fanin, depth O(log log n) circuits with AND, OR, and NOT gates. Equals FO(log log n).
 
@@ -3889,7 +4887,10 @@ The class of decision problems solvable by a nonuniform family of polynomial-siz
 
 Contains AC^0^, and is contained in AC^1^.
 
-Is not known to be comparable to L/poly or NL/poly.'''
+Is not known to be comparable to L/poly or NL/poly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3906,9 +4907,13 @@ if p:
 pagename = u"Class_FO[]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FO[] - Iterated First-Order logic =
+
+== Comments ==
 
 Let  be a function from integers to integers.
  abbreviates  and  abbreviates .
@@ -3924,7 +4929,10 @@ In Descriptive complexity we can see that :
 FO[] is equal to fo-uniform AC^i^, and in fact FO[] is fo-uniform AC of depth 
 FO[] is equal to NC
 FO[] is equal to P and FO(LFP)
-FO[] is equal to PSPACE and FO(PFP)'''
+FO[] is equal to PSPACE and FO(PFP)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3941,9 +4949,13 @@ if p:
 pagename = u"Class_FP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FP - Function Polynomial-Time =
+
+== Comments ==
 
 Sometimes defined as the class of functions computable in polynomial time by a Turing machine.  (Generalizes P, which is defined in terms of decision problems only.)
 
@@ -3951,7 +4963,10 @@ However, if we want to compare FP to FNP, we should instead define it as the cla
 
 FP = FNP if and only if P = NP.
 
-If FP^NP^ = FP^NP[log]^ (that is, allowed only a logarithmic number of queries), then P = NP [Kre88].  The corresponding result for P^NP^ versus P^NP[log]^ is not known, and indeed fails relative to some oracles (see [Har87b]).'''
+If FP^NP^ = FP^NP[log]^ (that is, allowed only a logarithmic number of queries), then P = NP [Kre88].  The corresponding result for P^NP^ versus P^NP[log]^ is not known, and indeed fails relative to some oracles (see [Har87b]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3968,11 +4983,18 @@ if p:
 pagename = u"Class_FPNP[log]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FP^NP[log]^ - FP With Logarithmically Many Queries To NP =
 
-Given a graph, the problem of outputting the size of its maximum clique is complete for FP^NP[log]^.'''
+== Comments ==
+
+Given a graph, the problem of outputting the size of its maximum clique is complete for FP^NP[log]^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -3989,15 +5011,22 @@ if p:
 pagename = u"Class_FPR"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FPR - Fixed-Parameter Randomized =
+
+== Comments ==
 
 Has the same relation to FPT as RP does to P.
 
 Defined in [AR01], where it was shown that, if the Resolution proof system is automatizable (that is, if a refutation can always be found in time polynomial in the length of the shortest refutation), then W[P] is contained in FPR.
 
-Has the same relation to FPT as R does to P.'''
+Has the same relation to FPT as R does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4014,13 +5043,20 @@ if p:
 pagename = u"Class_FPRAS"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FPRAS - Fully Polynomial Randomized Approximation Scheme =
 
+== Comments ==
+
 The subclass of #P counting problems whose answer, y, is approximable in the following sense.  There exists a randomized algorithm that, with probability at least 1-δ, approximates y to within an ε multiplicative factor in time polynomial in n (the input size), 1/ε, and log(1/δ).
 
-The permanent of a nonnegative matrix is in FPRAS [JSV01].'''
+The permanent of a nonnegative matrix is in FPRAS [JSV01].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4037,9 +5073,13 @@ if p:
 pagename = u"Class_FPT"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FPT - Fixed-Parameter Tractable =
+
+== Comments ==
 
 The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.
 
@@ -4051,7 +5091,10 @@ Contained in FPT,,nu,,, W[1], and FPR.
 
 Contains FPTAS [CC97], as well as FPT,,su,,.
 
-Contains EPTAS unless FPT = W[1] [Baz95].'''
+Contains EPTAS unless FPT = W[1] [Baz95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4068,9 +5111,13 @@ if p:
 pagename = u"Class_FPTAS"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FPTAS - Fully Polynomial-Time Approximation Scheme =
+
+== Comments ==
 
 The subclass of NPO problems that admit an approximation scheme in the following sense.  For any ε>0, there is an algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  Furthermore, the running time of the algorithm is polynomial in n (the size of the problem) and in 1/ε.
 
@@ -4078,7 +5125,10 @@ Contained in PTAS.
 
 Defined in [ACG+99].
 
-Contained in FPT [CC97].'''
+Contained in FPT [CC97].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4095,15 +5145,22 @@ if p:
 pagename = u"Class_FPTnu"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FPT,,nu,, - Fixed-Parameter Tractable (nonuniform) =
+
+== Comments ==
 
 Same as FPT except that the algorithm can vary with the parameter k (though its running time must always be O(p(|x|)), for a fixed polynomial p).
 
 An alternate view is that a single algorithm can take a polynomial-length advice string, depending on k.
 
-Defined in [DF99] (though they did not use our notation).'''
+Defined in [DF99] (though they did not use our notation).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4120,13 +5177,20 @@ if p:
 pagename = u"Class_FPTsu"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FPT,,su,, - Fixed-Parameter Tractable (strongly uniform) =
 
+== Comments ==
+
 Same as FPT except that f has to be recursive.
 
-Defined in [DF99] (though they did not use our notation).'''
+Defined in [DF99] (though they did not use our notation).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4143,13 +5207,20 @@ if p:
 pagename = u"Class_FQMA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FQMA - Function QMA =
 
+== Comments ==
+
 The class of problems for which the task is to output a quantum certificate for a QMA problem, when such a certificate exists.  Thus, the desired output is a quantum state.
 
-Defined in [JWB03], where it is also shown that state preparation for 3-local Hamiltonians is FQMA-complete.  The authors also observe that, in contrast to the case of FNP versus NP, there is no obvious reduction of FQMA problems to QMA problems.'''
+Defined in [JWB03], where it is also shown that state preparation for 3-local Hamiltonians is FQMA-complete.  The authors also observe that, in contrast to the case of FNP versus NP, there is no obvious reduction of FQMA problems to QMA problems.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4166,9 +5237,13 @@ if p:
 pagename = u"Class_Few"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Few - FewP With Flexible Acceptance Mechanism =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -4181,7 +5256,10 @@ Defined in [CH89].
 
 Contains FewP, and is contained in P^FewP^ [Kob89] and in SPP [FFK94].
 
-See also the survey [Tor90].'''
+See also the survey [Tor90].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4198,9 +5276,13 @@ if p:
 pagename = u"Class_FewEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FewEXP - NEXP With Few Witnesses =
+
+== Comments ==
 
 The class of decision problems solvable by an NEXP machine such that, given a "yes" instance, no more than an exponential number of computation paths accept.
 
@@ -4209,7 +5291,10 @@ Contained in MIP[NP^FewEXP^] (MIP where provers are not unbounded in computation
 Alternatively, FewEXP can refer to the sparsity of accepting paths in a given instance. In [AKR+03], the authors show that the conjectures "FewEXP search instances are EXP-solvable" and "FewEXP decision instances are EXP/poly-solvable" are equivalent. That is, for all NEXP machines , the following conditions are equivalent:
 
 There exists an EXP machine  such that if given a string ,  accepts and has exponentially bounded accepting paths, then  produces one such path.
- There exists an EXP/poly machine  which accepts a string  if and only  accepts.'''
+ There exists an EXP/poly machine  which accepts a string  if and only  accepts.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4226,9 +5311,13 @@ if p:
 pagename = u"Class_FewP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = FewP - NP With Few Witnesses =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -4245,7 +5334,10 @@ Also, there exists an oracle relative to which FewP does not have a Turing-compl
 
 Contained in Few.
 
-See also the survey [Tor90].'''
+See also the survey [Tor90].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4262,9 +5354,13 @@ if p:
 pagename = u"Class_GA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GA - Graph Automorphism =
+
+== Comments ==
 
 Can be defined as the class of problems polynomial-time Turing reducible to the Graph Automorphism problem.
 
@@ -4272,7 +5368,10 @@ Contains P and is contained in GI.
 
 See [KST93] for much more information about GA.
 
-Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether a given graph has any nontrivial automorphisms.'''
+Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether a given graph has any nontrivial automorphisms.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4289,15 +5388,22 @@ if p:
 pagename = u"Class_GAN-SPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GAN-SPACE(f(n)) - Games Against Nature f(n)-Space =
+
+== Comments ==
 
 The class of problems decidable by an O(f(n))-space Turing machine with two kinds of quantifiers: existential and randomized.
 
 Contains NSPACE(f(n)) and BPSPACE(f(n)), and is contained in AUC-SPACE(f(n)).
 
-By linear programming, GAN-SPACE(log n) is contained in P.'''
+By linear programming, GAN-SPACE(log n) is contained in P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4314,9 +5420,13 @@ if p:
 pagename = u"Class_GC(s(n),C)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GC(s(n),C) - Guess and Check =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by
 
@@ -4329,7 +5439,10 @@ Defined in [CC93].
 
 Umans [Uma98] has shown that given a DNF expression Φ, the Shortest Implicant problem is GC(log^2^n, coNP)-complete.
 
-Umans [Uma98] has shown that given a DNF expression Φ, the Shortest Implicant problem (is there a conjunction of at most k negated or non-negated literals that implies Φ?) is GC(log^2^n, coNP)-complete.'''
+Umans [Uma98] has shown that given a DNF expression Φ, the Shortest Implicant problem (is there a conjunction of at most k negated or non-negated literals that implies Φ?) is GC(log^2^n, coNP)-complete.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4346,9 +5459,13 @@ if p:
 pagename = u"Class_GCSL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GCSL - Growing CSL =
+
+== Comments ==
 
 The class of languages generated by context-sensitive grammars in which the right-hand side of each transformation is either strictly longer than the left-hand side or the left-hand side consists of the start symbol.
 
@@ -4358,7 +5475,10 @@ Shown to be equivalent to Acyclic CSL in [Nie02].
 
 The class of languages generated by context-sensitive grammars in which the right-hand side of each transformation is strictly longer than the left-hand side.
 
-Defined in [DW86].'''
+Defined in [DW86].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4375,9 +5495,13 @@ if p:
 pagename = u"Class_GI"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GI - Graph Isomorphism =
+
+== Comments ==
 
 Can be defined as the class of problems polynomial-time Turing reducible to the Graph Isomorphism problem.
 
@@ -4389,7 +5513,10 @@ See [KST93] for much more information about GI.
 
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether two graphs are isomorphic.
 
-The GI problem itself (as opposed to the set of problems Turing reducible to GI) is contained in NP as well as coAM (and indeed SZK).  So in particular, if graph isomorphism is NP-complete, then PH collapses.'''
+The GI problem itself (as opposed to the set of problems Turing reducible to GI) is contained in NP as well as coAM (and indeed SZK).  So in particular, if graph isomorphism is NP-complete, then PH collapses.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4406,15 +5533,22 @@ if p:
 pagename = u"Class_GLO"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GLO - Guaranteed Local Optima =
+
+== Comments ==
 
 The class of NPO problems which have the property that for all locally optimal solutions, the ratio between the values of the local and global optima is upper-bounded by a constant.
 
 Defined in [AP95], where it was also shown that GLO is strictly contained in APX.
 
-[KMS+99] showed that MaxSNP is not contained in GLO.'''
+[KMS+99] showed that MaxSNP is not contained in GLO.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4431,13 +5565,20 @@ if p:
 pagename = u"Class_GPCD(r(n),q(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GPCD(r(n),q(n)) - Generalized Probabilistically Checkable Debate =
 
+== Comments ==
+
 Same as PCD(r(n),q(n)), except that now the verifier is allowed nonadaptively to query O(q(n)) rounds of the debate, with no restriction on the number of bits it looks at within each round.
 
-Defined in [CFL+93], who also showed that PCD(log n, q(n)) = GPCD(log n, q(n)) for every q(n).'''
+Defined in [CFL+93], who also showed that PCD(log n, q(n)) = GPCD(log n, q(n)) for every q(n).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4454,15 +5595,22 @@ if p:
 pagename = u"Class_G[t]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = G[t] - Stratification of Fixed-Parameter Tractable Problems =
+
+== Comments ==
 
 (Basically) the class of decision problems of the form (x,k) (k a parameter), that are solvable by a parameterized family of circuits with unbounded fanin and depth t.  A uniformity condition may also be imposed.
 
 Defined in [DF99], which should be consulted for the full definition.
 
-Uniform G[P] (i.e. with no restriction on depth) is equal to FPT.'''
+Uniform G[P] (i.e. with no restriction on depth) is equal to FPT.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4479,13 +5627,20 @@ if p:
 pagename = u"Class_GapAC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GapAC^0^ - Gap #AC0 =
 
+== Comments ==
+
 The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from #AC^0^ is the ability to subtract, using the constant -1.)
 
-Equals DiffAC^0^ under logspace uniformity [ABL98].'''
+Equals DiffAC^0^ under logspace uniformity [ABL98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4502,11 +5657,18 @@ if p:
 pagename = u"Class_GapL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GapL - Gap Logarithmic-Space =
 
-Has the same relation to L as GapP does to P.'''
+== Comments ==
+
+Has the same relation to L as GapP does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4523,15 +5685,22 @@ if p:
 pagename = u"Class_GapP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = GapP - Gap Polynomial-Time =
+
+== Comments ==
 
 The class of functions f(x) such that for some NP machine, f(x) is the number of accepting paths minus the number of rejecting paths.
 
 Equivalently, the closure of the #P functions under subtraction.
 
-Defined in [FFK94] and independently [Gup95].'''
+Defined in [FFK94] and independently [Gup95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4548,9 +5717,13 @@ if p:
 pagename = u"Class_HO"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HO - High-Order logic =
+
+== Comments ==
 
 High order logic is an extension of Second order, First order where we add quantification over higher order variables.
 
@@ -4558,7 +5731,10 @@ We define a relation of order  and arity  to be a subset of -tuple of relation o
 
 is the set of formulae with quantification up to order O. (resp. ) is defined as the set of formula in  beginning by an existantial (resp universal) quantifier followed by at most  alternation of quantifiers.
 
-This class was define in [HT06], and it was proved that  where  is the th level of the polynomial hierarchy.'''
+This class was define in [HT06], and it was proved that  where  is the th level of the polynomial hierarchy.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4575,13 +5751,20 @@ if p:
 pagename = u"Class_HVSZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HVSZK - Honest-Verifier SZK =
 
+== Comments ==
+
 The class of decision problems that have SZK protocols assuming an honest verifier (i.e. one who doesn't try to learn more about the problem by deviating from the protocol).
 
-Equals SZK [Oka96].'''
+Equals SZK [Oka96].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4598,9 +5781,13 @@ if p:
 pagename = u"Class_HalfP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HalfP - RP With Exactly Half Acceptance =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -4611,7 +5798,10 @@ Significantly, the number of candidate witnesses is restricted to be a power of 
 
 Contained in RP, EP, and Mod,,k,,P for every odd k.  Contained in EQP by the Deutsch-Jozsa algorithm.
 
-Defined in [BB92], where it was called C,,==,,P[half].  The name used here is from [BS00].  There it was shown that HalfP is contained in every similar class in which 1/2 is replaced by some other dyadic fraction.'''
+Defined in [BB92], where it was called C,,==,,P[half].  The name used here is from [BS00].  There it was shown that HalfP is contained in every similar class in which 1/2 is replaced by some other dyadic fraction.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4628,13 +5818,20 @@ if p:
 pagename = u"Class_HeurBPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HeurBPP - Heuristic BPP =
 
+== Comments ==
+
 The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPP machine.
 
-[FS04] showed a strict hierarchy theorem for HeurBPP; thus, HeurBPP does not equal HeurBPTIME(n^c^) for any fixed c.'''
+[FS04] showed a strict hierarchy theorem for HeurBPP; thus, HeurBPP does not equal HeurBPTIME(n^c^) for any fixed c.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4651,15 +5848,22 @@ if p:
 pagename = u"Class_HeurBPTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HeurBPTIME(f(n)) - Heuristic BPTIME(f(n)) =
+
+== Comments ==
 
 The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPTIME(f(n)) machine. Thus, HeurBPTIME(f(n)) has the same relationship with BPTIME as HeurDTIME.
 
 Thus HeurBPP is the union of HeurBPTIME(n^c^) over all c.
 
-The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPTIME(f(n)) machine.'''
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPTIME(f(n)) machine.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4676,11 +5880,18 @@ if p:
 pagename = u"Class_HeurDTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HeurDTIME,,,,(f(n)) - Heuristic DTIME =
 
-For functions  and , we say that tuple , where  is a language and  is a distribution of problem instances, if there exists a heuristic deterministic algorithm  such that for all  in the support of ,  runs in time bounded by  and with failure probability bounded by  [BT06].'''
+== Comments ==
+
+For functions  and , we say that tuple , where  is a language and  is a distribution of problem instances, if there exists a heuristic deterministic algorithm  such that for all  in the support of ,  runs in time bounded by  and with failure probability bounded by  [BT06].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4697,13 +5908,20 @@ if p:
 pagename = u"Class_HeurNTIME"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HeurNTIME,,,, - Heuristic NTIME =
 
+== Comments ==
+
 Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.
 
-NP is not contained in HeurNTIME,,,,() for any constants  [Per07].'''
+NP is not contained in HeurNTIME,,,,() for any constants  [Per07].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4720,16 +5938,23 @@ if p:
 pagename = u"Class_HeurP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HeurP - Heuristic P =
+
+== Comments ==
 
 The class of distributional problems solvable by a P machine. Defined in [Imp95], though he calls the class HP.
 
 Alternately, [BT06] define HeurP as being the set of tuples , where  is a language and  is a distribution of problem instances, such that there exists an algorithm  satisfying two properties:
 
 For every , for every  in the support of , and for every ,  runs in time bounded by .
- For every ,  is a heuristic algorithm for  whose error probability is bounded by .'''
+ For every ,  is a heuristic algorithm for  whose error probability is bounded by .
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4746,11 +5971,18 @@ if p:
 pagename = u"Class_HeurPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = HeurPP - Heuristic PP =
 
-The class of distributional problems solvable by a PP machine. Defined in [Ill95], though he calls the class HPP.'''
+== Comments ==
+
+The class of distributional problems solvable by a PP machine. Defined in [Ill95], though he calls the class HPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4767,9 +5999,13 @@ if p:
 pagename = u"Class_HkP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = H,,k,,P - High Hierarchy In NP =
+
+== Comments ==
 
 The class of problems A in NP such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.
 
@@ -4781,7 +6017,10 @@ H,,1,, consists exactly of the problems complete for NP under strong non-determi
 
 Defined in [Sch83].
 
-See also L,,k,,P.'''
+See also L,,k,,P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4798,9 +6037,13 @@ if p:
 pagename = u"Class_IC[log,poly]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = IC[log,poly] - Logarithmic Instance Complexity, Polynomial Time =
+
+== Comments ==
 
 The class of decision problems such that, for every n-bit string x, there exists a program A of size O(log n) that, given x as input, "correctly decides" the answer on x in time polynomial in n.  This means:
 
@@ -4812,7 +6055,10 @@ Defined in [OKS+94]; see also [LV97].
 
 If NP is contained in IC[log,poly], then P = NP [OKS+94].  Indeed, any self-reducible problem in IC[log,poly] is also in P.
 
-Strictly contains P/log, and is strictly contained in P/poly.'''
+Strictly contains P/log, and is strictly contained in P/poly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4829,9 +6075,13 @@ if p:
 pagename = u"Class_IP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = IP - Interactive Proof =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a probabilistic polynomial-time verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:
 
@@ -4851,7 +6101,10 @@ The class of decision problems for which a "yes" answer can be verified by an in
 
 IP contains PH [LFK+90], and indeed (this was discovered only a few days later) equals PSPACE [Sha90].  On the other hand, coNP is not contained in IP relative to a random oracle [CCG+94].
 
-See also: MIP, QIP, MA, AM.'''
+See also: MIP, QIP, MA, AM.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4868,15 +6121,22 @@ if p:
 pagename = u"Class_IPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = IPP - Unbounded IP =
+
+== Comments ==
 
 Same as IP, except that if the answer is "yes," there need only be a prover strategy that causes the verifier to accept with probability greater than 1/2, while if the answer is "no," then for all prover strategies the verifier accepts with probability less than 1/2.
 
 Defined in [CCG+94], where it was also shown that IPP = PSPACE relative to all oracles.  Since IP is strictly contained in PSPACE relative to a random oracle, the authors interpreted this as evidence against the Random Oracle Hypothesis (a slight change in definition can cause the behavior of a class relative to a random oracle to change drastically).
 
-See also: PPSPACE.'''
+See also: PPSPACE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4893,11 +6153,18 @@ if p:
 pagename = u"Class_IP[polylog]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = IP[polylog] - Alternate Name for AM[polylog] =
 
-Alternate name for AM[polylog].'''
+== Comments ==
+
+Alternate name for AM[polylog].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4914,13 +6181,20 @@ if p:
 pagename = u"Class_K"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = K - Feasibly recursive functions =
 
+== Comments ==
+
 A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [Con73], who mistakenly claimed it coincides with FP.
 
-Equals U,,D,,-uniform FTC^0^ by [Hes01].'''
+Equals U,,D,,-uniform FTC^0^ by [Hes01].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4937,9 +6211,13 @@ if p:
 pagename = u"Class_L"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = L - Logarithmic Space =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine restricted to use an amount of memory logarithmic in the size of the input, n.  (The input itself is not counted as part of the memory.)
 
@@ -4951,7 +6229,10 @@ Immerman [Imm83] showed that L is the class FO(dtc) of first-order expressible q
 
 L queries are exactly the one that can be written in a syntactic restriction of  While languages.
 
-L contains NC^1^ [Bor77], and is contained in generalizations including NL, L/poly, SL, RL, ⊕L, and Mod,,k,,L.'''
+L contains NC^1^ [Bor77], and is contained in generalizations including NL, L/poly, SL, RL, ⊕L, and Mod,,k,,L.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4968,15 +6249,22 @@ if p:
 pagename = u"Class_L/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = L/poly - Nonuniform Logarithmic Space =
+
+== Comments ==
 
 Has the same relation to L as P/poly does to P.
 
 Equals PBP [Cob66].
 
-Contains SL [AKL+79].'''
+Contains SL [AKL+79].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -4993,13 +6281,20 @@ if p:
 pagename = u"Class_LC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LC^0^ - Unbounded Fanin Linear Size Constant-Depth Circuits =
 
+== Comments ==
+
 The class of decision problems solvable by a nonuniform family of Boolean circuits, with linear size, constant depth and unbounded fanin.
 
-It is equivalent to AC^0^ with bounded fanout and it is properly contained in AC^0^ [CR96].'''
+It is equivalent to AC^0^ with bounded fanout and it is properly contained in AC^0^ [CR96].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5016,13 +6311,20 @@ if p:
 pagename = u"Class_LH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LH - Logarithmic Time Hierarchy =
 
+== Comments ==
+
 A Turing machine with random access owns a special tape where it can write a binary number , and it can query the value of the th bit of the input. Hence any bit of the input can be read in only logtime.
 
-The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. LH is the union of all levels and is equal to tothe class AC^0^ and to FO Descriptive complexity.'''
+The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. LH is the union of all levels and is equal to tothe class AC^0^ and to FO Descriptive complexity.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5039,15 +6341,22 @@ if p:
 pagename = u"Class_LIN"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LIN - Linear Time =
+
+== Comments ==
 
 The class of decision problems solvable by a deterministic Turing machine in linear time.
 
 Strictly Contained in NLIN. [PPS+83].
 
-Contained in NLIN.'''
+Contained in NLIN.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5064,9 +6373,13 @@ if p:
 pagename = u"Class_LOGCFL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LOGCFL - Logarithmically Reducible to CFL =
+
+== Comments ==
 
 The class of decision problems reducible in L to the problem of deciding membership in a context-free language.
 
@@ -5074,7 +6387,10 @@ Equivalently, LOGCFL is the class of decision problems solvable by a uniform fam
 
 LOGCFL is closed under complement [BCD+89].
 
-Contains NL [Sud78].'''
+Contains NL [Sud78].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5091,9 +6407,13 @@ if p:
 pagename = u"Class_LOGLOG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LOGLOG - loglog Space =
+
+== Comments ==
 
 There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [Szep94] and [LiRe93]. The alternation hierarchy for this class is infinite ([BGR93]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([Geff91]).
 
@@ -5101,7 +6421,10 @@ Sublogarithmically-bounded Turing reductions are equivalent to "regular" (consta
 
 Note that while there are no decision problems that can be tested in one-way loglog space, there are promise problems which can be so tested, such as Balanced Monotone Boolean Sentence Value [Buss91]. Also, the alternation hierarchy over 1-way loglog space still does not collapse.
 
-Obviously contained in L.'''
+Obviously contained in L.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5118,9 +6441,13 @@ if p:
 pagename = u"Class_LOGNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LOGNP - Logarithmically-Restricted NP =
+
+== Comments ==
 
 The class of decision problems expressible in logical form as
 
@@ -5136,7 +6463,10 @@ Vapnik-Chervonenkis (V-C) Dimension.  Given a family F of subsets of a set U, fi
 
 Contains LOGSNP, and is contained in βP (indeed β,,2,,P).
 
-The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists y such that for all j, the predicate φ(I,s,,j,,,x,y,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in P.'''
+The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists y such that for all j, the predicate φ(I,s,,j,,,x,y,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5153,9 +6483,13 @@ if p:
 pagename = u"Class_LOGSNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LOGSNP - Logarithmically-Restricted SNP =
+
+== Comments ==
 
 The class of decision problems expressible in logical form as
 
@@ -5169,7 +6503,10 @@ Contained in LOGNP, and therefore QPLIN.
 
 If P = LOGSNP, then for every constructible f(n) > n, NTIME(f(n)) is contained in DTIME(g(n)^sqrt(g(n))^), where g(n) = O(f(n) logf(n)) [FK97].
 
-The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists j such that the predicate φ(I,s,,j,,,x,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in P.'''
+The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists j such that the predicate φ(I,s,,j,,,x,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5186,9 +6523,13 @@ if p:
 pagename = u"Class_LWPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LWPP - Length-Dependent Wide PP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -5205,7 +6546,10 @@ Also, contains the graph isomorphism problem [KST92].
 
 Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04].
 
-Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04]'''
+Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04]
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5222,9 +6566,13 @@ if p:
 pagename = u"Class_LkP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = L,,k,,P - Low Hierarchy In NP =
+
+== Comments ==
 
 The class of problems A such that Σ,,k,,P^A^ = Σ,,k,,P; that is, adding A as an oracle does not increase the power of the k^th^ level of the polynomial hierarchy.
 
@@ -5234,7 +6582,10 @@ For all k, L,,k,, is contained in L,,k+1,, and in NP.
 
 Defined in [Sch83].
 
-See also H,,k,,P.'''
+See also H,,k,,P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5251,16 +6602,23 @@ if p:
 pagename = u"Class_LogFew"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LogFew - Logspace-Bounded Few =
+
+== Comments ==
 
 The class of decision problems solvable by an NL machine such that
 
 The number of accepting paths on input x is f(x), and
 The answer is 'yes' if and only if R(x,f(x))=1, where R is some predicate computable in L.
 
-Defined in [BDH+92], where it was also shown that LogFew is contained in Mod,,k,,L for all k>1.'''
+Defined in [BDH+92], where it was also shown that LogFew is contained in Mod,,k,,L for all k>1.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5277,13 +6635,20 @@ if p:
 pagename = u"Class_LogFewNL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = LogFewNL - Logspace-Bounded FewP =
 
+== Comments ==
+
 Same as FewP but for logspace-bounded (i.e. NL) machines.
 
-Defined in [BDH+92], where it was also shown that LogFewNL is contained in ModZ,,k,,L for all k>1.'''
+Defined in [BDH+92], where it was also shown that LogFewNL is contained in ModZ,,k,,L for all k>1.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5300,9 +6665,13 @@ if p:
 pagename = u"Class_MA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MA - Merlin-Arthur =
+
+== Comments ==
 
 The class of decision problems solvable by a Merlin-Arthur protocol, which goes as follows.  Merlin, who has unbounded computational resources, sends Arthur a polynomial-size purported proof that the answer to the problem is "yes."  Arthur must verify the proof in BPP (i.e. probabilistic polynomial-time), so that
 
@@ -5328,7 +6697,10 @@ An alternative definition requires that if the answer is "yes," then there exist
 
 Contains NP and ∃BPP, and is contained in AM and in QMA.
 
-Equals NP under a derandomization assumption.'''
+Equals NP under a derandomization assumption.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5345,13 +6717,20 @@ if p:
 pagename = u"Class_MA'"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MA' - Sparse MA =
 
+== Comments ==
+
 The subclass of MA such that for each input size n, there is a sparse set S,,n,, that Merlin's proof string always belongs to (no matter what the input is).
 
-Defined in [KST93], where it is also observed that if graph isomorphism is in P/poly, then the complement of graph isomorphism is in MA'.'''
+Defined in [KST93], where it is also observed that if graph isomorphism is in P/poly, then the complement of graph isomorphism is in MA'.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5368,15 +6747,22 @@ if p:
 pagename = u"Class_MAC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MAC^0^ - Majority of AC0 =
+
+== Comments ==
 
 Same as AC^0^, except now we're allowed a single unbounded-fanin majority gate at the root.
 
 Defined in [JKS02].
 
-MAC^0^ is strictly contained in TC^0^ [ABF+94].'''
+MAC^0^ is strictly contained in TC^0^ [ABF+94].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5393,13 +6779,20 @@ if p:
 pagename = u"Class_MAE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MA,,E,, - Exponential-Time MA With Linear Exponent =
 
+== Comments ==
+
 Same as MA, except now Arthur is E instead of polynomial-time.
 
-If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].'''
+If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5416,15 +6809,22 @@ if p:
 pagename = u"Class_MAEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MA,,EXP,, - Exponential-Time MA =
+
+== Comments ==
 
 Same as MA, except now Arthur is EXP instead of polynomial-time, and the message from Merlin can be exponentially long.
 
 There is a problem in MA,,EXP,, that does not have polynomial-size circuits [BFT98].  On the other hand, there is an oracle relative to which every problem in MA,,EXP,, does have polynomial-size circuits.
 
-[MVW99] considered the best circuit lower bound obtainable for a problem in MA,,EXP,,, using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.'''
+[MVW99] considered the best circuit lower bound obtainable for a problem in MA,,EXP,,, using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5441,13 +6841,20 @@ if p:
 pagename = u"Class_MAPOLYLOG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MA,,POLYLOG,, - MA With Polylog Verifier =
 
+== Comments ==
+
 Identical to MA except for that Arthur (the verifier) has random access to the proof string given by Merlin, and is limited to running times of order .
 
-This class was used by [SM03] to show that if EXP has circuits of polynomial size, then EXP = MA.'''
+This class was used by [SM03] to show that if EXP has circuits of polynomial size, then EXP = MA.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5464,9 +6871,13 @@ if p:
 pagename = u"Class_MIP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MIP - Multi-Prover Interactive Proof =
+
+== Comments ==
 
 Same as IP, except that now the verifier can exchange messages with many provers, not just one.  The provers cannot communicate with each other during the execution of the protocol, so the verifier can "cross-check" their assertions (as with suspects in separate interrogation rooms).
 
@@ -5474,7 +6885,10 @@ Defined in [BGK+88].
 
 Let MIP[k] be the class of decision problems for which a "yes" answer can be verified with k provers.  Then for all k>2, MIP[k] = MIP[2] = MIP [BGK+88].
 
-MIP equals NEXP [BFL91]; this is a famous non-relativizing result.'''
+MIP equals NEXP [BFL91]; this is a famous non-relativizing result.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5491,9 +6905,13 @@ if p:
 pagename = u"Class_MIP*"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MIP* - MIP With Quantum Provers =
+
+== Comments ==
 
 Same as MIP, except that the provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
 
@@ -5505,7 +6923,10 @@ Even MIP*[4,poly] and MIP[5,1] contain NEXP [IV12].
 
 MIP*[2,1] contains XOR-MIP*[2,1].
 
-In 2012 it was shown that QMIP = MIP* [RUV12]'''
+In 2012 it was shown that QMIP = MIP* [RUV12]
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5522,9 +6943,13 @@ if p:
 pagename = u"Class_MIP*[2,1]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MIP*[2,1] - 2-Prover, 1-Round MIP With Quantum Provers =
+
+== Comments ==
 
 Same as MIP[2], except that now only one round is allowed, and the two provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
 
@@ -5534,7 +6959,10 @@ Indeed, the relationship between MIP* and MIP = NEXP is completely unknown -- ei
 
 It is also unknown whether increasing the number of provers or rounds changes MIP*[2,1].
 
-Contains XOR-MIP*[2,1].'''
+Contains XOR-MIP*[2,1].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5551,15 +6979,22 @@ if p:
 pagename = u"Class_MIPEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MIP,,EXP,, - Exponential-Time Multi-Prover Interactive Proof =
+
+== Comments ==
 
 The exponential-time analogue of MIP.
 
 In the unrelativized world, equals NEEXP.
 
-There exists an oracle relative to which MIP,,EXP,, equals the intersection of P/poly, P^NP^, and ⊕P [BFT98].'''
+There exists an oracle relative to which MIP,,EXP,, equals the intersection of P/poly, P^NP^, and ⊕P [BFT98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5576,13 +7011,20 @@ if p:
 pagename = u"Class_MM"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MM - Problems reducible to matrix multiplication =
 
+== Comments ==
+
 The set of all problems reducible to matrix multiplication. That is, the set of problems  that can be reduced to the multiplication of two square matrices can be reduced to  in linear time.
 
-Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [CW90]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.'''
+Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [CW90]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5599,9 +7041,13 @@ if p:
 pagename = u"Class_MMSNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MMSNP - Monadic Monotone SNP =
+
+== Comments ==
 
 Defined in [FV93] as a subclass of SNP.  There are three syntactic restrictions defining the subclass MMSNP, based on the form of the SNP formula defining the language:
 
@@ -5617,7 +7063,10 @@ Defined in [FV93] as a subclass of SNP, where the second order existentially qua
 
 MMSNP seems to obey dichotomy, by excluding Ladner languages.  This is still open but widely believed.  Dropping any of the restrictions monotone/monadic/without inequalities          allows Ladner languages unless P = NP, since any problem in NP is polynomial time equivalent to a problem in each of these broader classes.  MMSNP therefore seems to be a maximal fragment of NP where Ladner languages are excluded.
 
-Every constraint satisfaction problem is expressible in MMSNP, and there is a polynomial time Turing reduction from every MMSNP query to finitely many constraint satisfaction problems.  MMSNP therefore seems to capture the class of constraint satisfaction problems.'''
+Every constraint satisfaction problem is expressible in MMSNP, and there is a polynomial time Turing reduction from every MMSNP query to finitely many constraint satisfaction problems.  MMSNP therefore seems to capture the class of constraint satisfaction problems.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5634,9 +7083,13 @@ if p:
 pagename = u"Class_MP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MP - Middle-Bit P =
+
+== Comments ==
 
 The class of decision problems such that for some #P function f, the answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
 
@@ -5644,7 +7097,10 @@ Defined in [GKR+95].
 
 Contains AmpMP and PH.
 
-MP with ModP oracle equals MP with #P oracle [KT96].'''
+MP with ModP oracle equals MP with #P oracle [KT96].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5661,9 +7117,13 @@ if p:
 pagename = u"Class_MPC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MPC - Monotone Planar Circuits =
+
+== Comments ==
 
 The class of decision problems solvable by a family of monotone stratified planar circuits (a uniformity condition may also be imposed).
 
@@ -5671,7 +7131,10 @@ Such a circuit can contain only AND and OR gates of bounded fanin.  It must be e
 
 Defined in [DC89].
 
-[BLM+99] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.'''
+[BLM+99] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5688,15 +7151,22 @@ if p:
 pagename = u"Class_MaxNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MaxNP - Maximization NP =
+
+== Comments ==
 
 Has the same relation to NP as MaxSNP does to SNP.
 
 Contains MaxPB.
 
-The closure of MaxNP under PTAS reduction is APX [KMS+99], [CT94].'''
+The closure of MaxNP under PTAS reduction is APX [KMS+99], [CT94].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5713,9 +7183,13 @@ if p:
 pagename = u"Class_MaxPB"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MaxPB - MaxNP Polynomially Bounded =
+
+== Comments ==
 
 The subclass of MaxNP problems for which the cost function is guaranteed always to be bounded by a polynomial.
 
@@ -5723,7 +7197,10 @@ MinPB can be defined similarly.
 
 Defined in [KT94].
 
-The closure of MaxPB under PTAS reductions equals NPOPB [CKS+99].'''
+The closure of MaxPB under PTAS reductions equals NPOPB [CKS+99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5740,9 +7217,13 @@ if p:
 pagename = u"Class_MaxSNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MaxSNP - Maximization SNP =
+
+== Comments ==
 
 The class of optimization problems reducible by an "L-reduction" to a problem in MaxSNP,,0,,.  (Note: 'L' stands for linear -- this is not the same as an L reduction!  For more details see [PY88].)
 
@@ -5751,7 +7232,10 @@ Defined in [PY88], where the following was also shown:
 Max3SAT is MaxSNP-complete.  (Max3SAT is the problem of finding an assignment that maximizes the number of satisfied clauses in a CNF formula with at most 3 literals per clause.)
 Any problem in MaxSNP can be approximated to within a fixed ratio.
 
-The closure of MaxSNP under PTAS reduction is APX [KMS+99], [CT94].'''
+The closure of MaxSNP under PTAS reduction is APX [KMS+99], [CT94].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5768,9 +7252,13 @@ if p:
 pagename = u"Class_MaxSNP0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MaxSNP,,0,, - Generating Class of MaxSNP =
+
+== Comments ==
 
 The class of function problems expressible as "find a relation such that the set of k-tuples for which a given SNP predicate holds has maximum cardinality."
 
@@ -5778,7 +7266,10 @@ For example (see [Pap94]), the Max-Cut problem can be expressed as follows:
 
 Given a graph G, find a subset S of vertices that maximizes the number of pairs (u,v) of vertices such that u is in S, and v is not in S, and G has an edge from u to v.
 
-Defined in [PY88].'''
+Defined in [PY88].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5795,11 +7286,18 @@ if p:
 pagename = u"Class_MinPB"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = MinPB - MinNP Polynomially Bounded =
 
-Same as MaxPB but for minimization instead of maximization problems.'''
+== Comments ==
+
+Same as MaxPB but for minimization instead of maximization problems.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5816,9 +7314,13 @@ if p:
 pagename = u"Class_ModL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ModL - ModL =
+
+== Comments ==
 
 A language  if there are functions  and  such that for all strings :
 
@@ -5827,7 +7329,10 @@ There exists a prime  and a natural number  such that .
 
 Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [AV04].
 
-Defined in [AV04].'''
+Defined in [AV04].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5844,13 +7349,20 @@ if p:
 pagename = u"Class_ModP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ModP - ModkP With Arbitrary k =
 
+== Comments ==
+
 The class of decision problems solvable by a Mod,,k,,P machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
 
-Defined in [KT96], where it was also shown that ModP is contained in AmpMP.'''
+Defined in [KT96], where it was also shown that ModP is contained in AmpMP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5867,9 +7379,13 @@ if p:
 pagename = u"Class_ModZkL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ModZ,,k,,L - Restricted ModkL =
+
+== Comments ==
 
 The class of decision problems solvable by a nondeterministic logspace Turing machine, such that
 
@@ -5878,7 +7394,10 @@ If the answer is "no," then there are no accepting paths.
 
 Defined in [BDH+92], where it was also shown that ModZ,,k,,L contains LogFewNL for all k>1.
 
-Contained in Mod,,k,,L and in NL.'''
+Contained in Mod,,k,,L and in NL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5895,9 +7414,13 @@ if p:
 pagename = u"Class_ModkL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Mod,,k,,L - Mod-k L =
+
+== Comments ==
 
 Has the same relation to L as Mod,,k,,P does to P.
 
@@ -5905,7 +7428,10 @@ For any prime k, Mod,,k,,L contains SL [KW93].
 
 For any prime k, Mod,,k,,L^ModkL^ = Mod,,k,,L [HRV00].
 
-For any k>1, contains LogFew [BDH+92].'''
+For any k>1, contains LogFew [BDH+92].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5922,9 +7448,13 @@ if p:
 pagename = u"Class_ModkP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Mod,,k,,P - Mod-k Polynomial-Time =
+
+== Comments ==
 
 For any k>1: The class of decision problems solvable by an NP machine such that the number of accepting paths is divisible by k, if and only if the answer is "no."
 
@@ -5938,7 +7468,10 @@ Defined in [CH89], [Her90].
 
 On the other hand, if k is not a prime power, then there exists an oracle relative to which Mod,,k,,P is not closed under intersection or complement [BBR94].
 
-For prime p, there exists an oracle relative to which Mod,,p,,P does not contain EQP [GV02].'''
+For prime p, there exists an oracle relative to which Mod,,p,,P does not contain EQP [GV02].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5955,13 +7488,20 @@ if p:
 pagename = u"Class_NAuxPDAp"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NAuxPDA^p^ - Nondeterministic Auxiliary Pushdown Automata =
 
+== Comments ==
+
 The class of problems solvable by nondeterministic logarithmic-space and polynomial-time Turing machines with auxiliary pushdown.
 
-Equals LOGCFL [Sud78].'''
+Equals LOGCFL [Sud78].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -5978,9 +7518,13 @@ if p:
 pagename = u"Class_NC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NC - Nick's Class =
+
+== Comments ==
 
 (Named in honor of Nick Pippenger.)
 
@@ -6002,7 +7546,10 @@ For a random oracle A, (NC^i^)^A^ is strictly contained in (NC^i+1^)^A^, and uni
 
 In descriptive complexity, NC can be defined by FO[]
 
-NC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and fan-in 2.'''
+NC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and fan-in 2.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6019,15 +7566,22 @@ if p:
 pagename = u"Class_NC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NC^0^ - Level 0 of NC =
+
+== Comments ==
 
 By definition, a decision problem in NC^0^ can depend on only a constant number of bits of the input.  Thus, NC^0^ usually refers to functions computable by constant-depth, bounded-fanin circuits.
 
 There is a family of permutations computable by a uniform family of NC^0^ circuits that is P-hard to invert [Has88].
 
-Recently [AIK04] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in NC^0^, based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [AIK04] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.'''
+Recently [AIK04] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in NC^0^, based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [AIK04] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6044,9 +7598,13 @@ if p:
 pagename = u"Class_NC1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NC^1^ - Level 1 of NC =
+
+== Comments ==
 
 See NC for definition.
 
@@ -6062,7 +7620,10 @@ Contains TC^0^.
 
 NC^1^ contains the integer division problem [BCH86], even if an L-uniformity condition is imposed [CDL01].
 
-U,,E^*^,,-uniform NC^1^ is equal to ALOGTIME [RUZ81].'''
+U,,E^*^,,-uniform NC^1^ is equal to ALOGTIME [RUZ81].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6079,13 +7640,20 @@ if p:
 pagename = u"Class_NC2"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NC^2^ - Level 2 of NC =
 
+== Comments ==
+
 See NC for definition.
 
-Contains NL.'''
+Contains NL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6102,15 +7670,22 @@ if p:
 pagename = u"Class_NE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NE - Nondeterministic E =
+
+== Comments ==
 
 Nondeterministic exponential time with linear exponent (i.e. NTIME(2^O(n)^)).
 
 P^NE^ = NP^NE^ [Hem89].
 
-Contained in NEXP.'''
+Contained in NEXP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6127,11 +7702,18 @@ if p:
 pagename = u"Class_NE/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NE/poly - Nonuniform NE =
 
-Contains coNE, just as NEXP/poly contains coNEXP.'''
+== Comments ==
+
+Contains coNE, just as NEXP/poly contains coNEXP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6148,9 +7730,13 @@ if p:
 pagename = u"Class_NEE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NEE - Nondeterministic EE =
+
+== Comments ==
 
 Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^^)).
 
@@ -6158,7 +7744,10 @@ If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].
 
 Contained in NEEXP.
 
-Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^)).'''
+Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6175,11 +7764,18 @@ if p:
 pagename = u"Class_NEEE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NEEE - Nondeterministic EEE =
 
-Nondeterministic triple-exponential time with linear exponent.'''
+== Comments ==
+
+Nondeterministic triple-exponential time with linear exponent.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6196,15 +7792,22 @@ if p:
 pagename = u"Class_NEEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NEEXP - Nondeterministic EEXP =
+
+== Comments ==
 
 Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^^) for p a polynomial).
 
 Equals MIP,,EXP,, (unrelativized).
 
-Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^) for p a polynomial).'''
+Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^) for p a polynomial).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6221,9 +7824,13 @@ if p:
 pagename = u"Class_NEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NEXP - Nondeterministic EXP =
+
+== Comments ==
 
 Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).
 
@@ -6245,7 +7852,10 @@ Does not equal EXP if and only if there is a sparse set in NP that is not in P.
 
 There exists an oracle relative to which EXP = NEXP but still P does not equal NP [Dek76].
 
-The theory of reals with addition (see EXPSPACE) is hard for NEXP [FR74].'''
+The theory of reals with addition (see EXPSPACE) is hard for NEXP [FR74].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6262,11 +7872,18 @@ if p:
 pagename = u"Class_NEXP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NEXP/poly - Nonuniform NEXP =
 
-Contains coNEXP (folklore result reported in [weblog]).'''
+== Comments ==
+
+Contains coNEXP (folklore result reported in [weblog]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6283,16 +7900,23 @@ if p:
 pagename = u"Class_NIPZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NIPZK - Non-Interactive PZK =
+
+== Comments ==
 
 Defined in [M08] based on [DDPY98],[BFM88].
 
 Contained in PZK.
 
 [M08] showed a complete promise-problem for NIPZK, called Unifrom (UN). Instances 
-in UN are circuits with n+1 output bits. The first n bits represent the uniform distribution, and the last bit is 1 with probability at least 2/3. For instances not in UN, when the last bit is 1, at most 1/3 of the strings of length n can appear as the output of the circuit. The problem is to decide which is the case.'''
+in UN are circuits with n+1 output bits. The first n bits represent the uniform distribution, and the last bit is 1 with probability at least 2/3. For instances not in UN, when the last bit is 1, at most 1/3 of the strings of length n can appear as the output of the circuit. The problem is to decide which is the case.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6309,15 +7933,22 @@ if p:
 pagename = u"Class_NIQSZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NIQSZK - Non-Interactive QSZK =
+
+== Comments ==
 
 Has the same relation to QSZK as NISZK does to SZK.
 
 Defined in [Kob02], where it was also shown that the following promise problem is complete for NIQSZK.  Given a quantum circuit, we are promised that the state it prepares (when run on the all-0 state, and tracing out non-output qubits) has trace distance either at most 1/3 or at least 2/3 from the maximally mixed state. The problem is to output "no" in the former case and "yes" in the latter.
 
-NIQPZK can be defined similarly.'''
+NIQPZK can be defined similarly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6334,9 +7965,13 @@ if p:
 pagename = u"Class_NISZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NISZK - Non-Interactive SZK =
+
+== Comments ==
 
 Defined in [DDP+98].
 
@@ -6351,7 +7986,10 @@ NISZK has natural complete promise problems:
     Statistical Distance from Uniform (SDU): Given a circuit, consider the distribution over outputs when the circuit is given a uniformly random n-bit string.  We're promised that the trace distance between this distribution and the uniform distribution is either at most 1/3 or at least 2/3.  The problem is to output "yes" in the former case and "no" in the latter.
     Entropy Approximation (EA): Now we're promised that the entropy of the circuit's output distribution is either at least k+1 or at most k-1.  The problem is to output "yes" in the former case and "no" in the latter.
 
-NIPZK can be defined similarly.'''
+NIPZK can be defined similarly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6368,9 +8006,13 @@ if p:
 pagename = u"Class_NISZKh"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NISZK,,h,, - NISZK With Limited Help =
+
+== Comments ==
 
 The non-interactive analogue of SZK,,h,,.
 
@@ -6380,7 +8022,10 @@ NISZK,,h,, contains NISZK and is contained in SZK.
 Graph Isomorphism is in NISZK,,h,,.
 The following problem is complete for NISZK,,h,,: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
 
-The quantum lower bound for the set comparison problem in [Aar02] implies an oracle relative to which NISZK,,h,, is not in BQP.'''
+The quantum lower bound for the set comparison problem in [Aar02] implies an oracle relative to which NISZK,,h,, is not in BQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6397,9 +8042,13 @@ if p:
 pagename = u"Class_NL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NL - Nondeterministic Logarithmic-Space =
+
+== Comments ==
 
 Has the same relation to L as NP does to P.
 
@@ -6411,7 +8060,10 @@ Is contained in UL/poly [RA00].
 
 Deciding whether a bipartite graph has a perfect matching is hard for NL [KUW86].
 
-NL can be defined in a logical formalism as SO(krom) and also as FO(tc), reachability in directed graph is NL-Complete under FO-reduction.'''
+NL can be defined in a logical formalism as SO(krom) and also as FO(tc), reachability in directed graph is NL-Complete under FO-reduction.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6428,15 +8080,22 @@ if p:
 pagename = u"Class_NL/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NL/poly - Nonuniform NL =
+
+== Comments ==
 
 Has the same relation to NL as P/poly does to P.
 
 Is contained in ⊕L/poly [GW96], as well as SAC^1^.
 
-Equals UL/poly [RA00].'''
+Equals UL/poly [RA00].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6453,11 +8112,18 @@ if p:
 pagename = u"Class_NLIN"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NLIN - Nondeterministic LIN =
 
-Has the same relation to LIN as NP does to P.'''
+== Comments ==
+
+Has the same relation to LIN as NP does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6474,15 +8140,22 @@ if p:
 pagename = u"Class_NLOG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NLOG - NL With Nondeterministic Oracle Tape =
+
+== Comments ==
 
 Same as NL -- but if there's an oracle, then NLOG can make queries nondeterministically on a polynomial-size, one-way oracle tape.  (NL, by contrast, can use nondeterministic transitions only on the worktape; oracle queries have to be deterministic.)
 
 See [LL76] or [HCK+88] for more information.
 
-Although NLOG is contained in P, there exists an oracle relative to which that is not the case.  This illustrates that care is needed when defining oracle access mechanisms.'''
+Although NLOG is contained in P, there exists an oracle relative to which that is not the case.  This illustrates that care is needed when defining oracle access mechanisms.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6499,15 +8172,22 @@ if p:
 pagename = u"Class_NLT"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NLT - Nearly Linear Time =
+
+== Comments ==
 
 Class of functions computable in nearly linear time n(log n)^O(1)^ on deterministic random access machines.
 
 Defined in [GS89].
 
-See also QL.'''
+See also QL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6524,13 +8204,20 @@ if p:
 pagename = u"Class_NNC(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NNC(f(n)) - NC with O(f(n)) nondeterministic gates =
 
+== Comments ==
+
 Same as NC, but with O(f(n)) nondeterministic gates. A nondeterministic gate has no inputs and a single output bit.
 
-Defined in [Wol94], where the author proves various inclusions, including but not limited to NNC(poly(n))=NP, NNC(log(n))=NC, and NNC(polylog)⊆DSPACE(polylog).'''
+Defined in [Wol94], where the author proves various inclusions, including but not limited to NNC(poly(n))=NP, NNC(log(n))=NC, and NNC(polylog)⊆DSPACE(polylog).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6547,13 +8234,20 @@ if p:
 pagename = u"Class_NNLT"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NNLT - Nondeterministic Nearly Linear Time =
 
+== Comments ==
+
 Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals NQL [GS89].
 
-Defined in [GS89].'''
+Defined in [GS89].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6570,9 +8264,13 @@ if p:
 pagename = u"Class_NONE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NONE - The Empty Class =
+
+== Comments ==
 
 The class that does not contain any languages.  (It might not surprise you that I put this one in at the suggestion of a mathematician...)
 
@@ -6580,7 +8278,10 @@ Is the opposite of ALL, but does not equal the complement coALL = ALL.
 
 Is closed under polynomial-time Turing reductions :-).
 
-Equals SPARSE ∩ coSPARSE and TALLY ∩ coTALLY.'''
+Equals SPARSE ∩ coSPARSE and TALLY ∩ coTALLY.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6597,9 +8298,13 @@ if p:
 pagename = u"Class_NP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NP - Nondeterministic Polynomial-Time =
+
+== Comments ==
 
 The class of dashed hopes and idle dreams.
 
@@ -6662,7 +8367,10 @@ NP is equal to SO-E, the second-order queries where the second-order quantifiers
 
 For example, the SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments.  SAT is in NP, since a "yes" answer can be proved by just exhibiting a satisfying assignment.
 
-Also, [Fag74] gave a logical characterization of NP, which leads to the subclass SNP.'''
+Also, [Fag74] gave a logical characterization of NP, which leads to the subclass SNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6679,9 +8387,13 @@ if p:
 pagename = u"Class_NP ∩ coNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NP ∩ coNP - NP ∩ coNP =
+
+== Comments ==
 
 The class of problems in both NP and coNP.
 
@@ -6691,7 +8403,10 @@ Contains graph isomorphism under the assumption that some language in NE ∩ coN
 
 Equals P^NP ∩ coNP^ [Bra79].  In particular, if a problem in NP ∩ coNP is NP-hard with Turing reduction, then NP = coNP.
 
-Is not believed to contain complete problems.'''
+Is not believed to contain complete problems.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6708,13 +8423,20 @@ if p:
 pagename = u"Class_NP/log"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NP/log - NP With Logarithmic Advice =
 
+== Comments ==
+
 Same as NP/poly, except that now the advice string is logarithmic-size.
 
-Shown in [FK05] that EXP ⊆ NP/log if and only if EXP = P^||NP^.'''
+Shown in [FK05] that EXP ⊆ NP/log if and only if EXP = P^||NP^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6731,15 +8453,22 @@ if p:
 pagename = u"Class_NP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NP/poly - Nonuniform NP =
+
+== Comments ==
 
 Has the same relation to NP as P/poly does to P.
 
 Contains AM.  On the other hand, if NP/poly contains coNP then PH collapses to the third level.
 
-NP/poly-natural proofs cannot show that circuit families are outside P/poly, under a pseudorandomness assumption [Rud97].'''
+NP/poly-natural proofs cannot show that circuit families are outside P/poly, under a pseudorandomness assumption [Rud97].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6756,9 +8485,13 @@ if p:
 pagename = u"Class_NPC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NP,,C,, - NP Over The Complex Numbers =
+
+== Comments ==
 
 The class of decision problems such that (1) they're in NP and (2) every problem in NP is reducible to them (under some notion of reduction).  In other words, the hardest problems in NP.
 
@@ -6787,7 +8520,10 @@ However, [CKK+95] show that if P/poly does not equal NP/poly then P,,C,, does no
 
 [BCS+97] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then P,,C,, does not equal NP,,C,,.
 
-See also VNP,,k,,.'''
+See also VNP,,k,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6804,15 +8540,22 @@ if p:
 pagename = u"Class_NPI"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPI - NP-Intermediate =
+
+== Comments ==
 
 Sometimes used to denote the set of decision problems in NP that are neither NP-complete (that is, in NPC) nor in P.
 
 Is thought to contain (for example) decision versions of factoring and graph isomorphism.
 
-Is nonempty if P does not equal NP [Lad75].  Indeed, under this assumption, it contains an infinite number of distinct polynomial-time equivalence classes.'''
+Is nonempty if P does not equal NP [Lad75].  Indeed, under this assumption, it contains an infinite number of distinct polynomial-time equivalence classes.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6829,9 +8572,13 @@ if p:
 pagename = u"Class_NPMV"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPMV - NP Multiple Value =
+
+== Comments ==
 
 The class of all (possibly partial, possibly multivalued) functions computed by an NP machine as follows: ignore the rejecting paths, and consider any output of an accepting path to be "one of the outputs."
 
@@ -6839,7 +8586,10 @@ Contains NPSV and NPMV,,t,,.
 
 Defined in [BLS84].
 
-Contrast with FNP.'''
+Contrast with FNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6856,13 +8606,20 @@ if p:
 pagename = u"Class_NPMV-sel"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPMV-sel - NPMV Selective =
 
+== Comments ==
+
 Has the same relation to NPMV as P-Sel does to P.
 
-Defined in [HHN+95].'''
+Defined in [HHN+95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6879,11 +8636,18 @@ if p:
 pagename = u"Class_NPMVt"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPMV,,t,, - NPMV Total =
 
-The class of all (possibly multivalued) NPMV functions that are total (that is, defined for every input).'''
+== Comments ==
+
+The class of all (possibly multivalued) NPMV functions that are total (that is, defined for every input).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6900,13 +8664,20 @@ if p:
 pagename = u"Class_NPMVt-sel"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPMV,,t,,-sel - NPMVt Selective =
 
+== Comments ==
+
 Has the same relation to NPMV,,t,, as P-Sel does to P.
 
-Defined in [HHN+95].'''
+Defined in [HHN+95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6923,15 +8694,22 @@ if p:
 pagename = u"Class_NPO"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPO - NP Optimization =
+
+== Comments ==
 
 The class of function problems of the form, "Find any n-bit string x that maximizes a cost function C(x), where C is computable in FP (i.e. polynomial-time)."
 
 Defined in [ACG+99].
 
-Contains APX and NPOPB.'''
+Contains APX and NPOPB.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6948,15 +8726,22 @@ if p:
 pagename = u"Class_NPOPB"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPOPB - NPO Polynomially Bounded =
+
+== Comments ==
 
 The subclass of NPO problems for which the cost function is guaranteed always to be bounded by a polynomial in n (the input size).
 
 See [ACG+99].
 
-NPOPB equals the closure of MaxPB under PTAS reductions [CKS+99].'''
+NPOPB equals the closure of MaxPB under PTAS reductions [CKS+99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -6973,9 +8758,13 @@ if p:
 pagename = u"Class_NPR"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NP,,R,, - NP Over The Reals =
+
+== Comments ==
 
 An analog of NP for Turing machines over a real number field.
 
@@ -6985,7 +8774,10 @@ It is unknown whether P,,R,, = NP,,R,,, nor are implications known among this qu
 
 Also, in contrast to the case of NP,,C,,, it is an open problem to show that P/poly distinct from NP/poly implies P,,R,, distinct from NP,,R,,.  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
 
-See also VNP,,k,,.'''
+See also VNP,,k,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7002,13 +8794,20 @@ if p:
 pagename = u"Class_NPSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPSPACE - Nondeterministic PSPACE =
 
+== Comments ==
+
 Equals PSPACE [Sav70].
 
-On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which NPSPACE is not contained in EXP [GTW+91].'''
+On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which NPSPACE is not contained in EXP [GTW+91].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7025,9 +8824,13 @@ if p:
 pagename = u"Class_NPSV"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPSV - NP Single Value =
+
+== Comments ==
 
 The class of NPMV functions that are single-valued (i.e., such that every accepting path outputs the same value).
 
@@ -7035,7 +8838,10 @@ Defined in [BLS84].
 
 Contains NPSV,,t,,.
 
-P = NP if and only if FP = NPSV.'''
+P = NP if and only if FP = NPSV.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7052,15 +8858,22 @@ if p:
 pagename = u"Class_NPSV-sel"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPSV-sel - NPSV Selective =
+
+== Comments ==
 
 Has the same relation to NPSV as P-Sel does to P.
 
 Defined in [HHN+95].
 
-Has the same relation to href="#npsv">NPSV as P-Sel does to P.'''
+Has the same relation to href="#npsv">NPSV as P-Sel does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7077,13 +8890,20 @@ if p:
 pagename = u"Class_NPSVt"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPSV,,t,, - NPSV Total =
 
+== Comments ==
+
 The class of all NPSV functions that are total (that is, defined on every input).
 
-Contained in NPMV,,t,,.'''
+Contained in NPMV,,t,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7100,15 +8920,22 @@ if p:
 pagename = u"Class_NPSVt-sel"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NPSV,,t,,-sel - NPSVt Selective =
+
+== Comments ==
 
 Has the same relation to NPSV,,t,, as P-Sel does to P.
 
 Also known as NP-sel.
 
-Defined in [HHN+95].'''
+Defined in [HHN+95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7125,9 +8952,13 @@ if p:
 pagename = u"Class_NPcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NP^cc^ - Communication Complexity NP =
+
+== Comments ==
 
 The analogue of P^cc^ for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.
 
@@ -7139,7 +8970,10 @@ Contained in PH^cc^.
 
 Has the same relation to NP^cc^ and NP as P,,,,^cc^ does to P^cc^ and P.
 
-NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant . As a result, NP,,,,^cc^ is not equal to RP,,,,^cc^ under the same conditions [DP08].'''
+NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant . As a result, NP,,,,^cc^ is not equal to RP,,,,^cc^ under the same conditions [DP08].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7156,9 +8990,13 @@ if p:
 pagename = u"Class_NQL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NQL - Nondet Quasi-Linear =
+
+== Comments ==
 
 The class of problems that can be decided in quasi-linear time by a multitape nondeterministic Turing machine.  Quasi-linear here means n(log n)^k^ + k, for some k.
 
@@ -7168,7 +9006,10 @@ SAT is NQL-complete under quasi-linear-time reductions (which can be computed in
 
 Defined in [Sch78].
 
-See also: NLT, Q, QL.'''
+See also: NLT, Q, QL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7185,15 +9026,22 @@ if p:
 pagename = u"Class_NQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NQP - Nondeterministic Quantum Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, NQP has the same technical caveats as EQP.  Or it would, except that it turns out to equal coC,,=,,P [FGH+98].
 
 Defined in [ADH97].
 
-Contrast with QMA.'''
+Contrast with QMA.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7210,9 +9058,13 @@ if p:
 pagename = u"Class_NSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NSPACE(f(n)) - Nondeterministic f(n)-Space =
+
+== Comments ==
 
 Same as NPSPACE, but with f(n)-space (for some constructible function f) rather than polynomial-space machines.
 
@@ -7220,7 +9072,10 @@ Contained in DSPACE(f(n)^2^) [Sav70], and indeed RevSPACE(f(n)^2^) 95|[CP95].
 
 NSPACE(n^k^) is strictly contained in NSPACE(n^k+ε^) for ε>0 [Iba72] (actually the hierarchy theorem is stronger than this, but pretty technical to state).
 
-Contained in DSPACE(f(n)^2^) [Sav70], and indeed RevSPACE(f(n)^2^) [CP95].'''
+Contained in DSPACE(f(n)^2^) [Sav70], and indeed RevSPACE(f(n)^2^) [CP95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7237,13 +9092,20 @@ if p:
 pagename = u"Class_NT"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NT - Near-Testable =
 
+== Comments ==
+
 The class of decision problems such that whether the answer on input x agrees with the answer on input x-1 (that is, the lexicographic predecessor of x) is solvable in polynomial time.  The Turing machine has to decide agreement or disagreement without access to the answer for x-1.
 
-Is contained in E, NT*, and ⊕P.  Defined in [GHJ+91] to study ⊕P-complete problems.  They show  that P, NT, NT*, and ⊕P are either all equal or strictly nested.  In particular, they differ with probability 1 relative to a random oracle.'''
+Is contained in E, NT*, and ⊕P.  Defined in [GHJ+91] to study ⊕P-complete problems.  They show  that P, NT, NT*, and ⊕P are either all equal or strictly nested.  In particular, they differ with probability 1 relative to a random oracle.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7260,15 +9122,22 @@ if p:
 pagename = u"Class_NT*"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NT* - Near-Testable With Forest Ordering =
+
+== Comments ==
 
 Defined like NT, but with a more general ordering on inputs.  A problem L is in NT* if, first, there is a partially defined predecessor function pred(x) in FP that organizes the space of inputs into a forest.  The size of the lineage of each x must also be bounded by 2^poly(|x|)^.  Second, if L(x) is the Boolean answer to L on input x, then L(x)+L(pred(x)) is computable in polynomial time; or if pred(x) does not exist, L(x) is computable in polynomial time.
 
 Defined in [GHJ+91].
 
-Contains NT and is contained in ⊕P.  The inclusions are either both strict or both equalities (whence ⊕P = P as well).'''
+Contains NT and is contained in ⊕P.  The inclusions are either both strict or both equalities (whence ⊕P = P as well).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7285,9 +9154,13 @@ if p:
 pagename = u"Class_NTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = NTIME(f(n)) - Nondeterministic f(n)-Time =
+
+== Comments ==
 
 Same as NP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
@@ -7295,7 +9168,10 @@ The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible a
 
 NTIME(n) strictly contains DTIME(n) [PPS+83] (this result does not work for arbitrary f(n)).
 
-For any constructible superpolynomial f, NTIME(f(n)) with NP oracle is not in P/poly [Kan82].'''
+For any constructible superpolynomial f, NTIME(f(n)) with NP oracle is not in P/poly [Kan82].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7312,13 +9188,20 @@ if p:
 pagename = u"Class_Nearly-P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Nearly-P - Languages Superpolynomially Close to P =
 
+== Comments ==
+
 The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n^/n^k^ inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
 
-The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n/n^k inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].'''
+The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n/n^k inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7335,15 +9218,22 @@ if p:
 pagename = u"Class_OCQ"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = OCQ - One Clean Qubit =
+
+== Comments ==
 
 The class of problems solvable by a BQP machine in which a single qubit is initialized to the '0' state, and the remaining qubits are initialized to the maximally mixed state.  (This definition is not known to be robust, so one also needs to specify a gate set.)
 
 We also need to stipulate that there are no "strong measurements" -- intermediate measurements on which later operations are conditioned -- since otherwise we can do all of BQP by first initializing the computer to the all-0 state.  Parker and Plenio [PP00] failed to appreciate this point.
 
-Defined by [ASV00] (though they didn't use the name OCQ), who also showed that if OCQ = BQP, something other than gate-by-gate simulation will be needed to show this.'''
+Defined by [ASV00] (though they didn't use the name OCQ), who also showed that if OCQ = BQP, something other than gate-by-gate simulation will be needed to show this.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7360,15 +9250,22 @@ if p:
 pagename = u"Class_OptP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = OptP - Optimum Polynomial-Time =
+
+== Comments ==
 
 The class of functions computable by taking the maximum of the output values over all accepting paths of an NP machine.
 
 Defined in [Kre88].
 
-Contrast with FNP.'''
+Contrast with FNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7385,9 +9282,13 @@ if p:
 pagename = u"Class_P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P - Polynomial-Time =
+
+== Comments ==
 
 The class that started it all.
 
@@ -7411,7 +9312,10 @@ The nonuniform version is P/poly, the monotone version is mP, and versions over 
 
 In descriptive complexity, P can be defined by three different kind of formulae, FO(lfp) which is also FO()], and also as SO(Horn)
 
-P queries are exactly the one that can be written in the While^/cons^ languages.'''
+P queries are exactly the one that can be written in the While^/cons^ languages.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7428,15 +9332,22 @@ if p:
 pagename = u"Class_P#P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^#P^ - P With #P Oracle =
+
+== Comments ==
 
 I decided this class is so important that it deserves an entry of its own, apart from #P.
 
 Contains PH [Tod89], and is contained in PSPACE.
 
-Equals P^PP^ (exercise for the visitor).'''
+Equals P^PP^ (exercise for the visitor).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7453,11 +9364,18 @@ if p:
 pagename = u"Class_P#P[1]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^#P[1]^ - P With Single Query To #P Oracle =
 
-Contains PH [Tod89].'''
+== Comments ==
+
+Contains PH [Tod89].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7474,15 +9392,22 @@ if p:
 pagename = u"Class_P-Close"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P-Close - Problems Close to P =
+
+== Comments ==
 
 The class of decision problems solvable by a polynomial-time algorithm that outputs the wrong answer on only a sparse (that is, polynomially-bounded) set of instances.
 
 Defined in [Yes83].
 
-Contains Almost-P and is contained in P/poly [Sch86].'''
+Contains Almost-P and is contained in P/poly [Sch86].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7499,15 +9424,22 @@ if p:
 pagename = u"Class_P-OBDD"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P-OBDD - Polynomial-Size Ordered Binary Decision Diagram =
+
+== Comments ==
 
 An ordered binary decision diagram (OBDD) is a branching program (see k-PBP), with the additional constraint that if x,,i,, is queried before x,,j,, on any path, then i<j.
 
 Then P-OBDD is the class of decision problems solvable by polynomial-size OBDD's.
 
-Contained in PBP, as well as BPP-OBDD.'''
+Contained in PBP, as well as BPP-OBDD.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7524,15 +9456,22 @@ if p:
 pagename = u"Class_P-Sel"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P-Sel - P-Selective Sets =
+
+== Comments ==
 
 The class of decision problems for which there's a polynomial-time algorithm with the following property.  Whenever it's given two instances, a "yes" and a "no" instance, the algorithm can always decide which is the "yes" instance.
 
 Defined in [Sel79], where it was also shown that if NP is contained in P-Sel then P = NP.
 
-There exist P-selective sets that are not recursive (i.e. not in R).'''
+There exist P-selective sets that are not recursive (i.e. not in R).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7549,15 +9488,22 @@ if p:
 pagename = u"Class_P/log"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P/log - P With Logarithmic Advice =
+
+== Comments ==
 
 Same as P/poly, except that the advice string for input size n can have length at most logarithmic in n, rather than polynomial.
 
 Strictly contained in IC[log,poly].
 
-If NP is contained in P/log then P = NP.'''
+If NP is contained in P/log then P = NP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7574,9 +9520,13 @@ if p:
 pagename = u"Class_P/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P/poly - Nonuniform Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by a family of polynomial-size Boolean circuits.  The family can be nonuniform; that is, there could be a completely different circuit for each input length.
 
@@ -7601,7 +9551,10 @@ The monotone version of P/poly is mP/poly.
 
 P/poly has measure 0 in E with Σ,,2,,P oracle [May94b].
 
-Strictly contains IC[log,poly] and P/log.'''
+Strictly contains IC[log,poly] and P/log.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7618,15 +9571,22 @@ if p:
 pagename = u"Class_PAC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PAC^0^ - Probabilistic AC0 =
+
+== Comments ==
 
 The Political Action Committee for computational complexity research.
 
 The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)>0.
 
-Equals TC^0^ and C,,=,,AC^0^ under logspace uniformity [ABL98].'''
+Equals TC^0^ and C,,=,,AC^0^ under logspace uniformity [ABL98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7643,15 +9603,22 @@ if p:
 pagename = u"Class_PBP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PBP - Polynomial-Size Branching Program =
+
+== Comments ==
 
 Same as k-PBP but with no width restriction.
 
 Equals L/poly [Cob66].
 
-Contains P-OBDD, BP,,d,,(P).'''
+Contains P-OBDD, BP,,d,,(P).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7668,15 +9635,22 @@ if p:
 pagename = u"Class_PC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P,,C,, - Polynomial-Time Over The Complex Numbers =
+
+== Comments ==
 
 An analog of P for Turing machines over a complex number field.
 
 Defined in [BCS+97].
 
-See also P,,R,,, NP,,C,,, NP,,R,,, VP,,k,,.'''
+See also P,,R,,, NP,,C,,, NP,,R,,, VP,,k,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7693,9 +9667,13 @@ if p:
 pagename = u"Class_PCD(r(n),q(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PCD(r(n),q(n)) - Probabilistically Checkable Debate =
+
+== Comments ==
 
 The class of decision problems decidable by a probabilistically checkable debate system, as follows.
 
@@ -7703,7 +9681,10 @@ Two debaters B and C alternate writing strings on a "debate tape," with B arguin
 
 Defined in [CFL+93], who also showed that PCD(log n, 1) = PSPACE.  This result was used to show that certain problems are PSPACE-hard even to approximate.
 
-Contained in GPCD(r(n),q(n)).'''
+Contained in GPCD(r(n),q(n)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7720,9 +9701,13 @@ if p:
 pagename = u"Class_PCP(r(n),q(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PCP(r(n),q(n)) - Probabilistically Checkable Proof =
+
+== Comments ==
 
 The class of decision problems such that a "yes" answer can be verified by a probabilistically checkable proof, as follows.
 
@@ -7749,7 +9734,10 @@ On the other hand, if NP is contained in PCP(o(log n), o(log n)), then P = NP [F
 
 Also, even though there exists an oracle relative to which NP = EXP [Hel84], if we could show there exists an oracle relative to which PCP(log n, 1) = EXP, then we'd have proved P not equal to NP [For94].
 
-Another weird oracle fact: since NP does not equal NEXP [SFM78], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [HCC+92].'''
+Another weird oracle fact: since NP does not equal NEXP [SFM78], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [HCC+92].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7766,15 +9754,22 @@ if p:
 pagename = u"Class_PCTC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P,,CTC,, - P With Closed Time Curves =
+
+== Comments ==
 
 Same as P with access to bits along a closed time curve.
 
 Implicitly defined in [Aar05c], where it was shown that PSPACE = P,,CTC,,.
 
-See also BQP,,CTC,,.'''
+See also BQP,,CTC,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7791,13 +9786,20 @@ if p:
 pagename = u"Class_PEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PEXP - Probabilistic Exponential-Time =
 
+== Comments ==
+
 Has the same relation to EXP as PP does to P.
 
-Is not contained in P/poly [BFT98].'''
+Is not contained in P/poly [BFT98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7814,9 +9816,16 @@ if p:
 pagename = u"Class_PF"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PF - Alternate Name for FP =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -7835,9 +9844,13 @@ if p:
 pagename = u"Class_PFCHK(t(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PFCHK(t(n)) - Proof-Checker =
+
+== Comments ==
 
 The class of decision problems solvable in time O(t(n)) by a nondeterministic Turing machine, as follows.  The machine is given oracle access to a proof string of unbounded length.
 
@@ -7846,7 +9859,10 @@ If the answer is "no," then for all values of the proof string, there exists a c
 
 Credited in [For94] to S. Arora, R. Impagliazzo, and U. Vazirani.
 
-An interesting question is whether NP = PFCHK(log n) relative to all possible oracles.  Fortnow [For94] observes that the answer depends on what oracle access mechanism is used.'''
+An interesting question is whether NP = PFCHK(log n) relative to all possible oracles.  Fortnow [For94] observes that the answer depends on what oracle access mechanism is used.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7863,9 +9879,13 @@ if p:
 pagename = u"Class_PH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PH - Polynomial-Time Hierarchy =
+
+== Comments ==
 
 Let Δ,,0,,P = Σ,,0,,P = Π,,0,,P = P.  Then for i>0, let
 
@@ -7894,7 +9914,10 @@ For a compendium of problems complete for different classes of the Polynomial Hi
 
 PH is equal to the set of boolean queries recognizable by a concurent random acess machine using exponentially many processors and constant time[Imm89].
 
-Since NP is the class of query expressible in second-order existantial logic, PH can also be defined as the query expressible in second-order logic.'''
+Since NP is the class of query expressible in second-order existantial logic, PH can also be defined as the query expressible in second-order logic.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7911,15 +9934,22 @@ if p:
 pagename = u"Class_PHcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PH^cc^ - Communication Complexity PH =
+
+== Comments ==
 
 The obvious generalization of NP^cc^ and coNP^cc^ to a nondeterministic hierarchy.
 
 It is unknown whether Σ,,2,,^cc^ equals Π,,2,,^cc^.
 
-Defined in [BFS86], where it was also shown (among other things) that BPP^cc^ is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.'''
+Defined in [BFS86], where it was also shown (among other things) that BPP^cc^ is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7936,9 +9966,13 @@ if p:
 pagename = u"Class_PINC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PINC - Polynomial Ignorance of Names of Classes =
+
+== Comments ==
 
 (Actually, I've since been informed that PINC means "Incremental Polynomial-Time.")
 
@@ -7946,7 +9980,10 @@ The class of function problems, f:{0,1}^n^->{0,1}^m^, such that the k^th^ output
 
 Defined in [JY88].
 
-Contained in PIO.  This containment is strict, since if m=2^n^ (say), then computing the first bit of f(x) might be EXP-complete.'''
+Contained in PIO.  This containment is strict, since if m=2^n^ (say), then computing the first bit of f(x) might be EXP-complete.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7963,15 +10000,22 @@ if p:
 pagename = u"Class_PIO"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PIO - Polynomial Input Output =
+
+== Comments ==
 
 The class of function problems, f:{0,1}^n^->{0,1}^m^, such that f(x) is computable in time polynomial in n and m.  Allows us to discuss whether a function is "efficiently computable" or not, even if the output is too long to write down in polynomial time.
 
 Defined in [Yan81].
 
-Strictly contains PINC.'''
+Strictly contains PINC.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -7988,15 +10032,22 @@ if p:
 pagename = u"Class_PK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^K^ - P With Kolmogorov-Complexity Oracle =
+
+== Comments ==
 
 P equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.
 
 A similar class was defined in [ABK+02], where it was also shown that P^K^ contains PSPACE.  It is not known whether P^K^ contains all of R, or even any recursive problem not in PSPACE.
 
-See also: BPP^KT^.'''
+See also: BPP^KT^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8013,13 +10064,20 @@ if p:
 pagename = u"Class_PKC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PKC - Perfect Knowledge Complexity =
 
+== Comments ==
+
 Has the same relation to PZK as SKC does to SZK.
 
-Defined in [GP91].'''
+Defined in [GP91].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8036,15 +10094,22 @@ if p:
 pagename = u"Class_PL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PL - Probabilistic L =
+
+== Comments ==
 
 Has the same relation to L that PP has to P.
 
 Contains BPL.
 
-PL^PL^ = PL (see [HO02]).'''
+PL^PL^ = PL (see [HO02]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8061,13 +10126,20 @@ if p:
 pagename = u"Class_PL1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PL,,1,, - Polynomially-Bounded L1 Spectral Norm =
 
+== Comments ==
+
 The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the sum of absolute values of Fourier coefficients of f is bounded by a polynomial in n.
 
-Defined in [BS90], where it was also shown that PL,,1,, is contained in PT,,1,, (and this inclusion is strict).'''
+Defined in [BS90], where it was also shown that PL,,1,, is contained in PT,,1,, (and this inclusion is strict).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8084,13 +10156,20 @@ if p:
 pagename = u"Class_PLF"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PLF - Polynomial Leaf =
 
+== Comments ==
+
 Defined in [Pap90].
 
-I believe it's the same as PPA.'''
+I believe it's the same as PPA.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8107,11 +10186,18 @@ if p:
 pagename = u"Class_PLL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PLL - Polynomial Local Lemma =
 
-The class of TFNP function problems that are guaranteed to have a solution because of the Lovász Local Lemma.  Defined in [Pap94b].'''
+== Comments ==
+
+The class of TFNP function problems that are guaranteed to have a solution because of the Lovász Local Lemma.  Defined in [Pap94b].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8128,9 +10214,13 @@ if p:
 pagename = u"Class_PLS"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PLS - Polynomial Local Search =
+
+== Comments ==
 
 The subclass of TFNP function problems that are guaranteed to have a solution because of the lemma that "every finite directed acyclic graph has a sink."
 
@@ -8148,7 +10238,10 @@ Also, there exist oracles relative to which PLS is not contained in PPA [BM04], 
 
 Whether PLS is not in PPP relative to some oracle remains open.
 
-[CT07] conjecture that if PPAD is in P, then PLS is in P.'''
+[CT07] conjecture that if PPAD is in P, then PLS is in P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8165,13 +10258,20 @@ if p:
 pagename = u"Class_PL∞"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PL,,∞,, - Polynomially-Bounded L∞-1 Spectral Norm =
 
+== Comments ==
+
 The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the maximum of |α|^-1^, over all Fourier coefficients α of f, is upper-bounded by a polynomial in n.
 
-Defined in [BS90], where it was also shown that PL,,∞,, contains PT,,1,, (and this inclusion is strict).'''
+Defined in [BS90], where it was also shown that PL,,∞,, contains PT,,1,, (and this inclusion is strict).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8188,11 +10288,18 @@ if p:
 pagename = u"Class_PNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^NP^ - P With Oracle Access To NP =
 
-See Δ,,2,,P.'''
+== Comments ==
+
+See Δ,,2,,P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8209,13 +10316,20 @@ if p:
 pagename = u"Class_PNP[k]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^NP[k]^ - P With k NP Queries(for constant k) =
 
+== Comments ==
+
 Equals P with 2^k^-1 parallel queries to NP (i.e. queries that do not depend on the outcomes of previous queries) ([BH91] and [Hem89] independently).
 
-If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = P^NP[log]^ and indeed PH collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).'''
+If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = P^NP[log]^ and indeed PH collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8232,9 +10346,13 @@ if p:
 pagename = u"Class_PNP[log]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^NP[log]^ - P With Log NP Queries =
+
+== Comments ==
 
 The class of decision problems solvable by a P machine, that can make O(log n) queries to an NP oracle (where n is the length of the input).
 
@@ -8244,7 +10362,10 @@ P^NP[log]^ is contained in PP [BHW89].
 
 Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for P^NP[log]^ [HHR97].
 
-Contains P^NP[k]^ for all constants k.'''
+Contains P^NP[k]^ for all constants k.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8261,15 +10382,22 @@ if p:
 pagename = u"Class_PNP[log^2]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^NP[log^2]^ - P With Log2 NP Queries =
+
+== Comments ==
 
 Same as P^NP[log]^, except that now log^2^ queries can be made.
 
 The model-checking problem for a certain temporal logic is P^NP[log^2]^-complete [Sch03].
 
-For all k, P with log^k^ adaptive queries to NP coincides with P with log^k+1^ nonadaptive queries [CS92].'''
+For all k, P with log^k^ adaptive queries to NP coincides with P with log^k+1^ nonadaptive queries [CS92].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8286,13 +10414,20 @@ if p:
 pagename = u"Class_PODN"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PODN - Polynomial Odd Degree Node =
 
+== Comments ==
+
 The subclass of TFNP function problems that are guaranteed to have a solution because of the lemma that "every finite graph has an even number of odd-degree nodes."
 
-Equals PPA [Pap90].'''
+Equals PPA [Pap90].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8309,9 +10444,13 @@ if p:
 pagename = u"Class_PP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PP - Probabilistic Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -8338,7 +10477,10 @@ For any fixed k, there exists a language in PP that does not have circuits of si
 
 By contrast, there exists an oracle relative to which PP has linear-size circuits [Aar06].
 
-PP can be generalized to the counting hierarchy CH.'''
+PP can be generalized to the counting hierarchy CH.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8355,13 +10497,20 @@ if p:
 pagename = u"Class_PP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PP/poly - Nonuniform PP =
 
+== Comments ==
+
 Contains BQP/qpoly [Aar04b].
 
-If PP/poly = P/poly then PP is contained in P/poly.  Indeed this is true with any syntactically defined class in place of PP.  An implication is that any unrelativized separation of BQP/qpoly from BQP/mpoly would imply that PP does not have polynomial-size circuits.'''
+If PP/poly = P/poly then PP is contained in P/poly.  Indeed this is true with any syntactically defined class in place of PP.  An implication is that any unrelativized separation of BQP/qpoly from BQP/mpoly would imply that PP does not have polynomial-size circuits.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8378,9 +10527,13 @@ if p:
 pagename = u"Class_PPA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PPA - Polynomial Parity Argument =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -8397,7 +10550,10 @@ Contained in TFNP.
 
 Contains PPAD.
 
-There exist oracles relative to which PPA does not contain PLS [BM04] and PPP [BCE+95].  There also exists an oracle relative to which PPA is not contained in PPP [BCE+95].'''
+There exist oracles relative to which PPA does not contain PLS [BM04] and PPP [BCE+95].  There also exists an oracle relative to which PPA is not contained in PPP [BCE+95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8414,9 +10570,13 @@ if p:
 pagename = u"Class_PPAD"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PPAD - Polynomial Parity Argument (Directed) =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -8429,7 +10589,10 @@ NASH, the problem of finding a Nash equilibrium in a normal form game of two or 
 There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].
 There exists an oracle relative to which PPAD is not contained in BQP [Li11].
 
-There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].'''
+There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8446,9 +10609,13 @@ if p:
 pagename = u"Class_PPADS"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PPADS - Polynomial Parity Argument (Directed, Sink) =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -8456,7 +10623,10 @@ Same as PPA, except now the graph is directed, and we're asked to find a sink.
 
 Contained in PPP.
 
-Contains PPAD.'''
+Contains PPAD.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8473,9 +10643,13 @@ if p:
 pagename = u"Class_PPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^PP^ - P With PP Oracle =
+
+== Comments ==
 
 Defined in [Pap94b]; see also [BCE+95].
 
@@ -8501,7 +10675,10 @@ Contains PP^PH^ [Tod89].
 
 Equals P^#P^ (exercise for the visitor).
 
-Since the permanent of a matrix is #P-complete [Val79], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.'''
+Since the permanent of a matrix is #P-complete [Val79], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8518,9 +10695,13 @@ if p:
 pagename = u"Class_PPSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PPSPACE - Probabilistic PSPACE =
+
+== Comments ==
 
 Same as IPP, except that IPP uses private coins while PPSPACE uses public coins.
 
@@ -8528,7 +10709,10 @@ Can also be defined as a probabilistic version of PSPACE.
 
 Equals PSPACE.
 
-Defined in [Pap83].'''
+Defined in [Pap83].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8545,15 +10729,22 @@ if p:
 pagename = u"Class_PPcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PP^cc^ - Analogue of PP for Communication Complexity =
+
+== Comments ==
 
 Defined in [BFS86], PP^cc^ is one of two ways to define a communication complexity analogue of PP. In PP^cc^, we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in PP^cc^, the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.
 
 The difference between this class and UPP^cc^ is discussed further in [BVW07], where it is shown that PP^cc^ ⊂ UPP^cc^.
 
-See Also: UPP^cc^.'''
+See Also: UPP^cc^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8570,15 +10761,22 @@ if p:
 pagename = u"Class_PQUERY"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PQUERY - PSPACE With Polynomial Queries =
+
+== Comments ==
 
 The class of decision problems solvable in polynomial space using at most a polynomial number of queries to the oracle.
 
 Thus, PQUERY = PSPACE, but PQUERY^A^ does not equal PSPACE^A^ for some oracles A.
 
-Defined in [Kur83], where it was actually put forward as a serious argument (!!) against believing relativization results.'''
+Defined in [Kur83], where it was actually put forward as a serious argument (!!) against believing relativization results.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8595,9 +10793,13 @@ if p:
 pagename = u"Class_PR"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P,,R,, - Polynomial-Time Over The Reals =
+
+== Comments ==
 
 Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that PR is strictly contained in R.
 
@@ -8613,7 +10815,10 @@ An analog of P for Turing machines over a real number field.
 
 Defined in [BCS+97].
 
-See also P,,C,,, NP,,C,,, NP,,R,,, VP,,k,,.'''
+See also P,,C,,, NP,,C,,, NP,,R,,, VP,,k,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8630,9 +10835,13 @@ if p:
 pagename = u"Class_PSK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PSK - Polynomial Sink =
+
+== Comments ==
 
 Yeah, I'm told that's what the S and K stand for.  Go figure.
 
@@ -8640,7 +10849,10 @@ The class of total function problems definable as follows: given a directed grap
 
 Defined in [Pap90].
 
-Equals PPADS.'''
+Equals PPADS.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8657,9 +10869,13 @@ if p:
 pagename = u"Class_PSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PSPACE - Polynomial-Space =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine in polynomial space.
 
@@ -8677,7 +10893,10 @@ Contained in EXP.  There exists an oracle relative to which this containment is 
 
 In descriptive complexity, PSPACE can be defined with 4 differents kind of formulae, FO() which is also FO(PFP) and SO() which is also SO(TC).
 
-A canonical PSPACE-complete problem is Quantified Boolean Formula (QBF): Given a Boolean formula with universal and existential quantifiers, decide whether it's true or false.'''
+A canonical PSPACE-complete problem is Quantified Boolean Formula (QBF): Given a Boolean formula with universal and existential quantifiers, decide whether it's true or false.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8694,11 +10913,18 @@ if p:
 pagename = u"Class_PSPACE/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PSPACE/poly - PSPACE With Polynomial-Size Advice =
 
-Contains QMA/qpoly [Aar06b].'''
+== Comments ==
+
+Contains QMA/qpoly [Aar06b].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8715,13 +10941,20 @@ if p:
 pagename = u"Class_PT/WK(f(n),g(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PT/WK(f(n),g(n)) - Parallel Time f(n) / Work g(n) =
 
+== Comments ==
+
 The class of decision problems solvable by a uniform family of Boolean circuits with depth upper-bounded by f(n) and size (number of gates) upper-bounded by g(n).
 
-The union of PT/WK(log^k^n, n^k^) over all constants k equals NC.'''
+The union of PT/WK(log^k^n, n^k^) over all constants k equals NC.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8738,13 +10971,20 @@ if p:
 pagename = u"Class_PT1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PT,,1,, - Polynomial Threshold Functions =
 
+== Comments ==
+
 The class of Boolean functions f:{-1,1}^n^->{-1,1} such that f(x)=sgn(p(x)), where p is a polynomial having a number of terms polynomial in n.
 
-Defined in [BS90], where it was also shown that PT,,1,, contains PL,,1,, (and this inclusion is strict), and that PT,,1,, is contained in PL,,∞,, (and this inclusion is strict).'''
+Defined in [BS90], where it was also shown that PT,,1,, contains PL,,1,, (and this inclusion is strict), and that PT,,1,, is contained in PL,,∞,, (and this inclusion is strict).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8761,9 +11001,16 @@ if p:
 pagename = u"Class_PTAPE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PTAPE - Archaic for PSPACE =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -8782,9 +11029,13 @@ if p:
 pagename = u"Class_PTAS"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PTAS - Polynomial-Time Approximation Scheme =
+
+== Comments ==
 
 The subclass of NPO problems that admit an approximation scheme in the following sense.  For any ε>0, there is a polynomial-time algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  (However, the exponent of the polynomial might depend strongly on ε.)
 
@@ -8792,7 +11043,10 @@ Contains FPTAS, and is contained in APX.
 
 As an example, the Traveling Salesman Problem in the Euclidean plane is in PTAS [Aro96].
 
-Defined in [ACG+99].'''
+Defined in [ACG+99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8809,9 +11063,13 @@ if p:
 pagename = u"Class_PZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PZK - Perfect Zero Knowledge =
+
+== Comments ==
 
 Same as SZK, but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of his interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
 
@@ -8819,7 +11077,10 @@ Contained in SZK.
 
 See also: CZK.
 
-Same as SZK, but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over Arthur's view of his interaction with Merlin, conditioned on Arthur's random coins, and (2) the distribution over views that Arthur can simulate without Merlin's help.)'''
+Same as SZK, but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over Arthur's view of his interaction with Merlin, conditioned on Arthur's random coins, and (2) the distribution over views that Arthur can simulate without Merlin's help.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8836,9 +11097,13 @@ if p:
 pagename = u"Class_Pcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^cc^ - Communication Complexity P =
+
+== Comments ==
 
 In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  P^cc^ is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.
 
@@ -8854,7 +11119,10 @@ Like P^cc^, but with  players, where each player can see all of the other player
 
 More formally, P,,,,^cc^ is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
 
-P,,,,^cc^ is trivially contained in BPP,,,,^cc^, RP,,,,^cc^ and NP,,,,^cc^.'''
+P,,,,^cc^ is trivially contained in BPP,,,,^cc^, RP,,,,^cc^ and NP,,,,^cc^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8871,9 +11139,13 @@ if p:
 pagename = u"Class_PermUP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PermUP - Self-Permuting UP =
+
+== Comments ==
 
 The class of languages L in UP such that the mapping from an input x to the unique witness for x is a permutation of L.
 
@@ -8883,7 +11155,10 @@ Defined in [HT03], where it was also shown that the closure of PermUP under poly
 
 On the other hand, they show that if PermUP = UP then E = UE.
 
-See also: SelfNP.'''
+See also: SelfNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8900,15 +11175,22 @@ if p:
 pagename = u"Class_PhP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PhP - Physical Polynomial-Time =
+
+== Comments ==
 
 Defined by Valiant [Val03] to be "the class of physically constructible polynomial resource computers" (characterizing what "can be computed in the physical world in practice").  There he says that PhP contains P and BPP, but that it is open whether PhP contains BQP, since no scalable quantum computing proposal has been demonstrated beyond reasonable doubt.
 
 For what it's worth, the present zookeeper has more qualms about admitting DTIME(n^1000^) into PhP than BQTIME(n^2^).  It is very possible that the total number of bits or bit tranisitions that can be witnessed by any one observer in the universe is finite.  (Recent observations of the cosmological constant combined with plausible fundamental physics yields a bound of 10^k^ with k in the low hundreds.)  In practice, less than 10^50^ bits and less than 10^80^ bit transitions are available for human use.  (This is combining the number of atoms in the Earth with the number of signals that they can exchange in a millenium.)
 
-The present veterinarian concurs that PhP is an unhealthy animal, although it is valid to ask whether BQP is a realistic class.'''
+The present veterinarian concurs that PhP is an unhealthy animal, although it is valid to ask whether BQP is a realistic class.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8925,9 +11207,13 @@ if p:
 pagename = u"Class_PostBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PostBQP - BQP With Postselection =
+
+== Comments ==
 
 A class inspired by the proverb, "if at first you don't succeed, try, try again."
 
@@ -8943,7 +11229,10 @@ Defined in [Aar05b], where it is also shown that PostBQP equals PP.
 
 The quantum analogue of BPP,,path,,.
 The class of problems solvable in quantum polynomial time if we allow arbitrary linear operations (not just unitary ones). Before measuring, we divide all amplitudes by a normalizing factor to make the probabilities sum to 1.
-The class of problems solvable in quantum polynomial time if we take the probability of measuring a basis state with amplitude α to be not |α|^2^ but |α|^p^, where p is an even integer greater than 2.  (Again we need to divide all amplitudes by a normalizing factor to make the probabilities sum to 1.)'''
+The class of problems solvable in quantum polynomial time if we take the probability of measuring a basis state with amplitude α to be not |α|^2^ but |α|^p^, where p is an even integer greater than 2.  (Again we need to divide all amplitudes by a normalizing factor to make the probabilities sum to 1.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8960,13 +11249,20 @@ if p:
 pagename = u"Class_PrHSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Pr,,H,,SPACE(f(n)) - Unbounded-Error Halting Probabilistic f(n)-Space =
 
+== Comments ==
+
 Has the same relation to DSPACE(f(n)) as PP does to P.  The Turing machine has to halt on every input and every setting of the random tape.
 
-Equals PrSPACE(f(n)) [Jun85].'''
+Equals PrSPACE(f(n)) [Jun85].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -8983,15 +11279,22 @@ if p:
 pagename = u"Class_PrSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PrSPACE(f(n)) - Unbounded-Error Probabilistic f(n)-Space =
+
+== Comments ==
 
 Has the same relation to DSPACE(f(n)) as PP does to P.  The Turing machine has to halt with probability 1 on every input.
 
 Contained in DSPACE(f(n)^2^) [BCP83].
 
-Equals Pr,,H,,SPACE(f(n)) [Jun85].'''
+Equals Pr,,H,,SPACE(f(n)) [Jun85].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9008,13 +11311,20 @@ if p:
 pagename = u"Class_PromiseBPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PromiseBPP - Promise-Problem BPP =
 
+== Comments ==
+
 Same as PromiseRP, but for BPP instead of RP.
 
-Defined in [BF99].'''
+Defined in [BF99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9031,15 +11341,22 @@ if p:
 pagename = u"Class_PromiseBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PromiseBQP - Promise-Problem BQP =
+
+== Comments ==
 
 Same as PromiseBPP, but for BQP instead of BPP.
 
 If PromiseBQP = PromiseP then BQP/mpoly = P/poly.
 
-Same as PromiseBQP, but for BQP instead of BPP.'''
+Same as PromiseBQP, but for BQP instead of BPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9056,11 +11373,18 @@ if p:
 pagename = u"Class_PromiseP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PromiseP - Promise-Problem P =
 
-The class of promise problems solvable by a P machine.'''
+== Comments ==
+
+The class of promise problems solvable by a P machine.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9077,15 +11401,22 @@ if p:
 pagename = u"Class_PromiseRP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PromiseRP - Promise-Problem RP =
+
+== Comments ==
 
 The class of promise problems solvable by an RP machine. I.e., the machine must accept with probability at least 1/2 for "yes" inputs, and with probability 0 for "no" inputs, but could have acceptance probability between 0 and 1/2 for inputs that do not satisfy the promise.
 
 Defined in [BF99], where it was also shown that BPP is in RP^PromiseRP[1]^ (i.e. with a single oracle query to PromiseRP).
 
-Contained in PromiseBPP.'''
+Contained in PromiseBPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9102,13 +11433,20 @@ if p:
 pagename = u"Class_PromiseUP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = PromiseUP - Promise-Problem UP =
 
+== Comments ==
+
 The class of promise problems solvable by an UP machine. I.e., the nondeterministic machine must have a unique accepting path for "yes" inputs, and no accepting paths "no" inputs, but could have any number of accepting paths for inputs that do not satisfy the promise.
 
-Although not originally stated with this notation, the main result of [VV86] is that NP is contained in RP^PromiseUP^.'''
+Although not originally stated with this notation, the main result of [VV86] is that NP is contained in RP^PromiseUP^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9125,11 +11463,18 @@ if p:
 pagename = u"Class_P||NP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = P^||NP^ - P With Parallel Queries To NP =
 
-Equals P^NP[log]^ ([BH91] and [Hem89] independently).'''
+== Comments ==
+
+Equals P^NP[log]^ ([BH91] and [Hem89] independently).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9146,13 +11491,20 @@ if p:
 pagename = u"Class_Q"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Q - Quasi-Realtime Languages =
 
+== Comments ==
+
 The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [BG69], where it was shown that Q equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).
 
-Contains GCSL.'''
+Contains GCSL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9169,9 +11521,13 @@ if p:
 pagename = u"Class_QAC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QAC^0^ - Quantum AC0 =
+
+== Comments ==
 
 The class of decision problems solvable by a family of constant-depth, polynomial-size quantum circuits.  Here each layer of the circuit is a tensor product of one-qubit gates and Toffoli gates, or is a tensor product of controlled-NOT gates.
 
@@ -9181,7 +11537,10 @@ Defined in [Moo99].
 
 It is contained in QAC,,f,,^0^, but it is not known if it contains AC^0^. Notice that the latter containment is not obvious, since the set of gates in QAC^0^ do not allow to implement fanout in any way we may take for granted.
 
-Contains AC^0^, and is contained in QAC,,f,,^0^.'''
+Contains AC^0^, and is contained in QAC,,f,,^0^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9198,13 +11557,20 @@ if p:
 pagename = u"Class_QAC0[m]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QAC^0^[m] - Quantum AC0[m] =
 
+== Comments ==
+
 Same as QAC^0^, except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.
 
-Defined in [Moo99].'''
+Defined in [Moo99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9221,15 +11587,22 @@ if p:
 pagename = u"Class_QACC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QACC^0^ - Quantum ACC0 =
+
+== Comments ==
 
 Same as QAC^0^[m], except that Mod-m gates are allowed for any m.
 
 Defined in [Moo99].
 
-[GHP00] showed that QACC^0^ equals QAC^0^[p] for any prime p.'''
+[GHP00] showed that QACC^0^ equals QAC^0^[p] for any prime p.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9246,14 +11619,21 @@ if p:
 pagename = u"Class_QACf0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QAC,,f,,^0^ - QAC0 With Fanout =
+
+== Comments ==
 
 Same as QAC^0^, except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.
 
 Defined in [Moo99], where it was also shown that QAC,,f,,^0^ =
-QAC^0^[2] = QACC^0^.'''
+QAC^0^[2] = QACC^0^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9270,15 +11650,22 @@ if p:
 pagename = u"Class_QAM"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QAM - Quantum AM =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by a public-coin quantum AM protocol, as follows.  Arthur generates a uniformly random (classical) string and sends it to Merlin.  Merlin responds with a polynomial-size quantum certificate, on which Arthur can perform any BQP operation.  The completeness and soundness requirements are the same as for AM.
 
 Defined by Marriott and Watrous [MW05].
 
-Contains QMA and is contained in QIP[2] and BP•PP (and therefore PSPACE).'''
+Contains QMA and is contained in QIP[2] and BP•PP (and therefore PSPACE).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9295,11 +11682,18 @@ if p:
 pagename = u"Class_QCFL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QCFL - Quantum CFL =
 
-The class of decision problems recognized by quantum context-free languages, which are defined in [MC00].  The authors also showed that QCFL does not equal CFL.'''
+== Comments ==
+
+The class of decision problems recognized by quantum context-free languages, which are defined in [MC00].  The authors also showed that QCFL does not equal CFL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9316,9 +11710,13 @@ if p:
 pagename = u"Class_QCMA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QCMA - Quantum Classical MA =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of QMA with classical witnesses.
 
@@ -9330,7 +11728,10 @@ Given a black-box group G and a subgroup H, the problem of testing non-membershi
 
 See [AK06] for a "quantum oracle separation" between QCMA and QMA.  No classical oracle separation between QCMA and QMA is currently known.
 
-The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof.'''
+The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9347,15 +11748,22 @@ if p:
 pagename = u"Class_QH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QH - Query Hierarchy Over NP =
+
+== Comments ==
 
 QH,,k,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,k,, over all nonnegative k.
 
 QH = BH [Wag88]; thus, either both hierarchies are infinite or both collapse to some finite level.
 
-QH,,i,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,i,, over all nonnegative i.'''
+QH,,i,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,i,, over all nonnegative i.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9372,9 +11780,13 @@ if p:
 pagename = u"Class_QIP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QIP - Quantum IP =
+
+== Comments ==
 
 The class of decision problems such that a "yes" answer can be verified by a quantum interactive proof.  Here the verifier is a BQP (i.e. quantum polynomial-time) algorithm, while the prover has unbounded computational resources (though cannot violate the linearity of quantum mechanics). The prover and verifier exchange a polynomial number of messages, which can be quantum states.  Thus, the verifier's and prover's states may become entangled during the course of the protocol.  Given the verifier's algorithm, we require that
 
@@ -9393,7 +11805,10 @@ QIP = IP = PSPACE [JJUW09]; thus quantum computing adds no power to interactive 
 
 QIP(1) is more commonly known as QMA.
 
-See also: QIP[2], QSZK.'''
+See also: QIP[2], QSZK.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9410,13 +11825,20 @@ if p:
 pagename = u"Class_QIP[2]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QIP[2] - 2-Message Quantum IP =
 
+== Comments ==
+
 See QIP for definition.
 
-Contains QSZK [Wat02].'''
+Contains QSZK [Wat02].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9433,15 +11855,22 @@ if p:
 pagename = u"Class_QL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QL - Quasi-Linear =
+
+== Comments ==
 
 The class of problems that can be decided in quasi-linear time by a multitape deterministic Turing machine.  Quasi-linear time here means n(log n)^k^ + k, for some k.
 
 Defined in [Sch78].
 
-See also: Q, NQL.'''
+See also: Q, NQL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9458,9 +11887,13 @@ if p:
 pagename = u"Class_QMA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMA - Quantum MA =
+
+== Comments ==
 
 The class of decision problems such that a "yes" answer can be verified by a 1-message quantum interactive proof.  That is, a BQP (i.e. quantum polynomial-time) verifier is given a quantum state (the "proof").  We require that
 
@@ -9497,7 +11930,10 @@ Kitaev and Watrous (unpublished) showed QMA is contained in PP.  Combining that 
 
 Subsequently Kempe and Regev [KR03] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [KKR04], has hit rock bottom (assuming P does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
 
-NQP'''
+NQP
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9514,9 +11950,13 @@ if p:
 pagename = u"Class_QMA(2)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMA(2) - Quantum MA With Multiple Certificates =
+
+== Comments ==
 
 Same as QMA, except that now the verifier is given two polynomial-size quantum certificates, which are guaranteed to be unentangled.
 
@@ -9526,7 +11966,10 @@ It was shown in [ABD+08] that a conjecture they call the Strong Amplification Co
 
 It was shown in [HM13] that QMA(k) = QMA(2) for k >= 2. However we still do not know if QMA(2) = QMA and we also do not know any upper bound for QMA(2) better than NEXP.
 
-Defined in [KMY01].  It is unknown whether QMA(k) = QMA(2) for all k>2, and also whether QMA(2) = QMA.'''
+Defined in [KMY01].  It is unknown whether QMA(k) = QMA(2) for all k>2, and also whether QMA(2) = QMA.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9543,13 +11986,20 @@ if p:
 pagename = u"Class_QMA-plus"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMA-plus - QMA With Super-Verifier =
 
+== Comments ==
+
 Same as QMA, except now the verifier can directly obtain the probability that a given observable of the certificate state, if measured, would equal 1.  (In the usual model, by contrast, one can only sample an observable.)
 
-Defined in [AR03], where it was also shown that QMA-plus = QMA.'''
+Defined in [AR03], where it was also shown that QMA-plus = QMA.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9566,11 +12016,18 @@ if p:
 pagename = u"Class_QMA/qpoly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMA/qpoly - QMA With Polynomial-Size Quantum Advice =
 
-Is contained in PSPACE/poly [Aar06b].'''
+== Comments ==
+
+Is contained in PSPACE/poly [Aar06b].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9587,15 +12044,22 @@ if p:
 pagename = u"Class_QMA1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMA,,1,, - One Sided QMA =
+
+== Comments ==
 
 Same as QMA except that for a "yes" instance, there exists a state that is accepted with probability 1.
 
 Defined in [Bra06]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any . It was also shown there that Quantum 2-SAT is in P.
 
-This result was later improved in [GN13] where it was shown that Quantum 3-SAT is QMA,,1,,-complete.'''
+This result was later improved in [GN13] where it was shown that Quantum 3-SAT is QMA,,1,,-complete.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9612,15 +12076,22 @@ if p:
 pagename = u"Class_QMAM"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMAM - Quantum Merlin-Arthur-Merlin Public-Coin Interactive Proofs =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by a public-coin quantum MAM protocol, as follows.  Merlin sends a polynomial-size quantum state to Arthur.  Arthur then flips some classical coins (in fact, he only has to flip one without loss of generality) and sends the outcome to Merlin.  At this stage Arthur is not yet allowed to perform any quantum operations.  Merlin then sends Arthur another quantum state.  Finally, Arthur performs a BQP operation on both of the states simultaneously, and either accepts or rejects.  The completeness and soundness requirements are the same as for AM.  Also, Merlin's messages might be entangled.
 
 Defined by Marriott and Watrous [MW05], who also showed that QMAM = QIP(3) = QIP.
 
-Hence QMAM contains PSPACE.'''
+Hence QMAM contains PSPACE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9637,13 +12108,20 @@ if p:
 pagename = u"Class_QMAlog"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMA,,log,, - QMA With Logarithmic-Size Proofs =
 
+== Comments ==
+
 Same as QMA except that the quantum proof has O(log n) qubits instead of a polynomial number.
 
-Equals BQP [MW05].'''
+Equals BQP [MW05].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9660,9 +12138,13 @@ if p:
 pagename = u"Class_QMIP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMIP - Quantum Multi-Prover Interactive Proofs =
+
+== Comments ==
 
 The quantum generalization of MIP, and the multi-prover generalization of QIP.
 
@@ -9674,7 +12156,10 @@ Shown to be equal to MIP* in [RUV12].
 
 QMIP contains NEXP simply because MIP* contains NEXP [IV12]. Since we know that NEXP = QMIP,,ne,,, this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
 
-Fascinatingly, no relationship between QMIP and NEXP is known.  We don't know whether allowing the provers unlimited prior entanglement makes the class more powerful, less powerful, or both!'''
+Fascinatingly, no relationship between QMIP and NEXP is known.  We don't know whether allowing the provers unlimited prior entanglement makes the class more powerful, less powerful, or both!
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9691,13 +12176,20 @@ if p:
 pagename = u"Class_QMIPle"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMIP,,le,, - Quantum Multi-Prover Interactive Proofs With Limited Prior Entanglement =
 
+== Comments ==
+
 Same as QMIP, except that now the provers share only a polynomial number of EPR pairs, instead of an unlimited number.
 
-Defined in [KM02], where it was also shown that QMIP,,le,, is contained in NEXP = QMIP,,ne,,.'''
+Defined in [KM02], where it was also shown that QMIP,,le,, is contained in NEXP = QMIP,,ne,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9714,13 +12206,20 @@ if p:
 pagename = u"Class_QMIPne"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QMIP,,ne,, - Quantum Multi-Prover Interactive Proofs With No Prior Entanglement =
 
+== Comments ==
+
 Same as QMIP, except that now the provers have no prior entanglement.
 
-Defined in [KM02], where it was also shown that QMIP,,ne,, = NEXP.  Thus, QMIP,,ne,, contains QMIP,,le,,.'''
+Defined in [KM02], where it was also shown that QMIP,,ne,, = NEXP.  Thus, QMIP,,ne,, contains QMIP,,le,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9737,9 +12236,13 @@ if p:
 pagename = u"Class_QNC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QNC - Quantum NC =
+
+== Comments ==
 
 The class of decision problems solvable by polylogarithmic-depth quantum circuits with bounded probability of error.  (A uniformity condition may also be imposed.)
 
@@ -9749,7 +12252,10 @@ Has the same relation to NC as BQP does to P.
 
 Is incomparable with BPP as far as anyone knows.
 
-See also: RNC.'''
+See also: RNC.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9766,15 +12272,22 @@ if p:
 pagename = u"Class_QNC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QNC^0^ - Quantum NC0 =
+
+== Comments ==
 
 Constant-depth quantum circuits without fanout gates.
 
 Defined in [Spa02].
 
-Contained in QNC,,f,,^0^.'''
+Contained in QNC,,f,,^0^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9791,15 +12304,22 @@ if p:
 pagename = u"Class_QNC1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QNC^1^ - Quantum NC1 =
+
+== Comments ==
 
 Same as QNC^1^, but for the exact rather than bounded-error case.
 
 In contrast to NC^1^, it is not clear how to simulate QNC^1^ on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [ASV00].
 
-See also [MN02].'''
+See also [MN02].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9816,15 +12336,22 @@ if p:
 pagename = u"Class_QNCf0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QNC,,f,,^0^ - Quantum NC0 With Unbounded Fanout =
+
+== Comments ==
 
 Constant-depth quantum circuits with unbounded-fanout gates.
 
 Defined in [Spa02].
 
-Contains QNC^0^, and is contained in QACC^0^.'''
+Contains QNC^0^, and is contained in QACC^0^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9841,11 +12368,18 @@ if p:
 pagename = u"Class_QP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QP - Quasipolynomial-Time =
 
-Equals DTIME(2^polylog(n)^).'''
+== Comments ==
+
+Equals DTIME(2^polylog(n)^).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9862,13 +12396,20 @@ if p:
 pagename = u"Class_QPLIN"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QPLIN - Linear Quasipolynomial-Time =
 
+== Comments ==
+
 Equals DTIME(n^O(log n)^).
 
-Has the same relationship to QP that E does to EXP.'''
+Has the same relationship to QP that E does to EXP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9885,13 +12426,20 @@ if p:
 pagename = u"Class_QPSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QPSPACE - Quasipolynomial-Space =
 
+== Comments ==
+
 Equals DSPACE(2^polylog(n)^).
 
-According to [BG94], Beigel and Feigenbaum and (independently) Krawczyk showed that QPSPACE is not contained in Check.'''
+According to [BG94], Beigel and Feigenbaum and (independently) Krawczyk showed that QPSPACE is not contained in Check.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9908,9 +12456,13 @@ if p:
 pagename = u"Class_QRG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QRG - Quantum Refereed Games =
+
+== Comments ==
 
 Same as RG, except that now the verifier is a BQP machine, and can exchange polynomially many quantum messages with the competing provers.
 
@@ -9920,7 +12472,10 @@ Defined in [Gut05], where it was also shown that QRG is contained in NEXP ∩ co
 
 QRG trivially contains RG (and hence EXP), as well as SQG.
 
-QRG is contained in EXP [GW07].  Hence QRG = RG = EXP and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.'''
+QRG is contained in EXP [GW07].  Hence QRG = RG = EXP and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9937,9 +12492,13 @@ if p:
 pagename = u"Class_QRG(1)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QRG(1) - One-turn Quantum Refereed Games =
+
+== Comments ==
 
 The class of problems for which there exists a BQP machine M such that:
 
@@ -9952,7 +12511,10 @@ Defined in [JW09], where it was shown that QRG(1) is contained in PSPACE .
 
 QRG(1) trivially contains QMA (and indeed P^QMA^).
 
-QRG(1) is trivially contained in QRG(2) (and hence PSPACE).'''
+QRG(1) is trivially contained in QRG(2) (and hence PSPACE).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9969,15 +12531,22 @@ if p:
 pagename = u"Class_QRG(2)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QRG(2) - Two-turn (one-round) Quantum Refereed Games =
+
+== Comments ==
 
 Same as QRG, except that now the verifier can exchange only two messages with each prover.  Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  QRG(2) is the quantum version of RG(2).  See also QRG(k).
 
 QRG(2) trivially contains RG(2) (and hence PSPACE).
 
-QRG(2) is trivially contained in SQG (and hence PSPACE).  Hence QRG(2) = RG(2) = PSPACE and finding optimal strategies for two-turn zero-sum quantum games is no harder than finding optimal strategies for two-turn zero-sum classical games.'''
+QRG(2) is trivially contained in SQG (and hence PSPACE).  Hence QRG(2) = RG(2) = PSPACE and finding optimal strategies for two-turn zero-sum quantum games is no harder than finding optimal strategies for two-turn zero-sum classical games.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -9994,9 +12563,13 @@ if p:
 pagename = u"Class_QRG(k)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QRG(k) - k-turn Quantum Refereed Games =
+
+== Comments ==
 
 Same as QRG, except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length.  Messages are exchanged in parallel.  QRG(k) is the quantum version of RG(k).  By definition, QRG(poly) = QRG.  See also QRG(1) and QRG(2).
 
@@ -10004,7 +12577,10 @@ QRG(k) trivially contains RG(k) for each k (and hence PSPACE when ).  QRG(4) tri
 
 QRG(k) is trivially contained in QRG for each k (and hence EXP).
 
-Other than these trivial bounds, very little is known of QRG(k) for intermediate values of k.  For example, does QRG(k) = RG(k) for each k?'''
+Other than these trivial bounds, very little is known of QRG(k) for intermediate values of k.  For example, does QRG(k) = RG(k) for each k?
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10021,9 +12597,13 @@ if p:
 pagename = u"Class_QS2P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QS,,2,,P - Quantum S2P =
+
+== Comments ==
 
 The class of problems for which there exists a BQP machine M such that:
 
@@ -10032,7 +12612,10 @@ If the answer is "no," then there exists a σ such that for all ρ, M(ρ,σ) rej
 
 In other words, it's the same as SQG, but without communication from the verifier back to the provers.
 
-Contains QMA (and indeed P^QMA^), and is contained in SQG and hence EXP.'''
+Contains QMA (and indeed P^QMA^), and is contained in SQG and hence EXP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10049,9 +12632,13 @@ if p:
 pagename = u"Class_QSZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = QSZK - Quantum Statistical Zero-Knowledge =
+
+== Comments ==
 
 A quantum analog of SZK (or more precisely HVSZK).
 
@@ -10065,7 +12652,10 @@ QSZK is contained in PSPACE.
 QSZK is closed under complement.
 Any protocol can be parallelized to consist of two messages, so that QSZK is in QIP[2].
 One can assume without loss of generality that protocols are public-coin, as for SZK.
-QSZK has a natural complete promise problem, called Quantum State Distinguishability (QSD).  We are given quantum circuits Q,,0,, and Q,,1,,.  Let ρ,,0,, and ρ,,1,, be the mixed states they produce respectively, when run on the all-0 state (and when non-output qubits are traced out).  We are promised that the trace distance between ρ,,0,, and ρ,,1,, is either at most α or at least β, where α and β are constants in [0,1] satisfying α < β^2^.  The problem is to decide which of these is the case.'''
+QSZK has a natural complete promise problem, called Quantum State Distinguishability (QSD).  We are given quantum circuits Q,,0,, and Q,,1,,.  Let ρ,,0,, and ρ,,1,, be the mixed states they produce respectively, when run on the all-0 state (and when non-output qubits are traced out).  We are promised that the trace distance between ρ,,0,, and ρ,,1,, is either at most α or at least β, where α and β are constants in [0,1] satisfying α < β^2^.  The problem is to decide which of these is the case.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10082,9 +12672,13 @@ if p:
 pagename = u"Class_R"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = R - Recursive Languages =
+
+== Comments ==
 
 The class of decision problems solvable by a Turing machine.  Often identified with the class of 'effectively computable' functions (the Church-Turing thesis).
 
@@ -10092,7 +12686,10 @@ Defined in [Tur36], [Chu41], and other seminal early papers.
 
 Equals RE ∩ coRE.
 
-Strictly contains PR, the primitive recursive functions (see [Kle71]).'''
+Strictly contains PR, the primitive recursive functions (see [Kle71]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10109,13 +12706,20 @@ if p:
 pagename = u"Class_RBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RBQP - Strict Quantum RP =
 
+== Comments ==
+
 The class of problems in NP whose witnesses are in FBQP.  For example, the set of square-free numbers is in coRBQP using only the fact that factoring is in FBQP.  (Even without a proof that the factors are prime, the factorization proves that there is a square divisor.)
 
-Contains RP and ZBQP, and is contained in BQP and RQP.  Defined here to clarify EQP; see also ZBQP.'''
+Contains RP and ZBQP, and is contained in BQP and RQP.  Defined here to clarify EQP; see also ZBQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10132,9 +12736,13 @@ if p:
 pagename = u"Class_RE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RE - Recursively Enumerable Languages =
+
+== Comments ==
 
 The class of decision problems for which a 'yes' answer can be verified by a Turing machine in a finite amount of time.  (If the answer is 'no,' on the other hand, the machine might never halt.)
 
@@ -10156,7 +12764,10 @@ RE and coRE can be generalized to the arithmetic hierarchy AH.
 
 There are problems in RE that are neither RE-complete under T-reductions, nor in R [Fri57] [Muc56].  This is the resolution of Post's problem [Pos44].
 
-Indeed, RE contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [Sho99].'''
+Indeed, RE contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [Sho99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10173,9 +12784,13 @@ if p:
 pagename = u"Class_REG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = REG - Regular Languages =
+
+== Comments ==
 
 The class of decision problems solvable by deterministic finite automata (DFAs).
 
@@ -10191,7 +12806,10 @@ See e.g. [Koz97], [Gur89] for basic results on regular languages.
 
 The class of decision problems solvable by deterministic finite automata (DFA's).
 
-Equals the class solvable by nondeterministic finite automata (NDFA's).'''
+Equals the class solvable by nondeterministic finite automata (NDFA's).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10208,9 +12826,13 @@ if p:
 pagename = u"Class_RG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RG - Refereed Games =
+
+== Comments ==
 
 The class of problems solvable by a probabilistic polynomial-time verifier who can exchange a polynomial number of messages with two competing, computationally-unbounded provers -- one trying to convince the verifier that the answer is "yes," the other that the answer is "no."  Note that the verifier can hide information from the provers.  Public-coin RG amounts to SAPTIME, which equals PSPACE [Pap83].
 
@@ -10218,7 +12840,10 @@ RG is in EXP relative to any oracle [KM92]; they are equal, unrelativized [FK97b
 
 See also PCD, GPCD.
 
-Contains RG[1], and is contained in QRG.'''
+Contains RG[1], and is contained in QRG.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10235,9 +12860,13 @@ if p:
 pagename = u"Class_RG(1)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RG(1) - One-turn Refereed Games =
+
+== Comments ==
 
 The class of problems for which there exists a BPP machine M such that, on input x:
 
@@ -10248,7 +12877,10 @@ In other words, it's the same as RG(k) for , the class of problems that admit in
 
 RG(1) trivially contains S,,2,,P.  Indeed, RG(1) can be viewed as a randomized version of S,,2,,P.
 
-RG(1) is trivially contained in RG(2) (and hence PSPACE).'''
+RG(1) is trivially contained in RG(2) (and hence PSPACE).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10265,13 +12897,20 @@ if p:
 pagename = u"Class_RG(2)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RG(2) - Two-turn (one-round) Refereed Games =
 
+== Comments ==
+
 Same as RG, except that now the verifier can exchange only two messages with each prover. Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  See also RG(k).
 
-RG(2) is contained in PSPACE, and they are equal, unrelativized [FK97b].'''
+RG(2) is contained in PSPACE, and they are equal, unrelativized [FK97b].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10288,13 +12927,20 @@ if p:
 pagename = u"Class_RG(k)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RG(k) - k-turn Refereed Games =
 
+== Comments ==
+
 Same as RG, except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length. Messages are exchanged in parallel.  By definition, RG(poly) = RG. See also RG(1) and RG(2).
 
-Other than trivial bounds, very little is known of RG(k) for intermediate values of k. For example, does RG(k) = PSPACE for each constant ?'''
+Other than trivial bounds, very little is known of RG(k) for intermediate values of k. For example, does RG(k) = PSPACE for each constant ?
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10311,15 +12957,22 @@ if p:
 pagename = u"Class_RG[1]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RG[1] - One-Round Refereed Games =
+
+== Comments ==
 
 Same as RG, except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes RG[1] a symmetric class, indeed a randomized analogue of S,,2,,P.
 
 RG[1] is contained in PSPACE, and they are equal, unrelativized [FK97b].
 
-Contains S,,2,,P and is contained in SQG.'''
+Contains S,,2,,P and is contained in SQG.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10336,15 +12989,22 @@ if p:
 pagename = u"Class_RHL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = R,,H,,L - Randomized Halting Logarithmic-Space =
+
+== Comments ==
 
 Has the same relation to L as RP does to P.  The randomized machine must halt for every input and every setting of the random tape.
 
 Contains undirected reachability (is there a path from vertex u to vertex v in an undirected graph?) [AKL+79].
 
-Contained in RL.'''
+Contained in RL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10361,11 +13021,18 @@ if p:
 pagename = u"Class_RHSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = R,,H,,SPACE(f(n)) - One-Sided Error Halting Probabilistic f(n)-Space =
 
-Has the same relation to BP,,H,,SPACE(f(n)) as RP does to BPP.'''
+== Comments ==
+
+Has the same relation to BP,,H,,SPACE(f(n)) as RP does to BPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10382,9 +13049,13 @@ if p:
 pagename = u"Class_RL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RL - Randomized Logarithmic-Space =
+
+== Comments ==
 
 Has the same relation to L as RP does to P.  The randomized machine must halt with probability 1 on any input.  It must also run in polynomial time (since otherwise we would just get
 NL).
@@ -10393,7 +13064,10 @@ Contains R,,H,,L.
 
 Contained in SC [Nis92].
 
-[RTV05] give strong evidence that RL = L.'''
+[RTV05] give strong evidence that RL = L.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10410,9 +13084,13 @@ if p:
 pagename = u"Class_RNC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RNC - Randomized NC =
+
+== Comments ==
 
 Has the same relation to NC as RP does to P.
 
@@ -10420,7 +13098,10 @@ Contains the maximum matching problem for bipartite graphs [MVV87].
 
 Contained in QNC.
 
-See also: coRNC.'''
+See also: coRNC.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10437,9 +13118,13 @@ if p:
 pagename = u"Class_RP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RP - Randomized Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -10458,7 +13143,10 @@ See also: coRP, ZPP, BPP.
 
 Defined in [Gil77].
 
-Contains the problem of testing whether an integer is prime [AH87].'''
+Contains the problem of testing whether an integer is prime [AH87].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10475,15 +13163,22 @@ if p:
 pagename = u"Class_RPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RPP - Restricted Pseudo Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems (x,m) (where x is an input of length |x|=n and m is an integer parameter), that are solvable by a nondeterministic (i.e. NP) machine in poly(n+m) time and O(m+log n) space simultaneously.
 
 Defined in [Mon80].
 
-See also FPT.'''
+See also FPT.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10500,16 +13195,23 @@ if p:
 pagename = u"Class_RPcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RP,,,,^cc^ - Randomized Pcc =
+
+== Comments ==
 
 The class of functions  which can be computed by  players with access to shared random bits in the number-on-forehead (defined as in P,,,,^cc^) model, subject to two constraints:
 
 The communication cost (the sum of the number of random bits used and bits written to the shared blackboard) is .
  If , then the players decide correctly with probably at least 2/3, whereas if , the players always decide correctly.
 
-NP,,,,^cc^ is not equal to RP,,,,^cc^ for  players, for any constant  [DP08].'''
+NP,,,,^cc^ is not equal to RP,,,,^cc^ for  players, for any constant  [DP08].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10526,13 +13228,20 @@ if p:
 pagename = u"Class_RQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RQP - One-sided Error Extension of EQP =
 
+== Comments ==
+
 The class of questions that can be answered by a QTM that accepts with probability 0 when the true answer is no, and accepts with probability at least 1/2 when the true answer is yes.  Since one of the probabilities has to vanish, RQP has the same technical caveats as EQP.
 
-Contains ZQP and RBQP, and is contained in BQP.'''
+Contains ZQP and RBQP, and is contained in BQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10549,15 +13258,22 @@ if p:
 pagename = u"Class_RSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RSPACE(f(n)) - Randomized f(n)-Space =
+
+== Comments ==
 
 Same as RL, but for O(f(n))-space instead of logarithmic-space.  (Just as an RL machine must run in polynomial time, so an RSPACE(f(n)) machine must run in 2^O(f(n))^ time.)
 
 Contained in NSPACE(f(n)) and BPSPACE(f(n)).
 
-Same as RL, but for O(f(n))-space instead of logarithmic-space.'''
+Same as RL, but for O(f(n))-space instead of logarithmic-space.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10574,13 +13290,20 @@ if p:
 pagename = u"Class_RevSPACE(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = RevSPACE(f(n)) - Reversible f(n)-Space =
 
+== Comments ==
+
 The class of decision problems solvable in space O(f(n)) by a reversible Turing machine (a deterministic Turing machine for which every configuration has at most one immediate predecessor).
 
-Was shown to equal DSPACE(f(n)) [LMT97].'''
+Was shown to equal DSPACE(f(n)) [LMT97].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10597,13 +13320,20 @@ if p:
 pagename = u"Class_S2-EXP•PNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = S,,2,,-EXP•P^NP^ - Don't Ask =
 
+== Comments ==
+
 One of the caged classes of the Complexity Zoo.
 
-Has been implicated in a collapse scandal involving AM[polylog], coNP, and EH.'''
+Has been implicated in a collapse scandal involving AM[polylog], coNP, and EH.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10620,9 +13350,13 @@ if p:
 pagename = u"Class_S2P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = S,,2,,P - Second Level of the Symmetric Hierarchy =
+
+== Comments ==
 
 The class of decision problems for which there is a polynomial-time predicate P such that, on input x,
 
@@ -10639,7 +13373,10 @@ Contained in ZPP^NP^ [Cai01].
 
 S,,2,,-EXP•P^NP^: Don't Ask 
 One of the caged classes of the Complexity Zoo.
-Has been implicated in a collapse scandal involving AM[polylog], coNP, and EH.'''
+Has been implicated in a collapse scandal involving AM[polylog], coNP, and EH.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10656,15 +13393,22 @@ if p:
 pagename = u"Class_SAC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SAC - Semi-Unbounded-Fanin AC =
+
+== Comments ==
 
 SAC^k^ is the class of decision problems solvable by a family of depth-O(log^k^n) circuits with unbounded-fanin OR & bounded-fanin AND gates.  Negations are only allowed at the input level.
 
 A uniformity condition may also be imposed.
 
-Defined by [BCD+89], who also showed that SAC,,k,, is closed under complement for every k>0.'''
+Defined by [BCD+89], who also showed that SAC,,k,, is closed under complement for every k>0.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10681,13 +13425,20 @@ if p:
 pagename = u"Class_SAC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SAC^0^ - Semi-Unbounded-Fanin AC0 =
 
+== Comments ==
+
 See SAC for definition.
 
-Not closed under complement [BCD+89].'''
+Not closed under complement [BCD+89].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10704,15 +13455,22 @@ if p:
 pagename = u"Class_SAC1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SAC^1^ - Semi-Unbounded-Fanin AC1 =
+
+== Comments ==
 
 See SAC for definition.
 
 Equals LOGCFL/poly [Ven91].
 
-Contained in ⊕SAC^1^ [GW96].'''
+Contained in ⊕SAC^1^ [GW96].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10729,13 +13487,20 @@ if p:
 pagename = u"Class_SAPTIME"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SAPTIME - Stochastic Alternating Polynomial-Time =
 
+== Comments ==
+
 The class of problems solvable by a polynomial-time Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
-Defined in [Pap83], where it was also observed that SAPTIME = PSPACE.'''
+Defined in [Pap83], where it was also observed that SAPTIME = PSPACE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10752,9 +13517,13 @@ if p:
 pagename = u"Class_SBP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SBP - Small Bounded-Error Probability =
+
+== Comments ==
 
 The class of decision problems for which the following holds.  There exists a #P function f and an FP function g such that, for all inputs x,
 
@@ -10766,7 +13535,10 @@ Defined in [BGM02], where the following was also shown:
 SBP contains MA, WAPP, and ∃BPP.
 SBP is contained in AM and BPP,,path,,.
 There exists an oracle relative to which SBP is not contained in Σ,,2,,P.
-SBP is closed under union.'''
+SBP is closed under union.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10783,13 +13555,20 @@ if p:
 pagename = u"Class_SBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SBQP - Small Bounded-Error Quantum Polynomial-Time =
 
+== Comments ==
+
 The class of decision problems for which there exists a polynomial-time quantum algorithm that accepts with probability at least 2^−p(n)^ if the answer is "yes", and with probability at most 2^−p(n)−1^ if the answer is "no", for some polynomial p.
 
-Defined by Kuperberg in [Kup09], where he showed that SBQP = A,,0,,PP.'''
+Defined by Kuperberg in [Kup09], where he showed that SBQP = A,,0,,PP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10806,9 +13585,13 @@ if p:
 pagename = u"Class_SC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SC - Steve's Class =
+
+== Comments ==
 
 (Named in honor of Stephen Cook.)
 
@@ -10822,7 +13605,10 @@ SC contains RL and BPL [Nis92].
 
 SC equals DTISP(poly,polylog) by definition.
 
-Deterministic context-free languages (DCFL's) can be recognized in SC [Coo79].'''
+Deterministic context-free languages (DCFL's) can be recognized in SC [Coo79].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10839,13 +13625,20 @@ if p:
 pagename = u"Class_SE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SE - Subexponentially-Solvable Search Problems =
 
+== Comments ==
+
 The class of FNP search problems solvable in O(2^εn^) time for every ε>0.
 
-Defined in [IPZ01], who also gave reductions showing that if any of k-SAT, k-colorability, k-set cover, clique, or vertex cover is in SE, then all of them are.'''
+Defined in [IPZ01], who also gave reductions showing that if any of k-SAT, k-colorability, k-set cover, clique, or vertex cover is in SE, then all of them are.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10862,9 +13655,13 @@ if p:
 pagename = u"Class_SEH"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SEH - Strong Exponential Hierarchy =
+
+== Comments ==
 
 The union of NE, NP^NE^, NP^NP^NE^, and so on.
 
@@ -10875,7 +13672,10 @@ Note that we would get the same class if we replaced NE by NEXP.
 SEH collapses to P^NE^ [Hem89]
 
 There exists an oracle relative to which SEH is not contained in EH [Hem89].
-EH and SEH are incomparable for all anyone knows.'''
+EH and SEH are incomparable for all anyone knows.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10892,9 +13692,13 @@ if p:
 pagename = u"Class_SFk"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SF,,k,, - Width-k Bottleneck Turing Machines =
+
+== Comments ==
 
 The class of decision problems solvable by a k-bottleneck Turing machine. This is a machine that, after a polynomial amount of time, erases everything on the tape except for a single k-valued "safe-storage".  There's also a counter recording the number of erasings, which is in effect a non-deterministic witness.  For example, SF,,2,, contains both ⊕P and NP by using the counter as a witness.
 
@@ -10904,7 +13708,10 @@ The complexity of SF,,2,,, SF,,3,,, and SF,,4,, was studied in [Ogi94] and [Her9
 
 SF,,4,, is contained in BP ⊕P^Mod_3P ^ ⊕P ^ Mod_3P ^ ⊕P^
 
-(Here the BP operator means that one makes the class into a bounded-error probabilistic class, the same way one makes P into BPP and NP into AM.)'''
+(Here the BP operator means that one makes the class into a bounded-error probabilistic class, the same way one makes P into BPP and NP into AM.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10921,9 +13728,13 @@ if p:
 pagename = u"Class_SKC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SKC - Statistical Knowledge Complexity =
+
+== Comments ==
 
 A hierarchy of generalizations of SZK, in which Arthur is allowed to gain some information from his interaction with Merlin.
 
@@ -10936,7 +13747,10 @@ SKC,,hint,,(k(n)): Strict oracle sense.  The simulator can reproduce Arthur's vi
 SKC,,avg,,(k(n)): Average oracle sense.  For each input, the expected number of queries the simulator makes to oracle O is at most k(n).
 SKC,,ent,,(k(n)): Entropy sense.  Defined in [ABV95]. For each input, the expectation (over Arthur's random coins) of -log(P) is at most k(n), where P is the probability that the view output by the simulator equals the view resulting from the actual protocol.
 
-See also: PKC.'''
+See also: PKC.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10953,9 +13767,13 @@ if p:
 pagename = u"Class_SL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SL - Symmetric Logarithmic-Space =
+
+== Comments ==
 
 The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that
 
@@ -10982,7 +13800,10 @@ Reingold ultimately showed that SL = L [Rei04], even relative to an oracle. This
 The reachability problem (is there a path from vertex s to vertex t?) for undirected graphs is complete for SL, under L-reduction.
 
 The story ends with the remarkable result that SL = L (even relative to an oracle)
-[Rei04].'''
+[Rei04].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -10999,9 +13820,13 @@ if p:
 pagename = u"Class_SLICEWISE PSPACE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SLICEWISE PSPACE - Parametrized PSPACE =
+
+== Comments ==
 
 The parameterized version of PSPACE.
 
@@ -11009,7 +13834,10 @@ Same as FPT, except that now on input (x,k) (k a parameter), the space used must
 
 If P = PSPACE, then FPT = SLICEWISE PSPACE.
 
-Defined in [DF99].'''
+Defined in [DF99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11026,9 +13854,13 @@ if p:
 pagename = u"Class_SNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SNP - Strict NP =
+
+== Comments ==
 
 [Fag74] showed that NP is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.
 
@@ -11046,7 +13878,10 @@ NP
 
 There exists a relation P(u,v) on vertices of G, such that P(u,u) is false, and for all distinct u,v either P(u,v) or P(v,u), and P(u,v) and P(v,w) implies P(u,w), and if P(u,w) and there does not exist a v for which P(u,v) and P(v,w), then there is an edge from u to w.
 
-total order'''
+total order
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11063,9 +13898,13 @@ if p:
 pagename = u"Class_SO"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SO - Second-Order logic =
+
+== Comments ==
 
 We define second-order variable  has got an arity k and represent any proposition of arity . They are usually written in upper-case.
 
@@ -11075,7 +13914,10 @@ Every formuale is equivalent to a formulae in prenex normal form, where we first
 
 In Descriptive complexity we can see that SO is equal to PH, more precisely we have that formulae in prenex normal form where existantial and universal of second order alternate k times are the kth level of the polynomial hierarchy.
 
-This means that SO with only existantial second-order quantification is equal to  which is NP, and with only universal quantification is equal to  which is Co-NP.'''
+This means that SO with only existantial second-order quantification is equal to  which is NP, and with only universal quantification is equal to  which is Co-NP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11092,15 +13934,22 @@ if p:
 pagename = u"Class_SO(Horn)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SO(Horn) - Second-order in Horn form =
+
+== Comments ==
 
 SO(horn) is the set of boolean queries definable with second-order formulae in normal form such that the quantifier-free part of the formula is in conjunctive normal form with at most one positive instance of a quantified relation per clause.  (Atomic queries to the database don't count.)
 
 It was shown in [Grä92] that this class is equal to P.
 
-Those formulae can be made in prenex form where the second order is existential and the first order universal without loss of generality.'''
+Those formulae can be made in prenex form where the second order is existential and the first order universal without loss of generality.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11117,15 +13966,22 @@ if p:
 pagename = u"Class_SO(Krom)"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SO(Krom) - Second-order in Krom form =
+
+== Comments ==
 
 SO(krom) is the set of boolean queries definable with second-order formulae in normal form such that the quantifier-free part of the formula is in Krom form, wich means that in every clause there is at most two literals and the first-order portion contains no existential quantifiers.
 
 It was shown in [Grä92] that this class is equal to NL.
 
-Those formulaes can be made in prenex form where the second order is existential and the first order universal without loss of generalities.'''
+Those formulaes can be made in prenex form where the second order is existential and the first order universal without loss of generalities.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11142,15 +13998,22 @@ if p:
 pagename = u"Class_SO-E"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SO-E - Second Order Existential =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [Imm98] for a full definition.
 
 SO-E = NP [Fag74].
 
-Contains FO(poly(n)).'''
+Contains FO(poly(n)).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11167,14 +14030,21 @@ if p:
 pagename = u"Class_SO[LFP]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SO[LFP] - Second-Order logic with least fixed point =
+
+== Comments ==
 
 SO[LFP] is to SO what FO[LFP] is to FO. The LFP operator can now also take second-order variable as argument.
 
 In Descriptive complexity we can see that 
-SO[LFP] is  equal to EXPTIME.'''
+SO[LFP] is  equal to EXPTIME.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11191,14 +14061,21 @@ if p:
 pagename = u"Class_SO[TC]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SO[TC] - Second-Order logic with transitive closure =
+
+== Comments ==
 
 SO[TC] is to SO what FO[TC] is to FO. The TC operator can now also take second-order variable as argument.
 
 In Descriptive complexity we can see that :
-SO[TC] is  equal to PSPACE.'''
+SO[TC] is  equal to PSPACE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11215,16 +14092,23 @@ if p:
 pagename = u"Class_SO[]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SO[] - Iterated Second-Order logic =
+
+== Comments ==
 
 SO[] is to SO what FO[] is to FO. But we now also have second-order quantifier in the quantifier block.
 
 In Descriptive complexity we can see that :
 
 SO[] is  equal to PSPACE it is also another way to write SO(TC)
-SO[] is equal to EXPTIME it is also another way to write SO(LFP)'''
+SO[] is equal to EXPTIME it is also another way to write SO(LFP)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11241,15 +14125,22 @@ if p:
 pagename = u"Class_SP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SP - Semi-Efficient Parallel =
+
+== Comments ==
 
 The class of problems in P for which the best parallel algorithm (using a polynomial number of processors) is faster than the best serial algorithm by a factor of Ω(n^ε^) for some ε>0.
 
 Defined in [KRS90].
 
-SP is also an alternate name for XP,,uniform,,'''
+SP is also an alternate name for XP,,uniform,,
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11266,13 +14157,20 @@ if p:
 pagename = u"Class_SPARSE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SPARSE - Sparse Languages =
 
+== Comments ==
+
 The class of decision problems for which the number of 'yes' instances of size n is upper-bounded by a polynomial in n.  If SPARSE intersects NPC then P = NP [Mah82].
 
-Contains TALLY.'''
+Contains TALLY.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11289,9 +14187,13 @@ if p:
 pagename = u"Class_SPL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SPL - Stoic PL =
+
+== Comments ==
 
 Has the same relation to PL as SPP does to PP.
 
@@ -11301,7 +14203,10 @@ Contains UL.
 
 Contained in C,,=,,L and Mod,,k,,L.
 
-Equals the set of problems low for GapL.'''
+Equals the set of problems low for GapL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11318,9 +14223,13 @@ if p:
 pagename = u"Class_SPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SPP - Stoic PP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -11343,7 +14252,10 @@ Indeed, contains graph isomorphism [AK02].
 
 Contains a whole gaggle of problems for solvable black-box groups: solvability testing, membership testing, subgroup testing, normality testing, order verification, nilpotetence testing, group isomorphism, and group intersection [Vin04]
 
-[AK02] also showed that the Hidden Subgroup Problem for permutation groups, of interest in quantum computing, is in FP^SPP^.'''
+[AK02] also showed that the Hidden Subgroup Problem for permutation groups, of interest in quantum computing, is in FP^SPP^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11360,9 +14272,13 @@ if p:
 pagename = u"Class_SQG"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SQG - Short Quantum Games =
+
+== Comments ==
 
 Same as QRG(2), except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.
 
@@ -11380,7 +14296,10 @@ Same as QRG, except that now the verifier can exchange only a single round of qu
 
 SQG is contained in EXP [Gut05], as well as in QRG.
 
-SQG trivially contains QS,,2,,P.'''
+SQG trivially contains QS,,2,,P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11397,11 +14316,18 @@ if p:
 pagename = u"Class_SUBEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SUBEXP - Deterministic Subexponential-Time =
 
-The intersection of DTIME(2^n^ε^) over all ε>0.  (Note that the algorithm used may vary with ε.)'''
+== Comments ==
+
+The intersection of DTIME(2^n^ε^) over all ε>0.  (Note that the algorithm used may vary with ε.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11418,9 +14344,13 @@ if p:
 pagename = u"Class_SZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SZK - Statistical Zero Knowledge =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol.  In such an interactive proof
 (see IP), we have a probabilistic polynomial-time verifier, and a prover who has unbounded computational resources.  By exchanging messages with the prover, the verifier must become convinced (with high probability) that the answer is "yes," without learning anything else about the problem (statistically).
@@ -11462,7 +14392,10 @@ SZK is closed under complement.  I.e. Arthur can verify in zero-knowledge that t
 Amazingly, we can also assume without loss of generality that the protocol is public-coin. I.e. Arthur doesn't need to hide any of his random bits, as he did in the graph nonisomorphism protocol above, but can just send them all to Merlin!
 Finally, we can assume without loss of generality that the verifier (Arthur) is honest. A dishonest verifier would be one that tries to learn something about the problem (violating the zero-knowledge requirement) by deviating from the protocol.
 
-Zero-knowledge proofs were first studied in [GMW91], [GMR89].'''
+Zero-knowledge proofs were first studied in [GMW91], [GMR89].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11479,15 +14412,22 @@ if p:
 pagename = u"Class_SZKh"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SZK,,h,, - SZK With Limited Help =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol, and the prover and verifier both have access to a string computed by a trusted probabilistic polynomial-time third party with access to the input.
 
 Defined in [BG03], where it was also shown that SZK,,h,, = SZK.
 
-Contains NISZK,,h,,.'''
+Contains NISZK,,h,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11504,9 +14444,13 @@ if p:
 pagename = u"Class_SelfNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = SelfNP - Self-Witnessing NP =
+
+== Comments ==
 
 The class of languages L in NP such that the union, over all x in L, of the set of valid witnesses for x equals L itself.
 
@@ -11514,7 +14458,10 @@ Defined in [HT03], where it was shown that the closure of SelfNP under polynomia
 
 They also show that if SelfNP = NP, then E = NE; and that SAT is contained in SelfNP.
 
-See also: PermUP.'''
+See also: PermUP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11531,13 +14478,20 @@ if p:
 pagename = u"Class_TALLY"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = TALLY - Tally Languages =
 
+== Comments ==
+
 The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If TALLY intersects NPC then P = NP [Mah82].
 
-Contained in SPARSE.'''
+Contained in SPARSE.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11554,9 +14508,13 @@ if p:
 pagename = u"Class_TC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = TC^0^ - Constant-Depth Threshold Circuits =
+
+== Comments ==
 
 The class of decision problems solvable by polynomial-size, constant-depth circuits with unbounded fanin, which can use AND, OR, and NOT gates (as in AC^0^) as well as threshold gates.  A threshold gate returns 1 if at least half of its inputs are 1, and 0 otherwise.
 
@@ -11578,7 +14536,10 @@ The permanent of a 0-1 matrix cannot be computed in uniform TC^0^ [All99].
 
 In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in U,,D,,-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
 
-In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in L-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.'''
+In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in L-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11595,9 +14556,13 @@ if p:
 pagename = u"Class_TFNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = TFNP - Total Function NP =
+
+== Comments ==
 
 The class of function problems of the following form:
 
@@ -11607,7 +14572,10 @@ Can be considered as the functional analogue of NP ∩ coNP. Defined in [MP91].
 
 Contained in FNP.
 
-Subclasses include PPA, PPP, and PLS.'''
+Subclasses include PPA, PPP, and PLS.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11624,13 +14592,20 @@ if p:
 pagename = u"Class_TREE-REGULAR"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = TREE-REGULAR - Regular Tree-Valued Languages =
 
+== Comments ==
+
 Same as REG, except that now the inputs are trees (say, binary trees) instead of strings.  Each vertex is labeled with a symbol from a fixed alphabet.  Evaluation begins at the leaves and proceeds to the root.  The state of the finite automaton at each vertex v is a function of (1) the states at v's children (if any), and (2) the symbol at v.  The tree is in the language if and only if the automaton is in an 'accept' state at the root.
 
-See [Koz92] for example.'''
+See [Koz92] for example.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11647,9 +14622,13 @@ if p:
 pagename = u"Class_TreeBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = TreeBQP - BQP Restricted To Tree States =
+
+== Comments ==
 
 The class of languages accepted by a BQP machine subject to the constraint that at every time step t, the machine's state is exponentially close to a tree state -- that is, a state expressible by a polynomial-size tree of additions and tensor products (together with complex constants and |0> and |1> leaf nodes).
 
@@ -11659,7 +14638,10 @@ Contains BPP, and is contained in BQP.
 
 Defined in [Aar03b], where it was also shown that TreeBQP is
 contained in the third level of PH, which might provide weak evidence that
-TreeBQP does not equal BQP.'''
+TreeBQP does not equal BQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11676,9 +14658,13 @@ if p:
 pagename = u"Class_UAP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UAP - Unambiguous Alternating Polynomial-Time =
+
+== Comments ==
 
 Same as AP, except we are promised that each existential quantifier has at most one 'yes' path, and each universal quantifier has at most one 'no' path.
 
@@ -11688,7 +14674,10 @@ Defined in [NR98], where it was also shown that, even though AP = PSPACE, it is 
 
 [CGR+04] have also shown that UAP^UAP^ = UAP, and that UAP contains Graph Isomorphism problem.
 
-[CGR+04] have also shown that UAP^UAP^ = UAP, and that UAP contains the Graph Isomorphism problem.'''
+[CGR+04] have also shown that UAP^UAP^ = UAP, and that UAP contains the Graph Isomorphism problem.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11705,9 +14694,13 @@ if p:
 pagename = u"Class_UCC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UCC - Unique Connected Component =
+
+== Comments ==
 
 The class of problems reducible in L to the problem of whether an undirected graph has a unique connected component.
 
@@ -11715,7 +14708,10 @@ See [AG00] for more information.
 
 Contained in SL.
 
-See also coUCC.'''
+See also coUCC.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11732,13 +14728,20 @@ if p:
 pagename = u"Class_UCFL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UCFL - Unambiguous CFL =
 
+== Comments ==
+
 The class of context-free languages which can be represented by grammars where each word in the language has exactly one leftmost derivation.
 
-Strictly contains Deterministic CFL.  Strictly contained in CFL.'''
+Strictly contains Deterministic CFL.  Strictly contained in CFL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11755,11 +14758,18 @@ if p:
 pagename = u"Class_UE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UE - Unambiguous Exponential-Time With Linear Exponent =
 
-Has the same relation to E as UP does to P.'''
+== Comments ==
+
+Has the same relation to E as UP does to P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11776,13 +14786,20 @@ if p:
 pagename = u"Class_UL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UL - Unambiguous L =
 
+== Comments ==
+
 Has the same relation to L as UP does to P.
 
-If UL = NL, then FNL is contained in #L [AJ93].'''
+If UL = NL, then FNL is contained in #L [AJ93].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11799,15 +14816,22 @@ if p:
 pagename = u"Class_UL/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UL/poly - Nonuniform UL =
+
+== Comments ==
 
 Has the same relation to UL as P/poly does to P.
 
 Equals NL/poly [RA00]. (A corollary is that UL/poly is closed under complement).
 
-Note that in UL/poly, the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [RA00] show that they both equal NL/poly.'''
+Note that in UL/poly, the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [RA00] show that they both equal NL/poly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11824,9 +14848,13 @@ if p:
 pagename = u"Class_UP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UP - Unambiguous Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -11843,7 +14871,10 @@ NP is contained in RP^PromiseUP^ [VV86].  On the other hand, [BBF98] give an ora
 
 UP is not known or believed to contain complete problems.  [Sip82], [HH86] give oracles relative to which UP has no complete problems.
 
-NP is contained in RP^Promise-UP^ [VV86].  On the other hand, [BBF98] give an oracle relative to which P = UP but still P does not equal NP.'''
+NP is contained in RP^Promise-UP^ [VV86].  On the other hand, [BBF98] give an oracle relative to which P = UP but still P does not equal NP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11860,14 +14891,21 @@ if p:
 pagename = u"Class_UPPcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = UPP^cc^ - Unrestricted Communication Analogue of PP =
+
+== Comments ==
 
 Defined by [BFS86], UPP^cc^ is one of two communication complexity analogues of PP.
 UPP^cc^ is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
 
-See also: PP^cc^.'''
+See also: PP^cc^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11884,9 +14922,13 @@ if p:
 pagename = u"Class_US"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = US - Unique Polynomial-Time =
+
+== Comments ==
 
 The all-American counting class.
 
@@ -11896,7 +14938,10 @@ In contrast to UP, a machine can legally have more than one accepting path - tha
 
 Defined in [BG82].
 
-Contains coNP.'''
+Contains coNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11913,9 +14958,13 @@ if p:
 pagename = u"Class_VCk"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = VC,,k,, - Verification Class With A Circuit of Depth K =
+
+== Comments ==
 
 For k = 0, VC,,0,, is the class of compressible languages.
  For k = 1, VC,,1,, is the class of languages that have local verification: they can be verified by testing only a small part of the instance. (Small means polynomial in the witness length and the log of the instance length.)
@@ -11923,7 +14972,10 @@ For k = 0, VC,,0,, is the class of compressible languages.
 
 VC,,0,, ⊆ VC,,OR,, ⊆ VC,,1,, ⊆ VC,,2,, ⊆ VC,,3,, ...
 
-Introduced in [HN06]; see there for formal definitions.'''
+Introduced in [HN06]; see there for formal definitions.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11940,15 +14992,22 @@ if p:
 pagename = u"Class_VCor"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = VC,,or,, - Verification Class With OR =
+
+== Comments ==
 
 The class of languages that have verification presentable as the OR of m instances of SAT, each of size n. (m is the witness length of an instance and n is the instance length.)
 
 Introduced in [HN06].
 
-See also VC,,k,,.'''
+See also VC,,k,,.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11965,15 +15024,22 @@ if p:
 pagename = u"Class_VNCk"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = VNC,,k,, - Valiant NC Over Field k =
+
+== Comments ==
 
 Has the same relation to VP,,k,, as NC does to P.
 
 More formally, the class of VP,,k,, problems computable by a straight-line program of depth polylogarithmic in n.
 
-Surprisingly, VNC,,k,, = VP,,k,, for any k [VSB+83].'''
+Surprisingly, VNC,,k,, = VP,,k,, for any k [VSB+83].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -11990,9 +15056,13 @@ if p:
 pagename = u"Class_VNPk"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = VNP,,k,, - Valiant NP Over Field k =
+
+== Comments ==
 
 A superclass of VP,,k,, in Valiant's algebraic complexity theory, but not quite the analogue of NP.
 
@@ -12011,7 +15081,10 @@ A central conjecture is that for all k, VP,,k,, is not equal to VNP,,k,,.  Bür
 If k is finite, NC^2^/poly = P/poly = NP/poly = PH/poly.
 If k has characteristic 0, then assuming the Generalized Riemann Hypothesis (GRH), NC^3^/poly = P/poly = NP/poly = PH/poly, and #P/poly = FP/poly.
 
-In both cases, PH collapses to Σ,,2,,P.'''
+In both cases, PH collapses to Σ,,2,,P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12028,15 +15101,22 @@ if p:
 pagename = u"Class_VPL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = VPL - Visibly pushdown languages =
+
+== Comments ==
 
 The class of problems that can be decided by a visibly pushdown automaton. In a visibly pushdown automaton, all push and pop transitions have to be triggered by special alphabet symbols, and thus are visible in the input word. Nondeterminism does not add to the expressive power of this automaton model, and the complexity class is closed under all Boolean operations.
 
 Originated in [AM04]. See also [AM09].
 
-Properly contains REG. Properly contained in DCFL.'''
+Properly contains REG. Properly contained in DCFL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12053,9 +15133,13 @@ if p:
 pagename = u"Class_VPk"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = VP,,k,, - Valiant P Over Field k =
+
+== Comments ==
 
 The class of efficiently-solvable problems in Valiant's algebraic complexity theory.
 
@@ -12065,7 +15149,10 @@ Originated in [Val79b]; see [Bur00] for more information.
 
 Contained in VNP,,k,, and VQP,,k,,, and contains VNC,,k,,.
 
-More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X^1^,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  VP,,k,, is the class of problems whose complexity is polynomial in n.  (Hence, VP,,k,, is a nonuniform class, in contrast to P,,C,, and P,,R,,.)'''
+More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X^1^,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  VP,,k,, is the class of problems whose complexity is polynomial in n.  (Hence, VP,,k,, is a nonuniform class, in contrast to P,,C,, and P,,R,,.)
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12082,15 +15169,22 @@ if p:
 pagename = u"Class_VQPk"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = VQP,,k,, - Valiant QP Over Field k =
+
+== Comments ==
 
 Has the same relation to VP,,k,, as QP does to P.
 
 Originated in [Val79b].
 
-The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under a type of reduction called qp-projections (see [Bur00] for example).  It is an open problem whether the determinant is VP,,k,,-complete.'''
+The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under a type of reduction called qp-projections (see [Bur00] for example).  It is an open problem whether the determinant is VP,,k,,-complete.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12107,13 +15201,20 @@ if p:
 pagename = u"Class_W*[t]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = W^*^[t] - W[t] With Parameter-Dependent Depth =
 
+== Comments ==
+
 Same as W[t], except that now the circuit depth can depend on the parameter k rather than being constant.  (The number of unbounded-fanin gates along any path to the root is still at most t.)
 
-W^*^[1] = W[1] [DFT96], and W^*^[2] = W[2] [DF97], but the problem is open for larger t.'''
+W^*^[1] = W[1] [DFT96], and W^*^[2] = W[2] [DF97], but the problem is open for larger t.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12130,16 +15231,23 @@ if p:
 pagename = u"Class_WAPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = WAPP - Weak Almost-Wide PP =
+
+== Comments ==
 
 The class of decision problems for which there exists a #P function f, a polynomial p, and an ε > 0, such that for all inputs x,
 
 If the answer is "yes" then 2^p(|x|)^ ≥ f(x) > (1+ε) 2^p(|x|)-1^.
 If the answer is "no" then 0 ≤ f(x) < (1-ε) 2^p(|x|)-1^.
 
-Defined in [BGM02], where it is also shown that WAPP is contained in AWPP and SBP.'''
+Defined in [BGM02], where it is also shown that WAPP is contained in AWPP and SBP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12156,9 +15264,13 @@ if p:
 pagename = u"Class_WHILE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = WHILE - While programs and some restrictions =
+
+== Comments ==
 
 While is a theorical programing language defined in [jon98],  is a way to define syntacticaly P and a syntactic resctriction of WHILE is exactly L. The important point is that those two languages are powerful enough to simulate all of P (and L) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !
 
@@ -12178,7 +15290,10 @@ We can then define WHILE^/cons-rec^ which is WHILE without "cons" primitive and 
 
 We can then also define WHILE^rec/cons^ which is WHILE without "cons" primitive but with procedure calls, and hence recursion. It is equivalent to P. 
 The trick to do a computation of a WHILE^rec/cons^ in P is to memoize the couple (global variables, input) when a procedure is called and the value of the globals variable when the procedure end, since we don't have cons, only a polynomial number of call will really be executed and we can detect loop.
-Simulating P in WHILE^rec/cons^ is quite more subtle, P TM are equivalent to some counter machine wich can easily be simulated by WHILE programs with cons, and then we can simulate the cons thanks to the call stack.'''
+Simulating P in WHILE^rec/cons^ is quite more subtle, P TM are equivalent to some counter machine wich can easily be simulated by WHILE programs with cons, and then we can simulate the cons thanks to the call stack.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12195,9 +15310,13 @@ if p:
 pagename = u"Class_WPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = WPP - Wide PP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -12208,7 +15327,10 @@ Defined in [FFK94].
 
 Contained in C,,=,,P ∩ coC,,=,,P, as well as AWPP.
 
-Contains SPP and LWPP.'''
+Contains SPP and LWPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12225,11 +15347,18 @@ if p:
 pagename = u"Class_W[*]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = W[*] - Union of W[t]'s =
 
-The union of W[t] over all t.'''
+== Comments ==
+
+The union of W[t] over all t.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12246,9 +15375,13 @@ if p:
 pagename = u"Class_W[1]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = W[1] - Weighted Analog of NP =
+
+== Comments ==
 
 The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following:
 
@@ -12262,7 +15395,10 @@ Defined in [DF99], where the following is also shown:
 
 If FPT = W[1] then NP is contained in DTIME(2^o(n)^).
 
-W[1] can be generalized to W[t].'''
+W[1] can be generalized to W[t].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12279,9 +15415,13 @@ if p:
 pagename = u"Class_W[P]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = W[P] - Weighted Circuit Satisfiability =
+
+== Comments ==
 
 The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
 
@@ -12291,7 +15431,10 @@ See W[1] for the definition of fixed-parameter reducibility.
 
 Defined in [DF99].
 
-Contains W[SAT].'''
+Contains W[SAT].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12308,9 +15451,13 @@ if p:
 pagename = u"Class_W[SAT]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = W[SAT] - Weighted Satisfiability =
+
+== Comments ==
 
 The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
 
@@ -12320,7 +15467,10 @@ See W[1] for the definition of fixed-parameter reducibility.
 
 Defined in [DF99].
 
-Contains W[t] for every t, and is contained in W[P].'''
+Contains W[t] for every t, and is contained in W[P].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12337,9 +15487,13 @@ if p:
 pagename = u"Class_W[t]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = W[t] - Nondeterministic Fixed-Parameter Hierarchy =
+
+== Comments ==
 
 A generalization of W[1].
 
@@ -12351,7 +15505,10 @@ See W[1] for the definition of fixed-parameter reducibility.
 
 Defined in [DF99].
 
-Contained in W[SAT] and in W^*^[t].'''
+Contained in W[SAT] and in W^*^[t].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12368,9 +15525,13 @@ if p:
 pagename = u"Class_XOR-MIP*[2,1]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = XOR-MIP*[2,1] - MIP*[2,1] With 1-Bit Proofs =
+
+== Comments ==
 
 Same as MIP*[2,1], but with the further restriction that both provers send only a single bit to the verifier, and the verifier's output is a function of the exclusive-OR of those bits.  There should exist 0<a<b<1 such that if the answer is "yes", then for some responses of the provers the verifier accepts with probability at least b, while if the answer is "no", then for all responses of the provers the verifier accepts with probability at most a.
 
@@ -12378,7 +15539,10 @@ Defined by [CHT+04], whose motivation was a connection to the Bell and CHSH ineq
 
 XOR-MIP*[2,1] is contained in NEXP [CHT+04].
 
-XOR-MIP*[2,1] is contained in QIP[2] [Weh06]'''
+XOR-MIP*[2,1] is contained in QIP[2] [Weh06]
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12395,9 +15559,13 @@ if p:
 pagename = u"Class_XP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = XP - Fixed-Parameter Tractable for Each Parameter =
+
+== Comments ==
 
 The class of decision problems of the form (x,k) (k a parameter) that are solvable in time O(|x|^f(k)^) for some function f.  The algorithm used may depend on k.
 
@@ -12405,7 +15573,10 @@ Defined in [DF99].
 
 Contains XP,,uniform,,.
 
-Strictly contains FPT (by diagonalization).'''
+Strictly contains FPT (by diagonalization).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12422,13 +15593,20 @@ if p:
 pagename = u"Class_XPuniform"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = XP,,uniform,, - Uniform XP =
 
+== Comments ==
+
 Same as XP except that the algorithm used must be the same for each k (though it can take k as input).
 
-Defined in [DF99].'''
+Defined in [DF99].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12445,11 +15623,18 @@ if p:
 pagename = u"Class_YACC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = YACC - Yet Another Complexity Class =
 
-A term of derision, used against a complexity class.'''
+== Comments ==
+
+A term of derision, used against a complexity class.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12466,9 +15651,13 @@ if p:
 pagename = u"Class_YP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = YP - Your Polynomial-Time or Yaroslav-Percival =
+
+== Comments ==
 
 The class of decision problems for which there exists a polynomial-time machine M such that:
 
@@ -12481,7 +15670,10 @@ Contains ZPP by the same argument that places BPP in P/poly.
 
 Also contains P with TALLY ∩ NP ∩ coNP oracle.
 
-Is contained in NP ∩ coNP and YPP.'''
+Is contained in NP ∩ coNP and YPP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12498,9 +15690,13 @@ if p:
 pagename = u"Class_YPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = YPP - Yaroslav BPP =
+
+== Comments ==
 
 The probabilistic analogue of YP; it is to YP what MA is to NP.  Formally, the class of decision problems for which there exists a syntactic BPP machine M such that:
 
@@ -12509,7 +15705,10 @@ For all inputs x and advice strings a, the probability that M(x,a) outputs the i
 
 To amplify a YPP machine, one can run it multiple times, then accept if a majority of runs accept, reject if a majority reject, and otherwise output "I don't know."
 
-Contains BPP and YP, and is contained in MA and P/poly.'''
+Contains BPP and YP, and is contained in MA and P/poly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12526,13 +15725,20 @@ if p:
 pagename = u"Class_YQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = YQP - Yaroslav BQP =
 
+== Comments ==
+
 Is to YPP as BQP is to BPP, and QMA is to MA.  The machine is now a quantum computer and the advice is a quantum state |ψ_n>.
 
-Contains BQP and YPP, and is contained in QMA and BQP/qpoly.'''
+Contains BQP and YPP, and is contained in QMA and BQP/qpoly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12549,9 +15755,13 @@ if p:
 pagename = u"Class_ZBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ZBQP - Strict Quantum ZPP =
+
+== Comments ==
 
 Defined as RBQP ∩ coRBQP.  Equivalently, the class of problems in NP ∩ coNP such that both positive and negative witnesses are in FBQP.
 
@@ -12559,7 +15769,10 @@ For example, the language of square-free numbers is in ZBQP, because factoring i
 
 Unlike EQP or ZQP, ZBQP would generalize ZPP in practice if quantum computers existed, in the sense that it provides proven answers.
 
-Contains ZPP and is contained in RBQP and ZQP.  Also, ZBQP^ZBQP^ = ZBQP.  Defined here to clarify EQP and ZQP.'''
+Contains ZPP and is contained in RBQP and ZQP.  Also, ZBQP^ZBQP^ = ZBQP.  Defined here to clarify EQP and ZQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12576,13 +15789,20 @@ if p:
 pagename = u"Class_ZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ZK - Zero-Knowledge (see CZK) =
 
+== Comments ==
+
 Often used as a shorthand for (computational zero-knowledge) CZK, but may also be used as a general paradigm encomposing various classes ranging from perfect and statistical zero-knowledge (SZK) to computational ones (CZK), and also various forms of non-interactive zero-knowledge proof systems.
 
-Zero-knowledge proofs were introduced in [GMR89], and further studied in [GMW91], which demonstrated the wide applicability of the concept.'''
+Zero-knowledge proofs were introduced in [GMR89], and further studied in [GMW91], which demonstrated the wide applicability of the concept.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12599,13 +15819,20 @@ if p:
 pagename = u"Class_ZPE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ZPE - Zero-Error Probabilistic E =
 
+== Comments ==
+
 Same as ZPP, but with 2^O(n)^-time instead of polynomial-time.
 
-ZPE = EE if and only if ZPP = EXP [IKW01].'''
+ZPE = EE if and only if ZPP = EXP [IKW01].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12622,9 +15849,13 @@ if p:
 pagename = u"Class_ZPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ZPP - Zero-Error Probabilistic Polynomial-Time =
+
+== Comments ==
 
 Defined as RP ∩ coRP.
 
@@ -12642,7 +15873,10 @@ The class of problems solvable by randomized algorithms that always return the c
 
 Defined in [Gil77].
 
-There exists an oracle relative to which ZPP = EXP [Hel84].'''
+There exists an oracle relative to which ZPP = EXP [Hel84].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12659,13 +15893,20 @@ if p:
 pagename = u"Class_ZPTIME(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ZPTIME(f(n)) - Zero-Error Probabilistic f(n)-Time =
 
+== Comments ==
+
 Same as ZPP, but with O(f(n))-time instead of polynomial-time.
 
-For any constructible superpolynomial f, ZPTIME(f(n)) with NP oracle is not contained in P/poly [KW98].'''
+For any constructible superpolynomial f, ZPTIME(f(n)) with NP oracle is not contained in P/poly [KW98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12682,15 +15923,22 @@ if p:
 pagename = u"Class_ZQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ZQP - Zero-Error Extension Of EQP =
+
+== Comments ==
 
 The class of questions that can be answered by a QTM that answers yes, no, or "maybe".  If the correct answer is yes, then P[no] = 0, and vice-versa; and the probability of maybe is at most 1/2.  Since some of the probabilities have to vanish, ZQP has the same technical caveats as EQP.
 
 Defined independently in [BW03] and in [Nis02].
 
-Contains EQP and ZBQP and is contained in BQP.  Equals RQP ∩ coRQP.  There is an oracle such that ZQP^ZQP^ is larger than ZQP [BW03]; c.f. with ZBQP.'''
+Contains EQP and ZBQP and is contained in BQP.  Equals RQP ∩ coRQP.  There is an oracle such that ZQP^ZQP^ is larger than ZQP [BW03]; c.f. with ZBQP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12707,9 +15955,16 @@ if p:
 pagename = u"Class_coAM"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coAM - Complement of AM =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -12728,11 +15983,18 @@ if p:
 pagename = u"Class_coC=P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coC,,=,,P - Complement of C=P =
 
-Equals NQP [FGH+98].'''
+== Comments ==
+
+Equals NQP [FGH+98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12749,9 +16011,16 @@ if p:
 pagename = u"Class_coMA"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coMA - Complement of MA =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -12770,9 +16039,16 @@ if p:
 pagename = u"Class_coModkP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coMod,,k,,P - Complement of ModkP =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -12791,9 +16067,16 @@ if p:
 pagename = u"Class_coNE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coNE - Complement of NE =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -12812,13 +16095,20 @@ if p:
 pagename = u"Class_coNEXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coNEXP - Complement of NEXP =
 
+== Comments ==
+
 Contained in NEXP/poly (folklore result reported in [Fortnow's weblog]).
 
-Contained in NEXP/poly (folklore result reported in [weblog]).'''
+Contained in NEXP/poly (folklore result reported in [weblog]).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12835,11 +16125,18 @@ if p:
 pagename = u"Class_coNL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coNL - Complement of NL =
 
-Equals NL [Imm88] [Sze87].'''
+== Comments ==
+
+Equals NL [Imm88] [Sze87].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12856,9 +16153,13 @@ if p:
 pagename = u"Class_coNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coNP - Complement of NP =
+
+== Comments ==
 
 If NP = coNP, then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.
 
@@ -12870,7 +16171,10 @@ Every problem in coNP has an IP (interactive proof) system, where moreover the p
 
 Co-NP is equal to SO-A, the second-order queries where the second-order quantifiers are only universals.
 
-Every problem in coNP has an IP (interactive proof) system, where moreover the prover can be restricted to BPP^#P^.'''
+Every problem in coNP has an IP (interactive proof) system, where moreover the prover can be restricted to BPP^#P^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12887,15 +16191,22 @@ if p:
 pagename = u"Class_coNP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coNP/poly - Complement of NP/poly =
+
+== Comments ==
 
 If NP is contained in coNP/poly then PH collapses to S,,2,,P^NP^ [CCH+01].
 
 NP^NP^NP^(coNP/poly ∩ NP)^ = NP^NP^NP^ [HNO+96]
 
-Note: At the suggestion of Luis Antuñes, the above specimen of the Complexity Zoo has been locked in a cage.'''
+Note: At the suggestion of Luis Antuñes, the above specimen of the Complexity Zoo has been locked in a cage.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12912,9 +16223,16 @@ if p:
 pagename = u"Class_coNPcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coNP^cc^ - Complement of NPcc =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -12933,11 +16251,18 @@ if p:
 pagename = u"Class_coNQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coNQP - Complement of NQP =
 
-Equals C,,=,,P [FGH+98].'''
+== Comments ==
+
+Equals C,,=,,P [FGH+98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12954,13 +16279,20 @@ if p:
 pagename = u"Class_coRE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coRE - Complement of RE =
 
+== Comments ==
+
 Does not equal RE.
 
-The problem "given a computable predicate P, is P true of all positive integers?" is coRE-complete.'''
+The problem "given a computable predicate P, is P true of all positive integers?" is coRE-complete.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12977,11 +16309,18 @@ if p:
 pagename = u"Class_coRNC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coRNC - Complement of RNC =
 
-Contains the problem of whether a bipartite graph has a perfect matching [Kar86].'''
+== Comments ==
+
+Contains the problem of whether a bipartite graph has a perfect matching [Kar86].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -12998,15 +16337,22 @@ if p:
 pagename = u"Class_coRP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coRP - Complement of RP =
+
+== Comments ==
 
 Defined in [Gil77].  (This paper does not actually discuss coRP, other than implicitly mentioning that ZPP = RP ∩ co-RP.  Is there a better reference?)
 
 Contains the problem of testing whether an integer is prime [SS77].
 
-Defined in [Gil77].'''
+Defined in [Gil77].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13023,9 +16369,16 @@ if p:
 pagename = u"Class_coSL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coSL - Complement of SL =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -13044,9 +16397,16 @@ if p:
 pagename = u"Class_coSPARSE"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coSPARSE - Complement of SPARSE =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -13065,13 +16425,20 @@ if p:
 pagename = u"Class_coUCC"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coUCC - Complement of UCC =
 
+== Comments ==
+
 [Tor00] showed the following problem complete for coUCC under L reductions:
 
-Given a colored graph G with at most two vertices having any given color, does G have any nontrivial automorphisms?'''
+Given a colored graph G with at most two vertices having any given color, does G have any nontrivial automorphisms?
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13088,9 +16455,16 @@ if p:
 pagename = u"Class_coUP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = coUP - Complement of UP =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -13109,9 +16483,16 @@ if p:
 pagename = u"Class_cofrIP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = cofrIP - Complement of frIP =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -13130,15 +16511,22 @@ if p:
 pagename = u"Class_compIP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = compIP - Competitive IP Proof System =
+
+== Comments ==
 
 Same as compNP but for interactive (IP) proofs instead of NP proofs.
 
 More formally, compIP is the class of decision problems L in IP = PSPACE such that, if the answer is "yes," then that can be proven by an interactive protocol between a BPP verifier and a prover, a BPP machine with access only to an oracle for L.
 
-Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in compIP [BG94].'''
+Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in compIP [BG94].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13155,15 +16543,22 @@ if p:
 pagename = u"Class_compNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = compNP - Competitive NP Proof System =
+
+== Comments ==
 
 The class of decision problems L in NP such that, if the answer is "yes," then a proof can be constructed in polynomial time given access only to an oracle for L.
 
 Contains NPC.
 
-[BG94] show that compNP is contained in frIP, and that assuming NEE is not contained in BPEE, compNP does not equal NP.'''
+[BG94] show that compNP is contained in frIP, and that assuming NEE is not contained in BPEE, compNP does not equal NP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13180,9 +16575,13 @@ if p:
 pagename = u"Class_frIP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = frIP - Function-Restricted IP Proof Systems =
+
+== Comments ==
 
 The class of problems L that have a decider in the following sense.  There exists a BPP machine D such that for all inputs x,
 
@@ -13193,7 +16592,10 @@ Contains compIP [BG94] and Check [BK89].
 
 Contained in MIP = NEXP [FRS88].
 
-Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in frIP [BG94].'''
+Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in frIP [BG94].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13210,11 +16612,18 @@ if p:
 pagename = u"Class_k-BWBP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = k-BWBP - Bounded-Width Branching Program =
 
-Alternate name for k-PBP.'''
+== Comments ==
+
+Alternate name for k-PBP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13231,9 +16640,13 @@ if p:
 pagename = u"Class_k-EQBP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = k-EQBP - Width-k Polynomial-Time Exact Quantum Branching Programs =
+
+== Comments ==
 
 See k-PBP for the definition of a classical branching program.
 
@@ -13241,7 +16654,10 @@ A quantum branching program is the natural quantum generalization: we have a qua
 
 Defined in [AMP02], where it was also shown that NC^1^ is contained in 2-EQBP.
 
-k-BQBP can be defined similarly.'''
+k-BQBP can be defined similarly.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13258,9 +16674,13 @@ if p:
 pagename = u"Class_k-PBP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = k-PBP - Polynomial-Size Width-k Branching Program =
+
+== Comments ==
 
 A branching program is a directed acyclic graph with a designated start vertex.  Each (non-sink) vertex is labeled by the name of an input bit, and has two outgoing edges, one of which is followed if that input bit is 0, the other if the bit is 1.  A sink vertex can be either an 'accept' or a 'reject' vertex.
 
@@ -13272,7 +16692,10 @@ k-PBP equals (nonuniform) NC^1^ for constant k at least 5 [Bar89].  On the other
 
 Contained in k-EQBP, as well as PBP.
 
-See also BP,,d,,(P).'''
+See also BP,,d,,(P).
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13289,11 +16712,18 @@ if p:
 pagename = u"Class_mAL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mAL - Monotone AL =
 
-Defined in [GS90].  Equals mP by definition.'''
+== Comments ==
+
+Defined in [GS90].  Equals mP by definition.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13310,9 +16740,13 @@ if p:
 pagename = u"Class_mL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mL - Monotone L =
+
+== Comments ==
 
 The class of decision problems solvable by a family of monotone log-width polynomial-size leveled circuits.  (A leveled circuit is one where gates on each level can depend only on the level immediately below it.)
 
@@ -13320,7 +16754,10 @@ Defined in [GS90], who raise as an open problem to define a uniform version of m
 
 Strictly contains mNC^1^ [GS91].
 
-Contained in (nonuniform versions of) mNL and mcoNL.'''
+Contained in (nonuniform versions of) mNL and mcoNL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13337,9 +16774,13 @@ if p:
 pagename = u"Class_mNC1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mNC^1^ - Monotone NC1 =
+
+== Comments ==
 
 The class of decision problems solvable by a family of monotone NC^1^ circuits (i.e. AND and OR gates only).
 
@@ -13349,7 +16790,10 @@ Defined in [GS90].
 
 Strictly contained in mNL [KW88], and indeed in mL [GS91].
 
-Strictly contains mTC^0^ [Yao89].'''
+Strictly contains mTC^0^ [Yao89].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13366,9 +16810,13 @@ if p:
 pagename = u"Class_mNL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mNL - Monotone NL =
+
+== Comments ==
 
 See mP for the definition of a monotone nondeterministic Turing machine, due to [GS90].
 
@@ -13378,7 +16826,10 @@ mNL does not equal mcoNL [GS90], in contrast to the case for NL and coNL.
 
 Also, mNL strictly contains mNC^1^ [KW88].
 
-See also: mL.'''
+See also: mL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13395,15 +16846,22 @@ if p:
 pagename = u"Class_mNP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mNP - Monotone NP =
+
+== Comments ==
 
 The class of decision problems for which a 'yes' answer can be verified in mP (that is, monotone polynomial-time).  The monotonicity requirement applies only to the input bits, not to the bits that are guessed nondeterministically. So, in the corresponding circuit, one can have NOT gates so long as they depend only on the nondeterministic guess bits.
 
 Defined in [GS90], where it was also shown that mNP is 'trivial': that is, it contains exactly the monotone problems in NP.
 
-Strictly contains mP [Raz85].'''
+Strictly contains mP [Raz85].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13420,9 +16878,13 @@ if p:
 pagename = u"Class_mP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mP - Monotone P =
+
+== Comments ==
 
 The definition of this class, due to [GS90], is not obvious.  First, a monotone nondeterministic Turing machine is one such that, whenever it can make a transition with a 0 on its input tape, it can also make that same transition with a 1 on its input tape. (This restriction does not apply to the work tape.)  A monotone alternating Turing machine is subject to the restriction that it can only reference an input bit x by, "there exists a z at most x," or "for all z at least x."
 
@@ -13434,7 +16896,10 @@ Strictly contained in mNP [Raz85].
 
 Deciding whether a bipartite graph has a perfect matching, despite being both a monotone problem and in P, requires monotone circuits of superpolynomial size [Raz85b].  Letting MONO be the class of monotone problems, it follows that mP is strictly contained in MONO ∩ P.
 
-See also: mNC^1^, mL, mNL, mcoNL.'''
+See also: mNC^1^, mL, mNL, mcoNL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13451,13 +16916,20 @@ if p:
 pagename = u"Class_mP/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mP/poly - Monotone P/poly =
 
+== Comments ==
+
 The class of decision problems solvable by a nonuniform family of polynomial-size Boolean circuits with only AND and OR gates, no NOT gates.  (Or rather, following the definitions of [GS90], the entire input can be negated as long as there are no other negations.)
 
-More straightforward to define than mP.'''
+More straightforward to define than mP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13474,9 +16946,13 @@ if p:
 pagename = u"Class_mTC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mTC^0^ - Monotone TC0 =
+
+== Comments ==
 
 The class of decision problems solvable by a family of monotone TC^0^ circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).
 
@@ -13484,7 +16960,10 @@ A uniformity condition could also be imposed.
 
 Defined in [GS90].
 
-Strictly contained in mNC^1^ [Yao89].'''
+Strictly contained in mNC^1^ [Yao89].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13501,13 +16980,20 @@ if p:
 pagename = u"Class_mcoNL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = mcoNL - Complement of mNL =
 
+== Comments ==
+
 Defined in [GS90], where it was also shown that mcoNL does not equal mNL.
 
-See also: mL.'''
+See also: mL.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13524,13 +17010,20 @@ if p:
 pagename = u"Class_polyL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = polyL - Polylogarithmic Space =
 
+== Comments ==
+
 Equals DSPACE((log n)^c^).
 
-In contrast to L, which is contained in P, it is not known if polyL is contained in P or vice versa.  On the other hand, we do know that polyL does not equal P, since (for example) polyL does not have complete problems under many-to-one logspace reductions.'''
+In contrast to L, which is contained in P, it is not known if polyL is contained in P or vice versa.  On the other hand, we do know that polyL does not equal P, since (for example) polyL does not have complete problems under many-to-one logspace reductions.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13547,13 +17040,20 @@ if p:
 pagename = u"Class_span-P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = span-P - Span Polynomial-Time =
 
+== Comments ==
+
 The class of functions computable as |S|, where S is the set of output values returned by the accepting paths of an NP machine.
 
-Defined in [KST+89], where it is also shown that span-P contains #P and OptP; and that span-P = #P if and only if UP = NP.'''
+Defined in [KST+89], where it is also shown that span-P contains #P and OptP; and that span-P = #P if and only if UP = NP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13570,9 +17070,16 @@ if p:
 pagename = u"Class_symP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = symP - Alternate Name for S2P =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -13591,9 +17098,13 @@ if p:
 pagename = u"Class_Δ2P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Δ,,2,,P - P With NP Oracle =
+
+== Comments ==
 
 A level of PH, the polynomial hierarchy.
 
@@ -13605,7 +17116,10 @@ There exists another oracle relative to which Δ,,2,,P is contained in P/poly [B
 
 There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ,,2,,P^B^ [KV96].
 
-If P = NP, then any polynomial-size circuit C can be learned in Δ,,2,,P with C oracle [Aar06].'''
+If P = NP, then any polynomial-size circuit C can be learned in Δ,,2,,P with C oracle [Aar06].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13622,9 +17136,16 @@ if p:
 pagename = u"Class_Θ2P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Θ,,2,,P - Alternate name for PNP[log] =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -13643,13 +17164,20 @@ if p:
 pagename = u"Class_Π2P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Π,,2,,P - coNP With NP Oracle =
 
+== Comments ==
+
 Complement of Σ,,2,,P.
 
-Along with Σ,,2,,P, comprises the second level of PH, the polynomial hierarchy. For any fixed k, there is a problem in Π,,2,,P ∩ Σ,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].'''
+Along with Σ,,2,,P, comprises the second level of PH, the polynomial hierarchy. For any fixed k, there is a problem in Π,,2,,P ∩ Σ,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13666,9 +17194,13 @@ if p:
 pagename = u"Class_Σ2P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Σ,,2,,P - NP With NP Oracle =
+
+== Comments ==
 
 Complement of Π,,2,,P.
 
@@ -13679,7 +17211,10 @@ Along with Π,,2,,P, comprises the second level of PH, the polynomial hierarchy.
 Minimum equivalent DNF.  Given a DNF formula F and integer k, is there a DNF formula equivalent to F with k or fewer occurences of literals?
 Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless Σ,,2,,P equals βP^NP^.)
 
-For any fixed k, there is a problem in Σ,,2,,P ∩ Π,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].'''
+For any fixed k, there is a problem in Σ,,2,,P ∩ Π,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13696,9 +17231,13 @@ if p:
 pagename = u"Class_Φ2P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = Φ,,2,,P - Second Level of the Symmetric Hierarchy, Alternative Definition =
+
+== Comments ==
 
 The class of problems for which there exists a polynomial-time predicate P(x,y,z) such that for all x, if the answer on input x is "yes," then
 
@@ -13707,7 +17246,10 @@ For all z, there exists a y for which P(x,y,z).
 
 Contained in Σ,,2,,P and Π,,2,,P.
 
-Defined in [Can96], where it was also observed that Φ,,2,,P = S,,2,,P.'''
+Defined in [Can96], where it was also observed that Φ,,2,,P = S,,2,,P.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13724,9 +17266,13 @@ if p:
 pagename = u"Class_βP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = βP - Limited-Nondeterminism NP =
+
+== Comments ==
 
 β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as NP.  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'
 
@@ -13736,7 +17282,10 @@ Defined in [KF84].  See also the survey [GLM96].
 
 There exist oracles relative to which basically any consistent inclusion structure among the β,,k,,P's can be realized [BG98].
 
-β,,2,,P contains LOGNP and LOGSNP.'''
+β,,2,,P contains LOGNP and LOGSNP.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13753,15 +17302,22 @@ if p:
 pagename = u"Class_δ-BPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = δ-BPP - δ-Semi-Random BPP =
+
+== Comments ==
 
 Same as BPP, except that the random bit source is biased as follows.  Each bit could depend on all the previous bits in arbitrarily complicated ways; the only promise is that the bit is 1 with probability in the range [δ,1-δ], conditioned on all previous bits.
 
 So clearly 0-BPP = P and 1/2-BPP = BPP.
 
-It turns out that, for any δ>0, δ-BPP = BPP [VV85], [Zuc91].'''
+It turns out that, for any δ>0, δ-BPP = BPP [VV85], [Zuc91].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13778,13 +17334,20 @@ if p:
 pagename = u"Class_δ-RP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = δ-RP - δ-Semi-Random RP =
 
+== Comments ==
+
 Same as δ-BPP, but for RP instead of BPP.
 
-For any δ>0, δ-RP = RP [VV85].'''
+For any δ>0, δ-RP = RP [VV85].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13801,9 +17364,13 @@ if p:
 pagename = u"Class_∃BPP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ∃BPP - BPP With Existential Operator =
+
+== Comments ==
 
 The class of problems for which there exists a BPP machine M such that, for all inputs x,
 
@@ -13814,7 +17381,10 @@ Alternatively defined as NP^BPP^.
 
 Contains NP and BPP, and is contained in MA and SBP.
 
-∃BPP seems obviously equal to MA, yet [FFK+93] constructed an oracle relative to which they're unequal!  Here is the difference: if the answer is "yes," MA requires only that there exist a y such that for at least 2/3 of random strings r, M(x,y,r) accepts (where M is a P predicate).  For all other y's, the proportion of r's such that M(x,y,r) accepts can be arbitrary (say, 1/2).  For ∃BPP, by contrast, the probability that M(x,y) accepts must always be either at most 1/3 or at least 2/3, for all y's.'''
+∃BPP seems obviously equal to MA, yet [FFK+93] constructed an oracle relative to which they're unequal!  Here is the difference: if the answer is "yes," MA requires only that there exist a y such that for at least 2/3 of random strings r, M(x,y,r) accepts (where M is a P predicate).  For all other y's, the proportion of r's such that M(x,y,r) accepts can be arbitrary (say, 1/2).  For ∃BPP, by contrast, the probability that M(x,y) accepts must always be either at most 1/3 or at least 2/3, for all y's.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13831,11 +17401,18 @@ if p:
 pagename = u"Class_∃NISZK"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ∃NISZK - NISZK With Existential Operator =
 
-Contains NP and NISZK, and is contained in the third level of PH.'''
+== Comments ==
+
+Contains NP and NISZK, and is contained in the third level of PH.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13852,13 +17429,20 @@ if p:
 pagename = u"Class_⊕EXP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ⊕EXP - Parity EXP =
 
+== Comments ==
+
 The exponential-time analogue of ⊕P.
 
-There exists an oracle relative to which ⊕EXP = ZPP [BBF98].'''
+There exists an oracle relative to which ⊕EXP = ZPP [BBF98].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13875,9 +17459,13 @@ if p:
 pagename = u"Class_⊕L"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ⊕L - Parity L =
+
+== Comments ==
 
 Has the same relation to L as ⊕P does to P.
 
@@ -13885,7 +17473,10 @@ Contains SL [KW93].
 
 Solving a linear system over Z,,2,, is complete for ⊕L [Dam90].
 
-⊕L^⊕L^ = ⊕L [HRV00].'''
+⊕L^⊕L^ = ⊕L [HRV00].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13902,13 +17493,20 @@ if p:
 pagename = u"Class_⊕L/poly"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ⊕L/poly - Nonuniform ⊕L =
 
+== Comments ==
+
 Has the same relation to ⊕L as P/poly does to P.
 
-Contains NL/poly [GW96].'''
+Contains NL/poly [GW96].
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13925,9 +17523,13 @@ if p:
 pagename = u"Class_⊕P"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ⊕P - Parity P =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -13942,7 +17544,10 @@ Contains FewP [CH89].
 
 There exists an oracle relative to which P = ⊕P but P is not equal to NP (and indeed NP = EXP) [BBF98].
 
-Equals Mod,,2^m,,P for every positive integer m.'''
+Equals Mod,,2^m,,P for every positive integer m.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:
@@ -13959,9 +17564,16 @@ if p:
 pagename = u"Class_⊕SAC0"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ⊕SAC^0^ - AC0 With Unbounded Parity Gates =
+
+== Comments ==
+
+
+== Relations ==
 
 '''
 _, rev, _ = editor.get_rev()
@@ -13980,13 +17592,20 @@ if p:
 pagename = u"Class_⊕SAC1"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
-text = u'''
+text = u'''
+<<TableOfContents()>>
+
 
 = ⊕SAC^1^ - AC1 With Unbounded Parity Gates =
 
+== Comments ==
+
 The class of problems solvable by a nonuniform family of polynomial-size, polylog-depth circuits with unbounded-fanin XOR and bounded-fanin AND gates.
 
-Defined in [GW96], where it was also shown that ⊕SAC^1^ contains SAC^1^.'''
+Defined in [GW96], where it was also shown that ⊕SAC^1^ contains SAC^1^.
+== Relations ==
+
+'''
 _, rev, _ = editor.get_rev()
 p = None
 try:

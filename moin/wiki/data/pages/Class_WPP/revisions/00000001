@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = WPP - Wide PP =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -13,3 +17,4 @@ Defined in [FFK94].
 Contained in C,,=,,P ∩ coC,,=,,P, as well as AWPP.
 
 Contains SPP and LWPP.
+== Relations ==

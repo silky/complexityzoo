@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = ModP - ModkP With Arbitrary k =
 
+== Comments ==
+
 The class of decision problems solvable by a Mod,,k,,P machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
 
 Defined in [KT96], where it was also shown that ModP is contained in AmpMP.
+== Relations ==

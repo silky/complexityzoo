@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QMA - Quantum MA =
+
+== Comments ==
 
 The class of decision problems such that a "yes" answer can be verified by a 1-message quantum interactive proof.  That is, a BQP (i.e. quantum polynomial-time) verifier is given a quantum state (the "proof").  We require that
 
@@ -39,3 +43,4 @@ Kitaev and Watrous (unpublished) showed QMA is contained in PP.  Combining that 
 Subsequently Kempe and Regev [KR03] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [KKR04], has hit rock bottom (assuming P does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
 
 NQP
+== Relations ==

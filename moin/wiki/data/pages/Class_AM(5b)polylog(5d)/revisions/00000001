@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = AM[polylog] - AM With Polylog Rounds =
 
+== Comments ==
+
 Same as AM, except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.
 
 Not much is known about AM[polylog] -- for example, whether it sits in PH.  However, [SS04] show that if AM[polylog] contains coNP, then EH collapses to S,,2,,-EXP•P^NP^.  ([PV04] improved the collapse to AM,,EXP,,.)
+== Relations ==

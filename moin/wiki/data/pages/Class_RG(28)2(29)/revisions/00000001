@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = RG(2) - Two-turn (one-round) Refereed Games =
 
+== Comments ==
+
 Same as RG, except that now the verifier can exchange only two messages with each prover. Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  See also RG(k).
 
 RG(2) is contained in PSPACE, and they are equal, unrelativized [FK97b].
+== Relations ==

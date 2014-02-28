@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = (M,,k,,)P - Acceptance Mechanism by Monoid Mk =
+
+== Comments ==
 
 A monoid is a set with an associative operation and an identity element (so it's like a group, except that it need not have inverses).
 
@@ -12,3 +16,4 @@ Defined by Hertrampf [Her97], who also showed the following (in the special case
 If G is any nonsolvable group (for example S,,5,,, the symmetric group on 5 elements), then (G)P = PSPACE.
 (Z,,k,,)P = coMod,,k,,P, where Z,,k,, is the cyclic group on k elements.
 If |G|=k, then (G)P contains coMod,,k,,P.
+== Relations ==

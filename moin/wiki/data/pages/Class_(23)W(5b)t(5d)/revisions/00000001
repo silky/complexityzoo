@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = #W[t] - Sharp-W[t] =
+
+== Comments ==
 
 Roughly, the analogue of #P for parameterized complexity.  I.e. the class of parameterized counting problems that are fixed-parameter parsimonious reducible to the following problem:
 
 #WSAT: Given a Boolean formula, count the number of satisfying assignments of Hamming weight k (where k is the parameter).
 
 Defined in [FG02], which should be consulted for the full definition.  [FG02] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in FPT).
+== Relations ==

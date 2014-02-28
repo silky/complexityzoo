@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = RL - Randomized Logarithmic-Space =
+
+== Comments ==
 
 Has the same relation to L as RP does to P.  The randomized machine must halt with probability 1 on any input.  It must also run in polynomial time (since otherwise we would just get
 NL).
@@ -11,3 +15,4 @@ Contains R,,H,,L.
 Contained in SC [Nis92].
 
 [RTV05] give strong evidence that RL = L.
+== Relations ==

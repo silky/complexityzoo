@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = S,,2,,P - Second Level of the Symmetric Hierarchy =
+
+== Comments ==
 
 The class of decision problems for which there is a polynomial-time predicate P such that, on input x,
 
@@ -19,3 +23,4 @@ Contained in ZPP^NP^ [Cai01].
 S,,2,,-EXP•P^NP^: Don't Ask 
 One of the caged classes of the Complexity Zoo.
 Has been implicated in a collapse scandal involving AM[polylog], coNP, and EH.
+== Relations ==

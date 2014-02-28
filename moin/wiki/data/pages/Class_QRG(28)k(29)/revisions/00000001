@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QRG(k) - k-turn Quantum Refereed Games =
+
+== Comments ==
 
 Same as QRG, except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length.  Messages are exchanged in parallel.  QRG(k) is the quantum version of RG(k).  By definition, QRG(poly) = QRG.  See also QRG(1) and QRG(2).
 
@@ -10,3 +14,4 @@ QRG(k) trivially contains RG(k) for each k (and hence PSPACE when ).  QRG(4) tri
 QRG(k) is trivially contained in QRG for each k (and hence EXP).
 
 Other than these trivial bounds, very little is known of QRG(k) for intermediate values of k.  For example, does QRG(k) = RG(k) for each k?
+== Relations ==

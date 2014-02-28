@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = C,,=,,P - Exact-Counting Polynomial-Time =
 
+== Comments ==
+
 The class of decision problems solvable by an NP machine such that the number of accepting paths exactly equals the number of rejecting paths, if and only if the answer is 'yes.'
 
 Equals coNQP [FGH+98].
+== Relations ==

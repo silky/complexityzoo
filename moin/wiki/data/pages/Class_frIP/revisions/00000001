@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = frIP - Function-Restricted IP Proof Systems =
+
+== Comments ==
 
 The class of problems L that have a decider in the following sense.  There exists a BPP machine D such that for all inputs x,
 
@@ -13,3 +17,4 @@ Contains compIP [BG94] and Check [BK89].
 Contained in MIP = NEXP [FRS88].
 
 Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in frIP [BG94].
+== Relations ==

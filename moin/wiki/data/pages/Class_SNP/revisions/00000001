@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SNP - Strict NP =
+
+== Comments ==
 
 [Fag74] showed that NP is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.
 
@@ -20,3 +24,4 @@ NP
 There exists a relation P(u,v) on vertices of G, such that P(u,u) is false, and for all distinct u,v either P(u,v) or P(v,u), and P(u,v) and P(v,w) implies P(u,w), and if P(u,w) and there does not exist a v for which P(u,v) and P(v,w), then there is an edge from u to w.
 
 total order
+== Relations ==

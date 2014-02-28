@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = VC,,k,, - Verification Class With A Circuit of Depth K =
+
+== Comments ==
 
 For k = 0, VC,,0,, is the class of compressible languages.
  For k = 1, VC,,1,, is the class of languages that have local verification: they can be verified by testing only a small part of the instance. (Small means polynomial in the witness length and the log of the instance length.)
@@ -10,3 +14,4 @@ For k = 0, VC,,0,, is the class of compressible languages.
 VC,,0,, ⊆ VC,,OR,, ⊆ VC,,1,, ⊆ VC,,2,, ⊆ VC,,3,, ...
 
 Introduced in [HN06]; see there for formal definitions.
+== Relations ==

@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = MIP* - MIP With Quantum Provers =
+
+== Comments ==
 
 Same as MIP, except that the provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
 
@@ -14,3 +18,4 @@ Even MIP*[4,poly] and MIP[5,1] contain NEXP [IV12].
 MIP*[2,1] contains XOR-MIP*[2,1].
 
 In 2012 it was shown that QMIP = MIP* [RUV12]
+== Relations ==

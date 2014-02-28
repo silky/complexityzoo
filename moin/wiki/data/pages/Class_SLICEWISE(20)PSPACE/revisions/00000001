@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SLICEWISE PSPACE - Parametrized PSPACE =
+
+== Comments ==
 
 The parameterized version of PSPACE.
 
@@ -10,3 +14,4 @@ Same as FPT, except that now on input (x,k) (k a parameter), the space used must
 If P = PSPACE, then FPT = SLICEWISE PSPACE.
 
 Defined in [DF99].
+== Relations ==

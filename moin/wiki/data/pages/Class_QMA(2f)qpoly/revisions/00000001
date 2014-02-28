@@ -1,6 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QMA/qpoly - QMA With Polynomial-Size Quantum Advice =
 
+== Comments ==
+
 Is contained in PSPACE/poly [Aar06b].
+== Relations ==

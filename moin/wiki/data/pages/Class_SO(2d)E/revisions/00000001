@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = SO-E - Second Order Existential =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [Imm98] for a full definition.
 
 SO-E = NP [Fag74].
 
 Contains FO(poly(n)).
+== Relations ==

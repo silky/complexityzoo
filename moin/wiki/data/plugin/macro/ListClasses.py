@@ -17,9 +17,6 @@ def macro_ListClasses (macro):
 
     pages = macro.request.rootpage.getPageList(filter=classFilter,
             return_objects=True)
-
-    # import pdb
-    # pdb.set_trace()
     
     def islatin (char):
         return not(not(re.match("[a-zA-Z]", char)))

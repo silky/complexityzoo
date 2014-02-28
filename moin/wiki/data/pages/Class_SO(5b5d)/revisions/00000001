@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = SO[] - Iterated Second-Order logic =
+
+== Comments ==
 
 SO[] is to SO what FO[] is to FO. But we now also have second-order quantifier in the quantifier block.
 
@@ -9,3 +13,4 @@ In Descriptive complexity we can see that :
 
 SO[] is  equal to PSPACE it is also another way to write SO(TC)
 SO[] is equal to EXPTIME it is also another way to write SO(LFP)
+== Relations ==

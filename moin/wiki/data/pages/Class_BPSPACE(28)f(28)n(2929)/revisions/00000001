@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = BPSPACE(f(n)) - Bounded-Error Probabilistic f(n)-Space =
 
+== Comments ==
+
 The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts with probability 1 on every input.
 
 Contains RSPACE(f(n)) and BP,,H,,SPACE(f(n)).
+== Relations ==

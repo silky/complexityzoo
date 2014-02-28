@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = QMA,,log,, - QMA With Logarithmic-Size Proofs =
 
+== Comments ==
+
 Same as QMA except that the quantum proof has O(log n) qubits instead of a polynomial number.
 
 Equals BQP [MW05].
+== Relations ==

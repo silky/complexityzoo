@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = FO(t(n)) - First-Order =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be expressed by a first-order logic predicate, with a block of restricted quantifiers repeated t(n) times.  See [Imm98] for a full definition.
 
 FO(poly(n)) = P (see [Var82] for example).
 
 FO(poly(n)) is contained in SO-E.
+== Relations ==

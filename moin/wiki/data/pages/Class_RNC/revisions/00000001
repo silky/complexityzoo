@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = RNC - Randomized NC =
+
+== Comments ==
 
 Has the same relation to NC as RP does to P.
 
@@ -10,3 +14,4 @@ Contains the maximum matching problem for bipartite graphs [MVV87].
 Contained in QNC.
 
 See also: coRNC.
+== Relations ==

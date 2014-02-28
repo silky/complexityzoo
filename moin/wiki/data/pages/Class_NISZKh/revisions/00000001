@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NISZK,,h,, - NISZK With Limited Help =
+
+== Comments ==
 
 The non-interactive analogue of SZK,,h,,.
 
@@ -12,3 +16,4 @@ Graph Isomorphism is in NISZK,,h,,.
 The following problem is complete for NISZK,,h,,: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
 
 The quantum lower bound for the set comparison problem in [Aar02] implies an oracle relative to which NISZK,,h,, is not in BQP.
+== Relations ==

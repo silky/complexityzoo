@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = ZPP - Zero-Error Probabilistic Polynomial-Time =
+
+== Comments ==
 
 Defined as RP ∩ coRP.
 
@@ -20,3 +24,4 @@ The class of problems solvable by randomized algorithms that always return the c
 Defined in [Gil77].
 
 There exists an oracle relative to which ZPP = EXP [Hel84].
+== Relations ==

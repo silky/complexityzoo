@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = NEXP - Nondeterministic EXP =
+
+== Comments ==
 
 Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).
 
@@ -24,3 +28,4 @@ Does not equal EXP if and only if there is a sparse set in NP that is not in P.
 There exists an oracle relative to which EXP = NEXP but still P does not equal NP [Dek76].
 
 The theory of reals with addition (see EXPSPACE) is hard for NEXP [FR74].
+== Relations ==

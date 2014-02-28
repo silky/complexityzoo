@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = AM,,EXP,, - Exponential-Time AM =
+
+== Comments ==
 
 Same as AM, except that Arthur is exponential-time and can exchange exponentially long messages with Merlin.
 
 Contains MA,,EXP,,, and is contained in EH and indeed S,,2,,-EXP•P^NP^.
 
 If coNP is contained in AM[polylog] then EH collapses to AM,,EXP,, [PV04].
+== Relations ==

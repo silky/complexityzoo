@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = ALOGTIME - Logarithmic time alternating RAM =
 
+== Comments ==
+
 ALOGTIME is the class of languages decidable in logarithmic time by a random access alternating Turing machine.
 
 Known to be equal to U,,E^*^,,-uniform NC^1^.
+== Relations ==

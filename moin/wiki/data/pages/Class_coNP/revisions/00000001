@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = coNP - Complement of NP =
+
+== Comments ==
 
 If NP = coNP, then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.
 
@@ -14,3 +18,4 @@ Every problem in coNP has an IP (interactive proof) system, where moreover the p
 Co-NP is equal to SO-A, the second-order queries where the second-order quantifiers are only universals.
 
 Every problem in coNP has an IP (interactive proof) system, where moreover the prover can be restricted to BPP^#P^.
+== Relations ==

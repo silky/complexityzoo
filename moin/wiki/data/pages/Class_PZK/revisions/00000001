@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PZK - Perfect Zero Knowledge =
+
+== Comments ==
 
 Same as SZK, but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of his interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
 
@@ -10,3 +14,4 @@ Contained in SZK.
 See also: CZK.
 
 Same as SZK, but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over Arthur's view of his interaction with Merlin, conditioned on Arthur's random coins, and (2) the distribution over views that Arthur can simulate without Merlin's help.)
+== Relations ==

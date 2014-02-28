@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = P - Polynomial-Time =
+
+== Comments ==
 
 The class that started it all.
 
@@ -26,3 +30,4 @@ The nonuniform version is P/poly, the monotone version is mP, and versions over 
 In descriptive complexity, P can be defined by three different kind of formulae, FO(lfp) which is also FO()], and also as SO(Horn)
 
 P queries are exactly the one that can be written in the While^/cons^ languages.
+== Relations ==

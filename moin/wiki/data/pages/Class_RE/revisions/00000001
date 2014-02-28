@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = RE - Recursively Enumerable Languages =
+
+== Comments ==
 
 The class of decision problems for which a 'yes' answer can be verified by a Turing machine in a finite amount of time.  (If the answer is 'no,' on the other hand, the machine might never halt.)
 
@@ -24,3 +28,4 @@ RE and coRE can be generalized to the arithmetic hierarchy AH.
 There are problems in RE that are neither RE-complete under T-reductions, nor in R [Fri57] [Muc56].  This is the resolution of Post's problem [Pos44].
 
 Indeed, RE contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [Sho99].
+== Relations ==

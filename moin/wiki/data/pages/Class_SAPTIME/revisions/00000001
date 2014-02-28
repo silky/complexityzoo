@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = SAPTIME - Stochastic Alternating Polynomial-Time =
 
+== Comments ==
+
 The class of problems solvable by a polynomial-time Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
 Defined in [Pap83], where it was also observed that SAPTIME = PSPACE.
+== Relations ==

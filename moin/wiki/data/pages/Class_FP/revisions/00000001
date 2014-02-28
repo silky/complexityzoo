@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FP - Function Polynomial-Time =
+
+== Comments ==
 
 Sometimes defined as the class of functions computable in polynomial time by a Turing machine.  (Generalizes P, which is defined in terms of decision problems only.)
 
@@ -10,3 +14,4 @@ However, if we want to compare FP to FNP, we should instead define it as the cla
 FP = FNP if and only if P = NP.
 
 If FP^NP^ = FP^NP[log]^ (that is, allowed only a logarithmic number of queries), then P = NP [Kre88].  The corresponding result for P^NP^ versus P^NP[log]^ is not known, and indeed fails relative to some oracles (see [Har87b]).
+== Relations ==

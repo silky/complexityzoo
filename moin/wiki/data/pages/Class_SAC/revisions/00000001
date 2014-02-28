@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = SAC - Semi-Unbounded-Fanin AC =
+
+== Comments ==
 
 SAC^k^ is the class of decision problems solvable by a family of depth-O(log^k^n) circuits with unbounded-fanin OR & bounded-fanin AND gates.  Negations are only allowed at the input level.
 
 A uniformity condition may also be imposed.
 
 Defined by [BCD+89], who also showed that SAC,,k,, is closed under complement for every k>0.
+== Relations ==

@@ -1,10 +1,15 @@
 
+<<TableOfContents()>>
+
 
 
 = VPL - Visibly pushdown languages =
+
+== Comments ==
 
 The class of problems that can be decided by a visibly pushdown automaton. In a visibly pushdown automaton, all push and pop transitions have to be triggered by special alphabet symbols, and thus are visible in the input word. Nondeterminism does not add to the expressive power of this automaton model, and the complexity class is closed under all Boolean operations.
 
 Originated in [AM04]. See also [AM09].
 
 Properly contains REG. Properly contained in DCFL.
+== Relations ==

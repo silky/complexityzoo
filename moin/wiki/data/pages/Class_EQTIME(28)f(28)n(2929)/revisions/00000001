@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = EQTIME(f(n)) - Exact Quantum f(n)-Time =
 
+== Comments ==
+
 Same as EQP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
 Defined in [BV97].
+== Relations ==

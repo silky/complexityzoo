@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = QMIP - Quantum Multi-Prover Interactive Proofs =
+
+== Comments ==
 
 The quantum generalization of MIP, and the multi-prover generalization of QIP.
 
@@ -14,3 +18,4 @@ Shown to be equal to MIP* in [RUV12].
 QMIP contains NEXP simply because MIP* contains NEXP [IV12]. Since we know that NEXP = QMIP,,ne,,, this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
 
 Fascinatingly, no relationship between QMIP and NEXP is known.  We don't know whether allowing the provers unlimited prior entanglement makes the class more powerful, less powerful, or both!
+== Relations ==

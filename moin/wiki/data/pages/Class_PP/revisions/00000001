@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = PP - Probabilistic Polynomial-Time =
+
+== Comments ==
 
 The class of decision problems solvable by an NP machine such that
 
@@ -29,3 +33,4 @@ For any fixed k, there exists a language in PP that does not have circuits of si
 By contrast, there exists an oracle relative to which PP has linear-size circuits [Aar06].
 
 PP can be generalized to the counting hierarchy CH.
+== Relations ==

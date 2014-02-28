@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = Q - Quasi-Realtime Languages =
 
+== Comments ==
+
 The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [BG69], where it was shown that Q equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).
 
 Contains GCSL.
+== Relations ==

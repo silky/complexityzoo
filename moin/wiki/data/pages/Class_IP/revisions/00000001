@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = IP - Interactive Proof =
+
+== Comments ==
 
 The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a probabilistic polynomial-time verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:
 
@@ -22,3 +26,4 @@ The class of decision problems for which a "yes" answer can be verified by an in
 IP contains PH [LFK+90], and indeed (this was discovered only a few days later) equals PSPACE [Sha90].  On the other hand, coNP is not contained in IP relative to a random oracle [CCG+94].
 
 See also: MIP, QIP, MA, AM.
+== Relations ==

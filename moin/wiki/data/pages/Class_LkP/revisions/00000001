@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = L,,k,,P - Low Hierarchy In NP =
+
+== Comments ==
 
 The class of problems A such that Σ,,k,,P^A^ = Σ,,k,,P; that is, adding A as an oracle does not increase the power of the k^th^ level of the polynomial hierarchy.
 
@@ -12,3 +16,4 @@ For all k, L,,k,, is contained in L,,k+1,, and in NP.
 Defined in [Sch83].
 
 See also H,,k,,P.
+== Relations ==

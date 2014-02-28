@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = mL - Monotone L =
+
+== Comments ==
 
 The class of decision problems solvable by a family of monotone log-width polynomial-size leveled circuits.  (A leveled circuit is one where gates on each level can depend only on the level immediately below it.)
 
@@ -10,3 +14,4 @@ Defined in [GS90], who raise as an open problem to define a uniform version of m
 Strictly contains mNC^1^ [GS91].
 
 Contained in (nonuniform versions of) mNL and mcoNL.
+== Relations ==

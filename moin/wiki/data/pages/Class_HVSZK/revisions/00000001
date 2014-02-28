@@ -1,8 +1,13 @@
 
+<<TableOfContents()>>
+
 
 
 = HVSZK - Honest-Verifier SZK =
 
+== Comments ==
+
 The class of decision problems that have SZK protocols assuming an honest verifier (i.e. one who doesn't try to learn more about the problem by deviating from the protocol).
 
 Equals SZK [Oka96].
+== Relations ==

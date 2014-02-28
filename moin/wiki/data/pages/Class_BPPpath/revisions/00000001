@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = BPP,,path,, - Threshold BPP =
+
+== Comments ==
 
 Same as BPP, except that now the computation paths need not all have the same length.
 
@@ -28,3 +32,4 @@ BPP,,path,, contains MA and P^NP[log]^, and is contained in PP and BPP^NP^.
 BPP,,path,, is closed under complementation, intersection, and union.
 If BPP,,path,, = BPP,,path,,^BPPpath^, then PH collapses to BPP,,path,,.
 If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.
+== Relations ==

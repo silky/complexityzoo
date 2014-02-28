@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = FPT - Fixed-Parameter Tractable =
+
+== Comments ==
 
 The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.
 
@@ -14,3 +18,4 @@ Contained in FPT,,nu,,, W[1], and FPR.
 Contains FPTAS [CC97], as well as FPT,,su,,.
 
 Contains EPTAS unless FPT = W[1] [Baz95].
+== Relations ==

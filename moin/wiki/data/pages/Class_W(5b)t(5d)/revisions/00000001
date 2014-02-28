@@ -1,7 +1,11 @@
 
+<<TableOfContents()>>
+
 
 
 = W[t] - Nondeterministic Fixed-Parameter Hierarchy =
+
+== Comments ==
 
 A generalization of W[1].
 
@@ -14,3 +18,4 @@ See W[1] for the definition of fixed-parameter reducibility.
 Defined in [DF99].
 
 Contained in W[SAT] and in W^*^[t].
+== Relations ==
