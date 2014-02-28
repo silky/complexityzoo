@@ -82,7 +82,7 @@ text = u'''
 
 Has the same relation to L as #P does to P.
 
-#L is contained in DET [AJ93].
+#L is contained in DET [[ZooRefs#AJ93|AJ93]].
 == Relations ==
 
 '''
@@ -142,13 +142,13 @@ The class of function problems of the form "compute f(x)," where f is the number
 
 The canonical #P-complete problem is #SAT: given a Boolean formula, compute how many satisfying assignments it has.
 
-Defined in [Val79], where it was also shown that the problem of counting the number of perfect matchings in a bipartite graph (or equivalently, computing the permanent of a 0-1 matrix) is #P-complete.
+Defined in [[ZooRefs#Val79|Val79]], where it was also shown that the problem of counting the number of perfect matchings in a bipartite graph (or equivalently, computing the permanent of a 0-1 matrix) is #P-complete.
 
 What makes that interesting is that the associated decision problem (whether a bipartite graph has a perfect matching) is in P.
 
-PH is in P^#P^ [Tod89].
+PH is in P^#P^ [[ZooRefs#Tod89|Tod89]].
 
-Any function in #P can be approximated to within a polynomial factor in BPP with NP oracle [Sto85].
+Any function in #P can be approximated to within a polynomial factor in BPP with NP oracle [[ZooRefs#Sto85|Sto85]].
 == Relations ==
 
 '''
@@ -180,7 +180,7 @@ Roughly, the analogue of #P for parameterized complexity.  I.e. the class of par
 
 #WSAT: Given a Boolean formula, count the number of satisfying assignments of Hamming weight k (where k is the parameter).
 
-Defined in [FG02], which should be consulted for the full definition.  [FG02] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in FPT).
+Defined in [[ZooRefs#FG02|FG02]], which should be consulted for the full definition.  [[ZooRefs#FG02|FG02]] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in FPT).
 == Relations ==
 
 '''
@@ -212,7 +212,7 @@ A monoid is a set with an associative operation and an identity element (so it's
 
 Then (M,,k,,)P is the class of decision problems solvable by an NP machine with the following acceptance mechanism.  The i^th^ computation path (under some lexicographic ordering) outputs an element m,,i,, of M,,k,,.  Then the machine accepts if and only if m,,1,,m,,2,,...m,,s,, is the identity (where s is the number of paths).
 
-Defined by Hertrampf [Her97], who also showed the following (in the special case M is a group):
+Defined by Hertrampf [[ZooRefs#Her97|Her97]], who also showed the following (in the special case M is a group):
 
 If G is any nonsolvable group (for example S,,5,,, the symmetric group on 5 elements), then (G)P = PSPACE.
 (Z,,k,,)P = coMod,,k,,P, where Z,,k,, is the cyclic group on k elements.
@@ -246,9 +246,9 @@ text = u'''
 
 Together with NP/poly ∩ coNP/poly, has the same relation to NP ∩ coNP as P/poly has to P.  A language in (NP ∩ coNP)/poly is defined by a single language in NP ∩ coNP which is then modified by advice.  A language in NP/poly ∩ coNP/poly comes from two possibly different languages in NP and coNP which become the same with good advice.
 
-There is an oracle relative to which NP/poly ∩ coNP/poly, indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [FFK+93].  Recently they improved this to NP/1 ∩ coNP [FF..].
+There is an oracle relative to which NP/poly ∩ coNP/poly, indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [[ZooRefs#FFK+93|FFK+93]].  Recently they improved this to NP/1 ∩ coNP [FF..].
 
-If NP is contained in (NP ∩ coNP)/poly, then PH collapses to S,,2,,P^NP ∩ coNP^ [CCH+01].
+If NP is contained in (NP ∩ coNP)/poly, then PH collapses to S,,2,,P^NP ∩ coNP^ [[ZooRefs#CCH+01|CCH+01]].
 == Relations ==
 
 '''
@@ -280,7 +280,7 @@ See AvgP for basic notions of average-case complexity.
 
 (NP,P-samplable) is the same as DistNP, except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
 
-Any problem complete for DistNP is also complete for (NP,P-samplable) [IL90].
+Any problem complete for DistNP is also complete for (NP,P-samplable) [[ZooRefs#IL90|IL90]].
 == Relations ==
 
 '''
@@ -312,7 +312,7 @@ The intersection of NP,,C,, with {0,1}^*^ (i.e. the set of binary strings).
 
 Contains NP.
 
-Is contained in PSPACE, and in AM assuming the Extended Riemann Hypothesis [Koi96].
+Is contained in PSPACE, and in AM assuming the Extended Riemann Hypothesis [[ZooRefs#Koi96|Koi96]].
 == Relations ==
 
 '''
@@ -340,7 +340,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [Bra77], where it was also shown that 1NAuxPDA^p^ strictly contains CFL and is strictly contained in LOGCFL. The class corresponds to the closure of CFL under one-way log-space reductions.
+Defined in [[ZooRefs#Bra77|Bra77]], where it was also shown that 1NAuxPDA^p^ strictly contains CFL and is strictly contained in LOGCFL. The class corresponds to the closure of CFL under one-way log-space reductions.
 == Relations ==
 
 '''
@@ -370,13 +370,13 @@ text = u'''
 
 Same as SBP, except that f is a nonnegative-valued GapP function rather than a #P function.
 
-Defined in [Vya03], where the following was also shown:
+Defined in [[ZooRefs#Vya03|Vya03]], where the following was also shown:
 
 A,,0,,PP contains QMA, AWPP, and coC,,=,,P.
 A,,0,,PP is contained in PP.
 If A,,0,,PP = PP then PH is contained in PP.
 
-Kuperberg ([Kup09]) showed that A,,0,,PP = SBQP.
+Kuperberg ([[ZooRefs#Kup09|Kup09]]) showed that A,,0,,PP = SBQP.
 
 Same as SBP, except that f is a GapP rather than #P function.
 == Relations ==
@@ -414,7 +414,7 @@ AC^i^ is contained in NC^i+1^; thus, AC = NC.
 
 Contains NL.
 
-For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (uniform) AC^A^ is strictly contained in P^A^, with probability 1 [Mil92].
+For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (uniform) AC^A^ is strictly contained in P^A^, with probability 1 [[ZooRefs#Mil92|Mil92]].
 
 fo-uniform AC with depth  is equal to FO[]
 == Relations ==
@@ -446,29 +446,29 @@ text = u'''
 
 An especially important subclass of AC, corresponding to constant-depth, unbounded-fanin, polynomial-size circuits with AND, OR, and NOT gates.
 
-Computing the Parity or Majority of n bits is not in AC^0^ [FSS84].
+Computing the Parity or Majority of n bits is not in AC^0^ [[ZooRefs#FSS84|FSS84]].
 
-There are functions in AC^0^ that are pseudorandom for all statistical tests in AC^0^ [NW94].  But there are no functions in AC^0^ that are pseudorandom for all statistical tests in QP (quasipolynomial time) [LMN93].
+There are functions in AC^0^ that are pseudorandom for all statistical tests in AC^0^ [[ZooRefs#NW94|NW94]].  But there are no functions in AC^0^ that are pseudorandom for all statistical tests in QP (quasipolynomial time) [[ZooRefs#LMN93|LMN93]].
 
-[LMN93] showed furthermore that functions with AC^0^ circuits of depth d are learnable in QP, given their outputs on O(2^log(n)^O(d)^) randomly chosen inputs.  On the other hand, this learning algorithm is essentially optimal, unless there is a 2^n^o(1)^ algorithm for factoring [Kha93].
+[[ZooRefs#LMN93|LMN93]] showed furthermore that functions with AC^0^ circuits of depth d are learnable in QP, given their outputs on O(2^log(n)^O(d)^) randomly chosen inputs.  On the other hand, this learning algorithm is essentially optimal, unless there is a 2^n^o(1)^ algorithm for factoring [[ZooRefs#Kha93|Kha93]].
 
-Although there are no good pseudorandom functions in AC^0^, [IN96] showed that there are pseudorandom generators that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum.
+Although there are no good pseudorandom functions in AC^0^, [[ZooRefs#IN96|IN96]] showed that there are pseudorandom generators that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum.
 
 AC^0^ contains NC^0^, and is contained in QAC,,f,,^0^ and MAC^0^.
 
-In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [Lee02]). So it's equivalent to the class FO and to AL the alternating logtime hierarchy.
+In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|Lee02]]). So it's equivalent to the class FO and to AL the alternating logtime hierarchy.
 
-[BLM+98] showed the following problem is complete for depth-k AC^0^ circuits (with a uniformity condition):
+[[ZooRefs#BLM+98|BLM+98]] showed the following problem is complete for depth-k AC^0^ circuits (with a uniformity condition):
 
 Given a grid graph of polynomial length and width k, decide whether there is a path between vertices s and t (which can be given as part of the input).
 
-Computing the parity or majority of n bits is not in AC^0^ [FSS84].
+Computing the parity or majority of n bits is not in AC^0^ [[ZooRefs#FSS84|FSS84]].
 
-Although there are no good pseudorandom functions in AC^0^, [IN96] showed that there are pseudorandom generators in AC^0^ that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum. Work of [AIK04] shows pseudorandom generators in NC^0^ under more relaxed assumptions.
+Although there are no good pseudorandom functions in AC^0^, [[ZooRefs#IN96|IN96]] showed that there are pseudorandom generators in AC^0^ that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum. Work of [[ZooRefs#AIK04|AIK04]] shows pseudorandom generators in NC^0^ under more relaxed assumptions.
 
 AC^0^ contains NC^0^, and is contained in QAC^0^ and MAC^0^.
 
-In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [Lee02]).
+In descriptive complexity, uniform AC^0^ can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|Lee02]]).
 == Relations ==
 
 '''
@@ -498,7 +498,7 @@ text = u'''
 
 Same as AC^0^, but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)
 
-If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in AC^0^[m] [Raz87] [Smo87].  It follows that, for any such m, AC^0^[m] is strictly contained in NC^1^.
+If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in AC^0^[m] [[ZooRefs#Raz87|Raz87]] [[ZooRefs#Smo87|Smo87]].  It follows that, for any such m, AC^0^[m] is strictly contained in NC^1^.
 
 However, if m is a product of distinct primes (e.g. 6), then it is not even known whether AC^0^[m] = NP!
 
@@ -564,17 +564,17 @@ Same as AC^0^[m], but now the constant-depth circuit can contain MOD m gates for
 
 Contained in TC^0^.
 
-Indeed, can be simulated by depth-3 threshold circuits of quasipolynomial size [Yao90].
+Indeed, can be simulated by depth-3 threshold circuits of quasipolynomial size [[ZooRefs#Yao90|Yao90]].
 
-According to [All96], there is no good evidence for the existence of cryptographically secure functions in ACC^0^.
+According to [[ZooRefs#All96|All96]], there is no good evidence for the existence of cryptographically secure functions in ACC^0^.
 
-There is no non-uniform ACC^0^ circuits of polynomial size for NTIMES[2^n^] and no ACC^0^ circuit of size 2^n^O(1)^^ for E^NP^ (The class E with an NP oracle). These are the only two known nontrivial lower bounds against ACC^0^ and were recently discovered by [Wil11].
+There is no non-uniform ACC^0^ circuits of polynomial size for NTIMES[2^n^] and no ACC^0^ circuit of size 2^n^O(1)^^ for E^NP^ (The class E with an NP oracle). These are the only two known nontrivial lower bounds against ACC^0^ and were recently discovered by [[ZooRefs#Wil11|Wil11]].
 
-Contains 4-PBP [BT88].
+Contains 4-PBP [[ZooRefs#BT88|BT88]].
 
 See also: QACC^0^.
 
-In 1996, [All96] suggested the existence of cryptographically secure functions in ACC^0^ as an important open question. In 2004, work of [AIK04] showed pseudorandom generators in NC^0^ based on widely-believed assumptions.
+In 1996, [[ZooRefs#All96|All96]] suggested the existence of cryptographically secure functions in ACC^0^ as an important open question. In 2004, work of [[ZooRefs#AIK04|AIK04]] showed pseudorandom generators in NC^0^ based on widely-believed assumptions.
 == Relations ==
 
 '''
@@ -644,7 +644,7 @@ text = u'''
 
 Same as AP, but for logarithmic-space instead of polynomial-time.
 
-AL = P [CKS81].
+AL = P [[ZooRefs#CKS81|CKS81]].
 == Relations ==
 
 '''
@@ -678,7 +678,7 @@ ALL is a gargantuan beast that's been wreaking havoc in the Zoo of late.
 
 First [Aar04b] observed that PP/rpoly (PP with polynomial-size randomized advice) equals ALL, as does PostBQP/qpoly (PostBQP with polynomial-size quantum advice).
 
-Then [Raz05] showed that QIP/qpoly, and even IP(2)/rpoly, equal ALL.
+Then [[ZooRefs#Raz05|Raz05]] showed that QIP/qpoly, and even IP(2)/rpoly, equal ALL.
 
 Nor is it hard to show that MA,,EXP,,/rpoly = ALL.
 
@@ -751,19 +751,19 @@ Arthur, a BPP (i.e. probabilistic polynomial-time) verifier, generates a "challe
 If the answer is "yes," then Merlin can act in such a way that Arthur accepts with probability at least 2/3 (over the choice of Arthur's random bits).
 If the answer is "no," then however Merlin acts, Arthur will reject with probability at least 2/3.
 
-Surprisingly, it turns out that such a system is just as powerful as a private-coin one, in which Arthur does not need to send his random coins to Merlin [GS86].  So, Arthur never needs to hide information from Merlin.
+Surprisingly, it turns out that such a system is just as powerful as a private-coin one, in which Arthur does not need to send his random coins to Merlin [[ZooRefs#GS86|GS86]].  So, Arthur never needs to hide information from Merlin.
 
-Furthermore, define AM[k] similarly to AM, except that Arthur and Merlin have k rounds of interaction.  Then for all constant k>2, AM[k] = AM[2] = AM [BM88].  Also, the result of [GS86] can then be stated as follows: IP[k] is contained in AM[k+2] for every k (constant or non-constant).
+Furthermore, define AM[k] similarly to AM, except that Arthur and Merlin have k rounds of interaction.  Then for all constant k>2, AM[k] = AM[2] = AM [[ZooRefs#BM88|BM88]].  Also, the result of [[ZooRefs#GS86|GS86]] can then be stated as follows: IP[k] is contained in AM[k+2] for every k (constant or non-constant).
 
 AM contains graph nonisomorphism.
 
 Contains NP, BPP, and SZK, and is contained in Π,,2,,P and NP/poly.
 
-If AM contains coNP then PH collapses to Σ,,2,,P ∩ Π,,2,,P [BHZ87].
+If AM contains coNP then PH collapses to Σ,,2,,P ∩ Π,,2,,P [[ZooRefs#BHZ87|BHZ87]].
 
-There exists an oracle relative to which AM is not contained in PP [Ver92].
+There exists an oracle relative to which AM is not contained in PP [[ZooRefs#Ver92|Ver92]].
 
-AM = NP under a strong derandomization assumption: namely that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([MV99], improving [KM99]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
+AM = NP under a strong derandomization assumption: namely that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([[ZooRefs#MV99|MV99]], improving [[ZooRefs#KM99|KM99]]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
 == Relations ==
 
 '''
@@ -793,9 +793,9 @@ text = u'''
 
 The class of decision problems for which both "yes" and "no" answers can be verified by an AM protocol.
 
-If EXP requires exponential time even for AM protocols, then AM ∩ coAM = NP ∩ coNP [GST03].
+If EXP requires exponential time even for AM protocols, then AM ∩ coAM = NP ∩ coNP [[ZooRefs#GST03|GST03]].
 
-There exists an oracle relative to which AM ∩ coAM is not contained in PP [Ver95].
+There exists an oracle relative to which AM ∩ coAM is not contained in PP [[ZooRefs#Ver95|Ver95]].
 == Relations ==
 
 '''
@@ -827,7 +827,7 @@ Same as AM, except that Arthur is exponential-time and can exchange exponentiall
 
 Contains MA,,EXP,,, and is contained in EH and indeed S,,2,,-EXP•P^NP^.
 
-If coNP is contained in AM[polylog] then EH collapses to AM,,EXP,, [PV04].
+If coNP is contained in AM[polylog] then EH collapses to AM,,EXP,, [[ZooRefs#PV04|PV04]].
 == Relations ==
 
 '''
@@ -857,7 +857,7 @@ text = u'''
 
 Same as AM, except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.
 
-Not much is known about AM[polylog] -- for example, whether it sits in PH.  However, [SS04] show that if AM[polylog] contains coNP, then EH collapses to S,,2,,-EXP•P^NP^.  ([PV04] improved the collapse to AM,,EXP,,.)
+Not much is known about AM[polylog] -- for example, whether it sits in PH.  However, [[ZooRefs#SS04|SS04]] show that if AM[polylog] contains coNP, then EH collapses to S,,2,,-EXP•P^NP^.  ([[ZooRefs#PV04|PV04]] improved the collapse to AM,,EXP,,.)
 == Relations ==
 
 '''
@@ -889,7 +889,7 @@ An alternating Turing machine is a nondeterministic machine with two kinds of st
 
 Then AP is the class of decision problems solvable in polynomial time by an alternating Turing machine.
 
-AP = PSPACE [CKS81].
+AP = PSPACE [[ZooRefs#CKS81|CKS81]].
 
 The abbreviation AP is also used for Approximable in Polynomial Time, see AxP.
 == Relations ==
@@ -924,12 +924,12 @@ Roughly, the class of decision problems for which the following holds.  For all 
 If the answer is "yes" then 1 > f(x)/g(1^n^) > 1-2^-p(n)^.
 If the answer is "no" then 0 < f(x)/g(1^n^) < 2^-p(n)^.
 
-Defined in [Li93], where the following was also shown:
+Defined in [[ZooRefs#Li93|Li93]], where the following was also shown:
 
 APP is contained in PP, and indeed is low for PP.
 APP is closed under intersection, union, and complement.
 
-APP contains AWPP [Fen02].
+APP contains AWPP [[ZooRefs#Fen02|Fen02]].
 
 The abbreviation APP is also used for Approximable in Probabilistic Polynomial Time, see AxPP.
 == Relations ==
@@ -963,9 +963,9 @@ The subclass of NPO problems that admit constant-factor approximation algorithms
 
 Contains PTAS.
 
-Equals the closure of MaxSNP and of MaxNP under PTAS reduction [KMS+99], [CT94].
+Equals the closure of MaxSNP and of MaxNP under PTAS reduction [[ZooRefs#KMS+99|KMS+99]], [[ZooRefs#CT94|CT94]].
 
-Defined in [ACG+99].
+Defined in [[ZooRefs#ACG+99|ACG+99]].
 == Relations ==
 
 '''
@@ -1027,9 +1027,9 @@ The class of problems decidable by an O(f(n))-space Turing machine with three ki
 
 Contains GAN-SPACE(f(n)).
 
-AUC-SPACE(poly(n)) = SAPTIME = PSPACE [Pap83].
+AUC-SPACE(poly(n)) = SAPTIME = PSPACE [[ZooRefs#Pap83|Pap83]].
 
-[Con92] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in NP ∩ coNP.
+[[ZooRefs#Con92|Con92]] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in NP ∩ coNP.
 == Relations ==
 
 '''
@@ -1057,7 +1057,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [OW93] to be the class of decision problems that have a good average-case BPP algorithm, whenever the input is chosen from an efficiently samplable distribution.
+Defined in [[ZooRefs#OW93|OW93]] to be the class of decision problems that have a good average-case BPP algorithm, whenever the input is chosen from an efficiently samplable distribution.
 
 Note that this is not the same as the BPP version of AvgP.
 == Relations ==
@@ -1092,11 +1092,11 @@ The class of decision problems solvable by an NP machine such that for some poly
 If the answer is "no," then the difference between the number of accepting and rejecting paths is non-negative and at most 2^-poly(n)^f(x).
 If the answer is "yes," then the difference is between (1-2^-poly(n)^)f(x) and f(x).
 
-Defined in [FFK94].
+Defined in [[ZooRefs#FFK94|FFK94]].
 
-Contains BQP [FR98], WAPP [BGM02], LWPP, and WPP.
+Contains BQP [[ZooRefs#FR98|FR98]], WAPP [[ZooRefs#BGM02|BGM02]], LWPP, and WPP.
 
-Contained in APP [Fen02].
+Contained in APP [[ZooRefs#Fen02|Fen02]].
 == Relations ==
 
 '''
@@ -1156,7 +1156,7 @@ Same as AW[SAT] but with 'circuit' instead of 'formula.'
 
 Has the same relation to AW[SAT] as W[P] has to W[SAT].
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 == Relations ==
 
 '''
@@ -1192,7 +1192,7 @@ Parameterized QBFSAT: Given a Boolean formula F (with no restriction on depth), 
 
 See W[1] for the definition of fixed-parameter reducibility.
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 
 Contains AW[*], and is contained in AW[P].
 == Relations ==
@@ -1226,7 +1226,7 @@ Has the same relation to W[t] as PSPACE does to NP.
 
 Same as AW[SAT], except that the formula F can have depth at most t.
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 
 Contained in AW[*].
 == Relations ==
@@ -1258,9 +1258,9 @@ text = u'''
 
 The class of multivariate polynomials over the integers that can be evaluated using a polynomial (in the input size n) number of additions, subtractions, and multiplications, together with the constants -1 and 1.  The class is nonuniform, in the sense that the polynomial for each input size n can be completely different.
 
-Named in [Imp02], though it has been considered since the 1970's.
+Named in [[ZooRefs#Imp02|Imp02]], though it has been considered since the 1970's.
 
-If P = BPP (or even BPP is contained in NE), then either NEXP is not in P/poly, or else the permanent polynomial of a matrix is not in AlgP/poly [KI02].
+If P = BPP (or even BPP is contained in NE), then either NEXP is not in P/poly, or else the permanent polynomial of a matrix is not in AlgP/poly [[ZooRefs#KI02|KI02]].
 == Relations ==
 
 '''
@@ -1290,7 +1290,7 @@ text = u'''
 
 The class of problems that are in NP^A^ with probability 1, where A is an oracle chosen uniformly at random.
 
-Equals AM [NW94].
+Equals AM [[ZooRefs#NW94|NW94]].
 == Relations ==
 
 '''
@@ -1320,7 +1320,7 @@ text = u'''
 
 The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.
 
-Equals BPP [BG81].
+Equals BPP [[ZooRefs#BG81|BG81]].
 == Relations ==
 
 '''
@@ -1352,7 +1352,7 @@ The class of problems that are in PSPACE^A^ with probability 1, where A is an or
 
 Almost-PSPACE is not known to equal PSPACE -- rather surprisingly, given the fact that PSPACE equals BPPSPACE and even PPSPACE.
 
-What's known is that Almost-PSPACE = BP^exp^•PSPACE, where BP^exp^• is like the BP• operator but with exponentially-long strings [BVW98].  It follows that Almost-PSPACE is contained in NEXP^NP^ ∩ coNEXP^NP^.
+What's known is that Almost-PSPACE = BP^exp^•PSPACE, where BP^exp^• is like the BP• operator but with exponentially-long strings [[ZooRefs#BVW98|BVW98]].  It follows that Almost-PSPACE is contained in NEXP^NP^ ∩ coNEXP^NP^.
 
 Whereas both BP^exp^•PSPACE and BPPSPACE machines are allowed exponentially many random bits, the former has a reusable record of all of these bits on a witness tape, while the latter can only preserve a fraction of them on the work tape.
 == Relations ==
@@ -1387,7 +1387,7 @@ The class of decision problems such that for some #P function f(x,0^m^),
 The answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
 The m bits of f(x) to the left and right of the middle bit are all 0.
 
-Defined in [GKR+95].
+Defined in [[ZooRefs#GKR+95|GKR+95]].
 
 Contains PH and Contained in MP.
 == Relations ==
@@ -1511,11 +1511,11 @@ A function f, from strings to integers, is polynomial on μ-average if there exi
 
 Then (A,μ) is in AvgP if there is an algorithm for A whose running time is polynomial on μ-average.
 
-This convoluted definition is due to Levin [Lev86], who realized that simpler definitions lead to classes that fail to satisfy basic closure properties.  Also see [Gol97] for more information.
+This convoluted definition is due to Levin [[ZooRefs#Lev86|Lev86]], who realized that simpler definitions lead to classes that fail to satisfy basic closure properties.  Also see [[ZooRefs#Gol97|Gol97]] for more information.
 
-If AvgP = DistNP then EXP = NEXP [BCG+92].
+If AvgP = DistNP then EXP = NEXP [[ZooRefs#BCG+92|BCG+92]].
 
-Strictly contained in HeurP [NS05].
+Strictly contained in HeurP [[ZooRefs#NS05|NS05]].
 
 See also: (NP,P-samplable).
 == Relations ==
@@ -1549,7 +1549,7 @@ Usually called AP in the literature.  I've renamed it AxP to distinguish it from
 
 The class of real-valued functions from {0,1}^n^ to [0,1] that can be approximated within any ε>0 by a deterministic Turing machine in time polynomial in n and 1/ε.
 
-Defined by [KRC00], who also showed that the set of AxP machines is in RE.
+Defined by [[ZooRefs#KRC00|KRC00]], who also showed that the set of AxP machines is in RE.
 == Relations ==
 
 '''
@@ -1581,7 +1581,7 @@ Usually called APP.  I've renamed it AxPP to distinguish it from the "other" APP
 
 The class of real-valued functions from {0,1}^n^ to [0,1] that can be approximated within any ε>0 by a probabilistic Turing machine in time polynomial in n and 1/ε.
 
-Defined by [KRC00], who also show the following:
+Defined by [[ZooRefs#KRC00|KRC00]], who also show the following:
 
 Approximating the acceptance probability of a Boolean circuit is AxPP-complete.  The authors argue that this makes AxPP a more natural class than BPP, since the latter is not believed to have complete problems.
 If AxPP = AxP, then BPP = P.
@@ -1627,13 +1627,13 @@ BH,,2i+1,, is the class of languages that are the union of a BH,,2i,, language w
 
 Then BH is the union over all i of BH,,i,,.
 
-Defined in [WW85].
+Defined in [[ZooRefs#WW85|WW85]].
 
-For more detail see [CGH+88].
+For more detail see [[ZooRefs#CGH+88|CGH+88]].
 
 Contained in Δ,,2,,P and indeed in P^NP[log]^.
 
-If BH collapses at any level, then PH collapses to Σ,,3,,P [Kad88].
+If BH collapses at any level, then PH collapses to Σ,,3,,P [[ZooRefs#Kad88|Kad88]].
 
 See also: DP, QH.
 
@@ -1667,7 +1667,7 @@ text = u'''
 
 Has the same relation to E as BPP does to P.
 
-EE = BPE if and only if EXP = BPP [IKW01].
+EE = BPE if and only if EXP = BPP [[ZooRefs#IKW01|IKW01]].
 == Relations ==
 
 '''
@@ -1727,7 +1727,7 @@ The class of decision problems solvable in O(f(n))-space with error probability 
 
 Contains R,,H,,SPACE(f(n)).
 
-Is contained in DSPACE(f(n)^3/2^) [SZ95].
+Is contained in DSPACE(f(n)^3/2^) [[ZooRefs#SZ95|SZ95]].
 == Relations ==
 
 '''
@@ -1757,7 +1757,7 @@ text = u'''
 
 Has the same relation to L as BPP does to P.  The Turing machine has to halt with probability 1 on every input.
 
-Contained in SC [Nis92] and in PL.
+Contained in SC [[ZooRefs#Nis92|Nis92]] and in PL.
 == Relations ==
 
 '''
@@ -1794,29 +1794,29 @@ If the answer is 'no' then at most 1/3 of the computation paths accept.
 
 Often identified as the class of feasible problems for a computer with access to a genuine random-number source.
 
-Defined in [Gil77].
+Defined in [[ZooRefs#Gil77|Gil77]].
 
-Contained in Σ,,2,,P ∩ Π,,2,,P [Lau83], and indeed in ZPP^NP^ [GZ97].
+Contained in Σ,,2,,P ∩ Π,,2,,P [[ZooRefs#Lau83|Lau83]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|GZ97]].
 
-If BPP contains NP, then RP = NP [Ko82,Gil77] and PH is contained in BPP [Zac88].
+If BPP contains NP, then RP = NP [Ko82,Gil77] and PH is contained in BPP [[ZooRefs#Zac88|Zac88]].
 
-If any problem in E requires circuits of size 2^Ω(n)^, then BPP = P [IW97] (in other words, BPP can be derandomized).
+If any problem in E requires circuits of size 2^Ω(n)^, then BPP = P [[ZooRefs#IW97|IW97]] (in other words, BPP can be derandomized).
 
-Indeed, any proof that BPP = P requires showing either that NEXP is not in P/poly, or else that #P requires superpolynomial-size arithmetic circuits [KI02].
+Indeed, any proof that BPP = P requires showing either that NEXP is not in P/poly, or else that #P requires superpolynomial-size arithmetic circuits [[ZooRefs#KI02|KI02]].
 
-BPP is not known to contain complete problems.  [Sip82], [HH86] give oracles relative to which BPP has no complete problems.
+BPP is not known to contain complete problems.  [[ZooRefs#Sip82|Sip82]], [[ZooRefs#HH86|HH86]] give oracles relative to which BPP has no complete problems.
 
-There exist oracles relative to which P = RP but still P is not equal to BPP [BF99].
+There exist oracles relative to which P = RP but still P is not equal to BPP [[ZooRefs#BF99|BF99]].
 
-In contrast to the case of P, it is unknown whether BPP collapses to BPTIME(n^c^) for some fixed constant c.  However, [Bar02] and [FS04] have shown hierarchy theorems for BPP with a small amount of advice.
+In contrast to the case of P, it is unknown whether BPP collapses to BPTIME(n^c^) for some fixed constant c.  However, [[ZooRefs#Bar02|Bar02]] and [[ZooRefs#FS04|FS04]] have shown hierarchy theorems for BPP with a small amount of advice.
 
-A zero-one law exists stating that BPP has p-measure zero unless BPP = EXP [Mel00].
+A zero-one law exists stating that BPP has p-measure zero unless BPP = EXP [[ZooRefs#Mel00|Mel00]].
 
 Equals Almost-P.
 
 See also: BPP,,path,,.
 
-If BPP contains NP, then RP = NP [Ko82] and PH is contained in BPP [Zac88].
+If BPP contains NP, then RP = NP [[ZooRefs#Ko82|Ko82]] and PH is contained in BPP [[ZooRefs#Zac88|Zac88]].
 == Relations ==
 
 '''
@@ -1846,9 +1846,9 @@ text = u'''
 
 Same as P-OBDD, except that probabilistic transitions are allowed and the OBDD need only accept with probability at least 2/3.
 
-Does not contain the integer multiplication problem [AK96].
+Does not contain the integer multiplication problem [[ZooRefs#AK96|AK96]].
 
-Strictly contained in BQP-OBDD [NHK00].
+Strictly contained in BQP-OBDD [[ZooRefs#NHK00|NHK00]].
 == Relations ==
 
 '''
@@ -1878,7 +1878,7 @@ text = u'''
 
 The class of problems solvable by a BPP machine that is given O(log n) advice bits, which can depend on both the machine's random coin flips and the input length n, but not on the input itself.
 
-Defined in [TV02], where it was also shown that if EXP is in BPP//log then
+Defined in [[ZooRefs#TV02|TV02]], where it was also shown that if EXP is in BPP//log then
 EXP = BPP, and if PSPACE is in BPP//log then PSPACE = BPP.
 == Relations ==
 
@@ -2001,7 +2001,7 @@ text = u'''
 
 BPP with an oracle that, given a string x, returns the minimum over all programs P that output x,,i,, on input i, of the length of P plus the maximum time taken by P on any input.
 
-A similar class was defined in [ABK+02], where it was also shown that in BPP^KT^ one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
+A similar class was defined in [[ZooRefs#ABK+02|ABK+02]], where it was also shown that in BPP^KT^ one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
 
 See also: P^K^.
 == Relations ==
@@ -2035,11 +2035,11 @@ The analogue of P^cc^ for bounded-error probabilistic communication complexity.
 
 Does not equal P^cc^, and is not contained in NP^cc^, because of the EQUALITY problem.
 
-Defined in [BFS86].
+Defined in [[ZooRefs#BFS86|BFS86]].
 
 Has the same relation to BPP^cc^ and BPP as P,,,,^cc^ does to P^cc^ and P.
 
-NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant  [DP08].
+NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant  [[ZooRefs#DP08|DP08]].
 == Relations ==
 
 '''
@@ -2069,14 +2069,14 @@ text = u'''
 
 Same as BPP, except that now the computation paths need not all have the same length.
 
-Defined in [HHT97], where the following was also shown:
+Defined in [[ZooRefs#HHT97|HHT97]], where the following was also shown:
 
 BPP,,path,, contains MA and P^NP[log]^, and is contained in PP and BPP^NP^.
 BPP,,path,, is closed under complementation, intersection, and union.
 If BPP,,path,, = BPP,,path,,^BPP,,path,,^, then PH collapses to BPP,,path,,.
 If BPP,,path,, contains Σ,,2,,P, then PH collapses to BPP^NP^.
 
-There exists an oracle relative to which BPP,,path,, is not contained in Σ,,2,,P [BGM02].
+There exists an oracle relative to which BPP,,path,, is not contained in Σ,,2,,P [[ZooRefs#BGM02|BGM02]].
 
 An alternate characterization of BPP,,path,, uses the idea of post-selection. That is, BPP,,path,, is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
 
@@ -2121,7 +2121,7 @@ text = u'''
 
 Equals BPTIME(2^O((log n)^k)^); that is, the class of problems solvable in quasipolynomial-time on a bounded-error machine.
 
-Defined in [CNS99], where the following was also shown:
+Defined in [[ZooRefs#CNS99|CNS99]], where the following was also shown:
 
 If either (1) #P does not have a subexponential-time bounded-error algorithm, or (2) EXP does not have subexponential-size circuits, then the BPQP hierarchy is strict -- that is, for all a < b at least 1, BPTIME(2^(log n)^a^) is strictly contained in BPTIME(2^(log n)^b^).
 == Relations ==
@@ -2183,17 +2183,17 @@ text = u'''
 
 Same as BPP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
-Defined in [Gil77].
+Defined in [[ZooRefs#Gil77|Gil77]].
 
-BPTIME(n^log n^) does not equal BPTIME(2^n^ε^) for any ε>0 [KV88].  Proving a stronger time hierarchy theorem for BPTIME is a longstanding open problem; see [BH97] for details.
+BPTIME(n^log n^) does not equal BPTIME(2^n^ε^) for any ε>0 [[ZooRefs#KV88|KV88]].  Proving a stronger time hierarchy theorem for BPTIME is a longstanding open problem; see [[ZooRefs#BH97|BH97]] for details.
 
-[Bar02] has shown the following:
+[[ZooRefs#Bar02|Bar02]] has shown the following:
 
 If we allow a small number of advice bits (say log n), then there is a strict hierarchy: for every d at least 1, BPTIME(n^d^)/(log n) does not equal BPTIME(n^d+1^)/(log n).
 In the uniform setting, if BPP has complete problems then BPTIME(n^d^) does not equal BPTIME(n^d+1^).
 BPTIME(n) does not equal NP.
 
-Subsequently, [FS04] managed to reduce the number of advice bits to only 1: BPTIME(n^d^)/1 does not equal BPTIME(n^d+1^)/1.  They also proved a hierarchy theorem for HeurBPTIME.
+Subsequently, [[ZooRefs#FS04|FS04]] managed to reduce the number of advice bits to only 1: BPTIME(n^d^)/1 does not equal BPTIME(n^d+1^)/1.  They also proved a hierarchy theorem for HeurBPTIME.
 
 For another bounded-error hierarchy result, see BPQP.
 == Relations ==
@@ -2223,11 +2223,11 @@ text = u'''
 
 == Comments ==
 
-Defined in [Weg88].
+Defined in [[ZooRefs#Weg88|Weg88]].
 
 The class of decision problems solvable by a family of polynomial size branching programs, with the additional condition that each bit of the input is tested at most d times.
 
-BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [Tha98].
+BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [[ZooRefs#Tha98|Tha98]].
 
 Contained in PBP.
 
@@ -2345,34 +2345,34 @@ text = u'''
 
 The class of decision problems solvable in polynomial time by a quantum Turing machine, with at most 1/3 probability of error.
 
-One can equivalently define BQP as the class of decision problems solvable by a uniform family of polynomial-size quantum circuits, with at most 1/3 probability of error [Yao93].  Any universal gate set can be used as a basis; however, a technicality is that the transition amplitudes must be efficiently computable, since otherwise one could use them to encode the solutions to hard problems (see [ADH97]).
+One can equivalently define BQP as the class of decision problems solvable by a uniform family of polynomial-size quantum circuits, with at most 1/3 probability of error [[ZooRefs#Yao93|Yao93]].  Any universal gate set can be used as a basis; however, a technicality is that the transition amplitudes must be efficiently computable, since otherwise one could use them to encode the solutions to hard problems (see [[ZooRefs#ADH97|ADH97]]).
 
 BQP is often identified as the class of feasible problems for quantum computers.
 
-Contains the factoring and discrete logarithm problems [Sho97], the hidden Legendre symbol problem [DHI02], the Pell's equation and principal ideal problems [Hal02], and some other problems not thought to be in BPP.
+Contains the factoring and discrete logarithm problems [[ZooRefs#Sho97|Sho97]], the hidden Legendre symbol problem [[ZooRefs#DHI02|DHI02]], the Pell's equation and principal ideal problems [[ZooRefs#Hal02|Hal02]], and some other problems not thought to be in BPP.
 
-Defined in [BV97], where it is also shown that BQP contains BPP and is contained in P with a #P oracle.
+Defined in [[ZooRefs#BV97|BV97]], where it is also shown that BQP contains BPP and is contained in P with a #P oracle.
 
-BQP^BQP^ = BQP [BV97].
+BQP^BQP^ = BQP [[ZooRefs#BV97|BV97]].
 
-[ADH97] showed that BQP is contained in PP, and [FR98] showed that BQP is contained in AWPP.
+[[ZooRefs#ADH97|ADH97]] showed that BQP is contained in PP, and [[ZooRefs#FR98|FR98]] showed that BQP is contained in AWPP.
 
 There exist oracles relative to which:
 
-BQP does not equal to BPP [BV97] (and by similar arguments, is not in P/poly).
-BQP is not contained in MA [Wat00].
-BQP is not contained in Mod,,p,,P for prime p [GV02].
-NP, and indeed NP ∩ coNP, are not contained in BQP  with probability 1 relative to a random oracle and a random permutation oracle, respectively [BBB+97].
-SZK is not contained in BQP [Aar02].
-BQP is not contained in SZK (follows easily using the quantum walk problem in [CCD+03]).
-PPAD is not contained in BQP [Li11].
+BQP does not equal to BPP [[ZooRefs#BV97|BV97]] (and by similar arguments, is not in P/poly).
+BQP is not contained in MA [[ZooRefs#Wat00|Wat00]].
+BQP is not contained in Mod,,p,,P for prime p [[ZooRefs#GV02|GV02]].
+NP, and indeed NP ∩ coNP, are not contained in BQP  with probability 1 relative to a random oracle and a random permutation oracle, respectively [[ZooRefs#BBB+97|BBB+97]].
+SZK is not contained in BQP [[ZooRefs#Aar02|Aar02]].
+BQP is not contained in SZK (follows easily using the quantum walk problem in [[ZooRefs#CCD+03|CCD+03]]).
+PPAD is not contained in BQP [[ZooRefs#Li11|Li11]].
 
-BQP does not equal BPP [BV97] (and by similar arguments, is not in P/poly).
-BQP is not contained in MA [Wat00].
-BQP is not contained in Mod,,p,,P for prime p [GV02].
-NP, and indeed NP ∩ coNP, are not contained in BQP (in fact, this holds with probability 1 relative to a random oracle and a random permutation oracle, respectively) [BBB+97].
-SZK is not contained in BQP [Aar02].
-BQP is not contained in SZK (follows easily using the quantum walk problem in [CCD+03]).
+BQP does not equal BPP [[ZooRefs#BV97|BV97]] (and by similar arguments, is not in P/poly).
+BQP is not contained in MA [[ZooRefs#Wat00|Wat00]].
+BQP is not contained in Mod,,p,,P for prime p [[ZooRefs#GV02|GV02]].
+NP, and indeed NP ∩ coNP, are not contained in BQP (in fact, this holds with probability 1 relative to a random oracle and a random permutation oracle, respectively) [[ZooRefs#BBB+97|BBB+97]].
+SZK is not contained in BQP [[ZooRefs#Aar02|Aar02]].
+BQP is not contained in SZK (follows easily using the quantum walk problem in [[ZooRefs#CCD+03|CCD+03]]).
 == Relations ==
 
 '''
@@ -2402,7 +2402,7 @@ text = u'''
 
 Same as P-OBDD, except that unitary (quantum) transitions are allowed and the OBDD need only accept with probability at least 2/3.
 
-Strictly contains BPP-OBDD [NHK00].
+Strictly contains BPP-OBDD [[ZooRefs#NHK00|NHK00]].
 == Relations ==
 
 '''
@@ -2462,7 +2462,7 @@ text = u'''
 
 Same as BQP/mpoly except that the advice is O(log n) bits instead of a polynomial number.
 
-Strictly contained in BQP/qlog [NY03].
+Strictly contained in BQP/qlog [[ZooRefs#NY03|NY03]].
 == Relations ==
 
 '''
@@ -2498,7 +2498,7 @@ Referred to with a variety of other ad hoc names, including BQP/poly on occassio
 
 Contains BQP/qlog, and is contained in BQP/qpoly.
 
-Does not contain ESPACE [NY03].
+Does not contain ESPACE [[ZooRefs#NY03|NY03]].
 == Relations ==
 
 '''
@@ -2526,7 +2526,7 @@ text = u'''
 
 == Comments ==
 
-Is to BQP/mpoly as ∃BPP is to MA.  Namely, the BQP machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though BQP/mpoly is a more natural class, BQP/poly follows the standard definition of advice as a class operator [KL82].
+Is to BQP/mpoly as ∃BPP is to MA.  Namely, the BQP machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though BQP/mpoly is a more natural class, BQP/poly follows the standard definition of advice as a class operator [[ZooRefs#KL82|KL82]].
 
 Contained in BQP/mpoly and contains BQP/log.
 == Relations ==
@@ -2558,7 +2558,7 @@ text = u'''
 
 Same as BQP/mlog except that the advice is quantum instead of classical.
 
-Strictly contains BQP/mlog [NY03].
+Strictly contains BQP/mlog [[ZooRefs#NY03|NY03]].
 
 Contained in BQP/mpoly.
 == Relations ==
@@ -2590,16 +2590,16 @@ text = u'''
 
 The class of problems solvable by a BQP machine that receives a quantum state ψ,,n,, as advice, which depends only on the input length n.
 
-As with BQP/mpoly, the acceptance probability does not need to be bounded away from 1/2 if the machine is given bad advice. (Thus, we are discussing the class that [NY03] call BQP/*Qpoly.) Indeed, such a condition would make quantum advice unusable, by a continuity argument.
+As with BQP/mpoly, the acceptance probability does not need to be bounded away from 1/2 if the machine is given bad advice. (Thus, we are discussing the class that [[ZooRefs#NY03|NY03]] call BQP/*Qpoly.) Indeed, such a condition would make quantum advice unusable, by a continuity argument.
 
-Does not contain EESPACE [NY03].
+Does not contain EESPACE [[ZooRefs#NY03|NY03]].
 
 [Aar04b] shows the following:
 
 There exists an oracle relative to which BQP/qpoly does not contain NP.
 BQP/qpoly is contained in PP/poly.
 
-A classical oracle separation between BQP/qpoly and BQP/mpoly is presently unknown, but there is a quantum oracle separation [AK06].  An unrelativized separation is too much to hope for, since it would imply that PP is not contained in P/poly.
+A classical oracle separation between BQP/qpoly and BQP/mpoly is presently unknown, but there is a quantum oracle separation [[ZooRefs#AK06|AK06]].  An unrelativized separation is too much to hope for, since it would imply that PP is not contained in P/poly.
 
 Contains BQP/mpoly.
 == Relations ==
@@ -2721,7 +2721,7 @@ text = u'''
 
 Same as BQP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
-Defined in [BV97].
+Defined in [[ZooRefs#BV97|BV97]].
 == Relations ==
 
 '''
@@ -2751,7 +2751,7 @@ text = u'''
 
 The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)=0.
 
-Equals TC^0^ and PAC^0^ under logspace uniformity [ABL98].
+Equals TC^0^ and PAC^0^ under logspace uniformity [[ZooRefs#ABL98|ABL98]].
 == Relations ==
 
 '''
@@ -2781,7 +2781,7 @@ text = u'''
 
 Has the same relation to L as C,,=,,P does to P.
 
-C,,=,,L^C=L^ = L^C=L^ [ABO99].
+C,,=,,L^C=L^ = L^C=L^ [[ZooRefs#ABO99|ABO99]].
 == Relations ==
 
 '''
@@ -2811,7 +2811,7 @@ text = u'''
 
 The class of decision problems solvable by an NP machine such that the number of accepting paths exactly equals the number of rejecting paths, if and only if the answer is 'yes.'
 
-Equals coNQP [FGH+98].
+Equals coNQP [[ZooRefs#FGH+98|FGH+98]].
 == Relations ==
 
 '''
@@ -2841,9 +2841,9 @@ text = u'''
 
 A comparator gate consists of two inputs and outputs the minimum of its two inputs on its first output wire and outputs the maximum of its two inputs on its second output wire. One important restriction is that each output of a comparator gate has fanout at most one. The Comparator Circuit Value Problem (CCVP) is defined as following. Given a circuit composed of comparator gates, the inputs to the circuit, and one output of the circuit, calculate the value of this output.
 
-CC is defined as the class of problems log-space many-one reducible to CCVP [MS89]. At present it is only known that NLCCP [MS89]. CC is an example of a complexity class neither known to be in NC nor P-complete.
+CC is defined as the class of problems log-space many-one reducible to CCVP [[ZooRefs#MS89|MS89]]. At present it is only known that NLCCP [[ZooRefs#MS89|MS89]]. CC is an example of a complexity class neither known to be in NC nor P-complete.
 
-Natural complete problems for the CC class include Stable Marriage Problem, Stable Roommate Problem, Lex-first Maximal Matching [Sub94].
+Natural complete problems for the CC class include Stable Marriage Problem, Stable Roommate Problem, Lex-first Maximal Matching [[ZooRefs#Sub94|Sub94]].
 == Relations ==
 
 '''
@@ -2901,13 +2901,13 @@ text = u'''
 
 == Comments ==
 
-Does not equal QCFL [MC00].
+Does not equal QCFL [[ZooRefs#MC00|MC00]].
 
 Contained in LOGCFL.
 
-Strictly contains DCFL [Bra77] and indeed UCFL.
+Strictly contains DCFL [[ZooRefs#Bra77|Bra77]] and indeed UCFL.
 
-Strictly contains DCFL [Bra77].
+Strictly contains DCFL [[ZooRefs#Bra77|Bra77]].
 == Relations ==
 
 '''
@@ -2939,7 +2939,7 @@ The union of the C,,k,,P's over all constant k.
 
 Contained in PSPACE.
 
-Strictly contains DLOGTIME-uniform NC^1^ [CMTV98].
+Strictly contains DLOGTIME-uniform NC^1^ [[ZooRefs#CMTV98|CMTV98]].
 
 It is an open problem whether there exists an oracle relative to which CH is infinite, or even unequal to PSPACE.  This is closely related to the problem of whether TC^0^ = NC^1^, since a padding argument shows that TC^0^ = NC^1^ implies CH = PSPACE.
 
@@ -2978,7 +2978,7 @@ There exists a polynomial  such that each computation path of  on each input  is
 There is a length-respecting total order  having polynomial-time computable adjacency checks on the computation paths of .
 The accepting paths of  on any input  are contiguous with respect to .
 
-Defined in [HHK+05].
+Defined in [[ZooRefs#HHK+05|HHK+05]].
 == Relations ==
 
 '''
@@ -3008,9 +3008,9 @@ text = u'''
 
 Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an NC^1^ formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.
 
-Defined in [BSF02], which should be consulted for more details.
+Defined in [[ZooRefs#BSF02|BSF02]], which should be consulted for more details.
 
-[BSF02] show that finding the maximum of n integers is in CLOG.  Thus, CLOG is best thought of as the continuous-time analog of NC^1^, not of DTIME(log n).
+[[ZooRefs#BSF02|BSF02]] show that finding the maximum of n integers is in CLOG.  Thus, CLOG is best thought of as the continuous-time analog of NC^1^, not of DTIME(log n).
 
 Contained in CP.
 == Relations ==
@@ -3040,7 +3040,7 @@ text = u'''
 
 == Comments ==
 
-A nondeterministic analog of CP.  Defined in [SF98], which should be consulted for the definition (it has something to do with strange attractors, I think).
+A nondeterministic analog of CP.  Defined in [[ZooRefs#SF98|SF98]], which should be consulted for the definition (it has something to do with strange attractors, I think).
 
 The authors raise the question of whether CP equals CNP.
 == Relations ==
@@ -3072,9 +3072,9 @@ text = u'''
 
 Same as CLOG, except that the convergence time can be polynomial rather than logarithmic in the input size.
 
-Defined in [BSF02] and [SF98].
+Defined in [[ZooRefs#BSF02|BSF02]] and [[ZooRefs#SF98|SF98]].
 
-Finding a maximum flow, which is P-complete, can be done in CP [BSF02].  Based on this the authors argue that "P is contained in CP," but this seems hard to formalize, since CP is not a complexity class in the usual sense.  They also conjecture that "CP is contained in P" (i.e. the class of ODE's they consider can be integrated efficiently on a standard Turing machine), but this is open.
+Finding a maximum flow, which is P-complete, can be done in CP [[ZooRefs#BSF02|BSF02]].  Based on this the authors argue that "P is contained in CP," but this seems hard to formalize, since CP is not a complexity class in the usual sense.  They also conjecture that "CP is contained in P" (i.e. the class of ODE's they consider can be integrated efficiently on a standard Turing machine), but this is open.
 
 Contained in CNP.
 == Relations ==
@@ -3108,7 +3108,7 @@ The class of decision problems solvable by a (nonuniform) family of Boolean circ
 
 So for example, CSIZE(poly(n)) (the union of CSIZE(n^k^) over all k) equals P/poly.
 
-Defined in [SM02] among other places.
+Defined in [[ZooRefs#SM02|SM02]] among other places.
 == Relations ==
 
 '''
@@ -3138,7 +3138,7 @@ text = u'''
 
 The class of languages generated by context-sensitive grammars.
 
-Equals NSPACE(n) [Kur64].
+Equals NSPACE(n) [[ZooRefs#Kur64|Kur64]].
 == Relations ==
 
 '''
@@ -3166,11 +3166,11 @@ text = u'''
 
 == Comments ==
 
-Defined in [FV93] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet ) containing :
+Defined in [[ZooRefs#FV93|FV93]] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet ) containing :
 
 For example, a 3SAT clause  is represented in the CSP construction as . By similar constructions, any k-SAT problem can be seen to be in CSP. The class also includes Graph k-Coloring (for ), Graph H-Coloring (for some graph ) and Linear Programming mod .
 
-In [FV93], where the class is defined, the authors show that every problem in MMSNP is reducible under randomized polynomial-time reductions to a problem in CSP.
+In [[ZooRefs#FV93|FV93]], where the class is defined, the authors show that every problem in MMSNP is reducible under randomized polynomial-time reductions to a problem in CSP.
 == Relations ==
 
 '''
@@ -3200,19 +3200,19 @@ text = u'''
 
 Same as SZK, except that now the two distributions are merely required to be computationally indistinguishable by any BPP algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of their interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
 
-Unlike SZK, it is not known if CZK is closed under complement.  CZK is now known to share other properties with SZK: the verifier may as well be honest and may as well show their coins, and CZK is closed under unions [Vad06].  (Previously, these properties were only established in the presence of one-way functions [GMW91].)
+Unlike SZK, it is not known if CZK is closed under complement.  CZK is now known to share other properties with SZK: the verifier may as well be honest and may as well show their coins, and CZK is closed under unions [[ZooRefs#Vad06|Vad06]].  (Previously, these properties were only established in the presence of one-way functions [[ZooRefs#GMW91|GMW91]].)
 
-Assuming the existence of one-way functions, CZK contains NP [GMW91], and actually equals IP=PSPACE [BGG+90].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
+Assuming the existence of one-way functions, CZK contains NP [[ZooRefs#GMW91|GMW91]], and actually equals IP=PSPACE [[ZooRefs#BGG+90|BGG+90]].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
 
-On the other hand, if one-way functions do not exist then CZK = AVBPP [OW93].
+On the other hand, if one-way functions do not exist then CZK = AVBPP [[ZooRefs#OW93|OW93]].
 
 Contains PZK and SZK.
 
 Same as SZK, except that now the two distributions are merely required to be computationally indistinguishable by any BPP algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over Arthur's view of his interaction with Merlin, conditioned on Arthur's random coins, and (2) the distribution over views that Arthur can simulate without Merlin's help.)
 
-Unlike SZK, it is not known if CZK is closed under complement.  CZK is now known to share other properties with SZK: the verifier may as well be honest and may as well show his coins, and CZK is closed under unions [Vad06].  (Previously, these properties were only established in the presence of one-way functions.)
+Unlike SZK, it is not known if CZK is closed under complement.  CZK is now known to share other properties with SZK: the verifier may as well be honest and may as well show his coins, and CZK is closed under unions [[ZooRefs#Vad06|Vad06]].  (Previously, these properties were only established in the presence of one-way functions.)
 
-Assuming the existence of one-way functions, CZK contains NP [GMW91], and indeed equals IP=PSPACE [BGG+90].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
+Assuming the existence of one-way functions, CZK contains NP [[ZooRefs#GMW91|GMW91]], and indeed equals IP=PSPACE [[ZooRefs#BGG+90|BGG+90]].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
 == Relations ==
 
 '''
@@ -3245,11 +3245,11 @@ The class of problems such that a polynomial-time program P that allegedly solve
 If P(y)=f(y) for all inputs y, then C^P^(x) (C with oracle access to P) accepts with probability at least 2/3.
 If P(x) is not equal to f(x) then C^P^(x) accepts with probability at most 1/3.
 
-Introduced in [BK89], where it was also shown that Check equals frIP ∩ cofrIP.
+Introduced in [[ZooRefs#BK89|BK89]], where it was also shown that Check equals frIP ∩ cofrIP.
 
-Check is contained in NEXP ∩ coNEXP [FRS88].
+Check is contained in NEXP ∩ coNEXP [[ZooRefs#FRS88|FRS88]].
 
-[BG94] show that if NEE is not contained in BPEE then NP is not contained in Check.
+[[ZooRefs#BG94|BG94]] show that if NEE is not contained in BPEE then NP is not contained in Check.
 == Relations ==
 
 '''
@@ -3286,9 +3286,9 @@ In general, C,,k+1,,P is PP with C,,k,,P oracle
 
 The union of the C,,k,,P's is called the counting hierarchy, CH.
 
-Defined in [Wag86].
+Defined in [[ZooRefs#Wag86|Wag86]].
 
-See [Tor91] or [AW90] for more information.
+See [[ZooRefs#Tor91|Tor91]] or [[ZooRefs#AW90|AW90]] for more information.
 == Relations ==
 
 '''
@@ -3320,7 +3320,7 @@ The class of problems L that are efficiently autoreducible, in the sense that gi
 
 Defined in [Yao90b].
 
-[BG94] show that, assuming NEE is not contained in BPEE, Coh ∩ NP is not contained in any of compNP, Check, or frIP.
+[[ZooRefs#BG94|BG94]] show that, assuming NEE is not contained in BPEE, Coh ∩ NP is not contained in any of compNP, Check, or frIP.
 == Relations ==
 
 '''
@@ -3378,9 +3378,9 @@ text = u'''
 
 The class of languages accepted by deterministic pushdown automata.
 
-Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL, contained in UCFL, and strictly contains REG.  The inclusion in UCFL is also strict.
+Defined in [[ZooRefs#GG66|GG66]], where it was also shown that DCFL is strictly contained in CFL, contained in UCFL, and strictly contains REG.  The inclusion in UCFL is also strict.
 
-Defined in [GG66], where it was also shown that DCFL is strictly contained in CFL and strictly contains REG.
+Defined in [[ZooRefs#GG66|GG66]], where it was also shown that DCFL is strictly contained in CFL and strictly contains REG.
 == Relations ==
 
 '''
@@ -3410,11 +3410,11 @@ text = u'''
 
 The class of decision problems reducible in L to the problem of computing the determinant of an n-by-n matrix of n-bit integers.
 
-Defined in [Coo85].
+Defined in [[ZooRefs#Coo85|Coo85]].
 
-Contained in NC^2^, and contains NL and PL [BCP83].
+Contained in NC^2^, and contains NL and PL [[ZooRefs#BCP83|BCP83]].
 
-Graph isomorphism is hard for DET under L-reductions [Tor00].
+Graph isomorphism is hard for DET under L-reductions [[ZooRefs#Tor00|Tor00]].
 == Relations ==
 
 '''
@@ -3444,7 +3444,7 @@ text = u'''
 
 DP = BH,,2,,, the second level of the Boolean hierarchy.
 
-Defined in [PY84].
+Defined in [[ZooRefs#PY84|PY84]].
 == Relations ==
 
 '''
@@ -3474,13 +3474,13 @@ text = u'''
 
 The class of decision problems solvable by a BQP machine with oracle access to a dynamical simulator. When given a polynomial-size quantum circuit, the simulator returns a sample from the distribution over "classical histories" induced by the circuit. The simulator can adversarially choose any history distribution that satisfies the axioms of "symmetry" and "locality" -- so that the DQP algorithm has to work for any distribution satisfying these axioms.
 
-See [Aar05] for a full definition.
+See [[ZooRefs#Aar05|Aar05]] for a full definition.
 
 There it is also shown that SZK is contained in DQP.
 
-Contains BQP, and is contained in EXP [Aar05].
+Contains BQP, and is contained in EXP [[ZooRefs#Aar05|Aar05]].
 
-There exists an oracle relative to which DQP does not contain NP [Aar05].
+There exists an oracle relative to which DQP does not contain NP [[ZooRefs#Aar05|Aar05]].
 == Relations ==
 
 '''
@@ -3511,9 +3511,9 @@ text = u'''
 The class of decision problems solvable by a Turing machine in space O(f(n)).
 
 The Space Hierarchy Theorem: For constructible f(n) greater than log
-n, DSPACE(f(n)) is strictly contained in DSPACE(f(n) log(f(n))) [HLS65].
+n, DSPACE(f(n)) is strictly contained in DSPACE(f(n) log(f(n))) [[ZooRefs#HLS65|HLS65]].
 
-For space constructible f(n), strictly contains DTIME(f(n)) [HPV77].
+For space constructible f(n), strictly contains DTIME(f(n)) [[ZooRefs#HPV77|HPV77]].
 
 DSPACE(n) does not equal NP (though we have no idea if one contains the other)!
 
@@ -3547,23 +3547,23 @@ text = u'''
 
 The class of decision problems solvable by a Turing machine in time . Note that some authors choose to call this class TIME.
 
-Of great relevance to DTIME is the Time Hierarchy Theorem: For any constructible function  greater than , DTIME() is strictly contained in DTIME() [HS65]. As a corollary, P ⊂ EXP.
+Of great relevance to DTIME is the Time Hierarchy Theorem: For any constructible function  greater than , DTIME() is strictly contained in DTIME() [[ZooRefs#HS65|HS65]]. As a corollary, P ⊂ EXP.
 
-For any space constructible , DTIME() is strictly contained in DSPACE() [HPV77].
+For any space constructible , DTIME() is strictly contained in DSPACE() [[ZooRefs#HPV77|HPV77]].
 
-Also, DTIME() is strictly contained in NTIME() [PPS+83] (this result does not work for arbitrary ).
+Also, DTIME() is strictly contained in NTIME() [[ZooRefs#PPS+83|PPS+83]] (this result does not work for arbitrary ).
 
-For any constructible superpolynomial , DTIME() with PP oracle is not in P/poly (see [All96]).
+For any constructible superpolynomial , DTIME() with PP oracle is not in P/poly (see [[ZooRefs#All96|All96]]).
 
 The class of decision problems solvable by a Turing machine in time O(f(n)).
 
-The Time Hierarchy Theorem: For constructible f(n) greater than n, DTIME(f(n)) is strictly contained in DTIME(f(n) log(f(n)) loglog(f(n))) [HS65].
+The Time Hierarchy Theorem: For constructible f(n) greater than n, DTIME(f(n)) is strictly contained in DTIME(f(n) log(f(n)) loglog(f(n))) [[ZooRefs#HS65|HS65]].
 
-For any space constructible f(n), DTIME(f(n)) is strictly contained in DSPACE(f(n)) [HPV77].
+For any space constructible f(n), DTIME(f(n)) is strictly contained in DSPACE(f(n)) [[ZooRefs#HPV77|HPV77]].
 
-Also, DTIME(n) is strictly contained in NTIME(n) [PPS+83] (this result does not work for arbitrary f(n)).
+Also, DTIME(n) is strictly contained in NTIME(n) [[ZooRefs#PPS+83|PPS+83]] (this result does not work for arbitrary f(n)).
 
-For any constructible superpolynomial f(n), DTIME(f(n)) with PP oracle is not in P/poly (see [All96]).
+For any constructible superpolynomial f(n), DTIME(f(n)) with PP oracle is not in P/poly (see [[ZooRefs#All96|All96]]).
 == Relations ==
 
 '''
@@ -3595,7 +3595,7 @@ The class of decision problems solvable by a Turing machine that uses time O(t(n
 
 Thus SC = DTISP(poly,polylog) for example.
 
-Defined in [Nis92], where it was also shown that for all space-constructible s(n)=Ω(log n), BPSPACE(s(n)) is contained in DTISP(2^O(s(n))^,s^2^(n)).
+Defined in [[ZooRefs#Nis92|Nis92]], where it was also shown that for all space-constructible s(n)=Ω(log n), BPSPACE(s(n)) is contained in DTISP(2^O(s(n))^,s^2^(n)).
 == Relations ==
 
 '''
@@ -3625,7 +3625,7 @@ text = u'''
 
 The class of functions from {0,1}^n^ to integers expressible as the difference of two #AC^0^ functions.
 
-Equals GapAC^0^ under logspace uniformity [ABL98].
+Equals GapAC^0^ under logspace uniformity [[ZooRefs#ABL98|ABL98]].
 == Relations ==
 
 '''
@@ -3655,9 +3655,9 @@ text = u'''
 
 The class of pairs (A,B), where A and B are NP problems whose sets of "yes" instances are nonempty and disjoint.
 
-If there exists an optimal propositional proof system, then DisNP has a complete pair [Raz94].  On the other hand, there exists an oracle relative to which DisNP does not have a complete pair [GSS+03].
+If there exists an optimal propositional proof system, then DisNP has a complete pair [[ZooRefs#Raz94|Raz94]].  On the other hand, there exists an oracle relative to which DisNP does not have a complete pair [[ZooRefs#GSS+03|GSS+03]].
 
-If P does not equal UP, then DisNP contains pairs not separated by any set in P [GS88].  On the other hand, there exists an oracle relative to which P does not equal NP but still DisNP does not contain any P-inseparable pairs [HS92].
+If P does not equal UP, then DisNP contains pairs not separated by any set in P [[ZooRefs#GS88|GS88]].  On the other hand, there exists an oracle relative to which P does not equal NP but still DisNP does not contain any P-inseparable pairs [[ZooRefs#HS92|HS92]].
 == Relations ==
 
 '''
@@ -3691,11 +3691,11 @@ A distributional problem consists of a decision problem A, and a probability dis
 
 (A,μ) is in DistNP if A is in NP, and μ is P-computable (meaning that its cumulative density function can be evaluated in polynomial time).
 
-DistNP has complete problems [Lev86] (see also [Gur87]), although unlike for NP this is not immediate.
+DistNP has complete problems [[ZooRefs#Lev86|Lev86]] (see also [[ZooRefs#Gur87|Gur87]]), although unlike for NP this is not immediate.
 
-Any DistNP-complete problem is also complete for (NP,P-samplable) [IL90].
+Any DistNP-complete problem is also complete for (NP,P-samplable) [[ZooRefs#IL90|IL90]].
 
-DistNP has complete problems [Gur87], although unlike for NP this is not immediate.
+DistNP has complete problems [[ZooRefs#Gur87|Gur87]], although unlike for NP this is not immediate.
 == Relations ==
 
 '''
@@ -3727,7 +3727,7 @@ The class of dynamic problems solvable using first-order predicates.
 
 Basically what this means is that an algorithm maintains some polynomial-size data structure (say a graph), and receives a sequence of updates (add this edge, delete that one, etc.).  For each update, it computes a new value for the data structure in FO -- that is, for each bit of the data structure, there is an FO function representing the new value of that bit, which takes as input both the update and the previous value of the data structure.  At the end the algorithm needs to answer some question (i.e. is the graph connected?).
 
-See [HI02] for more information, and a complete problem for Dyn-FO.
+See [[ZooRefs#HI02|HI02]] for more information, and a complete problem for Dyn-FO.
 
 See also Dyn-ThC^0^.
 == Relations ==
@@ -3759,7 +3759,7 @@ text = u'''
 
 Same as Dyn-FO, except that now updates are computed via constant-depth predicates that have "COUNT" available, in addition to AND, OR, and NOT -- so it's a uniform version of TC^0^ rather than of AC^0^.
 
-See [HI02] for more information.
+See [[ZooRefs#HI02|HI02]] for more information.
 == Relations ==
 
 '''
@@ -3789,17 +3789,17 @@ text = u'''
 
 Equals DTIME(2^O(n)^).
 
-Does not equal NP [Boo72] or PSPACE [Boo74] relative to any oracle.  However, there is an oracle relative to which E is contained in NP (see ZPP), and an oracle relative to PSPACE is contained in E (by equating the former with P).
+Does not equal NP [[ZooRefs#Boo72|Boo72]] or PSPACE [[ZooRefs#Boo74|Boo74]] relative to any oracle.  However, there is an oracle relative to which E is contained in NP (see ZPP), and an oracle relative to PSPACE is contained in E (by equating the former with P).
 
-There exists a problem that is complete for E under polynomial-time Turing reductions but not polynomial-time truth-table reductions [Wat87].
+There exists a problem that is complete for E under polynomial-time Turing reductions but not polynomial-time truth-table reductions [[ZooRefs#Wat87|Wat87]].
 
-Problems hard for BPP under Turing reductions have measure 1 in E [AS94].
+Problems hard for BPP under Turing reductions have measure 1 in E [[ZooRefs#AS94|AS94]].
 
 It follows that, if the problems complete for E under Turing reductions do not have measure 1 in E, then BPP does not equal EXP.
 
-[IT89] gave an oracle relative to which E = NE but still there is an exponential-time binary predicate whose corresponding search problem is not in E.
+[[ZooRefs#IT89|IT89]] gave an oracle relative to which E = NE but still there is an exponential-time binary predicate whose corresponding search problem is not in E.
 
-[BF03] gave a proof that if E = NE, then no sparse set is collapsing, where they defined a set  to be collapsing if  and if for all  such that  and  are Turing reducible to each other,  and  are many-to-one reducible to each other.
+[[ZooRefs#BF03|BF03]] gave a proof that if E = NE, then no sparse set is collapsing, where they defined a set  to be collapsing if  and if for all  such that  and  are Turing reducible to each other,  and  are many-to-one reducible to each other.
 
 Contrast with EXP.
 == Relations ==
@@ -3831,7 +3831,7 @@ text = u'''
 
 Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).
 
-EE = BPE if and only if EXP = BPP [IKW01].
+EE = BPE if and only if EXP = BPP [[ZooRefs#IKW01|IKW01]].
 
 Contained in EEXP and NEE.
 
@@ -3865,7 +3865,7 @@ text = u'''
 
 Equals DTIME(2^2^2^O(n)^^^).
 
-In contrast to the case of EE, it is not known whether EEE = BPEE implies EE = BPE [IKW01].
+In contrast to the case of EE, it is not known whether EEE = BPEE implies EE = BPE [[ZooRefs#IKW01|IKW01]].
 
 Equals DTIME(2^2^2^O(n)^).
 == Relations ==
@@ -3897,7 +3897,7 @@ text = u'''
 
 Equals DSPACE(2^2^O(n)^^).
 
-Is not contained in BQP/qpoly [NY03].
+Is not contained in BQP/qpoly [[ZooRefs#NY03|NY03]].
 
 Equals DSPACE(2^2^O(n)^).
 == Relations ==
@@ -3965,13 +3965,13 @@ Has roughly the same relationship to E as PH does to P.
 
 More formally, EH is defined as the union of E, NE, NE^NP^, NE with Σ,,2,,P oracle, and so on.
 
-See [Har87] for more information.
+See [[ZooRefs#Har87|Har87]] for more information.
 
-If coNP is contained in AM[polylog], then EH collapses to S,,2,,-EXP•P^NP^ [SS04] and indeed AM,,EXP,, [PV04].
+If coNP is contained in AM[polylog], then EH collapses to S,,2,,-EXP•P^NP^ [[ZooRefs#SS04|SS04]] and indeed AM,,EXP,, [[ZooRefs#PV04|PV04]].
 
 On the other hand, coNE is contained in NE/poly, so perhaps it wouldn't be so surprising if NE collapses.
 
-There exists an oracle relative to which EH does not contain SEH [Hem89]. EH and SEH are incomparable for all anyone knows.
+There exists an oracle relative to which EH does not contain SEH [[ZooRefs#Hem89|Hem89]]. EH and SEH are incomparable for all anyone knows.
 == Relations ==
 
 '''
@@ -4035,7 +4035,7 @@ An extension of L,,k,,P.
 
 The class of problems A such that Σ,,k,,P^A^ is contained in Σ,,k-1,,P^A,NP^.
 
-Defined in [BBS86].
+Defined in [[ZooRefs#BBS86|BBS86]].
 == Relations ==
 
 '''
@@ -4070,7 +4070,7 @@ If the answer is 'yes,' then the number of accepting paths is a power of two.
 
 Contained in C,,=,,P, and in Mod,,k,,P for any odd k.  Contains UP.
 
-Defined in [BHR00].
+Defined in [[ZooRefs#BHR00|BHR00]].
 == Relations ==
 
 '''
@@ -4102,11 +4102,11 @@ The class of optimization problems such that, given an instance of length n, we 
 
 Contains FPTAS and is contained in PTAS.
 
-Defined in [CT97], where the following was also shown:
+Defined in [[ZooRefs#CT97|CT97]], where the following was also shown:
 
 If FPT = XP,,uniform,, then EPTAS = PTAS.
 If EPTAS = PTAS then FPT = W[P].
-If FPT is strictly contained in W[1], then there is a natural problem that is in PTAS but not in EPTAS.  (See [CT97] for the statement of the problem, since it's not that natural.)
+If FPT is strictly contained in W[1], then there is a natural problem that is in PTAS but not in EPTAS.  (See [[ZooRefs#CT97|CT97]] for the statement of the problem, since it's not that natural.)
 == Relations ==
 
 '''
@@ -4134,13 +4134,13 @@ text = u'''
 
 == Comments ==
 
-The same as BQP, except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [BV97], each language in EQP is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set K whose amplitudes can be computed in polynomial time. See EQP,,K,,.  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.
+The same as BQP, except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [[ZooRefs#BV97|BV97]], each language in EQP is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set K whose amplitudes can be computed in polynomial time. See EQP,,K,,.  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.
 
-Without loss of generality, the amplitudes in the gate set K are algebraic numbers [ADH97].
+Without loss of generality, the amplitudes in the gate set K are algebraic numbers [[ZooRefs#ADH97|ADH97]].
 
-There is an oracle that separates EQP from NP [BV97], indeed from Δ,,2,,P [GP01].  There is also an oracle relative to which EQP is not in Mod,,p,,P where p is prime [GV02].  On the other hand, EQP is in LWPP [FR98].
+There is an oracle that separates EQP from NP [[ZooRefs#BV97|BV97]], indeed from Δ,,2,,P [[ZooRefs#GP01|GP01]].  There is also an oracle relative to which EQP is not in Mod,,p,,P where p is prime [[ZooRefs#GV02|GV02]].  On the other hand, EQP is in LWPP [[ZooRefs#FR98|FR98]].
 
-P^||NP[2k]^ is contained in EQP^||NP[k]^, where "||NP[k]" denotes k nonadaptive oracle queries to NP (queries that cannot depend on the results of previous queries) [BD99].
+P^||NP[2k]^ is contained in EQP^||NP[k]^, where "||NP[k]" denotes k nonadaptive oracle queries to NP (queries that cannot depend on the results of previous queries) [[ZooRefs#BD99|BD99]].
 
 See also ZBQP.
 == Relations ==
@@ -4172,11 +4172,11 @@ text = u'''
 
 The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set K, and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set K.  K may be either finite or countable and enumerated.  If S is a ring, the union of EQP,,K,, over all finite gate sets K whose amplitudes are in the ring R can be written EQP,,S,,.
 
-Defined in [ADH97] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of EQP,,K,,.
+Defined in [[ZooRefs#ADH97|ADH97]] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of EQP,,K,,.
 
-[FR98] show that EQP,,Q,, is in LWPP.  The proof can be generalized to any finite, algebraic gate set K.
+[[ZooRefs#FR98|FR98]] show that EQP,,Q,, is in LWPP.  The proof can be generalized to any finite, algebraic gate set K.
 
-The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's algorithm.  The discrete logarithm problem over Z/p is in EQP,,Q-bar,, using infinitely many gates [MZ03].
+The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's algorithm.  The discrete logarithm problem over Z/p is in EQP,,Q-bar,, using infinitely many gates [[ZooRefs#MZ03|MZ03]].
 == Relations ==
 
 '''
@@ -4206,7 +4206,7 @@ text = u'''
 
 Same as EQP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
-Defined in [BV97].
+Defined in [[ZooRefs#BV97|BV97]].
 == Relations ==
 
 '''
@@ -4236,13 +4236,13 @@ text = u'''
 
 Equals DSPACE(2^O(n)^).
 
-If E = ESPACE then P = BPP [HY84].
+If E = ESPACE then P = BPP [[ZooRefs#HY84|HY84]].
 
-Indeed if E has nonzero measure in ESPACE then P = BPP [Lut91].
+Indeed if E has nonzero measure in ESPACE then P = BPP [[ZooRefs#Lut91|Lut91]].
 
-ESPACE is not contained in P/poly [Kan82].
+ESPACE is not contained in P/poly [[ZooRefs#Kan82|Kan82]].
 
-Is not contained in BQP/mpoly [NY03].
+Is not contained in BQP/mpoly [[ZooRefs#NY03|NY03]].
 
 See also: EXPSPACE.
 == Relations ==
@@ -4278,27 +4278,27 @@ Also equals P with E oracle.
 
 If L = P then PSPACE = EXP.
 
-If EXP is in P/poly then EXP = MA [BFL91].
+If EXP is in P/poly then EXP = MA [[ZooRefs#BFL91|BFL91]].
 
-Problems complete for EXP under many-one reductions have measure 0 in EXP [May94], [JL95].
+Problems complete for EXP under many-one reductions have measure 0 in EXP [[ZooRefs#May94|May94]], [[ZooRefs#JL95|JL95]].
 
 There exist oracles relative to which
 
-EXP = NP = ZPP [Hel84a], [Hel84b], [Kur85], [Hel86],
-EXP = NEXP but still P does not equal NP [Dek76],
-EXP does not equal PSPACE [Dek76].
+EXP = NP = ZPP [Hel84a], [Hel84b], [[ZooRefs#Kur85|Kur85]], [[ZooRefs#Hel86|Hel86]],
+EXP = NEXP but still P does not equal NP [[ZooRefs#Dek76|Dek76]],
+EXP does not equal PSPACE [[ZooRefs#Dek76|Dek76]].
 
-[BT04] show the following rather striking result: let A be many-one complete for EXP, and let S be any set in P of subexponential density.  Then A-S is Turing-complete for EXP.
+[[ZooRefs#BT04|BT04]] show the following rather striking result: let A be many-one complete for EXP, and let S be any set in P of subexponential density.  Then A-S is Turing-complete for EXP.
 
-[SM03] show that if EXP has circuits of polynomial size, then P can be simulated in MA,,POLYLOG,, such that no deterministic polynomial-time adversary can generate a list of inputs for a P problem that includes one which fails to be simulated. As a result, EXP ⊆ MA if EXP has circuits of polynomial size.
+[[ZooRefs#SM03|SM03]] show that if EXP has circuits of polynomial size, then P can be simulated in MA,,POLYLOG,, such that no deterministic polynomial-time adversary can generate a list of inputs for a P problem that includes one which fails to be simulated. As a result, EXP ⊆ MA if EXP has circuits of polynomial size.
 
-[SU05] show that EXP  NP/poly implies EXP  P^||NP^/poly.
+[[ZooRefs#SU05|SU05]] show that EXP  NP/poly implies EXP  P^||NP^/poly.
 
 In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
 
-EXP = NP = ZPP [Hel84],
-EXP = NEXP but still P does not equal NP [Dek76],
-EXP does not equal PSPACE [Dek76].
+EXP = NP = ZPP [[ZooRefs#Hel84|Hel84]],
+EXP = NEXP but still P does not equal NP [[ZooRefs#Dek76|Dek76]],
+EXP does not equal PSPACE [[ZooRefs#Dek76|Dek76]].
 == Relations ==
 
 '''
@@ -4360,7 +4360,7 @@ Equals the union of DSPACE(2^p(n)^) over all polynomials p.
 
 See also: ESPACE.
 
-Given a first-order statement about real numbers, involving only addition and comparison (no multiplication), we can decide in EXPSPACE whether it's true or not [Ber80].
+Given a first-order statement about real numbers, involving only addition and comparison (no multiplication), we can decide in EXPSPACE whether it's true or not [[ZooRefs#Ber80|Ber80]].
 == Relations ==
 
 '''
@@ -4390,7 +4390,7 @@ text = u'''
 
 The class of decision problems that can be proven to be solvable in O(f(n)) space on a deterministic Turing machine, from the axioms of formal system F.
 
-Defined in [Har78].
+Defined in [[ZooRefs#Har78|Har78]].
 
 See also F-TIME(f(n)).  The results about F-TAPE mirror those about F-TIME, but in some cases are sharper.
 == Relations ==
@@ -4422,7 +4422,7 @@ text = u'''
 
 The class of decision problems that can be proven to be solvable in O(f(n)) time on a deterministic Turing machine, from the axioms of formal system F.
 
-Defined in [Har78], where the following was also shown:
+Defined in [[ZooRefs#Har78|Har78]], where the following was also shown:
 
 If F-TIME(f(n)) = DTIME(f(n)), then DTIME(f(n)) is strictly contained in DTIME(f(n)g(n)) for any nondecreasing, unbounded, recursive g(n).
 There exist recursive, monotonically increasing f(n) such that F-TIME(f(n)) is strictly contained in DTIME(f(n)).
@@ -4457,7 +4457,7 @@ text = u'''
 
 Has the same relation to BQP as FNP does to NP.
 
-There exists an oracle relative to which PLS is not contained in FBQP [Aar03].
+There exists an oracle relative to which PLS is not contained in FBQP [[ZooRefs#Aar03|Aar03]].
 == Relations ==
 
 '''
@@ -4493,7 +4493,7 @@ FH,,2,, contains factoring because of Kitaev's phase estimation algorithm
 
 It is an open problem to show that the Fourier hierarchy is infinite relative to an oracle (that is, FH,,k,, is strictly contained in FH,,k+1,,).
 
-Defined in [Shi03].
+Defined in [[ZooRefs#Shi03|Shi03]].
 
 FH,,0,, = P
 FH,,1,, = BPP
@@ -4538,7 +4538,7 @@ The Nash equilibrium problem for 3 or more players is FIXP-complete.
 
 Linear-FIXP = PPAD.
 
-Defined in [EY07].
+Defined in [[ZooRefs#EY07|EY07]].
 == Relations ==
 
 '''
@@ -4568,7 +4568,7 @@ text = u'''
 
 Has the same relation to NL as FNP does to NP.
 
-Defined by [AJ93], who also showed that if NL = UL, then FNL is contained in #L.
+Defined by [[ZooRefs#AJ93|AJ93]], who also showed that if NL = UL, then FNL is contained in #L.
 == Relations ==
 
 '''
@@ -4598,7 +4598,7 @@ text = u'''
 
 Has the same relation to FNL as P/poly does to P.
 
-Contained in #L/poly [RA00].
+Contained in #L/poly [[ZooRefs#RA00|RA00]].
 == Relations ==
 
 '''
@@ -4638,7 +4638,7 @@ FP = FNP if and only if P = NP.
 
 Contains TFNP.
 
-A basic question about FNP problems is whether they're self-reducible; that is, whether they reduce to the corresponding NP decision problems.  Although this is true for all NPC problems, [BG94] shows that if EE does not equal NEE, then there is a problem in NP such that no corresponding FNP problem can be reduced to it.  [BG94] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that NE does not equal coNE.
+A basic question about FNP problems is whether they're self-reducible; that is, whether they reduce to the corresponding NP decision problems.  Although this is true for all NPC problems, [[ZooRefs#BG94|BG94]] shows that if EE does not equal NEE, then there is a problem in NP such that no corresponding FNP problem can be reduced to it.  [[ZooRefs#BG94|BG94]] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that NE does not equal coNE.
 == Relations ==
 
 '''
@@ -4713,7 +4713,7 @@ FO(DTC) is defined as FO(tc) where the transitive closure operator is determinis
 
 We can suppose that DTC() is syntactic sugar for TC() where .
 
-It was shown in [Imm99] page 144 that this class is equal to L.
+It was shown in [[ZooRefs#Imm99|Imm99]] page 144 that this class is equal to L.
 == Relations ==
 
 '''
@@ -4745,7 +4745,7 @@ FO(LFP) is the set of boolean queries definable with first-order fixed-point for
 
 We can obtain the monotony by restricting the formula  to have only positive occurrences of  (i.e. there is an even number of negations before every occurrence of ). We can also describe LFP() as syntactic sugar of PFP() where .
 
-Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [Imm82] that FO(LFP)=P. This definition is equivalent to FO().
+Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [[ZooRefs#Imm82|Imm82]] that FO(LFP)=P. This definition is equivalent to FO().
 == Relations ==
 
 '''
@@ -4781,7 +4781,7 @@ PFP( is defined as the value of the fixed point of  on y if there is a fixed poi
 
 Since s are property of arity , there is at most  values for the s, so with a poly-space counter we can check if there is a loop or not.
 
-It was proved in [Imm98] that FO(pfp) is equal to PSPACE.
+It was proved in [[ZooRefs#Imm98|Imm98]] that FO(pfp) is equal to PSPACE.
 == Relations ==
 
 '''
@@ -4815,7 +4815,7 @@ TC is defined this way: let  be a positiver integer and  be vectors of  variable
 
 Every formula of TC can be written in a normal form FO( where  is a FO formula and we suppose that there is an order on the model where variables are quantified, so we can choose the minimum and maximum element.
 
-It was shown in [Imm98] page 150 that this class is equal to NL.
+It was shown in [[ZooRefs#Imm98|Imm98]] page 150 that this class is equal to NL.
 == Relations ==
 
 '''
@@ -4843,9 +4843,9 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems for which a "yes" answer can be expressed by a first-order logic predicate, with a block of restricted quantifiers repeated t(n) times.  See [Imm98] for a full definition.
+The class of decision problems for which a "yes" answer can be expressed by a first-order logic predicate, with a block of restricted quantifiers repeated t(n) times.  See [[ZooRefs#Imm98|Imm98]] for a full definition.
 
-FO(poly(n)) = P (see [Var82] for example).
+FO(poly(n)) = P (see [[ZooRefs#Var82|Var82]] for example).
 
 FO(poly(n)) is contained in SO-E.
 == Relations ==
@@ -4877,7 +4877,7 @@ text = u'''
 
 The class of decision problems solvable by a uniform family of polynomial-size, unbounded-fanin, depth O(log log n) circuits with AND, OR, and NOT gates. Equals FO(log log n).
 
-Defined in [BKL+00], where it was also shown that many problems on finite groups are in FOLL.
+Defined in [[ZooRefs#BKL+00|BKL+00]], where it was also shown that many problems on finite groups are in FOLL.
 
 Contains uniform AC^0^, and is contained in uniform AC^1^.
 
@@ -4963,7 +4963,7 @@ However, if we want to compare FP to FNP, we should instead define it as the cla
 
 FP = FNP if and only if P = NP.
 
-If FP^NP^ = FP^NP[log]^ (that is, allowed only a logarithmic number of queries), then P = NP [Kre88].  The corresponding result for P^NP^ versus P^NP[log]^ is not known, and indeed fails relative to some oracles (see [Har87b]).
+If FP^NP^ = FP^NP[log]^ (that is, allowed only a logarithmic number of queries), then P = NP [[ZooRefs#Kre88|Kre88]].  The corresponding result for P^NP^ versus P^NP[log]^ is not known, and indeed fails relative to some oracles (see [Har87b]).
 == Relations ==
 
 '''
@@ -5021,7 +5021,7 @@ text = u'''
 
 Has the same relation to FPT as RP does to P.
 
-Defined in [AR01], where it was shown that, if the Resolution proof system is automatizable (that is, if a refutation can always be found in time polynomial in the length of the shortest refutation), then W[P] is contained in FPR.
+Defined in [[ZooRefs#AR01|AR01]], where it was shown that, if the Resolution proof system is automatizable (that is, if a refutation can always be found in time polynomial in the length of the shortest refutation), then W[P] is contained in FPR.
 
 Has the same relation to FPT as R does to P.
 == Relations ==
@@ -5053,7 +5053,7 @@ text = u'''
 
 The subclass of #P counting problems whose answer, y, is approximable in the following sense.  There exists a randomized algorithm that, with probability at least 1-δ, approximates y to within an ε multiplicative factor in time polynomial in n (the input size), 1/ε, and log(1/δ).
 
-The permanent of a nonnegative matrix is in FPRAS [JSV01].
+The permanent of a nonnegative matrix is in FPRAS [[ZooRefs#JSV01|JSV01]].
 == Relations ==
 
 '''
@@ -5083,15 +5083,15 @@ text = u'''
 
 The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.
 
-The basic class of the theory of fixed-parameter tractability, as described by Downey and Fellows [DF99].
+The basic class of the theory of fixed-parameter tractability, as described by Downey and Fellows [[ZooRefs#DF99|DF99]].
 
 To separate FPT and W[2], one could show there is no proof system for CNF formulae that admits proofs of size f(k)n^O(1)^, where f is a computable function and n is the size of the formula.
 
 Contained in FPT,,nu,,, W[1], and FPR.
 
-Contains FPTAS [CC97], as well as FPT,,su,,.
+Contains FPTAS [[ZooRefs#CC97|CC97]], as well as FPT,,su,,.
 
-Contains EPTAS unless FPT = W[1] [Baz95].
+Contains EPTAS unless FPT = W[1] [[ZooRefs#Baz95|Baz95]].
 == Relations ==
 
 '''
@@ -5123,9 +5123,9 @@ The subclass of NPO problems that admit an approximation scheme in the following
 
 Contained in PTAS.
 
-Defined in [ACG+99].
+Defined in [[ZooRefs#ACG+99|ACG+99]].
 
-Contained in FPT [CC97].
+Contained in FPT [[ZooRefs#CC97|CC97]].
 == Relations ==
 
 '''
@@ -5157,7 +5157,7 @@ Same as FPT except that the algorithm can vary with the parameter k (though its 
 
 An alternate view is that a single algorithm can take a polynomial-length advice string, depending on k.
 
-Defined in [DF99] (though they did not use our notation).
+Defined in [[ZooRefs#DF99|DF99]] (though they did not use our notation).
 == Relations ==
 
 '''
@@ -5187,7 +5187,7 @@ text = u'''
 
 Same as FPT except that f has to be recursive.
 
-Defined in [DF99] (though they did not use our notation).
+Defined in [[ZooRefs#DF99|DF99]] (though they did not use our notation).
 == Relations ==
 
 '''
@@ -5217,7 +5217,7 @@ text = u'''
 
 The class of problems for which the task is to output a quantum certificate for a QMA problem, when such a certificate exists.  Thus, the desired output is a quantum state.
 
-Defined in [JWB03], where it is also shown that state preparation for 3-local Hamiltonians is FQMA-complete.  The authors also observe that, in contrast to the case of FNP versus NP, there is no obvious reduction of FQMA problems to QMA problems.
+Defined in [[ZooRefs#JWB03|JWB03]], where it is also shown that state preparation for 3-local Hamiltonians is FQMA-complete.  The authors also observe that, in contrast to the case of FNP versus NP, there is no obvious reduction of FQMA problems to QMA problems.
 == Relations ==
 
 '''
@@ -5252,11 +5252,11 @@ For some polynomial-time predicate Q, Q(x,a) is true if and only if the answer i
 
 Also called FewPaths.
 
-Defined in [CH89].
+Defined in [[ZooRefs#CH89|CH89]].
 
-Contains FewP, and is contained in P^FewP^ [Kob89] and in SPP [FFK94].
+Contains FewP, and is contained in P^FewP^ [[ZooRefs#Kob89|Kob89]] and in SPP [[ZooRefs#FFK94|FFK94]].
 
-See also the survey [Tor90].
+See also the survey [[ZooRefs#Tor90|Tor90]].
 == Relations ==
 
 '''
@@ -5286,9 +5286,9 @@ text = u'''
 
 The class of decision problems solvable by an NEXP machine such that, given a "yes" instance, no more than an exponential number of computation paths accept.
 
-Contained in MIP[NP^FewEXP^] (MIP where provers are not unbounded in computational power, but are limited to NP^FewEXP^) [AKS+94].
+Contained in MIP[NP^FewEXP^] (MIP where provers are not unbounded in computational power, but are limited to NP^FewEXP^) [[ZooRefs#AKS+94|AKS+94]].
 
-Alternatively, FewEXP can refer to the sparsity of accepting paths in a given instance. In [AKR+03], the authors show that the conjectures "FewEXP search instances are EXP-solvable" and "FewEXP decision instances are EXP/poly-solvable" are equivalent. That is, for all NEXP machines , the following conditions are equivalent:
+Alternatively, FewEXP can refer to the sparsity of accepting paths in a given instance. In [[ZooRefs#AKR+03|AKR+03]], the authors show that the conjectures "FewEXP search instances are EXP-solvable" and "FewEXP decision instances are EXP/poly-solvable" are equivalent. That is, for all NEXP machines , the following conditions are equivalent:
 
 There exists an EXP machine  such that if given a string ,  accepts and has exponentially bounded accepting paths, then  produces one such path.
  There exists an EXP/poly machine  which accepts a string  if and only  accepts.
@@ -5324,17 +5324,17 @@ The class of decision problems solvable by an NP machine such that
 If the answer is 'no,' then all computation paths reject.
 If the answer is 'yes,' then at least one path accepts; furthermore, the number of accepting paths is upper-bounded by a polynomial in n, the size of the input.
 
-Defined in [AR88].
+Defined in [[ZooRefs#AR88|AR88]].
 
-Is contained in ⊕P [CH89].
+Is contained in ⊕P [[ZooRefs#CH89|CH89]].
 
-There exists an oracle relative to which P, UP, FewP, and NP are all distinct [Rub88].
+There exists an oracle relative to which P, UP, FewP, and NP are all distinct [[ZooRefs#Rub88|Rub88]].
 
-Also, there exists an oracle relative to which FewP does not have a Turing-complete set [HJV93].
+Also, there exists an oracle relative to which FewP does not have a Turing-complete set [[ZooRefs#HJV93|HJV93]].
 
 Contained in Few.
 
-See also the survey [Tor90].
+See also the survey [[ZooRefs#Tor90|Tor90]].
 == Relations ==
 
 '''
@@ -5366,7 +5366,7 @@ Can be defined as the class of problems polynomial-time Turing reducible to the 
 
 Contains P and is contained in GI.
 
-See [KST93] for much more information about GA.
+See [[ZooRefs#KST93|KST93]] for much more information about GA.
 
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether a given graph has any nontrivial automorphisms.
 == Relations ==
@@ -5435,11 +5435,11 @@ verifying the answer in complexity class C.
 
 For example, GC(p(n),P) = NP where p is a polynomial.
 
-Defined in [CC93].
+Defined in [[ZooRefs#CC93|CC93]].
 
-Umans [Uma98] has shown that given a DNF expression Φ, the Shortest Implicant problem is GC(log^2^n, coNP)-complete.
+Umans [[ZooRefs#Uma98|Uma98]] has shown that given a DNF expression Φ, the Shortest Implicant problem is GC(log^2^n, coNP)-complete.
 
-Umans [Uma98] has shown that given a DNF expression Φ, the Shortest Implicant problem (is there a conjunction of at most k negated or non-negated literals that implies Φ?) is GC(log^2^n, coNP)-complete.
+Umans [[ZooRefs#Uma98|Uma98]] has shown that given a DNF expression Φ, the Shortest Implicant problem (is there a conjunction of at most k negated or non-negated literals that implies Φ?) is GC(log^2^n, coNP)-complete.
 == Relations ==
 
 '''
@@ -5469,13 +5469,13 @@ text = u'''
 
 The class of languages generated by context-sensitive grammars in which the right-hand side of each transformation is either strictly longer than the left-hand side or the left-hand side consists of the start symbol.
 
-Defined in [DW86] and shown to be contained in LOGCFL (and therefore in P among others).
+Defined in [[ZooRefs#DW86|DW86]] and shown to be contained in LOGCFL (and therefore in P among others).
 
-Shown to be equivalent to Acyclic CSL in [Nie02].
+Shown to be equivalent to Acyclic CSL in [[ZooRefs#Nie02|Nie02]].
 
 The class of languages generated by context-sensitive grammars in which the right-hand side of each transformation is strictly longer than the left-hand side.
 
-Defined in [DW86].
+Defined in [[ZooRefs#DW86|DW86]].
 == Relations ==
 
 '''
@@ -5509,7 +5509,7 @@ Contains GA and is contained in Δ,,2,,P.
 
 The Graph Isomorphism problem itself (as opposed to the set of problems Turing reducible to Graph Isomorphism) is contained in NP as well as coAM (and indeed SZK).  So in particular, if Graph Isomorphism is NP-complete, then PH collapses.
 
-See [KST93] for much more information about GI.
+See [[ZooRefs#KST93|KST93]] for much more information about GI.
 
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether two graphs are isomorphic.
 
@@ -5543,9 +5543,9 @@ text = u'''
 
 The class of NPO problems which have the property that for all locally optimal solutions, the ratio between the values of the local and global optima is upper-bounded by a constant.
 
-Defined in [AP95], where it was also shown that GLO is strictly contained in APX.
+Defined in [[ZooRefs#AP95|AP95]], where it was also shown that GLO is strictly contained in APX.
 
-[KMS+99] showed that MaxSNP is not contained in GLO.
+[[ZooRefs#KMS+99|KMS+99]] showed that MaxSNP is not contained in GLO.
 == Relations ==
 
 '''
@@ -5575,7 +5575,7 @@ text = u'''
 
 Same as PCD(r(n),q(n)), except that now the verifier is allowed nonadaptively to query O(q(n)) rounds of the debate, with no restriction on the number of bits it looks at within each round.
 
-Defined in [CFL+93], who also showed that PCD(log n, q(n)) = GPCD(log n, q(n)) for every q(n).
+Defined in [[ZooRefs#CFL+93|CFL+93]], who also showed that PCD(log n, q(n)) = GPCD(log n, q(n)) for every q(n).
 == Relations ==
 
 '''
@@ -5605,7 +5605,7 @@ text = u'''
 
 (Basically) the class of decision problems of the form (x,k) (k a parameter), that are solvable by a parameterized family of circuits with unbounded fanin and depth t.  A uniformity condition may also be imposed.
 
-Defined in [DF99], which should be consulted for the full definition.
+Defined in [[ZooRefs#DF99|DF99]], which should be consulted for the full definition.
 
 Uniform G[P] (i.e. with no restriction on depth) is equal to FPT.
 == Relations ==
@@ -5637,7 +5637,7 @@ text = u'''
 
 The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from #AC^0^ is the ability to subtract, using the constant -1.)
 
-Equals DiffAC^0^ under logspace uniformity [ABL98].
+Equals DiffAC^0^ under logspace uniformity [[ZooRefs#ABL98|ABL98]].
 == Relations ==
 
 '''
@@ -5697,7 +5697,7 @@ The class of functions f(x) such that for some NP machine, f(x) is the number of
 
 Equivalently, the closure of the #P functions under subtraction.
 
-Defined in [FFK94] and independently [Gup95].
+Defined in [[ZooRefs#FFK94|FFK94]] and independently [[ZooRefs#Gup95|Gup95]].
 == Relations ==
 
 '''
@@ -5731,7 +5731,7 @@ We define a relation of order  and arity  to be a subset of -tuple of relation o
 
 is the set of formulae with quantification up to order O. (resp. ) is defined as the set of formula in  beginning by an existantial (resp universal) quantifier followed by at most  alternation of quantifiers.
 
-This class was define in [HT06], and it was proved that  where  is the th level of the polynomial hierarchy.
+This class was define in [[ZooRefs#HT06|HT06]], and it was proved that  where  is the th level of the polynomial hierarchy.
 == Relations ==
 
 '''
@@ -5761,7 +5761,7 @@ text = u'''
 
 The class of decision problems that have SZK protocols assuming an honest verifier (i.e. one who doesn't try to learn more about the problem by deviating from the protocol).
 
-Equals SZK [Oka96].
+Equals SZK [[ZooRefs#Oka96|Oka96]].
 == Relations ==
 
 '''
@@ -5798,7 +5798,7 @@ Significantly, the number of candidate witnesses is restricted to be a power of 
 
 Contained in RP, EP, and Mod,,k,,P for every odd k.  Contained in EQP by the Deutsch-Jozsa algorithm.
 
-Defined in [BB92], where it was called C,,==,,P[half].  The name used here is from [BS00].  There it was shown that HalfP is contained in every similar class in which 1/2 is replaced by some other dyadic fraction.
+Defined in [[ZooRefs#BB92|BB92]], where it was called C,,==,,P[half].  The name used here is from [[ZooRefs#BS00|BS00]].  There it was shown that HalfP is contained in every similar class in which 1/2 is replaced by some other dyadic fraction.
 == Relations ==
 
 '''
@@ -5828,7 +5828,7 @@ text = u'''
 
 The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPP machine.
 
-[FS04] showed a strict hierarchy theorem for HeurBPP; thus, HeurBPP does not equal HeurBPTIME(n^c^) for any fixed c.
+[[ZooRefs#FS04|FS04]] showed a strict hierarchy theorem for HeurBPP; thus, HeurBPP does not equal HeurBPTIME(n^c^) for any fixed c.
 == Relations ==
 
 '''
@@ -5888,7 +5888,7 @@ text = u'''
 
 == Comments ==
 
-For functions  and , we say that tuple , where  is a language and  is a distribution of problem instances, if there exists a heuristic deterministic algorithm  such that for all  in the support of ,  runs in time bounded by  and with failure probability bounded by  [BT06].
+For functions  and , we say that tuple , where  is a language and  is a distribution of problem instances, if there exists a heuristic deterministic algorithm  such that for all  in the support of ,  runs in time bounded by  and with failure probability bounded by  [[ZooRefs#BT06|BT06]].
 == Relations ==
 
 '''
@@ -5918,7 +5918,7 @@ text = u'''
 
 Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.
 
-NP is not contained in HeurNTIME,,,,() for any constants  [Per07].
+NP is not contained in HeurNTIME,,,,() for any constants  [[ZooRefs#Per07|Per07]].
 == Relations ==
 
 '''
@@ -5946,9 +5946,9 @@ text = u'''
 
 == Comments ==
 
-The class of distributional problems solvable by a P machine. Defined in [Imp95], though he calls the class HP.
+The class of distributional problems solvable by a P machine. Defined in [[ZooRefs#Imp95|Imp95]], though he calls the class HP.
 
-Alternately, [BT06] define HeurP as being the set of tuples , where  is a language and  is a distribution of problem instances, such that there exists an algorithm  satisfying two properties:
+Alternately, [[ZooRefs#BT06|BT06]] define HeurP as being the set of tuples , where  is a language and  is a distribution of problem instances, such that there exists an algorithm  satisfying two properties:
 
 For every , for every  in the support of , and for every ,  runs in time bounded by .
  For every ,  is a heuristic algorithm for  whose error probability is bounded by .
@@ -5979,7 +5979,7 @@ text = u'''
 
 == Comments ==
 
-The class of distributional problems solvable by a PP machine. Defined in [Ill95], though he calls the class HPP.
+The class of distributional problems solvable by a PP machine. Defined in [[ZooRefs#Ill95|Ill95]], though he calls the class HPP.
 == Relations ==
 
 '''
@@ -6013,9 +6013,9 @@ For all k, H,,k,, is contained in H,,k+1,,.
 
 H,,0,, consists exactly of the problems complete for NP under Cook reductions.
 
-H,,1,, consists exactly of the problems complete for NP under strong non-deterministic Turing reductions [Sch83].
+H,,1,, consists exactly of the problems complete for NP under strong non-deterministic Turing reductions [[ZooRefs#Sch83|Sch83]].
 
-Defined in [Sch83].
+Defined in [[ZooRefs#Sch83|Sch83]].
 
 See also L,,k,,P.
 == Relations ==
@@ -6051,9 +6051,9 @@ There exists a polynomial p such that for any input y, A returns either "yes", "
 Whenever A returns "yes" or "no", it is correct.
 A returns either "yes" or "no" on x.
 
-Defined in [OKS+94]; see also [LV97].
+Defined in [[ZooRefs#OKS+94|OKS+94]]; see also [[ZooRefs#LV97|LV97]].
 
-If NP is contained in IC[log,poly], then P = NP [OKS+94].  Indeed, any self-reducible problem in IC[log,poly] is also in P.
+If NP is contained in IC[log,poly], then P = NP [[ZooRefs#OKS+94|OKS+94]].  Indeed, any self-reducible problem in IC[log,poly] is also in P.
 
 Strictly contains P/log, and is strictly contained in P/poly.
 == Relations ==
@@ -6088,18 +6088,18 @@ The class of decision problems for which a "yes" answer can be verified by an in
 If the answer is "yes," the prover must be able to behave in such a way that the verifier accepts with probability at least 2/3 (over the choice of the verifier's random bits).
 If the answer is "no," then however the prover behaves the verifier must reject with probability at least 2/3.
 
-Defined in [GMR89], with the motivation of providing a framework for the introduction of zero-knowledge proofs (see the class ZK). Interestingly, the power of general interactive proof systems is not decreased if the verifier is only allowed random queries (i.e., it merely tosses coins and sends any outcome to the prover). The latter model, known as the Arthur-Merlin (or public-coin) model was introduced independently (but later) in [Bab85], and a strong equivalent (which preserves the number of rounds) is proved in [GS86]. 
+Defined in [[ZooRefs#GMR89|GMR89]], with the motivation of providing a framework for the introduction of zero-knowledge proofs (see the class ZK). Interestingly, the power of general interactive proof systems is not decreased if the verifier is only allowed random queries (i.e., it merely tosses coins and sends any outcome to the prover). The latter model, known as the Arthur-Merlin (or public-coin) model was introduced independently (but later) in [[ZooRefs#Bab85|Bab85]], and a strong equivalent (which preserves the number of rounds) is proved in [[ZooRefs#GS86|GS86]]. 
 Often, it is required that the prover can convince the verifier to accept correct assertions with probability 1; this is called perfect completeness.
-However, the definitions with one-sided and two-sided error can be shown to be equivalent (see [FGM+89]).
+However, the definitions with one-sided and two-sided error can be shown to be equivalent (see [[ZooRefs#FGM+89|FGM+89]]).
 
-First demonstration to the power of interactive proofs was given by showing that for graph nonisomorphism (a problem not known in NP) has such proofs [GMW91]. Five years later is was shown that
-IP contains PH [LFK+90], and indeed (this was discovered only a few weeks later) equals PSPACE [Sha90].  On the other hand, coNP is not contained in IP relative to a random oracle [CCG+94].
+First demonstration to the power of interactive proofs was given by showing that for graph nonisomorphism (a problem not known in NP) has such proofs [[ZooRefs#GMW91|GMW91]]. Five years later is was shown that
+IP contains PH [[ZooRefs#LFK+90|LFK+90]], and indeed (this was discovered only a few weeks later) equals PSPACE [[ZooRefs#Sha90|Sha90]].  On the other hand, coNP is not contained in IP relative to a random oracle [[ZooRefs#CCG+94|CCG+94]].
 
 See also: MIP, QIP, MA, AM.
 
 The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a BPP (i.e. probabilistic polynomial-time) verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:
 
-IP contains PH [LFK+90], and indeed (this was discovered only a few days later) equals PSPACE [Sha90].  On the other hand, coNP is not contained in IP relative to a random oracle [CCG+94].
+IP contains PH [[ZooRefs#LFK+90|LFK+90]], and indeed (this was discovered only a few days later) equals PSPACE [[ZooRefs#Sha90|Sha90]].  On the other hand, coNP is not contained in IP relative to a random oracle [[ZooRefs#CCG+94|CCG+94]].
 
 See also: MIP, QIP, MA, AM.
 == Relations ==
@@ -6131,7 +6131,7 @@ text = u'''
 
 Same as IP, except that if the answer is "yes," there need only be a prover strategy that causes the verifier to accept with probability greater than 1/2, while if the answer is "no," then for all prover strategies the verifier accepts with probability less than 1/2.
 
-Defined in [CCG+94], where it was also shown that IPP = PSPACE relative to all oracles.  Since IP is strictly contained in PSPACE relative to a random oracle, the authors interpreted this as evidence against the Random Oracle Hypothesis (a slight change in definition can cause the behavior of a class relative to a random oracle to change drastically).
+Defined in [[ZooRefs#CCG+94|CCG+94]], where it was also shown that IPP = PSPACE relative to all oracles.  Since IP is strictly contained in PSPACE relative to a random oracle, the authors interpreted this as evidence against the Random Oracle Hypothesis (a slight change in definition can cause the behavior of a class relative to a random oracle to change drastically).
 
 See also: PPSPACE.
 == Relations ==
@@ -6189,9 +6189,9 @@ text = u'''
 
 == Comments ==
 
-A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [Con73], who mistakenly claimed it coincides with FP.
+A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [[ZooRefs#Con73|Con73]], who mistakenly claimed it coincides with FP.
 
-Equals U,,D,,-uniform FTC^0^ by [Hes01].
+Equals U,,D,,-uniform FTC^0^ by [[ZooRefs#Hes01|Hes01]].
 == Relations ==
 
 '''
@@ -6221,15 +6221,15 @@ text = u'''
 
 The class of decision problems solvable by a Turing machine restricted to use an amount of memory logarithmic in the size of the input, n.  (The input itself is not counted as part of the memory.)
 
-L is contained in P.  L contains NC^1^ [Bor77], and is contained in generalizations including NL, L/poly, SL, RL, ⊕L, and Mod,,k,,L.
+L is contained in P.  L contains NC^1^ [[ZooRefs#Bor77|Bor77]], and is contained in generalizations including NL, L/poly, SL, RL, ⊕L, and Mod,,k,,L.
 
-Reingold [Rei04] showed that, remarkably, L = SL.  In other words, undirected graph connectivity is solvable in deterministic logarithmic space.
+Reingold [[ZooRefs#Rei04|Rei04]] showed that, remarkably, L = SL.  In other words, undirected graph connectivity is solvable in deterministic logarithmic space.
 
-Immerman [Imm83] showed that L is the class FO(dtc) of first-order expressible queries with a deterministic transitive closure.
+Immerman [[ZooRefs#Imm83|Imm83]] showed that L is the class FO(dtc) of first-order expressible queries with a deterministic transitive closure.
 
 L queries are exactly the one that can be written in a syntactic restriction of  While languages.
 
-L contains NC^1^ [Bor77], and is contained in generalizations including NL, L/poly, SL, RL, ⊕L, and Mod,,k,,L.
+L contains NC^1^ [[ZooRefs#Bor77|Bor77]], and is contained in generalizations including NL, L/poly, SL, RL, ⊕L, and Mod,,k,,L.
 == Relations ==
 
 '''
@@ -6259,9 +6259,9 @@ text = u'''
 
 Has the same relation to L as P/poly does to P.
 
-Equals PBP [Cob66].
+Equals PBP [[ZooRefs#Cob66|Cob66]].
 
-Contains SL [AKL+79].
+Contains SL [[ZooRefs#AKL+79|AKL+79]].
 == Relations ==
 
 '''
@@ -6291,7 +6291,7 @@ text = u'''
 
 The class of decision problems solvable by a nonuniform family of Boolean circuits, with linear size, constant depth and unbounded fanin.
 
-It is equivalent to AC^0^ with bounded fanout and it is properly contained in AC^0^ [CR96].
+It is equivalent to AC^0^ with bounded fanout and it is properly contained in AC^0^ [[ZooRefs#CR96|CR96]].
 == Relations ==
 
 '''
@@ -6351,7 +6351,7 @@ text = u'''
 
 The class of decision problems solvable by a deterministic Turing machine in linear time.
 
-Strictly Contained in NLIN. [PPS+83].
+Strictly Contained in NLIN. [[ZooRefs#PPS+83|PPS+83]].
 
 Contained in NLIN.
 == Relations ==
@@ -6383,11 +6383,11 @@ text = u'''
 
 The class of decision problems reducible in L to the problem of deciding membership in a context-free language.
 
-Equivalently, LOGCFL is the class of decision problems solvable by a uniform family of AC^1^ circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [Joh90], p. 137).
+Equivalently, LOGCFL is the class of decision problems solvable by a uniform family of AC^1^ circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [[ZooRefs#Joh90|Joh90]], p. 137).
 
-LOGCFL is closed under complement [BCD+89].
+LOGCFL is closed under complement [[ZooRefs#BCD+89|BCD+89]].
 
-Contains NL [Sud78].
+Contains NL [[ZooRefs#Sud78|Sud78]].
 == Relations ==
 
 '''
@@ -6415,11 +6415,11 @@ text = u'''
 
 == Comments ==
 
-There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [Szep94] and [LiRe93]. The alternation hierarchy for this class is infinite ([BGR93]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([Geff91]).
+There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [[ZooRefs#Szep94|Szep94]] and [[ZooRefs#LiRe93|LiRe93]]. The alternation hierarchy for this class is infinite ([[ZooRefs#BGR93|BGR93]]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([[ZooRefs#Geff91|Geff91]]).
 
-Sublogarithmically-bounded Turing reductions are equivalent to "regular" (constant-bounded) reductions, however ([Agr01]).
+Sublogarithmically-bounded Turing reductions are equivalent to "regular" (constant-bounded) reductions, however ([[ZooRefs#Agr01|Agr01]]).
 
-Note that while there are no decision problems that can be tested in one-way loglog space, there are promise problems which can be so tested, such as Balanced Monotone Boolean Sentence Value [Buss91]. Also, the alternation hierarchy over 1-way loglog space still does not collapse.
+Note that while there are no decision problems that can be tested in one-way loglog space, there are promise problems which can be so tested, such as Balanced Monotone Boolean Sentence Value [[ZooRefs#Buss91|Buss91]]. Also, the alternation hierarchy over 1-way loglog space still does not collapse.
 
 Obviously contained in L.
 == Relations ==
@@ -6455,9 +6455,9 @@ The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...
 
 LOGNP,,0,, is the subclass in which φ is a first-order predicate without quantifiers and x and y are bounded lists of indices of input bits.  LOGNP is also the closure of LOGNP,,0,, under many-one reduction.
 
-The motivation is that the analogue of LOGNP,,0,, without the logarithmic bound on |S| is SO-E, which by Fagin's theorem equals NP [Fag74].
+The motivation is that the analogue of LOGNP,,0,, without the logarithmic bound on |S| is SO-E, which by Fagin's theorem equals NP [[ZooRefs#Fag74|Fag74]].
 
-Defined in [PY96], where it was also shown that the following problem is complete for LOGNP under many-one reductions:
+Defined in [[ZooRefs#PY96|PY96]], where it was also shown that the following problem is complete for LOGNP under many-one reductions:
 
 Vapnik-Chervonenkis (V-C) Dimension.  Given a family F of subsets of a set U, find a subset of S of U of maximum cardinality, such that every subset of S can be written as the intersection of S with some set in F.
 
@@ -6497,11 +6497,11 @@ The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...
 
 LOGSNP,,0,, is the subclass in which φ is a first-order predicate without quantifiers and x is a bounded lists of indices of input bits.  LOGSNP is also the closure of LOGSNP,,0,, under many-one reduction.  See LOGNP and SNP for the motivation.
 
-Defined in [PY96].
+Defined in [[ZooRefs#PY96|PY96]].
 
 Contained in LOGNP, and therefore QPLIN.
 
-If P = LOGSNP, then for every constructible f(n) > n, NTIME(f(n)) is contained in DTIME(g(n)^sqrt(g(n))^), where g(n) = O(f(n) logf(n)) [FK97].
+If P = LOGSNP, then for every constructible f(n) > n, NTIME(f(n)) is contained in DTIME(g(n)^sqrt(g(n))^), where g(n) = O(f(n) logf(n)) [[ZooRefs#FK97|FK97]].
 
 The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists j such that the predicate φ(I,s,,j,,,x,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in P.
 == Relations ==
@@ -6536,17 +6536,17 @@ The class of decision problems solvable by an NP machine such that
 If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
 If the answer is "yes," then the difference of these numbers equals a function f(|x|) computable in polynomial time (i.e. FP).  Here |x| is the length of the input x, and ``polynomial time means polynomial in |x|, the length of x, rather than the length of |x|.
 
-Defined in [FFK94], where it was also shown that LWPP is low for PP and C,,=,,P.  (I.e. adding LWPP as an oracle does not increase the power of these classes.)
+Defined in [[ZooRefs#FFK94|FFK94]], where it was also shown that LWPP is low for PP and C,,=,,P.  (I.e. adding LWPP as an oracle does not increase the power of these classes.)
 
 Contained in WPP and AWPP.
 
 Contains SPP.
 
-Also, contains the graph isomorphism problem [KST92].
+Also, contains the graph isomorphism problem [[ZooRefs#KST92|KST92]].
 
-Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04].
+Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [[ZooRefs#Vin04|Vin04]].
 
-Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [Vin04]
+Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [[ZooRefs#Vin04|Vin04]]
 == Relations ==
 
 '''
@@ -6580,7 +6580,7 @@ L,,1,,P = NP ∩ coNP.
 
 For all k, L,,k,, is contained in L,,k+1,, and in NP.
 
-Defined in [Sch83].
+Defined in [[ZooRefs#Sch83|Sch83]].
 
 See also H,,k,,P.
 == Relations ==
@@ -6615,7 +6615,7 @@ The class of decision problems solvable by an NL machine such that
 The number of accepting paths on input x is f(x), and
 The answer is 'yes' if and only if R(x,f(x))=1, where R is some predicate computable in L.
 
-Defined in [BDH+92], where it was also shown that LogFew is contained in Mod,,k,,L for all k>1.
+Defined in [[ZooRefs#BDH+92|BDH+92]], where it was also shown that LogFew is contained in Mod,,k,,L for all k>1.
 == Relations ==
 
 '''
@@ -6645,7 +6645,7 @@ text = u'''
 
 Same as FewP but for logspace-bounded (i.e. NL) machines.
 
-Defined in [BDH+92], where it was also shown that LogFewNL is contained in ModZ,,k,,L for all k>1.
+Defined in [[ZooRefs#BDH+92|BDH+92]], where it was also shown that LogFewNL is contained in ModZ,,k,,L for all k>1.
 == Relations ==
 
 '''
@@ -6678,18 +6678,18 @@ The class of decision problems solvable by a Merlin-Arthur protocol, which goes 
 If the answer is "yes," then there exists a proof such that Arthur accepts with probability at least 2/3.
 If the answer is "no," then for all proofs Arthur accepts with probability at most 1/3.
 
-An alternative definition requires that if the answer is "yes," then there exists a proof such that Arthur accepts with certainty.  However, the definitions with one-sided and two-sided error can be shown to be equivalent (see [FGM+89]).
+An alternative definition requires that if the answer is "yes," then there exists a proof such that Arthur accepts with certainty.  However, the definitions with one-sided and two-sided error can be shown to be equivalent (see [[ZooRefs#FGM+89|FGM+89]]).
 
 Contains NP and BPP 
 (in fact also ∃BPP), and is contained in AM and in QMA.
 
 Also contained in Σ,,2,,P ∩ Π,,2,,P.
 
-There exists an oracle relative to which BQP is not in MA [Wat00].
+There exists an oracle relative to which BQP is not in MA [[ZooRefs#Wat00|Wat00]].
 
-Equals NP under a derandomization assumption: if E requires exponentially-sized circuits, then PromiseBPP = PromiseP, implying that MA = NP [IW97].
+Equals NP under a derandomization assumption: if E requires exponentially-sized circuits, then PromiseBPP = PromiseP, implying that MA = NP [[ZooRefs#IW97|IW97]].
 
-Shown in [San07] that MA/1 does not have circuits of size  for any . In the same paper, the result was used to show that MA/1 cannot be solved on more than a  fraction of inputs having length  by any circuit of size . Finally, it was shown that MA does not have arithmetic circuits of size .
+Shown in [[ZooRefs#San07|San07]] that MA/1 does not have circuits of size  for any . In the same paper, the result was used to show that MA/1 cannot be solved on more than a  fraction of inputs having length  by any circuit of size . Finally, it was shown that MA does not have arithmetic circuits of size .
 
 See also: MA,,E,,, MA,,EXP,,.
 
@@ -6727,7 +6727,7 @@ text = u'''
 
 The subclass of MA such that for each input size n, there is a sparse set S,,n,, that Merlin's proof string always belongs to (no matter what the input is).
 
-Defined in [KST93], where it is also observed that if graph isomorphism is in P/poly, then the complement of graph isomorphism is in MA'.
+Defined in [[ZooRefs#KST93|KST93]], where it is also observed that if graph isomorphism is in P/poly, then the complement of graph isomorphism is in MA'.
 == Relations ==
 
 '''
@@ -6757,9 +6757,9 @@ text = u'''
 
 Same as AC^0^, except now we're allowed a single unbounded-fanin majority gate at the root.
 
-Defined in [JKS02].
+Defined in [[ZooRefs#JKS02|JKS02]].
 
-MAC^0^ is strictly contained in TC^0^ [ABF+94].
+MAC^0^ is strictly contained in TC^0^ [[ZooRefs#ABF+94|ABF+94]].
 == Relations ==
 
 '''
@@ -6789,7 +6789,7 @@ text = u'''
 
 Same as MA, except now Arthur is E instead of polynomial-time.
 
-If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].
+If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [[ZooRefs#IKW01|IKW01]].
 == Relations ==
 
 '''
@@ -6819,9 +6819,9 @@ text = u'''
 
 Same as MA, except now Arthur is EXP instead of polynomial-time, and the message from Merlin can be exponentially long.
 
-There is a problem in MA,,EXP,, that does not have polynomial-size circuits [BFT98].  On the other hand, there is an oracle relative to which every problem in MA,,EXP,, does have polynomial-size circuits.
+There is a problem in MA,,EXP,, that does not have polynomial-size circuits [[ZooRefs#BFT98|BFT98]].  On the other hand, there is an oracle relative to which every problem in MA,,EXP,, does have polynomial-size circuits.
 
-[MVW99] considered the best circuit lower bound obtainable for a problem in MA,,EXP,,, using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
+[[ZooRefs#MVW99|MVW99]] considered the best circuit lower bound obtainable for a problem in MA,,EXP,,, using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
 == Relations ==
 
 '''
@@ -6851,7 +6851,7 @@ text = u'''
 
 Identical to MA except for that Arthur (the verifier) has random access to the proof string given by Merlin, and is limited to running times of order .
 
-This class was used by [SM03] to show that if EXP has circuits of polynomial size, then EXP = MA.
+This class was used by [[ZooRefs#SM03|SM03]] to show that if EXP has circuits of polynomial size, then EXP = MA.
 == Relations ==
 
 '''
@@ -6881,11 +6881,11 @@ text = u'''
 
 Same as IP, except that now the verifier can exchange messages with many provers, not just one.  The provers cannot communicate with each other during the execution of the protocol, so the verifier can "cross-check" their assertions (as with suspects in separate interrogation rooms).
 
-Defined in [BGK+88].
+Defined in [[ZooRefs#BGK+88|BGK+88]].
 
-Let MIP[k] be the class of decision problems for which a "yes" answer can be verified with k provers.  Then for all k>2, MIP[k] = MIP[2] = MIP [BGK+88].
+Let MIP[k] be the class of decision problems for which a "yes" answer can be verified with k provers.  Then for all k>2, MIP[k] = MIP[2] = MIP [[ZooRefs#BGK+88|BGK+88]].
 
-MIP equals NEXP [BFL91]; this is a famous non-relativizing result.
+MIP equals NEXP [[ZooRefs#BFL91|BFL91]]; this is a famous non-relativizing result.
 == Relations ==
 
 '''
@@ -6915,15 +6915,15 @@ text = u'''
 
 Same as MIP, except that the provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
 
-Defined in [CHT+04], where evidence was given suggesting that MIP* does not "obviously" equal NEXP.
+Defined in [[ZooRefs#CHT+04|CHT+04]], where evidence was given suggesting that MIP* does not "obviously" equal NEXP.
 
-MIP* contains NEXP [IV12]. By contrast, MIP, the corresponding class without entanglement, equals NEXP (and even MIP[2,1] with two provers and one round equals NEXP).
+MIP* contains NEXP [[ZooRefs#IV12|IV12]]. By contrast, MIP, the corresponding class without entanglement, equals NEXP (and even MIP[2,1] with two provers and one round equals NEXP).
 
-Even MIP*[4,poly] and MIP[5,1] contain NEXP [IV12].
+Even MIP*[4,poly] and MIP[5,1] contain NEXP [[ZooRefs#IV12|IV12]].
 
 MIP*[2,1] contains XOR-MIP*[2,1].
 
-In 2012 it was shown that QMIP = MIP* [RUV12]
+In 2012 it was shown that QMIP = MIP* [[ZooRefs#RUV12|RUV12]]
 == Relations ==
 
 '''
@@ -6953,7 +6953,7 @@ text = u'''
 
 Same as MIP[2], except that now only one round is allowed, and the two provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
 
-Defined in [CHT+04], where evidence was given suggesting that MIP* does not "obviously" equal NEXP.  By contrast, MIP[2,1], the corresponding class without entanglement, equals NEXP.
+Defined in [[ZooRefs#CHT+04|CHT+04]], where evidence was given suggesting that MIP* does not "obviously" equal NEXP.  By contrast, MIP[2,1], the corresponding class without entanglement, equals NEXP.
 
 Indeed, the relationship between MIP* and MIP = NEXP is completely unknown -- either could contain the other, or they could be incomparable.
 
@@ -6991,7 +6991,7 @@ The exponential-time analogue of MIP.
 
 In the unrelativized world, equals NEEXP.
 
-There exists an oracle relative to which MIP,,EXP,, equals the intersection of P/poly, P^NP^, and ⊕P [BFT98].
+There exists an oracle relative to which MIP,,EXP,, equals the intersection of P/poly, P^NP^, and ⊕P [[ZooRefs#BFT98|BFT98]].
 == Relations ==
 
 '''
@@ -7021,7 +7021,7 @@ text = u'''
 
 The set of all problems reducible to matrix multiplication. That is, the set of problems  that can be reduced to the multiplication of two square matrices can be reduced to  in linear time.
 
-Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [CW90]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.
+Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [[ZooRefs#CW90|CW90]]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.
 == Relations ==
 
 '''
@@ -7049,7 +7049,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [FV93] as a subclass of SNP.  There are three syntactic restrictions defining the subclass MMSNP, based on the form of the SNP formula defining the language:
+Defined in [[ZooRefs#FV93|FV93]] as a subclass of SNP.  There are three syntactic restrictions defining the subclass MMSNP, based on the form of the SNP formula defining the language:
 
 The second order existentially quantified variables, known as the proof relations, are restricted to be monadic.  (Monadic relations can be treated as sets.)
  Any relations in the formula other than the proof relations must occur only negated (the formula is monotone).
@@ -7059,7 +7059,7 @@ MMSNP seems to obey dichotomy, by excluding languages that are NP-intermediate. 
 
 Every constraint satisfaction problem with a fixed target structure is expressible in MMSNP, and there is a polynomial time Turing reduction from every MMSNP query to finitely many constraint satisfaction problems.  MMSNP therefore seems to capture the class of constraint satisfaction problems with fixed templates, CSP.
 
-Defined in [FV93] as a subclass of SNP, where the second order existentially quantified variables are sets (monadic) and any relations in the first-order part occur negated (monotone).  Further, no inequalities can occur in the first-order part.
+Defined in [[ZooRefs#FV93|FV93]] as a subclass of SNP, where the second order existentially quantified variables are sets (monadic) and any relations in the first-order part occur negated (monotone).  Further, no inequalities can occur in the first-order part.
 
 MMSNP seems to obey dichotomy, by excluding Ladner languages.  This is still open but widely believed.  Dropping any of the restrictions monotone/monadic/without inequalities          allows Ladner languages unless P = NP, since any problem in NP is polynomial time equivalent to a problem in each of these broader classes.  MMSNP therefore seems to be a maximal fragment of NP where Ladner languages are excluded.
 
@@ -7093,11 +7093,11 @@ text = u'''
 
 The class of decision problems such that for some #P function f, the answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
 
-Defined in [GKR+95].
+Defined in [[ZooRefs#GKR+95|GKR+95]].
 
 Contains AmpMP and PH.
 
-MP with ModP oracle equals MP with #P oracle [KT96].
+MP with ModP oracle equals MP with #P oracle [[ZooRefs#KT96|KT96]].
 == Relations ==
 
 '''
@@ -7129,9 +7129,9 @@ The class of decision problems solvable by a family of monotone stratified plana
 
 Such a circuit can contain only AND and OR gates of bounded fanin.  It must be embeddable in the plane with no wires crossing.  Furthermore, the input bits can only be accessed at the bottom level, where they are listed in order (x,,1,,,...,x,,n,,).
 
-Defined in [DC89].
+Defined in [[ZooRefs#DC89|DC89]].
 
-[BLM+99] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.
+[[ZooRefs#BLM+99|BLM+99]] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.
 == Relations ==
 
 '''
@@ -7163,7 +7163,7 @@ Has the same relation to NP as MaxSNP does to SNP.
 
 Contains MaxPB.
 
-The closure of MaxNP under PTAS reduction is APX [KMS+99], [CT94].
+The closure of MaxNP under PTAS reduction is APX [[ZooRefs#KMS+99|KMS+99]], [[ZooRefs#CT94|CT94]].
 == Relations ==
 
 '''
@@ -7195,9 +7195,9 @@ The subclass of MaxNP problems for which the cost function is guaranteed always 
 
 MinPB can be defined similarly.
 
-Defined in [KT94].
+Defined in [[ZooRefs#KT94|KT94]].
 
-The closure of MaxPB under PTAS reductions equals NPOPB [CKS+99].
+The closure of MaxPB under PTAS reductions equals NPOPB [[ZooRefs#CKS+99|CKS+99]].
 == Relations ==
 
 '''
@@ -7225,14 +7225,14 @@ text = u'''
 
 == Comments ==
 
-The class of optimization problems reducible by an "L-reduction" to a problem in MaxSNP,,0,,.  (Note: 'L' stands for linear -- this is not the same as an L reduction!  For more details see [PY88].)
+The class of optimization problems reducible by an "L-reduction" to a problem in MaxSNP,,0,,.  (Note: 'L' stands for linear -- this is not the same as an L reduction!  For more details see [[ZooRefs#PY88|PY88]].)
 
-Defined in [PY88], where the following was also shown:
+Defined in [[ZooRefs#PY88|PY88]], where the following was also shown:
 
 Max3SAT is MaxSNP-complete.  (Max3SAT is the problem of finding an assignment that maximizes the number of satisfied clauses in a CNF formula with at most 3 literals per clause.)
 Any problem in MaxSNP can be approximated to within a fixed ratio.
 
-The closure of MaxSNP under PTAS reduction is APX [KMS+99], [CT94].
+The closure of MaxSNP under PTAS reduction is APX [[ZooRefs#KMS+99|KMS+99]], [[ZooRefs#CT94|CT94]].
 == Relations ==
 
 '''
@@ -7262,11 +7262,11 @@ text = u'''
 
 The class of function problems expressible as "find a relation such that the set of k-tuples for which a given SNP predicate holds has maximum cardinality."
 
-For example (see [Pap94]), the Max-Cut problem can be expressed as follows:
+For example (see [[ZooRefs#Pap94|Pap94]]), the Max-Cut problem can be expressed as follows:
 
 Given a graph G, find a subset S of vertices that maximizes the number of pairs (u,v) of vertices such that u is in S, and v is not in S, and G has an edge from u to v.
 
-Defined in [PY88].
+Defined in [[ZooRefs#PY88|PY88]].
 == Relations ==
 
 '''
@@ -7327,9 +7327,9 @@ A language  if there are functions  and  such that for all strings :
 There exists a prime  and a natural number  such that .
   if and only if .
 
-Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [AV04].
+Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|AV04]].
 
-Defined in [AV04].
+Defined in [[ZooRefs#AV04|AV04]].
 == Relations ==
 
 '''
@@ -7359,7 +7359,7 @@ text = u'''
 
 The class of decision problems solvable by a Mod,,k,,P machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
 
-Defined in [KT96], where it was also shown that ModP is contained in AmpMP.
+Defined in [[ZooRefs#KT96|KT96]], where it was also shown that ModP is contained in AmpMP.
 == Relations ==
 
 '''
@@ -7392,7 +7392,7 @@ The class of decision problems solvable by a nondeterministic logspace Turing ma
 If the answer is "yes," then the number of accepting paths is not congruent to 0 mod k.
 If the answer is "no," then there are no accepting paths.
 
-Defined in [BDH+92], where it was also shown that ModZ,,k,,L contains LogFewNL for all k>1.
+Defined in [[ZooRefs#BDH+92|BDH+92]], where it was also shown that ModZ,,k,,L contains LogFewNL for all k>1.
 
 Contained in Mod,,k,,L and in NL.
 == Relations ==
@@ -7424,11 +7424,11 @@ text = u'''
 
 Has the same relation to L as Mod,,k,,P does to P.
 
-For any prime k, Mod,,k,,L contains SL [KW93].
+For any prime k, Mod,,k,,L contains SL [[ZooRefs#KW93|KW93]].
 
-For any prime k, Mod,,k,,L^ModkL^ = Mod,,k,,L [HRV00].
+For any prime k, Mod,,k,,L^ModkL^ = Mod,,k,,L [[ZooRefs#HRV00|HRV00]].
 
-For any k>1, contains LogFew [BDH+92].
+For any k>1, contains LogFew [[ZooRefs#BDH+92|BDH+92]].
 == Relations ==
 
 '''
@@ -7460,15 +7460,15 @@ For any k>1: The class of decision problems solvable by an NP machine such that 
 
 Mod,,2,,P is more commonly known as ⊕P "parity-P."
 
-For every k, Mod,,k,,P contains graph isomorphism [AK02].
+For every k, Mod,,k,,P contains graph isomorphism [[ZooRefs#AK02|AK02]].
 
-Defined in [CH89], [Her90].
+Defined in [[ZooRefs#CH89|CH89]], [[ZooRefs#Her90|Her90]].
 
-[Her90] and [BG92] showed that Mod,,k,,P is the set of unions of languages in Mod,,p,,P for each prime p that divides k.  In particular, if p is prime, then Mod,,p,,P = Mod,,p^m,,P for all positive integers m.  A further fact is that Mod,,p,,P is closed under union, intersection, and complement for p prime.
+[[ZooRefs#Her90|Her90]] and [[ZooRefs#BG92|BG92]] showed that Mod,,k,,P is the set of unions of languages in Mod,,p,,P for each prime p that divides k.  In particular, if p is prime, then Mod,,p,,P = Mod,,p^m,,P for all positive integers m.  A further fact is that Mod,,p,,P is closed under union, intersection, and complement for p prime.
 
-On the other hand, if k is not a prime power, then there exists an oracle relative to which Mod,,k,,P is not closed under intersection or complement [BBR94].
+On the other hand, if k is not a prime power, then there exists an oracle relative to which Mod,,k,,P is not closed under intersection or complement [[ZooRefs#BBR94|BBR94]].
 
-For prime p, there exists an oracle relative to which Mod,,p,,P does not contain EQP [GV02].
+For prime p, there exists an oracle relative to which Mod,,p,,P does not contain EQP [[ZooRefs#GV02|GV02]].
 == Relations ==
 
 '''
@@ -7498,7 +7498,7 @@ text = u'''
 
 The class of problems solvable by nondeterministic logarithmic-space and polynomial-time Turing machines with auxiliary pushdown.
 
-Equals LOGCFL [Sud78].
+Equals LOGCFL [[ZooRefs#Sud78|Sud78]].
 == Relations ==
 
 '''
@@ -7540,9 +7540,9 @@ Contains NL.
 
 Generalizations include RNC and QNC.
 
-[IN96] construct a candidate pseudorandom generator in NC based on the subset sum problem.
+[[ZooRefs#IN96|IN96]] construct a candidate pseudorandom generator in NC based on the subset sum problem.
 
-For a random oracle A, (NC^i^)^A^ is strictly contained in (NC^i+1^)^A^, and uniform NC^A^ is strictly contained in P^A^, with probability 1 [Mil92].
+For a random oracle A, (NC^i^)^A^ is strictly contained in (NC^i+1^)^A^, and uniform NC^A^ is strictly contained in P^A^, with probability 1 [[ZooRefs#Mil92|Mil92]].
 
 In descriptive complexity, NC can be defined by FO[]
 
@@ -7576,9 +7576,9 @@ text = u'''
 
 By definition, a decision problem in NC^0^ can depend on only a constant number of bits of the input.  Thus, NC^0^ usually refers to functions computable by constant-depth, bounded-fanin circuits.
 
-There is a family of permutations computable by a uniform family of NC^0^ circuits that is P-hard to invert [Has88].
+There is a family of permutations computable by a uniform family of NC^0^ circuits that is P-hard to invert [[ZooRefs#Has88|Has88]].
 
-Recently [AIK04] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in NC^0^, based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [AIK04] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
+Recently [[ZooRefs#AIK04|AIK04]] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in NC^0^, based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [[ZooRefs#AIK04|AIK04]] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
 == Relations ==
 
 '''
@@ -7608,19 +7608,19 @@ text = u'''
 
 See NC for definition.
 
-[KV94] give a family of functions that is computable in NC^1^, but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
+[[ZooRefs#KV94|KV94]] give a family of functions that is computable in NC^1^, but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
 
-Was shown to equal 5-PBP [Bar89].  On the other hand, width 5 is necessary unless NC^1^ = ACC^0^ [BT88].
+Was shown to equal 5-PBP [[ZooRefs#Bar89|Bar89]].  On the other hand, width 5 is necessary unless NC^1^ = ACC^0^ [[ZooRefs#BT88|BT88]].
 
-As an application of this result, NC^1^ can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [ASV00].  Surprisingly, [AMP02] showed that only a single qubit is needed to simulate NC^1^ - i.e. that NC^1^ is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
+As an application of this result, NC^1^ can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [[ZooRefs#ASV00|ASV00]].  Surprisingly, [[ZooRefs#AMP02|AMP02]] showed that only a single qubit is needed to simulate NC^1^ - i.e. that NC^1^ is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
 
-Is contained in L [Bor77].
+Is contained in L [[ZooRefs#Bor77|Bor77]].
 
 Contains TC^0^.
 
-NC^1^ contains the integer division problem [BCH86], even if an L-uniformity condition is imposed [CDL01].
+NC^1^ contains the integer division problem [[ZooRefs#BCH86|BCH86]], even if an L-uniformity condition is imposed [[ZooRefs#CDL01|CDL01]].
 
-U,,E^*^,,-uniform NC^1^ is equal to ALOGTIME [RUZ81].
+U,,E^*^,,-uniform NC^1^ is equal to ALOGTIME [[ZooRefs#RUZ81|RUZ81]].
 == Relations ==
 
 '''
@@ -7680,7 +7680,7 @@ text = u'''
 
 Nondeterministic exponential time with linear exponent (i.e. NTIME(2^O(n)^)).
 
-P^NE^ = NP^NE^ [Hem89].
+P^NE^ = NP^NE^ [[ZooRefs#Hem89|Hem89]].
 
 Contained in NEXP.
 == Relations ==
@@ -7740,7 +7740,7 @@ text = u'''
 
 Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^^)).
 
-If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [IKW01].
+If MA,,E,, = NEE then MA = NEXP ∩ coNEXP [[ZooRefs#IKW01|IKW01]].
 
 Contained in NEEXP.
 
@@ -7834,25 +7834,25 @@ text = u'''
 
 Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).
 
-Equals MIP [BFL91] (but not relative to all oracles).
+Equals MIP [[ZooRefs#BFL91|BFL91]] (but not relative to all oracles).
 
-NEXP is in MIP* [IV12].
+NEXP is in MIP* [[ZooRefs#IV12|IV12]].
 
-NEXP is in P/poly if and only if NEXP = MA [IKW01].
+NEXP is in P/poly if and only if NEXP = MA [[ZooRefs#IKW01|IKW01]].
 
-[KI02] show the following:
+[[ZooRefs#KI02|KI02]] show the following:
 
 If P = RP, then NEXP is not computable by polynomial-size arithmetic circuits.
 If P = BPP and if checking whether a Boolean circuit computes a function that is close to a low-degree polynomial over a finite field is in P, then NEXP is not in P/poly.
 If NEXP is in P/poly, then matrix permanent is NEXP-complete.
 
-Does not equal NP [SFM78].
+Does not equal NP [[ZooRefs#SFM78|SFM78]].
 
 Does not equal EXP if and only if there is a sparse set in NP that is not in P.
 
-There exists an oracle relative to which EXP = NEXP but still P does not equal NP [Dek76].
+There exists an oracle relative to which EXP = NEXP but still P does not equal NP [[ZooRefs#Dek76|Dek76]].
 
-The theory of reals with addition (see EXPSPACE) is hard for NEXP [FR74].
+The theory of reals with addition (see EXPSPACE) is hard for NEXP [[ZooRefs#FR74|FR74]].
 == Relations ==
 
 '''
@@ -7908,7 +7908,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [M08] based on [DDPY98],[BFM88].
+Defined in [M08] based on [[ZooRefs#DDPY98|DDPY98]],[[ZooRefs#BFM88|BFM88]].
 
 Contained in PZK.
 
@@ -7943,7 +7943,7 @@ text = u'''
 
 Has the same relation to QSZK as NISZK does to SZK.
 
-Defined in [Kob02], where it was also shown that the following promise problem is complete for NIQSZK.  Given a quantum circuit, we are promised that the state it prepares (when run on the all-0 state, and tracing out non-output qubits) has trace distance either at most 1/3 or at least 2/3 from the maximally mixed state. The problem is to output "no" in the former case and "yes" in the latter.
+Defined in [[ZooRefs#Kob02|Kob02]], where it was also shown that the following promise problem is complete for NIQSZK.  Given a quantum circuit, we are promised that the state it prepares (when run on the all-0 state, and tracing out non-output qubits) has trace distance either at most 1/3 or at least 2/3 from the maximally mixed state. The problem is to output "no" in the former case and "yes" in the latter.
 
 NIQPZK can be defined similarly.
 == Relations ==
@@ -7973,11 +7973,11 @@ text = u'''
 
 == Comments ==
 
-Defined in [DDP+98].
+Defined in [[ZooRefs#DDP+98|DDP+98]].
 
 Contained in SZK.
 
-[GSV99] showed the following:
+[[ZooRefs#GSV99|GSV99]] showed the following:
 
 If SZK does not equal BPP then NISZK does not equal BPP.
 NISZK equals SZK if and only if NISZK is closed under complement.
@@ -8016,13 +8016,13 @@ text = u'''
 
 The non-interactive analogue of SZK,,h,,.
 
-Defined in [BG03], where the following was also shown:
+Defined in [[ZooRefs#BG03|BG03]], where the following was also shown:
 
 NISZK,,h,, contains NISZK and is contained in SZK.
 Graph Isomorphism is in NISZK,,h,,.
 The following problem is complete for NISZK,,h,,: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
 
-The quantum lower bound for the set comparison problem in [Aar02] implies an oracle relative to which NISZK,,h,, is not in BQP.
+The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|Aar02]] implies an oracle relative to which NISZK,,h,, is not in BQP.
 == Relations ==
 
 '''
@@ -8052,13 +8052,13 @@ text = u'''
 
 Has the same relation to L as NP does to P.
 
-In a breakthrough result, was shown to equal coNL [Imm88] [Sze87].  (Though contrast to mNL.)
+In a breakthrough result, was shown to equal coNL [[ZooRefs#Imm88|Imm88]] [[ZooRefs#Sze87|Sze87]].  (Though contrast to mNL.)
 
-Is contained in LOGCFL [Sud78], as well as NC^2^.
+Is contained in LOGCFL [[ZooRefs#Sud78|Sud78]], as well as NC^2^.
 
-Is contained in UL/poly [RA00].
+Is contained in UL/poly [[ZooRefs#RA00|RA00]].
 
-Deciding whether a bipartite graph has a perfect matching is hard for NL [KUW86].
+Deciding whether a bipartite graph has a perfect matching is hard for NL [[ZooRefs#KUW86|KUW86]].
 
 NL can be defined in a logical formalism as SO(krom) and also as FO(tc), reachability in directed graph is NL-Complete under FO-reduction.
 == Relations ==
@@ -8090,9 +8090,9 @@ text = u'''
 
 Has the same relation to NL as P/poly does to P.
 
-Is contained in ⊕L/poly [GW96], as well as SAC^1^.
+Is contained in ⊕L/poly [[ZooRefs#GW96|GW96]], as well as SAC^1^.
 
-Equals UL/poly [RA00].
+Equals UL/poly [[ZooRefs#RA00|RA00]].
 == Relations ==
 
 '''
@@ -8150,7 +8150,7 @@ text = u'''
 
 Same as NL -- but if there's an oracle, then NLOG can make queries nondeterministically on a polynomial-size, one-way oracle tape.  (NL, by contrast, can use nondeterministic transitions only on the worktape; oracle queries have to be deterministic.)
 
-See [LL76] or [HCK+88] for more information.
+See [[ZooRefs#LL76|LL76]] or [[ZooRefs#HCK+88|HCK+88]] for more information.
 
 Although NLOG is contained in P, there exists an oracle relative to which that is not the case.  This illustrates that care is needed when defining oracle access mechanisms.
 == Relations ==
@@ -8182,7 +8182,7 @@ text = u'''
 
 Class of functions computable in nearly linear time n(log n)^O(1)^ on deterministic random access machines.
 
-Defined in [GS89].
+Defined in [[ZooRefs#GS89|GS89]].
 
 See also QL.
 == Relations ==
@@ -8214,7 +8214,7 @@ text = u'''
 
 Same as NC, but with O(f(n)) nondeterministic gates. A nondeterministic gate has no inputs and a single output bit.
 
-Defined in [Wol94], where the author proves various inclusions, including but not limited to NNC(poly(n))=NP, NNC(log(n))=NC, and NNC(polylog)⊆DSPACE(polylog).
+Defined in [[ZooRefs#Wol94|Wol94]], where the author proves various inclusions, including but not limited to NNC(poly(n))=NP, NNC(log(n))=NC, and NNC(polylog)⊆DSPACE(polylog).
 == Relations ==
 
 '''
@@ -8242,9 +8242,9 @@ text = u'''
 
 == Comments ==
 
-Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals NQL [GS89].
+Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals NQL [[ZooRefs#GS89|GS89]].
 
-Defined in [GS89].
+Defined in [[ZooRefs#GS89|GS89]].
 == Relations ==
 
 '''
@@ -8321,9 +8321,9 @@ For example, the SAT problem is to decide whether a given Boolean formula has an
 
 A decision problem is NP-complete if (1) it is in NP, and (2) any problem in NP can be reduced to it (under some notion of reduction).  The class of NP-complete problems is sometimes called NPC.
 
-That NP-complete problems exist is immediate from the definition.  The seminal result of Cook [Coo71], Karp [Kar72], and Levin [Lev73] is that many natural problems (that have nothing to do with Turing machines) are NP-complete.
+That NP-complete problems exist is immediate from the definition.  The seminal result of Cook [[ZooRefs#Coo71|Coo71]], Karp [[ZooRefs#Kar72|Kar72]], and Levin [[ZooRefs#Lev73|Lev73]] is that many natural problems (that have nothing to do with Turing machines) are NP-complete.
 
-The first such problem to be shown NP-complete was SAT [Coo71].  Other classic NP-complete problems include:
+The first such problem to be shown NP-complete was SAT [[ZooRefs#Coo71|Coo71]].  Other classic NP-complete problems include:
 
 3-Colorability: Given a graph, can each vertex be colored red, green, or blue so that no two neighboring vertices have the same color?
 Hamiltonian Cycle: Given a graph, is there a cycle that visits each vertex exactly once?
@@ -8333,41 +8333,41 @@ once before returning to the starting city, and has length at most T?
 Maximum Clique: Given a graph, are there k vertices all of which are neighbors of each other?
 Subset Sum: Given a collection of integers, is there a subset of the integers that sums to exactly x?
 
-For many, many more NP-complete problems, see [GJ79].
+For many, many more NP-complete problems, see [[ZooRefs#GJ79|GJ79]].
 
-NP contains P.  I've discovered a marvelous proof that NP and P are unequal, but this web page is too small to contain it.  Too bad, since otherwise I'd be eligible for $1,000,000 [CMI00].
+NP contains P.  I've discovered a marvelous proof that NP and P are unequal, but this web page is too small to contain it.  Too bad, since otherwise I'd be eligible for $1,000,000 [[ZooRefs#CMI00|CMI00]].
 
-There exists an oracle relative to which P and NP are unequal [BGS75].  Indeed, P and NP are unequal relative to a random oracle with probability 1 [BG81] (see [AFM01] for a novel take on this result).  Though random oracle results are not always indicative about the unrelativized case [CCG+94].
+There exists an oracle relative to which P and NP are unequal [[ZooRefs#BGS75|BGS75]].  Indeed, P and NP are unequal relative to a random oracle with probability 1 [[ZooRefs#BG81|BG81]] (see [[ZooRefs#AFM01|AFM01]] for a novel take on this result).  Though random oracle results are not always indicative about the unrelativized case [[ZooRefs#CCG+94|CCG+94]].
 
-There even exists an oracle relative to which the P versus NP problem is outside the usual axioms of set theory [HH76].
+There even exists an oracle relative to which the P versus NP problem is outside the usual axioms of set theory [[ZooRefs#HH76|HH76]].
 
-If we restrict to monotone classes, mP is strictly contained in mNP [Raz85].
+If we restrict to monotone classes, mP is strictly contained in mNP [[ZooRefs#Raz85|Raz85]].
 
-Perhaps the most important insight anyone has had into P versus NP is to be found in [RR97].  There the authors show that no 'natural proof' can separate P from NP (or more precisely, place NP outside of P/poly), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate P versus NP to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [MS02] (and the survey article [Reg02]) for a development of this point of view.
+Perhaps the most important insight anyone has had into P versus NP is to be found in [[ZooRefs#RR97|RR97]].  There the authors show that no 'natural proof' can separate P from NP (or more precisely, place NP outside of P/poly), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate P versus NP to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [[ZooRefs#MS02|MS02]] (and the survey article [[ZooRefs#Reg02|Reg02]]) for a development of this point of view.
 
-For more on P versus NP (circa 1992) see [Sip92].  For an opinion poll, see [Gas02].
+For more on P versus NP (circa 1992) see [[ZooRefs#Sip92|Sip92]].  For an opinion poll, see [[ZooRefs#Gas02|Gas02]].
 
 If P equals NP, then NP equals its complement coNP.  Whether NP equals coNP is also open.  NP and coNP can be extended to the polynomial hierarchy PH.
 
-The set of decision problems in NP, but not in P or NPC, is sometimes called NPI.  If P does not equal NP then NPI is nonempty [Lad75].
+The set of decision problems in NP, but not in P or NPC, is sometimes called NPI.  If P does not equal NP then NPI is nonempty [[ZooRefs#Lad75|Lad75]].
 
-Probabilistic generalizations of NP include MA and AM.  If NP is in coAM (or BPP) then PH collapses to Σ,,2,,P [BHZ87].
+Probabilistic generalizations of NP include MA and AM.  If NP is in coAM (or BPP) then PH collapses to Σ,,2,,P [[ZooRefs#BHZ87|BHZ87]].
 
-PH also collapses to Σ,,2,,P if NP is in P/poly [KL82].
+PH also collapses to Σ,,2,,P if NP is in P/poly [[ZooRefs#KL82|KL82]].
 
-There exist oracles relative to which NP is not in BQP [BBB+97].
+There exist oracles relative to which NP is not in BQP [[ZooRefs#BBB+97|BBB+97]].
 
-An alternate characterization is NP = PCP(log n, O(1)) [ALM+98].
+An alternate characterization is NP = PCP(log n, O(1)) [[ZooRefs#ALM+98|ALM+98]].
 
-Also, [Fag74] showed that NP is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic. This leads to the subclass SNP.
+Also, [[ZooRefs#Fag74|Fag74]] showed that NP is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic. This leads to the subclass SNP.
 
-It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length ), then P = NP. [BH08] improved this result, showing that if any language in NP has an NP-hard set of subexponential density, then coNP is contained in NP/poly and thus, by [Yap82], PH collapses to the third level.
+It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length ), then P = NP. [[ZooRefs#BH08|BH08]] improved this result, showing that if any language in NP has an NP-hard set of subexponential density, then coNP is contained in NP/poly and thus, by [[ZooRefs#Yap82|Yap82]], PH collapses to the third level.
 
 NP is equal to SO-E, the second-order queries where the second-order quantifiers are only existantials.
 
 For example, the SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments.  SAT is in NP, since a "yes" answer can be proved by just exhibiting a satisfying assignment.
 
-Also, [Fag74] gave a logical characterization of NP, which leads to the subclass SNP.
+Also, [[ZooRefs#Fag74|Fag74]] gave a logical characterization of NP, which leads to the subclass SNP.
 == Relations ==
 
 '''
@@ -8397,11 +8397,11 @@ text = u'''
 
 The class of problems in both NP and coNP.
 
-Contains factoring [Pra75].
+Contains factoring [[ZooRefs#Pra75|Pra75]].
 
-Contains graph isomorphism under the assumption that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([MV99], improving [KM99]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
+Contains graph isomorphism under the assumption that some language in NE ∩ coNE requires nondeterministic circuits of size 2^Ω(n)^ ([[ZooRefs#MV99|MV99]], improving [[ZooRefs#KM99|KM99]]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
 
-Equals P^NP ∩ coNP^ [Bra79].  In particular, if a problem in NP ∩ coNP is NP-hard with Turing reduction, then NP = coNP.
+Equals P^NP ∩ coNP^ [[ZooRefs#Bra79|Bra79]].  In particular, if a problem in NP ∩ coNP is NP-hard with Turing reduction, then NP = coNP.
 
 Is not believed to contain complete problems.
 == Relations ==
@@ -8433,7 +8433,7 @@ text = u'''
 
 Same as NP/poly, except that now the advice string is logarithmic-size.
 
-Shown in [FK05] that EXP ⊆ NP/log if and only if EXP = P^||NP^.
+Shown in [[ZooRefs#FK05|FK05]] that EXP ⊆ NP/log if and only if EXP = P^||NP^.
 == Relations ==
 
 '''
@@ -8465,7 +8465,7 @@ Has the same relation to NP as P/poly does to P.
 
 Contains AM.  On the other hand, if NP/poly contains coNP then PH collapses to the third level.
 
-NP/poly-natural proofs cannot show that circuit families are outside P/poly, under a pseudorandomness assumption [Rud97].
+NP/poly-natural proofs cannot show that circuit families are outside P/poly, under a pseudorandomness assumption [[ZooRefs#Rud97|Rud97]].
 == Relations ==
 
 '''
@@ -8502,23 +8502,23 @@ Turing reductions, in this context also called Cook reductions.  Here the algori
 
 Some examples of NP-complete problems are discussed under the entry for NP.
 
-The classic reference on NPC is [GJ79].
+The classic reference on NPC is [[ZooRefs#GJ79|GJ79]].
 
-Unless P = NP, NPC does not contain any sparse problems: that is, problems such that the number of 'yes' instances of size n is upper-bounded by a polynomial in n [Mah82].
+Unless P = NP, NPC does not contain any sparse problems: that is, problems such that the number of 'yes' instances of size n is upper-bounded by a polynomial in n [[ZooRefs#Mah82|Mah82]].
 
-A famous conjecture [BH77] asserts that all NP-complete problems are polynomial-time isomorphic -- i.e. between any two problems, there is a one-to-one and onto Karp reduction. If that's true, the NP-complete problems could be interpreted as mere "relabelings" of one another.
+A famous conjecture [[ZooRefs#BH77|BH77]] asserts that all NP-complete problems are polynomial-time isomorphic -- i.e. between any two problems, there is a one-to-one and onto Karp reduction. If that's true, the NP-complete problems could be interpreted as mere "relabelings" of one another.
 
-NP-complete problems are p-superterse unless P = NP [BKS95].  This means that, given k Boolean formulas F,,1,,,...,F,,k,,, if you can rule out even one of the 2^k^ possibilities in polynomial time (e.g., "if F,,1,,,...,F,,k-1,, are all unsatisfiable then F,,k,, is satisfiable"), then P = NP.
+NP-complete problems are p-superterse unless P = NP [[ZooRefs#BKS95|BKS95]].  This means that, given k Boolean formulas F,,1,,,...,F,,k,,, if you can rule out even one of the 2^k^ possibilities in polynomial time (e.g., "if F,,1,,,...,F,,k-1,, are all unsatisfiable then F,,k,, is satisfiable"), then P = NP.
 
 An analog of NP for Turing machines over a complex number field.
 
-Defined in [BCS+97].
+Defined in [[ZooRefs#BCS+97|BCS+97]].
 
 It is unknown whether P,,C,, = NP,,C,,, nor are implications known among this question, P,,R,, versus NP,,R,,, and P versus NP.
 
-However, [CKK+95] show that if P/poly does not equal NP/poly then P,,C,, does not equal NP,,C,,.
+However, [[ZooRefs#CKK+95|CKK+95]] show that if P/poly does not equal NP/poly then P,,C,, does not equal NP,,C,,.
 
-[BCS+97] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then P,,C,, does not equal NP,,C,,.
+[[ZooRefs#BCS+97|BCS+97]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then P,,C,, does not equal NP,,C,,.
 
 See also VNP,,k,,.
 == Relations ==
@@ -8552,7 +8552,7 @@ Sometimes used to denote the set of decision problems in NP that are neither NP-
 
 Is thought to contain (for example) decision versions of factoring and graph isomorphism.
 
-Is nonempty if P does not equal NP [Lad75].  Indeed, under this assumption, it contains an infinite number of distinct polynomial-time equivalence classes.
+Is nonempty if P does not equal NP [[ZooRefs#Lad75|Lad75]].  Indeed, under this assumption, it contains an infinite number of distinct polynomial-time equivalence classes.
 == Relations ==
 
 '''
@@ -8584,7 +8584,7 @@ The class of all (possibly partial, possibly multivalued) functions computed by 
 
 Contains NPSV and NPMV,,t,,.
 
-Defined in [BLS84].
+Defined in [[ZooRefs#BLS84|BLS84]].
 
 Contrast with FNP.
 == Relations ==
@@ -8616,7 +8616,7 @@ text = u'''
 
 Has the same relation to NPMV as P-Sel does to P.
 
-Defined in [HHN+95].
+Defined in [[ZooRefs#HHN+95|HHN+95]].
 == Relations ==
 
 '''
@@ -8674,7 +8674,7 @@ text = u'''
 
 Has the same relation to NPMV,,t,, as P-Sel does to P.
 
-Defined in [HHN+95].
+Defined in [[ZooRefs#HHN+95|HHN+95]].
 == Relations ==
 
 '''
@@ -8704,7 +8704,7 @@ text = u'''
 
 The class of function problems of the form, "Find any n-bit string x that maximizes a cost function C(x), where C is computable in FP (i.e. polynomial-time)."
 
-Defined in [ACG+99].
+Defined in [[ZooRefs#ACG+99|ACG+99]].
 
 Contains APX and NPOPB.
 == Relations ==
@@ -8736,9 +8736,9 @@ text = u'''
 
 The subclass of NPO problems for which the cost function is guaranteed always to be bounded by a polynomial in n (the input size).
 
-See [ACG+99].
+See [[ZooRefs#ACG+99|ACG+99]].
 
-NPOPB equals the closure of MaxPB under PTAS reductions [CKS+99].
+NPOPB equals the closure of MaxPB under PTAS reductions [[ZooRefs#CKS+99|CKS+99]].
 == Relations ==
 
 '''
@@ -8768,7 +8768,7 @@ text = u'''
 
 An analog of NP for Turing machines over a real number field.
 
-Defined in [BCS+97].
+Defined in [[ZooRefs#BCS+97|BCS+97]].
 
 It is unknown whether P,,R,, = NP,,R,,, nor are implications known among this question, P,,C,, versus NP,,C,,, and P versus NP.
 
@@ -8802,9 +8802,9 @@ text = u'''
 
 == Comments ==
 
-Equals PSPACE [Sav70].
+Equals PSPACE [[ZooRefs#Sav70|Sav70]].
 
-On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which NPSPACE is not contained in EXP [GTW+91].
+On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which NPSPACE is not contained in EXP [[ZooRefs#GTW+91|GTW+91]].
 == Relations ==
 
 '''
@@ -8834,7 +8834,7 @@ text = u'''
 
 The class of NPMV functions that are single-valued (i.e., such that every accepting path outputs the same value).
 
-Defined in [BLS84].
+Defined in [[ZooRefs#BLS84|BLS84]].
 
 Contains NPSV,,t,,.
 
@@ -8868,7 +8868,7 @@ text = u'''
 
 Has the same relation to NPSV as P-Sel does to P.
 
-Defined in [HHN+95].
+Defined in [[ZooRefs#HHN+95|HHN+95]].
 
 Has the same relation to href="#npsv">NPSV as P-Sel does to P.
 == Relations ==
@@ -8932,7 +8932,7 @@ Has the same relation to NPSV,,t,, as P-Sel does to P.
 
 Also known as NP-sel.
 
-Defined in [HHN+95].
+Defined in [[ZooRefs#HHN+95|HHN+95]].
 == Relations ==
 
 '''
@@ -8964,13 +8964,13 @@ The analogue of P^cc^ for nondeterministic communication complexity.  Both commu
 
 Does not equal P^cc^ or coNP^cc^ because of the EQUALITY problem.  Also, does not contain BPP^cc^ because of that problem.
 
-Defined in [BFS86].
+Defined in [[ZooRefs#BFS86|BFS86]].
 
 Contained in PH^cc^.
 
 Has the same relation to NP^cc^ and NP as P,,,,^cc^ does to P^cc^ and P.
 
-NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant . As a result, NP,,,,^cc^ is not equal to RP,,,,^cc^ under the same conditions [DP08].
+NP,,,,^cc^ is not contained in BPP,,,,^cc^ for  players, for any constant . As a result, NP,,,,^cc^ is not equal to RP,,,,^cc^ under the same conditions [[ZooRefs#DP08|DP08]].
 == Relations ==
 
 '''
@@ -9002,9 +9002,9 @@ The class of problems that can be decided in quasi-linear time by a multitape no
 
 Equals NNLT.
 
-SAT is NQL-complete under quasi-linear-time reductions (which can be computed in deterministic quasi-linear time) [Sch78].
+SAT is NQL-complete under quasi-linear-time reductions (which can be computed in deterministic quasi-linear time) [[ZooRefs#Sch78|Sch78]].
 
-Defined in [Sch78].
+Defined in [[ZooRefs#Sch78|Sch78]].
 
 See also: NLT, Q, QL.
 == Relations ==
@@ -9034,9 +9034,9 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, NQP has the same technical caveats as EQP.  Or it would, except that it turns out to equal coC,,=,,P [FGH+98].
+The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, NQP has the same technical caveats as EQP.  Or it would, except that it turns out to equal coC,,=,,P [[ZooRefs#FGH+98|FGH+98]].
 
-Defined in [ADH97].
+Defined in [[ZooRefs#ADH97|ADH97]].
 
 Contrast with QMA.
 == Relations ==
@@ -9068,11 +9068,11 @@ text = u'''
 
 Same as NPSPACE, but with f(n)-space (for some constructible function f) rather than polynomial-space machines.
 
-Contained in DSPACE(f(n)^2^) [Sav70], and indeed RevSPACE(f(n)^2^) 95|[CP95].
+Contained in DSPACE(f(n)^2^) [[ZooRefs#Sav70|Sav70]], and indeed RevSPACE(f(n)^2^) 95|[[ZooRefs#CP95|CP95]].
 
-NSPACE(n^k^) is strictly contained in NSPACE(n^k+ε^) for ε>0 [Iba72] (actually the hierarchy theorem is stronger than this, but pretty technical to state).
+NSPACE(n^k^) is strictly contained in NSPACE(n^k+ε^) for ε>0 [[ZooRefs#Iba72|Iba72]] (actually the hierarchy theorem is stronger than this, but pretty technical to state).
 
-Contained in DSPACE(f(n)^2^) [Sav70], and indeed RevSPACE(f(n)^2^) [CP95].
+Contained in DSPACE(f(n)^2^) [[ZooRefs#Sav70|Sav70]], and indeed RevSPACE(f(n)^2^) [[ZooRefs#CP95|CP95]].
 == Relations ==
 
 '''
@@ -9102,7 +9102,7 @@ text = u'''
 
 The class of decision problems such that whether the answer on input x agrees with the answer on input x-1 (that is, the lexicographic predecessor of x) is solvable in polynomial time.  The Turing machine has to decide agreement or disagreement without access to the answer for x-1.
 
-Is contained in E, NT*, and ⊕P.  Defined in [GHJ+91] to study ⊕P-complete problems.  They show  that P, NT, NT*, and ⊕P are either all equal or strictly nested.  In particular, they differ with probability 1 relative to a random oracle.
+Is contained in E, NT*, and ⊕P.  Defined in [[ZooRefs#GHJ+91|GHJ+91]] to study ⊕P-complete problems.  They show  that P, NT, NT*, and ⊕P are either all equal or strictly nested.  In particular, they differ with probability 1 relative to a random oracle.
 == Relations ==
 
 '''
@@ -9132,7 +9132,7 @@ text = u'''
 
 Defined like NT, but with a more general ordering on inputs.  A problem L is in NT* if, first, there is a partially defined predecessor function pred(x) in FP that organizes the space of inputs into a forest.  The size of the lineage of each x must also be bounded by 2^poly(|x|)^.  Second, if L(x) is the Boolean answer to L on input x, then L(x)+L(pred(x)) is computable in polynomial time; or if pred(x) does not exist, L(x) is computable in polynomial time.
 
-Defined in [GHJ+91].
+Defined in [[ZooRefs#GHJ+91|GHJ+91]].
 
 Contains NT and is contained in ⊕P.  The inclusions are either both strict or both equalities (whence ⊕P = P as well).
 == Relations ==
@@ -9164,11 +9164,11 @@ text = u'''
 
 Same as NP, but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
-The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible and f(n+1)=o(g), then NTIME(f(n)) does not equal NTIME(g(n)) [SFM78] (this is actually stronger than the hierarchy theorem for DTIME).
+The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible and f(n+1)=o(g), then NTIME(f(n)) does not equal NTIME(g(n)) [[ZooRefs#SFM78|SFM78]] (this is actually stronger than the hierarchy theorem for DTIME).
 
-NTIME(n) strictly contains DTIME(n) [PPS+83] (this result does not work for arbitrary f(n)).
+NTIME(n) strictly contains DTIME(n) [[ZooRefs#PPS+83|PPS+83]] (this result does not work for arbitrary f(n)).
 
-For any constructible superpolynomial f, NTIME(f(n)) with NP oracle is not in P/poly [Kan82].
+For any constructible superpolynomial f, NTIME(f(n)) with NP oracle is not in P/poly [[ZooRefs#Kan82|Kan82]].
 == Relations ==
 
 '''
@@ -9196,9 +9196,9 @@ text = u'''
 
 == Comments ==
 
-The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n^/n^k^ inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
+The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n^/n^k^ inputs of length n.  Discussed in [[ZooRefs#NS05|NS05]] and implicitly defined in [[ZooRefs#Yam99|Yam99]].
 
-The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n/n^k inputs of length n.  Discussed in [NS05] and implicitly defined in [Yam99].
+The set of languages L such that for every k, there is a language L_k in P that differs from L on at most 2^n/n^k inputs of length n.  Discussed in [[ZooRefs#NS05|NS05]] and implicitly defined in [[ZooRefs#Yam99|Yam99]].
 == Relations ==
 
 '''
@@ -9228,9 +9228,9 @@ text = u'''
 
 The class of problems solvable by a BQP machine in which a single qubit is initialized to the '0' state, and the remaining qubits are initialized to the maximally mixed state.  (This definition is not known to be robust, so one also needs to specify a gate set.)
 
-We also need to stipulate that there are no "strong measurements" -- intermediate measurements on which later operations are conditioned -- since otherwise we can do all of BQP by first initializing the computer to the all-0 state.  Parker and Plenio [PP00] failed to appreciate this point.
+We also need to stipulate that there are no "strong measurements" -- intermediate measurements on which later operations are conditioned -- since otherwise we can do all of BQP by first initializing the computer to the all-0 state.  Parker and Plenio [[ZooRefs#PP00|PP00]] failed to appreciate this point.
 
-Defined by [ASV00] (though they didn't use the name OCQ), who also showed that if OCQ = BQP, something other than gate-by-gate simulation will be needed to show this.
+Defined by [[ZooRefs#ASV00|ASV00]] (though they didn't use the name OCQ), who also showed that if OCQ = BQP, something other than gate-by-gate simulation will be needed to show this.
 == Relations ==
 
 '''
@@ -9260,7 +9260,7 @@ text = u'''
 
 The class of functions computable by taking the maximum of the output values over all accepting paths of an NP machine.
 
-Defined in [Kre88].
+Defined in [[ZooRefs#Kre88|Kre88]].
 
 Contrast with FNP.
 == Relations ==
@@ -9294,11 +9294,11 @@ The class that started it all.
 
 The class of decision problems solvable in polynomial time by a Turing machine.  (See also FP, for function problems.)
 
-Defined in [Edm65], [Cob64], [Rab60], and other seminal early papers.
+Defined in [[ZooRefs#Edm65|Edm65]], [[ZooRefs#Cob64|Cob64]], [[ZooRefs#Rab60|Rab60]], and other seminal early papers.
 
-Contains some highly nontrivial problems, including linear programming [Kha79] and finding a maximum matching in a general graph [Edm65].
+Contains some highly nontrivial problems, including linear programming [[ZooRefs#Kha79|Kha79]] and finding a maximum matching in a general graph [[ZooRefs#Edm65|Edm65]].
 
-Contains the problem of testing whether an integer is prime [AKS02], an important result that improved on a proof requiring an assumption of the generalized Riemann hypothesis [Mil76].
+Contains the problem of testing whether an integer is prime [[ZooRefs#AKS02|AKS02]], an important result that improved on a proof requiring an assumption of the generalized Riemann hypothesis [[ZooRefs#Mil76|Mil76]].
 
 A decision problem is P-complete if it is in P, and if every problem in P can be reduced to it in L (logarithmic space).  The canonical P-complete problem is circuit evaluation: given a Boolean circuit and an input, decide what the circuit outputs when given the input.
 
@@ -9342,7 +9342,7 @@ text = u'''
 
 I decided this class is so important that it deserves an entry of its own, apart from #P.
 
-Contains PH [Tod89], and is contained in PSPACE.
+Contains PH [[ZooRefs#Tod89|Tod89]], and is contained in PSPACE.
 
 Equals P^PP^ (exercise for the visitor).
 == Relations ==
@@ -9372,7 +9372,7 @@ text = u'''
 
 == Comments ==
 
-Contains PH [Tod89].
+Contains PH [[ZooRefs#Tod89|Tod89]].
 == Relations ==
 
 '''
@@ -9402,9 +9402,9 @@ text = u'''
 
 The class of decision problems solvable by a polynomial-time algorithm that outputs the wrong answer on only a sparse (that is, polynomially-bounded) set of instances.
 
-Defined in [Yes83].
+Defined in [[ZooRefs#Yes83|Yes83]].
 
-Contains Almost-P and is contained in P/poly [Sch86].
+Contains Almost-P and is contained in P/poly [[ZooRefs#Sch86|Sch86]].
 == Relations ==
 
 '''
@@ -9466,7 +9466,7 @@ text = u'''
 
 The class of decision problems for which there's a polynomial-time algorithm with the following property.  Whenever it's given two instances, a "yes" and a "no" instance, the algorithm can always decide which is the "yes" instance.
 
-Defined in [Sel79], where it was also shown that if NP is contained in P-Sel then P = NP.
+Defined in [[ZooRefs#Sel79|Sel79]], where it was also shown that if NP is contained in P-Sel then P = NP.
 
 There exist P-selective sets that are not recursive (i.e. not in R).
 == Relations ==
@@ -9532,20 +9532,20 @@ The class of decision problems solvable by a family of polynomial-size Boolean c
 
 Equivalently, P/poly is the class of decision problems solvable by a polynomial-time Turing machine that receives an 'advice string,' that depends only on the size n of the input, and that itself has size upper-bounded by a polynomial in n.
 
-Contains BPP by the progenitor of derandomization arguments [Adl78] [KL82].  By extension, BPP/poly, BPP/mpoly, and BPP/rpoly all equal P/poly. (By contrast, there is an oracle relative to which BPP/log does not equal BPP/mlog, while BPP/mlog and BPP/rlog are not equal relative to any oracle.)
+Contains BPP by the progenitor of derandomization arguments [[ZooRefs#Adl78|Adl78]] [[ZooRefs#KL82|KL82]].  By extension, BPP/poly, BPP/mpoly, and BPP/rpoly all equal P/poly. (By contrast, there is an oracle relative to which BPP/log does not equal BPP/mlog, while BPP/mlog and BPP/rlog are not equal relative to any oracle.)
 
-[KL82] showed that, if P/poly contains NP, then PH collapses to the second level, Σ,,2,,P.
+[[ZooRefs#KL82|KL82]] showed that, if P/poly contains NP, then PH collapses to the second level, Σ,,2,,P.
 
 They also showed:
 
 If PSPACE is in P/poly then PSPACE equals Σ,,2,,P ∩ Π,,2,,P.
 If EXP is in P/poly then EXP = Σ,,2,,P.
 
-It was later shown that, if NP is contained in P/poly, then PH collapses to ZPP^NP^ [KW98] and indeed S,,2,,P [Cai01]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to Δ,,2,,P [Wil85].
+It was later shown that, if NP is contained in P/poly, then PH collapses to ZPP^NP^ [[ZooRefs#KW98|KW98]] and indeed S,,2,,P [[ZooRefs#Cai01|Cai01]]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to Δ,,2,,P [[ZooRefs#Wil85|Wil85]].
 
-If NP is not contained in P/poly, then P does not equal NP.  Much of the effort toward separating P from NP is based on this observation.  However, a 'natural proof' as defined by [RR97] cannot be used to show NP is outside P/poly, if there is any pseudorandom generator in P/poly that has hardness 2^Ω(n^ε)^ for some ε>0.
+If NP is not contained in P/poly, then P does not equal NP.  Much of the effort toward separating P from NP is based on this observation.  However, a 'natural proof' as defined by [[ZooRefs#RR97|RR97]] cannot be used to show NP is outside P/poly, if there is any pseudorandom generator in P/poly that has hardness 2^Ω(n^ε)^ for some ε>0.
 
-If NP is contained in P/poly, then MA = AM [AKS+95]
+If NP is contained in P/poly, then MA = AM [[ZooRefs#AKS+95|AKS+95]]
 
 The monotone version of P/poly is mP/poly.
 
@@ -9583,7 +9583,7 @@ The Political Action Committee for computational complexity research.
 
 The class of problems for which there exists a DiffAC^0^ function f such that the answer is "yes" on input x if and only if f(x)>0.
 
-Equals TC^0^ and C,,=,,AC^0^ under logspace uniformity [ABL98].
+Equals TC^0^ and C,,=,,AC^0^ under logspace uniformity [[ZooRefs#ABL98|ABL98]].
 == Relations ==
 
 '''
@@ -9613,7 +9613,7 @@ text = u'''
 
 Same as k-PBP but with no width restriction.
 
-Equals L/poly [Cob66].
+Equals L/poly [[ZooRefs#Cob66|Cob66]].
 
 Contains P-OBDD, BP,,d,,(P).
 == Relations ==
@@ -9645,7 +9645,7 @@ text = u'''
 
 An analog of P for Turing machines over a complex number field.
 
-Defined in [BCS+97].
+Defined in [[ZooRefs#BCS+97|BCS+97]].
 
 See also P,,R,,, NP,,C,,, NP,,R,,, VP,,k,,.
 == Relations ==
@@ -9679,7 +9679,7 @@ The class of decision problems decidable by a probabilistically checkable debate
 
 Two debaters B and C alternate writing strings on a "debate tape," with B arguing that the answer is "yes" and C arguing the answer is "no."  Then a polynomial-time verifier flips O(r(n)) random coins and makes O(q(n)) nonadaptive queries to the debate tape (meaning that they depend only on the input and the random coins, not the results of previous queries).  The verifier then outputs an answer, which should be correct with high probability.
 
-Defined in [CFL+93], who also showed that PCD(log n, 1) = PSPACE.  This result was used to show that certain problems are PSPACE-hard even to approximate.
+Defined in [[ZooRefs#CFL+93|CFL+93]], who also showed that PCD(log n, 1) = PSPACE.  This result was used to show that certain problems are PSPACE-hard even to approximate.
 
 Contained in GPCD(r(n),q(n)).
 == Relations ==
@@ -9718,7 +9718,7 @@ Then we require the following:
 If the answer is "yes," there exists a proof such that the verifier accepts with certainty.
 If the answer is "no," then for all proofs the verifier rejects with probability at least 1/2 (over the choice of the O(r(n)) random bits).
 
-Defined in [AS98].
+Defined in [[ZooRefs#AS98|AS98]].
 
 By definition NP = PCP(0,poly(n)).
 
@@ -9726,15 +9726,15 @@ MIP = PCP(poly(n),poly(n)).
 
 PCP(r(n),q(n)) is contained in NTIME(2^O(r(n))^q(n) + poly(n)).
 
-NP = PCP(log n, log n) [AS98].
+NP = PCP(log n, log n) [[ZooRefs#AS98|AS98]].
 
-In fact, NP = PCP(log n, 1) [ALM+98]!
+In fact, NP = PCP(log n, 1) [[ZooRefs#ALM+98|ALM+98]]!
 
-On the other hand, if NP is contained in PCP(o(log n), o(log n)), then P = NP [FGL+91].
+On the other hand, if NP is contained in PCP(o(log n), o(log n)), then P = NP [[ZooRefs#FGL+91|FGL+91]].
 
-Also, even though there exists an oracle relative to which NP = EXP [Hel84], if we could show there exists an oracle relative to which PCP(log n, 1) = EXP, then we'd have proved P not equal to NP [For94].
+Also, even though there exists an oracle relative to which NP = EXP [[ZooRefs#Hel84|Hel84]], if we could show there exists an oracle relative to which PCP(log n, 1) = EXP, then we'd have proved P not equal to NP [[ZooRefs#For94|For94]].
 
-Another weird oracle fact: since NP does not equal NEXP [SFM78], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [HCC+92].
+Another weird oracle fact: since NP does not equal NEXP [[ZooRefs#SFM78|SFM78]], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [[ZooRefs#HCC+92|HCC+92]].
 == Relations ==
 
 '''
@@ -9796,7 +9796,7 @@ text = u'''
 
 Has the same relation to EXP as PP does to P.
 
-Is not contained in P/poly [BFT98].
+Is not contained in P/poly [[ZooRefs#BFT98|BFT98]].
 == Relations ==
 
 '''
@@ -9857,9 +9857,9 @@ The class of decision problems solvable in time O(t(n)) by a nondeterministic Tu
 If the answer is "yes," then there exists a value of the proof string such that all computation paths accept.
 If the answer is "no," then for all values of the proof string, there exists a computation path that rejects.
 
-Credited in [For94] to S. Arora, R. Impagliazzo, and U. Vazirani.
+Credited in [[ZooRefs#For94|For94]] to S. Arora, R. Impagliazzo, and U. Vazirani.
 
-An interesting question is whether NP = PFCHK(log n) relative to all possible oracles.  Fortnow [For94] observes that the answer depends on what oracle access mechanism is used.
+An interesting question is whether NP = PFCHK(log n) relative to all possible oracles.  Fortnow [[ZooRefs#For94|For94]] observes that the answer depends on what oracle access mechanism is used.
 == Relations ==
 
 '''
@@ -9897,22 +9897,22 @@ Then PH is the union of these classes for all nonnegative constant i.
 
 PH can also be defined using alternating quantifiers: it's the class of problems of the form, "given an input x, does there exist a y such that for all z, there exists a w ... such that φ(x,y,z,w,...)," where y,z,w,... are polynomial-size strings and φ is a polynomial-time computable predicate.  It's not totally obvious that this is equivalent to the first definition, since the first one involves adaptive NP oracle queries and the second one doesn't, but it is.
 
-Defined in [Sto76].
+Defined in [[ZooRefs#Sto76|Sto76]].
 
-Contained in P with a PP oracle [Tod89].
+Contained in P with a PP oracle [[ZooRefs#Tod89|Tod89]].
 
-Contains BPP [Lau83].
+Contains BPP [[ZooRefs#Lau83|Lau83]].
 
-Relative to a random oracle, PH is strictly contained in PSPACE with probability 1 [Cai86].
+Relative to a random oracle, PH is strictly contained in PSPACE with probability 1 [[ZooRefs#Cai86|Cai86]].
 
-Furthermore, there exist oracles separating any Σ,,i,,P from Σ,,i+1,,P.  On the other hand, it is unknown whether Σ,,i,,P is strictly contained in Σ,,i+1,,P relative to a random oracle with probability 1 (see [Has87]).  Book [Boo94] shows that if PH collapses relative to a random oracle with probability 1, then it collapses unrelativized.
+Furthermore, there exist oracles separating any Σ,,i,,P from Σ,,i+1,,P.  On the other hand, it is unknown whether Σ,,i,,P is strictly contained in Σ,,i+1,,P relative to a random oracle with probability 1 (see [[ZooRefs#Has87|Has87]]).  Book [[ZooRefs#Boo94|Boo94]] shows that if PH collapses relative to a random oracle with probability 1, then it collapses unrelativized.
 
 It was shown in [CPO7] that if the NP Machine Hypothesis holds, then
 .
 
 For a compendium of problems complete for different classes of the Polynomial Hierarchy see [Sch02a] and [Sch02b].
 
-PH is equal to the set of boolean queries recognizable by a concurent random acess machine using exponentially many processors and constant time[Imm89].
+PH is equal to the set of boolean queries recognizable by a concurent random acess machine using exponentially many processors and constant time[[ZooRefs#Imm89|Imm89]].
 
 Since NP is the class of query expressible in second-order existantial logic, PH can also be defined as the query expressible in second-order logic.
 == Relations ==
@@ -9946,7 +9946,7 @@ The obvious generalization of NP^cc^ and coNP^cc^ to a nondeterministic hierarch
 
 It is unknown whether Σ,,2,,^cc^ equals Π,,2,,^cc^.
 
-Defined in [BFS86], where it was also shown (among other things) that BPP^cc^ is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
+Defined in [[ZooRefs#BFS86|BFS86]], where it was also shown (among other things) that BPP^cc^ is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
 == Relations ==
 
 '''
@@ -9978,7 +9978,7 @@ text = u'''
 
 The class of function problems, f:{0,1}^n^->{0,1}^m^, such that the k^th^ output bit is computable in time polynomial in n and k.
 
-Defined in [JY88].
+Defined in [[ZooRefs#JY88|JY88]].
 
 Contained in PIO.  This containment is strict, since if m=2^n^ (say), then computing the first bit of f(x) might be EXP-complete.
 == Relations ==
@@ -10010,7 +10010,7 @@ text = u'''
 
 The class of function problems, f:{0,1}^n^->{0,1}^m^, such that f(x) is computable in time polynomial in n and m.  Allows us to discuss whether a function is "efficiently computable" or not, even if the output is too long to write down in polynomial time.
 
-Defined in [Yan81].
+Defined in [[ZooRefs#Yan81|Yan81]].
 
 Strictly contains PINC.
 == Relations ==
@@ -10042,7 +10042,7 @@ text = u'''
 
 P equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.
 
-A similar class was defined in [ABK+02], where it was also shown that P^K^ contains PSPACE.  It is not known whether P^K^ contains all of R, or even any recursive problem not in PSPACE.
+A similar class was defined in [[ZooRefs#ABK+02|ABK+02]], where it was also shown that P^K^ contains PSPACE.  It is not known whether P^K^ contains all of R, or even any recursive problem not in PSPACE.
 
 See also: BPP^KT^.
 == Relations ==
@@ -10074,7 +10074,7 @@ text = u'''
 
 Has the same relation to PZK as SKC does to SZK.
 
-Defined in [GP91].
+Defined in [[ZooRefs#GP91|GP91]].
 == Relations ==
 
 '''
@@ -10106,7 +10106,7 @@ Has the same relation to L that PP has to P.
 
 Contains BPL.
 
-PL^PL^ = PL (see [HO02]).
+PL^PL^ = PL (see [[ZooRefs#HO02|HO02]]).
 == Relations ==
 
 '''
@@ -10136,7 +10136,7 @@ text = u'''
 
 The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the sum of absolute values of Fourier coefficients of f is bounded by a polynomial in n.
 
-Defined in [BS90], where it was also shown that PL,,1,, is contained in PT,,1,, (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|BS90]], where it was also shown that PL,,1,, is contained in PT,,1,, (and this inclusion is strict).
 == Relations ==
 
 '''
@@ -10164,7 +10164,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [Pap90].
+Defined in [[ZooRefs#Pap90|Pap90]].
 
 I believe it's the same as PPA.
 == Relations ==
@@ -10228,17 +10228,17 @@ More precisely, for each input, there's a finite set of solutions (i.e. strings)
 
 (Note: In the Zookeeper's humble opinion, PLS should have been defined as follows: there exist polynomial-time algorithms that compute the cost of a solution, and the set of all neighbors of a given solution, not just a single solution of lower cost. Of course we'd require that every solution has only polynomially many neighbors.  The two definitions are not obviously equivalent, and it's conceivable that knowing all the neighbors would be helpful -- for example, in simulated annealing one sometimes makes uphill moves.)
 
-(Note to Note: The equivalance of these classes was shown (though not stated explicitly) in Theorem 1 of [JPY88].)
+(Note to Note: The equivalance of these classes was shown (though not stated explicitly) in Theorem 1 of [[ZooRefs#JPY88|JPY88]].)
 
-Defined in [JPY88], [PY88].
+Defined in [[ZooRefs#JPY88|JPY88]], [[ZooRefs#PY88|PY88]].
 
-There exists an oracle relative to which PLS is not contained in FBQP [Aar03].
+There exists an oracle relative to which PLS is not contained in FBQP [[ZooRefs#Aar03|Aar03]].
 
-Also, there exist oracles relative to which PLS is not contained in PPA [BM04], and PPA and PPP are not contained in PLS [Mor01].
+Also, there exist oracles relative to which PLS is not contained in PPA [[ZooRefs#BM04|BM04]], and PPA and PPP are not contained in PLS [[ZooRefs#Mor01|Mor01]].
 
 Whether PLS is not in PPP relative to some oracle remains open.
 
-[CT07] conjecture that if PPAD is in P, then PLS is in P.
+[[ZooRefs#CT07|CT07]] conjecture that if PPAD is in P, then PLS is in P.
 == Relations ==
 
 '''
@@ -10268,7 +10268,7 @@ text = u'''
 
 The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the maximum of |α|^-1^, over all Fourier coefficients α of f, is upper-bounded by a polynomial in n.
 
-Defined in [BS90], where it was also shown that PL,,∞,, contains PT,,1,, (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|BS90]], where it was also shown that PL,,∞,, contains PT,,1,, (and this inclusion is strict).
 == Relations ==
 
 '''
@@ -10324,7 +10324,7 @@ text = u'''
 
 == Comments ==
 
-Equals P with 2^k^-1 parallel queries to NP (i.e. queries that do not depend on the outcomes of previous queries) ([BH91] and [Hem89] independently).
+Equals P with 2^k^-1 parallel queries to NP (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|BH91]] and [[ZooRefs#Hem89|Hem89]] independently).
 
 If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = P^NP[log]^ and indeed PH collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
 == Relations ==
@@ -10356,11 +10356,11 @@ text = u'''
 
 The class of decision problems solvable by a P machine, that can make O(log n) queries to an NP oracle (where n is the length of the input).
 
-Equals P^||NP^, the class of decision problems solvable by a P machine that can make polynomially many nonadaptive queries to an NP oracle (i.e. queries that do not depend on the outcomes of previous queries) ([BH91] and [Hem89] independently).
+Equals P^||NP^, the class of decision problems solvable by a P machine that can make polynomially many nonadaptive queries to an NP oracle (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|BH91]] and [[ZooRefs#Hem89|Hem89]] independently).
 
-P^NP[log]^ is contained in PP [BHW89].
+P^NP[log]^ is contained in PP [[ZooRefs#BHW89|BHW89]].
 
-Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for P^NP[log]^ [HHR97].
+Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for P^NP[log]^ [[ZooRefs#HHR97|HHR97]].
 
 Contains P^NP[k]^ for all constants k.
 == Relations ==
@@ -10392,9 +10392,9 @@ text = u'''
 
 Same as P^NP[log]^, except that now log^2^ queries can be made.
 
-The model-checking problem for a certain temporal logic is P^NP[log^2]^-complete [Sch03].
+The model-checking problem for a certain temporal logic is P^NP[log^2]^-complete [[ZooRefs#Sch03|Sch03]].
 
-For all k, P with log^k^ adaptive queries to NP coincides with P with log^k+1^ nonadaptive queries [CS92].
+For all k, P with log^k^ adaptive queries to NP coincides with P with log^k+1^ nonadaptive queries [[ZooRefs#CS92|CS92]].
 == Relations ==
 
 '''
@@ -10424,7 +10424,7 @@ text = u'''
 
 The subclass of TFNP function problems that are guaranteed to have a solution because of the lemma that "every finite graph has an even number of odd-degree nodes."
 
-Equals PPA [Pap90].
+Equals PPA [[ZooRefs#Pap90|Pap90]].
 == Relations ==
 
 '''
@@ -10457,25 +10457,25 @@ The class of decision problems solvable by an NP machine such that
 If the answer is 'yes' then at least 1/2 of computation paths accept.
 If the answer is 'no' then less than 1/2 of computation paths accept.
 
-Defined in [Gil77].
+Defined in [[ZooRefs#Gil77|Gil77]].
 
-PP is closed under union and intersection [BRS91] (this was an open problem for 14 years).
+PP is closed under union and intersection [[ZooRefs#BRS91|BRS91]] (this was an open problem for 14 years).
 
-Contains P^NP[log]^ [BHW89].
+Contains P^NP[log]^ [[ZooRefs#BHW89|BHW89]].
 
 Equals PP^BPP^ [KST+89b] as well as PostBQP [Aar05b].
 
-However, there exists an oracle relative to which PP does not contain Δ,,2,,P [Bei94].
+However, there exists an oracle relative to which PP does not contain Δ,,2,,P [[ZooRefs#Bei94|Bei94]].
 
-PH is in P^PP^ [Tod89].
+PH is in P^PP^ [[ZooRefs#Tod89|Tod89]].
 
-BQP is low for PP; i.e. PP^BQP^ = PP [FR98].
+BQP is low for PP; i.e. PP^BQP^ = PP [[ZooRefs#FR98|FR98]].
 
-For a random oracle A, PP^A^ is strictly contained in PSPACE^A^ with probability 1 [ABF+94].
+For a random oracle A, PP^A^ is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|ABF+94]].
 
-For any fixed k, there exists a language in PP that does not have circuits of size n^k^ [Vin04b].  Indeed, there exists a language in PP that does not even have quantum circuits of size n^k^ with quantum advice [Aar06].
+For any fixed k, there exists a language in PP that does not have circuits of size n^k^ [Vin04b].  Indeed, there exists a language in PP that does not even have quantum circuits of size n^k^ with quantum advice [[ZooRefs#Aar06|Aar06]].
 
-By contrast, there exists an oracle relative to which PP has linear-size circuits [Aar06].
+By contrast, there exists an oracle relative to which PP has linear-size circuits [[ZooRefs#Aar06|Aar06]].
 
 PP can be generalized to the counting hierarchy CH.
 == Relations ==
@@ -10535,14 +10535,14 @@ text = u'''
 
 == Comments ==
 
-Defined in [Pap94b]; see also [BCE+95].
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|BCE+95]].
 
 The subclass of TFNP function problems that are guaranteed to have a solution because of the lemma that "all graphs of maximum degree 2
 have an even number of leaves."
 
 More precisely, there's a polynomial-time algorithm that, given any string, computes its 'neighbor' strings (of which there are at most two). Then given a leaf string (i.e. one with only one neighbor), the problem is to output another leaf string.
 
-As an example, suppose you're given a cubic graph (one where every vertex has degree 3), and a Hamiltonian cycle H on that graph.  Then by making a sequence of modifications to H (albeit possibly exponentially many), it is always possible to find a second Hamilton cycle (see [Pap94]).  So this problem is in PPA.
+As an example, suppose you're given a cubic graph (one where every vertex has degree 3), and a Hamiltonian cycle H on that graph.  Then by making a sequence of modifications to H (albeit possibly exponentially many), it is always possible to find a second Hamilton cycle (see [[ZooRefs#Pap94|Pap94]]).  So this problem is in PPA.
 
 Another problem in PPA is finding an Arrow-Debreu equilibrium, given the goods and utility functions of traders in a marketplace.
 
@@ -10550,7 +10550,7 @@ Contained in TFNP.
 
 Contains PPAD.
 
-There exist oracles relative to which PPA does not contain PLS [BM04] and PPP [BCE+95].  There also exists an oracle relative to which PPA is not contained in PPP [BCE+95].
+There exist oracles relative to which PPA does not contain PLS [[ZooRefs#BM04|BM04]] and PPP [[ZooRefs#BCE+95|BCE+95]].  There also exists an oracle relative to which PPA is not contained in PPP [[ZooRefs#BCE+95|BCE+95]].
 == Relations ==
 
 '''
@@ -10578,18 +10578,18 @@ text = u'''
 
 == Comments ==
 
-Defined in [Pap94b]; see also [BCE+95].
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|BCE+95]].
 
 Same as PPA, except now the graph is directed, and we're asked to find either a source or a sink.
 
 Contained in PPA and PPADS.
 
-NASH, the problem of finding a Nash equilibrium in a normal form game of two or more players with specified utilities, is in PPAD [Pap94b], and proved to be complete for PPAD with four players in [DGP05], and shortly after extended to the case of three players [DP05] and independently [CD05].
+NASH, the problem of finding a Nash equilibrium in a normal form game of two or more players with specified utilities, is in PPAD [Pap94b], and proved to be complete for PPAD with four players in [[ZooRefs#DGP05|DGP05]], and shortly after extended to the case of three players [[ZooRefs#DP05|DP05]] and independently [[ZooRefs#CD05|CD05]].
 
-There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].
-There exists an oracle relative to which PPAD is not contained in BQP [Li11].
+There exists an oracle relative to which PPP is not contained in PPAD [[ZooRefs#BCE+95|BCE+95]].
+There exists an oracle relative to which PPAD is not contained in BQP [[ZooRefs#Li11|Li11]].
 
-There exists an oracle relative to which PPP is not contained in PPAD [BCE+95].
+There exists an oracle relative to which PPP is not contained in PPAD [[ZooRefs#BCE+95|BCE+95]].
 == Relations ==
 
 '''
@@ -10617,7 +10617,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [Pap94b]; see also [BCE+95].
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|BCE+95]].
 
 Same as PPA, except now the graph is directed, and we're asked to find a sink.
 
@@ -10651,7 +10651,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [Pap94b]; see also [BCE+95].
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|BCE+95]].
 
 The subclass of TFNP function problems that are guaranteed to have a solution because of the Pigeonhole Principle.
 
@@ -10661,9 +10661,9 @@ Contained in TFNP.
 
 Contains PPADS.
 
-[BCE+95] give oracles relative to which PPP is not contained in PPA and PPAD, and PPA is not contained in PPP.
+[[ZooRefs#BCE+95|BCE+95]] give oracles relative to which PPP is not contained in PPA and PPAD, and PPA is not contained in PPP.
 
-[Mor01] gives an oracle relative to which PPP is not contained in PLS.
+[[ZooRefs#Mor01|Mor01]] gives an oracle relative to which PPP is not contained in PLS.
 
 Whether PLS is not contained in PPP relative to some oracle remains open.
 
@@ -10671,11 +10671,11 @@ A level of the counting hierarchy CH.
 
 It is not known whether there exists an oracle relative to which P^PP^ does not equal PSPACE.
 
-Contains PP^PH^ [Tod89].
+Contains PP^PH^ [[ZooRefs#Tod89|Tod89]].
 
 Equals P^#P^ (exercise for the visitor).
 
-Since the permanent of a matrix is #P-complete [Val79], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.
+Since the permanent of a matrix is #P-complete [[ZooRefs#Val79|Val79]], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.
 == Relations ==
 
 '''
@@ -10709,7 +10709,7 @@ Can also be defined as a probabilistic version of PSPACE.
 
 Equals PSPACE.
 
-Defined in [Pap83].
+Defined in [[ZooRefs#Pap83|Pap83]].
 == Relations ==
 
 '''
@@ -10737,9 +10737,9 @@ text = u'''
 
 == Comments ==
 
-Defined in [BFS86], PP^cc^ is one of two ways to define a communication complexity analogue of PP. In PP^cc^, we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in PP^cc^, the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.
+Defined in [[ZooRefs#BFS86|BFS86]], PP^cc^ is one of two ways to define a communication complexity analogue of PP. In PP^cc^, we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in PP^cc^, the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.
 
-The difference between this class and UPP^cc^ is discussed further in [BVW07], where it is shown that PP^cc^ ⊂ UPP^cc^.
+The difference between this class and UPP^cc^ is discussed further in [[ZooRefs#BVW07|BVW07]], where it is shown that PP^cc^ ⊂ UPP^cc^.
 
 See Also: UPP^cc^.
 == Relations ==
@@ -10773,7 +10773,7 @@ The class of decision problems solvable in polynomial space using at most a poly
 
 Thus, PQUERY = PSPACE, but PQUERY^A^ does not equal PSPACE^A^ for some oracles A.
 
-Defined in [Kur83], where it was actually put forward as a serious argument (!!) against believing relativization results.
+Defined in [[ZooRefs#Kur83|Kur83]], where it was actually put forward as a serious argument (!!) against believing relativization results.
 == Relations ==
 
 '''
@@ -10813,7 +10813,7 @@ PR strictly contains ELEMENTARY.
 
 An analog of P for Turing machines over a real number field.
 
-Defined in [BCS+97].
+Defined in [[ZooRefs#BCS+97|BCS+97]].
 
 See also P,,C,,, NP,,C,,, NP,,R,,, VP,,k,,.
 == Relations ==
@@ -10847,7 +10847,7 @@ Yeah, I'm told that's what the S and K stand for.  Go figure.
 
 The class of total function problems definable as follows: given a directed graph of indegree and outdegree at most 1, and given a source, find a sink.
 
-Defined in [Pap90].
+Defined in [[ZooRefs#Pap90|Pap90]].
 
 Equals PPADS.
 == Relations ==
@@ -10879,17 +10879,17 @@ text = u'''
 
 The class of decision problems solvable by a Turing machine in polynomial space.
 
-Equals NPSPACE [Sav70], AP [CKS81], IP [Sha90], and, assuming the existence of one-way functions, CZK [BGG+90].
+Equals NPSPACE [[ZooRefs#Sav70|Sav70]], AP [[ZooRefs#CKS81|CKS81]], IP [[ZooRefs#Sha90|Sha90]], and, assuming the existence of one-way functions, CZK [[ZooRefs#BGG+90|BGG+90]].
 
 Contains P with #P oracle.
 
 A canonical PSPACE-complete problem is QBF.
 
-Relative to a random oracle, PSPACE strictly contains PH with probability 1 [Cai86].
+Relative to a random oracle, PSPACE strictly contains PH with probability 1 [[ZooRefs#Cai86|Cai86]].
 
-PSPACE has a complete problem that is both downward self-reducible and random self-reducible [TV02].  It is the largest class with such a complete problem.
+PSPACE has a complete problem that is both downward self-reducible and random self-reducible [[ZooRefs#TV02|TV02]].  It is the largest class with such a complete problem.
 
-Contained in EXP.  There exists an oracle relative to which this containment is proper [Dek76].
+Contained in EXP.  There exists an oracle relative to which this containment is proper [[ZooRefs#Dek76|Dek76]].
 
 In descriptive complexity, PSPACE can be defined with 4 differents kind of formulae, FO() which is also FO(PFP) and SO() which is also SO(TC).
 
@@ -10981,7 +10981,7 @@ text = u'''
 
 The class of Boolean functions f:{-1,1}^n^->{-1,1} such that f(x)=sgn(p(x)), where p is a polynomial having a number of terms polynomial in n.
 
-Defined in [BS90], where it was also shown that PT,,1,, contains PL,,1,, (and this inclusion is strict), and that PT,,1,, is contained in PL,,∞,, (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|BS90]], where it was also shown that PT,,1,, contains PL,,1,, (and this inclusion is strict), and that PT,,1,, is contained in PL,,∞,, (and this inclusion is strict).
 == Relations ==
 
 '''
@@ -11041,9 +11041,9 @@ The subclass of NPO problems that admit an approximation scheme in the following
 
 Contains FPTAS, and is contained in APX.
 
-As an example, the Traveling Salesman Problem in the Euclidean plane is in PTAS [Aro96].
+As an example, the Traveling Salesman Problem in the Euclidean plane is in PTAS [[ZooRefs#Aro96|Aro96]].
 
-Defined in [ACG+99].
+Defined in [[ZooRefs#ACG+99|ACG+99]].
 == Relations ==
 
 '''
@@ -11113,7 +11113,7 @@ Is strictly contained in NP^cc^ and in BPP^cc^ because of the EQUALITY problem.
 
 Equals NP^cc^ ∩ coNP^cc^.
 
-Defined in [BFS86].
+Defined in [[ZooRefs#BFS86|BFS86]].
 
 Like P^cc^, but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
 
@@ -11151,7 +11151,7 @@ The class of languages L in UP such that the mapping from an input x to the uniq
 
 Contains P.
 
-Defined in [HT03], where it was also shown that the closure of PermUP under polynomial-time one-to-one reductions is UP.
+Defined in [[ZooRefs#HT03|HT03]], where it was also shown that the closure of PermUP under polynomial-time one-to-one reductions is UP.
 
 On the other hand, they show that if PermUP = UP then E = UE.
 
@@ -11183,7 +11183,7 @@ text = u'''
 
 == Comments ==
 
-Defined by Valiant [Val03] to be "the class of physically constructible polynomial resource computers" (characterizing what "can be computed in the physical world in practice").  There he says that PhP contains P and BPP, but that it is open whether PhP contains BQP, since no scalable quantum computing proposal has been demonstrated beyond reasonable doubt.
+Defined by Valiant [[ZooRefs#Val03|Val03]] to be "the class of physically constructible polynomial resource computers" (characterizing what "can be computed in the physical world in practice").  There he says that PhP contains P and BPP, but that it is open whether PhP contains BQP, since no scalable quantum computing proposal has been demonstrated beyond reasonable doubt.
 
 For what it's worth, the present zookeeper has more qualms about admitting DTIME(n^1000^) into PhP than BQTIME(n^2^).  It is very possible that the total number of bits or bit tranisitions that can be witnessed by any one observer in the universe is finite.  (Recent observations of the cosmological constant combined with plausible fundamental physics yields a bound of 10^k^ with k in the low hundreds.)  In practice, less than 10^50^ bits and less than 10^80^ bit transitions are available for human use.  (This is combining the number of atoms in the Earth with the number of signals that they can exchange in a millenium.)
 
@@ -11259,7 +11259,7 @@ text = u'''
 
 Has the same relation to DSPACE(f(n)) as PP does to P.  The Turing machine has to halt on every input and every setting of the random tape.
 
-Equals PrSPACE(f(n)) [Jun85].
+Equals PrSPACE(f(n)) [[ZooRefs#Jun85|Jun85]].
 == Relations ==
 
 '''
@@ -11289,9 +11289,9 @@ text = u'''
 
 Has the same relation to DSPACE(f(n)) as PP does to P.  The Turing machine has to halt with probability 1 on every input.
 
-Contained in DSPACE(f(n)^2^) [BCP83].
+Contained in DSPACE(f(n)^2^) [[ZooRefs#BCP83|BCP83]].
 
-Equals Pr,,H,,SPACE(f(n)) [Jun85].
+Equals Pr,,H,,SPACE(f(n)) [[ZooRefs#Jun85|Jun85]].
 == Relations ==
 
 '''
@@ -11321,7 +11321,7 @@ text = u'''
 
 Same as PromiseRP, but for BPP instead of RP.
 
-Defined in [BF99].
+Defined in [[ZooRefs#BF99|BF99]].
 == Relations ==
 
 '''
@@ -11411,7 +11411,7 @@ text = u'''
 
 The class of promise problems solvable by an RP machine. I.e., the machine must accept with probability at least 1/2 for "yes" inputs, and with probability 0 for "no" inputs, but could have acceptance probability between 0 and 1/2 for inputs that do not satisfy the promise.
 
-Defined in [BF99], where it was also shown that BPP is in RP^PromiseRP[1]^ (i.e. with a single oracle query to PromiseRP).
+Defined in [[ZooRefs#BF99|BF99]], where it was also shown that BPP is in RP^PromiseRP[1]^ (i.e. with a single oracle query to PromiseRP).
 
 Contained in PromiseBPP.
 == Relations ==
@@ -11443,7 +11443,7 @@ text = u'''
 
 The class of promise problems solvable by an UP machine. I.e., the nondeterministic machine must have a unique accepting path for "yes" inputs, and no accepting paths "no" inputs, but could have any number of accepting paths for inputs that do not satisfy the promise.
 
-Although not originally stated with this notation, the main result of [VV86] is that NP is contained in RP^PromiseUP^.
+Although not originally stated with this notation, the main result of [[ZooRefs#VV86|VV86]] is that NP is contained in RP^PromiseUP^.
 == Relations ==
 
 '''
@@ -11471,7 +11471,7 @@ text = u'''
 
 == Comments ==
 
-Equals P^NP[log]^ ([BH91] and [Hem89] independently).
+Equals P^NP[log]^ ([[ZooRefs#BH91|BH91]] and [[ZooRefs#Hem89|Hem89]] independently).
 == Relations ==
 
 '''
@@ -11499,7 +11499,7 @@ text = u'''
 
 == Comments ==
 
-The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [BG69], where it was shown that Q equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).
+The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [[ZooRefs#BG69|BG69]], where it was shown that Q equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).
 
 Contains GCSL.
 == Relations ==
@@ -11533,7 +11533,7 @@ The class of decision problems solvable by a family of constant-depth, polynomia
 
 A uniformity condition may also be imposed.
 
-Defined in [Moo99].
+Defined in [[ZooRefs#Moo99|Moo99]].
 
 It is contained in QAC,,f,,^0^, but it is not known if it contains AC^0^. Notice that the latter containment is not obvious, since the set of gates in QAC^0^ do not allow to implement fanout in any way we may take for granted.
 
@@ -11567,7 +11567,7 @@ text = u'''
 
 Same as QAC^0^, except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.
 
-Defined in [Moo99].
+Defined in [[ZooRefs#Moo99|Moo99]].
 == Relations ==
 
 '''
@@ -11597,9 +11597,9 @@ text = u'''
 
 Same as QAC^0^[m], except that Mod-m gates are allowed for any m.
 
-Defined in [Moo99].
+Defined in [[ZooRefs#Moo99|Moo99]].
 
-[GHP00] showed that QACC^0^ equals QAC^0^[p] for any prime p.
+[[ZooRefs#GHP00|GHP00]] showed that QACC^0^ equals QAC^0^[p] for any prime p.
 == Relations ==
 
 '''
@@ -11629,7 +11629,7 @@ text = u'''
 
 Same as QAC^0^, except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.
 
-Defined in [Moo99], where it was also shown that QAC,,f,,^0^ =
+Defined in [[ZooRefs#Moo99|Moo99]], where it was also shown that QAC,,f,,^0^ =
 QAC^0^[2] = QACC^0^.
 == Relations ==
 
@@ -11660,7 +11660,7 @@ text = u'''
 
 The class of decision problems for which a "yes" answer can be verified by a public-coin quantum AM protocol, as follows.  Arthur generates a uniformly random (classical) string and sends it to Merlin.  Merlin responds with a polynomial-size quantum certificate, on which Arthur can perform any BQP operation.  The completeness and soundness requirements are the same as for AM.
 
-Defined by Marriott and Watrous [MW05].
+Defined by Marriott and Watrous [[ZooRefs#MW05|MW05]].
 
 Contains QMA and is contained in QIP[2] and BP•PP (and therefore PSPACE).
 == Relations ==
@@ -11690,7 +11690,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems recognized by quantum context-free languages, which are defined in [MC00].  The authors also showed that QCFL does not equal CFL.
+The class of decision problems recognized by quantum context-free languages, which are defined in [[ZooRefs#MC00|MC00]].  The authors also showed that QCFL does not equal CFL.
 == Relations ==
 
 '''
@@ -11720,13 +11720,13 @@ text = u'''
 
 The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of QMA with classical witnesses.
 
-Called MQA by Watrous [Wat09].
+Called MQA by Watrous [[ZooRefs#Wat09|Wat09]].
 
 Contains MA, and is contained in QMA.
 
-Given a black-box group G and a subgroup H, the problem of testing non-membership in H has polynomial QCMA query complexity [AK06].
+Given a black-box group G and a subgroup H, the problem of testing non-membership in H has polynomial QCMA query complexity [[ZooRefs#AK06|AK06]].
 
-See [AK06] for a "quantum oracle separation" between QCMA and QMA.  No classical oracle separation between QCMA and QMA is currently known.
+See [[ZooRefs#AK06|AK06]] for a "quantum oracle separation" between QCMA and QMA.  No classical oracle separation between QCMA and QMA is currently known.
 
 The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof.
 == Relations ==
@@ -11758,7 +11758,7 @@ text = u'''
 
 QH,,k,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,k,, over all nonnegative k.
 
-QH = BH [Wag88]; thus, either both hierarchies are infinite or both collapse to some finite level.
+QH = BH [[ZooRefs#Wag88|Wag88]]; thus, either both hierarchies are infinite or both collapse to some finite level.
 
 QH,,i,, is defined to be P^NP[k]^; that is, P with k queries to an NP oracle (where k is a constant).  Then QH is the union of QH,,i,, over all nonnegative i.
 == Relations ==
@@ -11795,13 +11795,13 @@ If the answer is "no," then however the prover behaves, the verifier rejects wit
 
 Let QIP[k] be QIP where the prover and verifier are restricted to exchanging k messages (with the prover going last).
 
-Defined in [Wat99], where it was also shown that PSPACE is in QIP[3].
+Defined in [[ZooRefs#Wat99|Wat99]], where it was also shown that PSPACE is in QIP[3].
 
-Subsequently [KW00] showed that for all k>3, QIP[k] = QIP[3] = QIP.
+Subsequently [[ZooRefs#KW00|KW00]] showed that for all k>3, QIP[k] = QIP[3] = QIP.
 
-QIP is contained in EXP [KW00].
+QIP is contained in EXP [[ZooRefs#KW00|KW00]].
 
-QIP = IP = PSPACE [JJUW09]; thus quantum computing adds no power to interactive proofs.
+QIP = IP = PSPACE [[ZooRefs#JJUW09|JJUW09]]; thus quantum computing adds no power to interactive proofs.
 
 QIP(1) is more commonly known as QMA.
 
@@ -11835,7 +11835,7 @@ text = u'''
 
 See QIP for definition.
 
-Contains QSZK [Wat02].
+Contains QSZK [[ZooRefs#Wat02|Wat02]].
 == Relations ==
 
 '''
@@ -11865,7 +11865,7 @@ text = u'''
 
 The class of problems that can be decided in quasi-linear time by a multitape deterministic Turing machine.  Quasi-linear time here means n(log n)^k^ + k, for some k.
 
-Defined in [Sch78].
+Defined in [[ZooRefs#Sch78|Sch78]].
 
 See also: Q, NQL.
 == Relations ==
@@ -11902,33 +11902,33 @@ If the answer is "no," then for all states the verifier rejects with probability
 
 QMA = QIP(1).
 
-Defined in [Wat00], where it is also shown that group non-membership is in QMA.
+Defined in [[ZooRefs#Wat00|Wat00]], where it is also shown that group non-membership is in QMA.
 
-Based on this, [Wat00] gives an oracle relative to which MA is strictly contained in QMA.
+Based on this, [[ZooRefs#Wat00|Wat00]] gives an oracle relative to which MA is strictly contained in QMA.
 
-Kitaev and Watrous (unpublished) showed QMA is contained in PP (see [MW05] for a proof).  Combining that result with [Ver92], one can obtain an oracle relative to which AM is not in QMA.
+Kitaev and Watrous (unpublished) showed QMA is contained in PP (see [[ZooRefs#MW05|MW05]] for a proof).  Combining that result with [[ZooRefs#Ver92|Ver92]], one can obtain an oracle relative to which AM is not in QMA.
 
-Kitaev ([KSV02], see also [AN02]) showed that the 5-Local Hamiltonians Problem is QMA-complete. Subsequently, Kempe and Regev [KR03] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [KKR04], has hit rock bottom (assuming P does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
+Kitaev ([[ZooRefs#KSV02|KSV02]], see also [[ZooRefs#AN02|AN02]]) showed that the 5-Local Hamiltonians Problem is QMA-complete. Subsequently, Kempe and Regev [[ZooRefs#KR03|KR03]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|KKR04]], has hit rock bottom (assuming P does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
 
 Compare to NQP.
 
-If QMA = PP then PP contains PH [Vya03].  This result uses the fact that QMA is contained in A,,0,,PP.
+If QMA = PP then PP contains PH [[ZooRefs#Vya03|Vya03]].  This result uses the fact that QMA is contained in A,,0,,PP.
 
-Approximating the ground state energy of a system composed of a line of quantum particles is QMA-complete [AGK07].
+Approximating the ground state energy of a system composed of a line of quantum particles is QMA-complete [[ZooRefs#AGK07|AGK07]].
 
 See also: QCMA, QMA/qpoly, QSZK, QMA(2), QMA-plus.
 
-Defined in [Wat00], where it is also shown that group non-membership is in QMA.  That is: let G be a group, whose elements are represented by polynomial-size strings.  We're given a "black box" that correctly multiplies and inverts elements of G.  Then given elements g and h,,1,,,...,h,,k,,, we can verify in QMA that g is not in the subgroup generated by h,,1,,,...,h,,k,,.
+Defined in [[ZooRefs#Wat00|Wat00]], where it is also shown that group non-membership is in QMA.  That is: let G be a group, whose elements are represented by polynomial-size strings.  We're given a "black box" that correctly multiplies and inverts elements of G.  Then given elements g and h,,1,,,...,h,,k,,, we can verify in QMA that g is not in the subgroup generated by h,,1,,,...,h,,k,,.
 
-Kitaev and Watrous (unpublished) showed QMA is contained in PP.  Combining that result with [Ver92], one can obtain an oracle relative to which AM is not in QMA.
+Kitaev and Watrous (unpublished) showed QMA is contained in PP.  Combining that result with [[ZooRefs#Ver92|Ver92]], one can obtain an oracle relative to which AM is not in QMA.
 
-[KSV02]
+[[ZooRefs#KSV02|KSV02]]
 
-[AN02]
+[[ZooRefs#AN02|AN02]]
 
 5-Local Hamiltonians.  Given an n-qubit Hilbert space, as well as a collection H,,1,,,...,H,,k,, of Hamiltonians (i.e. Hermitian positive semidefinite matrices), each of which acts on at most 5 qubits of the space.  Also given reals a,b such that b-a = Θ(1/poly(n)).  Decide whether the smallest eigenvalue of H=H,,1,,+...+H,,k,, is less than a or greater than b, promised that one of these is the case.
 
-Subsequently Kempe and Regev [KR03] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [KKR04], has hit rock bottom (assuming P does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
+Subsequently Kempe and Regev [[ZooRefs#KR03|KR03]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|KKR04]], has hit rock bottom (assuming P does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
 
 NQP
 == Relations ==
@@ -11960,13 +11960,13 @@ text = u'''
 
 Same as QMA, except that now the verifier is given two polynomial-size quantum certificates, which are guaranteed to be unentangled.
 
-Defined in [KMY01].
+Defined in [[ZooRefs#KMY01|KMY01]].
 
-It was shown in [ABD+08] that a conjecture they call the Strong Amplification Conjecture implies that QMA(2) is contained in PSPACE. The authors also show that there exists no perfectly disentangler that can be used to simulate QMA(2) in QMA, though other approaches to showing QMA = QMA(2) may still exist.
+It was shown in [[ZooRefs#ABD+08|ABD+08]] that a conjecture they call the Strong Amplification Conjecture implies that QMA(2) is contained in PSPACE. The authors also show that there exists no perfectly disentangler that can be used to simulate QMA(2) in QMA, though other approaches to showing QMA = QMA(2) may still exist.
 
-It was shown in [HM13] that QMA(k) = QMA(2) for k >= 2. However we still do not know if QMA(2) = QMA and we also do not know any upper bound for QMA(2) better than NEXP.
+It was shown in [[ZooRefs#HM13|HM13]] that QMA(k) = QMA(2) for k >= 2. However we still do not know if QMA(2) = QMA and we also do not know any upper bound for QMA(2) better than NEXP.
 
-Defined in [KMY01].  It is unknown whether QMA(k) = QMA(2) for all k>2, and also whether QMA(2) = QMA.
+Defined in [[ZooRefs#KMY01|KMY01]].  It is unknown whether QMA(k) = QMA(2) for all k>2, and also whether QMA(2) = QMA.
 == Relations ==
 
 '''
@@ -11996,7 +11996,7 @@ text = u'''
 
 Same as QMA, except now the verifier can directly obtain the probability that a given observable of the certificate state, if measured, would equal 1.  (In the usual model, by contrast, one can only sample an observable.)
 
-Defined in [AR03], where it was also shown that QMA-plus = QMA.
+Defined in [[ZooRefs#AR03|AR03]], where it was also shown that QMA-plus = QMA.
 == Relations ==
 
 '''
@@ -12054,9 +12054,9 @@ text = u'''
 
 Same as QMA except that for a "yes" instance, there exists a state that is accepted with probability 1.
 
-Defined in [Bra06]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any . It was also shown there that Quantum 2-SAT is in P.
+Defined in [[ZooRefs#Bra06|Bra06]]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any . It was also shown there that Quantum 2-SAT is in P.
 
-This result was later improved in [GN13] where it was shown that Quantum 3-SAT is QMA,,1,,-complete.
+This result was later improved in [[ZooRefs#GN13|GN13]] where it was shown that Quantum 3-SAT is QMA,,1,,-complete.
 == Relations ==
 
 '''
@@ -12086,7 +12086,7 @@ text = u'''
 
 The class of decision problems for which a "yes" answer can be verified by a public-coin quantum MAM protocol, as follows.  Merlin sends a polynomial-size quantum state to Arthur.  Arthur then flips some classical coins (in fact, he only has to flip one without loss of generality) and sends the outcome to Merlin.  At this stage Arthur is not yet allowed to perform any quantum operations.  Merlin then sends Arthur another quantum state.  Finally, Arthur performs a BQP operation on both of the states simultaneously, and either accepts or rejects.  The completeness and soundness requirements are the same as for AM.  Also, Merlin's messages might be entangled.
 
-Defined by Marriott and Watrous [MW05], who also showed that QMAM = QIP(3) = QIP.
+Defined by Marriott and Watrous [[ZooRefs#MW05|MW05]], who also showed that QMAM = QIP(3) = QIP.
 
 Hence QMAM contains PSPACE.
 == Relations ==
@@ -12118,7 +12118,7 @@ text = u'''
 
 Same as QMA except that the quantum proof has O(log n) qubits instead of a polynomial number.
 
-Equals BQP [MW05].
+Equals BQP [[ZooRefs#MW05|MW05]].
 == Relations ==
 
 '''
@@ -12150,11 +12150,11 @@ The quantum generalization of MIP, and the multi-prover generalization of QIP.
 
 A quantum multi-prover interactive proof system is the same as a classical one, except that all messages and verifier computations are quantum.  As in MIP, there is no communication among the provers; however, the provers share unlimited prior entanglement.  The number of provers and number of rounds can both be polynomial in n.
 
-Defined in [KM02].
+Defined in [[ZooRefs#KM02|KM02]].
 
-Shown to be equal to MIP* in [RUV12].
+Shown to be equal to MIP* in [[ZooRefs#RUV12|RUV12]].
 
-QMIP contains NEXP simply because MIP* contains NEXP [IV12]. Since we know that NEXP = QMIP,,ne,,, this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
+QMIP contains NEXP simply because MIP* contains NEXP [[ZooRefs#IV12|IV12]]. Since we know that NEXP = QMIP,,ne,,, this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
 
 Fascinatingly, no relationship between QMIP and NEXP is known.  We don't know whether allowing the provers unlimited prior entanglement makes the class more powerful, less powerful, or both!
 == Relations ==
@@ -12186,7 +12186,7 @@ text = u'''
 
 Same as QMIP, except that now the provers share only a polynomial number of EPR pairs, instead of an unlimited number.
 
-Defined in [KM02], where it was also shown that QMIP,,le,, is contained in NEXP = QMIP,,ne,,.
+Defined in [[ZooRefs#KM02|KM02]], where it was also shown that QMIP,,le,, is contained in NEXP = QMIP,,ne,,.
 == Relations ==
 
 '''
@@ -12216,7 +12216,7 @@ text = u'''
 
 Same as QMIP, except that now the provers have no prior entanglement.
 
-Defined in [KM02], where it was also shown that QMIP,,ne,, = NEXP.  Thus, QMIP,,ne,, contains QMIP,,le,,.
+Defined in [[ZooRefs#KM02|KM02]], where it was also shown that QMIP,,ne,, = NEXP.  Thus, QMIP,,ne,, contains QMIP,,le,,.
 == Relations ==
 
 '''
@@ -12248,7 +12248,7 @@ The class of decision problems solvable by polylogarithmic-depth quantum circuit
 
 Has the same relation to NC as BQP does to P.
 
-[CW00] showed that factoring is in ZPP with a QNC oracle.
+[[ZooRefs#CW00|CW00]] showed that factoring is in ZPP with a QNC oracle.
 
 Is incomparable with BPP as far as anyone knows.
 
@@ -12282,7 +12282,7 @@ text = u'''
 
 Constant-depth quantum circuits without fanout gates.
 
-Defined in [Spa02].
+Defined in [[ZooRefs#Spa02|Spa02]].
 
 Contained in QNC,,f,,^0^.
 == Relations ==
@@ -12314,9 +12314,9 @@ text = u'''
 
 Same as QNC^1^, but for the exact rather than bounded-error case.
 
-In contrast to NC^1^, it is not clear how to simulate QNC^1^ on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [ASV00].
+In contrast to NC^1^, it is not clear how to simulate QNC^1^ on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [[ZooRefs#ASV00|ASV00]].
 
-See also [MN02].
+See also [[ZooRefs#MN02|MN02]].
 == Relations ==
 
 '''
@@ -12346,7 +12346,7 @@ text = u'''
 
 Constant-depth quantum circuits with unbounded-fanout gates.
 
-Defined in [Spa02].
+Defined in [[ZooRefs#Spa02|Spa02]].
 
 Contains QNC^0^, and is contained in QACC^0^.
 == Relations ==
@@ -12436,7 +12436,7 @@ text = u'''
 
 Equals DSPACE(2^polylog(n)^).
 
-According to [BG94], Beigel and Feigenbaum and (independently) Krawczyk showed that QPSPACE is not contained in Check.
+According to [[ZooRefs#BG94|BG94]], Beigel and Feigenbaum and (independently) Krawczyk showed that QPSPACE is not contained in Check.
 == Relations ==
 
 '''
@@ -12468,11 +12468,11 @@ Same as RG, except that now the verifier is a BQP machine, and can exchange poly
 
 The two provers are computationally unbounded, but must obey the laws of quantum mechanics.  Also, we can assume without loss of generality that the provers share no entanglement, because adversaries gain no advantage by sharing information.
 
-Defined in [Gut05], where it was also shown that QRG is contained in NEXP ∩ coNEXP.
+Defined in [[ZooRefs#Gut05|Gut05]], where it was also shown that QRG is contained in NEXP ∩ coNEXP.
 
 QRG trivially contains RG (and hence EXP), as well as SQG.
 
-QRG is contained in EXP [GW07].  Hence QRG = RG = EXP and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
+QRG is contained in EXP [[ZooRefs#GW07|GW07]].  Hence QRG = RG = EXP and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
 == Relations ==
 
 '''
@@ -12507,7 +12507,7 @@ If the answer is "no," then there exists a σ such that for all ρ, M(ρ,σ) rej
 
 In other words, it's the same as QRG(k) for , the class of problems that admit quantum interactive proofs with competing provers in which there's no communication from the verifier back to the provers.  QRG(1) is the quantum version of RG(1).
 
-Defined in [JW09], where it was shown that QRG(1) is contained in PSPACE .
+Defined in [[ZooRefs#JW09|JW09]], where it was shown that QRG(1) is contained in PSPACE .
 
 QRG(1) trivially contains QMA (and indeed P^QMA^).
 
@@ -12646,7 +12646,7 @@ Arthur is a BQP (i.e. quantum) verifier who can exchange quantum messages with M
 
 Arthur's "view" of his interaction with Merlin is taken to be the sequence of mixed states he has, over all steps of the protocol.  The zero-knowledge requirement is that each of these states must have trace distance at most (say) 1/10 from a state that Arthur could prepare himself (in BQP), without help from Merlin.  Arthur is assumed to be an honest verifier.
 
-Defined in [Wat02], where the following was also shown:
+Defined in [[ZooRefs#Wat02|Wat02]], where the following was also shown:
 
 QSZK is contained in PSPACE.
 QSZK is closed under complement.
@@ -12682,11 +12682,11 @@ text = u'''
 
 The class of decision problems solvable by a Turing machine.  Often identified with the class of 'effectively computable' functions (the Church-Turing thesis).
 
-Defined in [Tur36], [Chu41], and other seminal early papers.
+Defined in [[ZooRefs#Tur36|Tur36]], [[ZooRefs#Chu41|Chu41]], and other seminal early papers.
 
 Equals RE ∩ coRE.
 
-Strictly contains PR, the primitive recursive functions (see [Kle71]).
+Strictly contains PR, the primitive recursive functions (see [[ZooRefs#Kle71|Kle71]]).
 == Relations ==
 
 '''
@@ -12756,15 +12756,15 @@ RE-complete sets are also called creative sets for some reason.
 
 The canonical RE-complete problem is the halting problem: i.e., given a Turing machine, does it halt when started on a blank tape?
 
-The famous unsolvability of the halting problem [Tur36] implies that R does not equal RE.
+The famous unsolvability of the halting problem [[ZooRefs#Tur36|Tur36]] implies that R does not equal RE.
 
 Also, RE does not equal coRE.
 
 RE and coRE can be generalized to the arithmetic hierarchy AH.
 
-There are problems in RE that are neither RE-complete under T-reductions, nor in R [Fri57] [Muc56].  This is the resolution of Post's problem [Pos44].
+There are problems in RE that are neither RE-complete under T-reductions, nor in R [[ZooRefs#Fri57|Fri57]] [[ZooRefs#Muc56|Muc56]].  This is the resolution of Post's problem [[ZooRefs#Pos44|Pos44]].
 
-Indeed, RE contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [Sho99].
+Indeed, RE contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [[ZooRefs#Sho99|Sho99]].
 == Relations ==
 
 '''
@@ -12796,13 +12796,13 @@ The class of decision problems solvable by deterministic finite automata (DFAs).
 
 Equals the class solvable by nondeterministic finite automata (NDFAs).
 
-Equals DSPACE(O(1)) [She59], which equals DSPACE(o(log log n)) [HLS65].
+Equals DSPACE(O(1)) [[ZooRefs#She59|She59]], which equals DSPACE(o(log log n)) [[ZooRefs#HLS65|HLS65]].
 
 Includes, i.e., "Is the parity of the input odd?," but not "Are the majority of bits in the input 1's?"  This is sometimes expressed as "finite automata can't count."
 
 Contained in NC^1^.
 
-See e.g. [Koz97], [Gur89] for basic results on regular languages.
+See e.g. [[ZooRefs#Koz97|Koz97]], [[ZooRefs#Gur89|Gur89]] for basic results on regular languages.
 
 The class of decision problems solvable by deterministic finite automata (DFA's).
 
@@ -12834,9 +12834,9 @@ text = u'''
 
 == Comments ==
 
-The class of problems solvable by a probabilistic polynomial-time verifier who can exchange a polynomial number of messages with two competing, computationally-unbounded provers -- one trying to convince the verifier that the answer is "yes," the other that the answer is "no."  Note that the verifier can hide information from the provers.  Public-coin RG amounts to SAPTIME, which equals PSPACE [Pap83].
+The class of problems solvable by a probabilistic polynomial-time verifier who can exchange a polynomial number of messages with two competing, computationally-unbounded provers -- one trying to convince the verifier that the answer is "yes," the other that the answer is "no."  Note that the verifier can hide information from the provers.  Public-coin RG amounts to SAPTIME, which equals PSPACE [[ZooRefs#Pap83|Pap83]].
 
-RG is in EXP relative to any oracle [KM92]; they are equal, unrelativized [FK97b].
+RG is in EXP relative to any oracle [[ZooRefs#KM92|KM92]]; they are equal, unrelativized [FK97b].
 
 See also PCD, GPCD.
 
@@ -12999,7 +12999,7 @@ text = u'''
 
 Has the same relation to L as RP does to P.  The randomized machine must halt for every input and every setting of the random tape.
 
-Contains undirected reachability (is there a path from vertex u to vertex v in an undirected graph?) [AKL+79].
+Contains undirected reachability (is there a path from vertex u to vertex v in an undirected graph?) [[ZooRefs#AKL+79|AKL+79]].
 
 Contained in RL.
 == Relations ==
@@ -13062,9 +13062,9 @@ NL).
 
 Contains R,,H,,L.
 
-Contained in SC [Nis92].
+Contained in SC [[ZooRefs#Nis92|Nis92]].
 
-[RTV05] give strong evidence that RL = L.
+[[ZooRefs#RTV05|RTV05]] give strong evidence that RL = L.
 == Relations ==
 
 '''
@@ -13094,7 +13094,7 @@ text = u'''
 
 Has the same relation to NC as RP does to P.
 
-Contains the maximum matching problem for bipartite graphs [MVV87].
+Contains the maximum matching problem for bipartite graphs [[ZooRefs#MVV87|MVV87]].
 
 Contained in QNC.
 
@@ -13131,19 +13131,19 @@ The class of decision problems solvable by an NP machine such that
 If the answer is 'yes,' at least 1/2 of computation paths accept.
 If the answer is 'no,' all computation paths reject.
 
-Defined in [Gil77] (implicitly: the class VPP that is defined is equivalent to RP by running the recognizer as many times as necessary to reach probability 1/2).
+Defined in [[ZooRefs#Gil77|Gil77]] (implicitly: the class VPP that is defined is equivalent to RP by running the recognizer as many times as necessary to reach probability 1/2).
 
-Contains the problem of testing whether an integer is prime [AH87], although this problem was subsequently shown to be in P [AKS02].
+Contains the problem of testing whether an integer is prime [[ZooRefs#AH87|AH87]], although this problem was subsequently shown to be in P [[ZooRefs#AKS02|AKS02]].
 
-For other problems in RP, see the standard text on randomized algorithms, [MR95].
+For other problems in RP, see the standard text on randomized algorithms, [[ZooRefs#MR95|MR95]].
 
-Has the same p-measure as ZPP. Moreover, this measure is either zero or one. If the measure is non-zero, then ZPP = BPP = EXP [IM03].
+Has the same p-measure as ZPP. Moreover, this measure is either zero or one. If the measure is non-zero, then ZPP = BPP = EXP [[ZooRefs#IM03|IM03]].
 
 See also: coRP, ZPP, BPP.
 
-Defined in [Gil77].
+Defined in [[ZooRefs#Gil77|Gil77]].
 
-Contains the problem of testing whether an integer is prime [AH87].
+Contains the problem of testing whether an integer is prime [[ZooRefs#AH87|AH87]].
 == Relations ==
 
 '''
@@ -13173,7 +13173,7 @@ text = u'''
 
 The class of decision problems (x,m) (where x is an input of length |x|=n and m is an integer parameter), that are solvable by a nondeterministic (i.e. NP) machine in poly(n+m) time and O(m+log n) space simultaneously.
 
-Defined in [Mon80].
+Defined in [[ZooRefs#Mon80|Mon80]].
 
 See also FPT.
 == Relations ==
@@ -13208,7 +13208,7 @@ The class of functions  which can be computed by  players with access to shared 
 The communication cost (the sum of the number of random bits used and bits written to the shared blackboard) is .
  If , then the players decide correctly with probably at least 2/3, whereas if , the players always decide correctly.
 
-NP,,,,^cc^ is not equal to RP,,,,^cc^ for  players, for any constant  [DP08].
+NP,,,,^cc^ is not equal to RP,,,,^cc^ for  players, for any constant  [[ZooRefs#DP08|DP08]].
 == Relations ==
 
 '''
@@ -13300,7 +13300,7 @@ text = u'''
 
 The class of decision problems solvable in space O(f(n)) by a reversible Turing machine (a deterministic Turing machine for which every configuration has at most one immediate predecessor).
 
-Was shown to equal DSPACE(f(n)) [LMT97].
+Was shown to equal DSPACE(f(n)) [[ZooRefs#LMT97|LMT97]].
 == Relations ==
 
 '''
@@ -13367,9 +13367,9 @@ Note that this differs from Σ,,2,,P in that the quantifiers in the second condi
 
 Less formally, S,,2,,P is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In Σ,,2,,P, the disprover moves first.
 
-Defined in [RS98], where it was also shown that S,,2,,P contains MA and Δ,,2,,P.  Defined independently in [Can96].
+Defined in [[ZooRefs#RS98|RS98]], where it was also shown that S,,2,,P contains MA and Δ,,2,,P.  Defined independently in [[ZooRefs#Can96|Can96]].
 
-Contained in ZPP^NP^ [Cai01].
+Contained in ZPP^NP^ [[ZooRefs#Cai01|Cai01]].
 
 S,,2,,-EXP•P^NP^: Don't Ask 
 One of the caged classes of the Complexity Zoo.
@@ -13405,7 +13405,7 @@ SAC^k^ is the class of decision problems solvable by a family of depth-O(log^k^n
 
 A uniformity condition may also be imposed.
 
-Defined by [BCD+89], who also showed that SAC,,k,, is closed under complement for every k>0.
+Defined by [[ZooRefs#BCD+89|BCD+89]], who also showed that SAC,,k,, is closed under complement for every k>0.
 == Relations ==
 
 '''
@@ -13435,7 +13435,7 @@ text = u'''
 
 See SAC for definition.
 
-Not closed under complement [BCD+89].
+Not closed under complement [[ZooRefs#BCD+89|BCD+89]].
 == Relations ==
 
 '''
@@ -13465,9 +13465,9 @@ text = u'''
 
 See SAC for definition.
 
-Equals LOGCFL/poly [Ven91].
+Equals LOGCFL/poly [[ZooRefs#Ven91|Ven91]].
 
-Contained in ⊕SAC^1^ [GW96].
+Contained in ⊕SAC^1^ [[ZooRefs#GW96|GW96]].
 == Relations ==
 
 '''
@@ -13497,7 +13497,7 @@ text = u'''
 
 The class of problems solvable by a polynomial-time Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
-Defined in [Pap83], where it was also observed that SAPTIME = PSPACE.
+Defined in [[ZooRefs#Pap83|Pap83]], where it was also observed that SAPTIME = PSPACE.
 == Relations ==
 
 '''
@@ -13530,7 +13530,7 @@ The class of decision problems for which the following holds.  There exists a #P
 If the answer is "yes" then f(x) > g(x).
 If the answer is "no" then f(x) < g(x)/2.
 
-Defined in [BGM02], where the following was also shown:
+Defined in [[ZooRefs#BGM02|BGM02]], where the following was also shown:
 
 SBP contains MA, WAPP, and ∃BPP.
 SBP is contained in AM and BPP,,path,,.
@@ -13565,7 +13565,7 @@ text = u'''
 
 The class of decision problems for which there exists a polynomial-time quantum algorithm that accepts with probability at least 2^−p(n)^ if the answer is "yes", and with probability at most 2^−p(n)−1^ if the answer is "no", for some polynomial p.
 
-Defined by Kuperberg in [Kup09], where he showed that SBQP = A,,0,,PP.
+Defined by Kuperberg in [[ZooRefs#Kup09|Kup09]], where he showed that SBQP = A,,0,,PP.
 == Relations ==
 
 '''
@@ -13599,13 +13599,13 @@ The class of decision problems solvable by a Turing machine that simultaneously 
 
 Note that SC might be smaller than P ∩ polyL, since for the latter, it suffices to have two separate algorithms: one polynomial-time and the other polylogarithmic-space.
 
-Deterministic context-free languages (DCFLs) can be recognized in SC [Coo79].
+Deterministic context-free languages (DCFLs) can be recognized in SC [[ZooRefs#Coo79|Coo79]].
 
-SC contains RL and BPL [Nis92].
+SC contains RL and BPL [[ZooRefs#Nis92|Nis92]].
 
 SC equals DTISP(poly,polylog) by definition.
 
-Deterministic context-free languages (DCFL's) can be recognized in SC [Coo79].
+Deterministic context-free languages (DCFL's) can be recognized in SC [[ZooRefs#Coo79|Coo79]].
 == Relations ==
 
 '''
@@ -13635,7 +13635,7 @@ text = u'''
 
 The class of FNP search problems solvable in O(2^εn^) time for every ε>0.
 
-Defined in [IPZ01], who also gave reductions showing that if any of k-SAT, k-colorability, k-set cover, clique, or vertex cover is in SE, then all of them are.
+Defined in [[ZooRefs#IPZ01|IPZ01]], who also gave reductions showing that if any of k-SAT, k-colorability, k-set cover, clique, or vertex cover is in SE, then all of them are.
 == Relations ==
 
 '''
@@ -13669,9 +13669,9 @@ Is called "strong" to contrast it with the ordinary Exponential Hierarchy EH.
 
 Note that we would get the same class if we replaced NE by NEXP.
 
-SEH collapses to P^NE^ [Hem89]
+SEH collapses to P^NE^ [[ZooRefs#Hem89|Hem89]]
 
-There exists an oracle relative to which SEH is not contained in EH [Hem89].
+There exists an oracle relative to which SEH is not contained in EH [[ZooRefs#Hem89|Hem89]].
 EH and SEH are incomparable for all anyone knows.
 == Relations ==
 
@@ -13702,9 +13702,9 @@ text = u'''
 
 The class of decision problems solvable by a k-bottleneck Turing machine. This is a machine that, after a polynomial amount of time, erases everything on the tape except for a single k-valued "safe-storage".  There's also a counter recording the number of erasings, which is in effect a non-deterministic witness.  For example, SF,,2,, contains both ⊕P and NP by using the counter as a witness.
 
-Defined in [CF91], where it was also shown that SF,,5,, = PSPACE.
+Defined in [[ZooRefs#CF91|CF91]], where it was also shown that SF,,5,, = PSPACE.
 
-The complexity of SF,,2,,, SF,,3,,, and SF,,4,, was studied in [Ogi94] and [Her97].  The following result of those authors is among the caged beasts of the Complexity Zoo:
+The complexity of SF,,2,,, SF,,3,,, and SF,,4,, was studied in [[ZooRefs#Ogi94|Ogi94]] and [[ZooRefs#Her97|Her97]].  The following result of those authors is among the caged beasts of the Complexity Zoo:
 
 SF,,4,, is contained in BP ⊕P^Mod_3P ^ ⊕P ^ Mod_3P ^ ⊕P^
 
@@ -13738,14 +13738,14 @@ text = u'''
 
 A hierarchy of generalizations of SZK, in which Arthur is allowed to gain some information from his interaction with Merlin.
 
-Defined in [GP91].
+Defined in [[ZooRefs#GP91|GP91]].
 
 There are several variants (which we only describe roughly), including:
 
 SKC,,hint,,(k(n)): Hint sense.  The simulator can reproduce Arthur's view of the protocol if given a hint string of size k(n).
 SKC,,hint,,(k(n)): Strict oracle sense.  The simulator can reproduce Arthur's view if allowed k(n) queries to an oracle O.
 SKC,,avg,,(k(n)): Average oracle sense.  For each input, the expected number of queries the simulator makes to oracle O is at most k(n).
-SKC,,ent,,(k(n)): Entropy sense.  Defined in [ABV95]. For each input, the expectation (over Arthur's random coins) of -log(P) is at most k(n), where P is the probability that the view output by the simulator equals the view resulting from the actual protocol.
+SKC,,ent,,(k(n)): Entropy sense.  Defined in [[ZooRefs#ABV95|ABV95]]. For each input, the expectation (over Arthur's random coins) of -log(P) is at most k(n), where P is the probability that the view output by the simulator equals the view resulting from the actual protocol.
 
 See also: PKC.
 == Relations ==
@@ -13781,26 +13781,26 @@ If the answer is 'yes,' one or more computation paths accept.
 If the answer is 'no,' all paths reject.
 If the machine can make a nondeterministic transition from configuration A to configuration B, then it can also transition from B to A.  (This is what 'symmetric' means.)
 
-Defined in [LP82].
+Defined in [[ZooRefs#LP82|LP82]].
 
 The undirected s-t connectivity problem (USTCON: is there a path from vertex s to vertex t in a given undirected graph?) is complete for SL, under L-reductions.
 
 SL contains L, and is contained in NL.
 
-It follows from [AKL+79] that SL is contained in L/poly.
+It follows from [[ZooRefs#AKL+79|AKL+79]] that SL is contained in L/poly.
 
-[KW93] showed that SL is contained in ⊕L, as well as Mod,,k,,L for every prime k.
+[[ZooRefs#KW93|KW93]] showed that SL is contained in ⊕L, as well as Mod,,k,,L for every prime k.
 
-SL is also contained in DSPACE(log^3/2^n) [NSW92], and indeed in DSPACE(log^4/3^n) [ATW+00].
+SL is also contained in DSPACE(log^3/2^n) [[ZooRefs#NSW92|NSW92]], and indeed in DSPACE(log^4/3^n) [[ZooRefs#ATW+00|ATW+00]].
 
-[NT95] showed that SL equals coSL, and furthermore that SL^SL^ = SL (that is, the symmetric logspace hierarchy collapses).
+[[ZooRefs#NT95|NT95]] showed that SL equals coSL, and furthermore that SL^SL^ = SL (that is, the symmetric logspace hierarchy collapses).
 
-Reingold ultimately showed that SL = L [Rei04], even relative to an oracle. This subsumes many of the earlier results.
+Reingold ultimately showed that SL = L [[ZooRefs#Rei04|Rei04]], even relative to an oracle. This subsumes many of the earlier results.
 
 The reachability problem (is there a path from vertex s to vertex t?) for undirected graphs is complete for SL, under L-reduction.
 
 The story ends with the remarkable result that SL = L (even relative to an oracle)
-[Rei04].
+[[ZooRefs#Rei04|Rei04]].
 == Relations ==
 
 '''
@@ -13834,7 +13834,7 @@ Same as FPT, except that now on input (x,k) (k a parameter), the space used must
 
 If P = PSPACE, then FPT = SLICEWISE PSPACE.
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 == Relations ==
 
 '''
@@ -13862,7 +13862,7 @@ text = u'''
 
 == Comments ==
 
-[Fag74] showed that NP is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.
+[[ZooRefs#Fag74|Fag74]] showed that NP is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.
 
 Then SNP is the class of decision problems reducible to a graph-theoretic predicate with only universal quantifiers over vertices, no existential quantifiers.  As an example, k-SAT (CNF satisfiability with at most k literals per clause, for k a constant) is in SNP.  But general SAT is not in SNP, basically because we're not allowed to say, "There exists a literal in this clause that satisfies the clause."
 
@@ -13870,11 +13870,11 @@ Contains MMSNP.
 
 See also: MaxSNP.
 
-[Fag74]
+[[ZooRefs#Fag74|Fag74]]
 
 NP
 
-[Pap94]
+[[ZooRefs#Pap94|Pap94]]
 
 There exists a relation P(u,v) on vertices of G, such that P(u,u) is false, and for all distinct u,v either P(u,v) or P(v,u), and P(u,v) and P(v,w) implies P(u,w), and if P(u,w) and there does not exist a v for which P(u,v) and P(v,w), then there is an edge from u to w.
 
@@ -14006,9 +14006,9 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [Imm98] for a full definition.
+The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [[ZooRefs#Imm98|Imm98]] for a full definition.
 
-SO-E = NP [Fag74].
+SO-E = NP [[ZooRefs#Fag74|Fag74]].
 
 Contains FO(poly(n)).
 == Relations ==
@@ -14135,7 +14135,7 @@ text = u'''
 
 The class of problems in P for which the best parallel algorithm (using a polynomial number of processors) is faster than the best serial algorithm by a factor of Ω(n^ε^) for some ε>0.
 
-Defined in [KRS90].
+Defined in [[ZooRefs#KRS90|KRS90]].
 
 SP is also an alternate name for XP,,uniform,,
 == Relations ==
@@ -14165,7 +14165,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems for which the number of 'yes' instances of size n is upper-bounded by a polynomial in n.  If SPARSE intersects NPC then P = NP [Mah82].
+The class of decision problems for which the number of 'yes' instances of size n is upper-bounded by a polynomial in n.  If SPARSE intersects NPC then P = NP [[ZooRefs#Mah82|Mah82]].
 
 Contains TALLY.
 == Relations ==
@@ -14197,7 +14197,7 @@ text = u'''
 
 Has the same relation to PL as SPP does to PP.
 
-Contains the maximum matching and perfect matching problems under a pseudorandom assumption [ARZ99].
+Contains the maximum matching and perfect matching problems under a pseudorandom assumption [[ZooRefs#ARZ99|ARZ99]].
 
 Contains UL.
 
@@ -14238,21 +14238,21 @@ If the answer is "yes," then these numbers differ by 2.
 
 (A technicality: If the total number of paths is even then the numbers can't differ by 1.)
 
-Defined in [FFK94], where it was also shown that SPP is low for PP, C,,=,,P, Mod,,k,,P, and SPP itself.  (I.e. adding SPP as an oracle does not increase the power of these classes.)
+Defined in [[ZooRefs#FFK94|FFK94]], where it was also shown that SPP is low for PP, C,,=,,P, Mod,,k,,P, and SPP itself.  (I.e. adding SPP as an oracle does not increase the power of these classes.)
 
-Independently defined in [OH93], who called the class XP.
+Independently defined in [[ZooRefs#OH93|OH93]], who called the class XP.
 
 Contained in LWPP, C,,=,,P, and WPP among other classes.
 
-Contains FewP; indeed, FewP is low for SPP, so that SPP^FewP^ = SPP [FFK94].
+Contains FewP; indeed, FewP is low for SPP, so that SPP^FewP^ = SPP [[ZooRefs#FFK94|FFK94]].
 
-Contains the problem of deciding whether a graph has any nontrivial automorphisms [KST92].
+Contains the problem of deciding whether a graph has any nontrivial automorphisms [[ZooRefs#KST92|KST92]].
 
-Indeed, contains graph isomorphism [AK02].
+Indeed, contains graph isomorphism [[ZooRefs#AK02|AK02]].
 
-Contains a whole gaggle of problems for solvable black-box groups: solvability testing, membership testing, subgroup testing, normality testing, order verification, nilpotetence testing, group isomorphism, and group intersection [Vin04]
+Contains a whole gaggle of problems for solvable black-box groups: solvability testing, membership testing, subgroup testing, normality testing, order verification, nilpotetence testing, group isomorphism, and group intersection [[ZooRefs#Vin04|Vin04]]
 
-[AK02] also showed that the Hidden Subgroup Problem for permutation groups, of interest in quantum computing, is in FP^SPP^.
+[[ZooRefs#AK02|AK02]] also showed that the Hidden Subgroup Problem for permutation groups, of interest in quantum computing, is in FP^SPP^.
 == Relations ==
 
 '''
@@ -14282,19 +14282,19 @@ text = u'''
 
 Same as QRG(2), except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.
 
-Defined in [GW05], where it was also shown that SQG contains QIP.
+Defined in [[ZooRefs#GW05|GW05]], where it was also shown that SQG contains QIP.
 
-SQG is contained in EXP [Gut05].
+SQG is contained in EXP [[ZooRefs#Gut05|Gut05]].
 
 SQG is trivially contained in QRG(4) (and hence EXP).
 
 SQG trivially contains QRG(2) (and hence PSPACE).
 
-SQG is contained in PSPACE [GW10].  Hence SQG = QRG(2) = RG(2) = PSPACE and the addition of quantum information, combined with the ability of the verifier to process the one prover's answer before preparing the other prover's question, has no effect on the complexity of two-turn (one-round) zero-sum games.
+SQG is contained in PSPACE [[ZooRefs#GW10|GW10]].  Hence SQG = QRG(2) = RG(2) = PSPACE and the addition of quantum information, combined with the ability of the verifier to process the one prover's answer before preparing the other prover's question, has no effect on the complexity of two-turn (one-round) zero-sum games.
 
 Same as QRG, except that now the verifier can exchange only a single round of quantum messages with the two provers.  The verifier may process the yes-prover's response before sending a message to the no-prover (compare with RG[1], wherein the verifier's messages must be sent to the provers in parallel).
 
-SQG is contained in EXP [Gut05], as well as in QRG.
+SQG is contained in EXP [[ZooRefs#Gut05|Gut05]], as well as in QRG.
 
 SQG trivially contains QS,,2,,P.
 == Relations ==
@@ -14359,26 +14359,26 @@ What does that mean?  For each choice of random coins, the verifier has a "view"
 
 The most famous example of such a protocol is for graph nonisomorphism. Given two graphs G and H, the verifier picks at random one of the graphs (each with probability 1/2), permutes its vertices randomly, sends the resulting graph to the prover, and asks, "Which graph did I start with, G or H?"  If G and H are non-isomorphic, the prover can always answer correctly (since he can use exponential time), but if they're isomorphic, he can answer correctly with probability at most 1/2. Thus, if the prover always gives the correct answer, then the verifier becomes convinced the graphs are not isomorphic.  On the other hand, the verifier already knew which graph (G or H) he started with, so he could simulate his entire view of the interaction himself, without the prover's help.
 
-If that sounds like a complicated definition, well, it is.  But it turns out that SZK has extremely nice properties. [Oka96] showed that:
+If that sounds like a complicated definition, well, it is.  But it turns out that SZK has extremely nice properties. [[ZooRefs#Oka96|Oka96]] showed that:
 
 SZK is closed under complement.  E.g., a verifier can verify in zero-knowledge that two graphs are isomorphic, not only that they aren't. 
 We can assume without loss of generality that the whole interaction consists of a constant number of messages.
 Amazingly, we can also assume without loss of generality that the protocol is public-coin. That is, the verifier (often called Arthur) doesn't need to hide any of his random bits, as he did in the graph nonisomorphism protocol above, but can just send them all to the prover (called Merlin)!
 Finally, we can assume without loss of generality that the verifier (Arthur) is honest. A dishonest verifier would be one that tries to learn something about the problem (violating the zero-knowledge requirement) by deviating from the protocol.
 
-Subsequently, [SV97] showed that SZK has a natural complete promise problem, called Statistical Difference (SD).  Given two polynomial-size circuits, C,,0,, and C,,1,,, let D,,0,, and D,,1,, be the distributions over their respective outputs when they're given as input a uniformly random n-bit string.  We're promised that D,,0,, and D,,1,, have trace distance either at most 1/3 or at least 2/3; the problem is to decide which is the case.
+Subsequently, [[ZooRefs#SV97|SV97]] showed that SZK has a natural complete promise problem, called Statistical Difference (SD).  Given two polynomial-size circuits, C,,0,, and C,,1,,, let D,,0,, and D,,1,, be the distributions over their respective outputs when they're given as input a uniformly random n-bit string.  We're promised that D,,0,, and D,,1,, have trace distance either at most 1/3 or at least 2/3; the problem is to decide which is the case.
 
 Note: The constants 1/3 and 2/3 can be amplified to 2^-poly(n)^ and 1-2^-poly(n)^ respectively.  But it is crucial that (2/3)^2^ > 1/3.
 
-Another complete promise problem for SZK is Entropy Difference (ED) [GV99].  Here we're promised that either H(D,,0,,)>H(D,,1,,)+1 or H(D,,1,,)>H(D,,0,,)+1, where the distributions D,,0,, and D,,1,, are as above, and H denotes Shannon entropy.  The problem is to determine which is the case.
+Another complete promise problem for SZK is Entropy Difference (ED) [[ZooRefs#GV99|GV99]].  Here we're promised that either H(D,,0,,)>H(D,,1,,)+1 or H(D,,1,,)>H(D,,0,,)+1, where the distributions D,,0,, and D,,1,, are as above, and H denotes Shannon entropy.  The problem is to determine which is the case.
 
-If any hard-on-average language is in SZK, then one-way functions exist [Ost91].
+If any hard-on-average language is in SZK, then one-way functions exist [[ZooRefs#Ost91|Ost91]].
 
 See general zero-knowledge (ZK).
 
 Contains PZK and NISZK, and is contained in AM ∩ coAM, as well as CZK and QSZK.
 
-There exists an oracle relative to which SZK is not in BQP [Aar02].
+There exists an oracle relative to which SZK is not in BQP [[ZooRefs#Aar02|Aar02]].
 
 Contained in DQP [Aar02b].
 
@@ -14392,7 +14392,7 @@ SZK is closed under complement.  I.e. Arthur can verify in zero-knowledge that t
 Amazingly, we can also assume without loss of generality that the protocol is public-coin. I.e. Arthur doesn't need to hide any of his random bits, as he did in the graph nonisomorphism protocol above, but can just send them all to Merlin!
 Finally, we can assume without loss of generality that the verifier (Arthur) is honest. A dishonest verifier would be one that tries to learn something about the problem (violating the zero-knowledge requirement) by deviating from the protocol.
 
-Zero-knowledge proofs were first studied in [GMW91], [GMR89].
+Zero-knowledge proofs were first studied in [[ZooRefs#GMW91|GMW91]], [[ZooRefs#GMR89|GMR89]].
 == Relations ==
 
 '''
@@ -14422,7 +14422,7 @@ text = u'''
 
 The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol, and the prover and verifier both have access to a string computed by a trusted probabilistic polynomial-time third party with access to the input.
 
-Defined in [BG03], where it was also shown that SZK,,h,, = SZK.
+Defined in [[ZooRefs#BG03|BG03]], where it was also shown that SZK,,h,, = SZK.
 
 Contains NISZK,,h,,.
 == Relations ==
@@ -14454,7 +14454,7 @@ text = u'''
 
 The class of languages L in NP such that the union, over all x in L, of the set of valid witnesses for x equals L itself.
 
-Defined in [HT03], where it was shown that the closure of SelfNP under polynomial-time many-one reductions is NP.
+Defined in [[ZooRefs#HT03|HT03]], where it was shown that the closure of SelfNP under polynomial-time many-one reductions is NP.
 
 They also show that if SelfNP = NP, then E = NE; and that SAT is contained in SelfNP.
 
@@ -14486,7 +14486,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If TALLY intersects NPC then P = NP [Mah82].
+The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If TALLY intersects NPC then P = NP [[ZooRefs#Mah82|Mah82]].
 
 Contained in SPARSE.
 == Relations ==
@@ -14522,21 +14522,21 @@ A uniformity requirement is sometimes also placed.
 
 TC^0^ contains ACC^0^, and is contained in NC^1^.
 
-TC^0^ circuits of depth 3 are strictly more powerful than TC^0^ circuits of depth 2 [HMP+93].
+TC^0^ circuits of depth 3 are strictly more powerful than TC^0^ circuits of depth 2 [[ZooRefs#HMP+93|HMP+93]].
 
-TC^0^ circuits of depth 3 and quasipolynomial size can simulate all of ACC^0^ [Yao90].
+TC^0^ circuits of depth 3 and quasipolynomial size can simulate all of ACC^0^ [[ZooRefs#Yao90|Yao90]].
 
-There is a function in AC^0^ (explicitly given in [She08]), whose computation with TC^0^  circuits of depth 2 requires an exponential number of gates.
+There is a function in AC^0^ (explicitly given in [[ZooRefs#She08|She08]]), whose computation with TC^0^  circuits of depth 2 requires an exponential number of gates.
 
-[NR97] give a candidate pseudorandom function family computable in TC^0^, that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [NRR01] for an improvement of this construction, as well as [Kha93].)
+[[ZooRefs#NR97|NR97]] give a candidate pseudorandom function family computable in TC^0^, that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [[ZooRefs#NRR01|NRR01]] for an improvement of this construction, as well as [[ZooRefs#Kha93|Kha93]].)
 
-One implication is that, assuming such a bound, there is no natural proof in the sense of [RR97] separating TC^0^ from P/poly.  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in TC^0^.)  Another implication is that functions in TC^0^ are likely to be difficult to learn.
+One implication is that, assuming such a bound, there is no natural proof in the sense of [[ZooRefs#RR97|RR97]] separating TC^0^ from P/poly.  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in TC^0^.)  Another implication is that functions in TC^0^ are likely to be difficult to learn.
 
-The permanent of a 0-1 matrix cannot be computed in uniform TC^0^ [All99].
+The permanent of a 0-1 matrix cannot be computed in uniform TC^0^ [[ZooRefs#All99|All99]].
 
-In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in U,,D,,-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
+In a breakthrough result [[ZooRefs#Hes01|Hes01]] (building on [[ZooRefs#BCH86|BCH86]] and [[ZooRefs#CDL01|CDL01]]), integer division was shown to be in U,,D,,-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
 
-In a breakthrough result [Hes01] (building on [BCH86] and [CDL01]), integer division was shown to be in L-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
+In a breakthrough result [[ZooRefs#Hes01|Hes01]] (building on [[ZooRefs#BCH86|BCH86]] and [[ZooRefs#CDL01|CDL01]]), integer division was shown to be in L-uniform TC^0^.  Indeed division is complete for this class under AC^0^ reductions.
 == Relations ==
 
 '''
@@ -14568,7 +14568,7 @@ The class of function problems of the following form:
 
 Given an input x and a polynomial-time predicate F(x,y), output any y satisfying F(x,y).  (Such a y is promised to exist.)
 
-Can be considered as the functional analogue of NP ∩ coNP. Defined in [MP91].
+Can be considered as the functional analogue of NP ∩ coNP. Defined in [[ZooRefs#MP91|MP91]].
 
 Contained in FNP.
 
@@ -14602,7 +14602,7 @@ text = u'''
 
 Same as REG, except that now the inputs are trees (say, binary trees) instead of strings.  Each vertex is labeled with a symbol from a fixed alphabet.  Evaluation begins at the leaves and proceeds to the root.  The state of the finite automaton at each vertex v is a function of (1) the states at v's children (if any), and (2) the symbol at v.  The tree is in the language if and only if the automaton is in an 'accept' state at the root.
 
-See [Koz92] for example.
+See [[ZooRefs#Koz92|Koz92]] for example.
 == Relations ==
 
 '''
@@ -14670,11 +14670,11 @@ Same as AP, except we are promised that each existential quantifier has at most 
 
 Contains UP.
 
-Defined in [NR98], where it was also shown that, even though AP = PSPACE, it is unlikely that the same is true for UAP, since UAP is contained in SPP.
+Defined in [[ZooRefs#NR98|NR98]], where it was also shown that, even though AP = PSPACE, it is unlikely that the same is true for UAP, since UAP is contained in SPP.
 
-[CGR+04] have also shown that UAP^UAP^ = UAP, and that UAP contains Graph Isomorphism problem.
+[[ZooRefs#CGR+04|CGR+04]] have also shown that UAP^UAP^ = UAP, and that UAP contains Graph Isomorphism problem.
 
-[CGR+04] have also shown that UAP^UAP^ = UAP, and that UAP contains the Graph Isomorphism problem.
+[[ZooRefs#CGR+04|CGR+04]] have also shown that UAP^UAP^ = UAP, and that UAP contains the Graph Isomorphism problem.
 == Relations ==
 
 '''
@@ -14704,7 +14704,7 @@ text = u'''
 
 The class of problems reducible in L to the problem of whether an undirected graph has a unique connected component.
 
-See [AG00] for more information.
+See [[ZooRefs#AG00|AG00]] for more information.
 
 Contained in SL.
 
@@ -14796,7 +14796,7 @@ text = u'''
 
 Has the same relation to L as UP does to P.
 
-If UL = NL, then FNL is contained in #L [AJ93].
+If UL = NL, then FNL is contained in #L [[ZooRefs#AJ93|AJ93]].
 == Relations ==
 
 '''
@@ -14826,9 +14826,9 @@ text = u'''
 
 Has the same relation to UL as P/poly does to P.
 
-Equals NL/poly [RA00]. (A corollary is that UL/poly is closed under complement).
+Equals NL/poly [[ZooRefs#RA00|RA00]]. (A corollary is that UL/poly is closed under complement).
 
-Note that in UL/poly, the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [RA00] show that they both equal NL/poly.
+Note that in UL/poly, the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [[ZooRefs#RA00|RA00]] show that they both equal NL/poly.
 == Relations ==
 
 '''
@@ -14861,17 +14861,17 @@ The class of decision problems solvable by an NP machine such that
 If the answer is 'yes,' exactly one computation path accepts.
 If the answer is 'no,' all computation paths reject.
 
-Defined by [Val76].
+Defined by [[ZooRefs#Val76|Val76]].
 
-"Worst-case" one-way functions exist if and only if P does not equal UP ([GS88] and independently [Ko85]).  "Worst-case" one-way permutations exist if and only if P does not equal UP ∩ coUP [HT03].  Note that these are weaker than the one-way functions and permutations that are needed for cryptographic applications.
+"Worst-case" one-way functions exist if and only if P does not equal UP ([[ZooRefs#GS88|GS88]] and independently [[ZooRefs#Ko85|Ko85]]).  "Worst-case" one-way permutations exist if and only if P does not equal UP ∩ coUP [[ZooRefs#HT03|HT03]].  Note that these are weaker than the one-way functions and permutations that are needed for cryptographic applications.
 
-There exists an oracle relative to which P is strictly contained in UP is strictly contained in NP [Rac82]; indeed, these classes are distinct with probability 1 relative to a random oracle [Bei89].
+There exists an oracle relative to which P is strictly contained in UP is strictly contained in NP [[ZooRefs#Rac82|Rac82]]; indeed, these classes are distinct with probability 1 relative to a random oracle [[ZooRefs#Bei89|Bei89]].
 
-NP is contained in RP^PromiseUP^ [VV86].  On the other hand, [BBF98] give an oracle relative to which P = UP but still P does not equal NP.
+NP is contained in RP^PromiseUP^ [[ZooRefs#VV86|VV86]].  On the other hand, [[ZooRefs#BBF98|BBF98]] give an oracle relative to which P = UP but still P does not equal NP.
 
-UP is not known or believed to contain complete problems.  [Sip82], [HH86] give oracles relative to which UP has no complete problems.
+UP is not known or believed to contain complete problems.  [[ZooRefs#Sip82|Sip82]], [[ZooRefs#HH86|HH86]] give oracles relative to which UP has no complete problems.
 
-NP is contained in RP^Promise-UP^ [VV86].  On the other hand, [BBF98] give an oracle relative to which P = UP but still P does not equal NP.
+NP is contained in RP^Promise-UP^ [[ZooRefs#VV86|VV86]].  On the other hand, [[ZooRefs#BBF98|BBF98]] give an oracle relative to which P = UP but still P does not equal NP.
 == Relations ==
 
 '''
@@ -14899,7 +14899,7 @@ text = u'''
 
 == Comments ==
 
-Defined by [BFS86], UPP^cc^ is one of two communication complexity analogues of PP.
+Defined by [[ZooRefs#BFS86|BFS86]], UPP^cc^ is one of two communication complexity analogues of PP.
 UPP^cc^ is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
 
 See also: PP^cc^.
@@ -14936,7 +14936,7 @@ The class of decision problems solvable by an NP machine such that the answer is
 
 In contrast to UP, a machine can legally have more than one accepting path - that just means that the corresponding input is not in the language.
 
-Defined in [BG82].
+Defined in [[ZooRefs#BG82|BG82]].
 
 Contains coNP.
 == Relations ==
@@ -14972,7 +14972,7 @@ For k = 0, VC,,0,, is the class of compressible languages.
 
 VC,,0,, ⊆ VC,,OR,, ⊆ VC,,1,, ⊆ VC,,2,, ⊆ VC,,3,, ...
 
-Introduced in [HN06]; see there for formal definitions.
+Introduced in [[ZooRefs#HN06|HN06]]; see there for formal definitions.
 == Relations ==
 
 '''
@@ -15002,7 +15002,7 @@ text = u'''
 
 The class of languages that have verification presentable as the OR of m instances of SAT, each of size n. (m is the witness length of an instance and n is the instance length.)
 
-Introduced in [HN06].
+Introduced in [[ZooRefs#HN06|HN06]].
 
 See also VC,,k,,.
 == Relations ==
@@ -15036,7 +15036,7 @@ Has the same relation to VP,,k,, as NC does to P.
 
 More formally, the class of VP,,k,, problems computable by a straight-line program of depth polylogarithmic in n.
 
-Surprisingly, VNC,,k,, = VP,,k,, for any k [VSB+83].
+Surprisingly, VNC,,k,, = VP,,k,, for any k [[ZooRefs#VSB+83|VSB+83]].
 == Relations ==
 
 '''
@@ -15074,9 +15074,9 @@ When p is summed over all 2^h^ possible assignments of {0,1} to each of e,,1,,,.
 
 Originated in [Val79b].
 
-If the field k has characteristic greater than 2, then the permanent of an n-by-n matrix of indeterminates is VNP,,k,,-complete under a type of reduction called p-projections ([Val79b]; see also [Bur00]).
+If the field k has characteristic greater than 2, then the permanent of an n-by-n matrix of indeterminates is VNP,,k,,-complete under a type of reduction called p-projections ([Val79b]; see also [[ZooRefs#Bur00|Bur00]]).
 
-A central conjecture is that for all k, VP,,k,, is not equal to VNP,,k,,.  Bürgisser [Bur00] shows that if this were false then:
+A central conjecture is that for all k, VP,,k,, is not equal to VNP,,k,,.  Bürgisser [[ZooRefs#Bur00|Bur00]] shows that if this were false then:
 
 If k is finite, NC^2^/poly = P/poly = NP/poly = PH/poly.
 If k has characteristic 0, then assuming the Generalized Riemann Hypothesis (GRH), NC^3^/poly = P/poly = NP/poly = PH/poly, and #P/poly = FP/poly.
@@ -15111,7 +15111,7 @@ text = u'''
 
 The class of problems that can be decided by a visibly pushdown automaton. In a visibly pushdown automaton, all push and pop transitions have to be triggered by special alphabet symbols, and thus are visible in the input word. Nondeterminism does not add to the expressive power of this automaton model, and the complexity class is closed under all Boolean operations.
 
-Originated in [AM04]. See also [AM09].
+Originated in [[ZooRefs#AM04|AM04]]. See also [[ZooRefs#AM09|AM09]].
 
 Properly contains REG. Properly contained in DCFL.
 == Relations ==
@@ -15145,7 +15145,7 @@ The class of efficiently-solvable problems in Valiant's algebraic complexity the
 
 More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X,,1,,,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  VP,,k,, is the class of problems whose complexity is polynomial in n.  (Hence, VP,,k,, is a nonuniform class, in contrast to P,,C,, and P,,R,,.)
 
-Originated in [Val79b]; see [Bur00] for more information.
+Originated in [Val79b]; see [[ZooRefs#Bur00|Bur00]] for more information.
 
 Contained in VNP,,k,, and VQP,,k,,, and contains VNC,,k,,.
 
@@ -15181,7 +15181,7 @@ Has the same relation to VP,,k,, as QP does to P.
 
 Originated in [Val79b].
 
-The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under a type of reduction called qp-projections (see [Bur00] for example).  It is an open problem whether the determinant is VP,,k,,-complete.
+The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under a type of reduction called qp-projections (see [[ZooRefs#Bur00|Bur00]] for example).  It is an open problem whether the determinant is VP,,k,,-complete.
 == Relations ==
 
 '''
@@ -15211,7 +15211,7 @@ text = u'''
 
 Same as W[t], except that now the circuit depth can depend on the parameter k rather than being constant.  (The number of unbounded-fanin gates along any path to the root is still at most t.)
 
-W^*^[1] = W[1] [DFT96], and W^*^[2] = W[2] [DF97], but the problem is open for larger t.
+W^*^[1] = W[1] [[ZooRefs#DFT96|DFT96]], and W^*^[2] = W[2] [[ZooRefs#DF97|DF97]], but the problem is open for larger t.
 == Relations ==
 
 '''
@@ -15244,7 +15244,7 @@ The class of decision problems for which there exists a #P function f, a polynom
 If the answer is "yes" then 2^p(|x|)^ ≥ f(x) > (1+ε) 2^p(|x|)-1^.
 If the answer is "no" then 0 ≤ f(x) < (1-ε) 2^p(|x|)-1^.
 
-Defined in [BGM02], where it is also shown that WAPP is contained in AWPP and SBP.
+Defined in [[ZooRefs#BGM02|BGM02]], where it is also shown that WAPP is contained in AWPP and SBP.
 == Relations ==
 
 '''
@@ -15272,7 +15272,7 @@ text = u'''
 
 == Comments ==
 
-While is a theorical programing language defined in [jon98],  is a way to define syntacticaly P and a syntactic resctriction of WHILE is exactly L. The important point is that those two languages are powerful enough to simulate all of P (and L) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !
+While is a theorical programing language defined in [[ZooRefs#jon98|jon98]],  is a way to define syntacticaly P and a syntactic resctriction of WHILE is exactly L. The important point is that those two languages are powerful enough to simulate all of P (and L) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !
 
 In While, input are composed only of lists (in a lisp-way where a list is either an empty list or a pair of his first element and his tail) and the elements of the list and variables are only pointers to list.
 
@@ -15286,7 +15286,7 @@ There are three primitives function, tail, head, and cons(h,t), who give the fir
 
 We can then define WHILE^/cons-rec^ which is WHILE without "cons" primitive and procedure call[#]. It is equivalent to L. The trick to do the computation in logspace is that without recursion we only need to save a fixed number of variables who are only pointers to part of the input, so they only take logspace. Since any logspace TM can avoid having a work tape by having a fixed number of reading head on his input, we can simulate logspace TM by using a variable for every reading head. (The binary string is coded as a list of () for 0 and (()) for 1, so equality can be checked trivially)
 
-[#] in fact we only need to forbid recursive call, hence the name, but when we lose recursion we can assume there is no procedure call w.l.o.g, in fact in [jon98] WHILE is first defined without procedure call and procedure are defined later, but this presentation may be more easy to understand and at least more general.
+[#] in fact we only need to forbid recursive call, hence the name, but when we lose recursion we can assume there is no procedure call w.l.o.g, in fact in [[ZooRefs#jon98|jon98]] WHILE is first defined without procedure call and procedure are defined later, but this presentation may be more easy to understand and at least more general.
 
 We can then also define WHILE^rec/cons^ which is WHILE without "cons" primitive but with procedure calls, and hence recursion. It is equivalent to P. 
 The trick to do a computation of a WHILE^rec/cons^ in P is to memoize the couple (global variables, input) when a procedure is called and the value of the globals variable when the procedure end, since we don't have cons, only a polynomial number of call will really be executed and we can detect loop.
@@ -15323,7 +15323,7 @@ The class of decision problems solvable by an NP machine such that
 If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
 If the answer is "yes," then their difference exactly equals a function f(x) computable in polynomial time (i.e. FP).
 
-Defined in [FFK94].
+Defined in [[ZooRefs#FFK94|FFK94]].
 
 Contained in C,,=,,P ∩ coC,,=,,P, as well as AWPP.
 
@@ -15391,7 +15391,7 @@ A fixed-parameter reduction is a Turing reduction that takes time at most f(k)p(
 
 Contains FPT.
 
-Defined in [DF99], where the following is also shown:
+Defined in [[ZooRefs#DF99|DF99]], where the following is also shown:
 
 If FPT = W[1] then NP is contained in DTIME(2^o(n)^).
 
@@ -15429,7 +15429,7 @@ Weighted Circuit-SAT: Given a Boolean circuit C (with no restriction on depth), 
 
 See W[1] for the definition of fixed-parameter reducibility.
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 
 Contains W[SAT].
 == Relations ==
@@ -15465,7 +15465,7 @@ Weighted SAT: Given a Boolean formula F (with no restriction on depth), does F h
 
 See W[1] for the definition of fixed-parameter reducibility.
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 
 Contains W[t] for every t, and is contained in W[P].
 == Relations ==
@@ -15503,7 +15503,7 @@ Weighted Weft-t Depth-h Circuit-SAT: Given a Boolean circuit C, with a mixture o
 
 See W[1] for the definition of fixed-parameter reducibility.
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 
 Contained in W[SAT] and in W^*^[t].
 == Relations ==
@@ -15535,11 +15535,11 @@ text = u'''
 
 Same as MIP*[2,1], but with the further restriction that both provers send only a single bit to the verifier, and the verifier's output is a function of the exclusive-OR of those bits.  There should exist 0<a<b<1 such that if the answer is "yes", then for some responses of the provers the verifier accepts with probability at least b, while if the answer is "no", then for all responses of the provers the verifier accepts with probability at most a.
 
-Defined by [CHT+04], whose motivation was a connection to the Bell and CHSH inequalities of quantum physics.
+Defined by [[ZooRefs#CHT+04|CHT+04]], whose motivation was a connection to the Bell and CHSH inequalities of quantum physics.
 
-XOR-MIP*[2,1] is contained in NEXP [CHT+04].
+XOR-MIP*[2,1] is contained in NEXP [[ZooRefs#CHT+04|CHT+04]].
 
-XOR-MIP*[2,1] is contained in QIP[2] [Weh06]
+XOR-MIP*[2,1] is contained in QIP[2] [[ZooRefs#Weh06|Weh06]]
 == Relations ==
 
 '''
@@ -15569,7 +15569,7 @@ text = u'''
 
 The class of decision problems of the form (x,k) (k a parameter) that are solvable in time O(|x|^f(k)^) for some function f.  The algorithm used may depend on k.
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 
 Contains XP,,uniform,,.
 
@@ -15603,7 +15603,7 @@ text = u'''
 
 Same as XP except that the algorithm used must be the same for each k (though it can take k as input).
 
-Defined in [DF99].
+Defined in [[ZooRefs#DF99|DF99]].
 == Relations ==
 
 '''
@@ -15765,7 +15765,7 @@ text = u'''
 
 Defined as RBQP ∩ coRBQP.  Equivalently, the class of problems in NP ∩ coNP such that both positive and negative witnesses are in FBQP.
 
-For example, the language of square-free numbers is in ZBQP, because factoring is in FBQP and a factorization can be certified in ZPP (indeed in P, by [AKS02]).
+For example, the language of square-free numbers is in ZBQP, because factoring is in FBQP and a factorization can be certified in ZPP (indeed in P, by [[ZooRefs#AKS02|AKS02]]).
 
 Unlike EQP or ZQP, ZBQP would generalize ZPP in practice if quantum computers existed, in the sense that it provides proven answers.
 
@@ -15799,7 +15799,7 @@ text = u'''
 
 Often used as a shorthand for (computational zero-knowledge) CZK, but may also be used as a general paradigm encomposing various classes ranging from perfect and statistical zero-knowledge (SZK) to computational ones (CZK), and also various forms of non-interactive zero-knowledge proof systems.
 
-Zero-knowledge proofs were introduced in [GMR89], and further studied in [GMW91], which demonstrated the wide applicability of the concept.
+Zero-knowledge proofs were introduced in [[ZooRefs#GMR89|GMR89]], and further studied in [[ZooRefs#GMW91|GMW91]], which demonstrated the wide applicability of the concept.
 == Relations ==
 
 '''
@@ -15829,7 +15829,7 @@ text = u'''
 
 Same as ZPP, but with 2^O(n)^-time instead of polynomial-time.
 
-ZPE = EE if and only if ZPP = EXP [IKW01].
+ZPE = EE if and only if ZPP = EXP [[ZooRefs#IKW01|IKW01]].
 == Relations ==
 
 '''
@@ -15859,21 +15859,21 @@ text = u'''
 
 Defined as RP ∩ coRP.
 
-Defined as the class of problems solvable by randomized algorithms that always return the correct answer, and whose expected running time (on any input) is polynomial, in [Gil77].  (Proposition 5.5(iii) in this paper shows that the two definitions above are equivalent.)
+Defined as the class of problems solvable by randomized algorithms that always return the correct answer, and whose expected running time (on any input) is polynomial, in [[ZooRefs#Gil77|Gil77]].  (Proposition 5.5(iii) in this paper shows that the two definitions above are equivalent.)
 
-Contains the problem of testing whether an integer is prime [SS77] [AH87].
+Contains the problem of testing whether an integer is prime [[ZooRefs#SS77|SS77]] [[ZooRefs#AH87|AH87]].
 
-In contrast to BPP and RP, it is not known whether showing ZPP = P requires proving superpolynomial circuit lower bounds [KI02].
+In contrast to BPP and RP, it is not known whether showing ZPP = P requires proving superpolynomial circuit lower bounds [[ZooRefs#KI02|KI02]].
 
-There exists an oracle relative to which ZPP = EXP [Hel84a], [Hel84b], [Kur85], [Hel86].
+There exists an oracle relative to which ZPP = EXP [Hel84a], [Hel84b], [[ZooRefs#Kur85|Kur85]], [[ZooRefs#Hel86|Hel86]].
 
-Has the same p-measure as RP. Moreover, this measure is either zero or one. If the measure is non-zero, then ZPP = BPP = EXP [IM03].
+Has the same p-measure as RP. Moreover, this measure is either zero or one. If the measure is non-zero, then ZPP = BPP = EXP [[ZooRefs#IM03|IM03]].
 
 The class of problems solvable by randomized algorithms that always return the correct answer, and whose expected running time (on any input) is polynomial.
 
-Defined in [Gil77].
+Defined in [[ZooRefs#Gil77|Gil77]].
 
-There exists an oracle relative to which ZPP = EXP [Hel84].
+There exists an oracle relative to which ZPP = EXP [[ZooRefs#Hel84|Hel84]].
 == Relations ==
 
 '''
@@ -15903,7 +15903,7 @@ text = u'''
 
 Same as ZPP, but with O(f(n))-time instead of polynomial-time.
 
-For any constructible superpolynomial f, ZPTIME(f(n)) with NP oracle is not contained in P/poly [KW98].
+For any constructible superpolynomial f, ZPTIME(f(n)) with NP oracle is not contained in P/poly [[ZooRefs#KW98|KW98]].
 == Relations ==
 
 '''
@@ -15933,9 +15933,9 @@ text = u'''
 
 The class of questions that can be answered by a QTM that answers yes, no, or "maybe".  If the correct answer is yes, then P[no] = 0, and vice-versa; and the probability of maybe is at most 1/2.  Since some of the probabilities have to vanish, ZQP has the same technical caveats as EQP.
 
-Defined independently in [BW03] and in [Nis02].
+Defined independently in [[ZooRefs#BW03|BW03]] and in [[ZooRefs#Nis02|Nis02]].
 
-Contains EQP and ZBQP and is contained in BQP.  Equals RQP ∩ coRQP.  There is an oracle such that ZQP^ZQP^ is larger than ZQP [BW03]; c.f. with ZBQP.
+Contains EQP and ZBQP and is contained in BQP.  Equals RQP ∩ coRQP.  There is an oracle such that ZQP^ZQP^ is larger than ZQP [[ZooRefs#BW03|BW03]]; c.f. with ZBQP.
 == Relations ==
 
 '''
@@ -15991,7 +15991,7 @@ text = u'''
 
 == Comments ==
 
-Equals NQP [FGH+98].
+Equals NQP [[ZooRefs#FGH+98|FGH+98]].
 == Relations ==
 
 '''
@@ -16133,7 +16133,7 @@ text = u'''
 
 == Comments ==
 
-Equals NL [Imm88] [Sze87].
+Equals NL [[ZooRefs#Imm88|Imm88]] [[ZooRefs#Sze87|Sze87]].
 == Relations ==
 
 '''
@@ -16167,7 +16167,7 @@ If NP does not equal coNP, then P does not equal NP.  But the other direction is
 
 See also: NP ∩ coNP.
 
-Every problem in coNP has an IP (interactive proof) system, where moreover the prover can be restricted to BPP^#P^. If every problem in coNP has an interactive protocol whose rounds are bounded by a polylogarithmic function, then EH collapses to the third level [SS04].
+Every problem in coNP has an IP (interactive proof) system, where moreover the prover can be restricted to BPP^#P^. If every problem in coNP has an interactive protocol whose rounds are bounded by a polylogarithmic function, then EH collapses to the third level [[ZooRefs#SS04|SS04]].
 
 Co-NP is equal to SO-A, the second-order queries where the second-order quantifiers are only universals.
 
@@ -16199,9 +16199,9 @@ text = u'''
 
 == Comments ==
 
-If NP is contained in coNP/poly then PH collapses to S,,2,,P^NP^ [CCH+01].
+If NP is contained in coNP/poly then PH collapses to S,,2,,P^NP^ [[ZooRefs#CCH+01|CCH+01]].
 
-NP^NP^NP^(coNP/poly ∩ NP)^ = NP^NP^NP^ [HNO+96]
+NP^NP^NP^(coNP/poly ∩ NP)^ = NP^NP^NP^ [[ZooRefs#HNO+96|HNO+96]]
 
 Note: At the suggestion of Luis Antuñes, the above specimen of the Complexity Zoo has been locked in a cage.
 == Relations ==
@@ -16259,7 +16259,7 @@ text = u'''
 
 == Comments ==
 
-Equals C,,=,,P [FGH+98].
+Equals C,,=,,P [[ZooRefs#FGH+98|FGH+98]].
 == Relations ==
 
 '''
@@ -16317,7 +16317,7 @@ text = u'''
 
 == Comments ==
 
-Contains the problem of whether a bipartite graph has a perfect matching [Kar86].
+Contains the problem of whether a bipartite graph has a perfect matching [[ZooRefs#Kar86|Kar86]].
 == Relations ==
 
 '''
@@ -16345,11 +16345,11 @@ text = u'''
 
 == Comments ==
 
-Defined in [Gil77].  (This paper does not actually discuss coRP, other than implicitly mentioning that ZPP = RP ∩ co-RP.  Is there a better reference?)
+Defined in [[ZooRefs#Gil77|Gil77]].  (This paper does not actually discuss coRP, other than implicitly mentioning that ZPP = RP ∩ co-RP.  Is there a better reference?)
 
-Contains the problem of testing whether an integer is prime [SS77].
+Contains the problem of testing whether an integer is prime [[ZooRefs#SS77|SS77]].
 
-Defined in [Gil77].
+Defined in [[ZooRefs#Gil77|Gil77]].
 == Relations ==
 
 '''
@@ -16433,7 +16433,7 @@ text = u'''
 
 == Comments ==
 
-[Tor00] showed the following problem complete for coUCC under L reductions:
+[[ZooRefs#Tor00|Tor00]] showed the following problem complete for coUCC under L reductions:
 
 Given a colored graph G with at most two vertices having any given color, does G have any nontrivial automorphisms?
 == Relations ==
@@ -16523,7 +16523,7 @@ Same as compNP but for interactive (IP) proofs instead of NP proofs.
 
 More formally, compIP is the class of decision problems L in IP = PSPACE such that, if the answer is "yes," then that can be proven by an interactive protocol between a BPP verifier and a prover, a BPP machine with access only to an oracle for L.
 
-Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in compIP [BG94].
+Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in compIP [[ZooRefs#BG94|BG94]].
 == Relations ==
 
 '''
@@ -16555,7 +16555,7 @@ The class of decision problems L in NP such that, if the answer is "yes," then a
 
 Contains NPC.
 
-[BG94] show that compNP is contained in frIP, and that assuming NEE is not contained in BPEE, compNP does not equal NP.
+[[ZooRefs#BG94|BG94]] show that compNP is contained in frIP, and that assuming NEE is not contained in BPEE, compNP does not equal NP.
 == Relations ==
 
 '''
@@ -16588,11 +16588,11 @@ The class of problems L that have a decider in the following sense.  There exist
 If the answer is "yes" then D^L^(x) (D with oracle for L) accepts with probability at least 2/3.
 If the answer is "no" then D^A^(x) accepts with probability at most 1/3 for all oracles A.
 
-Contains compIP [BG94] and Check [BK89].
+Contains compIP [[ZooRefs#BG94|BG94]] and Check [[ZooRefs#BK89|BK89]].
 
-Contained in MIP = NEXP [FRS88].
+Contained in MIP = NEXP [[ZooRefs#FRS88|FRS88]].
 
-Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in frIP [BG94].
+Assuming NEE is not contained in BPEE, NP (and indeed NP ∩ Coh) is not contained in frIP [[ZooRefs#BG94|BG94]].
 == Relations ==
 
 '''
@@ -16652,7 +16652,7 @@ See k-PBP for the definition of a classical branching program.
 
 A quantum branching program is the natural quantum generalization: we have a quantum state in a Hilbert space of dimension k.  Each step t consists of applying a unitary matrix U^(t)^(x,,i,,): that is, U^(t)^ depends on a single bit x,,i,, of the input.  (So these are the quantum analogues of so-called oblivious branching programs.)  In the end we measure to decide whether to accept; there must be zero probability of error.
 
-Defined in [AMP02], where it was also shown that NC^1^ is contained in 2-EQBP.
+Defined in [[ZooRefs#AMP02|AMP02]], where it was also shown that NC^1^ is contained in 2-EQBP.
 
 k-BQBP can be defined similarly.
 == Relations ==
@@ -16688,7 +16688,7 @@ The size of the branching program is the number of vertices.  The branching prog
 
 Then k-PBP is the class of decision problems solvable by a family of polynomial-size, width-k branching programs.  (A uniformity condition may also be imposed.)
 
-k-PBP equals (nonuniform) NC^1^ for constant k at least 5 [Bar89].  On the other hand, 4-PBP is in ACC^0^ [BT88].
+k-PBP equals (nonuniform) NC^1^ for constant k at least 5 [[ZooRefs#Bar89|Bar89]].  On the other hand, 4-PBP is in ACC^0^ [[ZooRefs#BT88|BT88]].
 
 Contained in k-EQBP, as well as PBP.
 
@@ -16720,7 +16720,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [GS90].  Equals mP by definition.
+Defined in [[ZooRefs#GS90|GS90]].  Equals mP by definition.
 == Relations ==
 
 '''
@@ -16750,9 +16750,9 @@ text = u'''
 
 The class of decision problems solvable by a family of monotone log-width polynomial-size leveled circuits.  (A leveled circuit is one where gates on each level can depend only on the level immediately below it.)
 
-Defined in [GS90], who raise as an open problem to define a uniform version of mL.
+Defined in [[ZooRefs#GS90|GS90]], who raise as an open problem to define a uniform version of mL.
 
-Strictly contains mNC^1^ [GS91].
+Strictly contains mNC^1^ [[ZooRefs#GS91|GS91]].
 
 Contained in (nonuniform versions of) mNL and mcoNL.
 == Relations ==
@@ -16786,11 +16786,11 @@ The class of decision problems solvable by a family of monotone NC^1^ circuits (
 
 A uniformity condition could also be imposed.
 
-Defined in [GS90].
+Defined in [[ZooRefs#GS90|GS90]].
 
-Strictly contained in mNL [KW88], and indeed in mL [GS91].
+Strictly contained in mNL [[ZooRefs#KW88|KW88]], and indeed in mL [[ZooRefs#GS91|GS91]].
 
-Strictly contains mTC^0^ [Yao89].
+Strictly contains mTC^0^ [[ZooRefs#Yao89|Yao89]].
 == Relations ==
 
 '''
@@ -16818,13 +16818,13 @@ text = u'''
 
 == Comments ==
 
-See mP for the definition of a monotone nondeterministic Turing machine, due to [GS90].
+See mP for the definition of a monotone nondeterministic Turing machine, due to [[ZooRefs#GS90|GS90]].
 
 mNL is the class of decision problems solvable by a monotone nondeterministic log-space Turing machine.
 
-mNL does not equal mcoNL [GS90], in contrast to the case for NL and coNL.
+mNL does not equal mcoNL [[ZooRefs#GS90|GS90]], in contrast to the case for NL and coNL.
 
-Also, mNL strictly contains mNC^1^ [KW88].
+Also, mNL strictly contains mNC^1^ [[ZooRefs#KW88|KW88]].
 
 See also: mL.
 == Relations ==
@@ -16856,9 +16856,9 @@ text = u'''
 
 The class of decision problems for which a 'yes' answer can be verified in mP (that is, monotone polynomial-time).  The monotonicity requirement applies only to the input bits, not to the bits that are guessed nondeterministically. So, in the corresponding circuit, one can have NOT gates so long as they depend only on the nondeterministic guess bits.
 
-Defined in [GS90], where it was also shown that mNP is 'trivial': that is, it contains exactly the monotone problems in NP.
+Defined in [[ZooRefs#GS90|GS90]], where it was also shown that mNP is 'trivial': that is, it contains exactly the monotone problems in NP.
 
-Strictly contains mP [Raz85].
+Strictly contains mP [[ZooRefs#Raz85|Raz85]].
 == Relations ==
 
 '''
@@ -16886,13 +16886,13 @@ text = u'''
 
 == Comments ==
 
-The definition of this class, due to [GS90], is not obvious.  First, a monotone nondeterministic Turing machine is one such that, whenever it can make a transition with a 0 on its input tape, it can also make that same transition with a 1 on its input tape. (This restriction does not apply to the work tape.)  A monotone alternating Turing machine is subject to the restriction that it can only reference an input bit x by, "there exists a z at most x," or "for all z at least x."
+The definition of this class, due to [[ZooRefs#GS90|GS90]], is not obvious.  First, a monotone nondeterministic Turing machine is one such that, whenever it can make a transition with a 0 on its input tape, it can also make that same transition with a 1 on its input tape. (This restriction does not apply to the work tape.)  A monotone alternating Turing machine is subject to the restriction that it can only reference an input bit x by, "there exists a z at most x," or "for all z at least x."
 
-Then applying the result of [CKS81] that P = AL, mP is defined to be mAL: the class of decision problems solvable by a monotone alternating log-space Turing machine.
+Then applying the result of [[ZooRefs#CKS81|CKS81]] that P = AL, mP is defined to be mAL: the class of decision problems solvable by a monotone alternating log-space Turing machine.
 
 Actually there's a caveat: A monotone Turing machine or circuit can first negate the entire input, then perform a monotone computation.  That way it becomes meaningful to talk about whether a monotone complexity class is closed under complement.
 
-Strictly contained in mNP [Raz85].
+Strictly contained in mNP [[ZooRefs#Raz85|Raz85]].
 
 Deciding whether a bipartite graph has a perfect matching, despite being both a monotone problem and in P, requires monotone circuits of superpolynomial size [Raz85b].  Letting MONO be the class of monotone problems, it follows that mP is strictly contained in MONO ∩ P.
 
@@ -16924,7 +16924,7 @@ text = u'''
 
 == Comments ==
 
-The class of decision problems solvable by a nonuniform family of polynomial-size Boolean circuits with only AND and OR gates, no NOT gates.  (Or rather, following the definitions of [GS90], the entire input can be negated as long as there are no other negations.)
+The class of decision problems solvable by a nonuniform family of polynomial-size Boolean circuits with only AND and OR gates, no NOT gates.  (Or rather, following the definitions of [[ZooRefs#GS90|GS90]], the entire input can be negated as long as there are no other negations.)
 
 More straightforward to define than mP.
 == Relations ==
@@ -16958,9 +16958,9 @@ The class of decision problems solvable by a family of monotone TC^0^ circuits (
 
 A uniformity condition could also be imposed.
 
-Defined in [GS90].
+Defined in [[ZooRefs#GS90|GS90]].
 
-Strictly contained in mNC^1^ [Yao89].
+Strictly contained in mNC^1^ [[ZooRefs#Yao89|Yao89]].
 == Relations ==
 
 '''
@@ -16988,7 +16988,7 @@ text = u'''
 
 == Comments ==
 
-Defined in [GS90], where it was also shown that mcoNL does not equal mNL.
+Defined in [[ZooRefs#GS90|GS90]], where it was also shown that mcoNL does not equal mNL.
 
 See also: mL.
 == Relations ==
@@ -17050,7 +17050,7 @@ text = u'''
 
 The class of functions computable as |S|, where S is the set of output values returned by the accepting paths of an NP machine.
 
-Defined in [KST+89], where it is also shown that span-P contains #P and OptP; and that span-P = #P if and only if UP = NP.
+Defined in [[ZooRefs#KST+89|KST+89]], where it is also shown that span-P contains #P and OptP; and that span-P = #P if and only if UP = NP.
 == Relations ==
 
 '''
@@ -17110,13 +17110,13 @@ A level of PH, the polynomial hierarchy.
 
 Contains BH.
 
-There exists an oracle relative to which Δ,,2,,P is not contained in PP [Bei94].
+There exists an oracle relative to which Δ,,2,,P is not contained in PP [[ZooRefs#Bei94|Bei94]].
 
-There exists another oracle relative to which Δ,,2,,P is contained in P/poly [BGS75], and indeed has linear-size circuits [Wil85].
+There exists another oracle relative to which Δ,,2,,P is contained in P/poly [[ZooRefs#BGS75|BGS75]], and indeed has linear-size circuits [[ZooRefs#Wil85|Wil85]].
 
-There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ,,2,,P^B^ [KV96].
+There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ,,2,,P^B^ [[ZooRefs#KV96|KV96]].
 
-If P = NP, then any polynomial-size circuit C can be learned in Δ,,2,,P with C oracle [Aar06].
+If P = NP, then any polynomial-size circuit C can be learned in Δ,,2,,P with C oracle [[ZooRefs#Aar06|Aar06]].
 == Relations ==
 
 '''
@@ -17174,7 +17174,7 @@ text = u'''
 
 Complement of Σ,,2,,P.
 
-Along with Σ,,2,,P, comprises the second level of PH, the polynomial hierarchy. For any fixed k, there is a problem in Π,,2,,P ∩ Σ,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+Along with Σ,,2,,P, comprises the second level of PH, the polynomial hierarchy. For any fixed k, there is a problem in Π,,2,,P ∩ Σ,,2,,P that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|Kan82]].
 == Relations ==
 
 '''
@@ -17206,12 +17206,12 @@ Complement of Π,,2,,P.
 
 Along with Π,,2,,P, comprises the second level of PH, the polynomial hierarchy.
 
-[Uma98] has shown that the following problems are complete for Σ,,2,,P:
+[[ZooRefs#Uma98|Uma98]] has shown that the following problems are complete for Σ,,2,,P:
 
 Minimum equivalent DNF.  Given a DNF formula F and integer k, is there a DNF formula equivalent to F with k or fewer occurences of literals?
 Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless Σ,,2,,P equals βP^NP^.)
 
-For any fixed k, there is a problem in Σ,,2,,P ∩ Π,,2,,P that cannot be solved by circuits of size n^k^ [Kan82].
+For any fixed k, there is a problem in Σ,,2,,P ∩ Π,,2,,P that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|Kan82]].
 == Relations ==
 
 '''
@@ -17246,7 +17246,7 @@ For all z, there exists a y for which P(x,y,z).
 
 Contained in Σ,,2,,P and Π,,2,,P.
 
-Defined in [Can96], where it was also observed that Φ,,2,,P = S,,2,,P.
+Defined in [[ZooRefs#Can96|Can96]], where it was also observed that Φ,,2,,P = S,,2,,P.
 == Relations ==
 
 '''
@@ -17278,9 +17278,9 @@ text = u'''
 
 Then βP is the union of β,,k,,P over all constant k.
 
-Defined in [KF84].  See also the survey [GLM96].
+Defined in [[ZooRefs#KF84|KF84]].  See also the survey [[ZooRefs#GLM96|GLM96]].
 
-There exist oracles relative to which basically any consistent inclusion structure among the β,,k,,P's can be realized [BG98].
+There exist oracles relative to which basically any consistent inclusion structure among the β,,k,,P's can be realized [[ZooRefs#BG98|BG98]].
 
 β,,2,,P contains LOGNP and LOGSNP.
 == Relations ==
@@ -17314,7 +17314,7 @@ Same as BPP, except that the random bit source is biased as follows.  Each bit c
 
 So clearly 0-BPP = P and 1/2-BPP = BPP.
 
-It turns out that, for any δ>0, δ-BPP = BPP [VV85], [Zuc91].
+It turns out that, for any δ>0, δ-BPP = BPP [[ZooRefs#VV85|VV85]], [[ZooRefs#Zuc91|Zuc91]].
 == Relations ==
 
 '''
@@ -17344,7 +17344,7 @@ text = u'''
 
 Same as δ-BPP, but for RP instead of BPP.
 
-For any δ>0, δ-RP = RP [VV85].
+For any δ>0, δ-RP = RP [[ZooRefs#VV85|VV85]].
 == Relations ==
 
 '''
@@ -17381,7 +17381,7 @@ Alternatively defined as NP^BPP^.
 
 Contains NP and BPP, and is contained in MA and SBP.
 
-∃BPP seems obviously equal to MA, yet [FFK+93] constructed an oracle relative to which they're unequal!  Here is the difference: if the answer is "yes," MA requires only that there exist a y such that for at least 2/3 of random strings r, M(x,y,r) accepts (where M is a P predicate).  For all other y's, the proportion of r's such that M(x,y,r) accepts can be arbitrary (say, 1/2).  For ∃BPP, by contrast, the probability that M(x,y) accepts must always be either at most 1/3 or at least 2/3, for all y's.
+∃BPP seems obviously equal to MA, yet [[ZooRefs#FFK+93|FFK+93]] constructed an oracle relative to which they're unequal!  Here is the difference: if the answer is "yes," MA requires only that there exist a y such that for at least 2/3 of random strings r, M(x,y,r) accepts (where M is a P predicate).  For all other y's, the proportion of r's such that M(x,y,r) accepts can be arbitrary (say, 1/2).  For ∃BPP, by contrast, the probability that M(x,y) accepts must always be either at most 1/3 or at least 2/3, for all y's.
 == Relations ==
 
 '''
@@ -17439,7 +17439,7 @@ text = u'''
 
 The exponential-time analogue of ⊕P.
 
-There exists an oracle relative to which ⊕EXP = ZPP [BBF98].
+There exists an oracle relative to which ⊕EXP = ZPP [[ZooRefs#BBF98|BBF98]].
 == Relations ==
 
 '''
@@ -17469,11 +17469,11 @@ text = u'''
 
 Has the same relation to L as ⊕P does to P.
 
-Contains SL [KW93].
+Contains SL [[ZooRefs#KW93|KW93]].
 
-Solving a linear system over Z,,2,, is complete for ⊕L [Dam90].
+Solving a linear system over Z,,2,, is complete for ⊕L [[ZooRefs#Dam90|Dam90]].
 
-⊕L^⊕L^ = ⊕L [HRV00].
+⊕L^⊕L^ = ⊕L [[ZooRefs#HRV00|HRV00]].
 == Relations ==
 
 '''
@@ -17503,7 +17503,7 @@ text = u'''
 
 Has the same relation to ⊕L as P/poly does to P.
 
-Contains NL/poly [GW96].
+Contains NL/poly [[ZooRefs#GW96|GW96]].
 == Relations ==
 
 '''
@@ -17536,13 +17536,13 @@ The class of decision problems solvable by an NP machine such that
 If the answer is 'yes,' then the number of accepting paths is odd.
 If the answer is 'no,' then the number of accepting paths is even.
 
-Defined in [PZ83].
+Defined in [[ZooRefs#PZ83|PZ83]].
 
-Contains graph isomorphism; indeed, graph isomorphism is low for ⊕P [AK02].
+Contains graph isomorphism; indeed, graph isomorphism is low for ⊕P [[ZooRefs#AK02|AK02]].
 
-Contains FewP [CH89].
+Contains FewP [[ZooRefs#CH89|CH89]].
 
-There exists an oracle relative to which P = ⊕P but P is not equal to NP (and indeed NP = EXP) [BBF98].
+There exists an oracle relative to which P = ⊕P but P is not equal to NP (and indeed NP = EXP) [[ZooRefs#BBF98|BBF98]].
 
 Equals Mod,,2^m,,P for every positive integer m.
 == Relations ==
@@ -17602,7 +17602,7 @@ text = u'''
 
 The class of problems solvable by a nonuniform family of polynomial-size, polylog-depth circuits with unbounded-fanin XOR and bounded-fanin AND gates.
 
-Defined in [GW96], where it was also shown that ⊕SAC^1^ contains SAC^1^.
+Defined in [[ZooRefs#GW96|GW96]], where it was also shown that ⊕SAC^1^ contains SAC^1^.
 == Relations ==
 
 '''
