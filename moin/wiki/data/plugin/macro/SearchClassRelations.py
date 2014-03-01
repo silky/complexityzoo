@@ -27,4 +27,3 @@ def execute (macro, needle):
     if not(needle):
         return search_box(macro)
 
-    # Never gets here??

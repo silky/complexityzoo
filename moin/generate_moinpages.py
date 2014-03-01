@@ -15003,6 +15003,8 @@ The class of dashed hopes and idle dreams.}}}
 
 {{{#!complete_problem
 
+<<Include(Problem_NP, "NP", level=3, from=^== Description ==$, to=^== Properties ==$)>>
+
 }}}
 
 == Comments ==

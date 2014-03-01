@@ -40,7 +40,8 @@ class Parser:
                 return msg
 
             str_in  = classesToLinks(_in)
-            str_eq  = classesToLinks(_eq)
+            str_comp  = classesToLinks(_comp)
+            str_hard  = classesToLinks(_hard)
 
 
             output = """
@@ -49,7 +50,7 @@ class Parser:
                 <tr><th>Contained In</th><td>%s</td></tr>
                 <tr><th>Hard For</th><td>%s</td></tr>
             </table>
-            """ % (str_in, str_eq, str_contains)
+            """ % (str_comp, str_in, str_hard)
 
         except Exception as e:
             print(e)

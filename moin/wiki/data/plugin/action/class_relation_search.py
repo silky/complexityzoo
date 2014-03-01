@@ -6,6 +6,9 @@ from MoinMoin.Page import Page
 from MoinMoin import wikiutil
 from MoinMoin.web.utils import check_surge_protect
 
+from MoinMoin.parser.text_moin_wiki import Parser as WikiParser
+from MoinMoin.formatter.text_html import Formatter as HtmlFormatter
+
 from parsedatetime.parsedatetime import Calendar
 
 # HACK: Worst possible thing just to get a PoC done; can be cleaned up a bit later.
@@ -22,6 +25,9 @@ circle {
   stroke: #fff;
   stroke-width: 1.5px;
 }
+
+
+#canvas { border: solid 1px black; }
 
 text {
   fill: #000;
@@ -166,7 +172,7 @@ def execute (pagename, request, fieldname='class_names'):
     needle = form.get(fieldname, '')
     class_names = form.get('class_names').split(',')
 
-    pages  = [ Page(request, "Class_%s" % c.strip(' ')) for c in class_names ]
+    pages  = [ Page(request, "Class_%s" % c.strip(' ').replace("#", "Sharp")) for c in class_names ]
     pages  = [ p for p in pages if p.exists() ]
     graph  = wikiutil.getRelationsAsNxGraph(pages)
 
@@ -181,6 +187,25 @@ def execute (pagename, request, fieldname='class_names'):
         return x[len("Class_"):]
 
     for p in allPages:
+        complete_problem = wikiutil.getPageSection("complete_problem", p.get_data())
+        description      = wikiutil.getPageSection("description",      p.get_data())
+
+        formatter = HtmlFormatter(request)
+        formatter.setPage(request.page)
+
+        request.page.formatter = formatter
+        request.formatter = formatter
+        parser = WikiParser(complete_problem, request, line_anchors=False)
+
+        formatter.startContent('')
+        output = request.redirectedOutput(parser.format, formatter)
+        formatter.endContent('')
+
+        complete_problem = output
+
+        # Somehow render these sections correctly using the standard
+        # technique.
+
         info_divs += '''<div class="info" id="info%(page_name)s">
     <h4>
         <a href='Class_%(page_name)s'>%(page_name)s</a>
@@ -198,8 +223,8 @@ def execute (pagename, request, fieldname='class_names'):
 
 </div>''' % {
         "page_name": pname(p.page_name),
-        "desc":      wikiutil.getPageSection("description",      p.get_data()),
-        "prob":      wikiutil.getPageSection("complete_problem", p.get_data()),
+        "desc":      description,
+        "prob":      complete_problem,
         }
 
     js_data = "DATA = %s;" % d3list
