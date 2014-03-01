@@ -5,10 +5,29 @@
 
 = AC^1^ - Unbounded Fanin Log-Depth Circuits =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+See [[Class_AC|$\text{AC}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-See [[Class_AC|$\text{AC}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

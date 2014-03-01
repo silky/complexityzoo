@@ -5,9 +5,22 @@
 
 = PBP - Polynomial-Size Branching Program =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_k-PBP|$\text{k-PBP}$]] but with no width restriction.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_k-PBP|$\text{k-PBP}$]] but with no width restriction.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ Equals [[Class_L/poly|$\text{L/poly}$]] [[ZooRefs#Cob66|[Cob66] ]].
 
 
 
-Contains [[Class_P-OBDD|$\text{P-OBDD}$]], [[Class_BPd(P)|$\text{BPd(P)}$]].
+Contains [[Class_P-OBDD|$\text{P-OBDD}$]], BP,,d,,(P).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

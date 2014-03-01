@@ -366,6 +366,7 @@ class SearchResults(object):
                 info_for_hits = u''
                 if hitsInfo:
                     info_for_hits = self.formatHitInfoBar(page)
+                
 
                 item = [
                     f.listitem(1),
@@ -626,7 +627,16 @@ class SearchResults(object):
             matches = []
 
         # Format
+        # NOON/HACK: Removed 'Class_' from complexity classes.
         pagename = page.page_name
+        if pagename.startswith("Class_"):
+            pagename = pagename[len("Class_"):]
+
+        if pagename.startswith("Problem_"):
+            pagename = pagename[len("Problem_"):]
+
+        pagename = pagename.replace("Sharp", "#")
+
         f = self.formatter
         output = []
         start = 0

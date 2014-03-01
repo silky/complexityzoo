@@ -5,10 +5,29 @@
 
 = coNQP - Complement of NQP =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals [[Class_C=P|$\text{C}_\text{=}\text{P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_C=P|$\text{C=P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,14 +5,31 @@
 
 = UL - Unambiguous L =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_L|$\text{L}$]] as [[Class_UP|$\text{UP}$]] does to [[Class_P|$\text{P}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_UP|$\text{UP}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 If [[Class_UL|$\text{UL}$]] = [[Class_NL|$\text{NL}$]], then [[Class_FNL|$\text{FNL}$]] is contained in [[Class_SharpL|$\text{#L}$]] [[ZooRefs#AJ93|[AJ93] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

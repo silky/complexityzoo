@@ -5,9 +5,22 @@
 
 = BQP/qlog - BQP With Logarithmic-Size Quantum Advice =
 
-== Comments ==
+----
+CategoryQuantum 
 
-Same as [[Class_BQP/mlog|$\text{BQP/mlog}$]] except that the advice is quantum instead of classical.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP/mlog|$\text{BQP/mlog}$]] except that the advice is quantum instead of classical.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Strictly contains [[Class_BQP/mlog|$\text{BQP/mlog}$]] [[ZooRefs#NY03|[NY03] ]].
 
 Contained in [[Class_BQP/mpoly|$\text{BQP/mpoly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = BP,,d,,(P) - Polynomial Size d-Times-Only Branching Program =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [[ZooRefs#Weg88|[Weg88] ]].
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#Weg88|[Weg88] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,7 +28,7 @@ The class of decision problems solvable by a family of polynomial size branching
 
 
 
-[[Class_BPd(P)|$\text{BPd(P)}$]] strictly contains BP,,d-1,,(P), for every d > 1 [[ZooRefs#Tha98|[Tha98] ]].
+BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [[ZooRefs#Tha98|[Tha98] ]].
 
 
 
@@ -25,6 +38,10 @@ Contained in [[Class_PBP|$\text{PBP}$]].
 
 See also: [[Class_P-OBDD|$\text{P-OBDD}$]], [[Class_k-PBP|$\text{k-PBP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,14 +5,31 @@
 
 = CC^0^ - Constant-Depth MODm Circuits =
 
-== Comments ==
+----
+CategoryClassical 
 
-The set of problems solvable by by constant-depth circuits having only MOD,,m,, gates for constant .
+== Description ==
+
+{{{#!description
+
+The set of problems solvable by by constant-depth circuits having only MOD,,m,, gates for constant $m$.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 This complexity class entry is a stub. If you feel so inclined, please help out!
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

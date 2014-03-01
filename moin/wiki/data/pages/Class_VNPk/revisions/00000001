@@ -5,17 +5,30 @@
 
 = VNP,,k,, - Valiant NP Over Field k =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+A superclass of [[Class_VPk|$\text{VP}_\text{k}\text{}$]] in Valiant's algebraic complexity theory, but not quite the analogue of [[Class_NP|$\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-A superclass of [[Class_VPk|$\text{VPk}$]] in Valiant's algebraic complexity theory, but not quite the analogue of [[Class_NP|$\text{NP}$]].
+
+
+A problem is in [[Class_VNPk|$\text{VNP}_\text{k}\text{}$]] if there exists a polynomial p with the following properties:
 
 
 
-A problem is in [[Class_VNPk|$\text{VNPk}$]] if there exists a polynomial p with the following properties:
-
-
-
-p is computable in [[Class_VPk|$\text{VPk}$]]; that is, by a polynomial-size straight-line program.
+p is computable in [[Class_VPk|$\text{VP}_\text{k}\text{}$]]; that is, by a polynomial-size straight-line program.
 
 The inputs to p are constants c,,1,,,...,c,,m,,,e,,1,,,...,e,,h,, and indeterminates X,,1,,,...,X,,n,, over the base field k.
 
@@ -31,7 +44,7 @@ If the field k has characteristic greater than 2, then the permanent of an n-by-
 
 
 
-A central conjecture is that for all k, [[Class_VPk|$\text{VPk}$]] is not equal to [[Class_VNPk|$\text{VNPk}$]].  Bürgisser [[ZooRefs#Bur00|[Bur00] ]] shows that if this were false then:
+A central conjecture is that for all k, [[Class_VPk|$\text{VP}_\text{k}\text{}$]] is not equal to [[Class_VNPk|$\text{VNP}_\text{k}\text{}$]].  Bürgisser [[ZooRefs#Bur00|[Bur00] ]] shows that if this were false then:
 
 
 
@@ -41,8 +54,12 @@ If k has characteristic 0, then assuming the Generalized Riemann Hypothesis (GRH
 
 
 
-In both cases, [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ2P}$]].
+In both cases, [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

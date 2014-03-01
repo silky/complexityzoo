@@ -5,9 +5,22 @@
 
 = FewP - NP With Few Witnesses =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -39,6 +52,10 @@ Contained in [[Class_Few|$\text{Few}$]].
 
 See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

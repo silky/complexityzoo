@@ -5,9 +5,22 @@
 
 = UP - Unambiguous Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -39,6 +52,10 @@ There exists an oracle relative to which [[Class_P|$\text{P}$]] is strictly cont
 
 [[Class_NP|$\text{NP}$]] is contained in RP^Promise-UP^ [[ZooRefs#VV86|[VV86] ]].  On the other hand, [[ZooRefs#BBF98|[BBF98] ]] give an oracle relative to which [[Class_P|$\text{P}$]] = [[Class_UP|$\text{UP}$]] but still [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

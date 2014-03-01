@@ -5,9 +5,22 @@
 
 = AxPP - Approximable in Probabilistic Polynomial Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Usually called [[Class_APP|$\text{APP}$]].  I've renamed it [[Class_AxPP|$\text{AxPP}$]] to distinguish it from the "other" [[Class_APP|$\text{APP}$]].
+== Description ==
+
+{{{#!description
+
+Usually called [[Class_APP|$\text{APP}$]].  I've renamed it [[Class_AxPP|$\text{AxPP}$]] to distinguish it from the "other" [[Class_APP|$\text{APP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,6 +46,10 @@ On the other hand, there exists an oracle relative to which [[Class_BPP|$\text{B
 
 Interestingly, it is unclear whether the set of [[Class_AxPP|$\text{AxPP}$]] machines is in [[Class_RE|$\text{RE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

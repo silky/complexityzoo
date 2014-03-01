@@ -5,9 +5,22 @@
 
 = QS,,2,,P - Quantum S2P =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The class of problems for which there exists a [[Class_BQP|$\text{BQP}$]] machine M such that:
+== Description ==
+
+{{{#!description
+
+The class of problems for which there exists a [[Class_BQP|$\text{BQP}$]] machine M such that:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,6 +36,10 @@ In other words, it's the same as [[Class_SQG|$\text{SQG}$]], but without communi
 
 Contains [[Class_QMA|$\text{QMA}$]] (and indeed P^QMA^), and is contained in [[Class_SQG|$\text{SQG}$]] and hence [[Class_EXP|$\text{EXP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

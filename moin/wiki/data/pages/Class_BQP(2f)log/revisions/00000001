@@ -5,14 +5,31 @@
 
 = BQP/log - BQP With Logarithmic-Size Karp-Lipton Advice =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_BQP/poly|$\text{BQP/poly}$]] except that the advice is O(log n) bits instead of a polynomial number.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP/poly|$\text{BQP/poly}$]] except that the advice is O(log n) bits instead of a polynomial number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_BQP/mlog|$\text{BQP/mlog}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

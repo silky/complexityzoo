@@ -5,14 +5,31 @@
 
 = ZPE - Zero-Error Probabilistic E =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_ZPP|$\text{ZPP}$]], but with 2^O(n)^-time instead of polynomial-time.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_ZPP|$\text{ZPP}$]], but with 2^O(n)^-time instead of polynomial-time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 [[Class_ZPE|$\text{ZPE}$]] = [[Class_EE|$\text{EE}$]] if and only if [[Class_ZPP|$\text{ZPP}$]] = [[Class_EXP|$\text{EXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

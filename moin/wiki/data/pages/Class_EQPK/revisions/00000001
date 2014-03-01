@@ -5,13 +5,26 @@
 
 = EQP,,K,, - Exact Quantum Polynomial-Time with Gate Set K =
 
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set [[Class_K|$\text{K}$]], and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set [[Class_K|$\text{K}$]].  [[Class_K|$\text{K}$]] may be either finite or countable and enumerated.  If S is a ring, the union of [[Class_EQPK|$\text{EQP}_\text{K}\text{}$]] over all finite gate sets [[Class_K|$\text{K}$]] whose amplitudes are in the ring [[Class_R|$\text{R}$]] can be written EQP,,S,,.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set [[Class_K|$\text{K}$]], and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set [[Class_K|$\text{K}$]].  [[Class_K|$\text{K}$]] may be either finite or countable and enumerated.  If S is a ring, the union of [[Class_EQPK|$\text{EQPK}$]] over all finite gate sets [[Class_K|$\text{K}$]] whose amplitudes are in the ring [[Class_R|$\text{R}$]] can be written EQP,,S,,.
 
 
-
-Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of [[Class_EQPK|$\text{EQPK}$]].
+Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of [[Class_EQPK|$\text{EQP}_\text{K}\text{}$]].
 
 
 
@@ -21,6 +34,10 @@ Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-q
 
 The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's algorithm.  The discrete logarithm problem over Z/p is in EQP,,Q-bar,, using infinitely many gates [[ZooRefs#MZ03|[MZ03] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

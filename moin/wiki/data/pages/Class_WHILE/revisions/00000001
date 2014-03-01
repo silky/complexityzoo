@@ -5,9 +5,22 @@
 
 = WHILE - While programs and some restrictions =
 
-== Comments ==
+----
+CategoryClassical 
 
-While is a theorical programing language defined in [[ZooRefs#jon98|[jon98] ]],  is a way to define syntacticaly [[Class_P|$\text{P}$]] and a syntactic resctriction of [[Class_WHILE|$\text{WHILE}$]] is exactly [[Class_L|$\text{L}$]]. The important point is that those two languages are powerful enough to simulate all of [[Class_P|$\text{P}$]] (and L) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !
+== Description ==
+
+{{{#!description
+
+While is a theorical programing language defined in [[ZooRefs#jon98|[jon98] ]],  is a way to define syntacticaly [[Class_P|$\text{P}$]] and a syntactic resctriction of [[Class_WHILE|$\text{WHILE}$]] is exactly [[Class_L|$\text{L}$]]. The important point is that those two languages are powerful enough to simulate all of [[Class_P|$\text{P}$]] (and [[Class_L|$\text{L}$]]) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -45,6 +58,10 @@ The trick to do a computation of a WHILE^rec/cons^ in [[Class_P|$\text{P}$]] is 
 
 Simulating [[Class_P|$\text{P}$]] in WHILE^rec/cons^ is quite more subtle, [[Class_P|$\text{P}$]] TM are equivalent to some counter machine wich can easily be simulated by [[Class_WHILE|$\text{WHILE}$]] programs with cons, and then we can simulate the cons thanks to the call stack.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

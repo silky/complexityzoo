@@ -5,24 +5,42 @@
 
 = ModL - ModL =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+A language $L\\in\\mathsf{ModL}$ if there are functions $f\\in\\mathsf{GapL}$ and $g\\in\\mathsf{FL}$ such that for all strings $x$:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-A language  if there are functions  and  such that for all strings :
+
+
+There exists a prime p and a natural number lpha such that g(x)=0^{p^{lpha}}.
+
+ x\in [[Class_L|$\text{L}$]] if and only if f(x)\equiv0(\left|g(x)
+ight|).
 
 
 
-There exists a prime  and a natural number  such that .
-
-  if and only if .
-
-
-
-Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
+Thus, for any prime $p$ and natural number $\lpha$, $\\mathsf{Mod}_{p^{\lpha}}\\mathsf{L}\\subseteq\\mathsf{ModL}$. Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
 
 
 
 Defined in [[ZooRefs#AV04|[AV04] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

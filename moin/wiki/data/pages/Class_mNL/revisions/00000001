@@ -5,9 +5,22 @@
 
 = mNL - Monotone NL =
 
-== Comments ==
+----
+CategoryClassical 
 
-See [[Class_mP|$\text{mP}$]] for the definition of a monotone nondeterministic Turing machine, due to [[ZooRefs#GS90|[GS90] ]].
+== Description ==
+
+{{{#!description
+
+See [[Class_mP|$\text{mP}$]] for the definition of a monotone nondeterministic Turing machine, due to [[ZooRefs#GS90|[GS90] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,12 +32,16 @@ See [[Class_mP|$\text{mP}$]] for the definition of a monotone nondeterministic T
 
 
 
-Also, [[Class_mNL|$\text{mNL}$]] strictly contains [[Class_mNC1|$\text{mNC1}$]] [[ZooRefs#KW88|[KW88] ]].
+Also, [[Class_mNL|$\text{mNL}$]] strictly contains [[Class_mNC1|$\text{mNC}^\text{1}\text{}$]] [[ZooRefs#KW88|[KW88] ]].
 
 
 
 See also: [[Class_mL|$\text{mL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

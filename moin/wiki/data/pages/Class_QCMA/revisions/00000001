@@ -5,9 +5,22 @@
 
 = QCMA - Quantum Classical MA =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of [[Class_QMA|$\text{QMA}$]] with classical witnesses.
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of [[Class_QMA|$\text{QMA}$]] with classical witnesses.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -29,6 +42,10 @@ See [[ZooRefs#AK06|[AK06] ]] for a "quantum oracle separation" between [[Class_Q
 
 The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

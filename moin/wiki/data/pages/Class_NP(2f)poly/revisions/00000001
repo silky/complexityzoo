@@ -5,9 +5,22 @@
 
 = NP/poly - Nonuniform NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_NP|$\text{NP}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_NP|$\text{NP}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Contains [[Class_AM|$\text{AM}$]].  On the other hand, if [[Class_NP/poly|$\text
 
 NP/poly-natural proofs cannot show that circuit families are outside [[Class_P/poly|$\text{P/poly}$]], under a pseudorandomness assumption [[ZooRefs#Rud97|[Rud97] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

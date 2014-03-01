@@ -5,9 +5,22 @@
 
 = PSPACE - Polynomial-Space =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by a Turing machine in polynomial space.
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a Turing machine in polynomial space.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -35,12 +48,16 @@ Contained in [[Class_EXP|$\text{EXP}$]].  There exists an oracle relative to whi
 
 
 
-In descriptive complexity, [[Class_PSPACE|$\text{PSPACE}$]] can be defined with 4 differents kind of formulae, FO() which is also [[Class_FO(PFP)|$\text{FO(PFP)}$]] and SO() which is also SO(TC).
+In descriptive complexity, [[Class_PSPACE|$\text{PSPACE}$]] can be defined with 4 differents kind of formulae, FO(2^{n^{O(1)}}) which is also FO(PFP) and SO(n^{O(1)}) which is also SO(TC).
 
 
 
 A canonical PSPACE-complete problem is Quantified Boolean Formula (QBF): Given a Boolean formula with universal and existential quantifiers, decide whether it's true or false.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

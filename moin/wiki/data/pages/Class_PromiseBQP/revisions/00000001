@@ -5,9 +5,22 @@
 
 = PromiseBQP - Promise-Problem BQP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_PromiseBPP|$\text{PromiseBPP}$]], but for [[Class_BQP|$\text{BQP}$]] instead of [[Class_BPP|$\text{BPP}$]].
+== Description ==
+
+{{{#!description
+
+Same as [[Class_PromiseBPP|$\text{PromiseBPP}$]], but for [[Class_BQP|$\text{BQP}$]] instead of [[Class_BPP|$\text{BPP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ If [[Class_PromiseBQP|$\text{PromiseBQP}$]] = [[Class_PromiseP|$\text{PromiseP}$
 
 Same as [[Class_PromiseBQP|$\text{PromiseBQP}$]], but for [[Class_BQP|$\text{BQP}$]] instead of [[Class_BPP|$\text{BPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,19 +5,32 @@
 
 = FO - First-Order logic =
 
-== Comments ==
+----
+CategoryClassical 
 
-First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class [[Class_AC0|$\text{AC0}$]] and to [[Class_AH|$\text{AH}$]], the alternating logtime hierarchy.
+== Description ==
+
+{{{#!description
+
+First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class [[Class_AC0|$\text{AC}^\text{0}\text{}$]] and to [[Class_AH|$\text{AH}$]], the alternating logtime hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 When we use logic formalism, the input is a structure, usually it is either strings (of bits or over an alphabet) whose elements are position of the strings, or graphs whose elements are vertices. The mesure of the input will there be the size of the structure.
 
-Whatever the structure is, we can suppose that there are relation that you can test, by example  is true iff there is an edge from  to  if the structure is a graph, and  is true iff the nth letter of the string is 1. We also have constant, who are special elements of the structure, by example if we want to check reachability in a graph, we will have to choose two constant s and t.
+Whatever the structure is, we can suppose that there are relation that you can test, by example $E(x,y)$ is true iff there is an edge from $x$ to $y$ if the structure is a graph, and $P(n)$ is true iff the nth letter of the string is 1. We also have constant, who are special elements of the structure, by example if we want to check reachability in a graph, we will have to choose two constant s and t.
 
 
 
-In descriptive complexity we almost always suppose that there is a total order over the elements and that we can check equality between elements. This let us consider elements as number,  is the number  iff there is  elements  such that . Thanks to this we also want the primitive "bit", where  is true if only the th bith of  is 1. (We can replace  by plus and time, ternary relation such that  is true iff  and  is true iff ).
+In descriptive complexity we almost always suppose that there is a total order over the elements and that we can check equality between elements. This let us consider elements as number, $x$ is the number $n$ iff there is $(n-1)$ elements $y$ such that $y<x$. Thanks to this we also want the primitive "bit", where $bit(x,y)$ is true if only the $y$th bith of $x$ is 1. (We can replace $bit$ by plus and time, ternary relation such that $plus(x,y,z)$ is true iff $x+y=z$ and $times(x,y,z)$ is true iff $x*y=z$).
 
 
 
@@ -25,11 +38,16 @@ Since in a computer elements are only pointers or string of bit, thoses assumpti
 
 
 
-The language [[Class_FO|$\text{FO}$]] is then defined as the closure by conjunction ( ), negation () and universal quantification () over element of the structures. We also often use existantial quantification () and disjunction () but those can be defined thanks to the 3 first symbols.
+The language [[Class_FO|$\text{FO}$]] is then defined as the closure by conjunction ( $\\wedge$), negation ($\
+eg$) and universal quantification ($\
+orall$) over element of the structures. We also often use existantial quantification ($\\exists$) and disjunction ($\
+ee$) but those can be defined thanks to the 3 first symbols.
 
 
 
-The semantics of the formulae in [[Class_FO|$\text{FO}$]] is straightforward,  is true iff  is false,  is true iff  is true and  is true, and () is true iff whatever element we decide that  is we can choose,  is true.
+The semantics of the formulae in [[Class_FO|$\text{FO}$]] is straightforward, $\
+eg A$ is true iff $A$ is false, $A\\wedge B$ is true iff $A$ is true and $B$ is true, and ($\
+orall x P$) is true iff whatever element we decide that $x$ is we can choose, $P$ is true.
 
 
 
@@ -39,6 +57,10 @@ A querie in [[Class_FO|$\text{FO}$]] will then be to check if a [[Class_FO|$\tex
 
 Every formulae is equivalent to a formulae in prenexe normal form where we put recursively every quantifier and then a quantifier-free formulae.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,19 +5,32 @@
 
 = LWPP - Length-Dependent Wide PP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
 
-If the answer is "yes," then the difference of these numbers equals a function f(|x|) computable in polynomial time (i.e. FP).  Here |x| is the length of the input x, and ``polynomial time means polynomial in |x|, the length of x, rather than the length of |x|.
+If the answer is "yes," then the difference of these numbers equals a function f(|x|) computable in polynomial time (i.e. [[Class_FP|$\text{FP}$]]).  Here |x| is the length of the input x, and ``polynomial time means polynomial in |x|, the length of x, rather than the length of |x|.
 
 
 
-Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_LWPP|$\text{LWPP}$]] is low for [[Class_PP|$\text{PP}$]] and [[Class_C=P|$\text{C=P}$]].  (I.e. adding [[Class_LWPP|$\text{LWPP}$]] as an oracle does not increase the power of these classes.)
+Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_LWPP|$\text{LWPP}$]] is low for [[Class_PP|$\text{PP}$]] and [[Class_C=P|$\text{C}_\text{=}\text{P}$]].  (I.e. adding [[Class_LWPP|$\text{LWPP}$]] as an oracle does not increase the power of these classes.)
 
 
 
@@ -39,6 +52,10 @@ Contains a whole litter of problems for solvable black-box groups: group interse
 
 Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [[ZooRefs#Vin04|[Vin04] ]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

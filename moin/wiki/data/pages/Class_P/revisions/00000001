@@ -5,9 +5,22 @@
 
 = P - Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class that started it all.
+== Description ==
+
+{{{#!description
+
+The class that started it all.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -43,16 +56,20 @@ Efforts to generalize [[Class_P|$\text{P}$]] resulted in [[Class_BPP|$\text{BPP}
 
 
 
-The nonuniform version is [[Class_P/poly|$\text{P/poly}$]], the monotone version is [[Class_mP|$\text{mP}$]], and versions over the real and complex number fields are [[Class_PR|$\text{PR}$]] and [[Class_PC|$\text{PC}$]] respectively.
+The nonuniform version is [[Class_P/poly|$\text{P/poly}$]], the monotone version is [[Class_mP|$\text{mP}$]], and versions over the real and complex number fields are [[Class_PR|$\text{P}_\text{R}\text{}$]] and [[Class_PC|$\text{P}_\text{C}\text{}$]] respectively.
 
 
 
-In descriptive complexity, [[Class_P|$\text{P}$]] can be defined by three different kind of formulae, FO(lfp) which is also FO()], and also as [[Class_SO(Horn)|$\text{SO(Horn)}$]]
+In descriptive complexity, [[Class_P|$\text{P}$]] can be defined by three different kind of formulae, FO(lfp) which is also FO(n^{O(1)})], and also as SO(Horn)
 
 
 
 [[Class_P|$\text{P}$]] queries are exactly the one that can be written in the While^/cons^ languages.
 == Relations ==
+
+{{{#!class_relations
+{"version": 1.0, "class": "P", "relations": {"contained_in": [{"class": "EXP"}, {"class": "NP"}], "equals": []}}
+}}}
 
 
 == See Also ==

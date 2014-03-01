@@ -5,9 +5,22 @@
 
 = AWPP - Almost WPP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that for some polynomial-time computable (i.e. FP) function f,
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that for some polynomial-time computable (i.e. [[Class_FP|$\text{FP}$]]) function f,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -27,6 +40,10 @@ Contains [[Class_BQP|$\text{BQP}$]] [[ZooRefs#FR98|[FR98] ]], [[Class_WAPP|$\tex
 
 Contained in [[Class_APP|$\text{APP}$]] [[ZooRefs#Fen02|[Fen02] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

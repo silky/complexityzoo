@@ -5,9 +5,22 @@
 
 = SNP - Strict NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-[[ZooRefs#Fag74|[Fag74] ]] showed that [[Class_NP|$\text{NP}$]] is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.
+== Description ==
+
+{{{#!description
+
+[[ZooRefs#Fag74|[Fag74] ]] showed that [[Class_NP|$\text{NP}$]] is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -41,6 +54,10 @@ There exists a relation P(u,v) on vertices of G, such that P(u,u) is false, and 
 
 total order
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,14 +5,31 @@
 
 = TALLY - Tally Languages =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If [[Class_TALLY|$\text{TALLY}$]] intersects [[Class_NPC|$\text{NPC}$]] then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If [[Class_TALLY|$\text{TALLY}$]] intersects [[Class_NPC|$\text{NPC}$]] then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_SPARSE|$\text{SPARSE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

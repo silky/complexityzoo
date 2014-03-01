@@ -5,9 +5,22 @@
 
 = ESPACE - Exponential Space With Linear Exponent =
 
-== Comments ==
+----
+CategoryClassical 
 
-Equals DSPACE(2^O(n)^).
+== Description ==
+
+{{{#!description
+
+Equals DSPACE(2^O(n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -29,6 +42,10 @@ Is not contained in [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] [[ZooRefs#NY03|[NY03]
 
 See also: [[Class_EXPSPACE|$\text{EXPSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

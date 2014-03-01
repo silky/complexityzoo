@@ -5,9 +5,22 @@
 
 = FPT - Fixed-Parameter Tractable =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.
+== Description ==
+
+{{{#!description
+
+The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,16 +32,20 @@ To separate [[Class_FPT|$\text{FPT}$]] and W[2], one could show there is no proo
 
 
 
-Contained in [[Class_FPTnu|$\text{FPTnu}$]], [[Class_W[1]|$\text{W[1]}$]], and [[Class_FPR|$\text{FPR}$]].
+Contained in [[Class_FPTnu|$\text{FPT}_\text{nu}\text{}$]], [[Class_W[1]|$\text{W[1]}$]], and [[Class_FPR|$\text{FPR}$]].
 
 
 
-Contains [[Class_FPTAS|$\text{FPTAS}$]] [[ZooRefs#CC97|[CC97] ]], as well as [[Class_FPTsu|$\text{FPTsu}$]].
+Contains [[Class_FPTAS|$\text{FPTAS}$]] [[ZooRefs#CC97|[CC97] ]], as well as [[Class_FPTsu|$\text{FPT}_\text{su}\text{}$]].
 
 
 
 Contains [[Class_EPTAS|$\text{EPTAS}$]] unless [[Class_FPT|$\text{FPT}$]] = [[Class_W[1]|$\text{W[1]}$]] [[ZooRefs#Baz95|[Baz95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

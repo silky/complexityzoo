@@ -5,13 +5,26 @@
 
 = E - Exponential Time With Linear Exponent =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals DTIME(2^O(n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals DTIME(2^O(n)^).
 
 
-
-Does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#Boo72|[Boo72] ]] or [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Boo74|[Boo74] ]] relative to any oracle.  However, there is an oracle relative to which [[Class_E|$\text{E}$]] is contained in [[Class_NP|$\text{NP}$]] (see ZPP), and an oracle relative to [[Class_PSPACE|$\text{PSPACE}$]] is contained in [[Class_E|$\text{E}$]] (by equating the former with P).
+Does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#Boo72|[Boo72] ]] or [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Boo74|[Boo74] ]] relative to any oracle.  However, there is an oracle relative to which [[Class_E|$\text{E}$]] is contained in [[Class_NP|$\text{NP}$]] (see [[Class_ZPP|$\text{ZPP}$]]), and an oracle relative to [[Class_PSPACE|$\text{PSPACE}$]] is contained in [[Class_E|$\text{E}$]] (by equating the former with [[Class_P|$\text{P}$]]).
 
 
 
@@ -31,12 +44,17 @@ It follows that, if the problems complete for [[Class_E|$\text{E}$]] under Turin
 
 
 
-[[ZooRefs#BF03|[BF03] ]] gave a proof that if [[Class_E|$\text{E}$]] = [[Class_NE|$\text{NE}$]], then no sparse set is collapsing, where they defined a set  to be collapsing if  and if for all  such that  and  are Turing reducible to each other,  and  are many-to-one reducible to each other.
+[[ZooRefs#BF03|[BF03] ]] gave a proof that if [[Class_E|$\text{E}$]] = [[Class_NE|$\text{NE}$]], then no sparse set is collapsing, where they defined a set $A$ to be collapsing if $A\
+otin\\mathsf{P}$ and if for all $B$ such that $A$ and $B$ are Turing reducible to each other, $A$ and $B$ are many-to-one reducible to each other.
 
 
 
 Contrast with [[Class_EXP|$\text{EXP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

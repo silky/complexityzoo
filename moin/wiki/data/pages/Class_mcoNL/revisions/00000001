@@ -5,14 +5,31 @@
 
 = mcoNL - Complement of mNL =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [[ZooRefs#GS90|[GS90] ]], where it was also shown that [[Class_mcoNL|$\text{mcoNL}$]] does not equal [[Class_mNL|$\text{mNL}$]].
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#GS90|[GS90] ]], where it was also shown that [[Class_mcoNL|$\text{mcoNL}$]] does not equal [[Class_mNL|$\text{mNL}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 See also: [[Class_mL|$\text{mL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -10,6 +10,7 @@ class Config(LocalConfig):
     multiconfig.DefaultConfig.navi_bar = [
             u'Home',
             u'[[AllClasses|All classes]]', 
+            u'[[CategoryProblem|All problems]]', 
             # Recent changes is a little broken because I added so many
             # things.
             # u'[[RecentChanges|Recent Changes]]',

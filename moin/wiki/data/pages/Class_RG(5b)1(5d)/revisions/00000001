@@ -5,9 +5,22 @@
 
 = RG[1] - One-Round Refereed Games =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_RG|$\text{RG}$]], except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes [[Class_RG[1]|$\text{RG[1]}$]] a symmetric class, indeed a randomized analogue of [[Class_S2P|$\text{S2P}$]].
+== Description ==
+
+{{{#!description
+
+Same as [[Class_RG|$\text{RG}$]], except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes [[Class_RG[1]|$\text{RG[1]}$]] a symmetric class, indeed a randomized analogue of [[Class_S2P|$\text{S}_\text{2}\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ Same as [[Class_RG|$\text{RG}$]], except that now the verifier can exchange only
 
 
 
-Contains [[Class_S2P|$\text{S2P}$]] and is contained in [[Class_SQG|$\text{SQG}$]].
+Contains [[Class_S2P|$\text{S}_\text{2}\text{P}$]] and is contained in [[Class_SQG|$\text{SQG}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

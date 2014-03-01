@@ -5,9 +5,22 @@
 
 = PermUP - Self-Permuting UP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of languages [[Class_L|$\text{L}$]] in [[Class_UP|$\text{UP}$]] such that the mapping from an input x to the unique witness for x is a permutation of [[Class_L|$\text{L}$]].
+== Description ==
+
+{{{#!description
+
+The class of languages [[Class_L|$\text{L}$]] in [[Class_UP|$\text{UP}$]] such that the mapping from an input x to the unique witness for x is a permutation of [[Class_L|$\text{L}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ On the other hand, they show that if [[Class_PermUP|$\text{PermUP}$]] = [[Class_
 
 See also: [[Class_SelfNP|$\text{SelfNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

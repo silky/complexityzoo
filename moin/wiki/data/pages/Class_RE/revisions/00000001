@@ -5,9 +5,22 @@
 
 = RE - Recursively Enumerable Languages =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems for which a 'yes' answer can be verified by a Turing machine in a finite amount of time.  (If the answer is 'no,' on the other hand, the machine might never halt.)
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a 'yes' answer can be verified by a Turing machine in a finite amount of time.  (If the answer is 'no,' on the other hand, the machine might never halt.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -49,6 +62,10 @@ There are problems in [[Class_RE|$\text{RE}$]] that are neither RE-complete unde
 
 Indeed, [[Class_RE|$\text{RE}$]] contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [[ZooRefs#Sho99|[Sho99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

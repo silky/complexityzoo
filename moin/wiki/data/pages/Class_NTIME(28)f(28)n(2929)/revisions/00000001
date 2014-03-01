@@ -5,13 +5,26 @@
 
 = NTIME(f(n)) - Nondeterministic f(n)-Time =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_NP|$\text{NP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_NP|$\text{NP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
 
-
-The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible and f(n+1)=o(g), then [[Class_NTIME(f(n))|$\text{NTIME(f(n))}$]] does not equal NTIME(g(n)) [[ZooRefs#SFM78|[SFM78] ]] (this is actually stronger than the hierarchy theorem for DTIME).
+The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible and f(n+1)=o(g), then NTIME(f(n)) does not equal NTIME(g(n)) [[ZooRefs#SFM78|[SFM78] ]] (this is actually stronger than the hierarchy theorem for DTIME).
 
 
 
@@ -19,8 +32,12 @@ NTIME(n) strictly contains DTIME(n) [[ZooRefs#PPS+83|[PPS+83] ]] (this result do
 
 
 
-For any constructible superpolynomial f, [[Class_NTIME(f(n))|$\text{NTIME(f(n))}$]] with [[Class_NP|$\text{NP}$]] oracle is not in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#Kan82|[Kan82] ]].
+For any constructible superpolynomial f, NTIME(f(n)) with [[Class_NP|$\text{NP}$]] oracle is not in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

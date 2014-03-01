@@ -5,9 +5,22 @@
 
 = APX - Approximable =
 
-== Comments ==
+----
+CategoryClassical 
 
-The subclass of [[Class_NPO|$\text{NPO}$]] problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)
+== Description ==
+
+{{{#!description
+
+The subclass of [[Class_NPO|$\text{NPO}$]] problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Equals the closure of [[Class_MaxSNP|$\text{MaxSNP}$]] and of [[Class_MaxNP|$\te
 
 Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,10 +5,29 @@
 
 = coRNC - Complement of RNC =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Contains the problem of whether a bipartite graph has a perfect matching [[ZooRefs#Kar86|[Kar86] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains the problem of whether a bipartite graph has a perfect matching [[ZooRefs#Kar86|[Kar86] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

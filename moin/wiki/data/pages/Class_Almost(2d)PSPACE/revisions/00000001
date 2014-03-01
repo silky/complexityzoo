@@ -5,9 +5,22 @@
 
 = Almost-PSPACE - Languages Almost Surely in PSPACEA =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of problems that are in PSPACE^A^ with probability 1, where A is an oracle chosen uniformly at random.
+== Description ==
+
+{{{#!description
+
+The class of problems that are in PSPACE^A^ with probability 1, where A is an oracle chosen uniformly at random.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ What's known is that [[Class_Almost-PSPACE|$\text{Almost-PSPACE}$]] = BP^exp^•
 
 Whereas both BP^exp^•PSPACE and BPPSPACE machines are allowed exponentially many random bits, the former has a reusable record of all of these bits on a witness tape, while the latter can only preserve a fraction of them on the work tape.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

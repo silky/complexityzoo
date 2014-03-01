@@ -5,9 +5,22 @@
 
 = CP - Continuous P =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_CLOG|$\text{CLOG}$]], except that the convergence time can be polynomial rather than logarithmic in the input size.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_CLOG|$\text{CLOG}$]], except that the convergence time can be polynomial rather than logarithmic in the input size.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Finding a maximum flow, which is P-complete, can be done in [[Class_CP|$\text{CP
 
 Contained in [[Class_CNP|$\text{CNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

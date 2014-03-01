@@ -5,9 +5,22 @@
 
 = BQP/qpoly - BQP With Polynomial-Size Quantum Advice =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The class of problems solvable by a [[Class_BQP|$\text{BQP}$]] machine that receives a quantum state ψ,,n,, as advice, which depends only on the input length n.
+== Description ==
+
+{{{#!description
+
+The class of problems solvable by a [[Class_BQP|$\text{BQP}$]] machine that receives a quantum state ψ,,n,, as advice, which depends only on the input length n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -35,6 +48,10 @@ A classical oracle separation between [[Class_BQP/qpoly|$\text{BQP/qpoly}$]] and
 
 Contains [[Class_BQP/mpoly|$\text{BQP/mpoly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

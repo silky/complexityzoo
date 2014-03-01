@@ -5,14 +5,31 @@
 
 = ATIME - Alternating TIME =
 
-== Comments ==
+----
+CategoryClassical 
 
-ATIME(f(n)) is the class of problems for which there are alternating Turing machines (see AP) which decide the problem in time bounded by f(n).
+== Description ==
+
+{{{#!description
+
+ATIME(f(n)) is the class of problems for which there are alternating Turing machines (see [[Class_AP|$\text{AP}$]]) which decide the problem in time bounded by f(n).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 In particular, [[Class_AP|$\text{AP}$]] = ATIME(poly(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

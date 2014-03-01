@@ -5,14 +5,31 @@
 
 = GPCD(r(n),q(n)) - Generalized Probabilistically Checkable Debate =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_PCD(r(n),q(n))|$\text{PCD(r(n),q(n))}$]], except that now the verifier is allowed nonadaptively to query O(q(n)) rounds of the debate, with no restriction on the number of bits it looks at within each round.
+== Description ==
+
+{{{#!description
+
+Same as PCD(r(n),q(n)), except that now the verifier is allowed nonadaptively to query O(q(n)) rounds of the debate, with no restriction on the number of bits it looks at within each round.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#CFL+93|[CFL+93] ]], who also showed that PCD(log n, q(n)) = GPCD(log n, q(n)) for every q(n).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

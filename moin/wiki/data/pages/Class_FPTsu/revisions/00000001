@@ -5,14 +5,31 @@
 
 = FPT,,su,, - Fixed-Parameter Tractable (strongly uniform) =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_FPT|$\text{FPT}$]] except that f has to be recursive.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_FPT|$\text{FPT}$]] except that f has to be recursive.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#DF99|[DF99] ]] (though they did not use our notation).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

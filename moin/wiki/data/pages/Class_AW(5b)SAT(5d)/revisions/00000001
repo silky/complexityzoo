@@ -5,9 +5,22 @@
 
 = AW[SAT] - Alternating W[SAT] =
 
-== Comments ==
+----
+CategoryClassical 
 
-Basically has the same relation to [[Class_W[SAT]|$\text{W[SAT]}$]] as [[Class_PSPACE|$\text{PSPACE}$]] does to [[Class_NP|$\text{NP}$]].
+== Description ==
+
+{{{#!description
+
+Basically has the same relation to [[Class_W[SAT]|$\text{W[SAT]}$]] as [[Class_PSPACE|$\text{PSPACE}$]] does to [[Class_NP|$\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -29,6 +42,10 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 Contains [[Class_AW[*]|$\text{AW[*]}$]], and is contained in [[Class_AW[P]|$\text{AW[P]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

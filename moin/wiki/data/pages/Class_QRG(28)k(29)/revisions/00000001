@@ -5,22 +5,39 @@
 
 = QRG(k) - k-turn Quantum Refereed Games =
 
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QRG|$\text{QRG}$]], except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length.  Messages are exchanged in parallel.  QRG(k) is the quantum version of RG(k).  By definition, QRG(poly) = [[Class_QRG|$\text{QRG}$]].  See also QRG(1) and QRG(2).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QRG|$\text{QRG}$]], except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length.  Messages are exchanged in parallel.  [[Class_QRG(k)|$\text{QRG(k)}$]] is the quantum version of [[Class_RG(k)|$\text{RG(k)}$]].  By definition, QRG(poly) = [[Class_QRG|$\text{QRG}$]].  See also [[Class_QRG(1)|$\text{QRG(1)}$]] and [[Class_QRG(2)|$\text{QRG(2)}$]].
+
+
+QRG(k) trivially contains RG(k) for each k (and hence [[Class_PSPACE|$\text{PSPACE}$]] when $ k \\geq 2$).  QRG(4) trivially contains [[Class_SQG|$\text{SQG}$]].
 
 
 
-[[Class_QRG(k)|$\text{QRG(k)}$]] trivially contains [[Class_RG(k)|$\text{RG(k)}$]] for each k (and hence [[Class_PSPACE|$\text{PSPACE}$]] when ).  QRG(4) trivially contains [[Class_SQG|$\text{SQG}$]].
+QRG(k) is trivially contained in [[Class_QRG|$\text{QRG}$]] for each k (and hence [[Class_EXP|$\text{EXP}$]]).
 
 
 
-[[Class_QRG(k)|$\text{QRG(k)}$]] is trivially contained in [[Class_QRG|$\text{QRG}$]] for each k (and hence EXP).
-
-
-
-Other than these trivial bounds, very little is known of [[Class_QRG(k)|$\text{QRG(k)}$]] for intermediate values of k.  For example, does [[Class_QRG(k)|$\text{QRG(k)}$]] = [[Class_RG(k)|$\text{RG(k)}$]] for each k?
+Other than these trivial bounds, very little is known of QRG(k) for intermediate values of k.  For example, does QRG(k) = RG(k) for each k?
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

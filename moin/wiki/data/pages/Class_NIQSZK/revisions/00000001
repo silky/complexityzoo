@@ -5,9 +5,22 @@
 
 = NIQSZK - Non-Interactive QSZK =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_QSZK|$\text{QSZK}$]] as [[Class_NISZK|$\text{NISZK}$]] does to [[Class_SZK|$\text{SZK}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_QSZK|$\text{QSZK}$]] as [[Class_NISZK|$\text{NISZK}$]] does to [[Class_SZK|$\text{SZK}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Defined in [[ZooRefs#Kob02|[Kob02] ]], where it was also shown that the followin
 
 NIQPZK can be defined similarly.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

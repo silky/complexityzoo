@@ -5,9 +5,22 @@
 
 = W[P] - Weighted Circuit Satisfiability =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
+== Description ==
+
+{{{#!description
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 Contains [[Class_W[SAT]|$\text{W[SAT]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

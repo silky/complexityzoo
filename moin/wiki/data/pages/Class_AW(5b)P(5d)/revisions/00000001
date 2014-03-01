@@ -5,9 +5,22 @@
 
 = AW[P] - Alternating W[P] =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_AW[SAT]|$\text{AW[SAT]}$]] but with 'circuit' instead of 'formula.'
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AW[SAT]|$\text{AW[SAT]}$]] but with 'circuit' instead of 'formula.'}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Has the same relation to [[Class_AW[SAT]|$\text{AW[SAT]}$]] as [[Class_W[P]|$\te
 
 Defined in [[ZooRefs#DF99|[DF99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

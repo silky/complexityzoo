@@ -5,9 +5,22 @@
 
 = BQP - Bounded-Error Quantum Polynomial-Time =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The class of decision problems solvable in polynomial time by a quantum Turing machine, with at most 1/3 probability of error.
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable in polynomial time by a quantum Turing machine, with at most 1/3 probability of error.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -39,7 +52,7 @@ There exist oracles relative to which:
 
 
 
-[[Class_BQP|$\text{BQP}$]] does not equal to [[Class_BPP|$\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in P/poly).
+[[Class_BQP|$\text{BQP}$]] does not equal to [[Class_BPP|$\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in [[Class_P/poly|$\text{P/poly}$]]).
 
 [[Class_BQP|$\text{BQP}$]] is not contained in [[Class_MA|$\text{MA}$]] [[ZooRefs#Wat00|[Wat00] ]].
 
@@ -55,7 +68,7 @@ There exist oracles relative to which:
 
 
 
-[[Class_BQP|$\text{BQP}$]] does not equal [[Class_BPP|$\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in P/poly).
+[[Class_BQP|$\text{BQP}$]] does not equal [[Class_BPP|$\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in [[Class_P/poly|$\text{P/poly}$]]).
 
 [[Class_BQP|$\text{BQP}$]] is not contained in [[Class_MA|$\text{MA}$]] [[ZooRefs#Wat00|[Wat00] ]].
 
@@ -67,6 +80,10 @@ There exist oracles relative to which:
 
 [[Class_BQP|$\text{BQP}$]] is not contained in [[Class_SZK|$\text{SZK}$]] (follows easily using the quantum walk problem in [[ZooRefs#CCD+03|[CCD+03] ]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

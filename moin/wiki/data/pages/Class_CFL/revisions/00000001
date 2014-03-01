@@ -5,9 +5,22 @@
 
 = CFL - Context-Free Languages =
 
-== Comments ==
+----
+CategoryClassical 
 
-Does not equal [[Class_QCFL|$\text{QCFL}$]] [[ZooRefs#MC00|[MC00] ]].
+== Description ==
+
+{{{#!description
+
+Does not equal [[Class_QCFL|$\text{QCFL}$]] [[ZooRefs#MC00|[MC00] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Strictly contains [[Class_DCFL|$\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]] and in
 
 Strictly contains [[Class_DCFL|$\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,15 +5,28 @@
 
 = WPP - Wide PP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
 
-If the answer is "yes," then their difference exactly equals a function f(x) computable in polynomial time (i.e. FP).
+If the answer is "yes," then their difference exactly equals a function f(x) computable in polynomial time (i.e. [[Class_FP|$\text{FP}$]]).
 
 
 
@@ -21,12 +34,16 @@ Defined in [[ZooRefs#FFK94|[FFK94] ]].
 
 
 
-Contained in [[Class_C=P|$\text{C=P}$]] ∩ [[Class_coC=P|$\text{coC=P}$]], as well as [[Class_AWPP|$\text{AWPP}$]].
+Contained in [[Class_C=P|$\text{C}_\text{=}\text{P}$]] ∩ [[Class_coC=P|$\text{coC}_\text{=}\text{P}$]], as well as [[Class_AWPP|$\text{AWPP}$]].
 
 
 
 Contains [[Class_SPP|$\text{SPP}$]] and [[Class_LWPP|$\text{LWPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

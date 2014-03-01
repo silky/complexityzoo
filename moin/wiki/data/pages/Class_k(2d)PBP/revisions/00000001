@@ -5,9 +5,22 @@
 
 = k-PBP - Polynomial-Size Width-k Branching Program =
 
-== Comments ==
+----
+CategoryClassical 
 
-A branching program is a directed acyclic graph with a designated start vertex.  Each (non-sink) vertex is labeled by the name of an input bit, and has two outgoing edges, one of which is followed if that input bit is 0, the other if the bit is 1.  A sink vertex can be either an 'accept' or a 'reject' vertex.
+== Description ==
+
+{{{#!description
+
+A branching program is a directed acyclic graph with a designated start vertex.  Each (non-sink) vertex is labeled by the name of an input bit, and has two outgoing edges, one of which is followed if that input bit is 0, the other if the bit is 1.  A sink vertex can be either an 'accept' or a 'reject' vertex.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,7 +32,7 @@ Then [[Class_k-PBP|$\text{k-PBP}$]] is the class of decision problems solvable b
 
 
 
-[[Class_k-PBP|$\text{k-PBP}$]] equals (nonuniform) [[Class_NC1|$\text{NC1}$]] for constant k at least 5 [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, 4-PBP is in [[Class_ACC0|$\text{ACC0}$]] [[ZooRefs#BT88|[BT88] ]].
+[[Class_k-PBP|$\text{k-PBP}$]] equals (nonuniform) [[Class_NC1|$\text{NC}^\text{1}\text{}$]] for constant k at least 5 [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, 4-PBP is in [[Class_ACC0|$\text{ACC}^\text{0}\text{}$]] [[ZooRefs#BT88|[BT88] ]].
 
 
 
@@ -27,8 +40,12 @@ Contained in [[Class_k-EQBP|$\text{k-EQBP}$]], as well as [[Class_PBP|$\text{PBP
 
 
 
-See also [[Class_BPd(P)|$\text{BPd(P)}$]].
+See also BP,,d,,(P).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

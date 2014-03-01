@@ -5,9 +5,22 @@
 
 = QNC - Quantum NC =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The class of decision problems solvable by polylogarithmic-depth quantum circuits with bounded probability of error.  (A uniformity condition may also be imposed.)
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by polylogarithmic-depth quantum circuits with bounded probability of error.  (A uniformity condition may also be imposed.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ Is incomparable with [[Class_BPP|$\text{BPP}$]] as far as anyone knows.
 
 See also: [[Class_RNC|$\text{RNC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

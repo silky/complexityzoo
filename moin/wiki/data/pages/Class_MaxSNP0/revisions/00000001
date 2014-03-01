@@ -5,9 +5,22 @@
 
 = MaxSNP,,0,, - Generating Class of MaxSNP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of function problems expressible as "find a relation such that the set of k-tuples for which a given [[Class_SNP|$\text{SNP}$]] predicate holds has maximum cardinality."
+== Description ==
+
+{{{#!description
+
+The class of function problems expressible as "find a relation such that the set of k-tuples for which a given [[Class_SNP|$\text{SNP}$]] predicate holds has maximum cardinality."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Given a graph G, find a subset S of vertices that maximizes the number of pairs 
 
 Defined in [[ZooRefs#PY88|[PY88] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

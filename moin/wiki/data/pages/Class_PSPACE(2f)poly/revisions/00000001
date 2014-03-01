@@ -5,10 +5,29 @@
 
 = PSPACE/poly - PSPACE With Polynomial-Size Advice =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Contains [[Class_QMA/qpoly|$\text{QMA/qpoly}$]] [Aar06b].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains [[Class_QMA/qpoly|$\text{QMA/qpoly}$]] [Aar06b].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

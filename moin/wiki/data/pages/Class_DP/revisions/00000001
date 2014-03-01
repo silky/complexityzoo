@@ -5,14 +5,31 @@
 
 = DP - Difference Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-[[Class_DP|$\text{DP}$]] = BH,,2,,, the second level of the Boolean hierarchy.
+== Description ==
+
+{{{#!description
+
+[[Class_DP|$\text{DP}$]] = BH,,2,,, the second level of the Boolean hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#PY84|[PY84] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

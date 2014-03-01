@@ -5,9 +5,22 @@
 
 = MA - Merlin-Arthur =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by a Merlin-Arthur protocol, which goes as follows.  Merlin, who has unbounded computational resources, sends Arthur a polynomial-size purported proof that the answer to the problem is "yes."  Arthur must verify the proof in [[Class_BPP|$\text{BPP}$]] (i.e. probabilistic polynomial-time), so that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a Merlin-Arthur protocol, which goes as follows.  Merlin, who has unbounded computational resources, sends Arthur a polynomial-size purported proof that the answer to the problem is "yes."  Arthur must verify the proof in [[Class_BPP|$\text{BPP}$]] (i.e. probabilistic polynomial-time), so that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,11 +36,11 @@ An alternative definition requires that if the answer is "yes," then there exist
 
 Contains [[Class_NP|$\text{NP}$]] and [[Class_BPP|$\text{BPP}$]] 
 
-(in fact also ∃BPP), and is contained in [[Class_AM|$\text{AM}$]] and in [[Class_QMA|$\text{QMA}$]].
+(in fact also [[Class_∃BPP|$\text{∃BPP}$]]), and is contained in [[Class_AM|$\text{AM}$]] and in [[Class_QMA|$\text{QMA}$]].
 
 
 
-Also contained in [[Class_Σ2P|$\text{Σ2P}$]] ∩ [[Class_Π2P|$\text{Π2P}$]].
+Also contained in [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] ∩ [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]].
 
 
 
@@ -39,11 +52,11 @@ Equals [[Class_NP|$\text{NP}$]] under a derandomization assumption: if [[Class_E
 
 
 
-Shown in [[ZooRefs#San07|[San07] ]] that MA/1 does not have circuits of size  for any . In the same paper, the result was used to show that MA/1 cannot be solved on more than a  fraction of inputs having length  by any circuit of size . Finally, it was shown that [[Class_MA|$\text{MA}$]] does not have arithmetic circuits of size .
+Shown in [[ZooRefs#San07|[San07] ]] that MA/1 does not have circuits of size $n^k$ for any $k>0$. In the same paper, the result was used to show that MA/1 cannot be solved on more than a $1/2 + 1/{n^k}$ fraction of inputs having length $n$ by any circuit of size $n^k$. Finally, it was shown that [[Class_MA|$\text{MA}$]] does not have arithmetic circuits of size $n^k$.
 
 
 
-See also: [[Class_MAE|$\text{MAE}$]], [[Class_MAEXP|$\text{MAEXP}$]].
+See also: [[Class_MAE|$\text{MA}_\text{E}\text{}$]], [[Class_MAEXP|$\text{MA}_\text{EXP}\text{}$]].
 
 
 
@@ -57,6 +70,10 @@ Contains [[Class_NP|$\text{NP}$]] and [[Class_∃BPP|$\text{∃BPP}$]], and is c
 
 Equals [[Class_NP|$\text{NP}$]] under a derandomization assumption.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

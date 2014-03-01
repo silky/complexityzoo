@@ -5,9 +5,22 @@
 
 = NEXP - Nondeterministic EXP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).
+== Description ==
+
+{{{#!description
+
+Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -47,8 +60,12 @@ There exists an oracle relative to which [[Class_EXP|$\text{EXP}$]] = [[Class_NE
 
 
 
-The theory of reals with addition (see EXPSPACE) is hard for [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#FR74|[FR74] ]].
+The theory of reals with addition (see [[Class_EXPSPACE|$\text{EXPSPACE}$]]) is hard for [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#FR74|[FR74] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

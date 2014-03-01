@@ -5,9 +5,22 @@
 
 = SP - Semi-Efficient Parallel =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of problems in [[Class_P|$\text{P}$]] for which the best parallel algorithm (using a polynomial number of processors) is faster than the best serial algorithm by a factor of Ω(n^ε^) for some ε>0.
+== Description ==
+
+{{{#!description
+
+The class of problems in [[Class_P|$\text{P}$]] for which the best parallel algorithm (using a polynomial number of processors) is faster than the best serial algorithm by a factor of Ω(n^ε^) for some ε>0.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ Defined in [[ZooRefs#KRS90|[KRS90] ]].
 
 
 
-[[Class_SP|$\text{SP}$]] is also an alternate name for [[Class_XPuniform|$\text{XPuniform}$]]
+[[Class_SP|$\text{SP}$]] is also an alternate name for [[Class_XPuniform|$\text{XP}_\text{uniform}\text{}$]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

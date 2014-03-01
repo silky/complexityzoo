@@ -5,9 +5,22 @@
 
 = NISZK - Non-Interactive SZK =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [[ZooRefs#DDP+98|[DDP+98] ]].
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#DDP+98|[DDP+98] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -35,6 +48,10 @@ If [[Class_SZK|$\text{SZK}$]] does not equal [[Class_BPP|$\text{BPP}$]] then [[C
 
 [[Class_NIPZK|$\text{NIPZK}$]] can be defined similarly.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = SAC^1^ - Semi-Unbounded-Fanin AC1 =
 
-== Comments ==
+----
+CategoryClassical 
 
-See [[Class_SAC|$\text{SAC}$]] for definition.
+== Description ==
+
+{{{#!description
+
+See [[Class_SAC|$\text{SAC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ Equals LOGCFL/poly [[ZooRefs#Ven91|[Ven91] ]].
 
 
 
-Contained in [[Class_⊕SAC1|$\text{⊕SAC1}$]] [[ZooRefs#GW96|[GW96] ]].
+Contained in [[Class_⊕SAC1|$\text{⊕SAC}^\text{1}\text{}$]] [[ZooRefs#GW96|[GW96] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

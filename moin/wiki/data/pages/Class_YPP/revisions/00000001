@@ -5,9 +5,22 @@
 
 = YPP - Yaroslav BPP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The probabilistic analogue of [[Class_YP|$\text{YP}$]]; it is to [[Class_YP|$\text{YP}$]] what [[Class_MA|$\text{MA}$]] is to [[Class_NP|$\text{NP}$]].  Formally, the class of decision problems for which there exists a syntactic [[Class_BPP|$\text{BPP}$]] machine M such that:
+== Description ==
+
+{{{#!description
+
+The probabilistic analogue of [[Class_YP|$\text{YP}$]]; it is to [[Class_YP|$\text{YP}$]] what [[Class_MA|$\text{MA}$]] is to [[Class_NP|$\text{NP}$]].  Formally, the class of decision problems for which there exists a syntactic [[Class_BPP|$\text{BPP}$]] machine M such that:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,6 +36,10 @@ To amplify a [[Class_YPP|$\text{YPP}$]] machine, one can run it multiple times, 
 
 Contains [[Class_BPP|$\text{BPP}$]] and [[Class_YP|$\text{YP}$]], and is contained in [[Class_MA|$\text{MA}$]] and [[Class_P/poly|$\text{P/poly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

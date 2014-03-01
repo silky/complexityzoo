@@ -5,9 +5,22 @@
 
 = IPP - Unbounded IP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_IP|$\text{IP}$]], except that if the answer is "yes," there need only be a prover strategy that causes the verifier to accept with probability greater than 1/2, while if the answer is "no," then for all prover strategies the verifier accepts with probability less than 1/2.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_IP|$\text{IP}$]], except that if the answer is "yes," there need only be a prover strategy that causes the verifier to accept with probability greater than 1/2, while if the answer is "no," then for all prover strategies the verifier accepts with probability less than 1/2.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Defined in [[ZooRefs#CCG+94|[CCG+94] ]], where it was also shown that [[Class_IP
 
 See also: [[Class_PPSPACE|$\text{PPSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

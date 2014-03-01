@@ -5,13 +5,26 @@
 
 = L - Logarithmic Space =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a Turing machine restricted to use an amount of memory logarithmic in the size of the input, n.  (The input itself is not counted as part of the memory.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable by a Turing machine restricted to use an amount of memory logarithmic in the size of the input, n.  (The input itself is not counted as part of the memory.)
 
 
-
-[[Class_L|$\text{L}$]] is contained in [[Class_P|$\text{P}$]].  [[Class_L|$\text{L}$]] contains [[Class_NC1|$\text{NC1}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\text{NL}$]], [[Class_L/poly|$\text{L/poly}$]], [[Class_SL|$\text{SL}$]], [[Class_RL|$\text{RL}$]], [[Class_⊕L|$\text{⊕L}$]], and [[Class_ModkL|$\text{ModkL}$]].
+[[Class_L|$\text{L}$]] is contained in [[Class_P|$\text{P}$]].  [[Class_L|$\text{L}$]] contains [[Class_NC1|$\text{NC}^\text{1}\text{}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\text{NL}$]], [[Class_L/poly|$\text{L/poly}$]], [[Class_SL|$\text{SL}$]], [[Class_RL|$\text{RL}$]], [[Class_⊕L|$\text{⊕L}$]], and [[Class_ModkL|$\text{Mod}_\text{k}\text{L}$]].
 
 
 
@@ -27,8 +40,12 @@ Immerman [[ZooRefs#Imm83|[Imm83] ]] showed that [[Class_L|$\text{L}$]] is the cl
 
 
 
-[[Class_L|$\text{L}$]] contains [[Class_NC1|$\text{NC1}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\text{NL}$]], [[Class_L/poly|$\text{L/poly}$]], [[Class_SL|$\text{SL}$]], [[Class_RL|$\text{RL}$]], [[Class_⊕L|$\text{⊕L}$]], and [[Class_ModkL|$\text{ModkL}$]].
+[[Class_L|$\text{L}$]] contains [[Class_NC1|$\text{NC}^\text{1}\text{}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\text{NL}$]], [[Class_L/poly|$\text{L/poly}$]], [[Class_SL|$\text{SL}$]], [[Class_RL|$\text{RL}$]], [[Class_⊕L|$\text{⊕L}$]], and [[Class_ModkL|$\text{Mod}_\text{k}\text{L}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

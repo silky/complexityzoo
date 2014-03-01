@@ -5,14 +5,31 @@
 
 = BQP/mlog - BQP With Logarithmic-Size Deterministic Merlin-Like Advice =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] except that the advice is O(log n) bits instead of a polynomial number.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP/mpoly|$\text{BQP/mpoly}$]] except that the advice is O(log n) bits instead of a polynomial number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Strictly contained in [[Class_BQP/qlog|$\text{BQP/qlog}$]] [[ZooRefs#NY03|[NY03] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

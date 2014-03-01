@@ -5,9 +5,22 @@
 
 = PFCHK(t(n)) - Proof-Checker =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable in time O(t(n)) by a nondeterministic Turing machine, as follows.  The machine is given oracle access to a proof string of unbounded length.
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable in time O(t(n)) by a nondeterministic Turing machine, as follows.  The machine is given oracle access to a proof string of unbounded length.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,6 +36,10 @@ Credited in [[ZooRefs#For94|[For94] ]] to S. Arora, [[Class_R|$\text{R}$]]. Impa
 
 An interesting question is whether [[Class_NP|$\text{NP}$]] = PFCHK(log n) relative to all possible oracles.  Fortnow [[ZooRefs#For94|[For94] ]] observes that the answer depends on what oracle access mechanism is used.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

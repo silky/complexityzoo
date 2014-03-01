@@ -5,26 +5,43 @@
 
 = AC^0^[m] - AC0 With MOD m Gates =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AC0|$\text{AC}^\text{0}\text{}$]], but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_AC0|$\text{AC0}$]], but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)
+
+
+If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in [[Class_AC0[m]|$\text{AC}^\text{0}\text{[m]}$]] [[ZooRefs#Raz87|[Raz87] ]] [[ZooRefs#Smo87|[Smo87] ]].  It follows that, for any such m, [[Class_AC0[m]|$\text{AC}^\text{0}\text{[m]}$]] is strictly contained in [[Class_NC1|$\text{NC}^\text{1}\text{}$]].
 
 
 
-If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in [[Class_AC0[m]|$\text{AC0[m]}$]] [[ZooRefs#Raz87|[Raz87] ]] [[ZooRefs#Smo87|[Smo87] ]].  It follows that, for any such m, [[Class_AC0[m]|$\text{AC0[m]}$]] is strictly contained in [[Class_NC1|$\text{NC1}$]].
+However, if m is a product of distinct primes (e.g. 6), then it is not even known whether [[Class_AC0[m]|$\text{AC}^\text{0}\text{[m]}$]] = NP!
 
 
 
-However, if m is a product of distinct primes (e.g. 6), then it is not even known whether [[Class_AC0[m]|$\text{AC0[m]}$]] = NP!
+See also: [[Class_QAC0[m]|$\text{QAC}^\text{0}\text{[m]}$]].
 
 
 
-See also: [[Class_QAC0[m]|$\text{QAC0[m]}$]].
-
-
-
-However, if m is a product of distinct primes (i.e. 6), then it is not even known whether [[Class_AC0[m]|$\text{AC0[m]}$]] = NP!
+However, if m is a product of distinct primes (i.e. 6), then it is not even known whether [[Class_AC0[m]|$\text{AC}^\text{0}\text{[m]}$]] = NP!
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

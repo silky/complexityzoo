@@ -5,9 +5,22 @@
 
 = AvgP - Average Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-A distributional problem consists of a decision problem A, and a probability distribution μ over problem instances.
+== Description ==
+
+{{{#!description
+
+A distributional problem consists of a decision problem A, and a probability distribution μ over problem instances.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -31,8 +44,12 @@ Strictly contained in [[Class_HeurP|$\text{HeurP}$]] [[ZooRefs#NS05|[NS05] ]].
 
 
 
-See also: [[Class_(NP,P-samplable)|$\text{(NP,P-samplable)}$]].
+See also: (NP,P-samplable).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = ⊕L - Parity L =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_L|$\text{L}$]] as [[Class_⊕P|$\text{⊕P}$]] does to [[Class_P|$\text{P}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_⊕P|$\text{⊕P}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Solving a linear system over Z,,2,, is complete for [[Class_⊕L|$\text{⊕L}$]]
 
 ⊕L^⊕L^ = [[Class_⊕L|$\text{⊕L}$]] [[ZooRefs#HRV00|[HRV00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

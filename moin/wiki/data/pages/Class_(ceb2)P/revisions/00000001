@@ -5,9 +5,22 @@
 
 = βP - Limited-Nondeterminism NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as [[Class_NP|$\text{NP}$]].  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'
+== Description ==
+
+{{{#!description
+
+β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as [[Class_NP|$\text{NP}$]].  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ There exist oracles relative to which basically any consistent inclusion structu
 
 β,,2,,P contains [[Class_LOGNP|$\text{LOGNP}$]] and [[Class_LOGSNP|$\text{LOGSNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

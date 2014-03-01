@@ -5,10 +5,29 @@
 
 = NEEE - Nondeterministic EEE =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Nondeterministic triple-exponential time with linear exponent.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Nondeterministic triple-exponential time with linear exponent.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

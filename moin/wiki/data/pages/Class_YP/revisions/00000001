@@ -5,9 +5,22 @@
 
 = YP - Your Polynomial-Time or Yaroslav-Percival =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems for which there exists a polynomial-time machine M such that:
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which there exists a polynomial-time machine M such that:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -31,6 +44,10 @@ Also contains [[Class_P|$\text{P}$]] with [[Class_TALLY|$\text{TALLY}$]] ∩ [[C
 
 Is contained in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] and [[Class_YPP|$\text{YPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

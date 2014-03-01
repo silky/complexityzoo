@@ -5,9 +5,22 @@
 
 = MPC - Monotone Planar Circuits =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by a family of monotone stratified planar circuits (a uniformity condition may also be imposed).
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a family of monotone stratified planar circuits (a uniformity condition may also be imposed).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Defined in [[ZooRefs#DC89|[DC89] ]].
 
 [[ZooRefs#BLM+99|[BLM+99] ]] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

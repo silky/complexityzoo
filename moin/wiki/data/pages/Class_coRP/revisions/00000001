@@ -5,9 +5,22 @@
 
 = coRP - Complement of RP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [[ZooRefs#Gil77|[Gil77] ]].  (This paper does not actually discuss [[Class_coRP|$\text{coRP}$]], other than implicitly mentioning that [[Class_ZPP|$\text{ZPP}$]] = [[Class_RP|$\text{RP}$]] ∩ co-RP.  Is there a better reference?)
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#Gil77|[Gil77] ]].  (This paper does not actually discuss [[Class_coRP|$\text{coRP}$]], other than implicitly mentioning that [[Class_ZPP|$\text{ZPP}$]] = [[Class_RP|$\text{RP}$]] ∩ co-RP.  Is there a better reference?)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Contains the problem of testing whether an integer is prime [[ZooRefs#SS77|[SS77
 
 Defined in [[ZooRefs#Gil77|[Gil77] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

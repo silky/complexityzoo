@@ -5,9 +5,22 @@
 
 = k-EQBP - Width-k Polynomial-Time Exact Quantum Branching Programs =
 
-== Comments ==
+----
+CategoryQuantum 
 
-See [[Class_k-PBP|$\text{k-PBP}$]] for the definition of a classical branching program.
+== Description ==
+
+{{{#!description
+
+See [[Class_k-PBP|$\text{k-PBP}$]] for the definition of a classical branching program.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,12 +28,16 @@ A quantum branching program is the natural quantum generalization: we have a qua
 
 
 
-Defined in [[ZooRefs#AMP02|[AMP02] ]], where it was also shown that [[Class_NC1|$\text{NC1}$]] is contained in 2-EQBP.
+Defined in [[ZooRefs#AMP02|[AMP02] ]], where it was also shown that [[Class_NC1|$\text{NC}^\text{1}\text{}$]] is contained in 2-EQBP.
 
 
 
 k-BQBP can be defined similarly.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

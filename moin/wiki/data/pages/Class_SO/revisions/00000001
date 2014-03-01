@@ -5,9 +5,22 @@
 
 = SO - Second-Order logic =
 
-== Comments ==
+----
+CategoryClassical 
 
-We define second-order variable  has got an arity k and represent any proposition of arity . They are usually written in upper-case.
+== Description ==
+
+{{{#!description
+
+We define second-order variable  has got an arity k and represent any proposition of arity $k$. They are usually written in upper-case.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,8 +36,12 @@ In Descriptive complexity we can see that [[Class_SO|$\text{SO}$]] is equal to [
 
 
 
-This means that [[Class_SO|$\text{SO}$]] with only existantial second-order quantification is equal to  which is [[Class_NP|$\text{NP}$]], and with only universal quantification is equal to  which is Co-NP.
+This means that [[Class_SO|$\text{SO}$]] with only existantial second-order quantification is equal to $\\Sigma^1$ which is [[Class_NP|$\text{NP}$]], and with only universal quantification is equal to $\\Pi^1$ which is Co-NP.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

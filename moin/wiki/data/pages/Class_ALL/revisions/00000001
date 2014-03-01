@@ -5,9 +5,22 @@
 
 = ALL - The Class of All Languages =
 
-== Comments ==
+----
+CategoryClassical 
 
-Literally, the class of [[Class_ALL|$\text{ALL}$]] languages.
+== Description ==
+
+{{{#!description
+
+Literally, the class of [[Class_ALL|$\text{ALL}$]] languages.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,7 +28,7 @@ Literally, the class of [[Class_ALL|$\text{ALL}$]] languages.
 
 
 
-First [Aar04b] observed that PP/rpoly (PP with polynomial-size randomized advice) equals [[Class_ALL|$\text{ALL}$]], as does PostBQP/qpoly (PostBQP with polynomial-size quantum advice).
+First [Aar04b] observed that PP/rpoly ([[Class_PP|$\text{PP}$]] with polynomial-size randomized advice) equals [[Class_ALL|$\text{ALL}$]], as does PostBQP/qpoly ([[Class_PostBQP|$\text{PostBQP}$]] with polynomial-size quantum advice).
 
 
 
@@ -27,7 +40,7 @@ Nor is it hard to show that MA,,EXP,,/rpoly = [[Class_ALL|$\text{ALL}$]].
 
 
 
-On the other hand, even though [[Class_PSPACE|$\text{PSPACE}$]] contains [[Class_PP|$\text{PP}$]], and [[Class_EXPSPACE|$\text{EXPSPACE}$]] contains [[Class_MAEXP|$\text{MAEXP}$]], it's easy to see that PSPACE/rpoly = [[Class_PSPACE/poly|$\text{PSPACE/poly}$]] and EXPSPACE/rpoly = EXPSPACE/poly are not [[Class_ALL|$\text{ALL}$]].
+On the other hand, even though [[Class_PSPACE|$\text{PSPACE}$]] contains [[Class_PP|$\text{PP}$]], and [[Class_EXPSPACE|$\text{EXPSPACE}$]] contains [[Class_MAEXP|$\text{MA}_\text{EXP}\text{}$]], it's easy to see that PSPACE/rpoly = [[Class_PSPACE/poly|$\text{PSPACE/poly}$]] and EXPSPACE/rpoly = EXPSPACE/poly are not [[Class_ALL|$\text{ALL}$]].
 
 
 
@@ -37,6 +50,10 @@ So does [[Class_ALL|$\text{ALL}$]] have no respect for complexity class inclusio
 
 It is not as contradictory as it first seems.  The deterministic base class in all of these examples is modified by computational non-determinism after it is modified by advice.  For example, MA,,EXP,,/rpoly means M(A,,EXP,,/rpoly), while (MA,,EXP,,)/rpoly equals MA,,EXP,,/poly by a standard argument.  In other words, it's only the verifier, not the prover or post-selector, who receives the randomized or quantum advice. The prover knows a description of the advice state, but not its measured values.  Modification by /rpoly does preserve class inclusions when it is applied after other changes.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

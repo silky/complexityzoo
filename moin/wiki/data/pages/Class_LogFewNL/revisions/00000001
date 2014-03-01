@@ -5,14 +5,31 @@
 
 = LogFewNL - Logspace-Bounded FewP =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_FewP|$\text{FewP}$]] but for logspace-bounded (i.e. [[Class_NL|$\text{NL}$]]) machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_FewP|$\text{FewP}$]] but for logspace-bounded (i.e. NL) machines.
 
 
-
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFewNL|$\text{LogFewNL}$]] is contained in [[Class_ModZkL|$\text{ModZkL}$]] for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFewNL|$\text{LogFewNL}$]] is contained in [[Class_ModZkL|$\text{ModZ}_\text{k}\text{L}$]] for all k>1.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

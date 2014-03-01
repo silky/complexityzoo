@@ -5,10 +5,29 @@
 
 = UE - Unambiguous Exponential-Time With Linear Exponent =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_E|$\text{E}$]] as [[Class_UP|$\text{UP}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_E|$\text{E}$]] as [[Class_UP|$\text{UP}$]] does to [[Class_P|$\text{P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = L/poly - Nonuniform Logarithmic Space =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_L|$\text{L}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Equals [[Class_PBP|$\text{PBP}$]] [[ZooRefs#Cob66|[Cob66] ]].
 
 Contains [[Class_SL|$\text{SL}$]] [[ZooRefs#AKL+79|[AKL+79] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = RG(1) - One-turn Refereed Games =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of problems for which there exists a [[Class_BPP|$\text{BPP}$]] machine M such that, on input x:
+== Description ==
+
+{{{#!description
+
+The class of problems for which there exists a [[Class_BPP|$\text{BPP}$]] machine M such that, on input x:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,16 +30,20 @@ If the answer is 'no,' then there exists a distribution Z such that for all dist
 
 
 
-In other words, it's the same as [[Class_RG(k)|$\text{RG(k)}$]] for , the class of problems that admit interactive proofs with competing provers in which there's no communication from the verifier back to the provers.
+In other words, it's the same as RG(k) for $k = 1$, the class of problems that admit interactive proofs with competing provers in which there's no communication from the verifier back to the provers.
 
 
 
-[[Class_RG(1)|$\text{RG(1)}$]] trivially contains [[Class_S2P|$\text{S2P}$]].  Indeed, [[Class_RG(1)|$\text{RG(1)}$]] can be viewed as a randomized version of [[Class_S2P|$\text{S2P}$]].
+RG(1) trivially contains [[Class_S2P|$\text{S}_\text{2}\text{P}$]].  Indeed, RG(1) can be viewed as a randomized version of [[Class_S2P|$\text{S}_\text{2}\text{P}$]].
 
 
 
-[[Class_RG(1)|$\text{RG(1)}$]] is trivially contained in [[Class_RG(2)|$\text{RG(2)}$]] (and hence PSPACE).
+RG(1) is trivially contained in RG(2) (and hence [[Class_PSPACE|$\text{PSPACE}$]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

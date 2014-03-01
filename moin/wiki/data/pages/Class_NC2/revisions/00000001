@@ -5,14 +5,31 @@
 
 = NC^2^ - Level 2 of NC =
 
-== Comments ==
+----
+CategoryClassical 
 
-See [[Class_NC|$\text{NC}$]] for definition.
+== Description ==
+
+{{{#!description
+
+See [[Class_NC|$\text{NC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_NL|$\text{NL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

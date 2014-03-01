@@ -5,9 +5,22 @@
 
 = BPTIME(f(n)) - Bounded-Error Probabilistic f(n)-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_BPP|$\text{BPP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BPP|$\text{BPP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -37,6 +50,10 @@ Subsequently, [[ZooRefs#FS04|[FS04] ]] managed to reduce the number of advice bi
 
 For another bounded-error hierarchy result, see [[Class_BPQP|$\text{BPQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,10 +5,29 @@
 
 = NEXP/poly - Nonuniform NEXP =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Contains [[Class_coNEXP|$\text{coNEXP}$]] (folklore result reported in [weblog]).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains [[Class_coNEXP|$\text{coNEXP}$]] (folklore result reported in [weblog]).
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = LOGSNP - Logarithmically-Restricted SNP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems expressible in logical form as
+== Description ==
+
+{{{#!description
+
+The class of decision problems expressible in logical form as}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -27,12 +40,16 @@ Contained in [[Class_LOGNP|$\text{LOGNP}$]], and therefore [[Class_QPLIN|$\text{
 
 
 
-If [[Class_P|$\text{P}$]] = [[Class_LOGSNP|$\text{LOGSNP}$]], then for every constructible f(n) > n, [[Class_NTIME(f(n))|$\text{NTIME(f(n))}$]] is contained in DTIME(g(n)^sqrt(g(n))^), where g(n) = O(f(n) logf(n)) [[ZooRefs#FK97|[FK97] ]].
+If [[Class_P|$\text{P}$]] = [[Class_LOGSNP|$\text{LOGSNP}$]], then for every constructible f(n) > n, NTIME(f(n)) is contained in DTIME(g(n)^sqrt(g(n))^), where g(n) = O(f(n) logf(n)) [[ZooRefs#FK97|[FK97] ]].
 
 
 
 The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists j such that the predicate φ(I,s,,j,,,x,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in [[Class_P|$\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

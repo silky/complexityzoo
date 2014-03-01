@@ -5,9 +5,22 @@
 
 = RP - Randomized Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -43,6 +56,10 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 Contains the problem of testing whether an integer is prime [[ZooRefs#AH87|[AH87] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = PPA - Polynomial Parity Argument =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+== Description ==
+
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -39,6 +52,10 @@ Contains [[Class_PPAD|$\text{PPAD}$]].
 
 There exist oracles relative to which [[Class_PPA|$\text{PPA}$]] does not contain [[Class_PLS|$\text{PLS}$]] [[ZooRefs#BM04|[BM04] ]] and [[Class_PPP|$\text{PPP}$]] [[ZooRefs#BCE+95|[BCE+95] ]].  There also exists an oracle relative to which [[Class_PPA|$\text{PPA}$]] is not contained in [[Class_PPP|$\text{PPP}$]] [[ZooRefs#BCE+95|[BCE+95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

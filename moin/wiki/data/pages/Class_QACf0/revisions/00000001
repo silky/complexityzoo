@@ -5,16 +5,33 @@
 
 = QAC,,f,,^0^ - QAC0 With Fanout =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QAC0|$\text{QAC}^\text{0}\text{}$]], except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QAC0|$\text{QAC0}$]], except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.
 
 
+Defined in [[ZooRefs#Moo99|[Moo99] ]], where it was also shown that [[Class_QACf0|$\text{QAC}_\text{f}\text{}^\text{0}\text{}$]] =
 
-Defined in [[ZooRefs#Moo99|[Moo99] ]], where it was also shown that [[Class_QACf0|$\text{QACf0}$]] =
-
-QAC^0^[2] = [[Class_QACC0|$\text{QACC0}$]].
+QAC^0^[2] = [[Class_QACC0|$\text{QACC}^\text{0}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = ModZ,,k,,L - Restricted ModkL =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by a nondeterministic logspace Turing machine, such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a nondeterministic logspace Turing machine, such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,12 +30,16 @@ If the answer is "no," then there are no accepting paths.
 
 
 
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_ModZkL|$\text{ModZkL}$]] contains [[Class_LogFewNL|$\text{LogFewNL}$]] for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_ModZkL|$\text{ModZ}_\text{k}\text{L}$]] contains [[Class_LogFewNL|$\text{LogFewNL}$]] for all k>1.
 
 
 
-Contained in [[Class_ModkL|$\text{ModkL}$]] and in [[Class_NL|$\text{NL}$]].
+Contained in [[Class_ModkL|$\text{Mod}_\text{k}\text{L}$]] and in [[Class_NL|$\text{NL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

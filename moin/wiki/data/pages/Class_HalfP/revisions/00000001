@@ -5,9 +5,22 @@
 
 = HalfP - RP With Exactly Half Acceptance =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,12 +34,16 @@ Significantly, the number of candidate witnesses is restricted to be a power of 
 
 
 
-Contained in [[Class_RP|$\text{RP}$]], [[Class_EP|$\text{EP}$]], and [[Class_ModkP|$\text{ModkP}$]] for every odd k.  Contained in [[Class_EQP|$\text{EQP}$]] by the Deutsch-Jozsa algorithm.
+Contained in [[Class_RP|$\text{RP}$]], [[Class_EP|$\text{EP}$]], and [[Class_ModkP|$\text{Mod}_\text{k}\text{P}$]] for every odd k.  Contained in [[Class_EQP|$\text{EQP}$]] by the Deutsch-Jozsa algorithm.
 
 
 
 Defined in [[ZooRefs#BB92|[BB92] ]], where it was called C,,==,,P[half].  The name used here is from [[ZooRefs#BS00|[BS00] ]].  There it was shown that [[Class_HalfP|$\text{HalfP}$]] is contained in every similar class in which 1/2 is replaced by some other dyadic fraction.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

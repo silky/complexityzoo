@@ -5,9 +5,22 @@
 
 = NP ∩ coNP - NP ∩ coNP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of problems in both [[Class_NP|$\text{NP}$]] and [[Class_coNP|$\text{coNP}$]].
+== Description ==
+
+{{{#!description
+
+The class of problems in both [[Class_NP|$\text{NP}$]] and [[Class_coNP|$\text{coNP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,12 +32,16 @@ Contains graph isomorphism under the assumption that some language in [[Class_NE
 
 
 
-Equals [[Class_PNP|$\text{PNP}$]] ∩ [[Class_coNP|$\text{coNP}$]] [[ZooRefs#Bra79|[Bra79] ]].  In particular, if a problem in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] is NP-hard with Turing reduction, then [[Class_NP|$\text{NP}$]] = [[Class_coNP|$\text{coNP}$]].
+Equals [[Class_PNP|$\text{P}^\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}\text{}$]] [[ZooRefs#Bra79|[Bra79] ]].  In particular, if a problem in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] is NP-hard with Turing reduction, then [[Class_NP|$\text{NP}$]] = [[Class_coNP|$\text{coNP}$]].
 
 
 
 Is not believed to contain complete problems.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

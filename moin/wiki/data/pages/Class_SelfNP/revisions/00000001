@@ -5,9 +5,22 @@
 
 = SelfNP - Self-Witnessing NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of languages [[Class_L|$\text{L}$]] in [[Class_NP|$\text{NP}$]] such that the union, over all x in [[Class_L|$\text{L}$]], of the set of valid witnesses for x equals [[Class_L|$\text{L}$]] itself.
+== Description ==
+
+{{{#!description
+
+The class of languages [[Class_L|$\text{L}$]] in [[Class_NP|$\text{NP}$]] such that the union, over all x in [[Class_L|$\text{L}$]], of the set of valid witnesses for x equals [[Class_L|$\text{L}$]] itself.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ They also show that if [[Class_SelfNP|$\text{SelfNP}$]] = [[Class_NP|$\text{NP}$
 
 See also: [[Class_PermUP|$\text{PermUP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

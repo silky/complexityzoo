@@ -5,18 +5,35 @@
 
 = BQP,,CTC,, - BQP With Closed Time Curves =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP|$\text{BQP}$]] with access to two sets of qubits: causality-respecting qubits and CTC qubits.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_BQP|$\text{BQP}$]] with access to two sets of qubits: causality-respecting qubits and CTC qubits.
+
+
+Defined in [Aar05c], where it was shown that [[Class_PSPACE|$\text{PSPACE}$]] is contained in [[Class_BQPCTC|$\text{BQP}_\text{CTC}\text{}$]], which in turn is contained in [[Class_SQG|$\text{SQG}$]].
 
 
 
-Defined in [Aar05c], where it was shown that [[Class_PSPACE|$\text{PSPACE}$]] is contained in [[Class_BQPCTC|$\text{BQPCTC}$]], which in turn is contained in [[Class_SQG|$\text{SQG}$]].
-
-
-
-See also [[Class_PCTC|$\text{PCTC}$]].
+See also [[Class_PCTC|$\text{P}_\text{CTC}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

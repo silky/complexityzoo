@@ -5,9 +5,22 @@
 
 = coNP - Complement of NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-If [[Class_NP|$\text{NP}$]] = [[Class_coNP|$\text{coNP}$]], then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.
+== Description ==
+
+{{{#!description
+
+If [[Class_NP|$\text{NP}$]] = [[Class_coNP|$\text{coNP}$]], then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -29,6 +42,10 @@ Co-NP is equal to SO-A, the second-order queries where the second-order quantifi
 
 Every problem in [[Class_coNP|$\text{coNP}$]] has an [[Class_IP|$\text{IP}$]] (interactive proof) system, where moreover the prover can be restricted to BPP^#P^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

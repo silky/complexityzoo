@@ -5,9 +5,22 @@
 
 = CLOG - Continuous Logarithmic-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an [[Class_NC1|$\text{NC1}$]] formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.
+== Description ==
+
+{{{#!description
+
+Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an [[Class_NC1|$\text{NC}^\text{1}\text{}$]] formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,12 +28,16 @@ Defined in [[ZooRefs#BSF02|[BSF02] ]], which should be consulted for more detail
 
 
 
-[[ZooRefs#BSF02|[BSF02] ]] show that finding the maximum of n integers is in [[Class_CLOG|$\text{CLOG}$]].  Thus, [[Class_CLOG|$\text{CLOG}$]] is best thought of as the continuous-time analog of [[Class_NC1|$\text{NC1}$]], not of DTIME(log n).
+[[ZooRefs#BSF02|[BSF02] ]] show that finding the maximum of n integers is in [[Class_CLOG|$\text{CLOG}$]].  Thus, [[Class_CLOG|$\text{CLOG}$]] is best thought of as the continuous-time analog of [[Class_NC1|$\text{NC}^\text{1}\text{}$]], not of DTIME(log n).
 
 
 
 Contained in [[Class_CP|$\text{CP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

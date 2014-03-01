@@ -5,9 +5,22 @@
 
 = QMIP - Quantum Multi-Prover Interactive Proofs =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The quantum generalization of [[Class_MIP|$\text{MIP}$]], and the multi-prover generalization of [[Class_QIP|$\text{QIP}$]].
+== Description ==
+
+{{{#!description
+
+The quantum generalization of [[Class_MIP|$\text{MIP}$]], and the multi-prover generalization of [[Class_QIP|$\text{QIP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,12 +36,16 @@ Shown to be equal to [[Class_MIP*|$\text{MIP*}$]] in [[ZooRefs#RUV12|[RUV12] ]].
 
 
 
-[[Class_QMIP|$\text{QMIP}$]] contains [[Class_NEXP|$\text{NEXP}$]] simply because [[Class_MIP*|$\text{MIP*}$]] contains [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]]. Since we know that [[Class_NEXP|$\text{NEXP}$]] = [[Class_QMIPne|$\text{QMIPne}$]], this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
+[[Class_QMIP|$\text{QMIP}$]] contains [[Class_NEXP|$\text{NEXP}$]] simply because [[Class_MIP*|$\text{MIP*}$]] contains [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]]. Since we know that [[Class_NEXP|$\text{NEXP}$]] = [[Class_QMIPne|$\text{QMIP}_\text{ne}\text{}$]], this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
 
 
 
 Fascinatingly, no relationship between [[Class_QMIP|$\text{QMIP}$]] and [[Class_NEXP|$\text{NEXP}$]] is known.  We don't know whether allowing the provers unlimited prior entanglement makes the class more powerful, less powerful, or both!
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = MMSNP - Monadic Monotone SNP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\text{SNP}$]].  There are three syntactic restrictions defining the subclass [[Class_MMSNP|$\text{MMSNP}$]], based on the form of the [[Class_SNP|$\text{SNP}$]] formula defining the language:
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\text{SNP}$]].  There are three syntactic restrictions defining the subclass [[Class_MMSNP|$\text{MMSNP}$]], based on the form of the [[Class_SNP|$\text{SNP}$]] formula defining the language:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -37,6 +50,10 @@ Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\text{SNP}$]],
 
 Every constraint satisfaction problem is expressible in [[Class_MMSNP|$\text{MMSNP}$]], and there is a polynomial time Turing reduction from every [[Class_MMSNP|$\text{MMSNP}$]] query to finitely many constraint satisfaction problems.  [[Class_MMSNP|$\text{MMSNP}$]] therefore seems to capture the class of constraint satisfaction problems.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

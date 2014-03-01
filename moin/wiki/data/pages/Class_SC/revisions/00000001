@@ -5,9 +5,22 @@
 
 = SC - Steve's Class =
 
-== Comments ==
+----
+CategoryClassical 
 
-(Named in honor of Stephen Cook.)
+== Description ==
+
+{{{#!description
+
+(Named in honor of Stephen Cook.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,6 +46,10 @@ Deterministic context-free languages (DCFLs) can be recognized in [[Class_SC|$\t
 
 Deterministic context-free languages (DCFL's) can be recognized in [[Class_SC|$\text{SC}$]] [[ZooRefs#Coo79|[Coo79] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

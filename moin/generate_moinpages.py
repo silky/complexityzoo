@@ -18,6 +18,9 @@ text = u'''
 
 = #AC^0^ - Sharp-AC0 =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -66,6 +69,9 @@ text = u'''
 
 
 = #GA - Graph Automorphism =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -116,6 +122,9 @@ text = u'''
 
 = #L - Sharp-L =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -165,6 +174,9 @@ text = u'''
 
 = #L/poly - Nonuniform #L =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -211,6 +223,9 @@ text = u'''
 
 
 = #P - Sharp-P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -277,6 +292,9 @@ text = u'''
 
 = #W[t] - Sharp-W[t] =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -329,6 +347,9 @@ text = u'''
 
 
 = (M,,k,,)P - Acceptance Mechanism by Monoid Mk =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -391,6 +412,9 @@ text = u'''
 
 = (NP ∩ coNP)/poly - Nonuniform NP ∩ coNP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -443,6 +467,9 @@ text = u'''
 
 
 = (NP,P-samplable) - Average NP With Samplable Distributions =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -497,6 +524,9 @@ text = u'''
 
 = 0-1-NP,,C,, - Binary Restriction of NP Over The Complex Numbers =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -550,6 +580,9 @@ text = u'''
 
 = 1NAuxPDA^p^ - One-Way NAuxPDAp =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -596,6 +629,9 @@ text = u'''
 
 
 = A,,0,,PP - One-Sided Analog of AWPP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -662,6 +698,9 @@ text = u'''
 
 = AC - Unbounded Fanin Polylogarithmic-Depth Circuits =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -694,7 +733,7 @@ For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (un
 
 
 
-fo-uniform [[Class_AC|$\\text{AC}$]] with depth  is equal to [[Class_FO[]|$\\text{FO[]}$]]
+fo-uniform [[Class_AC|$\\text{AC}$]] with depth $t(n)$ is equal to [[Class_FO[t(n)]|$\\text{FO[t(n)]}$]]
 == Relations ==
 
 {{{#!class_relations
@@ -726,6 +765,9 @@ text = u'''
 
 
 = AC^0^ - Unbounded Fanin Constant-Depth Circuits =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -820,6 +862,9 @@ text = u'''
 
 = AC^0^[m] - AC0 With MOD m Gates =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -881,6 +926,9 @@ text = u'''
 
 = AC^1^ - Unbounded Fanin Log-Depth Circuits =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -927,6 +975,9 @@ text = u'''
 
 
 = ACC^0^ - AC0 With Arbitrary MOD Gates =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1001,6 +1052,9 @@ text = u'''
 
 = AH - Arithmetic Hierarchy =
 
+----
+CategoryClassical CategoryHierarchy 
+
 == Description ==
 
 {{{#!description
@@ -1037,7 +1091,7 @@ Each level of [[Class_AH|$\\text{AH}$]] strictly contains the levels below it.
 
 
 
-An equivalent definition is:  is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and . A bounded quantifier is of the form  or  where   is considered to be free in . Then  is the sets of number validating a formula of the form  with .  is the set of formula who are negation of  formula.
+An equivalent definition is: $\\Sigma_0=\\Delta_0=\\Pi_0$ is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and $\\times$. A bounded quantifier is of the form $ \\phi=\\forall i<j \\psi $ or $\\phi=\\exists i<j  \\psi$ where  $j$ is considered to be free in $\\phi$. Then $\\Sigma_{i+1}$ is the sets of number validating a formula of the form $\\exists X_1\\dots\\exists X_n,\\psi$ with $\\psi\\in\\Delta_i$. $\\Delta_i$ is the set of formula who are negation of $\\Sigma_i$ formula. $\\Pi_i=\\Sigma_i\\cap\\Delta_i$
 == Relations ==
 
 {{{#!class_relations
@@ -1069,6 +1123,9 @@ text = u'''
 
 
 = AL - Alternating L =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1118,6 +1175,9 @@ text = u'''
 
 
 = ALL - The Class of All Languages =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1192,6 +1252,9 @@ text = u'''
 
 = ALOGTIME - Logarithmic time alternating RAM =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -1240,6 +1303,9 @@ text = u'''
 
 
 = AM - Arthur-Merlin =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1324,6 +1390,9 @@ text = u'''
 
 = AM ∩ coAM - AM ∩ coAM =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -1376,6 +1445,9 @@ text = u'''
 
 
 = AM,,EXP,, - Exponential-Time AM =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1430,6 +1502,9 @@ text = u'''
 
 = AM[polylog] - AM With Polylog Rounds =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -1478,6 +1553,9 @@ text = u'''
 
 
 = AP - Alternating P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1535,6 +1613,9 @@ text = u'''
 
 
 = APP - Amplified PP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1605,6 +1686,9 @@ text = u'''
 
 = APX - Approximable =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -1662,6 +1746,9 @@ text = u'''
 
 = ATIME - Alternating TIME =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -1710,6 +1797,9 @@ text = u'''
 
 
 = AUC-SPACE(f(n)) - Randomized Alternating f(n)-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1768,6 +1858,9 @@ text = u'''
 
 = AVBPP - Average-Case BPP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -1816,6 +1909,9 @@ text = u'''
 
 
 = AWPP - Almost WPP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1880,6 +1976,9 @@ text = u'''
 
 = AW[*] - Alternating W[*] =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -1926,6 +2025,9 @@ text = u'''
 
 
 = AW[P] - Alternating W[P] =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -1979,6 +2081,9 @@ text = u'''
 
 
 = AW[SAT] - Alternating W[SAT] =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -2045,6 +2150,9 @@ text = u'''
 
 = AW[t] - Alternating W[t] =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2102,6 +2210,9 @@ text = u'''
 
 = AlgP/poly - Polynomial-Size Algebraic Circuits =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2155,6 +2266,9 @@ text = u'''
 
 = Almost-NP - Languages Almost Surely in NPA =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2204,6 +2318,9 @@ text = u'''
 
 = Almost-P - Languages Almost Surely in PA =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2252,6 +2369,9 @@ text = u'''
 
 
 = Almost-PSPACE - Languages Almost Surely in PSPACEA =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -2309,6 +2429,9 @@ text = u'''
 
 
 = AmpMP - Amplifiable MP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -2369,6 +2492,9 @@ text = u'''
 
 = AmpP-BQP - BQP Restricted To AmpP States =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2417,6 +2543,9 @@ text = u'''
 
 
 = AuxPDA - Auxiliary Pushdown Automata =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -2467,6 +2596,9 @@ text = u'''
 
 = AvgE - Average Exponential-Time With Linear Exponent =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2513,6 +2645,9 @@ text = u'''
 
 
 = AvgP - Average Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -2583,6 +2718,9 @@ text = u'''
 
 = AxP - Approximable in Polynomial Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2635,6 +2773,9 @@ text = u'''
 
 
 = AxPP - Approximable in Probabilistic Polynomial Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -2704,6 +2845,9 @@ text = u'''
 
 
 = BH - Boolean Hierarchy Over NP =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -2790,6 +2934,9 @@ text = u'''
 
 = BPE - Bounded-Error Probabilistic E =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2839,6 +2986,9 @@ text = u'''
 
 = BPEE - Bounded-Error Probabilistic EE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2885,6 +3035,9 @@ text = u'''
 
 
 = BP,,H,,SPACE(f(n)) - Bounded-Error Halting Probabilistic f(n)-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -2939,6 +3092,9 @@ text = u'''
 
 = BPL - Bounded-Error Probabilistic L =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -2987,6 +3143,9 @@ text = u'''
 
 
 = BPP - Bounded-Error Probabilistic Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -3095,6 +3254,9 @@ text = u'''
 
 = BPP-OBDD - Polynomial-Size Bounded-Error Ordered Binary Decision Diagram =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3148,6 +3310,9 @@ text = u'''
 
 = BPP//log - BPP With Logarithmic Randomness-Dependent Advice =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3199,6 +3364,9 @@ text = u'''
 
 = BPP/log - BPP With Logarithmic Karp-Lipton Advice =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3248,6 +3416,9 @@ text = u'''
 
 = BPP/mlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3296,6 +3467,9 @@ text = u'''
 
 
 = BPP/rlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -3350,6 +3524,9 @@ text = u'''
 
 = BPP^KT^ - BPP With Time-Bounded Kolmogorov Complexity Oracle =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3403,6 +3580,9 @@ text = u'''
 
 = BPP^cc^ - Communication Complexity BPP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3424,14 +3604,6 @@ Does not equal [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]], and is not containe
 
 
 Defined in [[ZooRefs#BFS86|[BFS86] ]].
-
-
-
-Has the same relation to [[Class_BPPcc|$\\text{BPP}^\\text{cc}\\text{}$]] and [[Class_BPP|$\\text{BPP}$]] as [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] does to [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] and [[Class_P|$\\text{P}$]].
-
-
-
-[[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not contained in [[Class_BPPcc|$\\text{BPP}_\\text{}\\text{}^\\text{cc}\\text{}$]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 {{{#!class_relations
@@ -3455,6 +3627,58 @@ except Exception as e:
 if p:
     assert p.exists()
 
+pagename = u"Class_BPPkcc"
+request = ScriptContext('localhost:8080', pagename)
+editor = PageEditor(request, pagename)
+text = u'''
+<<TableOfContents()>>
+
+
+= BPP,,k,,^cc^ - BPPcc in NOF model,  players =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_BPPcc|$\\text{BPP}^\\text{cc}\\text{}$]] and [[Class_BPP|$\\text{BPP}$]] as [[Class_Pkcc|$\\text{P}_\\text{k}\\text{}^\\text{cc}\\text{}$]] does to [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] and [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[Class_NPkcc|$\\text{NP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] is not contained in [[Class_BPPkcc|$\\text{BPP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] for $k\\le(1-\\delta)\\cdot\\log n$ players, for any constant $\\delta>0$ [[ZooRefs#DP08|[DP08] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+'''
+_, rev, _ = editor.get_rev()
+p = None
+try:
+    editor.saveText(text, rev)
+    p = Page(request, pagename)
+    print p.page_name
+except Exception as e:
+    print ("Couldn't save BPPkcc because")
+    print (e)
+
+if p:
+    assert p.exists()
+
 pagename = u"Class_BPPpath"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
@@ -3463,6 +3687,9 @@ text = u'''
 
 
 = BPP,,path,, - Threshold BPP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -3498,19 +3725,19 @@ There exists an oracle relative to which [[Class_BPPpath|$\\text{BPP}_\\text{pat
 
 
 
-An alternate characterization of [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] uses the idea of post-selection. That is, [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
+An alternate characterization of [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] uses the idea of post-selection. That is, [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] is the class of languages $L$ for which there exists a pair of polynomial-time Turing machines $A$ and $B$ such that the following conditions hold for all $x$:
 
 
 
-If , .
+If x\in [[Class_L|$\\text{L}$]], \Pr_{r\in\{0,1\}^{\mathrm{poly}(\left\vert x\right\vert)}}\left[A(x,r)\mid B(x,r)\right]\ge \frac23.
 
- If , .
+ If x\notin [[Class_L|$\\text{L}$]], \Pr_{r\in\{0,1\}^{\mathrm{poly}(\left\vert x\right\vert)}}\left[A(x,r)\mid B(x,r)\right]< \frac13.
 
- .
+ \Pr_{r\in\{0,1\}^{\mathrm{poly}(n)}}\left[B(x,r)\right]>0.
 
 
 
-We say that  is the post-selector. Intuitively, this characterization allows a [[Class_BPP|$\\text{BPP}$]] machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion [[Class_NP|$\\text{NP}$]] ⊆ [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] nearly trivial.
+We say that $B$ is the post-selector. Intuitively, this characterization allows a [[Class_BPP|$\\text{BPP}$]] machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion [[Class_NP|$\\text{NP}$]] ⊆ [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] nearly trivial.
 
 
 
@@ -3556,6 +3783,9 @@ text = u'''
 
 
 = BPQP - Bounded-Error Probabilistic QP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -3610,6 +3840,9 @@ text = u'''
 
 = BPSPACE(f(n)) - Bounded-Error Probabilistic f(n)-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3658,6 +3891,9 @@ text = u'''
 
 
 = BPTIME(f(n)) - Bounded-Error Probabilistic f(n)-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -3732,6 +3968,9 @@ text = u'''
 
 = BP,,d,,(P) - Polynomial Size d-Times-Only Branching Program =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3793,6 +4032,9 @@ text = u'''
 
 = BP•NP - Probabilistic NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -3839,6 +4081,9 @@ text = u'''
 
 
 = BQNC - Alternate Name for QNC =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -3887,6 +4132,9 @@ text = u'''
 
 = BQNP - Alternate Name for QMA =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -3933,6 +4181,9 @@ text = u'''
 
 
 = BQP - Bounded-Error Quantum Polynomial-Time =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -4037,6 +4288,9 @@ text = u'''
 
 = BQP-OBDD - Polynomial-Size Bounded-Error Quantum Ordered Binary Decision Diagram =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -4085,6 +4339,9 @@ text = u'''
 
 
 = BQP/log - BQP With Logarithmic-Size Karp-Lipton Advice =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -4135,6 +4392,9 @@ text = u'''
 
 = BQP/mlog - BQP With Logarithmic-Size Deterministic Merlin-Like Advice =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -4183,6 +4443,9 @@ text = u'''
 
 
 = BQP/mpoly - BQP With Polynomial-Size Deterministic Merlin-Like Advice =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -4245,6 +4508,9 @@ text = u'''
 
 = BQP/poly - BQP With Polynomial-Size Karp-Lipton Advice =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -4293,6 +4559,9 @@ text = u'''
 
 
 = BQP/qlog - BQP With Logarithmic-Size Quantum Advice =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -4346,6 +4615,9 @@ text = u'''
 
 
 = BQP/qpoly - BQP With Polynomial-Size Quantum Advice =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -4418,6 +4690,9 @@ text = u'''
 
 = BQP,,CTC,, - BQP With Closed Time Curves =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -4471,6 +4746,9 @@ text = u'''
 
 = BQPSPACE - Bounded-Error Quantum PSPACE =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -4517,6 +4795,9 @@ text = u'''
 
 
 = BQP,,tt,,/poly - BQP/mpoly With Truth-Table Queries =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -4567,6 +4848,9 @@ text = u'''
 
 = BQTIME(f(n)) - Bounded-Error Quantum f(n)-Time =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -4615,6 +4899,9 @@ text = u'''
 
 
 = C,,=,,AC^0^ - Exact-Counting AC0 =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -4665,6 +4952,9 @@ text = u'''
 
 = C,,=,,L - Exact-Counting L =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -4713,6 +5003,9 @@ text = u'''
 
 
 = C,,=,,P - Exact-Counting Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -4763,6 +5056,9 @@ text = u'''
 
 = CC - Comparator Circuits =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -4779,7 +5075,7 @@ A comparator gate consists of two inputs and outputs the minimum of its two inpu
 
 
 
-[[Class_CC|$\\text{CC}$]] is defined as the class of problems log-space many-one reducible to CCVP [[ZooRefs#MS89|[MS89] ]]. At present it is only known that NLCCP [[ZooRefs#MS89|[MS89] ]]. [[Class_CC|$\\text{CC}$]] is an example of a complexity class neither known to be in [[Class_NC|$\\text{NC}$]] nor P-complete.
+[[Class_CC|$\\text{CC}$]] is defined as the class of problems log-space many-one reducible to CCVP [[ZooRefs#MS89|[MS89] ]]. At present it is only known that NL$\\subseteq$CC$\\subseteq$P [[ZooRefs#MS89|[MS89] ]]. [[Class_CC|$\\text{CC}$]] is an example of a complexity class neither known to be in [[Class_NC|$\\text{NC}$]] nor P-complete.
 
 
 
@@ -4816,11 +5112,14 @@ text = u'''
 
 = CC^0^ - Constant-Depth MODm Circuits =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-The set of problems solvable by by constant-depth circuits having only MOD,,m,, gates for constant .}}}
+The set of problems solvable by by constant-depth circuits having only MOD,,m,, gates for constant $m$.}}}
 
 == Complete Problem ==
 
@@ -4864,6 +5163,9 @@ text = u'''
 
 
 = CFL - Context-Free Languages =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -4921,6 +5223,9 @@ text = u'''
 
 
 = CH - Counting Hierarchy =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -4983,11 +5288,14 @@ text = u'''
 
 = CL#P - Cluster Sharp-P =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-The class of [[Class_SharpP|$\\text{#P}$]] function problems such that some underlying [[Class_NP|$\\text{NP}$]] machine  witnessing membership in [[Class_SharpP|$\\text{#P}$]] has}}}
+The class of [[Class_SharpP|$\\text{#P}$]] function problems such that some underlying [[Class_NP|$\\text{NP}$]] machine $M$ witnessing membership in [[Class_SharpP|$\\text{#P}$]] has}}}
 
 == Complete Problem ==
 
@@ -5001,11 +5309,11 @@ The class of [[Class_SharpP|$\\text{#P}$]] function problems such that some unde
 
 
 
-There exists a polynomial  such that each computation path of  on each input  is exactly  bits long.
+There exists a polynomial p such that each computation path of M on each input x is exactly p(|x|) bits long.
 
-There is a length-respecting total order  having polynomial-time computable adjacency checks on the computation paths of .
+There is a length-respecting total order A having polynomial-time computable adjacency checks on the computation paths of M.
 
-The accepting paths of  on any input  are contiguous with respect to .
+The accepting paths of M on any input x are contiguous with respect to A.
 
 
 
@@ -5041,6 +5349,9 @@ text = u'''
 
 
 = CLOG - Continuous Logarithmic-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -5099,6 +5410,9 @@ text = u'''
 
 = CNP - Continuous NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -5147,6 +5461,9 @@ text = u'''
 
 
 = CP - Continuous P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -5205,6 +5522,9 @@ text = u'''
 
 = CSIZE(f(n)) - Circuit Size f(n) =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -5258,6 +5578,9 @@ text = u'''
 
 = CSL - Context Sensitive Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -5307,11 +5630,14 @@ text = u'''
 
 = CSP - Constraint Satisfaction Problems =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-Defined in [[ZooRefs#FV93|[FV93] ]] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet ) containing :}}}
+Defined in [[ZooRefs#FV93|[FV93] ]] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet $\\{0,1\\}$) containing $C_0, C_1, C_2, C_3$:}}}
 
 == Complete Problem ==
 
@@ -5323,7 +5649,21 @@ Defined in [[ZooRefs#FV93|[FV93] ]] as the class of languages corresponding to f
 
 
 
-For example, a 3SAT clause  is represented in the [[Class_CSP|$\\text{CSP}$]] construction as . By similar constructions, any k-SAT problem can be seen to be in [[Class_CSP|$\\text{CSP}$]]. The class also includes Graph k-Coloring (for ), Graph H-Coloring (for some graph ) and Linear Programming mod .
+$\\begin{matrix}
+
+    C_0 & = & \\{0,1\\}^3 \\backslash (0,0,0) \\\\
+
+    C_1 & = & \\{0,1\\}^3 \\backslash (1,0,0) \\\\
+
+    C_2 & = & \\{0,1\\}^3 \\backslash (1,1,0) \\\\
+
+    C_3 & = & \\{0,1\\}^3 \\backslash (1,1,1)
+
+\\end{matrix}$
+
+
+
+For example, a 3SAT clause $(x \\vee y \\vee \\neg z)$ is represented in the [[Class_CSP|$\\text{CSP}$]] construction as $C_1(z, x, y) \\in I$. By similar constructions, any k-SAT problem can be seen to be in [[Class_CSP|$\\text{CSP}$]]. The class also includes Graph k-Coloring (for $k\\in\\mathbb{N}$), Graph H-Coloring (for some graph $H$) and Linear Programming mod $q$.
 
 
 
@@ -5359,6 +5699,9 @@ text = u'''
 
 
 = CZK - Computational Zero-Knowledge =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -5433,6 +5776,9 @@ text = u'''
 
 = Check - Checkable Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -5495,6 +5841,9 @@ text = u'''
 
 
 = C,,k,,P - kth Level of CH =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -5563,6 +5912,9 @@ text = u'''
 
 = Coh - Coherent Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -5616,6 +5968,9 @@ text = u'''
 
 = D#P - Alternate Name for P#P =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -5662,6 +6017,9 @@ text = u'''
 
 
 = DCFL - Deterministic CFL =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -5715,6 +6073,9 @@ text = u'''
 
 
 = DET - Determinant =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -5773,6 +6134,9 @@ text = u'''
 
 = DP - Difference Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -5821,6 +6185,9 @@ text = u'''
 
 
 = DQP - Dynamical Quantum Polynomial-Time =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -5882,6 +6249,9 @@ text = u'''
 
 
 = DSPACE(f(n)) - Deterministic f(n)-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -5946,11 +6316,14 @@ text = u'''
 
 = DTIME(f(n)) - Deterministic f(n)-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-The class of decision problems solvable by a Turing machine in time . Note that some authors choose to call this class TIME.}}}
+The class of decision problems solvable by a Turing machine in time $O(f(n))$. Note that some authors choose to call this class TIME.}}}
 
 == Complete Problem ==
 
@@ -5962,19 +6335,19 @@ The class of decision problems solvable by a Turing machine in time . Note that 
 
 
 
-Of great relevance to DTIME is the Time Hierarchy Theorem: For any constructible function  greater than , DTIME() is strictly contained in DTIME() [[ZooRefs#HS65|[HS65] ]]. As a corollary, [[Class_P|$\\text{P}$]] ⊂ [[Class_EXP|$\\text{EXP}$]].
+Of great relevance to DTIME is the Time Hierarchy Theorem: For any constructible function $f(n)$ greater than $n$, DTIME($f(n)$) is strictly contained in DTIME($f(n) \\log(f(n)) \\log\\log(f(n))$) [[ZooRefs#HS65|[HS65] ]]. As a corollary, [[Class_P|$\\text{P}$]] ⊂ [[Class_EXP|$\\text{EXP}$]].
 
 
 
-For any space constructible , DTIME() is strictly contained in DSPACE() [[ZooRefs#HPV77|[HPV77] ]].
+For any space constructible $f(n)$, DTIME($f(n)$) is strictly contained in DSPACE($f(n)$) [[ZooRefs#HPV77|[HPV77] ]].
 
 
 
-Also, DTIME() is strictly contained in NTIME() [[ZooRefs#PPS+83|[PPS+83] ]] (this result does not work for arbitrary ).
+Also, DTIME($n$) is strictly contained in NTIME(n) [[ZooRefs#PPS+83|[PPS+83] ]] (this result does not work for arbitrary $f(n)$).
 
 
 
-For any constructible superpolynomial , DTIME() with [[Class_PP|$\\text{PP}$]] oracle is not in [[Class_P/poly|$\\text{P/poly}$]] (see [[ZooRefs#All96|[All96] ]]).
+For any constructible superpolynomial $f(n)$, DTIME($f(n)$) with [[Class_PP|$\\text{PP}$]] oracle is not in [[Class_P/poly|$\\text{P/poly}$]] (see [[ZooRefs#All96|[All96] ]]).
 
 
 
@@ -6026,6 +6399,9 @@ text = u'''
 
 
 = DTISP(t(n),s(n)) - Simultaneous t(n)-Time and s(n)-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -6080,6 +6456,9 @@ text = u'''
 
 = DiffAC^0^ - Difference #AC0 =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -6128,6 +6507,9 @@ text = u'''
 
 
 = DisNP - Disjoint NP Pairs =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -6181,6 +6563,9 @@ text = u'''
 
 
 = DistNP - Distributional NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -6247,6 +6632,9 @@ text = u'''
 
 = Dyn-FO - Dynamic FO =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -6304,6 +6692,9 @@ text = u'''
 
 = Dyn-ThC^0^ - Dynamic Threshold Circuits =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -6353,6 +6744,9 @@ text = u'''
 
 = E - Exponential Time With Linear Exponent =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -6389,7 +6783,7 @@ It follows that, if the problems complete for [[Class_E|$\\text{E}$]] under Turi
 
 
 
-[[ZooRefs#BF03|[BF03] ]] gave a proof that if [[Class_E|$\\text{E}$]] = [[Class_NE|$\\text{NE}$]], then no sparse set is collapsing, where they defined a set  to be collapsing if  and if for all  such that  and  are Turing reducible to each other,  and  are many-to-one reducible to each other.
+[[ZooRefs#BF03|[BF03] ]] gave a proof that if [[Class_E|$\\text{E}$]] = [[Class_NE|$\\text{NE}$]], then no sparse set is collapsing, where they defined a set $A$ to be collapsing if $A\\notin\\mathsf{P}$ and if for all $B$ such that $A$ and $B$ are Turing reducible to each other, $A$ and $B$ are many-to-one reducible to each other.
 
 
 
@@ -6425,6 +6819,9 @@ text = u'''
 
 
 = EE - Double-Exponential Time With Linear Exponent =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -6483,6 +6880,9 @@ text = u'''
 
 = EEE - Triple-Exponential Time With Linear Exponent =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -6536,6 +6936,9 @@ text = u'''
 
 = EESPACE - Double-Exponential Space With Linear Exponent =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -6588,6 +6991,9 @@ text = u'''
 
 
 = EEXP - Double-Exponential Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -6645,6 +7051,9 @@ text = u'''
 
 
 = EH - Exponential-Time Hierarchy With Linear Exponent =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -6711,6 +7120,9 @@ text = u'''
 
 = ELEMENTARY - Iterated Exponential Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -6764,6 +7176,9 @@ text = u'''
 
 = EL,,k,,P - Extended Low Hierarchy =
 
+----
+CategoryClassical CategoryHierarchy 
+
 == Description ==
 
 {{{#!description
@@ -6816,6 +7231,9 @@ text = u'''
 
 
 = EP - NP with 2k Accepting Paths =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -6875,6 +7293,9 @@ text = u'''
 
 
 = EPTAS - Efficient Polynomial-Time Approximation Scheme =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -6937,6 +7358,9 @@ text = u'''
 
 = EQP - Exact Quantum Polynomial-Time =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -6998,6 +7422,9 @@ text = u'''
 
 = EQP,,K,, - Exact Quantum Polynomial-Time with Gate Set K =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -7055,6 +7482,9 @@ text = u'''
 
 = EQTIME(f(n)) - Exact Quantum f(n)-Time =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -7103,6 +7533,9 @@ text = u'''
 
 
 = ESPACE - Exponential Space With Linear Exponent =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -7169,6 +7602,9 @@ text = u'''
 
 = EXP - Exponential Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -7221,11 +7657,11 @@ There exist oracles relative to which
 
 
 
-[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\\text{EXP}$]]  [[Class_NP/poly|$\\text{NP/poly}$]] implies [[Class_EXP|$\\text{EXP}$]]  P^||NP^/poly.
+[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\\text{EXP}$]] $\\not\\subseteq$ [[Class_NP/poly|$\\text{NP/poly}$]] implies [[Class_EXP|$\\text{EXP}$]] $\\not\\subseteq$ P^||NP^/poly.
 
 
 
-In descriptive complexity EXPTIME can be defined as [[Class_SO|$\\text{SO}$]]() which is also SO(LFP)
+In descriptive complexity EXPTIME can be defined as SO(2^{n^{O(1)}}) which is also SO(LFP)
 
 
 
@@ -7265,6 +7701,9 @@ text = u'''
 
 
 = EXP/poly - Exponential Time With Polynomial-Size Advice =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -7314,6 +7753,9 @@ text = u'''
 
 
 = EXPSPACE - Exponential Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -7368,6 +7810,9 @@ text = u'''
 
 = F-TAPE(f(n)) - Provable DSPACE(f(n)) For Formal System F =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -7420,6 +7865,9 @@ text = u'''
 
 
 = F-TIME(f(n)) - Provable DTIME(f(n)) For Formal System F =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -7480,6 +7928,9 @@ text = u'''
 
 = FBQP - Function BQP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -7528,6 +7979,9 @@ text = u'''
 
 
 = FH - Fourier Hierarchy =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -7597,6 +8051,9 @@ text = u'''
 
 
 = FIXP - Fixed Point =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -7669,6 +8126,9 @@ text = u'''
 
 = FNL - Function NL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -7718,6 +8178,9 @@ text = u'''
 
 = FNL/poly - Nonuniform FNL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -7766,6 +8229,9 @@ text = u'''
 
 
 = FNP - Function NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -7836,6 +8302,9 @@ text = u'''
 
 = FO - First-Order logic =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -7854,11 +8323,11 @@ First order logic is the smallest logical class of logic language. It is the bas
 
 When we use logic formalism, the input is a structure, usually it is either strings (of bits or over an alphabet) whose elements are position of the strings, or graphs whose elements are vertices. The mesure of the input will there be the size of the structure.
 
-Whatever the structure is, we can suppose that there are relation that you can test, by example  is true iff there is an edge from  to  if the structure is a graph, and  is true iff the nth letter of the string is 1. We also have constant, who are special elements of the structure, by example if we want to check reachability in a graph, we will have to choose two constant s and t.
+Whatever the structure is, we can suppose that there are relation that you can test, by example $E(x,y)$ is true iff there is an edge from $x$ to $y$ if the structure is a graph, and $P(n)$ is true iff the nth letter of the string is 1. We also have constant, who are special elements of the structure, by example if we want to check reachability in a graph, we will have to choose two constant s and t.
 
 
 
-In descriptive complexity we almost always suppose that there is a total order over the elements and that we can check equality between elements. This let us consider elements as number,  is the number  iff there is  elements  such that . Thanks to this we also want the primitive "bit", where  is true if only the th bith of  is 1. (We can replace  by plus and time, ternary relation such that  is true iff  and  is true iff ).
+In descriptive complexity we almost always suppose that there is a total order over the elements and that we can check equality between elements. This let us consider elements as number, $x$ is the number $n$ iff there is $(n-1)$ elements $y$ such that $y<x$. Thanks to this we also want the primitive "bit", where $bit(x,y)$ is true if only the $y$th bith of $x$ is 1. (We can replace $bit$ by plus and time, ternary relation such that $plus(x,y,z)$ is true iff $x+y=z$ and $times(x,y,z)$ is true iff $x*y=z$).
 
 
 
@@ -7866,11 +8335,11 @@ Since in a computer elements are only pointers or string of bit, thoses assumpti
 
 
 
-The language [[Class_FO|$\\text{FO}$]] is then defined as the closure by conjunction ( ), negation () and universal quantification () over element of the structures. We also often use existantial quantification () and disjunction () but those can be defined thanks to the 3 first symbols.
+The language [[Class_FO|$\\text{FO}$]] is then defined as the closure by conjunction ( $\\wedge$), negation ($\\neg$) and universal quantification ($\\forall$) over element of the structures. We also often use existantial quantification ($\\exists$) and disjunction ($\\vee$) but those can be defined thanks to the 3 first symbols.
 
 
 
-The semantics of the formulae in [[Class_FO|$\\text{FO}$]] is straightforward,  is true iff  is false,  is true iff  is true and  is true, and () is true iff whatever element we decide that  is we can choose,  is true.
+The semantics of the formulae in [[Class_FO|$\\text{FO}$]] is straightforward, $\\neg A$ is true iff $A$ is false, $A\\wedge B$ is true iff $A$ is true and $B$ is true, and ($\\forall x P$) is true iff whatever element we decide that $x$ is we can choose, $P$ is true.
 
 
 
@@ -7911,11 +8380,14 @@ text = u'''
 
 = FO(DTC) - First-order with deterministic transitive closure =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-FO(DTC) is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC(), we know that for all , there exist at most one  such that phi(u,v).}}}
+FO(DTC) is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC($\\phi_{u,v}$), we know that for all $u$, there exist at most one $v$ such that phi(u,v).}}}
 
 == Complete Problem ==
 
@@ -7927,7 +8399,7 @@ FO(DTC) is defined as FO(tc) where the transitive closure operator is determinis
 
 
 
-We can suppose that DTC() is syntactic sugar for TC() where .
+We can suppose that DTC($\\phi_{u,v}$) is syntactic sugar for TC($\\psi_{u,v}$) where $\\psi(u,v)=\\phi(u,v)\\wedge \\forall x, (x=v \\vee \\neg \\psi(u,x))$.
 
 
 
@@ -7964,11 +8436,14 @@ text = u'''
 
 = FO(LFP) - First-order with least fixed point =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-FO(LFP) is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is , then  always implies .}}}
+FO(LFP) is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is $P$, then $P_i(x)$ always implies $P_{i+1}(x)$.}}}
 
 == Complete Problem ==
 
@@ -7980,11 +8455,11 @@ FO(LFP) is the set of boolean queries definable with first-order fixed-point for
 
 
 
-We can obtain the monotony by restricting the formula  to have only positive occurrences of  (i.e. there is an even number of negations before every occurrence of ). We can also describe LFP() as syntactic sugar of PFP() where .
+We can obtain the monotony by restricting the formula $\\phi$ to have only positive occurrences of $P$ (i.e. there is an even number of negations before every occurrence of $P$). We can also describe LFP($\\phi_{P,x}$) as syntactic sugar of PFP($\\psi_{P,x}$) where $\\psi(P,x)=\\phi(P,x)\\vee P(x)$.
 
 
 
-Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [[ZooRefs#Imm82|[Imm82] ]] that FO(LFP)=P. This definition is equivalent to [[Class_FO|$\\text{FO}$]]().
+Thanks to monotonicity we only add and never remove vectors to the truth table of $P$, and since there is only $n^k$ possible vectors we always find a fixed point before $n^k$ iterations. Hence it was shown in [[ZooRefs#Imm82|[Imm82] ]] that FO(LFP)=P. This definition is equivalent to FO(n^{O(1)}).
 == Relations ==
 
 {{{#!class_relations
@@ -8017,6 +8492,9 @@ text = u'''
 
 = FO(PFP) - First-order with partial fixed point =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8033,15 +8511,15 @@ FO(pfp) is the set of boolean queries definable with first-order formulae with a
 
 
 
-Let  be an integer,   vectors of  variables,  a second-order variable of arity , and  a FO(PFP) function using  and  as variables, then we can define iteratively  such that  and  which means that the property  is true on the input  if  is true on input , and when the variable  is replaced by . Then, either there is a fixed point, or the list of  is looping.
+Let $k$ be an integer, $x, y$  vectors of $k$ variables, $P$ a second-order variable of arity $k$, and $\\phi$ a FO(PFP) function using $x$ and $P$ as variables, then we can define iteratively $(P_i)_{i\\in N}$ such that $P_0(x)=false$ and $P_i(x)=\\phi(P_{i-1},x)$ which means that the property $P_i$ is true on the input $x$ if $\\phi$ is true on input $x$, and when the variable $P$ is replaced by $P_{i-1}$. Then, either there is a fixed point, or the list of $(P_i)$ is looping.
 
 
 
-PFP( is defined as the value of the fixed point of  on y if there is a fixed point, else as false.
+PFP($\\phi_{P,x})(y)$ is defined as the value of the fixed point of $(P_i)$ on y if there is a fixed point, else as false.
 
 
 
-Since s are property of arity , there is at most  values for the s, so with a poly-space counter we can check if there is a loop or not.
+Since $P$s are property of arity $k$, there is at most $2^{n^k}$ values for the $P_i$s, so with a poly-space counter we can check if there is a loop or not.
 
 
 
@@ -8078,6 +8556,9 @@ text = u'''
 
 = FO(TC) - First-order with transitive closure =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8094,11 +8575,11 @@ FO(TC) is the set of boolean queries definable with first-order formulae with a 
 
 
 
-TC is defined this way: let  be a positiver integer and  be vectors of  variables, then TC( is true if there exist  variables  such that  and for all  . Here,  is a formula over  written in FO(TC) and  means that the variables  and  are replaced by  and .
+TC is defined this way: let $k$ be a positiver integer and $u,v,x,y$ be vectors of $k$ variables, then TC($\\phi_{u,v})(x,y)$ is true if there exist $n$ variables $(x_i)$ such that $x_1=x, x_n=y$ and for all $i<n$ $\\phi_{u,v}(x_i,x_{i+1})$. Here, $\\phi_{u,v}$ is a formula over $u,v$ written in FO(TC) and $\\phi_{u,v}(x,y)$ means that the variables $u$ and $v$ are replaced by $x$ and $y$.
 
 
 
-Every formula of TC can be written in a normal form [[Class_FO|$\\text{FO}$]]( where  is a [[Class_FO|$\\text{FO}$]] formula and we suppose that there is an order on the model where variables are quantified, so we can choose the minimum and maximum element.
+Every formula of TC can be written in a normal form FO($\\phi_{u,v})(0,max)$ where $\\phi$ is a [[Class_FO|$\\text{FO}$]] formula and we suppose that there is an order on the model where variables are quantified, so we can choose the minimum and maximum element.
 
 
 
@@ -8134,6 +8615,9 @@ text = u'''
 
 
 = FO(t(n)) - First-Order =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -8187,6 +8671,9 @@ text = u'''
 
 
 = FOLL - First-Order loglog n =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -8248,20 +8735,23 @@ except Exception as e:
 if p:
     assert p.exists()
 
-pagename = u"Class_FO[]"
+pagename = u"Class_FO[t(n)]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
 text = u'''
 <<TableOfContents()>>
 
 
-= FO[] - Iterated First-Order logic =
+= FO[$t(n)$] - Iterated First-Order logic =
+
+----
+CategoryClassical 
 
 == Description ==
 
 {{{#!description
 
-Let  be a function from integers to integers.}}}
+Let $t(n)$ be a function from integers to integers.}}}
 
 == Complete Problem ==
 
@@ -8271,19 +8761,19 @@ Let  be a function from integers to integers.}}}
 
 == Comments ==
 
- abbreviates  and  abbreviates .
+$(\\forall x [[Class_P|$\\text{P}$]]) Q$ abbreviates $(\\forall x (P\\Rightarrow Q))$ and $(\\exists x [[Class_P|$\\text{P}$]]) Q$ abbreviates $(\\exists x ([[Class_P|$\\text{P}$]] \\wedge Q))$.
 
 
 
-A quantifier block is a list  where the s are quantifier free FO-formulae and each s is either  or .
+A quantifier block is a list $(Q_1 x_1. \\phi_1)...(Q_k x_k. \\phi_k)$ where the $\\phi_i$s are quantifier free FO-formulae and each $Q_i$s is either $\\forall$ or $\\exists$.
 
-If  is a quantifier block then  is the block consisting of  iterated copies of . 
+If $Q$ is a quantifier block then $[Q]^{t(n)}$ is the block consisting of $t(n)$ iterated copies of $Q$. 
 
-Note that there are  quantifiers in the list, but only k variables; each variable is used  times.
+Note that there are $k*t(n)$ quantifiers in the list, but only k variables; each variable is used $t(n)$ times.
 
 
 
-[[Class_FO[]|$\\text{FO[]}$]] consists of the FO-formulae with quantifier blocks that are iterated  times.
+FO[$t(n)$] consists of the FO-formulae with quantifier blocks that are iterated $\\Theta(t(n))$ times.
 
 
 
@@ -8291,13 +8781,13 @@ In Descriptive complexity we can see that :
 
 
 
-[[Class_FO[]|$\\text{FO[]}$]] is equal to fo-uniform AC^i^, and in fact [[Class_FO[]|$\\text{FO[]}$]] is fo-uniform [[Class_AC|$\\text{AC}$]] of depth 
+FO[(\log n)^i] is equal to fo-uniform AC^i^, and in fact [[Class_FO[t(n)]|$\\text{FO[t(n)]}$]] is fo-uniform [[Class_AC|$\\text{AC}$]] of depth t(n)
 
-[[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_NC|$\\text{NC}$]]
+FO[(\log n)^{O(1)}] is equal to [[Class_NC|$\\text{NC}$]]
 
-[[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_P|$\\text{P}$]] and FO(LFP)
+FO[n^{O(1)}] is equal to [[Class_P|$\\text{P}$]] and FO(LFP)
 
-[[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_PSPACE|$\\text{PSPACE}$]] and FO(PFP)
+FO[2^{n^{O(1)}}] is equal to [[Class_PSPACE|$\\text{PSPACE}$]] and FO(PFP)
 == Relations ==
 
 {{{#!class_relations
@@ -8315,7 +8805,7 @@ try:
     p = Page(request, pagename)
     print p.page_name
 except Exception as e:
-    print ("Couldn't save FO[] because")
+    print ("Couldn't save FO[t(n)] because")
     print (e)
 
 if p:
@@ -8329,6 +8819,9 @@ text = u'''
 
 
 = FP - Function Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -8387,6 +8880,9 @@ text = u'''
 
 = FP^NP[log]^ - FP With Logarithmically Many Queries To NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8433,6 +8929,9 @@ text = u'''
 
 
 = FPR - Fixed-Parameter Randomized =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -8487,6 +8986,9 @@ text = u'''
 
 = FPRAS - Fully Polynomial Randomized Approximation Scheme =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8535,6 +9037,9 @@ text = u'''
 
 
 = FPT - Fixed-Parameter Tractable =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -8601,6 +9106,9 @@ text = u'''
 
 = FPTAS - Fully Polynomial-Time Approximation Scheme =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8658,6 +9166,9 @@ text = u'''
 
 = FPT,,nu,, - Fixed-Parameter Tractable (nonuniform) =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8711,6 +9222,9 @@ text = u'''
 
 = FPT,,su,, - Fixed-Parameter Tractable (strongly uniform) =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8760,6 +9274,9 @@ text = u'''
 
 = FQMA - Function QMA =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -8808,6 +9325,9 @@ text = u'''
 
 
 = Few - FewP With Flexible Acceptance Mechanism =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -8876,6 +9396,9 @@ text = u'''
 
 = FewEXP - NEXP With Few Witnesses =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -8896,13 +9419,13 @@ Contained in MIP[NP^FewEXP^] ([[Class_MIP|$\\text{MIP}$]] where provers are not 
 
 
 
-Alternatively, [[Class_FewEXP|$\\text{FewEXP}$]] can refer to the sparsity of accepting paths in a given instance. In [[ZooRefs#AKR+03|[AKR+03] ]], the authors show that the conjectures "FewEXP search instances are EXP-solvable" and "FewEXP decision instances are EXP/poly-solvable" are equivalent. That is, for all [[Class_NEXP|$\\text{NEXP}$]] machines , the following conditions are equivalent:
+Alternatively, [[Class_FewEXP|$\\text{FewEXP}$]] can refer to the sparsity of accepting paths in a given instance. In [[ZooRefs#AKR+03|[AKR+03] ]], the authors show that the conjectures "FewEXP search instances are EXP-solvable" and "FewEXP decision instances are EXP/poly-solvable" are equivalent. That is, for all [[Class_NEXP|$\\text{NEXP}$]] machines $N$, the following conditions are equivalent:
 
 
 
-There exists an [[Class_EXP|$\\text{EXP}$]] machine  such that if given a string ,  accepts and has exponentially bounded accepting paths, then  produces one such path.
+There exists an [[Class_EXP|$\\text{EXP}$]] machine M such that if given a string x, N(x) accepts and has exponentially bounded accepting paths, then M(x) produces one such path.
 
- There exists an [[Class_EXP/poly|$\\text{EXP/poly}$]] machine  which accepts a string  if and only  accepts.
+ There exists an [[Class_EXP/poly|$\\text{EXP/poly}$]] machine M which accepts a string x if and only N(x) accepts.
 == Relations ==
 
 {{{#!class_relations
@@ -8934,6 +9457,9 @@ text = u'''
 
 
 = FewP - NP With Few Witnesses =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -9010,6 +9536,9 @@ text = u'''
 
 = GA - Graph Automorphism =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9067,6 +9596,9 @@ text = u'''
 
 = GAN-SPACE(f(n)) - Games Against Nature f(n)-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9119,6 +9651,9 @@ text = u'''
 
 
 = GC(s(n),C) - Guess and Check =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -9187,6 +9722,9 @@ text = u'''
 
 = GCSL - Growing CSL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9247,6 +9785,9 @@ text = u'''
 
 
 = GI - Graph Isomorphism =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -9313,6 +9854,9 @@ text = u'''
 
 = GLO - Guaranteed Local Optima =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9366,6 +9910,9 @@ text = u'''
 
 = GPCD(r(n),q(n)) - Generalized Probabilistically Checkable Debate =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9414,6 +9961,9 @@ text = u'''
 
 
 = G[t] - Stratification of Fixed-Parameter Tractable Problems =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -9468,6 +10018,9 @@ text = u'''
 
 = GapAC^0^ - Gap #AC0 =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9517,6 +10070,9 @@ text = u'''
 
 = GapL - Gap Logarithmic-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9563,6 +10119,9 @@ text = u'''
 
 
 = GapP - Gap Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -9617,6 +10176,9 @@ text = u'''
 
 = HO - High-Order logic =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9633,15 +10195,15 @@ High order logic is an extension of Second order, First order where we add quant
 
 
 
-We define a relation of order  and arity  to be a subset of -tuple of relation of order  and arity . When  it is by extension a first order variable. The quantification of formula in [[Class_HO|$\\text{HO}$]] is over a given order (which is a straightforward extension of [[Class_SO|$\\text{SO}$]] where we add quantification over constant (first-order variable) and relation (second-order variables). The atomic predicates now can be general application of relation of order  and arity  to  relations of order  and arity  and  test of equality between two relations of the same order and arity.
+We define a relation of order $o$ and arity $k$ to be a subset of $k$-tuple of relation of order $o-1$ and arity $k$. When $o=1$ it is by extension a first order variable. The quantification of formula in [[Class_HO|$\\text{HO}$]] is over a given order (which is a straightforward extension of [[Class_SO|$\\text{SO}$]] where we add quantification over constant (first-order variable) and relation (second-order variables). The atomic predicates now can be general application of relation of order $o$ and arity $k$ to $k$ relations of order $o-1$ and arity $a$ and  test of equality between two relations of the same order and arity.
 
 
 
-is the set of formulae with quantification up to order O. (resp. ) is defined as the set of formula in  beginning by an existantial (resp universal) quantifier followed by at most  alternation of quantifiers.
+$HO^o$ is the set of formulae with quantification up to order O. $\\Sigma^i_j$(resp. $\\Pi_j^i$) is defined as the set of formula in $HO^{i+1}$ beginning by an existantial (resp universal) quantifier followed by at most $j-1$ alternation of quantifiers.
 
 
 
-This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that  where  is the th level of the polynomial hierarchy.
+This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that $\\Sigma^i_j=\\exp_2^{i-1}(n^O(1))^{\\Sigma^P_{j-1}}$ where $\\Sigma^P_{j-1}$ is the $j$th level of the polynomial hierarchy.
 == Relations ==
 
 {{{#!class_relations
@@ -9673,6 +10235,9 @@ text = u'''
 
 
 = HVSZK - Honest-Verifier SZK =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -9722,6 +10287,9 @@ text = u'''
 
 
 = HalfP - RP With Exactly Half Acceptance =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -9786,6 +10354,9 @@ text = u'''
 
 = HeurBPP - Heuristic BPP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9835,6 +10406,9 @@ text = u'''
 
 = HeurBPTIME(f(n)) - Heuristic BPTIME(f(n)) =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -9879,20 +10453,23 @@ except Exception as e:
 if p:
     assert p.exists()
 
-pagename = u"Class_HeurDTIME(f(n))"
+pagename = u"Class_HeurDTIME\delta(f(n))"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
 text = u'''
 <<TableOfContents()>>
 
 
-= HeurDTIME,,,,(f(n)) - Heuristic DTIME =
+= HeurDTIME,,\delta,,(f(n)) - Heuristic DTIME =
+
+----
+CategoryClassical 
 
 == Description ==
 
 {{{#!description
 
-For functions  and , we say that tuple , where  is a language and  is a distribution of problem instances, if there exists a heuristic deterministic algorithm  such that for all  in the support of ,  runs in time bounded by  and with failure probability bounded by  [[ZooRefs#BT06|[BT06] ]].}}}
+For functions $f(n)$ and $\\delta(n)$, we say that tuple $(L,D)\\in\\mathsf{HeurDTIME}_{\\delta}(f(n))$, where $L$ is a language and $D$ is a distribution of problem instances, if there exists a heuristic deterministic algorithm $A$ such that for all $x$ in the support of $D$, $A$ runs in time bounded by $f(n)$ and with failure probability bounded by $\\delta(n)$ [[ZooRefs#BT06|[BT06] ]].}}}
 
 == Complete Problem ==
 
@@ -9920,26 +10497,29 @@ try:
     p = Page(request, pagename)
     print p.page_name
 except Exception as e:
-    print ("Couldn't save HeurDTIME(f(n)) because")
+    print ("Couldn't save HeurDTIME\delta(f(n)) because")
     print (e)
 
 if p:
     assert p.exists()
 
-pagename = u"Class_HeurNTIME"
+pagename = u"Class_HeurNTIME\delta"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
 text = u'''
 <<TableOfContents()>>
 
 
-= HeurNTIME,,,, - Heuristic NTIME =
+= HeurNTIME,,\delta,, - Heuristic NTIME =
+
+----
+CategoryClassical 
 
 == Description ==
 
 {{{#!description
 
-Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.}}}
+Defined as Heur,,\delta,,DTIME, but for non-deterministic heuristic algorithms.}}}
 
 == Complete Problem ==
 
@@ -9951,7 +10531,7 @@ Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.}}}
 
 
 
-[[Class_NP|$\\text{NP}$]] is not contained in [[Class_HeurNTIME|$\\text{HeurNTIME}_\\text{}\\text{}$]]() for any constants  [[ZooRefs#Per07|[Per07] ]].
+[[Class_NP|$\\text{NP}$]] is not contained in HeurNTIME,,1/2+1/{n^a},,($n^c$) for any constants $a,c$ [[ZooRefs#Per07|[Per07] ]].
 == Relations ==
 
 {{{#!class_relations
@@ -9969,7 +10549,7 @@ try:
     p = Page(request, pagename)
     print p.page_name
 except Exception as e:
-    print ("Couldn't save HeurNTIME because")
+    print ("Couldn't save HeurNTIME\delta because")
     print (e)
 
 if p:
@@ -9983,6 +10563,9 @@ text = u'''
 
 
 = HeurP - Heuristic P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -10000,13 +10583,13 @@ The class of distributional problems solvable by a [[Class_P|$\\text{P}$]] machi
 
 
 
-Alternately, [[ZooRefs#BT06|[BT06] ]] define [[Class_HeurP|$\\text{HeurP}$]] as being the set of tuples , where  is a language and  is a distribution of problem instances, such that there exists an algorithm  satisfying two properties:
+Alternately, [[ZooRefs#BT06|[BT06] ]] define [[Class_HeurP|$\\text{HeurP}$]] as being the set of tuples $(L,D)$, where $L$ is a language and $D$ is a distribution of problem instances, such that there exists an algorithm $A$ satisfying two properties:
 
 
 
-For every , for every  in the support of , and for every ,  runs in time bounded by .
+For every n\in\mathbb{N}, for every x in the support of D, and for every \delta>0, A(x;n,\delta) runs in time bounded by \mathrm{poly}(n/\delta).
 
- For every ,  is a heuristic algorithm for  whose error probability is bounded by .
+ For every \delta>0, A(\cdot;\cdot,\delta) is a heuristic algorithm for (L,D) whose error probability is bounded by \delta.
 == Relations ==
 
 {{{#!class_relations
@@ -10038,6 +10621,9 @@ text = u'''
 
 
 = HeurPP - Heuristic PP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -10085,6 +10671,9 @@ text = u'''
 
 
 = H,,k,,P - High Hierarchy In NP =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -10151,6 +10740,9 @@ text = u'''
 
 = IC[log,poly] - Logarithmic Instance Complexity, Polynomial Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -10216,6 +10808,9 @@ text = u'''
 
 = IP - Interactive Proof =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -10268,7 +10863,7 @@ See also: [[Class_MIP|$\\text{MIP}$]], [[Class_QIP|$\\text{QIP}$]], [[Class_MA|$
 == Relations ==
 
 {{{#!class_relations
-
+{"version": 1.0, "class": "IP", "relations": {"contained_in": [], "equals": [{"class": "PSPACE"}, {"class": "QIP"}]}}
 }}}
 
 
@@ -10296,6 +10891,9 @@ text = u'''
 
 
 = IPP - Unbounded IP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -10350,6 +10948,9 @@ text = u'''
 
 = IP[polylog] - Alternate Name for AM[polylog] =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -10397,11 +10998,14 @@ text = u'''
 
 = K - Feasibly recursive functions =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [[ZooRefs#Con73|[Con73] ]], who mistakenly claimed it coincides with [[Class_FP|$\\text{FP}$]].}}}
+A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations ($+, -, \\cdot, \\lfloor x/y\\rfloor$, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [[ZooRefs#Con73|[Con73] ]], who mistakenly claimed it coincides with [[Class_FP|$\\text{FP}$]].}}}
 
 == Complete Problem ==
 
@@ -10445,6 +11049,9 @@ text = u'''
 
 
 = L - Logarithmic Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -10511,6 +11118,9 @@ text = u'''
 
 = L/poly - Nonuniform Logarithmic Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -10564,6 +11174,9 @@ text = u'''
 
 = LC^0^ - Unbounded Fanin Linear Size Constant-Depth Circuits =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -10613,11 +11226,14 @@ text = u'''
 
 = LH - Logarithmic Time Hierarchy =
 
+----
+CategoryClassical CategoryHierarchy 
+
 == Description ==
 
 {{{#!description
 
-A Turing machine with random access owns a special tape where it can write a binary number , and it can query the value of the th bit of the input. Hence any bit of the input can be read in only logtime.}}}
+A Turing machine with random access owns a special tape where it can write a binary number $n$, and it can query the value of the $n$th bit of the input. Hence any bit of the input can be read in only logtime.}}}
 
 == Complete Problem ==
 
@@ -10629,7 +11245,7 @@ A Turing machine with random access owns a special tape where it can write a bin
 
 
 
-The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. [[Class_LH|$\\text{LH}$]] is the union of all levels and is equal to tothe class [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] and to [[Class_FO|$\\text{FO}$]] Descriptive complexity.
+The $i$th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and $i-1$ alternation, begining with existantial state. [[Class_LH|$\\text{LH}$]] is the union of all levels and is equal to tothe class [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] and to [[Class_FO|$\\text{FO}$]] Descriptive complexity.
 == Relations ==
 
 {{{#!class_relations
@@ -10661,6 +11277,9 @@ text = u'''
 
 
 = LIN - Linear Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -10714,6 +11333,9 @@ text = u'''
 
 
 = LOGCFL - Logarithmically Reducible to CFL =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -10772,11 +11394,14 @@ text = u'''
 
 = LOGLOG - loglog Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [[ZooRefs#Szep94|[Szep94] ]] and [[ZooRefs#LiRe93|[LiRe93] ]]. The alternation hierarchy for this class is infinite ([[ZooRefs#BGR93|[BGR93] ]]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([[ZooRefs#Geff91|[Geff91] ]]).}}}
+There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [[ZooRefs#Szep94|[Szep94] ]] and [[ZooRefs#LiRe93|[LiRe93] ]]. The alternation hierarchy for this class is infinite ([[ZooRefs#BGR93|[BGR93] ]]), and the $Pi_n$ and $Sigma_n$ levels are incomparable unless $n = 1$; however, the nondeterministic version of the class is closed under complement ([[ZooRefs#Geff91|[Geff91] ]]).}}}
 
 == Complete Problem ==
 
@@ -10828,6 +11453,9 @@ text = u'''
 
 
 = LOGNP - Logarithmically-Restricted NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -10902,6 +11530,9 @@ text = u'''
 
 = LOGSNP - Logarithmically-Restricted SNP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -10970,6 +11601,9 @@ text = u'''
 
 
 = LWPP - Length-Dependent Wide PP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -11046,6 +11680,9 @@ text = u'''
 
 = L,,k,,P - Low Hierarchy In NP =
 
+----
+CategoryClassical CategoryHierarchy 
+
 == Description ==
 
 {{{#!description
@@ -11107,6 +11744,9 @@ text = u'''
 
 = LogFew - Logspace-Bounded Few =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -11162,6 +11802,9 @@ text = u'''
 
 = LogFewNL - Logspace-Bounded FewP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -11211,6 +11854,9 @@ text = u'''
 
 = MA - Merlin-Arthur =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -11255,7 +11901,7 @@ Equals [[Class_NP|$\\text{NP}$]] under a derandomization assumption: if [[Class_
 
 
 
-Shown in [[ZooRefs#San07|[San07] ]] that MA/1 does not have circuits of size  for any . In the same paper, the result was used to show that MA/1 cannot be solved on more than a  fraction of inputs having length  by any circuit of size . Finally, it was shown that [[Class_MA|$\\text{MA}$]] does not have arithmetic circuits of size .
+Shown in [[ZooRefs#San07|[San07] ]] that MA/1 does not have circuits of size $n^k$ for any $k>0$. In the same paper, the result was used to show that MA/1 cannot be solved on more than a $1/2 + 1/{n^k}$ fraction of inputs having length $n$ by any circuit of size $n^k$. Finally, it was shown that [[Class_MA|$\\text{MA}$]] does not have arithmetic circuits of size $n^k$.
 
 
 
@@ -11303,6 +11949,9 @@ text = u'''
 
 
 = MA' - Sparse MA =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -11352,6 +12001,9 @@ text = u'''
 
 
 = MAC^0^ - Majority of AC0 =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -11406,6 +12058,9 @@ text = u'''
 
 = MA,,E,, - Exponential-Time MA With Linear Exponent =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -11454,6 +12109,9 @@ text = u'''
 
 
 = MA,,EXP,, - Exponential-Time MA =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -11508,11 +12166,14 @@ text = u'''
 
 = MA,,POLYLOG,, - MA With Polylog Verifier =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-Identical to [[Class_MA|$\\text{MA}$]] except for that Arthur (the verifier) has random access to the proof string given by Merlin, and is limited to running times of order .}}}
+Identical to [[Class_MA|$\\text{MA}$]] except for that Arthur (the verifier) has random access to the proof string given by Merlin, and is limited to running times of order $O(\\textrm{poly}(\\log n))$.}}}
 
 == Complete Problem ==
 
@@ -11556,6 +12217,9 @@ text = u'''
 
 
 = MIP - Multi-Prover Interactive Proof =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -11613,6 +12277,9 @@ text = u'''
 
 
 = MIP* - MIP With Quantum Provers =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -11679,6 +12346,9 @@ text = u'''
 
 = MIP*[2,1] - 2-Prover, 1-Round MIP With Quantum Provers =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -11740,6 +12410,9 @@ text = u'''
 
 = MIP,,EXP,, - Exponential-Time Multi-Prover Interactive Proof =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -11793,11 +12466,14 @@ text = u'''
 
 = MM - Problems reducible to matrix multiplication =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-The set of all problems reducible to matrix multiplication. That is, the set of problems  that can be reduced to the multiplication of two square matrices can be reduced to  in linear time.}}}
+The set of all problems reducible to matrix multiplication. That is, the set of problems $P$ that can be reduced to the multiplication of two square matrices can be reduced to $P$ in linear time.}}}
 
 == Complete Problem ==
 
@@ -11809,7 +12485,7 @@ The set of all problems reducible to matrix multiplication. That is, the set of 
 
 
 
-Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [[ZooRefs#CW90|[CW90] ]]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.
+Currently, the best known algorithm for multiplying two $n\\times n$ matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of $O(n^{2.376})$ [[ZooRefs#CW90|[CW90] ]]. Note that for the general problem, a lower bound of $\\Omega(n^2)$ is trivial from the number of elements being considered.
 == Relations ==
 
 {{{#!class_relations
@@ -11841,6 +12517,9 @@ text = u'''
 
 
 = MMSNP - Monadic Monotone SNP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -11915,6 +12594,9 @@ text = u'''
 
 = MP - Middle-Bit P =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -11971,6 +12653,9 @@ text = u'''
 
 
 = MPC - Monotone Planar Circuits =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12029,6 +12714,9 @@ text = u'''
 
 = MaxNP - Maximization NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -12081,6 +12769,9 @@ text = u'''
 
 
 = MaxPB - MaxNP Polynomially Bounded =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12138,6 +12829,9 @@ text = u'''
 
 
 = MaxSNP - Maximization SNP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12198,6 +12892,9 @@ text = u'''
 
 = MaxSNP,,0,, - Generating Class of MaxSNP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -12255,6 +12952,9 @@ text = u'''
 
 = MinPB - MinNP Polynomially Bounded =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -12302,11 +13002,14 @@ text = u'''
 
 = ModL - ModL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-A language  if there are functions  and  such that for all strings :}}}
+A language $L\\in\\mathsf{ModL}$ if there are functions $f\\in\\mathsf{GapL}$ and $g\\in\\mathsf{FL}$ such that for all strings $x$:}}}
 
 == Complete Problem ==
 
@@ -12318,13 +13021,13 @@ A language  if there are functions  and  such that for all strings :}}}
 
 
 
-There exists a prime  and a natural number  such that .
+There exists a prime p and a natural number \alpha such that g(x)=0^{p^{\alpha}}.
 
-  if and only if .
+ x\in [[Class_L|$\\text{L}$]] if and only if f(x)\equiv0(\left|g(x)\right|).
 
 
 
-Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
+Thus, for any prime $p$ and natural number $\\alpha$, $\\mathsf{Mod}_{p^{\\alpha}}\\mathsf{L}\\subseteq\\mathsf{ModL}$. Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
 
 
 
@@ -12360,6 +13063,9 @@ text = u'''
 
 
 = ModP - ModkP With Arbitrary k =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12409,6 +13115,9 @@ text = u'''
 
 
 = ModZ,,k,,L - Restricted ModkL =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12469,6 +13178,9 @@ text = u'''
 
 = Mod,,k,,L - Mod-k L =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -12525,6 +13237,9 @@ text = u'''
 
 
 = Mod,,k,,P - Mod-k Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12595,6 +13310,9 @@ text = u'''
 
 = NAuxPDA^p^ - Nondeterministic Auxiliary Pushdown Automata =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -12644,6 +13362,9 @@ text = u'''
 
 = NC - Nick's Class =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -12692,7 +13413,7 @@ For a random oracle A, (NC^i^)^A^ is strictly contained in (NC^i+1^)^A^, and uni
 
 
 
-In descriptive complexity, [[Class_NC|$\\text{NC}$]] can be defined by [[Class_FO[]|$\\text{FO[]}$]]
+In descriptive complexity, [[Class_NC|$\\text{NC}$]] can be defined by FO[ \log(n)^{O(1)}]
 
 
 
@@ -12728,6 +13449,9 @@ text = u'''
 
 
 = NC^0^ - Level 0 of NC =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12781,6 +13505,9 @@ text = u'''
 
 
 = NC^1^ - Level 1 of NC =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12855,6 +13582,9 @@ text = u'''
 
 = NC^2^ - Level 2 of NC =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -12903,6 +13633,9 @@ text = u'''
 
 
 = NE - Nondeterministic E =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -12957,6 +13690,9 @@ text = u'''
 
 = NE/poly - Nonuniform NE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13003,6 +13739,9 @@ text = u'''
 
 
 = NEE - Nondeterministic EE =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13061,6 +13800,9 @@ text = u'''
 
 = NEEE - Nondeterministic EEE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13107,6 +13849,9 @@ text = u'''
 
 
 = NEEXP - Nondeterministic EEXP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13160,6 +13905,9 @@ text = u'''
 
 
 = NEXP - Nondeterministic EXP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13246,6 +13994,9 @@ text = u'''
 
 = NEXP/poly - Nonuniform NEXP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13292,6 +14043,9 @@ text = u'''
 
 
 = NIPZK - Non-Interactive PZK =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13348,6 +14102,9 @@ text = u'''
 
 = NIQSZK - Non-Interactive QSZK =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13400,6 +14157,9 @@ text = u'''
 
 
 = NISZK - Non-Interactive SZK =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13472,6 +14232,9 @@ text = u'''
 
 = NISZK,,h,, - NISZK With Limited Help =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13532,6 +14295,9 @@ text = u'''
 
 
 = NL - Nondeterministic Logarithmic-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13598,6 +14364,9 @@ text = u'''
 
 = NL/poly - Nonuniform NL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13651,6 +14420,9 @@ text = u'''
 
 = NLIN - Nondeterministic LIN =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13697,6 +14469,9 @@ text = u'''
 
 
 = NLOG - NL With Nondeterministic Oracle Tape =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13751,6 +14526,9 @@ text = u'''
 
 = NLT - Nearly Linear Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13804,6 +14582,9 @@ text = u'''
 
 = NNC(f(n)) - NC with O(f(n)) nondeterministic gates =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13853,6 +14634,9 @@ text = u'''
 
 = NNLT - Nondeterministic Nearly Linear Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -13901,6 +14685,9 @@ text = u'''
 
 
 = NONE - The Empty Class =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -13958,6 +14745,9 @@ text = u'''
 
 
 = NP - Nondeterministic Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14081,7 +14871,7 @@ Also, [[ZooRefs#Fag74|[Fag74] ]] showed that [[Class_NP|$\\text{NP}$]] is precis
 
 
 
-It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length ), then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]]. [[ZooRefs#BH08|[BH08] ]] improved this result, showing that if any language in [[Class_NP|$\\text{NP}$]] has an NP-hard set of subexponential density, then [[Class_coNP|$\\text{coNP}$]] is contained in [[Class_NP/poly|$\\text{NP/poly}$]] and thus, by [[ZooRefs#Yap82|[Yap82] ]], [[Class_PH|$\\text{PH}$]] collapses to the third level.
+It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length $n$), then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]]. [[ZooRefs#BH08|[BH08] ]] improved this result, showing that if any language in [[Class_NP|$\\text{NP}$]] has an NP-hard set of subexponential density, then [[Class_coNP|$\\text{coNP}$]] is contained in [[Class_NP/poly|$\\text{NP/poly}$]] and thus, by [[ZooRefs#Yap82|[Yap82] ]], [[Class_PH|$\\text{PH}$]] collapses to the third level.
 
 
 
@@ -14097,7 +14887,7 @@ Also, [[ZooRefs#Fag74|[Fag74] ]] gave a logical characterization of [[Class_NP|$
 == Relations ==
 
 {{{#!class_relations
-{"version": 1.0, "class": "NP", "relations": {"contained_in": [{"class": "EXP"}], "equals": [{"class": "PCP(r(n),q(n))", "condition": "$r(n) = log(n), q(n) = O(1)$"}]}}
+{"version": 1.0, "class": "NP", "relations": {"contained_in": [{"class": "EXP"}], "equals": [{"class": "PCP(r(n),q(n))", "condition": "$r(n) = \\\\log(n), q(n) = O(1)$"}]}}
 }}}
 
 
@@ -14125,6 +14915,9 @@ text = u'''
 
 
 = NP ∩ coNP - NP ∩ coNP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14187,6 +14980,9 @@ text = u'''
 
 = NP/log - NP With Logarithmic Advice =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -14235,6 +15031,9 @@ text = u'''
 
 
 = NP/poly - Nonuniform NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14288,6 +15087,9 @@ text = u'''
 
 
 = NP,,C,, - NP Over The Complex Numbers =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14388,6 +15190,9 @@ text = u'''
 
 = NPI - NP-Intermediate =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -14440,6 +15245,9 @@ text = u'''
 
 
 = NPMV - NP Multiple Value =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14498,6 +15306,9 @@ text = u'''
 
 = NPMV-sel - NPMV Selective =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -14547,6 +15358,9 @@ text = u'''
 
 = NPMV,,t,, - NPMV Total =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -14593,6 +15407,9 @@ text = u'''
 
 
 = NPMV,,t,,-sel - NPMVt Selective =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14642,6 +15459,9 @@ text = u'''
 
 
 = NPO - NP Optimization =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14696,6 +15516,9 @@ text = u'''
 
 = NPOPB - NPO Polynomially Bounded =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -14748,6 +15571,9 @@ text = u'''
 
 
 = NP,,R,, - NP Over The Reals =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14810,6 +15636,9 @@ text = u'''
 
 = NPSPACE - Nondeterministic PSPACE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -14858,6 +15687,9 @@ text = u'''
 
 
 = NPSV - NP Single Value =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -14916,6 +15748,9 @@ text = u'''
 
 = NPSV-sel - NPSV Selective =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -14969,6 +15804,9 @@ text = u'''
 
 = NPSV,,t,, - NPSV Total =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15017,6 +15855,9 @@ text = u'''
 
 
 = NPSV,,t,,-sel - NPSVt Selective =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15071,6 +15912,9 @@ text = u'''
 
 = NP^cc^ - Communication Complexity NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15096,14 +15940,6 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 Contained in [[Class_PHcc|$\\text{PH}^\\text{cc}\\text{}$]].
-
-
-
-Has the same relation to [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] and [[Class_NP|$\\text{NP}$]] as [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] does to [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] and [[Class_P|$\\text{P}$]].
-
-
-
-[[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not contained in [[Class_BPPcc|$\\text{BPP}_\\text{}\\text{}^\\text{cc}\\text{}$]] for  players, for any constant . As a result, [[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not equal to [[Class_RPcc|$\\text{RP}_\\text{}\\text{}^\\text{cc}\\text{}$]] under the same conditions [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 {{{#!class_relations
@@ -15127,6 +15963,58 @@ except Exception as e:
 if p:
     assert p.exists()
 
+pagename = u"Class_NPkcc"
+request = ScriptContext('localhost:8080', pagename)
+editor = PageEditor(request, pagename)
+text = u'''
+<<TableOfContents()>>
+
+
+= NP,,k,,^cc^ - NPcc in NOF model,  players =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] and [[Class_NP|$\\text{NP}$]] as [[Class_Pkcc|$\\text{P}_\\text{k}\\text{}^\\text{cc}\\text{}$]] does to [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] and [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[Class_NPkcc|$\\text{NP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] is not contained in [[Class_BPPkcc|$\\text{BPP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] for $k\\le(1-\\delta)\\cdot\\log n$ players, for any constant $\\delta>0$. As a result, [[Class_NPkcc|$\\text{NP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] is not equal to [[Class_RPkcc|$\\text{RP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] under the same conditions [[ZooRefs#DP08|[DP08] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+'''
+_, rev, _ = editor.get_rev()
+p = None
+try:
+    editor.saveText(text, rev)
+    p = Page(request, pagename)
+    print p.page_name
+except Exception as e:
+    print ("Couldn't save NPkcc because")
+    print (e)
+
+if p:
+    assert p.exists()
+
 pagename = u"Class_NQL"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
@@ -15135,6 +16023,9 @@ text = u'''
 
 
 = NQL - Nondet Quasi-Linear =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15197,6 +16088,9 @@ text = u'''
 
 = NQP - Nondeterministic Quantum Polynomial-Time =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -15249,6 +16143,9 @@ text = u'''
 
 
 = NSPACE(f(n)) - Nondeterministic f(n)-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15307,6 +16204,9 @@ text = u'''
 
 = NT - Near-Testable =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15355,6 +16255,9 @@ text = u'''
 
 
 = NT* - Near-Testable With Forest Ordering =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15408,6 +16311,9 @@ text = u'''
 
 
 = NTIME(f(n)) - Nondeterministic f(n)-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15466,6 +16372,9 @@ text = u'''
 
 = Nearly-P - Languages Superpolynomially Close to P =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15514,6 +16423,9 @@ text = u'''
 
 
 = OCQ - One Clean Qubit =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15568,6 +16480,9 @@ text = u'''
 
 = OptP - Optimum Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15621,6 +16536,9 @@ text = u'''
 
 = P - Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15673,7 +16591,7 @@ The nonuniform version is [[Class_P/poly|$\\text{P/poly}$]], the monotone versio
 
 
 
-In descriptive complexity, [[Class_P|$\\text{P}$]] can be defined by three different kind of formulae, FO(lfp) which is also FO()], and also as SO(Horn)
+In descriptive complexity, [[Class_P|$\\text{P}$]] can be defined by three different kind of formulae, FO(lfp) which is also FO(n^{O(1)})], and also as SO(Horn)
 
 
 
@@ -15681,7 +16599,7 @@ In descriptive complexity, [[Class_P|$\\text{P}$]] can be defined by three diffe
 == Relations ==
 
 {{{#!class_relations
-{"version": 1.0, "class": "P", "relations": {"contained_in": [{"class": "EXP"}, {"class": "NP"}]}}
+{"version": 1.0, "class": "P", "relations": {"contained_in": [{"class": "EXP"}, {"class": "NP"}], "equals": []}}
 }}}
 
 
@@ -15709,6 +16627,9 @@ text = u'''
 
 
 = P^#P^ - P With #P Oracle =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15763,6 +16684,9 @@ text = u'''
 
 = P^#P[1]^ - P With Single Query To #P Oracle =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15809,6 +16733,9 @@ text = u'''
 
 
 = P-Close - Problems Close to P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15863,6 +16790,9 @@ text = u'''
 
 = P-OBDD - Polynomial-Size Ordered Binary Decision Diagram =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -15915,6 +16845,9 @@ text = u'''
 
 
 = P-Sel - P-Selective Sets =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -15969,6 +16902,9 @@ text = u'''
 
 = P/log - P With Logarithmic Advice =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -16021,6 +16957,9 @@ text = u'''
 
 
 = P/poly - Nonuniform Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16113,6 +17052,9 @@ text = u'''
 
 = PAC^0^ - Probabilistic AC0 =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -16165,6 +17107,9 @@ text = u'''
 
 
 = PBP - Polynomial-Size Branching Program =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16219,6 +17164,9 @@ text = u'''
 
 = P,,C,, - Polynomial-Time Over The Complex Numbers =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -16271,6 +17219,9 @@ text = u'''
 
 
 = PCD(r(n),q(n)) - Probabilistically Checkable Debate =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16328,6 +17279,9 @@ text = u'''
 
 
 = PCP(r(n),q(n)) - Probabilistically Checkable Proof =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16391,6 +17345,10 @@ Also, even though there exists an oracle relative to which [[Class_NP|$\\text{NP
 
 
 
+Another weird oracle fact: since [[Class_NP|$\\text{NP}$]] does not equal [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#SFM78|[SFM78] ]], PCP(log n, log n) does not equal PCP(poly(n), poly(n)).  However, there exist oracles relative to which the latter inequality is false [[ZooRefs#HCC+92|[HCC+92] ]].
+
+
+
 Another weird oracle fact: since [[Class_NP|$\\text{NP}$]] does not equal [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#SFM78|[SFM78] ]], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [[ZooRefs#HCC+92|[HCC+92] ]].
 == Relations ==
 
@@ -16423,6 +17381,9 @@ text = u'''
 
 
 = P,,CTC,, - P With Closed Time Curves =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16477,6 +17438,9 @@ text = u'''
 
 = PEXP - Probabilistic Exponential-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -16526,6 +17490,9 @@ text = u'''
 
 = PF - Alternate Name for FP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -16572,6 +17539,9 @@ text = u'''
 
 
 = PFCHK(t(n)) - Proof-Checker =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16632,6 +17602,9 @@ text = u'''
 
 = PH - Polynomial-Time Hierarchy =
 
+----
+CategoryClassical CategoryHierarchy 
+
 == Description ==
 
 {{{#!description
@@ -16686,7 +17659,11 @@ Furthermore, there exist oracles separating any Σ,,i,,P from Σ,,i+1,,P.  On th
 
 It was shown in [CPO7] that if the [[Class_NP|$\\text{NP}$]] Machine Hypothesis holds, then
 
-.
+$
+
+    \\mathsf{P}^{\\mathrm{SAT}[1]} = \\mathsf{P}^{\\mathrm{SAT}[2]} \\Rightarrow \\mathsf{PH} \\subseteq \\mathsf{NP}
+
+$.
 
 
 
@@ -16702,7 +17679,7 @@ Since [[Class_NP|$\\text{NP}$]] is the class of query expressible in second-orde
 == Relations ==
 
 {{{#!class_relations
-
+{"version": 1.0, "class": "PH", "relations": {"contained_in": [{"class": "IP"}], "equals": []}}
 }}}
 
 
@@ -16730,6 +17707,9 @@ text = u'''
 
 
 = PH^cc^ - Communication Complexity PH =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16783,6 +17763,9 @@ text = u'''
 
 
 = PINC - Polynomial Ignorance of Names of Classes =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16841,6 +17824,9 @@ text = u'''
 
 = PIO - Polynomial Input Output =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -16893,6 +17879,9 @@ text = u'''
 
 
 = P^K^ - P With Kolmogorov-Complexity Oracle =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -16947,6 +17936,9 @@ text = u'''
 
 = PKC - Perfect Knowledge Complexity =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -16995,6 +17987,9 @@ text = u'''
 
 
 = PL - Probabilistic L =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -17049,6 +18044,9 @@ text = u'''
 
 = PL,,1,, - Polynomially-Bounded L1 Spectral Norm =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17097,6 +18095,9 @@ text = u'''
 
 
 = PLF - Polynomial Leaf =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -17147,6 +18148,9 @@ text = u'''
 
 = PLL - Polynomial Local Lemma =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17193,6 +18197,9 @@ text = u'''
 
 
 = PLS - Polynomial Local Search =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -17271,6 +18278,9 @@ text = u'''
 
 = PL,,∞,, - Polynomially-Bounded L∞-1 Spectral Norm =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17320,6 +18330,9 @@ text = u'''
 
 = P^NP^ - P With Oracle Access To NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17366,6 +18379,9 @@ text = u'''
 
 
 = P^NP[k]^ - P With k NP Queries(for constant k) =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -17415,6 +18431,9 @@ text = u'''
 
 
 = P^NP[log]^ - P With Log NP Queries =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -17477,6 +18496,9 @@ text = u'''
 
 = P^NP[log^2]^ - P With Log2 NP Queries =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17530,6 +18552,9 @@ text = u'''
 
 = PODN - Polynomial Odd Degree Node =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17578,6 +18603,9 @@ text = u'''
 
 
 = PP - Probabilistic Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -17674,6 +18702,9 @@ text = u'''
 
 = PP/poly - Nonuniform PP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17722,6 +18753,9 @@ text = u'''
 
 
 = PPA - Polynomial Parity Argument =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -17798,6 +18832,9 @@ text = u'''
 
 = PPAD - Polynomial Parity Argument (Directed) =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17865,6 +18902,9 @@ text = u'''
 
 = PPADS - Polynomial Parity Argument (Directed, Sink) =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -17921,6 +18961,9 @@ text = u'''
 
 
 = P^PP^ - P With PP Oracle =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18015,6 +19058,9 @@ text = u'''
 
 = PPSPACE - Probabilistic PSPACE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18072,11 +19118,14 @@ text = u'''
 
 = PP^cc^ - Analogue of PP for Communication Complexity =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-Defined in [[ZooRefs#BFS86|[BFS86] ]], [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]] is one of two ways to define a communication complexity analogue of [[Class_PP|$\\text{PP}$]]. In [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]], we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]], the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.}}}
+Defined in [[ZooRefs#BFS86|[BFS86] ]], [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]] is one of two ways to define a communication complexity analogue of [[Class_PP|$\\text{PP}$]]. In [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]], we note that in an algorithm that uses an amount of random bits bounded by $c$, the bias between the accept and reject probabilities can be no smaller than $2^c$. Thus, in [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]], the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.}}}
 
 == Complete Problem ==
 
@@ -18124,6 +19173,9 @@ text = u'''
 
 
 = PQUERY - PSPACE With Polynomial Queries =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18177,6 +19229,9 @@ text = u'''
 
 
 = P,,R,, - Polynomial-Time Over The Reals =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18251,6 +19306,9 @@ text = u'''
 
 = PSK - Polynomial Sink =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18308,6 +19366,9 @@ text = u'''
 
 = PSPACE - Polynomial-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18348,7 +19409,7 @@ Contained in [[Class_EXP|$\\text{EXP}$]].  There exists an oracle relative to wh
 
 
 
-In descriptive complexity, [[Class_PSPACE|$\\text{PSPACE}$]] can be defined with 4 differents kind of formulae, [[Class_FO|$\\text{FO}$]]() which is also FO(PFP) and [[Class_SO|$\\text{SO}$]]() which is also SO(TC).
+In descriptive complexity, [[Class_PSPACE|$\\text{PSPACE}$]] can be defined with 4 differents kind of formulae, FO(2^{n^{O(1)}}) which is also FO(PFP) and SO(n^{O(1)}) which is also SO(TC).
 
 
 
@@ -18384,6 +19445,9 @@ text = u'''
 
 
 = PSPACE/poly - PSPACE With Polynomial-Size Advice =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18431,6 +19495,9 @@ text = u'''
 
 
 = PT/WK(f(n),g(n)) - Parallel Time f(n) / Work g(n) =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18481,6 +19548,9 @@ text = u'''
 
 = PT,,1,, - Polynomial Threshold Functions =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18530,6 +19600,9 @@ text = u'''
 
 = PTAPE - Archaic for PSPACE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18576,6 +19649,9 @@ text = u'''
 
 
 = PTAS - Polynomial-Time Approximation Scheme =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18634,6 +19710,9 @@ text = u'''
 
 = PZK - Perfect Zero Knowledge =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18691,6 +19770,9 @@ text = u'''
 
 = P^cc^ - Communication Complexity P =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18707,7 +19789,7 @@ In a two-party communication complexity problem, Alice and Bob have n-bit string
 
 
 
-Note that all functions of the form above are solvable given  bits of communication, since no bounds are placed on the computational abilities of Alice and Bob. Thus, when discussing this class, "polynomially" is sometimes used in place of "polylogarithmically."
+Note that all functions of the form above are solvable given $O(n)$ bits of communication, since no bounds are placed on the computational abilities of Alice and Bob. Thus, when discussing this class, "polynomially" is sometimes used in place of "polylogarithmically."
 
 
 
@@ -18720,18 +19802,6 @@ Equals [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] ∩ [[Class_coNPcc|$\\text
 
 
 Defined in [[ZooRefs#BFS86|[BFS86] ]].
-
-
-
-Like [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]], but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
-
-
-
-More formally, [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
-
-
-
-[[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] is trivially contained in [[Class_BPPcc|$\\text{BPP}_\\text{}\\text{}^\\text{cc}\\text{}$]], [[Class_RPcc|$\\text{RP}_\\text{}\\text{}^\\text{cc}\\text{}$]] and [[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]].
 == Relations ==
 
 {{{#!class_relations
@@ -18763,6 +19833,9 @@ text = u'''
 
 
 = PermUP - Self-Permuting UP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18825,6 +19898,9 @@ text = u'''
 
 = PhP - Physical Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18869,6 +19945,62 @@ except Exception as e:
 if p:
     assert p.exists()
 
+pagename = u"Class_Pkcc"
+request = ScriptContext('localhost:8080', pagename)
+editor = PageEditor(request, pagename)
+text = u'''
+<<TableOfContents()>>
+
+
+= P,,k,,^cc^ - Pcc in NOF model,  players =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Like [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]], but with $k$ players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+More formally, [[Class_Pkcc|$\\text{P}_\\text{k}\\text{}^\\text{cc}\\text{}$]] is the class of functions $F:X_1\\times X_2 \\times \\cdots \\times X_k \\to \\{0,1\\}$ where for all $i\\in[1..k]$, $X_k\\in\\{0,1\\}^n$, such that $F$ is solvable in a deterministic sense by $k$ players, each of which is aware of all inputs $X_i$ other than his own, and such that $O\\left(\\mathrm{poly}(\\log n)\\right)$ bits of communication are used.
+
+
+
+[[Class_Pkcc|$\\text{P}_\\text{k}\\text{}^\\text{cc}\\text{}$]] is trivially contained in [[Class_BPPkcc|$\\text{BPP}_\\text{k}\\text{}^\\text{cc}\\text{}$]], [[Class_RPkcc|$\\text{RP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] and [[Class_NPkcc|$\\text{NP}_\\text{k}\\text{}^\\text{cc}\\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+'''
+_, rev, _ = editor.get_rev()
+p = None
+try:
+    editor.saveText(text, rev)
+    p = Page(request, pagename)
+    print p.page_name
+except Exception as e:
+    print ("Couldn't save Pkcc because")
+    print (e)
+
+if p:
+    assert p.exists()
+
 pagename = u"Class_PostBQP"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
@@ -18877,6 +20009,9 @@ text = u'''
 
 
 = PostBQP - BQP With Postselection =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -18951,6 +20086,9 @@ text = u'''
 
 = Pr,,H,,SPACE(f(n)) - Unbounded-Error Halting Probabilistic f(n)-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -18999,6 +20137,9 @@ text = u'''
 
 
 = PrSPACE(f(n)) - Unbounded-Error Probabilistic f(n)-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -19053,6 +20194,9 @@ text = u'''
 
 = PromiseBPP - Promise-Problem BPP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -19101,6 +20245,9 @@ text = u'''
 
 
 = PromiseBQP - Promise-Problem BQP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -19155,6 +20302,9 @@ text = u'''
 
 = PromiseP - Promise-Problem P =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -19201,6 +20351,9 @@ text = u'''
 
 
 = PromiseRP - Promise-Problem RP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -19255,6 +20408,9 @@ text = u'''
 
 = PromiseUP - Promise-Problem UP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -19304,6 +20460,9 @@ text = u'''
 
 = P^||NP^ - P With Parallel Queries To NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -19350,6 +20509,9 @@ text = u'''
 
 
 = Q - Quasi-Realtime Languages =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -19399,6 +20561,9 @@ text = u'''
 
 
 = QAC^0^ - Quantum AC0 =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -19461,6 +20626,9 @@ text = u'''
 
 = QAC^0^[m] - Quantum AC0[m] =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -19509,6 +20677,9 @@ text = u'''
 
 
 = QACC^0^ - Quantum ACC0 =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -19563,6 +20734,9 @@ text = u'''
 
 = QAC,,f,,^0^ - QAC0 With Fanout =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -19613,6 +20787,9 @@ text = u'''
 
 
 = QAM - Quantum AM =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -19667,6 +20844,9 @@ text = u'''
 
 = QCFL - Quantum CFL =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -19713,6 +20893,9 @@ text = u'''
 
 
 = QCMA - Quantum Classical MA =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -19779,6 +20962,9 @@ text = u'''
 
 = QH - Query Hierarchy Over NP =
 
+----
+CategoryClassical CategoryHierarchy 
+
 == Description ==
 
 {{{#!description
@@ -19831,6 +21017,9 @@ text = u'''
 
 
 = QIP - Quantum IP =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -19911,6 +21100,9 @@ text = u'''
 
 = QIP[2] - 2-Message Quantum IP =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -19959,6 +21151,9 @@ text = u'''
 
 
 = QL - Quasi-Linear =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -20012,6 +21207,9 @@ text = u'''
 
 
 = QMA - Quantum MA =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -20128,6 +21326,9 @@ text = u'''
 
 = QMA(2) - Quantum MA With Multiple Certificates =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20189,6 +21390,9 @@ text = u'''
 
 = QMA-plus - QMA With Super-Verifier =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20238,6 +21442,9 @@ text = u'''
 
 = QMA/qpoly - QMA With Polynomial-Size Quantum Advice =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20285,6 +21492,9 @@ text = u'''
 
 = QMA,,1,, - One Sided QMA =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20301,7 +21511,7 @@ Same as [[Class_QMA|$\\text{QMA}$]] except that for a "yes" instance, there exis
 
 
 
-Defined in [[ZooRefs#Bra06|[Bra06] ]]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any . It was also shown there that Quantum 2-SAT is in [[Class_P|$\\text{P}$]].
+Defined in [[ZooRefs#Bra06|[Bra06] ]]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any $ k \\geq 4$. It was also shown there that Quantum 2-SAT is in [[Class_P|$\\text{P}$]].
 
 
 
@@ -20337,6 +21547,9 @@ text = u'''
 
 
 = QMAM - Quantum Merlin-Arthur-Merlin Public-Coin Interactive Proofs =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -20391,6 +21604,9 @@ text = u'''
 
 = QMA,,log,, - QMA With Logarithmic-Size Proofs =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20439,6 +21655,9 @@ text = u'''
 
 
 = QMIP - Quantum Multi-Prover Interactive Proofs =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -20505,6 +21724,9 @@ text = u'''
 
 = QMIP,,le,, - Quantum Multi-Prover Interactive Proofs With Limited Prior Entanglement =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20554,6 +21776,9 @@ text = u'''
 
 = QMIP,,ne,, - Quantum Multi-Prover Interactive Proofs With No Prior Entanglement =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20602,6 +21827,9 @@ text = u'''
 
 
 = QNC - Quantum NC =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -20664,6 +21892,9 @@ text = u'''
 
 = QNC^0^ - Quantum NC0 =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20716,6 +21947,9 @@ text = u'''
 
 
 = QNC^1^ - Quantum NC1 =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -20770,6 +22004,9 @@ text = u'''
 
 = QNC,,f,,^0^ - Quantum NC0 With Unbounded Fanout =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -20823,6 +22060,9 @@ text = u'''
 
 = QP - Quasipolynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -20869,6 +22109,9 @@ text = u'''
 
 
 = QPLIN - Linear Quasipolynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -20919,6 +22162,9 @@ text = u'''
 
 = QPSPACE - Quasipolynomial-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -20967,6 +22213,9 @@ text = u'''
 
 
 = QRG - Quantum Refereed Games =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -21029,6 +22278,9 @@ text = u'''
 
 = QRG(1) - One-turn Quantum Refereed Games =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -21051,7 +22303,7 @@ If the answer is "no," then there exists a σ such that for all ρ, M(ρ,σ) rej
 
 
 
-In other words, it's the same as QRG(k) for , the class of problems that admit quantum interactive proofs with competing provers in which there's no communication from the verifier back to the provers.  QRG(1) is the quantum version of RG(1).
+In other words, it's the same as QRG(k) for $k=1$, the class of problems that admit quantum interactive proofs with competing provers in which there's no communication from the verifier back to the provers.  QRG(1) is the quantum version of RG(1).
 
 
 
@@ -21095,6 +22347,9 @@ text = u'''
 
 
 = QRG(2) - Two-turn (one-round) Quantum Refereed Games =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -21149,6 +22404,9 @@ text = u'''
 
 = QRG(k) - k-turn Quantum Refereed Games =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -21165,7 +22423,7 @@ Same as [[Class_QRG|$\\text{QRG}$]], except that now the verifier exchanges exac
 
 
 
-QRG(k) trivially contains RG(k) for each k (and hence [[Class_PSPACE|$\\text{PSPACE}$]] when ).  QRG(4) trivially contains [[Class_SQG|$\\text{SQG}$]].
+QRG(k) trivially contains RG(k) for each k (and hence [[Class_PSPACE|$\\text{PSPACE}$]] when $ k \\geq 2$).  QRG(4) trivially contains [[Class_SQG|$\\text{SQG}$]].
 
 
 
@@ -21205,6 +22463,9 @@ text = u'''
 
 
 = QS,,2,,P - Quantum S2P =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -21264,6 +22525,9 @@ text = u'''
 
 
 = QSZK - Quantum Statistical Zero-Knowledge =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -21334,6 +22598,9 @@ text = u'''
 
 = R - Recursive Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -21391,6 +22658,9 @@ text = u'''
 
 = RBQP - Strict Quantum RP =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -21439,6 +22709,9 @@ text = u'''
 
 
 = RE - Recursively Enumerable Languages =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -21525,6 +22798,9 @@ text = u'''
 
 = REG - Regular Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -21598,6 +22874,9 @@ text = u'''
 
 = RG - Refereed Games =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -21655,6 +22934,9 @@ text = u'''
 
 = RG(1) - One-turn Refereed Games =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -21677,7 +22959,7 @@ If the answer is 'no,' then there exists a distribution Z such that for all dist
 
 
 
-In other words, it's the same as RG(k) for , the class of problems that admit interactive proofs with competing provers in which there's no communication from the verifier back to the provers.
+In other words, it's the same as RG(k) for $k = 1$, the class of problems that admit interactive proofs with competing provers in which there's no communication from the verifier back to the provers.
 
 
 
@@ -21717,6 +22999,9 @@ text = u'''
 
 
 = RG(2) - Two-turn (one-round) Refereed Games =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -21767,6 +23052,9 @@ text = u'''
 
 = RG(k) - k-turn Refereed Games =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -21783,7 +23071,7 @@ Same as [[Class_RG|$\\text{RG}$]], except that now the verifier exchanges exactl
 
 
 
-Other than trivial bounds, very little is known of RG(k) for intermediate values of k. For example, does RG(k) = [[Class_PSPACE|$\\text{PSPACE}$]] for each constant ?
+Other than trivial bounds, very little is known of RG(k) for intermediate values of k. For example, does RG(k) = [[Class_PSPACE|$\\text{PSPACE}$]] for each constant $k\\geq 2$?
 == Relations ==
 
 {{{#!class_relations
@@ -21815,6 +23103,9 @@ text = u'''
 
 
 = RG[1] - One-Round Refereed Games =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -21869,6 +23160,9 @@ text = u'''
 
 = R,,H,,L - Randomized Halting Logarithmic-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -21922,6 +23216,9 @@ text = u'''
 
 = R,,H,,SPACE(f(n)) - One-Sided Error Halting Probabilistic f(n)-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -21968,6 +23265,9 @@ text = u'''
 
 
 = RL - Randomized Logarithmic-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -22028,6 +23328,9 @@ text = u'''
 
 = RNC - Randomized NC =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22084,6 +23387,9 @@ text = u'''
 
 
 = RP - Randomized Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -22164,6 +23470,9 @@ text = u'''
 
 = RPP - Restricted Pseudo Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22208,20 +23517,23 @@ except Exception as e:
 if p:
     assert p.exists()
 
-pagename = u"Class_RPcc"
+pagename = u"Class_RPkcc"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
 text = u'''
 <<TableOfContents()>>
 
 
-= RP,,,,^cc^ - Randomized Pcc =
+= RP,,k,,^cc^ - Randomized Pcc =
+
+----
+CategoryClassical 
 
 == Description ==
 
 {{{#!description
 
-The class of functions  which can be computed by  players with access to shared random bits in the number-on-forehead (defined as in [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]]) model, subject to two constraints:}}}
+The class of functions $F$ which can be computed by $k$ players with access to shared random bits in the number-on-forehead (defined as in [[Class_Pkcc|$\\text{P}_\\text{k}\\text{}^\\text{cc}\\text{}$]]) model, subject to two constraints:}}}
 
 == Complete Problem ==
 
@@ -22233,13 +23545,13 @@ The class of functions  which can be computed by  players with access to shared 
 
 
 
-The communication cost (the sum of the number of random bits used and bits written to the shared blackboard) is .
+The communication cost (the sum of the number of random bits used and bits written to the shared blackboard) is O(\textrm{polylog}(n)).
 
- If , then the players decide correctly with probably at least 2/3, whereas if , the players always decide correctly.
+ If F(X_1, \dots, X_k) = 1, then the players decide correctly with probably at least 2/3, whereas if F(X_1, \dots, X_k) = 0, the players always decide correctly.
 
 
 
-[[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not equal to [[Class_RPcc|$\\text{RP}_\\text{}\\text{}^\\text{cc}\\text{}$]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPkcc|$\\text{NP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] is not equal to [[Class_RPkcc|$\\text{RP}_\\text{k}\\text{}^\\text{cc}\\text{}$]] for $k\\le(1-\\delta)\\cdot\\log n$ players, for any constant $\\delta>0$ [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 {{{#!class_relations
@@ -22257,7 +23569,7 @@ try:
     p = Page(request, pagename)
     print p.page_name
 except Exception as e:
-    print ("Couldn't save RPcc because")
+    print ("Couldn't save RPkcc because")
     print (e)
 
 if p:
@@ -22271,6 +23583,9 @@ text = u'''
 
 
 = RQP - One-sided Error Extension of EQP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -22320,6 +23635,9 @@ text = u'''
 
 
 = RSPACE(f(n)) - Randomized f(n)-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -22374,6 +23692,9 @@ text = u'''
 
 = RevSPACE(f(n)) - Reversible f(n)-Space =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22423,6 +23744,9 @@ text = u'''
 
 = S,,2,,-EXP•P^NP^ - Don't Ask =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22471,6 +23795,9 @@ text = u'''
 
 
 = S,,2,,P - Second Level of the Symmetric Hierarchy =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -22547,6 +23874,9 @@ text = u'''
 
 = SAC - Semi-Unbounded-Fanin AC =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22600,6 +23930,9 @@ text = u'''
 
 = SAC^0^ - Semi-Unbounded-Fanin AC0 =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22648,6 +23981,9 @@ text = u'''
 
 
 = SAC^1^ - Semi-Unbounded-Fanin AC1 =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -22702,6 +24038,9 @@ text = u'''
 
 = SAPTIME - Stochastic Alternating Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22750,6 +24089,9 @@ text = u'''
 
 
 = SBP - Small Bounded-Error Probability =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -22816,6 +24158,9 @@ text = u'''
 
 = SBQP - Small Bounded-Error Quantum Polynomial-Time =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -22864,6 +24209,9 @@ text = u'''
 
 
 = SC - Steve's Class =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -22934,6 +24282,9 @@ text = u'''
 
 = SE - Subexponentially-Solvable Search Problems =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -22982,6 +24333,9 @@ text = u'''
 
 
 = SEH - Strong Exponential Hierarchy =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -23046,6 +24400,9 @@ text = u'''
 
 = SF,,k,, - Width-k Bottleneck Turing Machines =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -23106,6 +24463,9 @@ text = u'''
 
 
 = SKC - Statistical Knowledge Complexity =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -23173,6 +24533,9 @@ text = u'''
 
 
 = SL - Symmetric Logarithmic-Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -23269,6 +24632,9 @@ text = u'''
 
 = SLICEWISE PSPACE - Parametrized PSPACE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -23325,6 +24691,9 @@ text = u'''
 
 
 = SNP - Strict NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -23403,11 +24772,14 @@ text = u'''
 
 = SO - Second-Order logic =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
 
-We define second-order variable  has got an arity k and represent any proposition of arity . They are usually written in upper-case.}}}
+We define second-order variable  has got an arity k and represent any proposition of arity $k$. They are usually written in upper-case.}}}
 
 == Complete Problem ==
 
@@ -23431,7 +24803,7 @@ In Descriptive complexity we can see that [[Class_SO|$\\text{SO}$]] is equal to 
 
 
 
-This means that [[Class_SO|$\\text{SO}$]] with only existantial second-order quantification is equal to  which is [[Class_NP|$\\text{NP}$]], and with only universal quantification is equal to  which is Co-NP.
+This means that [[Class_SO|$\\text{SO}$]] with only existantial second-order quantification is equal to $\\Sigma^1$ which is [[Class_NP|$\\text{NP}$]], and with only universal quantification is equal to $\\Pi^1$ which is Co-NP.
 == Relations ==
 
 {{{#!class_relations
@@ -23463,6 +24835,9 @@ text = u'''
 
 
 = SO(Horn) - Second-order in Horn form =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -23517,6 +24892,9 @@ text = u'''
 
 = SO(Krom) - Second-order in Krom form =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -23569,6 +24947,9 @@ text = u'''
 
 
 = SO-E - Second Order Existential =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -23623,6 +25004,9 @@ text = u'''
 
 = SO[LFP] - Second-Order logic with least fixed point =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -23674,6 +25058,9 @@ text = u'''
 
 = SO[TC] - Second-Order logic with transitive closure =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -23716,20 +25103,23 @@ except Exception as e:
 if p:
     assert p.exists()
 
-pagename = u"Class_SO[]"
+pagename = u"Class_SO[t(n)]"
 request = ScriptContext('localhost:8080', pagename)
 editor = PageEditor(request, pagename)
 text = u'''
 <<TableOfContents()>>
 
 
-= SO[] - Iterated Second-Order logic =
+= SO[$t(n)$] - Iterated Second-Order logic =
+
+----
+CategoryClassical 
 
 == Description ==
 
 {{{#!description
 
-[[Class_SO[]|$\\text{SO[]}$]] is to [[Class_SO|$\\text{SO}$]] what [[Class_FO[]|$\\text{FO[]}$]] is to [[Class_FO|$\\text{FO}$]]. But we now also have second-order quantifier in the quantifier block.}}}
+SO[$t(n)$] is to [[Class_SO|$\\text{SO}$]] what [[Class_FO[t(n)]|$\\text{FO[t(n)]}$]] is to [[Class_FO|$\\text{FO}$]]. But we now also have second-order quantifier in the quantifier block.}}}
 
 == Complete Problem ==
 
@@ -23745,9 +25135,9 @@ In Descriptive complexity we can see that :
 
 
 
-[[Class_SO[]|$\\text{SO[]}$]] is  equal to [[Class_PSPACE|$\\text{PSPACE}$]] it is also another way to write SO(TC)
+SO[n^{O(1)}] is  equal to [[Class_PSPACE|$\\text{PSPACE}$]] it is also another way to write SO(TC)
 
-[[Class_SO[]|$\\text{SO[]}$]] is equal to EXPTIME it is also another way to write SO(LFP)
+SO[2^{n^{O(1)}}] is equal to EXPTIME it is also another way to write SO(LFP)
 == Relations ==
 
 {{{#!class_relations
@@ -23765,7 +25155,7 @@ try:
     p = Page(request, pagename)
     print p.page_name
 except Exception as e:
-    print ("Couldn't save SO[] because")
+    print ("Couldn't save SO[t(n)] because")
     print (e)
 
 if p:
@@ -23779,6 +25169,9 @@ text = u'''
 
 
 = SP - Semi-Efficient Parallel =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -23833,6 +25226,9 @@ text = u'''
 
 = SPARSE - Sparse Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -23881,6 +25277,9 @@ text = u'''
 
 
 = SPL - Stoic PL =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -23942,6 +25341,9 @@ text = u'''
 
 
 = SPP - Stoic PP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -24030,6 +25432,9 @@ text = u'''
 
 = SQG - Short Quantum Games =
 
+----
+CategoryQuantum 
+
 == Description ==
 
 {{{#!description
@@ -24107,6 +25512,9 @@ text = u'''
 
 = SUBEXP - Deterministic Subexponential-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24153,6 +25561,9 @@ text = u'''
 
 
 = SZK - Statistical Zero Knowledge =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -24279,6 +25690,9 @@ text = u'''
 
 = SZK,,h,, - SZK With Limited Help =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24331,6 +25745,9 @@ text = u'''
 
 
 = SelfNP - Self-Witnessing NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -24389,6 +25806,9 @@ text = u'''
 
 = TALLY - Tally Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24437,6 +25857,9 @@ text = u'''
 
 
 = TC^0^ - Constant-Depth Threshold Circuits =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -24523,6 +25946,9 @@ text = u'''
 
 = TFNP - Total Function NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24584,6 +26010,9 @@ text = u'''
 
 = TREE-REGULAR - Regular Tree-Valued Languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24632,6 +26061,9 @@ text = u'''
 
 
 = TreeBQP - BQP Restricted To Tree States =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -24694,6 +26126,9 @@ text = u'''
 
 = UAP - Unambiguous Alternating Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24755,6 +26190,9 @@ text = u'''
 
 = UCC - Unique Connected Component =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24812,6 +26250,9 @@ text = u'''
 
 = UCFL - Unambiguous CFL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24861,6 +26302,9 @@ text = u'''
 
 = UE - Unambiguous Exponential-Time With Linear Exponent =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -24907,6 +26351,9 @@ text = u'''
 
 
 = UL - Unambiguous L =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -24956,6 +26403,9 @@ text = u'''
 
 
 = UL/poly - Nonuniform UL =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25009,6 +26459,9 @@ text = u'''
 
 
 = UP - Unambiguous Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25085,6 +26538,9 @@ text = u'''
 
 = UPP^cc^ - Unrestricted Communication Analogue of PP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25099,7 +26555,7 @@ Defined by [[ZooRefs#BFS86|[BFS86] ]], [[Class_UPPcc|$\\text{UPP}^\\text{cc}\\te
 
 == Comments ==
 
-[[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]] is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
+[[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]] is the class of all languages defined by functions $f : \\{0,1\\}^n \\times \\{0,1\\}^n \\to \\{0,1\\}$ which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when $f(x,y) = 1$ and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
 
 
 
@@ -25135,6 +26591,9 @@ text = u'''
 
 
 = US - Unique Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25197,6 +26656,9 @@ text = u'''
 
 = VC,,k,, - Verification Class With A Circuit of Depth K =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25254,6 +26716,9 @@ text = u'''
 
 = VC,,or,, - Verification Class With OR =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25307,6 +26772,9 @@ text = u'''
 
 = VNC,,k,, - Valiant NC Over Field k =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25359,6 +26827,9 @@ text = u'''
 
 
 = VNP,,k,, - Valiant NP Over Field k =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25439,6 +26910,9 @@ text = u'''
 
 = VPL - Visibly pushdown languages =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25491,6 +26965,9 @@ text = u'''
 
 
 = VP,,k,, - Valiant P Over Field k =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25553,6 +27030,9 @@ text = u'''
 
 = VQP,,k,, - Valiant QP Over Field k =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25606,6 +27086,9 @@ text = u'''
 
 = W^*^[t] - W[t] With Parameter-Dependent Depth =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25654,6 +27137,9 @@ text = u'''
 
 
 = WAPP - Weak Almost-Wide PP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25709,6 +27195,9 @@ text = u'''
 
 
 = WHILE - While programs and some restrictions =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25791,6 +27280,9 @@ text = u'''
 
 = WPP - Wide PP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25854,6 +27346,9 @@ text = u'''
 
 = W[*] - Union of W[t]'s =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -25900,6 +27395,9 @@ text = u'''
 
 
 = W[1] - Weighted Analog of NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -25970,6 +27468,9 @@ text = u'''
 
 = W[P] - Weighted Circuit Satisfiability =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26031,6 +27532,9 @@ text = u'''
 
 = W[SAT] - Weighted Satisfiability =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26091,6 +27595,9 @@ text = u'''
 
 
 = W[t] - Nondeterministic Fixed-Parameter Hierarchy =
+
+----
+CategoryClassical CategoryHierarchy 
 
 == Description ==
 
@@ -26157,6 +27664,9 @@ text = u'''
 
 = XOR-MIP*[2,1] - MIP*[2,1] With 1-Bit Proofs =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26213,6 +27723,9 @@ text = u'''
 
 
 = XP - Fixed-Parameter Tractable for Each Parameter =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -26271,6 +27784,9 @@ text = u'''
 
 = XP,,uniform,, - Uniform XP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26320,6 +27836,9 @@ text = u'''
 
 = YACC - Yet Another Complexity Class =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26366,6 +27885,9 @@ text = u'''
 
 
 = YP - Your Polynomial-Time or Yaroslav-Percival =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -26434,6 +27956,9 @@ text = u'''
 
 = YPP - Yaroslav BPP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26493,6 +28018,9 @@ text = u'''
 
 = YQP - Yaroslav BQP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26541,6 +28069,9 @@ text = u'''
 
 
 = ZBQP - Strict Quantum ZPP =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -26599,6 +28130,9 @@ text = u'''
 
 = ZK - Zero-Knowledge (see CZK) =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26648,6 +28182,9 @@ text = u'''
 
 = ZPE - Zero-Error Probabilistic E =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26696,6 +28233,9 @@ text = u'''
 
 
 = ZPP - Zero-Error Probabilistic Polynomial-Time =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -26774,6 +28314,9 @@ text = u'''
 
 = ZPTIME(f(n)) - Zero-Error Probabilistic f(n)-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26822,6 +28365,9 @@ text = u'''
 
 
 = ZQP - Zero-Error Extension Of EQP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -26876,6 +28422,9 @@ text = u'''
 
 = coAM - Complement of AM =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -26922,6 +28471,9 @@ text = u'''
 
 
 = coC,,=,,P - Complement of C=P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -26970,6 +28522,9 @@ text = u'''
 
 = coMA - Complement of MA =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27016,6 +28571,9 @@ text = u'''
 
 
 = coMod,,k,,P - Complement of ModkP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27064,6 +28622,9 @@ text = u'''
 
 = coNE - Complement of NE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27110,6 +28671,9 @@ text = u'''
 
 
 = coNEXP - Complement of NEXP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27160,6 +28724,9 @@ text = u'''
 
 = coNL - Complement of NL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27206,6 +28773,9 @@ text = u'''
 
 
 = coNP - Complement of NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27272,6 +28842,9 @@ text = u'''
 
 = coNP/poly - Complement of NP/poly =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27325,6 +28898,9 @@ text = u'''
 
 = coNP^cc^ - Complement of NPcc =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27372,6 +28948,9 @@ text = u'''
 
 = coNQP - Complement of NQP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27418,6 +28997,9 @@ text = u'''
 
 
 = coRE - Complement of RE =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27468,6 +29050,9 @@ text = u'''
 
 = coRNC - Complement of RNC =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27514,6 +29099,9 @@ text = u'''
 
 
 = coRP - Complement of RP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27568,6 +29156,9 @@ text = u'''
 
 = coSL - Complement of SL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27615,6 +29206,9 @@ text = u'''
 
 = coSPARSE - Complement of SPARSE =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27661,6 +29255,9 @@ text = u'''
 
 
 = coUCC - Complement of UCC =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27711,6 +29308,9 @@ text = u'''
 
 = coUP - Complement of UP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27758,6 +29358,9 @@ text = u'''
 
 = cofrIP - Complement of frIP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27804,6 +29407,9 @@ text = u'''
 
 
 = compIP - Competitive IP Proof System =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27858,6 +29464,9 @@ text = u'''
 
 = compNP - Competitive NP Proof System =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -27910,6 +29519,9 @@ text = u'''
 
 
 = frIP - Function-Restricted IP Proof Systems =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -27974,6 +29586,9 @@ text = u'''
 
 = k-BWBP - Bounded-Width Branching Program =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28020,6 +29635,9 @@ text = u'''
 
 
 = k-EQBP - Width-k Polynomial-Time Exact Quantum Branching Programs =
+
+----
+CategoryQuantum 
 
 == Description ==
 
@@ -28077,6 +29695,9 @@ text = u'''
 
 
 = k-PBP - Polynomial-Size Width-k Branching Program =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28143,6 +29764,9 @@ text = u'''
 
 = mAL - Monotone AL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28189,6 +29813,9 @@ text = u'''
 
 
 = mL - Monotone L =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28246,6 +29873,9 @@ text = u'''
 
 
 = mNC^1^ - Monotone NC1 =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28308,6 +29938,9 @@ text = u'''
 
 = mNL - Monotone NL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28369,6 +30002,9 @@ text = u'''
 
 = mNP - Monotone NP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28421,6 +30057,9 @@ text = u'''
 
 
 = mP - Monotone P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28487,6 +30126,9 @@ text = u'''
 
 = mP/poly - Monotone P/poly =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28535,6 +30177,9 @@ text = u'''
 
 
 = mTC^0^ - Monotone TC0 =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28593,6 +30238,9 @@ text = u'''
 
 = mcoNL - Complement of mNL =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28641,6 +30289,9 @@ text = u'''
 
 
 = polyL - Polylogarithmic Space =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28691,6 +30342,9 @@ text = u'''
 
 = span-P - Span Polynomial-Time =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28740,6 +30394,9 @@ text = u'''
 
 = symP - Alternate Name for S2P =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28786,6 +30443,9 @@ text = u'''
 
 
 = Δ,,2,,P - P With NP Oracle =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28852,6 +30512,9 @@ text = u'''
 
 = Θ,,2,,P - Alternate name for PNP[log] =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -28898,6 +30561,9 @@ text = u'''
 
 
 = Π,,2,,P - coNP With NP Oracle =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -28947,6 +30613,9 @@ text = u'''
 
 
 = Σ,,2,,P - NP With NP Oracle =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -29011,6 +30680,9 @@ text = u'''
 
 = Φ,,2,,P - Second Level of the Symmetric Hierarchy, Alternative Definition =
 
+----
+CategoryClassical CategoryHierarchy 
+
 == Description ==
 
 {{{#!description
@@ -29069,6 +30741,9 @@ text = u'''
 
 
 = βP - Limited-Nondeterminism NP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -29131,6 +30806,9 @@ text = u'''
 
 = δ-BPP - δ-Semi-Random BPP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -29184,6 +30862,9 @@ text = u'''
 
 = δ-RP - δ-Semi-Random RP =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -29232,6 +30913,9 @@ text = u'''
 
 
 = ∃BPP - BPP With Existential Operator =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -29296,6 +30980,9 @@ text = u'''
 
 = ∃NISZK - NISZK With Existential Operator =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -29342,6 +31029,9 @@ text = u'''
 
 
 = ⊕EXP - Parity EXP =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -29391,6 +31081,9 @@ text = u'''
 
 
 = ⊕L - Parity L =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -29449,6 +31142,9 @@ text = u'''
 
 = ⊕L/poly - Nonuniform ⊕L =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -29497,6 +31193,9 @@ text = u'''
 
 
 = ⊕P - Parity P =
+
+----
+CategoryClassical 
 
 == Description ==
 
@@ -29569,6 +31268,9 @@ text = u'''
 
 = ⊕SAC^0^ - AC0 With Unbounded Parity Gates =
 
+----
+CategoryClassical 
+
 == Description ==
 
 {{{#!description
@@ -29615,6 +31317,9 @@ text = u'''
 
 
 = ⊕SAC^1^ - AC1 With Unbounded Parity Gates =
+
+----
+CategoryClassical 
 
 == Description ==
 

@@ -5,9 +5,22 @@
 
 = NP,,C,, - NP Over The Complex Numbers =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems such that (1) they're in [[Class_NP|$\text{NP}$]] and (2) every problem in [[Class_NP|$\text{NP}$]] is reducible to them (under some notion of reduction).  In other words, the hardest problems in [[Class_NP|$\text{NP}$]].
+== Description ==
+
+{{{#!description
+
+The class of decision problems such that (1) they're in [[Class_NP|$\text{NP}$]] and (2) every problem in [[Class_NP|$\text{NP}$]] is reducible to them (under some notion of reduction).  In other words, the hardest problems in [[Class_NP|$\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -49,20 +62,24 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-It is unknown whether [[Class_PC|$\text{PC}$]] = [[Class_NPC|$\text{NPC}$]], nor are implications known among this question, [[Class_PR|$\text{PR}$]] versus [[Class_NPR|$\text{NPR}$]], and [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]].
+It is unknown whether [[Class_PC|$\text{P}_\text{C}\text{}$]] = [[Class_NPC|$\text{NP}_\text{C}\text{}$]], nor are implications known among this question, [[Class_PR|$\text{P}_\text{R}\text{}$]] versus [[Class_NPR|$\text{NP}_\text{R}\text{}$]], and [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]].
 
 
 
-However, [[ZooRefs#CKK+95|[CKK+95] ]] show that if [[Class_P/poly|$\text{P/poly}$]] does not equal [[Class_NP/poly|$\text{NP/poly}$]] then [[Class_PC|$\text{PC}$]] does not equal [[Class_NPC|$\text{NPC}$]].
+However, [[ZooRefs#CKK+95|[CKK+95] ]] show that if [[Class_P/poly|$\text{P/poly}$]] does not equal [[Class_NP/poly|$\text{NP/poly}$]] then [[Class_PC|$\text{P}_\text{C}\text{}$]] does not equal [[Class_NPC|$\text{NP}_\text{C}\text{}$]].
 
 
 
-[[ZooRefs#BCS+97|[BCS+97] ]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then [[Class_PC|$\text{PC}$]] does not equal [[Class_NPC|$\text{NPC}$]].
+[[ZooRefs#BCS+97|[BCS+97] ]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then [[Class_PC|$\text{P}_\text{C}\text{}$]] does not equal [[Class_NPC|$\text{NP}_\text{C}\text{}$]].
 
 
 
-See also [[Class_VNPk|$\text{VNPk}$]].
+See also [[Class_VNPk|$\text{VNP}_\text{k}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

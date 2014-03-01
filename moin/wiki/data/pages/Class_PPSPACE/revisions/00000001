@@ -5,9 +5,22 @@
 
 = PPSPACE - Probabilistic PSPACE =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_IPP|$\text{IPP}$]], except that [[Class_IPP|$\text{IPP}$]] uses private coins while [[Class_PPSPACE|$\text{PPSPACE}$]] uses public coins.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_IPP|$\text{IPP}$]], except that [[Class_IPP|$\text{IPP}$]] uses private coins while [[Class_PPSPACE|$\text{PPSPACE}$]] uses public coins.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Equals [[Class_PSPACE|$\text{PSPACE}$]].
 
 Defined in [[ZooRefs#Pap83|[Pap83] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

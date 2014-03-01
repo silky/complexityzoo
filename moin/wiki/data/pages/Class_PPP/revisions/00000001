@@ -5,9 +5,22 @@
 
 = P^PP^ - P With PP Oracle =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+== Description ==
+
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -43,7 +56,7 @@ A level of the counting hierarchy [[Class_CH|$\text{CH}$]].
 
 
 
-It is not known whether there exists an oracle relative to which [[Class_PPP|$\text{PPP}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]].
+It is not known whether there exists an oracle relative to which [[Class_PPP|$\text{P}^\text{PP}\text{}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]].
 
 
 
@@ -51,12 +64,16 @@ Contains PP^PH^ [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
-Equals [[Class_PSharpP|$\text{P#P}$]] (exercise for the visitor).
+Equals [[Class_PSharpP|$\text{P}^\text{#P}\text{}$]] (exercise for the visitor).
 
 
 
 Since the permanent of a matrix is #P-complete [[ZooRefs#Val79|[Val79] ]], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

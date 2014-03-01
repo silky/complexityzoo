@@ -5,14 +5,31 @@
 
 = AVBPP - Average-Case BPP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [[ZooRefs#OW93|[OW93] ]] to be the class of decision problems that have a good average-case [[Class_BPP|$\text{BPP}$]] algorithm, whenever the input is chosen from an efficiently samplable distribution.
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#OW93|[OW93] ]] to be the class of decision problems that have a good average-case [[Class_BPP|$\text{BPP}$]] algorithm, whenever the input is chosen from an efficiently samplable distribution.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Note that this is not the same as the [[Class_BPP|$\text{BPP}$]] version of [[Class_AvgP|$\text{AvgP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

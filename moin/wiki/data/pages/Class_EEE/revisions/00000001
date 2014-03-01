@@ -5,9 +5,22 @@
 
 = EEE - Triple-Exponential Time With Linear Exponent =
 
-== Comments ==
+----
+CategoryClassical 
 
-Equals DTIME(2^2^2^O(n)^^^).
+== Description ==
+
+{{{#!description
+
+Equals DTIME(2^2^2^O(n)^^^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ In contrast to the case of [[Class_EE|$\text{EE}$]], it is not known whether [[C
 
 Equals DTIME(2^2^2^O(n)^).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

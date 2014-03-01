@@ -5,9 +5,22 @@
 
 = LIN - Linear Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by a deterministic Turing machine in linear time.
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a deterministic Turing machine in linear time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Strictly Contained in [[Class_NLIN|$\text{NLIN}$]]. [[ZooRefs#PPS+83|[PPS+83] ]]
 
 Contained in [[Class_NLIN|$\text{NLIN}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

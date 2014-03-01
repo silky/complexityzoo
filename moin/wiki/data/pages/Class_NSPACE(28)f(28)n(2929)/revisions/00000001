@@ -5,9 +5,22 @@
 
 = NSPACE(f(n)) - Nondeterministic f(n)-Space =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_NPSPACE|$\text{NPSPACE}$]], but with f(n)-space (for some constructible function f) rather than polynomial-space machines.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_NPSPACE|$\text{NPSPACE}$]], but with f(n)-space (for some constructible function f) rather than polynomial-space machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ NSPACE(n^k^) is strictly contained in NSPACE(n^k+ε^) for ε>0 [[ZooRefs#Iba72|[
 
 Contained in DSPACE(f(n)^2^) [[ZooRefs#Sav70|[Sav70] ]], and indeed RevSPACE(f(n)^2^) [[ZooRefs#CP95|[CP95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

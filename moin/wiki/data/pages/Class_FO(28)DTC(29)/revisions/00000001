@@ -5,18 +5,38 @@
 
 = FO(DTC) - First-order with deterministic transitive closure =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+FO(DTC) is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC($\\phi_{u,v}$), we know that for all $u$, there exist at most one $v$ such that phi(u,v).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-[[Class_FO(DTC)|$\text{FO(DTC)}$]] is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC(), we know that for all , there exist at most one  such that phi(u,v).
 
 
-
-We can suppose that DTC() is syntactic sugar for TC() where .
+We can suppose that DTC($\\phi_{u,v}$) is syntactic sugar for TC($\\psi_{u,v}$) where $\\psi(u,v)=\\phi(u,v)\\wedge \
+orall x, (x=v \
+ee \
+eg \\psi(u,x))$.
 
 
 
 It was shown in [[ZooRefs#Imm99|[Imm99] ]] page 144 that this class is equal to [[Class_L|$\text{L}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

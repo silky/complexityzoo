@@ -5,18 +5,35 @@
 
 = NL/poly - Nonuniform NL =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_NL|$\text{NL}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_NL|$\text{NL}$]] as [[Class_P/poly|$\text{P/poly}$]] does to [[Class_P|$\text{P}$]].
 
 
-
-Is contained in [[Class_⊕L/poly|$\text{⊕L/poly}$]] [[ZooRefs#GW96|[GW96] ]], as well as [[Class_SAC1|$\text{SAC1}$]].
+Is contained in [[Class_⊕L/poly|$\text{⊕L/poly}$]] [[ZooRefs#GW96|[GW96] ]], as well as [[Class_SAC1|$\text{SAC}^\text{1}\text{}$]].
 
 
 
 Equals [[Class_UL/poly|$\text{UL/poly}$]] [[ZooRefs#RA00|[RA00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

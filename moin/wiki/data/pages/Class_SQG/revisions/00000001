@@ -5,9 +5,22 @@
 
 = SQG - Short Quantum Games =
 
-== Comments ==
+----
+CategoryQuantum 
 
-Same as [[Class_QRG(2)|$\text{QRG(2)}$]], except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.
+== Description ==
+
+{{{#!description
+
+Same as QRG(2), except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,15 +32,15 @@ Defined in [[ZooRefs#GW05|[GW05] ]], where it was also shown that [[Class_SQG|$\
 
 
 
-[[Class_SQG|$\text{SQG}$]] is trivially contained in QRG(4) (and hence EXP).
+[[Class_SQG|$\text{SQG}$]] is trivially contained in QRG(4) (and hence [[Class_EXP|$\text{EXP}$]]).
 
 
 
-[[Class_SQG|$\text{SQG}$]] trivially contains [[Class_QRG(2)|$\text{QRG(2)}$]] (and hence PSPACE).
+[[Class_SQG|$\text{SQG}$]] trivially contains QRG(2) (and hence [[Class_PSPACE|$\text{PSPACE}$]]).
 
 
 
-[[Class_SQG|$\text{SQG}$]] is contained in [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#GW10|[GW10] ]].  Hence [[Class_SQG|$\text{SQG}$]] = [[Class_QRG(2)|$\text{QRG(2)}$]] = [[Class_RG(2)|$\text{RG(2)}$]] = [[Class_PSPACE|$\text{PSPACE}$]] and the addition of quantum information, combined with the ability of the verifier to process the one prover's answer before preparing the other prover's question, has no effect on the complexity of two-turn (one-round) zero-sum games.
+[[Class_SQG|$\text{SQG}$]] is contained in [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#GW10|[GW10] ]].  Hence [[Class_SQG|$\text{SQG}$]] = QRG(2) = RG(2) = [[Class_PSPACE|$\text{PSPACE}$]] and the addition of quantum information, combined with the ability of the verifier to process the one prover's answer before preparing the other prover's question, has no effect on the complexity of two-turn (one-round) zero-sum games.
 
 
 
@@ -39,8 +52,12 @@ Same as [[Class_QRG|$\text{QRG}$]], except that now the verifier can exchange on
 
 
 
-[[Class_SQG|$\text{SQG}$]] trivially contains [[Class_QS2P|$\text{QS2P}$]].
+[[Class_SQG|$\text{SQG}$]] trivially contains [[Class_QS2P|$\text{QS}_\text{2}\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

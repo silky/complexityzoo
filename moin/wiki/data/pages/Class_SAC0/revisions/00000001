@@ -5,14 +5,31 @@
 
 = SAC^0^ - Semi-Unbounded-Fanin AC0 =
 
-== Comments ==
+----
+CategoryClassical 
 
-See [[Class_SAC|$\text{SAC}$]] for definition.
+== Description ==
+
+{{{#!description
+
+See [[Class_SAC|$\text{SAC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Not closed under complement [[ZooRefs#BCD+89|[BCD+89] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

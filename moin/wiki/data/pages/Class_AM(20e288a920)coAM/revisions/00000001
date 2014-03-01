@@ -5,9 +5,22 @@
 
 = AM ∩ coAM - AM ∩ coAM =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems for which both "yes" and "no" answers can be verified by an [[Class_AM|$\text{AM}$]] protocol.
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which both "yes" and "no" answers can be verified by an [[Class_AM|$\text{AM}$]] protocol.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ If [[Class_EXP|$\text{EXP}$]] requires exponential time even for [[Class_AM|$\te
 
 There exists an oracle relative to which [[Class_AM|$\text{AM}$]] ∩ [[Class_coAM|$\text{coAM}$]] is not contained in [[Class_PP|$\text{PP}$]] [[ZooRefs#Ver95|[Ver95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

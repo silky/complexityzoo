@@ -5,9 +5,22 @@
 
 = QACC^0^ - Quantum ACC0 =
 
-== Comments ==
+----
+CategoryQuantum 
 
-Same as [[Class_QAC0[m]|$\text{QAC0[m]}$]], except that Mod-m gates are allowed for any m.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QAC0[m]|$\text{QAC}^\text{0}\text{[m]}$]], except that Mod-m gates are allowed for any m.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ Defined in [[ZooRefs#Moo99|[Moo99] ]].
 
 
 
-[[ZooRefs#GHP00|[GHP00] ]] showed that [[Class_QACC0|$\text{QACC0}$]] equals QAC^0^[p] for any prime p.
+[[ZooRefs#GHP00|[GHP00] ]] showed that [[Class_QACC0|$\text{QACC}^\text{0}\text{}$]] equals QAC^0^[p] for any prime p.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

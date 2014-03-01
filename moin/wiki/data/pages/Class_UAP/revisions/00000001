@@ -5,9 +5,22 @@
 
 = UAP - Unambiguous Alternating Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_AP|$\text{AP}$]], except we are promised that each existential quantifier has at most one 'yes' path, and each universal quantifier has at most one 'no' path.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AP|$\text{AP}$]], except we are promised that each existential quantifier has at most one 'yes' path, and each universal quantifier has at most one 'no' path.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ Defined in [[ZooRefs#NR98|[NR98] ]], where it was also shown that, even though [
 
 [[ZooRefs#CGR+04|[CGR+04] ]] have also shown that UAP^UAP^ = [[Class_UAP|$\text{UAP}$]], and that [[Class_UAP|$\text{UAP}$]] contains the Graph Isomorphism problem.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

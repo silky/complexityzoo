@@ -5,9 +5,22 @@
 
 = EXP - Exponential Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Equals the union of DTIME(2^p(n)^) over all polynomials p.
+== Description ==
+
+{{{#!description
+
+Equals the union of DTIME(2^p(n)^) over all polynomials p.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -43,15 +56,17 @@ There exist oracles relative to which
 
 
 
-[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size, then [[Class_P|$\text{P}$]] can be simulated in [[Class_MAPOLYLOG|$\text{MAPOLYLOG}$]] such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|$\text{P}$]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|$\text{EXP}$]] ⊆ [[Class_MA|$\text{MA}$]] if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size.
+[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size, then [[Class_P|$\text{P}$]] can be simulated in [[Class_MAPOLYLOG|$\text{MA}_\text{POLYLOG}\text{}$]] such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|$\text{P}$]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|$\text{EXP}$]] ⊆ [[Class_MA|$\text{MA}$]] if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size.
 
 
 
-[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\text{EXP}$]]  [[Class_NP/poly|$\text{NP/poly}$]] implies [[Class_EXP|$\text{EXP}$]]  P^||NP^/poly.
+[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\text{EXP}$]] $\
+ot\\subseteq$ [[Class_NP/poly|$\text{NP/poly}$]] implies [[Class_EXP|$\text{EXP}$]] $\
+ot\\subseteq$ P^||NP^/poly.
 
 
 
-In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
+In descriptive complexity EXPTIME can be defined as SO(2^{n^{O(1)}}) which is also SO(LFP)
 
 
 
@@ -61,6 +76,10 @@ In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
 
 [[Class_EXP|$\text{EXP}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Dek76|[Dek76] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

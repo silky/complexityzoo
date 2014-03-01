@@ -5,9 +5,22 @@
 
 = GLO - Guaranteed Local Optima =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of [[Class_NPO|$\text{NPO}$]] problems which have the property that for all locally optimal solutions, the ratio between the values of the local and global optima is upper-bounded by a constant.
+== Description ==
+
+{{{#!description
+
+The class of [[Class_NPO|$\text{NPO}$]] problems which have the property that for all locally optimal solutions, the ratio between the values of the local and global optima is upper-bounded by a constant.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Defined in [[ZooRefs#AP95|[AP95] ]], where it was also shown that [[Class_GLO|$\
 
 [[ZooRefs#KMS+99|[KMS+99] ]] showed that [[Class_MaxSNP|$\text{MaxSNP}$]] is not contained in [[Class_GLO|$\text{GLO}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

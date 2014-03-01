@@ -5,9 +5,22 @@
 
 = BPQP - Bounded-Error Probabilistic QP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Equals BPTIME(2^O((log n)^k)^); that is, the class of problems solvable in quasipolynomial-time on a bounded-error machine.
+== Description ==
+
+{{{#!description
+
+Equals BPTIME(2^O((log n)^k)^); that is, the class of problems solvable in quasipolynomial-time on a bounded-error machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Defined in [[ZooRefs#CNS99|[CNS99] ]], where the following was also shown:
 
 If either (1) [[Class_SharpP|$\text{#P}$]] does not have a subexponential-time bounded-error algorithm, or (2) [[Class_EXP|$\text{EXP}$]] does not have subexponential-size circuits, then the [[Class_BPQP|$\text{BPQP}$]] hierarchy is strict -- that is, for all a < b at least 1, BPTIME(2^(log n)^a^) is strictly contained in BPTIME(2^(log n)^b^).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

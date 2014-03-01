@@ -5,18 +5,35 @@
 
 = VNC,,k,, - Valiant NC Over Field k =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_VPk|$\text{VP}_\text{k}\text{}$]] as [[Class_NC|$\text{NC}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_VPk|$\text{VPk}$]] as [[Class_NC|$\text{NC}$]] does to [[Class_P|$\text{P}$]].
+
+
+More formally, the class of [[Class_VPk|$\text{VP}_\text{k}\text{}$]] problems computable by a straight-line program of depth polylogarithmic in n.
 
 
 
-More formally, the class of [[Class_VPk|$\text{VPk}$]] problems computable by a straight-line program of depth polylogarithmic in n.
-
-
-
-Surprisingly, [[Class_VNCk|$\text{VNCk}$]] = [[Class_VPk|$\text{VPk}$]] for any k [[ZooRefs#VSB+83|[VSB+83] ]].
+Surprisingly, [[Class_VNCk|$\text{VNC}_\text{k}\text{}$]] = [[Class_VPk|$\text{VP}_\text{k}\text{}$]] for any k [[ZooRefs#VSB+83|[VSB+83] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

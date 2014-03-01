@@ -5,9 +5,22 @@
 
 = FH - Fourier Hierarchy =
 
-== Comments ==
+----
+CategoryClassical CategoryHierarchy 
 
-FH,,k,, is the class of problems solvable by a uniform family of polynomial-size quantum circuits, with k levels of Hadamard gates and all other gates preserving the computational basis.  (Conditional phase flip gates are fine, for example.)  Thus
+== Description ==
+
+{{{#!description
+
+FH,,k,, is the class of problems solvable by a uniform family of polynomial-size quantum circuits, with k levels of Hadamard gates and all other gates preserving the computational basis.  (Conditional phase flip gates are fine, for example.)  Thus}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,6 +46,10 @@ FH,,1,, = [[Class_BPP|$\text{BPP}$]]
 
 FH,,2,, contains factoring, because of Kitaev's phase estimation algorithm
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

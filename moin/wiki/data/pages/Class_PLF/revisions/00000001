@@ -5,14 +5,31 @@
 
 = PLF - Polynomial Leaf =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [[ZooRefs#Pap90|[Pap90] ]].
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#Pap90|[Pap90] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 I believe it's the same as [[Class_PPA|$\text{PPA}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

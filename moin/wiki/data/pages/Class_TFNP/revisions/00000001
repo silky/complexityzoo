@@ -5,9 +5,22 @@
 
 = TFNP - Total Function NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of function problems of the following form:
+== Description ==
+
+{{{#!description
+
+The class of function problems of the following form:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ Contained in [[Class_FNP|$\text{FNP}$]].
 
 Subclasses include [[Class_PPA|$\text{PPA}$]], [[Class_PPP|$\text{PPP}$]], and [[Class_PLS|$\text{PLS}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

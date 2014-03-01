@@ -5,10 +5,29 @@
 
 = QP - Quasipolynomial-Time =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals DTIME(2^polylog(n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals DTIME(2^polylog(n)^).
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

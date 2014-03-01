@@ -5,10 +5,29 @@
 
 = mAL - Monotone AL =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#GS90|[GS90] ]].  Equals [[Class_mP|$\text{mP}$]] by definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Defined in [[ZooRefs#GS90|[GS90] ]].  Equals [[Class_mP|$\text{mP}$]] by definition.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

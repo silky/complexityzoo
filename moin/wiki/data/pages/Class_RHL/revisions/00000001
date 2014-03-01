@@ -5,9 +5,22 @@
 
 = R,,H,,L - Randomized Halting Logarithmic-Space =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_L|$\text{L}$]] as [[Class_RP|$\text{RP}$]] does to [[Class_P|$\text{P}$]].  The randomized machine must halt for every input and every setting of the random tape.
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_RP|$\text{RP}$]] does to [[Class_P|$\text{P}$]].  The randomized machine must halt for every input and every setting of the random tape.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Contains undirected reachability (is there a path from vertex u to vertex v in a
 
 Contained in [[Class_RL|$\text{RL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

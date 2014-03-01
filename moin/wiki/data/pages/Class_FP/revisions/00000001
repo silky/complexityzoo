@@ -5,9 +5,22 @@
 
 = FP - Function Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Sometimes defined as the class of functions computable in polynomial time by a Turing machine.  (Generalizes [[Class_P|$\text{P}$]], which is defined in terms of decision problems only.)
+== Description ==
+
+{{{#!description
+
+Sometimes defined as the class of functions computable in polynomial time by a Turing machine.  (Generalizes [[Class_P|$\text{P}$]], which is defined in terms of decision problems only.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,8 +32,12 @@ However, if we want to compare [[Class_FP|$\text{FP}$]] to [[Class_FNP|$\text{FN
 
 
 
-If FP^NP^ = [[Class_FPNP[log]|$\text{FPNP[log]}$]] (that is, allowed only a logarithmic number of queries), then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Kre88|[Kre88] ]].  The corresponding result for [[Class_PNP|$\text{PNP}$]] versus [[Class_PNP[log]|$\text{PNP[log]}$]] is not known, and indeed fails relative to some oracles (see [Har87b]).
+If FP^NP^ = [[Class_FPNP[log]|$\text{FP}^\text{NP[log]}\text{}$]] (that is, allowed only a logarithmic number of queries), then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Kre88|[Kre88] ]].  The corresponding result for [[Class_PNP|$\text{P}^\text{NP}\text{}$]] versus [[Class_PNP[log]|$\text{P}^\text{NP[log]}\text{}$]] is not known, and indeed fails relative to some oracles (see [Har87b]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

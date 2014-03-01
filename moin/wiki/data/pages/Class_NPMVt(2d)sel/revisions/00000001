@@ -5,14 +5,31 @@
 
 = NPMV,,t,,-sel - NPMVt Selective =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_NPMVt|$\text{NPMVt}$]] as [[Class_P-Sel|$\text{P-Sel}$]] does to [[Class_P|$\text{P}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_NPMVt|$\text{NPMV}_\text{t}\text{}$]] as [[Class_P-Sel|$\text{P-Sel}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

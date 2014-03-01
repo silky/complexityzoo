@@ -5,10 +5,29 @@
 
 = AW[*] - Alternating W[*] =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The union of [[Class_AW[t]|$\text{AW[t]}$]] over all t.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The union of [[Class_AW[t]|$\text{AW[t]}$]] over all t.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

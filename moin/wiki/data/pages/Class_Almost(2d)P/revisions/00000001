@@ -5,14 +5,31 @@
 
 = Almost-P - Languages Almost Surely in PA =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.
+== Description ==
+
+{{{#!description
+
+The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_BPP|$\text{BPP}$]] [[ZooRefs#BG81|[BG81] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

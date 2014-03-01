@@ -5,11 +5,24 @@
 
 = SZK - Statistical Zero Knowledge =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol.  In such an interactive proof}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol.  In such an interactive proof
-
-(see IP), we have a probabilistic polynomial-time verifier, and a prover who has unbounded computational resources.  By exchanging messages with the prover, the verifier must become convinced (with high probability) that the answer is "yes," without learning anything else about the problem (statistically).
+(see [[Class_IP|$\text{IP}$]]), we have a probabilistic polynomial-time verifier, and a prover who has unbounded computational resources.  By exchanging messages with the prover, the verifier must become convinced (with high probability) that the answer is "yes," without learning anything else about the problem (statistically).
 
 
 
@@ -51,7 +64,7 @@ If any hard-on-average language is in [[Class_SZK|$\text{SZK}$]], then one-way f
 
 
 
-See general zero-knowledge (ZK).
+See general zero-knowledge ([[Class_ZK|$\text{ZK}$]]).
 
 
 
@@ -89,6 +102,10 @@ Finally, we can assume without loss of generality that the verifier (Arthur) is 
 
 Zero-knowledge proofs were first studied in [[ZooRefs#GMW91|[GMW91] ]], [[ZooRefs#GMR89|[GMR89] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

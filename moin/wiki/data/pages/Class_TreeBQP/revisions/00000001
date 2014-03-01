@@ -5,9 +5,22 @@
 
 = TreeBQP - BQP Restricted To Tree States =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of languages accepted by a [[Class_BQP|$\text{BQP}$]] machine subject to the constraint that at every time step t, the machine's state is exponentially close to a tree state -- that is, a state expressible by a polynomial-size tree of additions and tensor products (together with complex constants and |0> and |1> leaf nodes).
+== Description ==
+
+{{{#!description
+
+The class of languages accepted by a [[Class_BQP|$\text{BQP}$]] machine subject to the constraint that at every time step t, the machine's state is exponentially close to a tree state -- that is, a state expressible by a polynomial-size tree of additions and tensor products (together with complex constants and |0> and |1> leaf nodes).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ contained in the third level of [[Class_PH|$\text{PH}$]], which might provide we
 
 [[Class_TreeBQP|$\text{TreeBQP}$]] does not equal [[Class_BQP|$\text{BQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

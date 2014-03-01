@@ -5,18 +5,35 @@
 
 = MA,,EXP,, - Exponential-Time MA =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_MA|$\text{MA}$]], except now Arthur is [[Class_EXP|$\text{EXP}$]] instead of polynomial-time, and the message from Merlin can be exponentially long.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_MA|$\text{MA}$]], except now Arthur is [[Class_EXP|$\text{EXP}$]] instead of polynomial-time, and the message from Merlin can be exponentially long.
+
+
+There is a problem in [[Class_MAEXP|$\text{MA}_\text{EXP}\text{}$]] that does not have polynomial-size circuits [[ZooRefs#BFT98|[BFT98] ]].  On the other hand, there is an oracle relative to which every problem in [[Class_MAEXP|$\text{MA}_\text{EXP}\text{}$]] does have polynomial-size circuits.
 
 
 
-There is a problem in [[Class_MAEXP|$\text{MAEXP}$]] that does not have polynomial-size circuits [[ZooRefs#BFT98|[BFT98] ]].  On the other hand, there is an oracle relative to which every problem in [[Class_MAEXP|$\text{MAEXP}$]] does have polynomial-size circuits.
-
-
-
-[[ZooRefs#MVW99|[MVW99] ]] considered the best circuit lower bound obtainable for a problem in [[Class_MAEXP|$\text{MAEXP}$]], using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
+[[ZooRefs#MVW99|[MVW99] ]] considered the best circuit lower bound obtainable for a problem in [[Class_MAEXP|$\text{MA}_\text{EXP}\text{}$]], using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

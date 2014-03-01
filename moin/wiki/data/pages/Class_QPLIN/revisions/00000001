@@ -5,14 +5,31 @@
 
 = QPLIN - Linear Quasipolynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Equals DTIME(n^O(log n)^).
+== Description ==
+
+{{{#!description
+
+Equals DTIME(n^O(log n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Has the same relationship to [[Class_QP|$\text{QP}$]] that [[Class_E|$\text{E}$]] does to [[Class_EXP|$\text{EXP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

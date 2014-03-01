@@ -5,14 +5,31 @@
 
 = mP/poly - Monotone P/poly =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by a nonuniform family of polynomial-size Boolean circuits with only AND and OR gates, no NOT gates.  (Or rather, following the definitions of [[ZooRefs#GS90|[GS90] ]], the entire input can be negated as long as there are no other negations.)
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a nonuniform family of polynomial-size Boolean circuits with only AND and OR gates, no NOT gates.  (Or rather, following the definitions of [[ZooRefs#GS90|[GS90] ]], the entire input can be negated as long as there are no other negations.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 More straightforward to define than [[Class_mP|$\text{mP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

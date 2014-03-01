@@ -5,9 +5,22 @@
 
 = MIP,,EXP,, - Exponential-Time Multi-Prover Interactive Proof =
 
-== Comments ==
+----
+CategoryClassical 
 
-The exponential-time analogue of [[Class_MIP|$\text{MIP}$]].
+== Description ==
+
+{{{#!description
+
+The exponential-time analogue of [[Class_MIP|$\text{MIP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ In the unrelativized world, equals [[Class_NEEXP|$\text{NEEXP}$]].
 
 
 
-There exists an oracle relative to which [[Class_MIPEXP|$\text{MIPEXP}$]] equals the intersection of [[Class_P/poly|$\text{P/poly}$]], [[Class_PNP|$\text{PNP}$]], and [[Class_⊕P|$\text{⊕P}$]] [[ZooRefs#BFT98|[BFT98] ]].
+There exists an oracle relative to which [[Class_MIPEXP|$\text{MIP}_\text{EXP}\text{}$]] equals the intersection of [[Class_P/poly|$\text{P/poly}$]], [[Class_PNP|$\text{P}^\text{NP}\text{}$]], and [[Class_⊕P|$\text{⊕P}$]] [[ZooRefs#BFT98|[BFT98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

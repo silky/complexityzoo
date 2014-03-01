@@ -5,18 +5,35 @@
 
 = NC^0^ - Level 0 of NC =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+By definition, a decision problem in [[Class_NC0|$\text{NC}^\text{0}\text{}$]] can depend on only a constant number of bits of the input.  Thus, [[Class_NC0|$\text{NC}^\text{0}\text{}$]] usually refers to functions computable by constant-depth, bounded-fanin circuits.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-By definition, a decision problem in [[Class_NC0|$\text{NC0}$]] can depend on only a constant number of bits of the input.  Thus, [[Class_NC0|$\text{NC0}$]] usually refers to functions computable by constant-depth, bounded-fanin circuits.
+
+
+There is a family of permutations computable by a uniform family of [[Class_NC0|$\text{NC}^\text{0}\text{}$]] circuits that is P-hard to invert [[ZooRefs#Has88|[Has88] ]].
 
 
 
-There is a family of permutations computable by a uniform family of [[Class_NC0|$\text{NC0}$]] circuits that is P-hard to invert [[ZooRefs#Has88|[Has88] ]].
-
-
-
-Recently [[ZooRefs#AIK04|[AIK04] ]] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in [[Class_NC0|$\text{NC0}$]], based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [[ZooRefs#AIK04|[AIK04] ]] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
+Recently [[ZooRefs#AIK04|[AIK04] ]] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in [[Class_NC0|$\text{NC}^\text{0}\text{}$]], based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [[ZooRefs#AIK04|[AIK04] ]] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

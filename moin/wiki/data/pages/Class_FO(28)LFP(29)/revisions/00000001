@@ -5,18 +5,36 @@
 
 = FO(LFP) - First-order with least fixed point =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+FO(LFP) is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is $P$, then $P_i(x)$ always implies $P_{i+1}(x)$.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-[[Class_FO(LFP)|$\text{FO(LFP)}$]] is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is , then  always implies .
+
+
+We can obtain the monotony by restricting the formula $\\phi$ to have only positive occurrences of $P$ (i.e. there is an even number of negations before every occurrence of $P$). We can also describe LFP($\\phi_{P,x}$) as syntactic sugar of PFP($\\psi_{P,x}$) where $\\psi(P,x)=\\phi(P,x)\
+ee P(x)$.
 
 
 
-We can obtain the monotony by restricting the formula  to have only positive occurrences of  (i.e. there is an even number of negations before every occurrence of ). We can also describe LFP() as syntactic sugar of PFP() where .
-
-
-
-Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [[ZooRefs#Imm82|[Imm82] ]] that FO(LFP)=P. This definition is equivalent to FO().
+Thanks to monotonicity we only add and never remove vectors to the truth table of $P$, and since there is only $n^k$ possible vectors we always find a fixed point before $n^k$ iterations. Hence it was shown in [[ZooRefs#Imm82|[Imm82] ]] that FO(LFP)=P. This definition is equivalent to FO(n^{O(1)}).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

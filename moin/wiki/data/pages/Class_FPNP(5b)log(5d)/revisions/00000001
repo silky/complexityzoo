@@ -5,10 +5,29 @@
 
 = FP^NP[log]^ - FP With Logarithmically Many Queries To NP =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Given a graph, the problem of outputting the size of its maximum clique is complete for [[Class_FPNP[log]|$\text{FP}^\text{NP[log]}\text{}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Given a graph, the problem of outputting the size of its maximum clique is complete for [[Class_FPNP[log]|$\text{FPNP[log]}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

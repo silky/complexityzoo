@@ -5,9 +5,22 @@
 
 = PH - Polynomial-Time Hierarchy =
 
-== Comments ==
+----
+CategoryClassical CategoryHierarchy 
 
-Let Δ,,0,,P = Σ,,0,,P = Π,,0,,P = [[Class_P|$\text{P}$]].  Then for i>0, let
+== Description ==
+
+{{{#!description
+
+Let Δ,,0,,P = Σ,,0,,P = Π,,0,,P = [[Class_P|$\text{P}$]].  Then for i>0, let}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -49,7 +62,11 @@ Furthermore, there exist oracles separating any Σ,,i,,P from Σ,,i+1,,P.  On th
 
 It was shown in [CPO7] that if the [[Class_NP|$\text{NP}$]] Machine Hypothesis holds, then
 
-.
+$
+
+    \\mathsf{P}^{\\mathrm{SAT}[1]} = \\mathsf{P}^{\\mathrm{SAT}[2]} \\Rightarrow \\mathsf{PH} \\subseteq \\mathsf{NP}
+
+$.
 
 
 
@@ -63,6 +80,10 @@ For a compendium of problems complete for different classes of the Polynomial Hi
 
 Since [[Class_NP|$\text{NP}$]] is the class of query expressible in second-order existantial logic, [[Class_PH|$\text{PH}$]] can also be defined as the query expressible in second-order logic.
 == Relations ==
+
+{{{#!class_relations
+{"version": 1.0, "class": "PH", "relations": {"contained_in": [{"class": "IP"}], "equals": []}}
+}}}
 
 
 == See Also ==

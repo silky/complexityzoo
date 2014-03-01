@@ -5,9 +5,22 @@
 
 = EE - Double-Exponential Time With Linear Exponent =
 
-== Comments ==
+----
+CategoryClassical 
 
-Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).
+== Description ==
+
+{{{#!description
+
+Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Contained in [[Class_EEXP|$\text{EEXP}$]] and [[Class_NEE|$\text{NEE}$]].
 
 Equals DTIME(2^2^O(n)^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n)^)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

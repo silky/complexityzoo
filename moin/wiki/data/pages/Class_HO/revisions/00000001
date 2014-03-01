@@ -5,22 +5,39 @@
 
 = HO - High-Order logic =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+High order logic is an extension of Second order, First order where we add quantification over higher order variables.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-High order logic is an extension of Second order, First order where we add quantification over higher order variables.
+
+
+We define a relation of order $o$ and arity $k$ to be a subset of $k$-tuple of relation of order $o-1$ and arity $k$. When $o=1$ it is by extension a first order variable. The quantification of formula in [[Class_HO|$\text{HO}$]] is over a given order (which is a straightforward extension of [[Class_SO|$\text{SO}$]] where we add quantification over constant (first-order variable) and relation (second-order variables). The atomic predicates now can be general application of relation of order $o$ and arity $k$ to $k$ relations of order $o-1$ and arity $a$ and  test of equality between two relations of the same order and arity.
 
 
 
-We define a relation of order  and arity  to be a subset of -tuple of relation of order  and arity . When  it is by extension a first order variable. The quantification of formula in [[Class_HO|$\text{HO}$]] is over a given order (which is a straightforward extension of [[Class_SO|$\text{SO}$]] where we add quantification over constant (first-order variable) and relation (second-order variables). The atomic predicates now can be general application of relation of order  and arity  to  relations of order  and arity  and  test of equality between two relations of the same order and arity.
+$HO^o$ is the set of formulae with quantification up to order O. $\\Sigma^i_j$(resp. $\\Pi_j^i$) is defined as the set of formula in $HO^{i+1}$ beginning by an existantial (resp universal) quantifier followed by at most $j-1$ alternation of quantifiers.
 
 
 
-is the set of formulae with quantification up to order O. (resp. ) is defined as the set of formula in  beginning by an existantial (resp universal) quantifier followed by at most  alternation of quantifiers.
-
-
-
-This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that  where  is the th level of the polynomial hierarchy.
+This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that $\\Sigma^i_j=\\exp_2^{i-1}(n^O(1))^{\\Sigma^P_{j-1}}$ where $\\Sigma^P_{j-1}$ is the $j$th level of the polynomial hierarchy.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

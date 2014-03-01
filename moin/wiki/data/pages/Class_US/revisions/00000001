@@ -5,9 +5,22 @@
 
 = US - Unique Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The all-American counting class.
+== Description ==
+
+{{{#!description
+
+The all-American counting class.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ Defined in [[ZooRefs#BG82|[BG82] ]].
 
 Contains [[Class_coNP|$\text{coNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,10 +5,29 @@
 
 = k-BWBP - Bounded-Width Branching Program =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Alternate name for [[Class_k-PBP|$\text{k-PBP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Alternate name for [[Class_k-PBP|$\text{k-PBP}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

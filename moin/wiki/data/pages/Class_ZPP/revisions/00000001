@@ -5,9 +5,22 @@
 
 = ZPP - Zero-Error Probabilistic Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined as [[Class_RP|$\text{RP}$]] ∩ [[Class_coRP|$\text{coRP}$]].
+== Description ==
+
+{{{#!description
+
+Defined as [[Class_RP|$\text{RP}$]] ∩ [[Class_coRP|$\text{coRP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -41,6 +54,10 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 There exists an oracle relative to which [[Class_ZPP|$\text{ZPP}$]] = [[Class_EXP|$\text{EXP}$]] [[ZooRefs#Hel84|[Hel84] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

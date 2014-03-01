@@ -5,10 +5,29 @@
 
 = YACC - Yet Another Complexity Class =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+A term of derision, used against a complexity class.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-A term of derision, used against a complexity class.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

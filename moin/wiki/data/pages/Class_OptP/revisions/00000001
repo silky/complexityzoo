@@ -5,9 +5,22 @@
 
 = OptP - Optimum Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of functions computable by taking the maximum of the output values over all accepting paths of an [[Class_NP|$\text{NP}$]] machine.
+== Description ==
+
+{{{#!description
+
+The class of functions computable by taking the maximum of the output values over all accepting paths of an [[Class_NP|$\text{NP}$]] machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Defined in [[ZooRefs#Kre88|[Kre88] ]].
 
 Contrast with [[Class_FNP|$\text{FNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

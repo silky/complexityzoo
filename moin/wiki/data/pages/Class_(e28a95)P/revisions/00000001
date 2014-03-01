@@ -5,9 +5,22 @@
 
 = ⊕P - Parity P =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -29,12 +42,16 @@ Contains [[Class_FewP|$\text{FewP}$]] [[ZooRefs#CH89|[CH89] ]].
 
 
 
-There exists an oracle relative to which [[Class_P|$\text{P}$]] = [[Class_⊕P|$\text{⊕P}$]] but [[Class_P|$\text{P}$]] is not equal to [[Class_NP|$\text{NP}$]] (and indeed [[Class_NP|$\text{NP}$]] = EXP) [[ZooRefs#BBF98|[BBF98] ]].
+There exists an oracle relative to which [[Class_P|$\text{P}$]] = [[Class_⊕P|$\text{⊕P}$]] but [[Class_P|$\text{P}$]] is not equal to [[Class_NP|$\text{NP}$]] (and indeed [[Class_NP|$\text{NP}$]] = [[Class_EXP|$\text{EXP}$]]) [[ZooRefs#BBF98|[BBF98] ]].
 
 
 
 Equals Mod,,2^m,,P for every positive integer m.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

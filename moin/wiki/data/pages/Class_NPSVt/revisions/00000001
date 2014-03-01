@@ -5,14 +5,31 @@
 
 = NPSV,,t,, - NPSV Total =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of all [[Class_NPSV|$\text{NPSV}$]] functions that are total (that is, defined on every input).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of all [[Class_NPSV|$\text{NPSV}$]] functions that are total (that is, defined on every input).
 
 
-
-Contained in [[Class_NPMVt|$\text{NPMVt}$]].
+Contained in [[Class_NPMVt|$\text{NPMV}_\text{t}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

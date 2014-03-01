@@ -5,9 +5,22 @@
 
 = δ-BPP - δ-Semi-Random BPP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_BPP|$\text{BPP}$]], except that the random bit source is biased as follows.  Each bit could depend on all the previous bits in arbitrarily complicated ways; the only promise is that the bit is 1 with probability in the range [δ,1-δ], conditioned on all previous bits.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BPP|$\text{BPP}$]], except that the random bit source is biased as follows.  Each bit could depend on all the previous bits in arbitrarily complicated ways; the only promise is that the bit is 1 with probability in the range [δ,1-δ], conditioned on all previous bits.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ So clearly 0-BPP = [[Class_P|$\text{P}$]] and 1/2-BPP = [[Class_BPP|$\text{BPP}$
 
 It turns out that, for any δ>0, [[Class_δ-BPP|$\text{δ-BPP}$]] = [[Class_BPP|$\text{BPP}$]] [[ZooRefs#VV85|[VV85] ]], [[ZooRefs#Zuc91|[Zuc91] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

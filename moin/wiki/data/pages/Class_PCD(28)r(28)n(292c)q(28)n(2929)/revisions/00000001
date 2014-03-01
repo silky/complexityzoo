@@ -5,9 +5,22 @@
 
 = PCD(r(n),q(n)) - Probabilistically Checkable Debate =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems decidable by a probabilistically checkable debate system, as follows.
+== Description ==
+
+{{{#!description
+
+The class of decision problems decidable by a probabilistically checkable debate system, as follows.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,8 +32,12 @@ Defined in [[ZooRefs#CFL+93|[CFL+93] ]], who also showed that PCD(log n, 1) = [[
 
 
 
-Contained in [[Class_GPCD(r(n),q(n))|$\text{GPCD(r(n),q(n))}$]].
+Contained in GPCD(r(n),q(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

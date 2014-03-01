@@ -5,9 +5,22 @@
 
 = NLT - Nearly Linear Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-Class of functions computable in nearly linear time n(log n)^O(1)^ on deterministic random access machines.
+== Description ==
+
+{{{#!description
+
+Class of functions computable in nearly linear time n(log n)^O(1)^ on deterministic random access machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Defined in [[ZooRefs#GS89|[GS89] ]].
 
 See also [[Class_QL|$\text{QL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,18 +5,35 @@
 
 = NEEXP - Nondeterministic EEXP =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^^) for p a polynomial).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^^) for p a polynomial).
 
 
-
-Equals [[Class_MIPEXP|$\text{MIPEXP}$]] (unrelativized).
+Equals [[Class_MIPEXP|$\text{MIP}_\text{EXP}\text{}$]] (unrelativized).
 
 
 
 Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^) for p a polynomial).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

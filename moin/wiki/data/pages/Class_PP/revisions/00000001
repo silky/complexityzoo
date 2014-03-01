@@ -5,9 +5,22 @@
 
 = PP - Probabilistic Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,7 +38,7 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 
 
-Contains [[Class_PNP[log]|$\text{PNP[log]}$]] [[ZooRefs#BHW89|[BHW89] ]].
+Contains [[Class_PNP[log]|$\text{P}^\text{NP[log]}\text{}$]] [[ZooRefs#BHW89|[BHW89] ]].
 
 
 
@@ -33,11 +46,11 @@ Equals PP^BPP^ [KST+89b] as well as [[Class_PostBQP|$\text{PostBQP}$]] [Aar05b].
 
 
 
-However, there exists an oracle relative to which [[Class_PP|$\text{PP}$]] does not contain [[Class_Δ2P|$\text{Δ2P}$]] [[ZooRefs#Bei94|[Bei94] ]].
+However, there exists an oracle relative to which [[Class_PP|$\text{PP}$]] does not contain [[Class_Δ2P|$\text{Δ}_\text{2}\text{P}$]] [[ZooRefs#Bei94|[Bei94] ]].
 
 
 
-[[Class_PH|$\text{PH}$]] is in [[Class_PPP|$\text{PPP}$]] [[ZooRefs#Tod89|[Tod89] ]].
+[[Class_PH|$\text{PH}$]] is in [[Class_PPP|$\text{P}^\text{PP}\text{}$]] [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
@@ -45,7 +58,7 @@ However, there exists an oracle relative to which [[Class_PP|$\text{PP}$]] does 
 
 
 
-For a random oracle A, [[Class_PPA|$\text{PPA}$]] is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|[ABF+94] ]].
+For a random oracle A, [[Class_PPA|$\text{PP}^\text{A}\text{}$]] is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|[ABF+94] ]].
 
 
 
@@ -59,6 +72,10 @@ By contrast, there exists an oracle relative to which [[Class_PP|$\text{PP}$]] h
 
 [[Class_PP|$\text{PP}$]] can be generalized to the counting hierarchy [[Class_CH|$\text{CH}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

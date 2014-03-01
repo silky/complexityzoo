@@ -5,9 +5,22 @@
 
 = Few - FewP With Flexible Acceptance Mechanism =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -31,6 +44,10 @@ Contains [[Class_FewP|$\text{FewP}$]], and is contained in P^FewP^ [[ZooRefs#Kob
 
 See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

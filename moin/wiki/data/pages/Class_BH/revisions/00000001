@@ -5,9 +5,22 @@
 
 = BH - Boolean Hierarchy Over NP =
 
-== Comments ==
+----
+CategoryClassical CategoryHierarchy 
 
-The smallest class that contains [[Class_NP|$\text{NP}$]] and is closed under union, intersection, and complement.
+== Description ==
+
+{{{#!description
+
+The smallest class that contains [[Class_NP|$\text{NP}$]] and is closed under union, intersection, and complement.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -35,7 +48,7 @@ For more detail see [[ZooRefs#CGH+88|[CGH+88] ]].
 
 
 
-Contained in [[Class_Δ2P|$\text{Δ2P}$]] and indeed in [[Class_PNP[log]|$\text{PNP[log]}$]].
+Contained in [[Class_Δ2P|$\text{Δ}_\text{2}\text{P}$]] and indeed in [[Class_PNP[log]|$\text{P}^\text{NP[log]}\text{}$]].
 
 
 
@@ -49,6 +62,10 @@ See also: [[Class_DP|$\text{DP}$]], [[Class_QH|$\text{QH}$]].
 
 See also: [[Class_QH|$\text{QH}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

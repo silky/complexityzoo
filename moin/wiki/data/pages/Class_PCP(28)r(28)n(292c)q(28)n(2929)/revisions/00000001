@@ -5,9 +5,22 @@
 
 = PCP(r(n),q(n)) - Probabilistically Checkable Proof =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems such that a "yes" answer can be verified by a probabilistically checkable proof, as follows.
+== Description ==
+
+{{{#!description
+
+The class of decision problems such that a "yes" answer can be verified by a probabilistically checkable proof, as follows.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -37,7 +50,7 @@ By definition [[Class_NP|$\text{NP}$]] = PCP(0,poly(n)).
 
 
 
-[[Class_PCP(r(n),q(n))|$\text{PCP(r(n),q(n))}$]] is contained in NTIME(2^O(r(n))^q(n) + poly(n)).
+PCP(r(n),q(n)) is contained in NTIME(2^O(r(n))^q(n) + poly(n)).
 
 
 
@@ -57,8 +70,16 @@ Also, even though there exists an oracle relative to which [[Class_NP|$\text{NP}
 
 
 
+Another weird oracle fact: since [[Class_NP|$\text{NP}$]] does not equal [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#SFM78|[SFM78] ]], PCP(log n, log n) does not equal PCP(poly(n), poly(n)).  However, there exist oracles relative to which the latter inequality is false [[ZooRefs#HCC+92|[HCC+92] ]].
+
+
+
 Another weird oracle fact: since [[Class_NP|$\text{NP}$]] does not equal [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#SFM78|[SFM78] ]], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [[ZooRefs#HCC+92|[HCC+92] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

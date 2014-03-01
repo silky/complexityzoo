@@ -5,18 +5,35 @@
 
 = P,,CTC,, - P With Closed Time Curves =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_P|$\text{P}$]] with access to bits along a closed time curve.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_P|$\text{P}$]] with access to bits along a closed time curve.
+
+
+Implicitly defined in [Aar05c], where it was shown that [[Class_PSPACE|$\text{PSPACE}$]] = [[Class_PCTC|$\text{P}_\text{CTC}\text{}$]].
 
 
 
-Implicitly defined in [Aar05c], where it was shown that [[Class_PSPACE|$\text{PSPACE}$]] = [[Class_PCTC|$\text{PCTC}$]].
-
-
-
-See also [[Class_BQPCTC|$\text{BQPCTC}$]].
+See also [[Class_BQPCTC|$\text{BQP}_\text{CTC}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

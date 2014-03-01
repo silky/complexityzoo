@@ -5,9 +5,22 @@
 
 = PPAD - Polynomial Parity Argument (Directed) =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+== Description ==
+
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -31,6 +44,10 @@ There exists an oracle relative to which [[Class_PPAD|$\text{PPAD}$]] is not con
 
 There exists an oracle relative to which [[Class_PPP|$\text{PPP}$]] is not contained in [[Class_PPAD|$\text{PPAD}$]] [[ZooRefs#BCE+95|[BCE+95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

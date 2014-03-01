@@ -5,9 +5,22 @@
 
 = P^NP[log^2]^ - P With Log2 NP Queries =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_PNP[log]|$\text{PNP[log]}$]], except that now log^2^ queries can be made.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_PNP[log]|$\text{P}^\text{NP[log]}\text{}$]], except that now log^2^ queries can be made.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ The model-checking problem for a certain temporal logic is P^NP[log^2]^-complete
 
 For all k, [[Class_P|$\text{P}$]] with log^k^ adaptive queries to [[Class_NP|$\text{NP}$]] coincides with [[Class_P|$\text{P}$]] with log^k+1^ nonadaptive queries [[ZooRefs#CS92|[CS92] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

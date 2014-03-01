@@ -5,9 +5,22 @@
 
 = AmpMP - Amplifiable MP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems such that for some [[Class_SharpP|$\text{#P}$]] function f(x,0^m^),
+== Description ==
+
+{{{#!description
+
+The class of decision problems such that for some [[Class_SharpP|$\text{#P}$]] function f(x,0^m^),}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,6 +36,10 @@ Defined in [[ZooRefs#GKR+95|[GKR+95] ]].
 
 Contains [[Class_PH|$\text{PH}$]] and Contained in [[Class_MP|$\text{MP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

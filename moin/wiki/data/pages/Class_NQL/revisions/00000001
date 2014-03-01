@@ -5,9 +5,22 @@
 
 = NQL - Nondet Quasi-Linear =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of problems that can be decided in quasi-linear time by a multitape nondeterministic Turing machine.  Quasi-linear here means n(log n)^k^ + k, for some k.
+== Description ==
+
+{{{#!description
+
+The class of problems that can be decided in quasi-linear time by a multitape nondeterministic Turing machine.  Quasi-linear here means n(log n)^k^ + k, for some k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -25,6 +38,10 @@ Defined in [[ZooRefs#Sch78|[Sch78] ]].
 
 See also: [[Class_NLT|$\text{NLT}$]], [[Class_Q|$\text{Q}$]], [[Class_QL|$\text{QL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

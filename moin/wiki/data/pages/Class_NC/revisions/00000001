@@ -5,9 +5,22 @@
 
 = NC - Nick's Class =
 
-== Comments ==
+----
+CategoryClassical 
 
-(Named in honor of Nick Pippenger.)
+== Description ==
+
+{{{#!description
+
+(Named in honor of Nick Pippenger.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -43,12 +56,16 @@ For a random oracle A, (NC^i^)^A^ is strictly contained in (NC^i+1^)^A^, and uni
 
 
 
-In descriptive complexity, [[Class_NC|$\text{NC}$]] can be defined by [[Class_FO[]|$\text{FO[]}$]]
+In descriptive complexity, [[Class_NC|$\text{NC}$]] can be defined by FO[ \log(n)^{O(1)}]
 
 
 
 NC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and fan-in 2.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

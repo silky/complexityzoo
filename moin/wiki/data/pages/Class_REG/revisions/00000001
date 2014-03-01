@@ -5,9 +5,22 @@
 
 = REG - Regular Languages =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by deterministic finite automata (DFAs).
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by deterministic finite automata (DFAs).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,7 +36,7 @@ Includes, i.e., "Is the parity of the input odd?," but not "Are the majority of 
 
 
 
-Contained in [[Class_NC1|$\text{NC1}$]].
+Contained in [[Class_NC1|$\text{NC}^\text{1}\text{}$]].
 
 
 
@@ -37,6 +50,10 @@ The class of decision problems solvable by deterministic finite automata (DFA's)
 
 Equals the class solvable by nondeterministic finite automata (NDFA's).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,10 +5,29 @@
 
 = coNL - Complement of NL =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals [[Class_NL|$\text{NL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze87] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_NL|$\text{NL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze87] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

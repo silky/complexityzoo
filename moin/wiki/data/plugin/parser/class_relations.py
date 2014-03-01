@@ -18,11 +18,15 @@ class Parser:
     def format (self, formatter):
         self.formatter = formatter
 
+        if not self.raw.strip('\r\n '):
+            return
+
         try:
             obj   = json.loads(self.raw)
             relns = obj["relations"]
-            _in   = relns["contained_in"]
-            _eq   = relns["equals"]
+
+            _in   = relns.get("contained_in", [])
+            _eq   = relns.get("equals", [])
 
             def maybeCondition (dct):
                 if "condition" in dct:
@@ -62,9 +66,11 @@ class Parser:
                 if "contained_in" in v["relations"] and \
                     me in [ d["class"] for d in v["relations"]["contained_in"] ]:
                     contains.append( {"class": k })
+
             str_contains = classesToLinks(contains)
 
-            all_classes = [ c["class"] for c in (_in + contains) ]
+            all_classes = [ c["class"] for c in (_in + contains + _eq) ]
+            all_classes.append(me)
 
             output = """
             <table class='inclusions'>
@@ -74,7 +80,7 @@ class Parser:
             </table>
 
             <p>
-                <a href='ViewClassRelations?action=class_relation_search&class_names=%s'>View as graph.</a>
+                <a href='ViewClassRelations?action=class_relation_search&class_names=%s'>View as graph</a>
             </p>
             """ % (str_in, str_eq, str_contains, ','.join(all_classes))
 

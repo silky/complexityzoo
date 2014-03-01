@@ -5,9 +5,22 @@
 
 = IC[log,poly] - Logarithmic Instance Complexity, Polynomial Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems such that, for every n-bit string x, there exists a program A of size O(log n) that, given x as input, "correctly decides" the answer on x in time polynomial in n.  This means:
+== Description ==
+
+{{{#!description
+
+The class of decision problems such that, for every n-bit string x, there exists a program A of size O(log n) that, given x as input, "correctly decides" the answer on x in time polynomial in n.  This means:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -29,6 +42,10 @@ If [[Class_NP|$\text{NP}$]] is contained in [[Class_IC[log,poly]|$\text{IC[log,p
 
 Strictly contains [[Class_P/log|$\text{P/log}$]], and is strictly contained in [[Class_P/poly|$\text{P/poly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

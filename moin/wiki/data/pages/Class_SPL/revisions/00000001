@@ -5,9 +5,22 @@
 
 = SPL - Stoic PL =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_PL|$\text{PL}$]] as [[Class_SPP|$\text{SPP}$]] does to [[Class_PP|$\text{PP}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_PL|$\text{PL}$]] as [[Class_SPP|$\text{SPP}$]] does to [[Class_PP|$\text{PP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,12 +32,16 @@ Contains [[Class_UL|$\text{UL}$]].
 
 
 
-Contained in [[Class_C=L|$\text{C=L}$]] and [[Class_ModkL|$\text{ModkL}$]].
+Contained in [[Class_C=L|$\text{C}_\text{=}\text{L}$]] and [[Class_ModkL|$\text{Mod}_\text{k}\text{L}$]].
 
 
 
 Equals the set of problems low for [[Class_GapL|$\text{GapL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = compIP - Competitive IP Proof System =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_compNP|$\text{compNP}$]] but for interactive (IP) proofs instead of [[Class_NP|$\text{NP}$]] proofs.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_compNP|$\text{compNP}$]] but for interactive ([[Class_IP|$\text{IP}$]]) proofs instead of [[Class_NP|$\text{NP}$]] proofs.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ More formally, [[Class_compIP|$\text{compIP}$]] is the class of decision problem
 
 
 
-Assuming [[Class_NEE|$\text{NEE}$]] is not contained in [[Class_BPEE|$\text{BPEE}$]], [[Class_NP|$\text{NP}$]] (and indeed [[Class_NP|$\text{NP}$]] ∩ Coh) is not contained in [[Class_compIP|$\text{compIP}$]] [[ZooRefs#BG94|[BG94] ]].
+Assuming [[Class_NEE|$\text{NEE}$]] is not contained in [[Class_BPEE|$\text{BPEE}$]], [[Class_NP|$\text{NP}$]] (and indeed [[Class_NP|$\text{NP}$]] ∩ [[Class_Coh|$\text{Coh}$]]) is not contained in [[Class_compIP|$\text{compIP}$]] [[ZooRefs#BG94|[BG94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

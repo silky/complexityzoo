@@ -5,13 +5,26 @@
 
 = NP^cc^ - Communication Complexity NP =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The analogue of [[Class_Pcc|$\text{P}^\text{cc}\text{}$]] for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The analogue of [[Class_Pcc|$\text{Pcc}$]] for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.
 
 
-
-Does not equal [[Class_Pcc|$\text{Pcc}$]] or [[Class_coNPcc|$\text{coNPcc}$]] because of the EQUALITY problem.  Also, does not contain [[Class_BPPcc|$\text{BPPcc}$]] because of that problem.
+Does not equal [[Class_Pcc|$\text{P}^\text{cc}\text{}$]] or [[Class_coNPcc|$\text{coNP}^\text{cc}\text{}$]] because of the EQUALITY problem.  Also, does not contain [[Class_BPPcc|$\text{BPP}^\text{cc}\text{}$]] because of that problem.
 
 
 
@@ -19,16 +32,12 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 
-Contained in [[Class_PHcc|$\text{PHcc}$]].
-
-
-
-Has the same relation to [[Class_NPcc|$\text{NPcc}$]] and [[Class_NP|$\text{NP}$]] as [[Class_Pcc|$\text{Pcc}$]] does to [[Class_Pcc|$\text{Pcc}$]] and [[Class_P|$\text{P}$]].
-
-
-
-[[Class_NPcc|$\text{NPcc}$]] is not contained in [[Class_BPPcc|$\text{BPPcc}$]] for  players, for any constant . As a result, [[Class_NPcc|$\text{NPcc}$]] is not equal to [[Class_RPcc|$\text{RPcc}$]] under the same conditions [[ZooRefs#DP08|[DP08] ]].
+Contained in [[Class_PHcc|$\text{PH}^\text{cc}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

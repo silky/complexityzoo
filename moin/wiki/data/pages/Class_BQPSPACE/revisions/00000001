@@ -5,10 +5,29 @@
 
 = BQPSPACE - Bounded-Error Quantum PSPACE =
 
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Equals [[Class_PSPACE|$\text{PSPACE}$]] and [[Class_PPSPACE|$\text{PPSPACE}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_PSPACE|$\text{PSPACE}$]] and [[Class_PPSPACE|$\text{PPSPACE}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

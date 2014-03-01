@@ -5,9 +5,22 @@
 
 = ZBQP - Strict Quantum ZPP =
 
-== Comments ==
+----
+CategoryQuantum 
 
-Defined as [[Class_RBQP|$\text{RBQP}$]] ∩ coRBQP.  Equivalently, the class of problems in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] such that both positive and negative witnesses are in [[Class_FBQP|$\text{FBQP}$]].
+== Description ==
+
+{{{#!description
+
+Defined as [[Class_RBQP|$\text{RBQP}$]] ∩ coRBQP.  Equivalently, the class of problems in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] such that both positive and negative witnesses are in [[Class_FBQP|$\text{FBQP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Unlike [[Class_EQP|$\text{EQP}$]] or [[Class_ZQP|$\text{ZQP}$]], [[Class_ZBQP|$\
 
 Contains [[Class_ZPP|$\text{ZPP}$]] and is contained in [[Class_RBQP|$\text{RBQP}$]] and [[Class_ZQP|$\text{ZQP}$]].  Also, ZBQP^ZBQP^ = [[Class_ZBQP|$\text{ZBQP}$]].  Defined here to clarify [[Class_EQP|$\text{EQP}$]] and [[Class_ZQP|$\text{ZQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

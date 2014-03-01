@@ -5,9 +5,22 @@
 
 = W[1] - Weighted Analog of NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following:
+== Description ==
+
+{{{#!description
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,6 +46,10 @@ If [[Class_FPT|$\text{FPT}$]] = [[Class_W[1]|$\text{W[1]}$]] then [[Class_NP|$\t
 
 [[Class_W[1]|$\text{W[1]}$]] can be generalized to [[Class_W[t]|$\text{W[t]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

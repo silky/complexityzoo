@@ -5,9 +5,22 @@
 
 = MaxSNP - Maximization SNP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of optimization problems reducible by an "L-reduction" to a problem in [[Class_MaxSNP0|$\text{MaxSNP0}$]].  (Note: 'L' stands for linear -- this is not the same as an [[Class_L|$\text{L}$]] reduction!  For more details see [[ZooRefs#PY88|[PY88] ]].)
+== Description ==
+
+{{{#!description
+
+The class of optimization problems reducible by an "L-reduction" to a problem in [[Class_MaxSNP0|$\text{MaxSNP}_\text{0}\text{}$]].  (Note: 'L' stands for linear -- this is not the same as an [[Class_L|$\text{L}$]] reduction!  For more details see [[ZooRefs#PY88|[PY88] ]].)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,6 +36,10 @@ Any problem in [[Class_MaxSNP|$\text{MaxSNP}$]] can be approximated to within a 
 
 The closure of [[Class_MaxSNP|$\text{MaxSNP}$]] under [[Class_PTAS|$\text{PTAS}$]] reduction is [[Class_APX|$\text{APX}$]] [[ZooRefs#KMS+99|[KMS+99] ]], [[ZooRefs#CT94|[CT94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

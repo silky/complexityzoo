@@ -5,9 +5,22 @@
 
 = P,,R,, - Polynomial-Time Over The Reals =
 
-== Comments ==
+----
+CategoryClassical 
 
-Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that [[Class_PR|$\text{PR}$]] is strictly contained in [[Class_R|$\text{R}$]].
+== Description ==
+
+{{{#!description
+
+Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that [[Class_PR|$\text{PR}$]] is strictly contained in [[Class_R|$\text{R}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -35,8 +48,12 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-See also [[Class_PC|$\text{PC}$]], [[Class_NPC|$\text{NPC}$]], [[Class_NPR|$\text{NPR}$]], [[Class_VPk|$\text{VPk}$]].
+See also [[Class_PC|$\text{P}_\text{C}\text{}$]], [[Class_NPC|$\text{NP}_\text{C}\text{}$]], [[Class_NPR|$\text{NP}_\text{R}\text{}$]], [[Class_VPk|$\text{VP}_\text{k}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

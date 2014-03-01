@@ -5,9 +5,22 @@
 
 = H,,k,,P - High Hierarchy In NP =
 
-== Comments ==
+----
+CategoryClassical CategoryHierarchy 
 
-The class of problems A in [[Class_NP|$\text{NP}$]] such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.
+== Description ==
+
+{{{#!description
+
+The class of problems A in [[Class_NP|$\text{NP}$]] such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -27,8 +40,12 @@ Defined in [[ZooRefs#Sch83|[Sch83] ]].
 
 
 
-See also [[Class_LkP|$\text{LkP}$]].
+See also [[Class_LkP|$\text{L}_\text{k}\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

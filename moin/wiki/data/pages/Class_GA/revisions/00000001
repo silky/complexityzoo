@@ -5,9 +5,22 @@
 
 = GA - Graph Automorphism =
 
-== Comments ==
+----
+CategoryClassical 
 
-Can be defined as the class of problems polynomial-time Turing reducible to the Graph Automorphism problem.
+== Description ==
+
+{{{#!description
+
+Can be defined as the class of problems polynomial-time Turing reducible to the Graph Automorphism problem.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ See [[ZooRefs#KST93|[KST93] ]] for much more information about [[Class_GA|$\text
 
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether a given graph has any nontrivial automorphisms.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

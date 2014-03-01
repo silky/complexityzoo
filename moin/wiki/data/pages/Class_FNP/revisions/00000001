@@ -5,9 +5,22 @@
 
 = FNP - Function NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of function problems of the following form:
+== Description ==
+
+{{{#!description
+
+The class of function problems of the following form:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,6 +46,10 @@ Contains [[Class_TFNP|$\text{TFNP}$]].
 
 A basic question about [[Class_FNP|$\text{FNP}$]] problems is whether they're self-reducible; that is, whether they reduce to the corresponding [[Class_NP|$\text{NP}$]] decision problems.  Although this is true for all [[Class_NPC|$\text{NPC}$]] problems, [[ZooRefs#BG94|[BG94] ]] shows that if [[Class_EE|$\text{EE}$]] does not equal [[Class_NEE|$\text{NEE}$]], then there is a problem in [[Class_NP|$\text{NP}$]] such that no corresponding [[Class_FNP|$\text{FNP}$]] problem can be reduced to it.  [[ZooRefs#BG94|[BG94] ]] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that [[Class_NE|$\text{NE}$]] does not equal [[Class_coNE|$\text{coNE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

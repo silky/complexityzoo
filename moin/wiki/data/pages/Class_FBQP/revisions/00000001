@@ -5,14 +5,31 @@
 
 = FBQP - Function BQP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_BQP|$\text{BQP}$]] as [[Class_FNP|$\text{FNP}$]] does to [[Class_NP|$\text{NP}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_BQP|$\text{BQP}$]] as [[Class_FNP|$\text{FNP}$]] does to [[Class_NP|$\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 There exists an oracle relative to which [[Class_PLS|$\text{PLS}$]] is not contained in [[Class_FBQP|$\text{FBQP}$]] [[ZooRefs#Aar03|[Aar03] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

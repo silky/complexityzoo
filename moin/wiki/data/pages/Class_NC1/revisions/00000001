@@ -5,21 +5,34 @@
 
 = NC^1^ - Level 1 of NC =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+See [[Class_NC|$\text{NC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-See [[Class_NC|$\text{NC}$]] for definition.
+
+
+[[ZooRefs#KV94|[KV94] ]] give a family of functions that is computable in [[Class_NC1|$\text{NC}^\text{1}\text{}$]], but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
 
 
 
-[[ZooRefs#KV94|[KV94] ]] give a family of functions that is computable in [[Class_NC1|$\text{NC1}$]], but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
+Was shown to equal 5-PBP [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, width 5 is necessary unless [[Class_NC1|$\text{NC}^\text{1}\text{}$]] = [[Class_ACC0|$\text{ACC}^\text{0}\text{}$]] [[ZooRefs#BT88|[BT88] ]].
 
 
 
-Was shown to equal 5-PBP [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, width 5 is necessary unless [[Class_NC1|$\text{NC1}$]] = [[Class_ACC0|$\text{ACC0}$]] [[ZooRefs#BT88|[BT88] ]].
-
-
-
-As an application of this result, [[Class_NC1|$\text{NC1}$]] can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].  Surprisingly, [[ZooRefs#AMP02|[AMP02] ]] showed that only a single qubit is needed to simulate [[Class_NC1|$\text{NC1}$]] - i.e. that [[Class_NC1|$\text{NC1}$]] is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
+As an application of this result, [[Class_NC1|$\text{NC}^\text{1}\text{}$]] can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].  Surprisingly, [[ZooRefs#AMP02|[AMP02] ]] showed that only a single qubit is needed to simulate [[Class_NC1|$\text{NC}^\text{1}\text{}$]] - i.e. that [[Class_NC1|$\text{NC}^\text{1}\text{}$]] is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
 
 
 
@@ -27,16 +40,20 @@ Is contained in [[Class_L|$\text{L}$]] [[ZooRefs#Bor77|[Bor77] ]].
 
 
 
-Contains [[Class_TC0|$\text{TC0}$]].
+Contains [[Class_TC0|$\text{TC}^\text{0}\text{}$]].
 
 
 
-[[Class_NC1|$\text{NC1}$]] contains the integer division problem [[ZooRefs#BCH86|[BCH86] ]], even if an L-uniformity condition is imposed [[ZooRefs#CDL01|[CDL01] ]].
+[[Class_NC1|$\text{NC}^\text{1}\text{}$]] contains the integer division problem [[ZooRefs#BCH86|[BCH86] ]], even if an L-uniformity condition is imposed [[ZooRefs#CDL01|[CDL01] ]].
 
 
 
-U,,E^*^,,-uniform [[Class_NC1|$\text{NC1}$]] is equal to [[Class_ALOGTIME|$\text{ALOGTIME}$]] [[ZooRefs#RUZ81|[RUZ81] ]].
+U,,E^*^,,-uniform [[Class_NC1|$\text{NC}^\text{1}\text{}$]] is equal to [[Class_ALOGTIME|$\text{ALOGTIME}$]] [[ZooRefs#RUZ81|[RUZ81] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

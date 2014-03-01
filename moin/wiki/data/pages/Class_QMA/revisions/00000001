@@ -5,9 +5,22 @@
 
 = QMA - Quantum MA =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The class of decision problems such that a "yes" answer can be verified by a 1-message quantum interactive proof.  That is, a [[Class_BQP|$\text{BQP}$]] (i.e. quantum polynomial-time) verifier is given a quantum state (the "proof").  We require that
+== Description ==
+
+{{{#!description
+
+The class of decision problems such that a "yes" answer can be verified by a 1-message quantum interactive proof.  That is, a [[Class_BQP|$\text{BQP}$]] (i.e. quantum polynomial-time) verifier is given a quantum state (the "proof").  We require that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,7 +46,7 @@ Kitaev and Watrous (unpublished) showed [[Class_QMA|$\text{QMA}$]] is contained 
 
 
 
-Kitaev ([[ZooRefs#KSV02|[KSV02] ]], see also [[ZooRefs#AN02|[AN02] ]]) showed that the 5-Local Hamiltonians Problem is QMA-complete. Subsequently, Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\text{P}$]] does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
+Kitaev ([[ZooRefs#KSV02|[KSV02] ]], see also [[ZooRefs#AN02|[AN02] ]]) showed that the 5-Local Hamiltonians Problem is QMA-complete. Subsequently, Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\text{P}$]] does not equal [[Class_QMA|$\text{QMA}$]]), by showing 2-local Hamiltonians QMA-complete.
 
 
 
@@ -41,7 +54,7 @@ Compare to [[Class_NQP|$\text{NQP}$]].
 
 
 
-If [[Class_QMA|$\text{QMA}$]] = [[Class_PP|$\text{PP}$]] then [[Class_PP|$\text{PP}$]] contains [[Class_PH|$\text{PH}$]] [[ZooRefs#Vya03|[Vya03] ]].  This result uses the fact that [[Class_QMA|$\text{QMA}$]] is contained in [[Class_A0PP|$\text{A0PP}$]].
+If [[Class_QMA|$\text{QMA}$]] = [[Class_PP|$\text{PP}$]] then [[Class_PP|$\text{PP}$]] contains [[Class_PH|$\text{PH}$]] [[ZooRefs#Vya03|[Vya03] ]].  This result uses the fact that [[Class_QMA|$\text{QMA}$]] is contained in [[Class_A0PP|$\text{A}_\text{0}\text{PP}$]].
 
 
 
@@ -49,7 +62,7 @@ Approximating the ground state energy of a system composed of a line of quantum 
 
 
 
-See also: [[Class_QCMA|$\text{QCMA}$]], [[Class_QMA/qpoly|$\text{QMA/qpoly}$]], [[Class_QSZK|$\text{QSZK}$]], [[Class_QMA(2)|$\text{QMA(2)}$]], [[Class_QMA-plus|$\text{QMA-plus}$]].
+See also: [[Class_QCMA|$\text{QCMA}$]], [[Class_QMA/qpoly|$\text{QMA/qpoly}$]], [[Class_QSZK|$\text{QSZK}$]], QMA(2), [[Class_QMA-plus|$\text{QMA-plus}$]].
 
 
 
@@ -73,12 +86,16 @@ Kitaev and Watrous (unpublished) showed [[Class_QMA|$\text{QMA}$]] is contained 
 
 
 
-Subsequently Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\text{P}$]] does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
+Subsequently Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\text{P}$]] does not equal [[Class_QMA|$\text{QMA}$]]), by showing 2-local Hamiltonians QMA-complete.
 
 
 
 [[Class_NQP|$\text{NQP}$]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

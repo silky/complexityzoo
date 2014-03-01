@@ -5,9 +5,22 @@
 
 = AM - Arthur-Merlin =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems for which a "yes" answer can be verified by an Arthur-Merlin protocol, as follows.
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by an Arthur-Merlin protocol, as follows.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,11 +46,11 @@ Furthermore, define AM[k] similarly to [[Class_AM|$\text{AM}$]], except that Art
 
 
 
-Contains [[Class_NP|$\text{NP}$]], [[Class_BPP|$\text{BPP}$]], and [[Class_SZK|$\text{SZK}$]], and is contained in [[Class_Π2P|$\text{Π2P}$]] and [[Class_NP/poly|$\text{NP/poly}$]].
+Contains [[Class_NP|$\text{NP}$]], [[Class_BPP|$\text{BPP}$]], and [[Class_SZK|$\text{SZK}$]], and is contained in [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]] and [[Class_NP/poly|$\text{NP/poly}$]].
 
 
 
-If [[Class_AM|$\text{AM}$]] contains [[Class_coNP|$\text{coNP}$]] then [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ2P}$]] ∩ [[Class_Π2P|$\text{Π2P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
+If [[Class_AM|$\text{AM}$]] contains [[Class_coNP|$\text{coNP}$]] then [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] ∩ [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
 
 
 
@@ -47,6 +60,10 @@ There exists an oracle relative to which [[Class_AM|$\text{AM}$]] is not contain
 
 [[Class_AM|$\text{AM}$]] = [[Class_NP|$\text{NP}$]] under a strong derandomization assumption: namely that some language in [[Class_NE|$\text{NE}$]] ∩ [[Class_coNE|$\text{coNE}$]] requires nondeterministic circuits of size 2^Ω(n)^ ([[ZooRefs#MV99|[MV99] ]], improving [[ZooRefs#KM99|[KM99] ]]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

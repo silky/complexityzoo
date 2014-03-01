@@ -5,9 +5,22 @@
 
 = PostBQP - BQP With Postselection =
 
-== Comments ==
+----
+CategoryClassical 
 
-A class inspired by the proverb, "if at first you don't succeed, try, try again."
+== Description ==
+
+{{{#!description
+
+A class inspired by the proverb, "if at first you don't succeed, try, try again."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -27,16 +40,20 @@ Defined in [Aar05b], where it is also shown that [[Class_PostBQP|$\text{PostBQP}
 
 
 
-[Aar05b] also gives the following alternate characterizations of [[Class_PostBQP|$\text{PostBQP}$]] (and therefore of PP):
+[Aar05b] also gives the following alternate characterizations of [[Class_PostBQP|$\text{PostBQP}$]] (and therefore of [[Class_PP|$\text{PP}$]]):
 
 
 
-The quantum analogue of [[Class_BPPpath|$\text{BPPpath}$]].
+The quantum analogue of [[Class_BPPpath|$\text{BPP}_\text{path}\text{}$]].
 
 The class of problems solvable in quantum polynomial time if we allow arbitrary linear operations (not just unitary ones). Before measuring, we divide all amplitudes by a normalizing factor to make the probabilities sum to 1.
 
 The class of problems solvable in quantum polynomial time if we take the probability of measuring a basis state with amplitude α to be not |α|^2^ but |α|^p^, where p is an even integer greater than 2.  (Again we need to divide all amplitudes by a normalizing factor to make the probabilities sum to 1.)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

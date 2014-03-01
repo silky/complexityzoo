@@ -5,9 +5,22 @@
 
 = PPADS - Polynomial Parity Argument (Directed, Sink) =
 
-== Comments ==
+----
+CategoryClassical 
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+== Description ==
+
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Contained in [[Class_PPP|$\text{PPP}$]].
 
 Contains [[Class_PPAD|$\text{PPAD}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = APP - Amplified PP =
 
-== Comments ==
+----
+CategoryClassical 
 
-Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist [[Class_GapP|$\text{GapP}$]] functions f and g such that for all inputs x with n=|x|,
+== Description ==
+
+{{{#!description
+
+Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist [[Class_GapP|$\text{GapP}$]] functions f and g such that for all inputs x with n=|x|,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -33,6 +46,10 @@ Defined in [[ZooRefs#Li93|[Li93] ]], where the following was also shown:
 
 The abbreviation [[Class_APP|$\text{APP}$]] is also used for Approximable in Probabilistic Polynomial Time, see [[Class_AxPP|$\text{AxPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,18 +5,35 @@
 
 = SZK,,h,, - SZK With Limited Help =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol, and the prover and verifier both have access to a string computed by a trusted probabilistic polynomial-time third party with access to the input.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol, and the prover and verifier both have access to a string computed by a trusted probabilistic polynomial-time third party with access to the input.
+
+
+Defined in [[ZooRefs#BG03|[BG03] ]], where it was also shown that [[Class_SZKh|$\text{SZK}_\text{h}\text{}$]] = [[Class_SZK|$\text{SZK}$]].
 
 
 
-Defined in [[ZooRefs#BG03|[BG03] ]], where it was also shown that [[Class_SZKh|$\text{SZKh}$]] = [[Class_SZK|$\text{SZK}$]].
-
-
-
-Contains [[Class_NISZKh|$\text{NISZKh}$]].
+Contains [[Class_NISZKh|$\text{NISZK}_\text{h}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

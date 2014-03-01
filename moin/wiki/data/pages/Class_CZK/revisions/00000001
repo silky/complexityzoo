@@ -5,9 +5,22 @@
 
 = CZK - Computational Zero-Knowledge =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_SZK|$\text{SZK}$]], except that now the two distributions are merely required to be computationally indistinguishable by any [[Class_BPP|$\text{BPP}$]] algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of their interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
+== Description ==
+
+{{{#!description
+
+Same as [[Class_SZK|$\text{SZK}$]], except that now the two distributions are merely required to be computationally indistinguishable by any [[Class_BPP|$\text{BPP}$]] algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of their interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -37,6 +50,10 @@ Unlike [[Class_SZK|$\text{SZK}$]], it is not known if [[Class_CZK|$\text{CZK}$]]
 
 Assuming the existence of one-way functions, [[Class_CZK|$\text{CZK}$]] contains [[Class_NP|$\text{NP}$]] [[ZooRefs#GMW91|[GMW91] ]], and indeed equals IP=PSPACE [[ZooRefs#BGG+90|[BGG+90] ]].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

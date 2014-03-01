@@ -5,10 +5,29 @@
 
 = BP•NP - Probabilistic NP =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals [[Class_AM|$\text{AM}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_AM|$\text{AM}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

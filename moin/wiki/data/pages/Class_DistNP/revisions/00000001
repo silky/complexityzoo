@@ -5,9 +5,22 @@
 
 = DistNP - Distributional NP =
 
-== Comments ==
+----
+CategoryClassical 
 
-(also called (NP,P-computable) or RNP)
+== Description ==
+
+{{{#!description
+
+(also called (NP,P-computable) or RNP)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -23,12 +36,16 @@ A distributional problem consists of a decision problem A, and a probability dis
 
 
 
-Any DistNP-complete problem is also complete for [[Class_(NP,P-samplable)|$\text{(NP,P-samplable)}$]] [[ZooRefs#IL90|[IL90] ]].
+Any DistNP-complete problem is also complete for (NP,P-samplable) [[ZooRefs#IL90|[IL90] ]].
 
 
 
 [[Class_DistNP|$\text{DistNP}$]] has complete problems [[ZooRefs#Gur87|[Gur87] ]], although unlike for [[Class_NP|$\text{NP}$]] this is not immediate.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

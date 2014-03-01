@@ -5,9 +5,22 @@
 
 = SKC - Statistical Knowledge Complexity =
 
-== Comments ==
+----
+CategoryClassical 
 
-A hierarchy of generalizations of [[Class_SZK|$\text{SZK}$]], in which Arthur is allowed to gain some information from his interaction with Merlin.
+== Description ==
+
+{{{#!description
+
+A hierarchy of generalizations of [[Class_SZK|$\text{SZK}$]], in which Arthur is allowed to gain some information from his interaction with Merlin.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -31,6 +44,10 @@ SKC,,ent,,(k(n)): Entropy sense.  Defined in [[ZooRefs#ABV95|[ABV95] ]]. For eac
 
 See also: [[Class_PKC|$\text{PKC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

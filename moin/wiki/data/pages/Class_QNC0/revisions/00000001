@@ -5,9 +5,22 @@
 
 = QNC^0^ - Quantum NC0 =
 
-== Comments ==
+----
+CategoryQuantum 
 
-Constant-depth quantum circuits without fanout gates.
+== Description ==
+
+{{{#!description
+
+Constant-depth quantum circuits without fanout gates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,8 +28,12 @@ Defined in [[ZooRefs#Spa02|[Spa02] ]].
 
 
 
-Contained in [[Class_QNCf0|$\text{QNCf0}$]].
+Contained in [[Class_QNCf0|$\text{QNC}_\text{f}\text{}^\text{0}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

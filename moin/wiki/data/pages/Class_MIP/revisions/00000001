@@ -5,9 +5,22 @@
 
 = MIP - Multi-Prover Interactive Proof =
 
-== Comments ==
+----
+CategoryClassical 
 
-Same as [[Class_IP|$\text{IP}$]], except that now the verifier can exchange messages with many provers, not just one.  The provers cannot communicate with each other during the execution of the protocol, so the verifier can "cross-check" their assertions (as with suspects in separate interrogation rooms).
+== Description ==
+
+{{{#!description
+
+Same as [[Class_IP|$\text{IP}$]], except that now the verifier can exchange messages with many provers, not just one.  The provers cannot communicate with each other during the execution of the protocol, so the verifier can "cross-check" their assertions (as with suspects in separate interrogation rooms).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Let MIP[k] be the class of decision problems for which a "yes" answer can be ver
 
 [[Class_MIP|$\text{MIP}$]] equals [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#BFL91|[BFL91] ]]; this is a famous non-relativizing result.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

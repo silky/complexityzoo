@@ -5,9 +5,22 @@
 
 = VQP,,k,, - Valiant QP Over Field k =
 
-== Comments ==
+----
+CategoryClassical 
 
-Has the same relation to [[Class_VPk|$\text{VPk}$]] as [[Class_QP|$\text{QP}$]] does to [[Class_P|$\text{P}$]].
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_VPk|$\text{VP}_\text{k}\text{}$]] as [[Class_QP|$\text{QP}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Originated in [Val79b].
 
 The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under a type of reduction called qp-projections (see [[ZooRefs#Bur00|[Bur00] ]] for example).  It is an open problem whether the determinant is VP,,k,,-complete.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

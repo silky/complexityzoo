@@ -5,14 +5,31 @@
 
 = BQP-OBDD - Polynomial-Size Bounded-Error Quantum Ordered Binary Decision Diagram =
 
-== Comments ==
+----
+CategoryQuantum 
 
-Same as [[Class_P-OBDD|$\text{P-OBDD}$]], except that unitary (quantum) transitions are allowed and the OBDD need only accept with probability at least 2/3.
+== Description ==
+
+{{{#!description
+
+Same as [[Class_P-OBDD|$\text{P-OBDD}$]], except that unitary (quantum) transitions are allowed and the OBDD need only accept with probability at least 2/3.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Strictly contains [[Class_BPP-OBDD|$\text{BPP-OBDD}$]] [[ZooRefs#NHK00|[NHK00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = Dyn-FO - Dynamic FO =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of dynamic problems solvable using first-order predicates.
+== Description ==
+
+{{{#!description
+
+The class of dynamic problems solvable using first-order predicates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19,8 +32,12 @@ See [[ZooRefs#HI02|[HI02] ]] for more information, and a complete problem for [[
 
 
 
-See also [[Class_Dyn-ThC0|$\text{Dyn-ThC0}$]].
+See also [[Class_Dyn-ThC0|$\text{Dyn-ThC}^\text{0}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

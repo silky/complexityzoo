@@ -5,9 +5,22 @@
 
 = NP - Nondeterministic Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of dashed hopes and idle dreams.
+== Description ==
+
+{{{#!description
+
+The class of dashed hopes and idle dreams.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -81,7 +94,7 @@ If we restrict to monotone classes, [[Class_mP|$\text{mP}$]] is strictly contain
 
 
 
-Perhaps the most important insight anyone has had into [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] is to be found in [[ZooRefs#RR97|[RR97] ]].  There the authors show that no 'natural proof' can separate [[Class_P|$\text{P}$]] from [[Class_NP|$\text{NP}$]] (or more precisely, place [[Class_NP|$\text{NP}$]] outside of P/poly), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [[ZooRefs#MS02|[MS02] ]] (and the survey article [[ZooRefs#Reg02|[Reg02] ]]) for a development of this point of view.
+Perhaps the most important insight anyone has had into [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] is to be found in [[ZooRefs#RR97|[RR97] ]].  There the authors show that no 'natural proof' can separate [[Class_P|$\text{P}$]] from [[Class_NP|$\text{NP}$]] (or more precisely, place [[Class_NP|$\text{NP}$]] outside of [[Class_P/poly|$\text{P/poly}$]]), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [[ZooRefs#MS02|[MS02] ]] (and the survey article [[ZooRefs#Reg02|[Reg02] ]]) for a development of this point of view.
 
 
 
@@ -97,11 +110,11 @@ The set of decision problems in [[Class_NP|$\text{NP}$]], but not in [[Class_P|$
 
 
 
-Probabilistic generalizations of [[Class_NP|$\text{NP}$]] include [[Class_MA|$\text{MA}$]] and [[Class_AM|$\text{AM}$]].  If [[Class_NP|$\text{NP}$]] is in [[Class_coAM|$\text{coAM}$]] (or BPP) then [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ2P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
+Probabilistic generalizations of [[Class_NP|$\text{NP}$]] include [[Class_MA|$\text{MA}$]] and [[Class_AM|$\text{AM}$]].  If [[Class_NP|$\text{NP}$]] is in [[Class_coAM|$\text{coAM}$]] (or [[Class_BPP|$\text{BPP}$]]) then [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
 
 
 
-[[Class_PH|$\text{PH}$]] also collapses to [[Class_Σ2P|$\text{Σ2P}$]] if [[Class_NP|$\text{NP}$]] is in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#KL82|[KL82] ]].
+[[Class_PH|$\text{PH}$]] also collapses to [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] if [[Class_NP|$\text{NP}$]] is in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#KL82|[KL82] ]].
 
 
 
@@ -117,7 +130,7 @@ Also, [[ZooRefs#Fag74|[Fag74] ]] showed that [[Class_NP|$\text{NP}$]] is precise
 
 
 
-It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length ), then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]]. [[ZooRefs#BH08|[BH08] ]] improved this result, showing that if any language in [[Class_NP|$\text{NP}$]] has an NP-hard set of subexponential density, then [[Class_coNP|$\text{coNP}$]] is contained in [[Class_NP/poly|$\text{NP/poly}$]] and thus, by [[ZooRefs#Yap82|[Yap82] ]], [[Class_PH|$\text{PH}$]] collapses to the third level.
+It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length $n$), then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]]. [[ZooRefs#BH08|[BH08] ]] improved this result, showing that if any language in [[Class_NP|$\text{NP}$]] has an NP-hard set of subexponential density, then [[Class_coNP|$\text{coNP}$]] is contained in [[Class_NP/poly|$\text{NP/poly}$]] and thus, by [[ZooRefs#Yap82|[Yap82] ]], [[Class_PH|$\text{PH}$]] collapses to the third level.
 
 
 
@@ -131,6 +144,10 @@ For example, the SAT problem is to decide whether a given Boolean formula has an
 
 Also, [[ZooRefs#Fag74|[Fag74] ]] gave a logical characterization of [[Class_NP|$\text{NP}$]], which leads to the subclass [[Class_SNP|$\text{SNP}$]].
 == Relations ==
+
+{{{#!class_relations
+{"version": 1.0, "class": "NP", "relations": {"contained_in": [{"class": "EXP"}], "equals": [{"class": "PCP(r(n),q(n))", "condition": "$r(n) = \\log(n), q(n) = O(1)$"}]}}
+}}}
 
 
 == See Also ==

@@ -5,18 +5,35 @@
 
 = P^K^ - P With Kolmogorov-Complexity Oracle =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+[[Class_P|$\text{P}$]] equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-[[Class_P|$\text{P}$]] equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.
+
+
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that [[Class_PK|$\text{P}^\text{K}\text{}$]] contains [[Class_PSPACE|$\text{PSPACE}$]].  It is not known whether [[Class_PK|$\text{P}^\text{K}\text{}$]] contains all of [[Class_R|$\text{R}$]], or even any recursive problem not in [[Class_PSPACE|$\text{PSPACE}$]].
 
 
 
-A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that [[Class_PK|$\text{PK}$]] contains [[Class_PSPACE|$\text{PSPACE}$]].  It is not known whether [[Class_PK|$\text{PK}$]] contains all of [[Class_R|$\text{R}$]], or even any recursive problem not in [[Class_PSPACE|$\text{PSPACE}$]].
-
-
-
-See also: [[Class_BPPKT|$\text{BPPKT}$]].
+See also: [[Class_BPPKT|$\text{BPP}^\text{KT}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

@@ -5,9 +5,22 @@
 
 = CH - Counting Hierarchy =
 
-== Comments ==
+----
+CategoryClassical CategoryHierarchy 
 
-The union of the C,,k,,P's over all constant k.
+== Description ==
+
+{{{#!description
+
+The union of the C,,k,,P's over all constant k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15,16 +28,20 @@ Contained in [[Class_PSPACE|$\text{PSPACE}$]].
 
 
 
-Strictly contains DLOGTIME-uniform [[Class_NC1|$\text{NC1}$]] [[ZooRefs#CMTV98|[CMTV98] ]].
+Strictly contains DLOGTIME-uniform [[Class_NC1|$\text{NC}^\text{1}\text{}$]] [[ZooRefs#CMTV98|[CMTV98] ]].
 
 
 
-It is an open problem whether there exists an oracle relative to which [[Class_CH|$\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\text{TC0}$]] = [[Class_NC1|$\text{NC1}$]], since a padding argument shows that [[Class_TC0|$\text{TC0}$]] = [[Class_NC1|$\text{NC1}$]] implies [[Class_CH|$\text{CH}$]] = [[Class_PSPACE|$\text{PSPACE}$]].
+It is an open problem whether there exists an oracle relative to which [[Class_CH|$\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\text{TC}^\text{0}\text{}$]] = [[Class_NC1|$\text{NC}^\text{1}\text{}$]], since a padding argument shows that [[Class_TC0|$\text{TC}^\text{0}\text{}$]] = [[Class_NC1|$\text{NC}^\text{1}\text{}$]] implies [[Class_CH|$\text{CH}$]] = [[Class_PSPACE|$\text{PSPACE}$]].
 
 
 
-It is an open problem whether there exists an oracle relative to which [[Class_CH|$\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\text{TC0}$]] = [[Class_NC1|$\text{NC1}$]].
+It is an open problem whether there exists an oracle relative to which [[Class_CH|$\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\text{TC}^\text{0}\text{}$]] = [[Class_NC1|$\text{NC}^\text{1}\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

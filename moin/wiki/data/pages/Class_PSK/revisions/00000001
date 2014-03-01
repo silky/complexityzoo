@@ -5,9 +5,22 @@
 
 = PSK - Polynomial Sink =
 
-== Comments ==
+----
+CategoryClassical 
 
-Yeah, I'm told that's what the S and [[Class_K|$\text{K}$]] stand for.  Go figure.
+== Description ==
+
+{{{#!description
+
+Yeah, I'm told that's what the S and [[Class_K|$\text{K}$]] stand for.  Go figure.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Defined in [[ZooRefs#Pap90|[Pap90] ]].
 
 Equals [[Class_PPADS|$\text{PPADS}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

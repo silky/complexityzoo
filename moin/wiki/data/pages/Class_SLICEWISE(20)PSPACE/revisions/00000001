@@ -5,9 +5,22 @@
 
 = SLICEWISE PSPACE - Parametrized PSPACE =
 
-== Comments ==
+----
+CategoryClassical 
 
-The parameterized version of [[Class_PSPACE|$\text{PSPACE}$]].
+== Description ==
+
+{{{#!description
+
+The parameterized version of [[Class_PSPACE|$\text{PSPACE}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ If [[Class_P|$\text{P}$]] = [[Class_PSPACE|$\text{PSPACE}$]], then [[Class_FPT|$
 
 Defined in [[ZooRefs#DF99|[DF99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

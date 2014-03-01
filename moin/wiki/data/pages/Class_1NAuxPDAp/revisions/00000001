@@ -5,10 +5,29 @@
 
 = 1NAuxPDA^p^ - One-Way NAuxPDAp =
 
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that [[Class_1NAuxPDAp|$\text{1NAuxPDA}^\text{p}\text{}$]] strictly contains [[Class_CFL|$\text{CFL}$]] and is strictly contained in [[Class_LOGCFL|$\text{LOGCFL}$]]. The class corresponds to the closure of [[Class_CFL|$\text{CFL}$]] under one-way log-space reductions.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that [[Class_1NAuxPDAp|$\text{1NAuxPDAp}$]] strictly contains [[Class_CFL|$\text{CFL}$]] and is strictly contained in [[Class_LOGCFL|$\text{LOGCFL}$]]. The class corresponds to the closure of [[Class_CFL|$\text{CFL}$]] under one-way log-space reductions.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

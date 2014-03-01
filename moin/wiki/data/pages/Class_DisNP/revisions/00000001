@@ -5,9 +5,22 @@
 
 = DisNP - Disjoint NP Pairs =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of pairs (A,B), where A and B are [[Class_NP|$\text{NP}$]] problems whose sets of "yes" instances are nonempty and disjoint.
+== Description ==
+
+{{{#!description
+
+The class of pairs (A,B), where A and B are [[Class_NP|$\text{NP}$]] problems whose sets of "yes" instances are nonempty and disjoint.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ If there exists an optimal propositional proof system, then [[Class_DisNP|$\text
 
 If [[Class_P|$\text{P}$]] does not equal [[Class_UP|$\text{UP}$]], then [[Class_DisNP|$\text{DisNP}$]] contains pairs not separated by any set in [[Class_P|$\text{P}$]] [[ZooRefs#GS88|[GS88] ]].  On the other hand, there exists an oracle relative to which [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] but still [[Class_DisNP|$\text{DisNP}$]] does not contain any P-inseparable pairs [[ZooRefs#HS92|[HS92] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

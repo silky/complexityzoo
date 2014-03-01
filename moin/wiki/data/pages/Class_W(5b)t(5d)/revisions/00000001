@@ -5,9 +5,22 @@
 
 = W[t] - Nondeterministic Fixed-Parameter Hierarchy =
 
-== Comments ==
+----
+CategoryClassical CategoryHierarchy 
 
-A generalization of [[Class_W[1]|$\text{W[1]}$]].
+== Description ==
+
+{{{#!description
+
+A generalization of [[Class_W[1]|$\text{W[1]}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -27,8 +40,12 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 
 
-Contained in [[Class_W[SAT]|$\text{W[SAT]}$]] and in [[Class_W*[t]|$\text{W*[t]}$]].
+Contained in [[Class_W[SAT]|$\text{W[SAT]}$]] and in [[Class_W*[t]|$\text{W}^\text{*}\text{[t]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

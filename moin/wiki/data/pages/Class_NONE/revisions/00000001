@@ -5,9 +5,22 @@
 
 = NONE - The Empty Class =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class that does not contain any languages.  (It might not surprise you that I put this one in at the suggestion of a mathematician...)
+== Description ==
+
+{{{#!description
+
+The class that does not contain any languages.  (It might not surprise you that I put this one in at the suggestion of a mathematician...)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Is closed under polynomial-time Turing reductions :-).
 
 Equals [[Class_SPARSE|$\text{SPARSE}$]] ∩ [[Class_coSPARSE|$\text{coSPARSE}$]] and [[Class_TALLY|$\text{TALLY}$]] ∩ coTALLY.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

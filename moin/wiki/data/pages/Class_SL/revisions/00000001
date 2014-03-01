@@ -5,9 +5,22 @@
 
 = SL - Symmetric Logarithmic-Space =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that
+== Description ==
+
+{{{#!description
+
+The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -35,7 +48,7 @@ It follows from [[ZooRefs#AKL+79|[AKL+79] ]] that [[Class_SL|$\text{SL}$]] is co
 
 
 
-[[ZooRefs#KW93|[KW93] ]] showed that [[Class_SL|$\text{SL}$]] is contained in [[Class_⊕L|$\text{⊕L}$]], as well as [[Class_ModkL|$\text{ModkL}$]] for every prime k.
+[[ZooRefs#KW93|[KW93] ]] showed that [[Class_SL|$\text{SL}$]] is contained in [[Class_⊕L|$\text{⊕L}$]], as well as [[Class_ModkL|$\text{Mod}_\text{k}\text{L}$]] for every prime k.
 
 
 
@@ -59,6 +72,10 @@ The story ends with the remarkable result that [[Class_SL|$\text{SL}$]] = [[Clas
 
 [[ZooRefs#Rei04|[Rei04] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

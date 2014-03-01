@@ -5,9 +5,22 @@
 
 = PINC - Polynomial Ignorance of Names of Classes =
 
-== Comments ==
+----
+CategoryClassical 
 
-(Actually, I've since been informed that [[Class_PINC|$\text{PINC}$]] means "Incremental Polynomial-Time.")
+== Description ==
+
+{{{#!description
+
+(Actually, I've since been informed that [[Class_PINC|$\text{PINC}$]] means "Incremental Polynomial-Time.")}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21,6 +34,10 @@ Defined in [[ZooRefs#JY88|[JY88] ]].
 
 Contained in [[Class_PIO|$\text{PIO}$]].  This containment is strict, since if m=2^n^ (say), then computing the first bit of f(x) might be EXP-complete.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

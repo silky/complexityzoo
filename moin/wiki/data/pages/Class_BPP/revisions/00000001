@@ -5,9 +5,22 @@
 
 = BPP - Bounded-Error Probabilistic Polynomial-Time =
 
-== Comments ==
+----
+CategoryClassical 
 
-The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -29,7 +42,7 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 
 
-Contained in [[Class_Σ2P|$\text{Σ2P}$]] ∩ [[Class_Π2P|$\text{Π2P}$]] [[ZooRefs#Lau83|[Lau83] ]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|[GZ97] ]].
+Contained in [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] ∩ [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]] [[ZooRefs#Lau83|[Lau83] ]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|[GZ97] ]].
 
 
 
@@ -65,12 +78,16 @@ Equals [[Class_Almost-P|$\text{Almost-P}$]].
 
 
 
-See also: [[Class_BPPpath|$\text{BPPpath}$]].
+See also: [[Class_BPPpath|$\text{BPP}_\text{path}\text{}$]].
 
 
 
 If [[Class_BPP|$\text{BPP}$]] contains [[Class_NP|$\text{NP}$]], then [[Class_RP|$\text{RP}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Ko82|[Ko82] ]] and [[Class_PH|$\text{PH}$]] is contained in [[Class_BPP|$\text{BPP}$]] [[ZooRefs#Zac88|[Zac88] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

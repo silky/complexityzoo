@@ -5,9 +5,22 @@
 
 = PLS - Polynomial Local Search =
 
-== Comments ==
+----
+CategoryClassical 
 
-The subclass of [[Class_TFNP|$\text{TFNP}$]] function problems that are guaranteed to have a solution because of the lemma that "every finite directed acyclic graph has a sink."
+== Description ==
+
+{{{#!description
+
+The subclass of [[Class_TFNP|$\text{TFNP}$]] function problems that are guaranteed to have a solution because of the lemma that "every finite directed acyclic graph has a sink."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -41,6 +54,10 @@ Whether [[Class_PLS|$\text{PLS}$]] is not in [[Class_PPP|$\text{PPP}$]] relative
 
 [[ZooRefs#CT07|[CT07] ]] conjecture that if [[Class_PPAD|$\text{PPAD}$]] is in [[Class_P|$\text{P}$]], then [[Class_PLS|$\text{PLS}$]] is in [[Class_P|$\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

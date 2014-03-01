@@ -5,9 +5,22 @@
 
 = NQP - Nondeterministic Quantum Polynomial-Time =
 
-== Comments ==
+----
+CategoryQuantum 
 
-The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, [[Class_NQP|$\text{NQP}$]] has the same technical caveats as [[Class_EQP|$\text{EQP}$]].  Or it would, except that it turns out to equal [[Class_coC=P|$\text{coC=P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, [[Class_NQP|$\text{NQP}$]] has the same technical caveats as [[Class_EQP|$\text{EQP}$]].  Or it would, except that it turns out to equal [[Class_coC=P|$\text{coC}_\text{=}\text{P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17,6 +30,10 @@ Defined in [[ZooRefs#ADH97|[ADH97] ]].
 
 Contrast with [[Class_QMA|$\text{QMA}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
