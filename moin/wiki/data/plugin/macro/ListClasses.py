@@ -29,6 +29,7 @@ def macro_ListClasses (macro):
 
     def sorty (blob):
         (thing, _) = blob
+        thing = thing.replace("Sharp", "#")
         if not thing:
             return -1
 
@@ -59,10 +60,11 @@ def macro_ListClasses (macro):
     last = None
     output = ""
     for (name, title) in info:
+        disp_name = name.replace("Sharp", "#")
         if len(name) == 0:
             continue
 
-        tok = token(name[0])
+        tok = token(disp_name[0])
         if tok != last:
             if last != None:
                 output += "</ul>"
@@ -71,7 +73,7 @@ def macro_ListClasses (macro):
             output += "<ul class='classes-list'>"
         last = tok
 
-        output += "<li><a href='Class_%(url_name)s'>%(name)s</a> - %(title)s</li>" % {"name": name,
+        output += "<li><a href='Class_%(url_name)s'>%(name)s</a> - %(title)s</li>" % {"name": disp_name,
                 "url_name": urllib.quote(name.encode("utf-8")),
                 "title": title } 
     output += "</ul>"

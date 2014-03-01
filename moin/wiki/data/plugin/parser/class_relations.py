@@ -23,9 +23,17 @@ class Parser:
             relns = obj["relations"]
             _in   = relns["contained_in"]
             _eq   = relns["equals"]
+
+            def maybeCondition (dct):
+                if "condition" in dct:
+                    return "\r\n\r\nIf %s" % dct["condition"]
+                return ""
             
             def classesToLinks (classes):
-                return u", ".join([ u'<a href="Class_%(class)s">%(class)s</a>' % x for x in classes ])
+                msg = "<ul>"
+                msg += u"\r\n".join([ u'<li><a href="Class_%(class)s">%(class)s</a>  %(cond)s</li>' %
+                    { "class": x["class"], "cond": maybeCondition(x) } for x in classes ])
+                return msg
 
             str_in  = classesToLinks(_in)
             str_eq  = classesToLinks(_eq)

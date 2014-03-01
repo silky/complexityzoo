@@ -13,6 +13,7 @@ class Config(LocalConfig):
             # Recent changes is a little broken because I added so many
             # things.
             # u'[[RecentChanges|Recent Changes]]',
+            u'[[ZooRefs|References]]',
             u'[[FindPage|Find page]]',
             u'[[RandomPage|Random page]]',
             ]

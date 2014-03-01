@@ -18,14 +18,28 @@ text = u'''
 
 = #AC^0^ - Sharp-AC0 =
 
+== Description ==
+
+{{{#!description
+
+The class of functions from {0,1}^n^ to nonnegative integers computed by polynomial-size constant-depth arithmetic circuits, using addition and multiplication gates and the constants 0 and 1.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of functions from {0,1}^n^ to nonnegative integers computed by polynomial-size constant-depth arithmetic circuits, using addition and multiplication gates and the constants 0 and 1.
 
 
-
-Contained in [[Class_GapAC0|$\\text{GapAC0}$]].
+Contained in [[Class_GapAC0|$\\text{GapAC}^\\text{0}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -53,14 +67,28 @@ text = u'''
 
 = #GA - Graph Automorphism =
 
-== Comments ==
+== Description ==
 
-The class of problems (Karp-)reducible to counting the number of automorphisms of a graph.
+{{{#!description
+
+The class of problems (Karp-)reducible to counting the number of automorphisms of a graph.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Counterpart of [[Class_GI|$\\text{GI}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -88,14 +116,28 @@ text = u'''
 
 = #L - Sharp-L =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_SharpP|$\\text{#P}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_SharpP|$\\text{#P}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 [[Class_SharpL|$\\text{#L}$]] is contained in [[Class_DET|$\\text{DET}$]] [[ZooRefs#AJ93|[AJ93] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -123,10 +165,26 @@ text = u'''
 
 = #L/poly - Nonuniform #L =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_SharpL|$\\text{#L}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_SharpL|$\\text{#L}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -154,9 +212,19 @@ text = u'''
 
 = #P - Sharp-P =
 
-== Comments ==
+== Description ==
 
-The class of function problems of the form "compute f(x)," where f is the number of accepting paths of an [[Class_NP|$\\text{NP}$]] machine.
+{{{#!description
+
+The class of function problems of the form "compute f(x)," where f is the number of accepting paths of an [[Class_NP|$\\text{NP}$]] machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -172,12 +240,16 @@ What makes that interesting is that the associated decision problem (whether a b
 
 
 
-[[Class_PH|$\\text{PH}$]] is in [[Class_PSharpP|$\\text{P#P}$]] [[ZooRefs#Tod89|[Tod89] ]].
+[[Class_PH|$\\text{PH}$]] is in [[Class_PSharpP|$\\text{P}^\\text{#P}\\text{}$]] [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
 Any function in [[Class_SharpP|$\\text{#P}$]] can be approximated to within a polynomial factor in [[Class_BPP|$\\text{BPP}$]] with [[Class_NP|$\\text{NP}$]] oracle [[ZooRefs#Sto85|[Sto85] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -205,9 +277,19 @@ text = u'''
 
 = #W[t] - Sharp-W[t] =
 
-== Comments ==
+== Description ==
 
-Roughly, the analogue of [[Class_SharpP|$\\text{#P}$]] for parameterized complexity.  I.e. the class of parameterized counting problems that are fixed-parameter parsimonious reducible to the following problem:
+{{{#!description
+
+Roughly, the analogue of [[Class_SharpP|$\\text{#P}$]] for parameterized complexity.  I.e. the class of parameterized counting problems that are fixed-parameter parsimonious reducible to the following problem:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -215,8 +297,12 @@ Roughly, the analogue of [[Class_SharpP|$\\text{#P}$]] for parameterized complex
 
 
 
-Defined in [[ZooRefs#FG02|[FG02] ]], which should be consulted for the full definition.  [[ZooRefs#FG02|[FG02] ]] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in FPT).
+Defined in [[ZooRefs#FG02|[FG02] ]], which should be consulted for the full definition.  [[ZooRefs#FG02|[FG02] ]] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in [[Class_FPT|$\\text{FPT}$]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -244,13 +330,23 @@ text = u'''
 
 = (M,,k,,)P - Acceptance Mechanism by Monoid Mk =
 
+== Description ==
+
+{{{#!description
+
+A monoid is a set with an associative operation and an identity element (so it's like a group, except that it need not have inverses).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-A monoid is a set with an associative operation and an identity element (so it's like a group, except that it need not have inverses).
 
 
-
-Then [[Class_(Mk)P|$\\text{(Mk)P}$]] is the class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine with the following acceptance mechanism.  The i^th^ computation path (under some lexicographic ordering) outputs an element m,,i,, of M,,k,,.  Then the machine accepts if and only if m,,1,,m,,2,,...m,,s,, is the identity (where s is the number of paths).
+Then (M,,k,,)P is the class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine with the following acceptance mechanism.  The i^th^ computation path (under some lexicographic ordering) outputs an element m,,i,, of M,,k,,.  Then the machine accepts if and only if m,,1,,m,,2,,...m,,s,, is the identity (where s is the number of paths).
 
 
 
@@ -260,10 +356,14 @@ Defined by Hertrampf [[ZooRefs#Her97|[Her97] ]], who also showed the following (
 
 If G is any nonsolvable group (for example S,,5,,, the symmetric group on 5 elements), then (G)P = [[Class_PSPACE|$\\text{PSPACE}$]].
 
-(Z,,k,,)P = [[Class_coModkP|$\\text{coModkP}$]], where Z,,k,, is the cyclic group on k elements.
+(Z,,k,,)P = [[Class_coModkP|$\\text{coMod}_\\text{k}\\text{P}$]], where Z,,k,, is the cyclic group on k elements.
 
-If |G|=k, then (G)P contains [[Class_coModkP|$\\text{coModkP}$]].
+If |G|=k, then (G)P contains [[Class_coModkP|$\\text{coMod}_\\text{k}\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -291,18 +391,32 @@ text = u'''
 
 = (NP ∩ coNP)/poly - Nonuniform NP ∩ coNP =
 
+== Description ==
+
+{{{#!description
+
+Together with [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]], has the same relation to [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] as [[Class_P/poly|$\\text{P/poly}$]] has to [[Class_P|$\\text{P}$]].  A language in ([[Class_NP|$\\text{NP}$]] ∩ coNP)/poly is defined by a single language in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] which is then modified by advice.  A language in [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]] comes from two possibly different languages in [[Class_NP|$\\text{NP}$]] and [[Class_coNP|$\\text{coNP}$]] which become the same with good advice.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Together with [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]], has the same relation to [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] as [[Class_P/poly|$\\text{P/poly}$]] has to [[Class_P|$\\text{P}$]].  A language in (NP ∩ coNP)/poly is defined by a single language in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] which is then modified by advice.  A language in [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]] comes from two possibly different languages in [[Class_NP|$\\text{NP}$]] and [[Class_coNP|$\\text{coNP}$]] which become the same with good advice.
+
+
+There is an oracle relative to which [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]], indeed NP/1 ∩ coNP/1, is not contained in ([[Class_NP|$\\text{NP}$]] ∩ coNP)/poly [[ZooRefs#FFK+93|[FFK+93] ]].  Recently they improved this to NP/1 ∩ [[Class_coNP|$\\text{coNP}$]] [[ZooRefs#FF..|[FF..] ]].
 
 
 
-There is an oracle relative to which [[Class_NP/poly|$\\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\\text{coNP/poly}$]], indeed NP/1 ∩ coNP/1, is not contained in (NP ∩ coNP)/poly [[ZooRefs#FFK+93|[FFK+93] ]].  Recently they improved this to NP/1 ∩ [[Class_coNP|$\\text{coNP}$]] [[ZooRefs#FF..|[FF..] ]].
-
-
-
-If [[Class_NP|$\\text{NP}$]] is contained in (NP ∩ coNP)/poly, then [[Class_PH|$\\text{PH}$]] collapses to S,,2,,P^NP ∩ [[Class_coNP|$\\text{coNP}$]] [[ZooRefs#CCH+01|[CCH+01] ]].
+If [[Class_NP|$\\text{NP}$]] is contained in ([[Class_NP|$\\text{NP}$]] ∩ coNP)/poly, then [[Class_PH|$\\text{PH}$]] collapses to S,,2,,P^NP ∩ [[Class_coNP|$\\text{coNP}\\text{}$]] [[ZooRefs#CCH+01|[CCH+01] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -330,18 +444,32 @@ text = u'''
 
 = (NP,P-samplable) - Average NP With Samplable Distributions =
 
+== Description ==
+
+{{{#!description
+
+See [[Class_AvgP|$\\text{AvgP}$]] for basic notions of average-case complexity.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-See [[Class_AvgP|$\\text{AvgP}$]] for basic notions of average-case complexity.
+
+
+(NP,P-samplable) is the same as [[Class_DistNP|$\\text{DistNP}$]], except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
 
 
 
-[[Class_(NP,P-samplable)|$\\text{(NP,P-samplable)}$]] is the same as [[Class_DistNP|$\\text{DistNP}$]], except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
-
-
-
-Any problem complete for [[Class_DistNP|$\\text{DistNP}$]] is also complete for [[Class_(NP,P-samplable)|$\\text{(NP,P-samplable)}$]] [[ZooRefs#IL90|[IL90] ]].
+Any problem complete for [[Class_DistNP|$\\text{DistNP}$]] is also complete for (NP,P-samplable) [[ZooRefs#IL90|[IL90] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -369,9 +497,19 @@ text = u'''
 
 = 0-1-NP,,C,, - Binary Restriction of NP Over The Complex Numbers =
 
-== Comments ==
+== Description ==
 
-The intersection of [[Class_NPC|$\\text{NPC}$]] with {0,1}^*^ (i.e. the set of binary strings).
+{{{#!description
+
+The intersection of [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]] with {0,1}^*^ (i.e. the set of binary strings).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -381,6 +519,10 @@ Contains [[Class_NP|$\\text{NP}$]].
 
 Is contained in [[Class_PSPACE|$\\text{PSPACE}$]], and in [[Class_AM|$\\text{AM}$]] assuming the Extended Riemann Hypothesis [[ZooRefs#Koi96|[Koi96] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -408,10 +550,26 @@ text = u'''
 
 = 1NAuxPDA^p^ - One-Way NAuxPDAp =
 
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that [[Class_1NAuxPDAp|$\\text{1NAuxPDA}^\\text{p}\\text{}$]] strictly contains [[Class_CFL|$\\text{CFL}$]] and is strictly contained in [[Class_LOGCFL|$\\text{LOGCFL}$]]. The class corresponds to the closure of [[Class_CFL|$\\text{CFL}$]] under one-way log-space reductions.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that [[Class_1NAuxPDAp|$\\text{1NAuxPDAp}$]] strictly contains [[Class_CFL|$\\text{CFL}$]] and is strictly contained in [[Class_LOGCFL|$\\text{LOGCFL}$]]. The class corresponds to the closure of [[Class_CFL|$\\text{CFL}$]] under one-way log-space reductions.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -439,9 +597,19 @@ text = u'''
 
 = A,,0,,PP - One-Sided Analog of AWPP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_SBP|$\\text{SBP}$]], except that f is a nonnegative-valued [[Class_GapP|$\\text{GapP}$]] function rather than a [[Class_SharpP|$\\text{#P}$]] function.
+{{{#!description
+
+Same as [[Class_SBP|$\\text{SBP}$]], except that f is a nonnegative-valued [[Class_GapP|$\\text{GapP}$]] function rather than a [[Class_SharpP|$\\text{#P}$]] function.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -449,20 +617,24 @@ Defined in [[ZooRefs#Vya03|[Vya03] ]], where the following was also shown:
 
 
 
-[[Class_A0PP|$\\text{A0PP}$]] contains [[Class_QMA|$\\text{QMA}$]], [[Class_AWPP|$\\text{AWPP}$]], and [[Class_coC=P|$\\text{coC=P}$]].
+[[Class_A0PP|$\\text{A}_\\text{0}\\text{PP}$]] contains [[Class_QMA|$\\text{QMA}$]], [[Class_AWPP|$\\text{AWPP}$]], and [[Class_coC=P|$\\text{coC}_\\text{=}\\text{P}$]].
 
-[[Class_A0PP|$\\text{A0PP}$]] is contained in [[Class_PP|$\\text{PP}$]].
+[[Class_A0PP|$\\text{A}_\\text{0}\\text{PP}$]] is contained in [[Class_PP|$\\text{PP}$]].
 
-If [[Class_A0PP|$\\text{A0PP}$]] = [[Class_PP|$\\text{PP}$]] then [[Class_PH|$\\text{PH}$]] is contained in [[Class_PP|$\\text{PP}$]].
+If [[Class_A0PP|$\\text{A}_\\text{0}\\text{PP}$]] = [[Class_PP|$\\text{PP}$]] then [[Class_PH|$\\text{PH}$]] is contained in [[Class_PP|$\\text{PP}$]].
 
 
 
-Kuperberg ([[ZooRefs#Kup09|[Kup09] ]]) showed that [[Class_A0PP|$\\text{A0PP}$]] = [[Class_SBQP|$\\text{SBQP}$]].
+Kuperberg ([[ZooRefs#Kup09|[Kup09] ]]) showed that [[Class_A0PP|$\\text{A}_\\text{0}\\text{PP}$]] = [[Class_SBQP|$\\text{SBQP}$]].
 
 
 
 Same as [[Class_SBP|$\\text{SBP}$]], except that f is a [[Class_GapP|$\\text{GapP}$]] rather than [[Class_SharpP|$\\text{#P}$]] function.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -490,9 +662,19 @@ text = u'''
 
 = AC - Unbounded Fanin Polylogarithmic-Depth Circuits =
 
-== Comments ==
+== Description ==
 
-AC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and unbounded fanin.  The gates allowed are AND, OR, and NOT.
+{{{#!description
+
+AC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and unbounded fanin.  The gates allowed are AND, OR, and NOT.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -514,6 +696,10 @@ For a random oracle A, (AC^i^)^A^ is strictly contained in (AC^i+1^)^A^, and (un
 
 fo-uniform [[Class_AC|$\\text{AC}$]] with depth  is equal to [[Class_FO[]|$\\text{FO[]}$]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -541,37 +727,47 @@ text = u'''
 
 = AC^0^ - Unbounded Fanin Constant-Depth Circuits =
 
+== Description ==
+
+{{{#!description
+
+An especially important subclass of [[Class_AC|$\\text{AC}$]], corresponding to constant-depth, unbounded-fanin, polynomial-size circuits with AND, OR, and NOT gates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-An especially important subclass of [[Class_AC|$\\text{AC}$]], corresponding to constant-depth, unbounded-fanin, polynomial-size circuits with AND, OR, and NOT gates.
+
+
+Computing the Parity or Majority of n bits is not in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] [[ZooRefs#FSS84|[FSS84] ]].
 
 
 
-Computing the Parity or Majority of n bits is not in [[Class_AC0|$\\text{AC0}$]] [[ZooRefs#FSS84|[FSS84] ]].
+There are functions in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] that are pseudorandom for all statistical tests in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] [[ZooRefs#NW94|[NW94] ]].  But there are no functions in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] that are pseudorandom for all statistical tests in [[Class_QP|$\\text{QP}$]] (quasipolynomial time) [[ZooRefs#LMN93|[LMN93] ]].
 
 
 
-There are functions in [[Class_AC0|$\\text{AC0}$]] that are pseudorandom for all statistical tests in [[Class_AC0|$\\text{AC0}$]] [[ZooRefs#NW94|[NW94] ]].  But there are no functions in [[Class_AC0|$\\text{AC0}$]] that are pseudorandom for all statistical tests in [[Class_QP|$\\text{QP}$]] (quasipolynomial time) [[ZooRefs#LMN93|[LMN93] ]].
+[[ZooRefs#LMN93|[LMN93] ]] showed furthermore that functions with [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] circuits of depth d are learnable in [[Class_QP|$\\text{QP}$]], given their outputs on O(2^log(n)^O(d)^) randomly chosen inputs.  On the other hand, this learning algorithm is essentially optimal, unless there is a 2^n^o(1)^ algorithm for factoring [[ZooRefs#Kha93|[Kha93] ]].
 
 
 
-[[ZooRefs#LMN93|[LMN93] ]] showed furthermore that functions with [[Class_AC0|$\\text{AC0}$]] circuits of depth d are learnable in [[Class_QP|$\\text{QP}$]], given their outputs on O(2^log(n)^O(d)^) randomly chosen inputs.  On the other hand, this learning algorithm is essentially optimal, unless there is a 2^n^o(1)^ algorithm for factoring [[ZooRefs#Kha93|[Kha93] ]].
+Although there are no good pseudorandom functions in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum.
 
 
 
-Although there are no good pseudorandom functions in [[Class_AC0|$\\text{AC0}$]], [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum.
+[[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] contains [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]], and is contained in [[Class_QACf0|$\\text{QAC}_\\text{f}\\text{}^\\text{0}\\text{}$]] and [[Class_MAC0|$\\text{MAC}^\\text{0}\\text{}$]].
 
 
 
-[[Class_AC0|$\\text{AC0}$]] contains [[Class_NC0|$\\text{NC0}$]], and is contained in [[Class_QACf0|$\\text{QACf0}$]] and [[Class_MAC0|$\\text{MAC0}$]].
+In descriptive complexity, uniform [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]). So it's equivalent to the class [[Class_FO|$\\text{FO}$]] and to [[Class_AL|$\\text{AL}$]] the alternating logtime hierarchy.
 
 
 
-In descriptive complexity, uniform [[Class_AC0|$\\text{AC0}$]] can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]). So it's equivalent to the class [[Class_FO|$\\text{FO}$]] and to [[Class_AL|$\\text{AL}$]] the alternating logtime hierarchy.
-
-
-
-[[ZooRefs#BLM+98|[BLM+98] ]] showed the following problem is complete for depth-k [[Class_AC0|$\\text{AC0}$]] circuits (with a uniformity condition):
+[[ZooRefs#BLM+98|[BLM+98] ]] showed the following problem is complete for depth-k [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] circuits (with a uniformity condition):
 
 
 
@@ -579,20 +775,24 @@ Given a grid graph of polynomial length and width k, decide whether there is a p
 
 
 
-Computing the parity or majority of n bits is not in [[Class_AC0|$\\text{AC0}$]] [[ZooRefs#FSS84|[FSS84] ]].
+Computing the parity or majority of n bits is not in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] [[ZooRefs#FSS84|[FSS84] ]].
 
 
 
-Although there are no good pseudorandom functions in [[Class_AC0|$\\text{AC0}$]], [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators in [[Class_AC0|$\\text{AC0}$]] that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum. Work of [[ZooRefs#AIK04|[AIK04] ]] shows pseudorandom generators in [[Class_NC0|$\\text{NC0}$]] under more relaxed assumptions.
+Although there are no good pseudorandom functions in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], [[ZooRefs#IN96|[IN96] ]] showed that there are pseudorandom generators in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] that stretch n bits to n+Θ(log n), assuming the hardness of a problem based on subset sum. Work of [[ZooRefs#AIK04|[AIK04] ]] shows pseudorandom generators in [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]] under more relaxed assumptions.
 
 
 
-[[Class_AC0|$\\text{AC0}$]] contains [[Class_NC0|$\\text{NC0}$]], and is contained in [[Class_QAC0|$\\text{QAC0}$]] and [[Class_MAC0|$\\text{MAC0}$]].
+[[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] contains [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]], and is contained in [[Class_QAC0|$\\text{QAC}^\\text{0}\\text{}$]] and [[Class_MAC0|$\\text{MAC}^\\text{0}\\text{}$]].
 
 
 
-In descriptive complexity, uniform [[Class_AC0|$\\text{AC0}$]] can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]).
+In descriptive complexity, uniform [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] can be characterized as the class of problems expressible by first-order predicates with addition and multiplication operators - or indeed, with ordering and multiplication, or ordering and division (see [[ZooRefs#Lee02|[Lee02] ]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -620,26 +820,40 @@ text = u'''
 
 = AC^0^[m] - AC0 With MOD m Gates =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_AC0|$\\text{AC0}$]], but now "MOD m" gates (for a specific m) are allowed in addition to AND, OR, and NOT gates.  (A MOD m gate outputs 0 if the sum of its inputs is congruent to 0 modulo m, and 1 otherwise.)
+
+
+If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in [[Class_AC0[m]|$\\text{AC}^\\text{0}\\text{[m]}$]] [[ZooRefs#Raz87|[Raz87] ]] [[ZooRefs#Smo87|[Smo87] ]].  It follows that, for any such m, [[Class_AC0[m]|$\\text{AC}^\\text{0}\\text{[m]}$]] is strictly contained in [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]].
 
 
 
-If m is a power of a prime p, then for any prime q not equal to p, deciding whether the sum of n bits is congruent to 0 modulo q is not in [[Class_AC0[m]|$\\text{AC0[m]}$]] [[ZooRefs#Raz87|[Raz87] ]] [[ZooRefs#Smo87|[Smo87] ]].  It follows that, for any such m, [[Class_AC0[m]|$\\text{AC0[m]}$]] is strictly contained in [[Class_NC1|$\\text{NC1}$]].
+However, if m is a product of distinct primes (e.g. 6), then it is not even known whether [[Class_AC0[m]|$\\text{AC}^\\text{0}\\text{[m]}$]] = NP!
 
 
 
-However, if m is a product of distinct primes (e.g. 6), then it is not even known whether [[Class_AC0[m]|$\\text{AC0[m]}$]] = NP!
+See also: [[Class_QAC0[m]|$\\text{QAC}^\\text{0}\\text{[m]}$]].
 
 
 
-See also: [[Class_QAC0[m]|$\\text{QAC0[m]}$]].
-
-
-
-However, if m is a product of distinct primes (i.e. 6), then it is not even known whether [[Class_AC0[m]|$\\text{AC0[m]}$]] = NP!
+However, if m is a product of distinct primes (i.e. 6), then it is not even known whether [[Class_AC0[m]|$\\text{AC}^\\text{0}\\text{[m]}$]] = NP!
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -667,10 +881,26 @@ text = u'''
 
 = AC^1^ - Unbounded Fanin Log-Depth Circuits =
 
+== Description ==
+
+{{{#!description
+
+See [[Class_AC|$\\text{AC}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-See [[Class_AC|$\\text{AC}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -698,13 +928,23 @@ text = u'''
 
 = ACC^0^ - AC0 With Arbitrary MOD Gates =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AC0[m]|$\\text{AC}^\\text{0}\\text{[m]}$]], but now the constant-depth circuit can contain MOD m gates for any m.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_AC0[m]|$\\text{AC0[m]}$]], but now the constant-depth circuit can contain MOD m gates for any m.
 
 
-
-Contained in [[Class_TC0|$\\text{TC0}$]].
+Contained in [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]].
 
 
 
@@ -712,11 +952,11 @@ Indeed, can be simulated by depth-3 threshold circuits of quasipolynomial size [
 
 
 
-According to [[ZooRefs#All96|[All96] ]], there is no good evidence for the existence of cryptographically secure functions in [[Class_ACC0|$\\text{ACC0}$]].
+According to [[ZooRefs#All96|[All96] ]], there is no good evidence for the existence of cryptographically secure functions in [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]].
 
 
 
-There is no non-uniform [[Class_ACC0|$\\text{ACC0}$]] circuits of polynomial size for NTIMES[2^n^] and no [[Class_ACC0|$\\text{ACC0}$]] circuit of size 2^n^O(1)^^ for E^NP^ (The class [[Class_E|$\\text{E}$]] with an [[Class_NP|$\\text{NP}$]] oracle). These are the only two known nontrivial lower bounds against [[Class_ACC0|$\\text{ACC0}$]] and were recently discovered by [[ZooRefs#Wil11|[Wil11] ]].
+There is no non-uniform [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]] circuits of polynomial size for NTIMES[2^n^] and no [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]] circuit of size 2^n^O(1)^^ for E^NP^ (The class [[Class_E|$\\text{E}$]] with an [[Class_NP|$\\text{NP}$]] oracle). These are the only two known nontrivial lower bounds against [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]] and were recently discovered by [[ZooRefs#Wil11|[Wil11] ]].
 
 
 
@@ -724,12 +964,16 @@ Contains 4-PBP [[ZooRefs#BT88|[BT88] ]].
 
 
 
-See also: [[Class_QACC0|$\\text{QACC0}$]].
+See also: [[Class_QACC0|$\\text{QACC}^\\text{0}\\text{}$]].
 
 
 
-In 1996, [[ZooRefs#All96|[All96] ]] suggested the existence of cryptographically secure functions in [[Class_ACC0|$\\text{ACC0}$]] as an important open question. In 2004, work of [[ZooRefs#AIK04|[AIK04] ]] showed pseudorandom generators in [[Class_NC0|$\\text{NC0}$]] based on widely-believed assumptions.
+In 1996, [[ZooRefs#All96|[All96] ]] suggested the existence of cryptographically secure functions in [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]] as an important open question. In 2004, work of [[ZooRefs#AIK04|[AIK04] ]] showed pseudorandom generators in [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]] based on widely-believed assumptions.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -757,9 +1001,19 @@ text = u'''
 
 = AH - Arithmetic Hierarchy =
 
-== Comments ==
+== Description ==
 
-The analog of [[Class_PH|$\\text{PH}$]] in computability theory.
+{{{#!description
+
+The analog of [[Class_PH|$\\text{PH}$]] in computability theory.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -785,6 +1039,10 @@ Each level of [[Class_AH|$\\text{AH}$]] strictly contains the levels below it.
 
 An equivalent definition is:  is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and . A bounded quantifier is of the form  or  where   is considered to be free in . Then  is the sets of number validating a formula of the form  with .  is the set of formula who are negation of  formula.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -812,14 +1070,28 @@ text = u'''
 
 = AL - Alternating L =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_AP|$\\text{AP}$]], but for logarithmic-space instead of polynomial-time.
+{{{#!description
+
+Same as [[Class_AP|$\\text{AP}$]], but for logarithmic-space instead of polynomial-time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 [[Class_AL|$\\text{AL}$]] = [[Class_P|$\\text{P}$]] [[ZooRefs#CKS81|[CKS81] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -847,9 +1119,19 @@ text = u'''
 
 = ALL - The Class of All Languages =
 
-== Comments ==
+== Description ==
 
-Literally, the class of [[Class_ALL|$\\text{ALL}$]] languages.
+{{{#!description
+
+Literally, the class of [[Class_ALL|$\\text{ALL}$]] languages.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -857,7 +1139,7 @@ Literally, the class of [[Class_ALL|$\\text{ALL}$]] languages.
 
 
 
-First [Aar04b] observed that PP/rpoly (PP with polynomial-size randomized advice) equals [[Class_ALL|$\\text{ALL}$]], as does PostBQP/qpoly (PostBQP with polynomial-size quantum advice).
+First [Aar04b] observed that PP/rpoly ([[Class_PP|$\\text{PP}$]] with polynomial-size randomized advice) equals [[Class_ALL|$\\text{ALL}$]], as does PostBQP/qpoly ([[Class_PostBQP|$\\text{PostBQP}$]] with polynomial-size quantum advice).
 
 
 
@@ -869,7 +1151,7 @@ Nor is it hard to show that MA,,EXP,,/rpoly = [[Class_ALL|$\\text{ALL}$]].
 
 
 
-On the other hand, even though [[Class_PSPACE|$\\text{PSPACE}$]] contains [[Class_PP|$\\text{PP}$]], and [[Class_EXPSPACE|$\\text{EXPSPACE}$]] contains [[Class_MAEXP|$\\text{MAEXP}$]], it's easy to see that PSPACE/rpoly = [[Class_PSPACE/poly|$\\text{PSPACE/poly}$]] and EXPSPACE/rpoly = EXPSPACE/poly are not [[Class_ALL|$\\text{ALL}$]].
+On the other hand, even though [[Class_PSPACE|$\\text{PSPACE}$]] contains [[Class_PP|$\\text{PP}$]], and [[Class_EXPSPACE|$\\text{EXPSPACE}$]] contains [[Class_MAEXP|$\\text{MA}_\\text{EXP}\\text{}$]], it's easy to see that PSPACE/rpoly = [[Class_PSPACE/poly|$\\text{PSPACE/poly}$]] and EXPSPACE/rpoly = EXPSPACE/poly are not [[Class_ALL|$\\text{ALL}$]].
 
 
 
@@ -879,6 +1161,10 @@ So does [[Class_ALL|$\\text{ALL}$]] have no respect for complexity class inclusi
 
 It is not as contradictory as it first seems.  The deterministic base class in all of these examples is modified by computational non-determinism after it is modified by advice.  For example, MA,,EXP,,/rpoly means M(A,,EXP,,/rpoly), while (MA,,EXP,,)/rpoly equals MA,,EXP,,/poly by a standard argument.  In other words, it's only the verifier, not the prover or post-selector, who receives the randomized or quantum advice. The prover knows a description of the advice state, but not its measured values.  Modification by /rpoly does preserve class inclusions when it is applied after other changes.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -906,14 +1192,28 @@ text = u'''
 
 = ALOGTIME - Logarithmic time alternating RAM =
 
+== Description ==
+
+{{{#!description
+
+[[Class_ALOGTIME|$\\text{ALOGTIME}$]] is the class of languages decidable in logarithmic time by a random access alternating Turing machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-[[Class_ALOGTIME|$\\text{ALOGTIME}$]] is the class of languages decidable in logarithmic time by a random access alternating Turing machine.
 
 
-
-Known to be equal to U,,E^*^,,-uniform [[Class_NC1|$\\text{NC1}$]].
+Known to be equal to U,,E^*^,,-uniform [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -941,9 +1241,19 @@ text = u'''
 
 = AM - Arthur-Merlin =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer can be verified by an Arthur-Merlin protocol, as follows.
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by an Arthur-Merlin protocol, as follows.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -969,11 +1279,11 @@ Furthermore, define AM[k] similarly to [[Class_AM|$\\text{AM}$]], except that Ar
 
 
 
-Contains [[Class_NP|$\\text{NP}$]], [[Class_BPP|$\\text{BPP}$]], and [[Class_SZK|$\\text{SZK}$]], and is contained in [[Class_Π2P|$\\text{Π2P}$]] and [[Class_NP/poly|$\\text{NP/poly}$]].
+Contains [[Class_NP|$\\text{NP}$]], [[Class_BPP|$\\text{BPP}$]], and [[Class_SZK|$\\text{SZK}$]], and is contained in [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]] and [[Class_NP/poly|$\\text{NP/poly}$]].
 
 
 
-If [[Class_AM|$\\text{AM}$]] contains [[Class_coNP|$\\text{coNP}$]] then [[Class_PH|$\\text{PH}$]] collapses to [[Class_Σ2P|$\\text{Σ2P}$]] ∩ [[Class_Π2P|$\\text{Π2P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
+If [[Class_AM|$\\text{AM}$]] contains [[Class_coNP|$\\text{coNP}$]] then [[Class_PH|$\\text{PH}$]] collapses to [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] ∩ [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
 
 
 
@@ -983,6 +1293,10 @@ There exists an oracle relative to which [[Class_AM|$\\text{AM}$]] is not contai
 
 [[Class_AM|$\\text{AM}$]] = [[Class_NP|$\\text{NP}$]] under a strong derandomization assumption: namely that some language in [[Class_NE|$\\text{NE}$]] ∩ [[Class_coNE|$\\text{coNE}$]] requires nondeterministic circuits of size 2^Ω(n)^ ([[ZooRefs#MV99|[MV99] ]], improving [[ZooRefs#KM99|[KM99] ]]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1010,9 +1324,19 @@ text = u'''
 
 = AM ∩ coAM - AM ∩ coAM =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which both "yes" and "no" answers can be verified by an [[Class_AM|$\\text{AM}$]] protocol.
+{{{#!description
+
+The class of decision problems for which both "yes" and "no" answers can be verified by an [[Class_AM|$\\text{AM}$]] protocol.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1022,6 +1346,10 @@ If [[Class_EXP|$\\text{EXP}$]] requires exponential time even for [[Class_AM|$\\
 
 There exists an oracle relative to which [[Class_AM|$\\text{AM}$]] ∩ [[Class_coAM|$\\text{coAM}$]] is not contained in [[Class_PP|$\\text{PP}$]] [[ZooRefs#Ver95|[Ver95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1049,18 +1377,32 @@ text = u'''
 
 = AM,,EXP,, - Exponential-Time AM =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AM|$\\text{AM}$]], except that Arthur is exponential-time and can exchange exponentially long messages with Merlin.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_AM|$\\text{AM}$]], except that Arthur is exponential-time and can exchange exponentially long messages with Merlin.
+
+
+Contains [[Class_MAEXP|$\\text{MA}_\\text{EXP}\\text{}$]], and is contained in [[Class_EH|$\\text{EH}$]] and indeed [[Class_S2-EXP•PNP|$\\text{S}_\\text{2}\\text{-EXP•P}^\\text{NP}\\text{}$]].
 
 
 
-Contains [[Class_MAEXP|$\\text{MAEXP}$]], and is contained in [[Class_EH|$\\text{EH}$]] and indeed [[Class_S2-EXP•PNP|$\\text{S2-EXP•PNP}$]].
-
-
-
-If [[Class_coNP|$\\text{coNP}$]] is contained in [[Class_AM[polylog]|$\\text{AM[polylog]}$]] then [[Class_EH|$\\text{EH}$]] collapses to [[Class_AMEXP|$\\text{AMEXP}$]] [[ZooRefs#PV04|[PV04] ]].
+If [[Class_coNP|$\\text{coNP}$]] is contained in [[Class_AM[polylog]|$\\text{AM[polylog]}$]] then [[Class_EH|$\\text{EH}$]] collapses to [[Class_AMEXP|$\\text{AM}_\\text{EXP}\\text{}$]] [[ZooRefs#PV04|[PV04] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1088,14 +1430,28 @@ text = u'''
 
 = AM[polylog] - AM With Polylog Rounds =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AM|$\\text{AM}$]], except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_AM|$\\text{AM}$]], except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.
 
 
-
-Not much is known about [[Class_AM[polylog]|$\\text{AM[polylog]}$]] -- for example, whether it sits in [[Class_PH|$\\text{PH}$]].  However, [[ZooRefs#SS04|[SS04] ]] show that if [[Class_AM[polylog]|$\\text{AM[polylog]}$]] contains [[Class_coNP|$\\text{coNP}$]], then [[Class_EH|$\\text{EH}$]] collapses to [[Class_S2-EXP•PNP|$\\text{S2-EXP•PNP}$]].  ([[ZooRefs#PV04|[PV04] ]] improved the collapse to AM,,EXP,,.)
+Not much is known about [[Class_AM[polylog]|$\\text{AM[polylog]}$]] -- for example, whether it sits in [[Class_PH|$\\text{PH}$]].  However, [[ZooRefs#SS04|[SS04] ]] show that if [[Class_AM[polylog]|$\\text{AM[polylog]}$]] contains [[Class_coNP|$\\text{coNP}$]], then [[Class_EH|$\\text{EH}$]] collapses to [[Class_S2-EXP•PNP|$\\text{S}_\\text{2}\\text{-EXP•P}^\\text{NP}\\text{}$]].  ([[ZooRefs#PV04|[PV04] ]] improved the collapse to [[Class_AMEXP|$\\text{AM}_\\text{EXP}\\text{}$]].)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1123,9 +1479,19 @@ text = u'''
 
 = AP - Alternating P =
 
-== Comments ==
+== Description ==
 
-An alternating Turing machine is a nondeterministic machine with two kinds of states, AND states and OR states.  It accepts if and only if the tree of all computation paths, considered as an AND-OR tree, evaluates to 1.  (Here 'Accept' corresponds to 1 and 'Reject' to 0.)
+{{{#!description
+
+An alternating Turing machine is a nondeterministic machine with two kinds of states, AND states and OR states.  It accepts if and only if the tree of all computation paths, considered as an AND-OR tree, evaluates to 1.  (Here 'Accept' corresponds to 1 and 'Reject' to 0.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1139,6 +1505,10 @@ Then [[Class_AP|$\\text{AP}$]] is the class of decision problems solvable in pol
 
 The abbreviation [[Class_AP|$\\text{AP}$]] is also used for Approximable in Polynomial Time, see [[Class_AxP|$\\text{AxP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1166,9 +1536,19 @@ text = u'''
 
 = APP - Amplified PP =
 
-== Comments ==
+== Description ==
 
-Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist [[Class_GapP|$\\text{GapP}$]] functions f and g such that for all inputs x with n=|x|,
+{{{#!description
+
+Roughly, the class of decision problems for which the following holds.  For all polynomials p(n), there exist [[Class_GapP|$\\text{GapP}$]] functions f and g such that for all inputs x with n=|x|,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1194,6 +1574,10 @@ Defined in [[ZooRefs#Li93|[Li93] ]], where the following was also shown:
 
 The abbreviation [[Class_APP|$\\text{APP}$]] is also used for Approximable in Probabilistic Polynomial Time, see [[Class_AxPP|$\\text{AxPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1221,9 +1605,19 @@ text = u'''
 
 = APX - Approximable =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_NPO|$\\text{NPO}$]] problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)
+{{{#!description
+
+The subclass of [[Class_NPO|$\\text{NPO}$]] problems that admit constant-factor approximation algorithms.  (I.e., there is a polynomial-time algorithm that is guaranteed to find a solution within a constant factor of the optimum cost.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1237,6 +1631,10 @@ Equals the closure of [[Class_MaxSNP|$\\text{MaxSNP}$]] and of [[Class_MaxNP|$\\
 
 Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1264,14 +1662,28 @@ text = u'''
 
 = ATIME - Alternating TIME =
 
-== Comments ==
+== Description ==
 
-ATIME(f(n)) is the class of problems for which there are alternating Turing machines (see AP) which decide the problem in time bounded by f(n).
+{{{#!description
+
+ATIME(f(n)) is the class of problems for which there are alternating Turing machines (see [[Class_AP|$\\text{AP}$]]) which decide the problem in time bounded by f(n).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 In particular, [[Class_AP|$\\text{AP}$]] = ATIME(poly(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1299,13 +1711,23 @@ text = u'''
 
 = AUC-SPACE(f(n)) - Randomized Alternating f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+The class of problems decidable by an O(f(n))-space Turing machine with three kinds of quantifiers: existential, universal, and randomized.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of problems decidable by an O(f(n))-space Turing machine with three kinds of quantifiers: existential, universal, and randomized.
 
 
-
-Contains [[Class_GAN-SPACE(f(n))|$\\text{GAN-SPACE(f(n))}$]].
+Contains GAN-SPACE(f(n)).
 
 
 
@@ -1315,6 +1737,10 @@ AUC-SPACE(poly(n)) = [[Class_SAPTIME|$\\text{SAPTIME}$]] = [[Class_PSPACE|$\\tex
 
 [[ZooRefs#Con92|[Con92] ]] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1342,14 +1768,28 @@ text = u'''
 
 = AVBPP - Average-Case BPP =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#OW93|[OW93] ]] to be the class of decision problems that have a good average-case [[Class_BPP|$\\text{BPP}$]] algorithm, whenever the input is chosen from an efficiently samplable distribution.
+{{{#!description
+
+Defined in [[ZooRefs#OW93|[OW93] ]] to be the class of decision problems that have a good average-case [[Class_BPP|$\\text{BPP}$]] algorithm, whenever the input is chosen from an efficiently samplable distribution.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Note that this is not the same as the [[Class_BPP|$\\text{BPP}$]] version of [[Class_AvgP|$\\text{AvgP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1377,9 +1817,19 @@ text = u'''
 
 = AWPP - Almost WPP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that for some polynomial-time computable (i.e. FP) function f,
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that for some polynomial-time computable (i.e. [[Class_FP|$\\text{FP}$]]) function f,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1399,6 +1849,10 @@ Contains [[Class_BQP|$\\text{BQP}$]] [[ZooRefs#FR98|[FR98] ]], [[Class_WAPP|$\\t
 
 Contained in [[Class_APP|$\\text{APP}$]] [[ZooRefs#Fen02|[Fen02] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1426,10 +1880,26 @@ text = u'''
 
 = AW[*] - Alternating W[*] =
 
+== Description ==
+
+{{{#!description
+
+The union of [[Class_AW[t]|$\\text{AW[t]}$]] over all t.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The union of [[Class_AW[t]|$\\text{AW[t]}$]] over all t.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1457,9 +1927,19 @@ text = u'''
 
 = AW[P] - Alternating W[P] =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_AW[SAT]|$\\text{AW[SAT]}$]] but with 'circuit' instead of 'formula.'
+{{{#!description
+
+Same as [[Class_AW[SAT]|$\\text{AW[SAT]}$]] but with 'circuit' instead of 'formula.'}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1469,6 +1949,10 @@ Has the same relation to [[Class_AW[SAT]|$\\text{AW[SAT]}$]] as [[Class_W[P]|$\\
 
 Defined in [[ZooRefs#DF99|[DF99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1496,9 +1980,19 @@ text = u'''
 
 = AW[SAT] - Alternating W[SAT] =
 
-== Comments ==
+== Description ==
 
-Basically has the same relation to [[Class_W[SAT]|$\\text{W[SAT]}$]] as [[Class_PSPACE|$\\text{PSPACE}$]] does to [[Class_NP|$\\text{NP}$]].
+{{{#!description
+
+Basically has the same relation to [[Class_W[SAT]|$\\text{W[SAT]}$]] as [[Class_PSPACE|$\\text{PSPACE}$]] does to [[Class_NP|$\\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1520,6 +2014,10 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 Contains [[Class_AW[*]|$\\text{AW[*]}$]], and is contained in [[Class_AW[P]|$\\text{AW[P]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1547,9 +2045,19 @@ text = u'''
 
 = AW[t] - Alternating W[t] =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_W[t]|$\\text{W[t]}$]] as [[Class_PSPACE|$\\text{PSPACE}$]] does to [[Class_NP|$\\text{NP}$]].
+{{{#!description
+
+Has the same relation to [[Class_W[t]|$\\text{W[t]}$]] as [[Class_PSPACE|$\\text{PSPACE}$]] does to [[Class_NP|$\\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1563,6 +2071,10 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 Contained in [[Class_AW[*]|$\\text{AW[*]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1590,9 +2102,19 @@ text = u'''
 
 = AlgP/poly - Polynomial-Size Algebraic Circuits =
 
-== Comments ==
+== Description ==
 
-The class of multivariate polynomials over the integers that can be evaluated using a polynomial (in the input size n) number of additions, subtractions, and multiplications, together with the constants -1 and 1.  The class is nonuniform, in the sense that the polynomial for each input size n can be completely different.
+{{{#!description
+
+The class of multivariate polynomials over the integers that can be evaluated using a polynomial (in the input size n) number of additions, subtractions, and multiplications, together with the constants -1 and 1.  The class is nonuniform, in the sense that the polynomial for each input size n can be completely different.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1600,8 +2122,12 @@ Named in [[ZooRefs#Imp02|[Imp02] ]], though it has been considered since the 197
 
 
 
-If [[Class_P|$\\text{P}$]] = [[Class_BPP|$\\text{BPP}$]] (or even [[Class_BPP|$\\text{BPP}$]] is contained in NE), then either [[Class_NEXP|$\\text{NEXP}$]] is not in [[Class_P/poly|$\\text{P/poly}$]], or else the permanent polynomial of a matrix is not in [[Class_AlgP/poly|$\\text{AlgP/poly}$]] [[ZooRefs#KI02|[KI02] ]].
+If [[Class_P|$\\text{P}$]] = [[Class_BPP|$\\text{BPP}$]] (or even [[Class_BPP|$\\text{BPP}$]] is contained in [[Class_NE|$\\text{NE}$]]), then either [[Class_NEXP|$\\text{NEXP}$]] is not in [[Class_P/poly|$\\text{P/poly}$]], or else the permanent polynomial of a matrix is not in [[Class_AlgP/poly|$\\text{AlgP/poly}$]] [[ZooRefs#KI02|[KI02] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1629,14 +2155,28 @@ text = u'''
 
 = Almost-NP - Languages Almost Surely in NPA =
 
-== Comments ==
+== Description ==
 
-The class of problems that are in NP^A^ with probability 1, where A is an oracle chosen uniformly at random.
+{{{#!description
+
+The class of problems that are in NP^A^ with probability 1, where A is an oracle chosen uniformly at random.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_AM|$\\text{AM}$]] [[ZooRefs#NW94|[NW94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1664,14 +2204,28 @@ text = u'''
 
 = Almost-P - Languages Almost Surely in PA =
 
-== Comments ==
+== Description ==
 
-The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.
+{{{#!description
+
+The class of problems that are in P^A^ with probability 1, where A is an oracle chosen uniformly at random.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#BG81|[BG81] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1699,9 +2253,19 @@ text = u'''
 
 = Almost-PSPACE - Languages Almost Surely in PSPACEA =
 
-== Comments ==
+== Description ==
 
-The class of problems that are in PSPACE^A^ with probability 1, where A is an oracle chosen uniformly at random.
+{{{#!description
+
+The class of problems that are in PSPACE^A^ with probability 1, where A is an oracle chosen uniformly at random.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1715,6 +2279,10 @@ What's known is that [[Class_Almost-PSPACE|$\\text{Almost-PSPACE}$]] = BP^exp^�
 
 Whereas both BP^exp^•PSPACE and BPPSPACE machines are allowed exponentially many random bits, the former has a reusable record of all of these bits on a witness tape, while the latter can only preserve a fraction of them on the work tape.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1742,9 +2310,19 @@ text = u'''
 
 = AmpMP - Amplifiable MP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that for some [[Class_SharpP|$\\text{#P}$]] function f(x,0^m^),
+{{{#!description
+
+The class of decision problems such that for some [[Class_SharpP|$\\text{#P}$]] function f(x,0^m^),}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1760,6 +2338,10 @@ Defined in [[ZooRefs#GKR+95|[GKR+95] ]].
 
 Contains [[Class_PH|$\\text{PH}$]] and Contained in [[Class_MP|$\\text{MP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1787,14 +2369,28 @@ text = u'''
 
 = AmpP-BQP - BQP Restricted To AmpP States =
 
-== Comments ==
+== Description ==
 
-Similar to [[Class_TreeBQP|$\\text{TreeBQP}$]] except that the quantum computer's state at each time step is restricted to being exponentially close to a state in AmpP (that is, a state for which the amplitudes are computable by a classical polynomial-size circuit).
+{{{#!description
+
+Similar to [[Class_TreeBQP|$\\text{TreeBQP}$]] except that the quantum computer's state at each time step is restricted to being exponentially close to a state in AmpP (that is, a state for which the amplitudes are computable by a classical polynomial-size circuit).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [Aar03b], where it was also observed that [[Class_AmpP-BQP|$\\text{AmpP-BQP}$]] is contained in the third level of [[Class_PH|$\\text{PH}$]], just as [[Class_TreeBQP|$\\text{TreeBQP}$]] is.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1822,14 +2418,28 @@ text = u'''
 
 = AuxPDA - Auxiliary Pushdown Automata =
 
-== Comments ==
+== Description ==
 
-Equivalent to [[Class_NAuxPDAp|$\\text{NAuxPDAp}$]] without the running-time restriction.
+{{{#!description
+
+Equivalent to [[Class_NAuxPDAp|$\\text{NAuxPDA}^\\text{p}\\text{}$]] without the running-time restriction.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_P|$\\text{P}$]] [Coo71b].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1857,10 +2467,26 @@ text = u'''
 
 = AvgE - Average Exponential-Time With Linear Exponent =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_AvgP|$\\text{AvgP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_AvgP|$\\text{AvgP}$]] does to [[Class_P|$\\text{P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1888,9 +2514,19 @@ text = u'''
 
 = AvgP - Average Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-A distributional problem consists of a decision problem A, and a probability distribution μ over problem instances.
+{{{#!description
+
+A distributional problem consists of a decision problem A, and a probability distribution μ over problem instances.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1914,8 +2550,12 @@ Strictly contained in [[Class_HeurP|$\\text{HeurP}$]] [[ZooRefs#NS05|[NS05] ]].
 
 
 
-See also: [[Class_(NP,P-samplable)|$\\text{(NP,P-samplable)}$]].
+See also: (NP,P-samplable).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1943,9 +2583,19 @@ text = u'''
 
 = AxP - Approximable in Polynomial Time =
 
-== Comments ==
+== Description ==
 
-Usually called [[Class_AP|$\\text{AP}$]] in the literature.  I've renamed it [[Class_AxP|$\\text{AxP}$]] to distinguish it from the "other" [[Class_AP|$\\text{AP}$]].
+{{{#!description
+
+Usually called [[Class_AP|$\\text{AP}$]] in the literature.  I've renamed it [[Class_AxP|$\\text{AxP}$]] to distinguish it from the "other" [[Class_AP|$\\text{AP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -1955,6 +2605,10 @@ The class of real-valued functions from {0,1}^n^ to [0,1] that can be approximat
 
 Defined by [[ZooRefs#KRC00|[KRC00] ]], who also showed that the set of [[Class_AxP|$\\text{AxP}$]] machines is in [[Class_RE|$\\text{RE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -1982,9 +2636,19 @@ text = u'''
 
 = AxPP - Approximable in Probabilistic Polynomial Time =
 
-== Comments ==
+== Description ==
 
-Usually called [[Class_APP|$\\text{APP}$]].  I've renamed it [[Class_AxPP|$\\text{AxPP}$]] to distinguish it from the "other" [[Class_APP|$\\text{APP}$]].
+{{{#!description
+
+Usually called [[Class_APP|$\\text{APP}$]].  I've renamed it [[Class_AxPP|$\\text{AxPP}$]] to distinguish it from the "other" [[Class_APP|$\\text{APP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2010,6 +2674,10 @@ On the other hand, there exists an oracle relative to which [[Class_BPP|$\\text{
 
 Interestingly, it is unclear whether the set of [[Class_AxPP|$\\text{AxPP}$]] machines is in [[Class_RE|$\\text{RE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2037,9 +2705,19 @@ text = u'''
 
 = BH - Boolean Hierarchy Over NP =
 
-== Comments ==
+== Description ==
 
-The smallest class that contains [[Class_NP|$\\text{NP}$]] and is closed under union, intersection, and complement.
+{{{#!description
+
+The smallest class that contains [[Class_NP|$\\text{NP}$]] and is closed under union, intersection, and complement.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2067,7 +2745,7 @@ For more detail see [[ZooRefs#CGH+88|[CGH+88] ]].
 
 
 
-Contained in [[Class_Δ2P|$\\text{Δ2P}$]] and indeed in [[Class_PNP[log]|$\\text{PNP[log]}$]].
+Contained in [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]] and indeed in [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]].
 
 
 
@@ -2081,6 +2759,10 @@ See also: [[Class_DP|$\\text{DP}$]], [[Class_QH|$\\text{QH}$]].
 
 See also: [[Class_QH|$\\text{QH}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2108,14 +2790,28 @@ text = u'''
 
 = BPE - Bounded-Error Probabilistic E =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_BPP|$\\text{BPP}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_BPP|$\\text{BPP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 [[Class_EE|$\\text{EE}$]] = [[Class_BPE|$\\text{BPE}$]] if and only if [[Class_EXP|$\\text{EXP}$]] = [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2143,10 +2839,26 @@ text = u'''
 
 = BPEE - Bounded-Error Probabilistic EE =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_EE|$\\text{EE}$]] as [[Class_BPP|$\\text{BPP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_EE|$\\text{EE}$]] as [[Class_BPP|$\\text{BPP}$]] does to [[Class_P|$\\text{P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2174,18 +2886,32 @@ text = u'''
 
 = BP,,H,,SPACE(f(n)) - Bounded-Error Halting Probabilistic f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts on every input and every random tape setting.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts on every input and every random tape setting.
 
 
-
-Contains [[Class_RHSPACE(f(n))|$\\text{RHSPACE(f(n))}$]].
+Contains R,,H,,SPACE(f(n)).
 
 
 
 Is contained in DSPACE(f(n)^3/2^) [[ZooRefs#SZ95|[SZ95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2213,14 +2939,28 @@ text = u'''
 
 = BPL - Bounded-Error Probabilistic L =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_BPP|$\\text{BPP}$]] does to [[Class_P|$\\text{P}$]].  The Turing machine has to halt with probability 1 on every input.
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_BPP|$\\text{BPP}$]] does to [[Class_P|$\\text{P}$]].  The Turing machine has to halt with probability 1 on every input.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_SC|$\\text{SC}$]] [[ZooRefs#Nis92|[Nis92] ]] and in [[Class_PL|$\\text{PL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2248,9 +2988,19 @@ text = u'''
 
 = BPP - Bounded-Error Probabilistic Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2272,7 +3022,7 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 
 
-Contained in [[Class_Σ2P|$\\text{Σ2P}$]] ∩ [[Class_Π2P|$\\text{Π2P}$]] [[ZooRefs#Lau83|[Lau83] ]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|[GZ97] ]].
+Contained in [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] ∩ [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]] [[ZooRefs#Lau83|[Lau83] ]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|[GZ97] ]].
 
 
 
@@ -2308,12 +3058,16 @@ Equals [[Class_Almost-P|$\\text{Almost-P}$]].
 
 
 
-See also: [[Class_BPPpath|$\\text{BPPpath}$]].
+See also: [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]].
 
 
 
 If [[Class_BPP|$\\text{BPP}$]] contains [[Class_NP|$\\text{NP}$]], then [[Class_RP|$\\text{RP}$]] = [[Class_NP|$\\text{NP}$]] [[ZooRefs#Ko82|[Ko82] ]] and [[Class_PH|$\\text{PH}$]] is contained in [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#Zac88|[Zac88] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2341,9 +3095,19 @@ text = u'''
 
 = BPP-OBDD - Polynomial-Size Bounded-Error Ordered Binary Decision Diagram =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_P-OBDD|$\\text{P-OBDD}$]], except that probabilistic transitions are allowed and the OBDD need only accept with probability at least 2/3.
+{{{#!description
+
+Same as [[Class_P-OBDD|$\\text{P-OBDD}$]], except that probabilistic transitions are allowed and the OBDD need only accept with probability at least 2/3.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2353,6 +3117,10 @@ Does not contain the integer multiplication problem [[ZooRefs#AK96|[AK96] ]].
 
 Strictly contained in [[Class_BQP-OBDD|$\\text{BQP-OBDD}$]] [[ZooRefs#NHK00|[NHK00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2380,9 +3148,19 @@ text = u'''
 
 = BPP//log - BPP With Logarithmic Randomness-Dependent Advice =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a [[Class_BPP|$\\text{BPP}$]] machine that is given O(log n) advice bits, which can depend on both the machine's random coin flips and the input length n, but not on the input itself.
+{{{#!description
+
+The class of problems solvable by a [[Class_BPP|$\\text{BPP}$]] machine that is given O(log n) advice bits, which can depend on both the machine's random coin flips and the input length n, but not on the input itself.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2390,6 +3168,10 @@ Defined in [[ZooRefs#TV02|[TV02] ]], where it was also shown that if [[Class_EXP
 
 [[Class_EXP|$\\text{EXP}$]] = [[Class_BPP|$\\text{BPP}$]], and if [[Class_PSPACE|$\\text{PSPACE}$]] is in [[Class_BPP//log|$\\text{BPP//log}$]] then [[Class_PSPACE|$\\text{PSPACE}$]] = [[Class_BPP|$\\text{BPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2417,14 +3199,28 @@ text = u'''
 
 = BPP/log - BPP With Logarithmic Karp-Lipton Advice =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a semantic [[Class_BPP|$\\text{BPP}$]] machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, the machine must provide some answer with probability at least 2/3.  See the discussion for [[Class_BQP/poly|$\\text{BQP/poly}$]].
+{{{#!description
+
+The class of problems solvable by a semantic [[Class_BPP|$\\text{BPP}$]] machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, the machine must provide some answer with probability at least 2/3.  See the discussion for [[Class_BQP/poly|$\\text{BQP/poly}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_BPP/mlog|$\\text{BPP/mlog}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2452,14 +3248,28 @@ text = u'''
 
 = BPP/mlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a syntactic [[Class_BPP|$\\text{BPP}$]] machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, it need not be.
+{{{#!description
+
+The class of problems solvable by a syntactic [[Class_BPP|$\\text{BPP}$]] machine with O(log n) advice bits that depend only on the input length n.  If the advice is good, the output must be correct with probability at least 2/3.  If it is bad, it need not be.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_BPP/rlog|$\\text{BPP/rlog}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2487,9 +3297,19 @@ text = u'''
 
 = BPP/rlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a syntactic [[Class_BPP|$\\text{BPP}$]] machine with O(log n) random advice bits whose probability distribution depends only on the input length n.  For each n, there exists good advice such that the output is correct with probability at least 2/3.
+{{{#!description
+
+The class of problems solvable by a syntactic [[Class_BPP|$\\text{BPP}$]] machine with O(log n) random advice bits whose probability distribution depends only on the input length n.  For each n, there exists good advice such that the output is correct with probability at least 2/3.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2499,6 +3319,10 @@ Contains [[Class_BPP/mlog|$\\text{BPP/mlog}$]].  The inclusion is strict, becaus
 
 Contained in [[Class_BPP//log|$\\text{BPP//log}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2526,18 +3350,32 @@ text = u'''
 
 = BPP^KT^ - BPP With Time-Bounded Kolmogorov Complexity Oracle =
 
+== Description ==
+
+{{{#!description
+
+[[Class_BPP|$\\text{BPP}$]] with an oracle that, given a string x, returns the minimum over all programs [[Class_P|$\\text{P}$]] that output x,,i,, on input i, of the length of [[Class_P|$\\text{P}$]] plus the maximum time taken by [[Class_P|$\\text{P}$]] on any input.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-[[Class_BPP|$\\text{BPP}$]] with an oracle that, given a string x, returns the minimum over all programs [[Class_P|$\\text{P}$]] that output x,,i,, on input i, of the length of [[Class_P|$\\text{P}$]] plus the maximum time taken by [[Class_P|$\\text{P}$]] on any input.
+
+
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that in [[Class_BPPKT|$\\text{BPP}^\\text{KT}\\text{}$]] one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
 
 
 
-A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that in [[Class_BPPKT|$\\text{BPPKT}$]] one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
-
-
-
-See also: [[Class_PK|$\\text{PK}$]].
+See also: [[Class_PK|$\\text{P}^\\text{K}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2565,13 +3403,23 @@ text = u'''
 
 = BPP^cc^ - Communication Complexity BPP =
 
+== Description ==
+
+{{{#!description
+
+The analogue of [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] for bounded-error probabilistic communication complexity.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The analogue of [[Class_Pcc|$\\text{Pcc}$]] for bounded-error probabilistic communication complexity.
 
 
-
-Does not equal [[Class_Pcc|$\\text{Pcc}$]], and is not contained in [[Class_NPcc|$\\text{NPcc}$]], because of the EQUALITY problem.
+Does not equal [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]], and is not contained in [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]], because of the EQUALITY problem.
 
 
 
@@ -2579,12 +3427,16 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 
-Has the same relation to [[Class_BPPcc|$\\text{BPPcc}$]] and [[Class_BPP|$\\text{BPP}$]] as [[Class_Pcc|$\\text{Pcc}$]] does to [[Class_Pcc|$\\text{Pcc}$]] and [[Class_P|$\\text{P}$]].
+Has the same relation to [[Class_BPPcc|$\\text{BPP}^\\text{cc}\\text{}$]] and [[Class_BPP|$\\text{BPP}$]] as [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] does to [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] and [[Class_P|$\\text{P}$]].
 
 
 
-[[Class_NPcc|$\\text{NPcc}$]] is not contained in [[Class_BPPcc|$\\text{BPPcc}$]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not contained in [[Class_BPPcc|$\\text{BPP}_\\text{}\\text{}^\\text{cc}\\text{}$]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2612,9 +3464,19 @@ text = u'''
 
 = BPP,,path,, - Threshold BPP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_BPP|$\\text{BPP}$]], except that now the computation paths need not all have the same length.
+{{{#!description
+
+Same as [[Class_BPP|$\\text{BPP}$]], except that now the computation paths need not all have the same length.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2622,21 +3484,21 @@ Defined in [[ZooRefs#HHT97|[HHT97] ]], where the following was also shown:
 
 
 
-[[Class_BPPpath|$\\text{BPPpath}$]] contains [[Class_MA|$\\text{MA}$]] and [[Class_PNP[log]|$\\text{PNP[log]}$]], and is contained in [[Class_PP|$\\text{PP}$]] and BPP^NP^.
+[[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] contains [[Class_MA|$\\text{MA}$]] and [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]], and is contained in [[Class_PP|$\\text{PP}$]] and BPP^NP^.
 
-[[Class_BPPpath|$\\text{BPPpath}$]] is closed under complementation, intersection, and union.
+[[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] is closed under complementation, intersection, and union.
 
-If [[Class_BPPpath|$\\text{BPPpath}$]] = BPP,,path,,^BPP,,path,,^, then [[Class_PH|$\\text{PH}$]] collapses to [[Class_BPPpath|$\\text{BPPpath}$]].
+If [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] = BPP,,path,,^BPP,,path,,^, then [[Class_PH|$\\text{PH}$]] collapses to [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]].
 
-If [[Class_BPPpath|$\\text{BPPpath}$]] contains [[Class_Σ2P|$\\text{Σ2P}$]], then [[Class_PH|$\\text{PH}$]] collapses to BPP^NP^.
-
-
-
-There exists an oracle relative to which [[Class_BPPpath|$\\text{BPPpath}$]] is not contained in [[Class_Σ2P|$\\text{Σ2P}$]] [[ZooRefs#BGM02|[BGM02] ]].
+If [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] contains [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]], then [[Class_PH|$\\text{PH}$]] collapses to BPP^NP^.
 
 
 
-An alternate characterization of [[Class_BPPpath|$\\text{BPPpath}$]] uses the idea of post-selection. That is, [[Class_BPPpath|$\\text{BPPpath}$]] is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
+There exists an oracle relative to which [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] is not contained in [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] [[ZooRefs#BGM02|[BGM02] ]].
+
+
+
+An alternate characterization of [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] uses the idea of post-selection. That is, [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] is the class of languages  for which there exists a pair of polynomial-time Turing machines  and  such that the following conditions hold for all :
 
 
 
@@ -2648,7 +3510,7 @@ If , .
 
 
 
-We say that  is the post-selector. Intuitively, this characterization allows a [[Class_BPP|$\\text{BPP}$]] machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion [[Class_NP|$\\text{NP}$]] ⊆ [[Class_BPPpath|$\\text{BPPpath}$]] nearly trivial.
+We say that  is the post-selector. Intuitively, this characterization allows a [[Class_BPP|$\\text{BPP}$]] machine to require that its random bits have some special but easily verifiable property. This characterization makes the inclusion [[Class_NP|$\\text{NP}$]] ⊆ [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] nearly trivial.
 
 
 
@@ -2656,14 +3518,18 @@ See Also: [[Class_PostBQP|$\\text{PostBQP}$]] (quantum analogue).
 
 
 
-[[Class_BPPpath|$\\text{BPPpath}$]] contains [[Class_MA|$\\text{MA}$]] and [[Class_PNP[log]|$\\text{PNP[log]}$]], and is contained in [[Class_PP|$\\text{PP}$]] and BPP^NP^.
+[[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] contains [[Class_MA|$\\text{MA}$]] and [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]], and is contained in [[Class_PP|$\\text{PP}$]] and BPP^NP^.
 
-[[Class_BPPpath|$\\text{BPPpath}$]] is closed under complementation, intersection, and union.
+[[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] is closed under complementation, intersection, and union.
 
-If [[Class_BPPpath|$\\text{BPPpath}$]] = BPP,,path,,^BPPpath^, then [[Class_PH|$\\text{PH}$]] collapses to [[Class_BPPpath|$\\text{BPPpath}$]].
+If [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] = BPP,,path,,^BPPpath^, then [[Class_PH|$\\text{PH}$]] collapses to [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]].
 
-If [[Class_BPPpath|$\\text{BPPpath}$]] contains [[Class_Σ2P|$\\text{Σ2P}$]], then [[Class_PH|$\\text{PH}$]] collapses to BPP^NP^.
+If [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] contains [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]], then [[Class_PH|$\\text{PH}$]] collapses to BPP^NP^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2691,9 +3557,19 @@ text = u'''
 
 = BPQP - Bounded-Error Probabilistic QP =
 
-== Comments ==
+== Description ==
 
-Equals BPTIME(2^O((log n)^k)^); that is, the class of problems solvable in quasipolynomial-time on a bounded-error machine.
+{{{#!description
+
+Equals BPTIME(2^O((log n)^k)^); that is, the class of problems solvable in quasipolynomial-time on a bounded-error machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2703,6 +3579,10 @@ Defined in [[ZooRefs#CNS99|[CNS99] ]], where the following was also shown:
 
 If either (1) [[Class_SharpP|$\\text{#P}$]] does not have a subexponential-time bounded-error algorithm, or (2) [[Class_EXP|$\\text{EXP}$]] does not have subexponential-size circuits, then the [[Class_BPQP|$\\text{BPQP}$]] hierarchy is strict -- that is, for all a < b at least 1, BPTIME(2^(log n)^a^) is strictly contained in BPTIME(2^(log n)^b^).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2730,14 +3610,28 @@ text = u'''
 
 = BPSPACE(f(n)) - Bounded-Error Probabilistic f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts with probability 1 on every input.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable in O(f(n))-space with error probability at most 1/3, by a Turing machine that halts with probability 1 on every input.
 
 
-
-Contains [[Class_RSPACE(f(n))|$\\text{RSPACE(f(n))}$]] and [[Class_BPHSPACE(f(n))|$\\text{BPHSPACE(f(n))}$]].
+Contains RSPACE(f(n)) and BP,,H,,SPACE(f(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2765,9 +3659,19 @@ text = u'''
 
 = BPTIME(f(n)) - Bounded-Error Probabilistic f(n)-Time =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_BPP|$\\text{BPP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
+{{{#!description
+
+Same as [[Class_BPP|$\\text{BPP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2798,6 +3702,10 @@ Subsequently, [[ZooRefs#FS04|[FS04] ]] managed to reduce the number of advice bi
 For another bounded-error hierarchy result, see [[Class_BPQP|$\\text{BPQP}$]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -2824,9 +3732,19 @@ text = u'''
 
 = BP,,d,,(P) - Polynomial Size d-Times-Only Branching Program =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#Weg88|[Weg88] ]].
+{{{#!description
+
+Defined in [[ZooRefs#Weg88|[Weg88] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2834,7 +3752,7 @@ The class of decision problems solvable by a family of polynomial size branching
 
 
 
-[[Class_BPd(P)|$\\text{BPd(P)}$]] strictly contains BP,,d-1,,(P), for every d > 1 [[ZooRefs#Tha98|[Tha98] ]].
+BP,,d,,(P) strictly contains BP,,d-1,,(P), for every d > 1 [[ZooRefs#Tha98|[Tha98] ]].
 
 
 
@@ -2844,6 +3762,10 @@ Contained in [[Class_PBP|$\\text{PBP}$]].
 
 See also: [[Class_P-OBDD|$\\text{P-OBDD}$]], [[Class_k-PBP|$\\text{k-PBP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2871,10 +3793,26 @@ text = u'''
 
 = BP•NP - Probabilistic NP =
 
+== Description ==
+
+{{{#!description
+
+Equals [[Class_AM|$\\text{AM}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_AM|$\\text{AM}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2902,10 +3840,26 @@ text = u'''
 
 = BQNC - Alternate Name for QNC =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2933,10 +3887,26 @@ text = u'''
 
 = BQNP - Alternate Name for QMA =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -2964,9 +3934,19 @@ text = u'''
 
 = BQP - Bounded-Error Quantum Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable in polynomial time by a quantum Turing machine, with at most 1/3 probability of error.
+{{{#!description
+
+The class of decision problems solvable in polynomial time by a quantum Turing machine, with at most 1/3 probability of error.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -2998,7 +3978,7 @@ There exist oracles relative to which:
 
 
 
-[[Class_BQP|$\\text{BQP}$]] does not equal to [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in P/poly).
+[[Class_BQP|$\\text{BQP}$]] does not equal to [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in [[Class_P/poly|$\\text{P/poly}$]]).
 
 [[Class_BQP|$\\text{BQP}$]] is not contained in [[Class_MA|$\\text{MA}$]] [[ZooRefs#Wat00|[Wat00] ]].
 
@@ -3014,7 +3994,7 @@ There exist oracles relative to which:
 
 
 
-[[Class_BQP|$\\text{BQP}$]] does not equal [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in P/poly).
+[[Class_BQP|$\\text{BQP}$]] does not equal [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#BV97|[BV97] ]] (and by similar arguments, is not in [[Class_P/poly|$\\text{P/poly}$]]).
 
 [[Class_BQP|$\\text{BQP}$]] is not contained in [[Class_MA|$\\text{MA}$]] [[ZooRefs#Wat00|[Wat00] ]].
 
@@ -3026,6 +4006,10 @@ There exist oracles relative to which:
 
 [[Class_BQP|$\\text{BQP}$]] is not contained in [[Class_SZK|$\\text{SZK}$]] (follows easily using the quantum walk problem in [[ZooRefs#CCD+03|[CCD+03] ]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3053,14 +4037,28 @@ text = u'''
 
 = BQP-OBDD - Polynomial-Size Bounded-Error Quantum Ordered Binary Decision Diagram =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_P-OBDD|$\\text{P-OBDD}$]], except that unitary (quantum) transitions are allowed and the OBDD need only accept with probability at least 2/3.
+{{{#!description
+
+Same as [[Class_P-OBDD|$\\text{P-OBDD}$]], except that unitary (quantum) transitions are allowed and the OBDD need only accept with probability at least 2/3.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Strictly contains [[Class_BPP-OBDD|$\\text{BPP-OBDD}$]] [[ZooRefs#NHK00|[NHK00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3088,14 +4086,28 @@ text = u'''
 
 = BQP/log - BQP With Logarithmic-Size Karp-Lipton Advice =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_BQP/poly|$\\text{BQP/poly}$]] except that the advice is O(log n) bits instead of a polynomial number.
+{{{#!description
+
+Same as [[Class_BQP/poly|$\\text{BQP/poly}$]] except that the advice is O(log n) bits instead of a polynomial number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_BQP/mlog|$\\text{BQP/mlog}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3123,14 +4135,28 @@ text = u'''
 
 = BQP/mlog - BQP With Logarithmic-Size Deterministic Merlin-Like Advice =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] except that the advice is O(log n) bits instead of a polynomial number.
+{{{#!description
+
+Same as [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] except that the advice is O(log n) bits instead of a polynomial number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Strictly contained in [[Class_BQP/qlog|$\\text{BQP/qlog}$]] [[ZooRefs#NY03|[NY03] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3158,9 +4184,19 @@ text = u'''
 
 = BQP/mpoly - BQP With Polynomial-Size Deterministic Merlin-Like Advice =
 
-== Comments ==
+== Description ==
 
-The class of languages recognized by a syntactic [[Class_BQP|$\\text{BQP}$]] machine with deterministic polynomial advice that depends only on the input length, such that the output is correct with probability 2/3 when the advice is good.
+{{{#!description
+
+The class of languages recognized by a syntactic [[Class_BQP|$\\text{BQP}$]] machine with deterministic polynomial advice that depends only on the input length, such that the output is correct with probability 2/3 when the advice is good.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3178,6 +4214,10 @@ Contains [[Class_BQP/qlog|$\\text{BQP/qlog}$]], and is contained in [[Class_BQP/
 
 Does not contain [[Class_ESPACE|$\\text{ESPACE}$]] [[ZooRefs#NY03|[NY03] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3205,14 +4245,28 @@ text = u'''
 
 = BQP/poly - BQP With Polynomial-Size Karp-Lipton Advice =
 
-== Comments ==
+== Description ==
 
-Is to [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] as [[Class_∃BPP|$\\text{∃BPP}$]] is to [[Class_MA|$\\text{MA}$]].  Namely, the [[Class_BQP|$\\text{BQP}$]] machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] is a more natural class, [[Class_BQP/poly|$\\text{BQP/poly}$]] follows the standard definition of advice as a class operator [[ZooRefs#KL82|[KL82] ]].
+{{{#!description
+
+Is to [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] as [[Class_∃BPP|$\\text{∃BPP}$]] is to [[Class_MA|$\\text{MA}$]].  Namely, the [[Class_BQP|$\\text{BQP}$]] machine is required to give some answer with probability at least 2/3 even if the advice is bad.  Even though [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] is a more natural class, [[Class_BQP/poly|$\\text{BQP/poly}$]] follows the standard definition of advice as a class operator [[ZooRefs#KL82|[KL82] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] and contains [[Class_BQP/log|$\\text{BQP/log}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3240,9 +4294,19 @@ text = u'''
 
 = BQP/qlog - BQP With Logarithmic-Size Quantum Advice =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_BQP/mlog|$\\text{BQP/mlog}$]] except that the advice is quantum instead of classical.
+{{{#!description
+
+Same as [[Class_BQP/mlog|$\\text{BQP/mlog}$]] except that the advice is quantum instead of classical.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3252,6 +4316,10 @@ Strictly contains [[Class_BQP/mlog|$\\text{BQP/mlog}$]] [[ZooRefs#NY03|[NY03] ]]
 
 Contained in [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3279,9 +4347,19 @@ text = u'''
 
 = BQP/qpoly - BQP With Polynomial-Size Quantum Advice =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a [[Class_BQP|$\\text{BQP}$]] machine that receives a quantum state ψ,,n,, as advice, which depends only on the input length n.
+{{{#!description
+
+The class of problems solvable by a [[Class_BQP|$\\text{BQP}$]] machine that receives a quantum state ψ,,n,, as advice, which depends only on the input length n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3310,6 +4388,10 @@ A classical oracle separation between [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]] an
 Contains [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -3336,18 +4418,32 @@ text = u'''
 
 = BQP,,CTC,, - BQP With Closed Time Curves =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP|$\\text{BQP}$]] with access to two sets of qubits: causality-respecting qubits and CTC qubits.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_BQP|$\\text{BQP}$]] with access to two sets of qubits: causality-respecting qubits and CTC qubits.
+
+
+Defined in [Aar05c], where it was shown that [[Class_PSPACE|$\\text{PSPACE}$]] is contained in [[Class_BQPCTC|$\\text{BQP}_\\text{CTC}\\text{}$]], which in turn is contained in [[Class_SQG|$\\text{SQG}$]].
 
 
 
-Defined in [Aar05c], where it was shown that [[Class_PSPACE|$\\text{PSPACE}$]] is contained in [[Class_BQPCTC|$\\text{BQPCTC}$]], which in turn is contained in [[Class_SQG|$\\text{SQG}$]].
-
-
-
-See also [[Class_PCTC|$\\text{PCTC}$]].
+See also [[Class_PCTC|$\\text{P}_\\text{CTC}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3375,10 +4471,26 @@ text = u'''
 
 = BQPSPACE - Bounded-Error Quantum PSPACE =
 
+== Description ==
+
+{{{#!description
+
+Equals [[Class_PSPACE|$\\text{PSPACE}$]] and [[Class_PPSPACE|$\\text{PPSPACE}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_PSPACE|$\\text{PSPACE}$]] and [[Class_PPSPACE|$\\text{PPSPACE}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3406,14 +4518,28 @@ text = u'''
 
 = BQP,,tt,,/poly - BQP/mpoly With Truth-Table Queries =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]], except that the machine only gets to make nonadaptive queries to whatever oracle it might have.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]], except that the machine only gets to make nonadaptive queries to whatever oracle it might have.
 
 
-
-Defined in [NY03b], where it was also shown that [[Class_P|$\\text{P}$]] is not contained in [[Class_BQPtt/poly|$\\text{BQPtt/poly}$]] relative to an oracle.
+Defined in [NY03b], where it was also shown that [[Class_P|$\\text{P}$]] is not contained in [[Class_BQPtt/poly|$\\text{BQP}_\\text{tt}\\text{/poly}$]] relative to an oracle.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3441,14 +4567,28 @@ text = u'''
 
 = BQTIME(f(n)) - Bounded-Error Quantum f(n)-Time =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_BQP|$\\text{BQP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
+{{{#!description
+
+Same as [[Class_BQP|$\\text{BQP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#BV97|[BV97] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3476,14 +4616,28 @@ text = u'''
 
 = C,,=,,AC^0^ - Exact-Counting AC0 =
 
+== Description ==
+
+{{{#!description
+
+The class of problems for which there exists a [[Class_DiffAC0|$\\text{DiffAC}^\\text{0}\\text{}$]] function f such that the answer is "yes" on input x if and only if f(x)=0.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of problems for which there exists a [[Class_DiffAC0|$\\text{DiffAC0}$]] function f such that the answer is "yes" on input x if and only if f(x)=0.
 
 
-
-Equals [[Class_TC0|$\\text{TC0}$]] and [[Class_PAC0|$\\text{PAC0}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] and [[Class_PAC0|$\\text{PAC}^\\text{0}\\text{}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3511,14 +4665,28 @@ text = u'''
 
 = C,,=,,L - Exact-Counting L =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_C=P|$\\text{C=P}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 C,,=,,L^C=L^ = L^C=L^ [[ZooRefs#ABO99|[ABO99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3546,14 +4714,28 @@ text = u'''
 
 = C,,=,,P - Exact-Counting Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that the number of accepting paths exactly equals the number of rejecting paths, if and only if the answer is 'yes.'
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that the number of accepting paths exactly equals the number of rejecting paths, if and only if the answer is 'yes.'}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_coNQP|$\\text{coNQP}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3581,9 +4763,19 @@ text = u'''
 
 = CC - Comparator Circuits =
 
-== Comments ==
+== Description ==
 
-A comparator gate consists of two inputs and outputs the minimum of its two inputs on its first output wire and outputs the maximum of its two inputs on its second output wire. One important restriction is that each output of a comparator gate has fanout at most one. The Comparator Circuit Value Problem (CCVP) is defined as following. Given a circuit composed of comparator gates, the inputs to the circuit, and one output of the circuit, calculate the value of this output.
+{{{#!description
+
+A comparator gate consists of two inputs and outputs the minimum of its two inputs on its first output wire and outputs the maximum of its two inputs on its second output wire. One important restriction is that each output of a comparator gate has fanout at most one. The Comparator Circuit Value Problem (CCVP) is defined as following. Given a circuit composed of comparator gates, the inputs to the circuit, and one output of the circuit, calculate the value of this output.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3593,6 +4785,10 @@ A comparator gate consists of two inputs and outputs the minimum of its two inpu
 
 Natural complete problems for the [[Class_CC|$\\text{CC}$]] class include Stable Marriage Problem, Stable Roommate Problem, Lex-first Maximal Matching [[ZooRefs#Sub94|[Sub94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3620,14 +4816,28 @@ text = u'''
 
 = CC^0^ - Constant-Depth MODm Circuits =
 
-== Comments ==
+== Description ==
 
-The set of problems solvable by by constant-depth circuits having only MOD,,m,, gates for constant .
+{{{#!description
+
+The set of problems solvable by by constant-depth circuits having only MOD,,m,, gates for constant .}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 This complexity class entry is a stub. If you feel so inclined, please help out!
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3655,9 +4865,19 @@ text = u'''
 
 = CFL - Context-Free Languages =
 
-== Comments ==
+== Description ==
 
-Does not equal [[Class_QCFL|$\\text{QCFL}$]] [[ZooRefs#MC00|[MC00] ]].
+{{{#!description
+
+Does not equal [[Class_QCFL|$\\text{QCFL}$]] [[ZooRefs#MC00|[MC00] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3671,6 +4891,10 @@ Strictly contains [[Class_DCFL|$\\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]] and i
 
 Strictly contains [[Class_DCFL|$\\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3698,9 +4922,19 @@ text = u'''
 
 = CH - Counting Hierarchy =
 
-== Comments ==
+== Description ==
 
-The union of the C,,k,,P's over all constant k.
+{{{#!description
+
+The union of the C,,k,,P's over all constant k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3708,16 +4942,20 @@ Contained in [[Class_PSPACE|$\\text{PSPACE}$]].
 
 
 
-Strictly contains DLOGTIME-uniform [[Class_NC1|$\\text{NC1}$]] [[ZooRefs#CMTV98|[CMTV98] ]].
+Strictly contains DLOGTIME-uniform [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] [[ZooRefs#CMTV98|[CMTV98] ]].
 
 
 
-It is an open problem whether there exists an oracle relative to which [[Class_CH|$\\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\\text{TC0}$]] = [[Class_NC1|$\\text{NC1}$]], since a padding argument shows that [[Class_TC0|$\\text{TC0}$]] = [[Class_NC1|$\\text{NC1}$]] implies [[Class_CH|$\\text{CH}$]] = [[Class_PSPACE|$\\text{PSPACE}$]].
+It is an open problem whether there exists an oracle relative to which [[Class_CH|$\\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] = [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]], since a padding argument shows that [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] = [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] implies [[Class_CH|$\\text{CH}$]] = [[Class_PSPACE|$\\text{PSPACE}$]].
 
 
 
-It is an open problem whether there exists an oracle relative to which [[Class_CH|$\\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\\text{TC0}$]] = [[Class_NC1|$\\text{NC1}$]].
+It is an open problem whether there exists an oracle relative to which [[Class_CH|$\\text{CH}$]] is infinite, or even unequal to [[Class_PSPACE|$\\text{PSPACE}$]].  This is closely related to the problem of whether [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] = [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3745,9 +4983,19 @@ text = u'''
 
 = CL#P - Cluster Sharp-P =
 
-== Comments ==
+== Description ==
 
-The class of [[Class_SharpP|$\\text{#P}$]] function problems such that some underlying [[Class_NP|$\\text{NP}$]] machine  witnessing membership in [[Class_SharpP|$\\text{#P}$]] has
+{{{#!description
+
+The class of [[Class_SharpP|$\\text{#P}$]] function problems such that some underlying [[Class_NP|$\\text{NP}$]] machine  witnessing membership in [[Class_SharpP|$\\text{#P}$]] has}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 "clustered" accepting paths. That is:
 
@@ -3763,6 +5011,10 @@ The accepting paths of  on any input  are contiguous with respect to .
 
 Defined in [[ZooRefs#HHK+05|[HHK+05] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3790,9 +5042,19 @@ text = u'''
 
 = CLOG - Continuous Logarithmic-Time =
 
-== Comments ==
+== Description ==
 
-Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an [[Class_NC1|$\\text{NC1}$]] formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.
+{{{#!description
+
+Roughly, the class of continuous problems solvable by an ordinary differential equation (ODE) with convergence time logarithmic in the size of the input.  The vector field of the ODE is specified by an [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] formula, with n parameters that represent the input.  The point to which the ODE converges (assuming it does) is the output.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3800,12 +5062,16 @@ Defined in [[ZooRefs#BSF02|[BSF02] ]], which should be consulted for more detail
 
 
 
-[[ZooRefs#BSF02|[BSF02] ]] show that finding the maximum of n integers is in [[Class_CLOG|$\\text{CLOG}$]].  Thus, [[Class_CLOG|$\\text{CLOG}$]] is best thought of as the continuous-time analog of [[Class_NC1|$\\text{NC1}$]], not of DTIME(log n).
+[[ZooRefs#BSF02|[BSF02] ]] show that finding the maximum of n integers is in [[Class_CLOG|$\\text{CLOG}$]].  Thus, [[Class_CLOG|$\\text{CLOG}$]] is best thought of as the continuous-time analog of [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]], not of DTIME(log n).
 
 
 
 Contained in [[Class_CP|$\\text{CP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3833,14 +5099,28 @@ text = u'''
 
 = CNP - Continuous NP =
 
-== Comments ==
+== Description ==
 
-A nondeterministic analog of [[Class_CP|$\\text{CP}$]].  Defined in [[ZooRefs#SF98|[SF98] ]], which should be consulted for the definition (it has something to do with strange attractors, I think).
+{{{#!description
+
+A nondeterministic analog of [[Class_CP|$\\text{CP}$]].  Defined in [[ZooRefs#SF98|[SF98] ]], which should be consulted for the definition (it has something to do with strange attractors, I think).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 The authors raise the question of whether [[Class_CP|$\\text{CP}$]] equals [[Class_CNP|$\\text{CNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3868,9 +5148,19 @@ text = u'''
 
 = CP - Continuous P =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_CLOG|$\\text{CLOG}$]], except that the convergence time can be polynomial rather than logarithmic in the input size.
+{{{#!description
+
+Same as [[Class_CLOG|$\\text{CLOG}$]], except that the convergence time can be polynomial rather than logarithmic in the input size.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3884,6 +5174,10 @@ Finding a maximum flow, which is P-complete, can be done in [[Class_CP|$\\text{C
 
 Contained in [[Class_CNP|$\\text{CNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3911,9 +5205,19 @@ text = u'''
 
 = CSIZE(f(n)) - Circuit Size f(n) =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a (nonuniform) family of Boolean circuits of size O(f(n)).
+{{{#!description
+
+The class of decision problems solvable by a (nonuniform) family of Boolean circuits of size O(f(n)).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3923,6 +5227,10 @@ So for example, CSIZE(poly(n)) (the union of CSIZE(n^k^) over all k) equals [[Cl
 
 Defined in [[ZooRefs#SM02|[SM02] ]] among other places.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3950,14 +5258,28 @@ text = u'''
 
 = CSL - Context Sensitive Languages =
 
-== Comments ==
+== Description ==
 
-The class of languages generated by context-sensitive grammars.
+{{{#!description
+
+The class of languages generated by context-sensitive grammars.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals NSPACE(n) [[ZooRefs#Kur64|[Kur64] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -3985,9 +5307,19 @@ text = u'''
 
 = CSP - Constraint Satisfaction Problems =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#FV93|[FV93] ]] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet ) containing :
+{{{#!description
+
+Defined in [[ZooRefs#FV93|[FV93] ]] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet ) containing :}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -3997,6 +5329,10 @@ For example, a 3SAT clause  is represented in the [[Class_CSP|$\\text{CSP}$]] co
 
 In [[ZooRefs#FV93|[FV93] ]], where the class is defined, the authors show that every problem in [[Class_MMSNP|$\\text{MMSNP}$]] is reducible under randomized polynomial-time reductions to a problem in [[Class_CSP|$\\text{CSP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4024,9 +5360,19 @@ text = u'''
 
 = CZK - Computational Zero-Knowledge =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_SZK|$\\text{SZK}$]], except that now the two distributions are merely required to be computationally indistinguishable by any [[Class_BPP|$\\text{BPP}$]] algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of their interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
+{{{#!description
+
+Same as [[Class_SZK|$\\text{SZK}$]], except that now the two distributions are merely required to be computationally indistinguishable by any [[Class_BPP|$\\text{BPP}$]] algorithm; they don't have to be statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of their interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4057,6 +5403,10 @@ Unlike [[Class_SZK|$\\text{SZK}$]], it is not known if [[Class_CZK|$\\text{CZK}$
 Assuming the existence of one-way functions, [[Class_CZK|$\\text{CZK}$]] contains [[Class_NP|$\\text{NP}$]] [[ZooRefs#GMW91|[GMW91] ]], and indeed equals IP=PSPACE [[ZooRefs#BGG+90|[BGG+90] ]].  However, none of these implications of one-way functions relativize (Impagliazzo, unpublished).
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -4083,13 +5433,23 @@ text = u'''
 
 = Check - Checkable Languages =
 
+== Description ==
+
+{{{#!description
+
+The class of problems such that a polynomial-time program [[Class_P|$\\text{P}$]] that allegedly solves them can be checked efficiently.  That is, f is in [[Class_Check|$\\text{Check}$]] if there exists a [[Class_BPP|$\\text{BPP}$]] algorithm C such that for all programs [[Class_P|$\\text{P}$]] and inputs x,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of problems such that a polynomial-time program [[Class_P|$\\text{P}$]] that allegedly solves them can be checked efficiently.  That is, f is in [[Class_Check|$\\text{Check}$]] if there exists a [[Class_BPP|$\\text{BPP}$]] algorithm C such that for all programs [[Class_P|$\\text{P}$]] and inputs x,
 
 
-
-If P(y)=f(y) for all inputs y, then C^P^(x) (C with oracle access to P) accepts with probability at least 2/3.
+If P(y)=f(y) for all inputs y, then C^P^(x) (C with oracle access to [[Class_P|$\\text{P}$]]) accepts with probability at least 2/3.
 
 If P(x) is not equal to f(x) then C^P^(x) accepts with probability at most 1/3.
 
@@ -4105,6 +5465,10 @@ Introduced in [[ZooRefs#BK89|[BK89] ]], where it was also shown that [[Class_Che
 
 [[ZooRefs#BG94|[BG94] ]] show that if [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BPEE}$]] then [[Class_NP|$\\text{NP}$]] is not contained in [[Class_Check|$\\text{Check}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4132,9 +5496,19 @@ text = u'''
 
 = C,,k,,P - kth Level of CH =
 
-== Comments ==
+== Description ==
 
-Defined as follows:
+{{{#!description
+
+Defined as follows:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4144,7 +5518,7 @@ C,,1,,P = [[Class_PP|$\\text{PP}$]]
 
 C,,2,,P = PP^PP^
 
-In general, C,,k+1,,P is [[Class_PP|$\\text{PP}$]] with [[Class_CkP|$\\text{CkP}$]] oracle
+In general, C,,k+1,,P is [[Class_PP|$\\text{PP}$]] with [[Class_CkP|$\\text{C}_\\text{k}\\text{P}$]] oracle
 
 
 
@@ -4158,6 +5532,10 @@ Defined in [[ZooRefs#Wag86|[Wag86] ]].
 
 See [[ZooRefs#Tor91|[Tor91] ]] or [[ZooRefs#AW90|[AW90] ]] for more information.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4185,9 +5563,19 @@ text = u'''
 
 = Coh - Coherent Languages =
 
-== Comments ==
+== Description ==
 
-The class of problems [[Class_L|$\\text{L}$]] that are efficiently autoreducible, in the sense that given an input x and access to an oracle for [[Class_L|$\\text{L}$]], a [[Class_BPP|$\\text{BPP}$]] machine can compute L(x) by querying [[Class_L|$\\text{L}$]] only on points that differ from x.
+{{{#!description
+
+The class of problems [[Class_L|$\\text{L}$]] that are efficiently autoreducible, in the sense that given an input x and access to an oracle for [[Class_L|$\\text{L}$]], a [[Class_BPP|$\\text{BPP}$]] machine can compute L(x) by querying [[Class_L|$\\text{L}$]] only on points that differ from x.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4197,6 +5585,10 @@ Defined in [Yao90b].
 
 [[ZooRefs#BG94|[BG94] ]] show that, assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BPEE}$]], [[Class_Coh|$\\text{Coh}$]] ∩ [[Class_NP|$\\text{NP}$]] is not contained in any of [[Class_compNP|$\\text{compNP}$]], [[Class_Check|$\\text{Check}$]], or [[Class_frIP|$\\text{frIP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4224,10 +5616,26 @@ text = u'''
 
 = D#P - Alternate Name for P#P =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4255,9 +5663,19 @@ text = u'''
 
 = DCFL - Deterministic CFL =
 
-== Comments ==
+== Description ==
 
-The class of languages accepted by deterministic pushdown automata.
+{{{#!description
+
+The class of languages accepted by deterministic pushdown automata.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4267,6 +5685,10 @@ Defined in [[ZooRefs#GG66|[GG66] ]], where it was also shown that [[Class_DCFL|$
 
 Defined in [[ZooRefs#GG66|[GG66] ]], where it was also shown that [[Class_DCFL|$\\text{DCFL}$]] is strictly contained in [[Class_CFL|$\\text{CFL}$]] and strictly contains [[Class_REG|$\\text{REG}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4294,9 +5716,19 @@ text = u'''
 
 = DET - Determinant =
 
-== Comments ==
+== Description ==
 
-The class of decision problems reducible in [[Class_L|$\\text{L}$]] to the problem of computing the determinant of an n-by-n matrix of n-bit integers.
+{{{#!description
+
+The class of decision problems reducible in [[Class_L|$\\text{L}$]] to the problem of computing the determinant of an n-by-n matrix of n-bit integers.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4304,12 +5736,16 @@ Defined in [[ZooRefs#Coo85|[Coo85] ]].
 
 
 
-Contained in [[Class_NC2|$\\text{NC2}$]], and contains [[Class_NL|$\\text{NL}$]] and [[Class_PL|$\\text{PL}$]] [[ZooRefs#BCP83|[BCP83] ]].
+Contained in [[Class_NC2|$\\text{NC}^\\text{2}\\text{}$]], and contains [[Class_NL|$\\text{NL}$]] and [[Class_PL|$\\text{PL}$]] [[ZooRefs#BCP83|[BCP83] ]].
 
 
 
 Graph isomorphism is hard for [[Class_DET|$\\text{DET}$]] under L-reductions [[ZooRefs#Tor00|[Tor00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4337,14 +5773,28 @@ text = u'''
 
 = DP - Difference Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-[[Class_DP|$\\text{DP}$]] = BH,,2,,, the second level of the Boolean hierarchy.
+{{{#!description
+
+[[Class_DP|$\\text{DP}$]] = BH,,2,,, the second level of the Boolean hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#PY84|[PY84] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4372,9 +5822,19 @@ text = u'''
 
 = DQP - Dynamical Quantum Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a [[Class_BQP|$\\text{BQP}$]] machine with oracle access to a dynamical simulator. When given a polynomial-size quantum circuit, the simulator returns a sample from the distribution over "classical histories" induced by the circuit. The simulator can adversarially choose any history distribution that satisfies the axioms of "symmetry" and "locality" -- so that the [[Class_DQP|$\\text{DQP}$]] algorithm has to work for any distribution satisfying these axioms.
+{{{#!description
+
+The class of decision problems solvable by a [[Class_BQP|$\\text{BQP}$]] machine with oracle access to a dynamical simulator. When given a polynomial-size quantum circuit, the simulator returns a sample from the distribution over "classical histories" induced by the circuit. The simulator can adversarially choose any history distribution that satisfies the axioms of "symmetry" and "locality" -- so that the [[Class_DQP|$\\text{DQP}$]] algorithm has to work for any distribution satisfying these axioms.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4392,6 +5852,10 @@ Contains [[Class_BQP|$\\text{BQP}$]], and is contained in [[Class_EXP|$\\text{EX
 
 There exists an oracle relative to which [[Class_DQP|$\\text{DQP}$]] does not contain [[Class_NP|$\\text{NP}$]] [[ZooRefs#Aar05|[Aar05] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4419,19 +5883,29 @@ text = u'''
 
 = DSPACE(f(n)) - Deterministic f(n)-Space =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a Turing machine in space O(f(n)).
+{{{#!description
+
+The class of decision problems solvable by a Turing machine in space O(f(n)).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 The Space Hierarchy Theorem: For constructible f(n) greater than log
 
-n, [[Class_DSPACE(f(n))|$\\text{DSPACE(f(n))}$]] is strictly contained in DSPACE(f(n) log(f(n))) [[ZooRefs#HLS65|[HLS65] ]].
+n, DSPACE(f(n)) is strictly contained in DSPACE(f(n) log(f(n))) [[ZooRefs#HLS65|[HLS65] ]].
 
 
 
-For space constructible f(n), strictly contains [[Class_DTIME(f(n))|$\\text{DTIME(f(n))}$]] [[ZooRefs#HPV77|[HPV77] ]].
+For space constructible f(n), strictly contains DTIME(f(n)) [[ZooRefs#HPV77|[HPV77] ]].
 
 
 
@@ -4439,8 +5913,12 @@ DSPACE(n) does not equal [[Class_NP|$\\text{NP}$]] (though we have no idea if on
 
 
 
-See also: [[Class_NSPACE(f(n))|$\\text{NSPACE(f(n))}$]].
+See also: NSPACE(f(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4468,9 +5946,19 @@ text = u'''
 
 = DTIME(f(n)) - Deterministic f(n)-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a Turing machine in time . Note that some authors choose to call this class TIME.
+{{{#!description
+
+The class of decision problems solvable by a Turing machine in time . Note that some authors choose to call this class TIME.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4494,11 +5982,11 @@ The class of decision problems solvable by a Turing machine in time O(f(n)).
 
 
 
-The Time Hierarchy Theorem: For constructible f(n) greater than n, [[Class_DTIME(f(n))|$\\text{DTIME(f(n))}$]] is strictly contained in DTIME(f(n) log(f(n)) loglog(f(n))) [[ZooRefs#HS65|[HS65] ]].
+The Time Hierarchy Theorem: For constructible f(n) greater than n, DTIME(f(n)) is strictly contained in DTIME(f(n) log(f(n)) loglog(f(n))) [[ZooRefs#HS65|[HS65] ]].
 
 
 
-For any space constructible f(n), [[Class_DTIME(f(n))|$\\text{DTIME(f(n))}$]] is strictly contained in [[Class_DSPACE(f(n))|$\\text{DSPACE(f(n))}$]] [[ZooRefs#HPV77|[HPV77] ]].
+For any space constructible f(n), DTIME(f(n)) is strictly contained in DSPACE(f(n)) [[ZooRefs#HPV77|[HPV77] ]].
 
 
 
@@ -4506,8 +5994,12 @@ Also, DTIME(n) is strictly contained in NTIME(n) [[ZooRefs#PPS+83|[PPS+83] ]] (t
 
 
 
-For any constructible superpolynomial f(n), [[Class_DTIME(f(n))|$\\text{DTIME(f(n))}$]] with [[Class_PP|$\\text{PP}$]] oracle is not in [[Class_P/poly|$\\text{P/poly}$]] (see [[ZooRefs#All96|[All96] ]]).
+For any constructible superpolynomial f(n), DTIME(f(n)) with [[Class_PP|$\\text{PP}$]] oracle is not in [[Class_P/poly|$\\text{P/poly}$]] (see [[ZooRefs#All96|[All96] ]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4535,9 +6027,19 @@ text = u'''
 
 = DTISP(t(n),s(n)) - Simultaneous t(n)-Time and s(n)-Space =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a Turing machine that uses time O(t(n)) and space O(s(n)) simultaneously.
+{{{#!description
+
+The class of decision problems solvable by a Turing machine that uses time O(t(n)) and space O(s(n)) simultaneously.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4547,6 +6049,10 @@ Thus [[Class_SC|$\\text{SC}$]] = DTISP(poly,polylog) for example.
 
 Defined in [[ZooRefs#Nis92|[Nis92] ]], where it was also shown that for all space-constructible s(n)=Ω(log n), BPSPACE(s(n)) is contained in DTISP(2^O(s(n))^,s^2^(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4574,14 +6080,28 @@ text = u'''
 
 = DiffAC^0^ - Difference #AC0 =
 
+== Description ==
+
+{{{#!description
+
+The class of functions from {0,1}^n^ to integers expressible as the difference of two [[Class_SharpAC0|$\\text{#AC}^\\text{0}\\text{}$]] functions.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of functions from {0,1}^n^ to integers expressible as the difference of two [[Class_SharpAC0|$\\text{#AC0}$]] functions.
 
 
-
-Equals [[Class_GapAC0|$\\text{GapAC0}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_GapAC0|$\\text{GapAC}^\\text{0}\\text{}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4609,9 +6129,19 @@ text = u'''
 
 = DisNP - Disjoint NP Pairs =
 
-== Comments ==
+== Description ==
 
-The class of pairs (A,B), where A and B are [[Class_NP|$\\text{NP}$]] problems whose sets of "yes" instances are nonempty and disjoint.
+{{{#!description
+
+The class of pairs (A,B), where A and B are [[Class_NP|$\\text{NP}$]] problems whose sets of "yes" instances are nonempty and disjoint.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4621,6 +6151,10 @@ If there exists an optimal propositional proof system, then [[Class_DisNP|$\\tex
 
 If [[Class_P|$\\text{P}$]] does not equal [[Class_UP|$\\text{UP}$]], then [[Class_DisNP|$\\text{DisNP}$]] contains pairs not separated by any set in [[Class_P|$\\text{P}$]] [[ZooRefs#GS88|[GS88] ]].  On the other hand, there exists an oracle relative to which [[Class_P|$\\text{P}$]] does not equal [[Class_NP|$\\text{NP}$]] but still [[Class_DisNP|$\\text{DisNP}$]] does not contain any P-inseparable pairs [[ZooRefs#HS92|[HS92] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4648,9 +6182,19 @@ text = u'''
 
 = DistNP - Distributional NP =
 
-== Comments ==
+== Description ==
 
-(also called (NP,P-computable) or RNP)
+{{{#!description
+
+(also called (NP,P-computable) or RNP)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4666,12 +6210,16 @@ A distributional problem consists of a decision problem A, and a probability dis
 
 
 
-Any DistNP-complete problem is also complete for [[Class_(NP,P-samplable)|$\\text{(NP,P-samplable)}$]] [[ZooRefs#IL90|[IL90] ]].
+Any DistNP-complete problem is also complete for (NP,P-samplable) [[ZooRefs#IL90|[IL90] ]].
 
 
 
 [[Class_DistNP|$\\text{DistNP}$]] has complete problems [[ZooRefs#Gur87|[Gur87] ]], although unlike for [[Class_NP|$\\text{NP}$]] this is not immediate.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4699,9 +6247,19 @@ text = u'''
 
 = Dyn-FO - Dynamic FO =
 
-== Comments ==
+== Description ==
 
-The class of dynamic problems solvable using first-order predicates.
+{{{#!description
+
+The class of dynamic problems solvable using first-order predicates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4713,8 +6271,12 @@ See [[ZooRefs#HI02|[HI02] ]] for more information, and a complete problem for [[
 
 
 
-See also [[Class_Dyn-ThC0|$\\text{Dyn-ThC0}$]].
+See also [[Class_Dyn-ThC0|$\\text{Dyn-ThC}^\\text{0}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4742,14 +6304,28 @@ text = u'''
 
 = Dyn-ThC^0^ - Dynamic Threshold Circuits =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_Dyn-FO|$\\text{Dyn-FO}$]], except that now updates are computed via constant-depth predicates that have "COUNT" available, in addition to AND, OR, and NOT -- so it's a uniform version of [[Class_TC0|$\\text{TC0}$]] rather than of [[Class_AC0|$\\text{AC0}$]].
+{{{#!description
+
+Same as [[Class_Dyn-FO|$\\text{Dyn-FO}$]], except that now updates are computed via constant-depth predicates that have "COUNT" available, in addition to AND, OR, and NOT -- so it's a uniform version of [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] rather than of [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 See [[ZooRefs#HI02|[HI02] ]] for more information.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4777,13 +6353,23 @@ text = u'''
 
 = E - Exponential Time With Linear Exponent =
 
+== Description ==
+
+{{{#!description
+
+Equals DTIME(2^O(n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals DTIME(2^O(n)^).
 
 
-
-Does not equal [[Class_NP|$\\text{NP}$]] [[ZooRefs#Boo72|[Boo72] ]] or [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Boo74|[Boo74] ]] relative to any oracle.  However, there is an oracle relative to which [[Class_E|$\\text{E}$]] is contained in [[Class_NP|$\\text{NP}$]] (see ZPP), and an oracle relative to [[Class_PSPACE|$\\text{PSPACE}$]] is contained in [[Class_E|$\\text{E}$]] (by equating the former with P).
+Does not equal [[Class_NP|$\\text{NP}$]] [[ZooRefs#Boo72|[Boo72] ]] or [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Boo74|[Boo74] ]] relative to any oracle.  However, there is an oracle relative to which [[Class_E|$\\text{E}$]] is contained in [[Class_NP|$\\text{NP}$]] (see [[Class_ZPP|$\\text{ZPP}$]]), and an oracle relative to [[Class_PSPACE|$\\text{PSPACE}$]] is contained in [[Class_E|$\\text{E}$]] (by equating the former with [[Class_P|$\\text{P}$]]).
 
 
 
@@ -4809,6 +6395,10 @@ It follows that, if the problems complete for [[Class_E|$\\text{E}$]] under Turi
 
 Contrast with [[Class_EXP|$\\text{EXP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4836,9 +6426,19 @@ text = u'''
 
 = EE - Double-Exponential Time With Linear Exponent =
 
-== Comments ==
+== Description ==
 
-Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).
+{{{#!description
+
+Equals DTIME(2^2^O(n)^^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n^)^)).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4852,6 +6452,10 @@ Contained in [[Class_EEXP|$\\text{EEXP}$]] and [[Class_NEE|$\\text{NEE}$]].
 
 Equals DTIME(2^2^O(n)^) (though some authors alternatively define it as being equal to DTIME(2^O(2^n)^)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4879,9 +6483,19 @@ text = u'''
 
 = EEE - Triple-Exponential Time With Linear Exponent =
 
-== Comments ==
+== Description ==
 
-Equals DTIME(2^2^2^O(n)^^^).
+{{{#!description
+
+Equals DTIME(2^2^2^O(n)^^^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4891,6 +6505,10 @@ In contrast to the case of [[Class_EE|$\\text{EE}$]], it is not known whether [[
 
 Equals DTIME(2^2^2^O(n)^).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4918,9 +6536,19 @@ text = u'''
 
 = EESPACE - Double-Exponential Space With Linear Exponent =
 
-== Comments ==
+== Description ==
 
-Equals DSPACE(2^2^O(n)^^).
+{{{#!description
+
+Equals DSPACE(2^2^O(n)^^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4930,6 +6558,10 @@ Is not contained in [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]] [[ZooRefs#NY03|[NY03
 
 Equals DSPACE(2^2^O(n)^).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -4957,9 +6589,19 @@ text = u'''
 
 = EEXP - Double-Exponential Time =
 
-== Comments ==
+== Description ==
 
-Equals DTIME(2^2^p(n)^^) for p a polynomial.
+{{{#!description
+
+Equals DTIME(2^2^p(n)^^) for p a polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -4973,6 +6615,10 @@ Contains [[Class_EE|$\\text{EE}$]], and is contained in [[Class_NEEXP|$\\text{NE
 
 Equals DTIME(2^2^p(n)^) for p a polynomial.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5000,13 +6646,23 @@ text = u'''
 
 = EH - Exponential-Time Hierarchy With Linear Exponent =
 
+== Description ==
+
+{{{#!description
+
+Has roughly the same relationship to [[Class_E|$\\text{E}$]] as [[Class_PH|$\\text{PH}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has roughly the same relationship to [[Class_E|$\\text{E}$]] as [[Class_PH|$\\text{PH}$]] does to [[Class_P|$\\text{P}$]].
 
 
-
-More formally, [[Class_EH|$\\text{EH}$]] is defined as the union of [[Class_E|$\\text{E}$]], [[Class_NE|$\\text{NE}$]], NE^NP^, [[Class_NE|$\\text{NE}$]] with [[Class_Σ2P|$\\text{Σ2P}$]] oracle, and so on.
+More formally, [[Class_EH|$\\text{EH}$]] is defined as the union of [[Class_E|$\\text{E}$]], [[Class_NE|$\\text{NE}$]], NE^NP^, [[Class_NE|$\\text{NE}$]] with [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] oracle, and so on.
 
 
 
@@ -5014,7 +6670,7 @@ See [[ZooRefs#Har87|[Har87] ]] for more information.
 
 
 
-If [[Class_coNP|$\\text{coNP}$]] is contained in [[Class_AM[polylog]|$\\text{AM[polylog]}$]], then [[Class_EH|$\\text{EH}$]] collapses to [[Class_S2-EXP•PNP|$\\text{S2-EXP•PNP}$]] [[ZooRefs#SS04|[SS04] ]] and indeed [[Class_AMEXP|$\\text{AMEXP}$]] [[ZooRefs#PV04|[PV04] ]].
+If [[Class_coNP|$\\text{coNP}$]] is contained in [[Class_AM[polylog]|$\\text{AM[polylog]}$]], then [[Class_EH|$\\text{EH}$]] collapses to [[Class_S2-EXP•PNP|$\\text{S}_\\text{2}\\text{-EXP•P}^\\text{NP}\\text{}$]] [[ZooRefs#SS04|[SS04] ]] and indeed [[Class_AMEXP|$\\text{AM}_\\text{EXP}\\text{}$]] [[ZooRefs#PV04|[PV04] ]].
 
 
 
@@ -5024,6 +6680,10 @@ On the other hand, [[Class_coNE|$\\text{coNE}$]] is contained in [[Class_NE/poly
 
 There exists an oracle relative to which [[Class_EH|$\\text{EH}$]] does not contain [[Class_SEH|$\\text{SEH}$]] [[ZooRefs#Hem89|[Hem89] ]]. [[Class_EH|$\\text{EH}$]] and [[Class_SEH|$\\text{SEH}$]] are incomparable for all anyone knows.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5051,9 +6711,19 @@ text = u'''
 
 = ELEMENTARY - Iterated Exponential Time =
 
-== Comments ==
+== Description ==
 
-Equals the union of DTIME(2^n^), DTIME(2^2^n^^), DTIME(2^2^2^n^^^), and so on.
+{{{#!description
+
+Equals the union of DTIME(2^n^), DTIME(2^2^n^^), DTIME(2^2^2^n^^^), and so on.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5063,6 +6733,10 @@ Contained in [[Class_PR|$\\text{PR}$]].
 
 Equals the union of DTIME(2^n^), DTIME(2^2^n^), DTIME(2^2^2^n^), and so on.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5090,9 +6764,19 @@ text = u'''
 
 = EL,,k,,P - Extended Low Hierarchy =
 
-== Comments ==
+== Description ==
 
-An extension of [[Class_LkP|$\\text{LkP}$]].
+{{{#!description
+
+An extension of [[Class_LkP|$\\text{L}_\\text{k}\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5102,6 +6786,10 @@ The class of problems A such that Σ,,k,,P^A^ is contained in Σ,,k-1,,P^A,NP^.
 
 Defined in [[ZooRefs#BBS86|[BBS86] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5129,9 +6817,19 @@ text = u'''
 
 = EP - NP with 2k Accepting Paths =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5141,12 +6839,16 @@ If the answer is 'yes,' then the number of accepting paths is a power of two.
 
 
 
-Contained in [[Class_C=P|$\\text{C=P}$]], and in [[Class_ModkP|$\\text{ModkP}$]] for any odd k.  Contains [[Class_UP|$\\text{UP}$]].
+Contained in [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]], and in [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]] for any odd k.  Contains [[Class_UP|$\\text{UP}$]].
 
 
 
 Defined in [[ZooRefs#BHR00|[BHR00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5174,9 +6876,19 @@ text = u'''
 
 = EPTAS - Efficient Polynomial-Time Approximation Scheme =
 
-== Comments ==
+== Description ==
 
-The class of optimization problems such that, given an instance of length n, we can find a solution within a factor 1+ε of the optimum in time f(ε)p(n), where p is a polynomial and f is arbitrary.
+{{{#!description
+
+The class of optimization problems such that, given an instance of length n, we can find a solution within a factor 1+ε of the optimum in time f(ε)p(n), where p is a polynomial and f is arbitrary.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5188,12 +6900,16 @@ Defined in [[ZooRefs#CT97|[CT97] ]], where the following was also shown:
 
 
 
-If [[Class_FPT|$\\text{FPT}$]] = [[Class_XPuniform|$\\text{XPuniform}$]] then [[Class_EPTAS|$\\text{EPTAS}$]] = [[Class_PTAS|$\\text{PTAS}$]].
+If [[Class_FPT|$\\text{FPT}$]] = [[Class_XPuniform|$\\text{XP}_\\text{uniform}\\text{}$]] then [[Class_EPTAS|$\\text{EPTAS}$]] = [[Class_PTAS|$\\text{PTAS}$]].
 
 If [[Class_EPTAS|$\\text{EPTAS}$]] = [[Class_PTAS|$\\text{PTAS}$]] then [[Class_FPT|$\\text{FPT}$]] = [[Class_W[P]|$\\text{W[P]}$]].
 
 If [[Class_FPT|$\\text{FPT}$]] is strictly contained in [[Class_W[1]|$\\text{W[1]}$]], then there is a natural problem that is in [[Class_PTAS|$\\text{PTAS}$]] but not in [[Class_EPTAS|$\\text{EPTAS}$]].  (See [[ZooRefs#CT97|[CT97] ]] for the statement of the problem, since it's not that natural.)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5221,9 +6937,19 @@ text = u'''
 
 = EQP - Exact Quantum Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The same as [[Class_BQP|$\\text{BQP}$]], except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [[ZooRefs#BV97|[BV97] ]], each language in [[Class_EQP|$\\text{EQP}$]] is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set [[Class_K|$\\text{K}$]] whose amplitudes can be computed in polynomial time. See [[Class_EQPK|$\\text{EQPK}$]].  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.
+{{{#!description
+
+The same as [[Class_BQP|$\\text{BQP}$]], except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [[ZooRefs#BV97|[BV97] ]], each language in [[Class_EQP|$\\text{EQP}$]] is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set [[Class_K|$\\text{K}$]] whose amplitudes can be computed in polynomial time. See [[Class_EQPK|$\\text{EQP}_\\text{K}\\text{}$]].  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5231,7 +6957,7 @@ Without loss of generality, the amplitudes in the gate set [[Class_K|$\\text{K}$
 
 
 
-There is an oracle that separates [[Class_EQP|$\\text{EQP}$]] from [[Class_NP|$\\text{NP}$]] [[ZooRefs#BV97|[BV97] ]], indeed from [[Class_Δ2P|$\\text{Δ2P}$]] [[ZooRefs#GP01|[GP01] ]].  There is also an oracle relative to which [[Class_EQP|$\\text{EQP}$]] is not in Mod,,p,,P where p is prime [[ZooRefs#GV02|[GV02] ]].  On the other hand, [[Class_EQP|$\\text{EQP}$]] is in [[Class_LWPP|$\\text{LWPP}$]] [[ZooRefs#FR98|[FR98] ]].
+There is an oracle that separates [[Class_EQP|$\\text{EQP}$]] from [[Class_NP|$\\text{NP}$]] [[ZooRefs#BV97|[BV97] ]], indeed from [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]] [[ZooRefs#GP01|[GP01] ]].  There is also an oracle relative to which [[Class_EQP|$\\text{EQP}$]] is not in Mod,,p,,P where p is prime [[ZooRefs#GV02|[GV02] ]].  On the other hand, [[Class_EQP|$\\text{EQP}$]] is in [[Class_LWPP|$\\text{LWPP}$]] [[ZooRefs#FR98|[FR98] ]].
 
 
 
@@ -5241,6 +6967,10 @@ P^||NP[2k]^ is contained in EQP^||NP[k]^, where "||NP[k]" denotes k nonadaptive 
 
 See also [[Class_ZBQP|$\\text{ZBQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5268,13 +6998,23 @@ text = u'''
 
 = EQP,,K,, - Exact Quantum Polynomial-Time with Gate Set K =
 
+== Description ==
+
+{{{#!description
+
+The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set [[Class_K|$\\text{K}$]], and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set [[Class_K|$\\text{K}$]].  [[Class_K|$\\text{K}$]] may be either finite or countable and enumerated.  If S is a ring, the union of [[Class_EQPK|$\\text{EQP}_\\text{K}\\text{}$]] over all finite gate sets [[Class_K|$\\text{K}$]] whose amplitudes are in the ring [[Class_R|$\\text{R}$]] can be written EQP,,S,,.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The set of problems that can be answered by a uniform family of polynomial-sized quantum circuits whose gates are drawn from a set [[Class_K|$\\text{K}$]], and that return the correct answer with probability 1, and run in polynomial time with probability 1, and the allowed gates are drawn from a set [[Class_K|$\\text{K}$]].  [[Class_K|$\\text{K}$]] may be either finite or countable and enumerated.  If S is a ring, the union of [[Class_EQPK|$\\text{EQPK}$]] over all finite gate sets [[Class_K|$\\text{K}$]] whose amplitudes are in the ring [[Class_R|$\\text{R}$]] can be written EQP,,S,,.
 
 
-
-Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of [[Class_EQPK|$\\text{EQPK}$]].
+Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-qubit gates controlled by a second qubit.  It was shown there that transcendental gates may be replaced by algebraic gates without decreasing the size of [[Class_EQPK|$\\text{EQP}_\\text{K}\\text{}$]].
 
 
 
@@ -5284,6 +7024,10 @@ Defined in [[ZooRefs#ADH97|[ADH97] ]] in the special case of a finite set of 1-q
 
 The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's algorithm.  The discrete logarithm problem over Z/p is in EQP,,Q-bar,, using infinitely many gates [[ZooRefs#MZ03|[MZ03] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5311,14 +7055,28 @@ text = u'''
 
 = EQTIME(f(n)) - Exact Quantum f(n)-Time =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_EQP|$\\text{EQP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
+{{{#!description
+
+Same as [[Class_EQP|$\\text{EQP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#BV97|[BV97] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5346,9 +7104,19 @@ text = u'''
 
 = ESPACE - Exponential Space With Linear Exponent =
 
-== Comments ==
+== Description ==
 
-Equals DSPACE(2^O(n)^).
+{{{#!description
+
+Equals DSPACE(2^O(n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5370,6 +7138,10 @@ Is not contained in [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] [[ZooRefs#NY03|[NY03
 
 See also: [[Class_EXPSPACE|$\\text{EXPSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5397,9 +7169,19 @@ text = u'''
 
 = EXP - Exponential Time =
 
-== Comments ==
+== Description ==
 
-Equals the union of DTIME(2^p(n)^) over all polynomials p.
+{{{#!description
+
+Equals the union of DTIME(2^p(n)^) over all polynomials p.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5435,7 +7217,7 @@ There exist oracles relative to which
 
 
 
-[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|$\\text{EXP}$]] has circuits of polynomial size, then [[Class_P|$\\text{P}$]] can be simulated in [[Class_MAPOLYLOG|$\\text{MAPOLYLOG}$]] such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|$\\text{P}$]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|$\\text{EXP}$]] ⊆ [[Class_MA|$\\text{MA}$]] if [[Class_EXP|$\\text{EXP}$]] has circuits of polynomial size.
+[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|$\\text{EXP}$]] has circuits of polynomial size, then [[Class_P|$\\text{P}$]] can be simulated in [[Class_MAPOLYLOG|$\\text{MA}_\\text{POLYLOG}\\text{}$]] such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|$\\text{P}$]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|$\\text{EXP}$]] ⊆ [[Class_MA|$\\text{MA}$]] if [[Class_EXP|$\\text{EXP}$]] has circuits of polynomial size.
 
 
 
@@ -5443,7 +7225,7 @@ There exist oracles relative to which
 
 
 
-In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
+In descriptive complexity EXPTIME can be defined as [[Class_SO|$\\text{SO}$]]() which is also SO(LFP)
 
 
 
@@ -5453,6 +7235,10 @@ In descriptive complexity EXPTIME can be defined as SO() which is also SO(LFP)
 
 [[Class_EXP|$\\text{EXP}$]] does not equal [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Dek76|[Dek76] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5480,14 +7266,28 @@ text = u'''
 
 = EXP/poly - Exponential Time With Polynomial-Size Advice =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable in [[Class_EXP|$\\text{EXP}$]] with the help of a polynomial-length advice string that depends only on the input length.
+{{{#!description
+
+The class of decision problems solvable in [[Class_EXP|$\\text{EXP}$]] with the help of a polynomial-length advice string that depends only on the input length.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]] [Aar04b].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5515,9 +7315,19 @@ text = u'''
 
 = EXPSPACE - Exponential Space =
 
-== Comments ==
+== Description ==
 
-Equals the union of DSPACE(2^p(n)^) over all polynomials p.
+{{{#!description
+
+Equals the union of DSPACE(2^p(n)^) over all polynomials p.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5527,6 +7337,10 @@ See also: [[Class_ESPACE|$\\text{ESPACE}$]].
 
 Given a first-order statement about real numbers, involving only addition and comparison (no multiplication), we can decide in [[Class_EXPSPACE|$\\text{EXPSPACE}$]] whether it's true or not [[ZooRefs#Ber80|[Ber80] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5554,9 +7368,19 @@ text = u'''
 
 = F-TAPE(f(n)) - Provable DSPACE(f(n)) For Formal System F =
 
-== Comments ==
+== Description ==
 
-The class of decision problems that can be proven to be solvable in O(f(n)) space on a deterministic Turing machine, from the axioms of formal system F.
+{{{#!description
+
+The class of decision problems that can be proven to be solvable in O(f(n)) space on a deterministic Turing machine, from the axioms of formal system F.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5564,8 +7388,12 @@ Defined in [[ZooRefs#Har78|[Har78] ]].
 
 
 
-See also [[Class_F-TIME(f(n))|$\\text{F-TIME(f(n))}$]].  The results about F-TAPE mirror those about F-TIME, but in some cases are sharper.
+See also F-TIME(f(n)).  The results about F-TAPE mirror those about F-TIME, but in some cases are sharper.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5593,9 +7421,19 @@ text = u'''
 
 = F-TIME(f(n)) - Provable DTIME(f(n)) For Formal System F =
 
-== Comments ==
+== Description ==
 
-The class of decision problems that can be proven to be solvable in O(f(n)) time on a deterministic Turing machine, from the axioms of formal system F.
+{{{#!description
+
+The class of decision problems that can be proven to be solvable in O(f(n)) time on a deterministic Turing machine, from the axioms of formal system F.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5603,14 +7441,18 @@ Defined in [[ZooRefs#Har78|[Har78] ]], where the following was also shown:
 
 
 
-If [[Class_F-TIME(f(n))|$\\text{F-TIME(f(n))}$]] = [[Class_DTIME(f(n))|$\\text{DTIME(f(n))}$]], then [[Class_DTIME(f(n))|$\\text{DTIME(f(n))}$]] is strictly contained in DTIME(f(n)g(n)) for any nondecreasing, unbounded, recursive g(n).
+If F-TIME(f(n)) = DTIME(f(n)), then DTIME(f(n)) is strictly contained in DTIME(f(n)g(n)) for any nondecreasing, unbounded, recursive g(n).
 
-There exist recursive, monotonically increasing f(n) such that [[Class_F-TIME(f(n))|$\\text{F-TIME(f(n))}$]] is strictly contained in [[Class_DTIME(f(n))|$\\text{DTIME(f(n))}$]].
+There exist recursive, monotonically increasing f(n) such that F-TIME(f(n)) is strictly contained in DTIME(f(n)).
 
 
 
-See also [[Class_F-TAPE(f(n))|$\\text{F-TAPE(f(n))}$]].
+See also F-TAPE(f(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5638,14 +7480,28 @@ text = u'''
 
 = FBQP - Function BQP =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_BQP|$\\text{BQP}$]] as [[Class_FNP|$\\text{FNP}$]] does to [[Class_NP|$\\text{NP}$]].
+{{{#!description
+
+Has the same relation to [[Class_BQP|$\\text{BQP}$]] as [[Class_FNP|$\\text{FNP}$]] does to [[Class_NP|$\\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 There exists an oracle relative to which [[Class_PLS|$\\text{PLS}$]] is not contained in [[Class_FBQP|$\\text{FBQP}$]] [[ZooRefs#Aar03|[Aar03] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5673,9 +7529,19 @@ text = u'''
 
 = FH - Fourier Hierarchy =
 
-== Comments ==
+== Description ==
 
-FH,,k,, is the class of problems solvable by a uniform family of polynomial-size quantum circuits, with k levels of Hadamard gates and all other gates preserving the computational basis.  (Conditional phase flip gates are fine, for example.)  Thus
+{{{#!description
+
+FH,,k,, is the class of problems solvable by a uniform family of polynomial-size quantum circuits, with k levels of Hadamard gates and all other gates preserving the computational basis.  (Conditional phase flip gates are fine, for example.)  Thus}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5701,6 +7567,10 @@ FH,,1,, = [[Class_BPP|$\\text{BPP}$]]
 
 FH,,2,, contains factoring, because of Kitaev's phase estimation algorithm
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5728,9 +7598,19 @@ text = u'''
 
 = FIXP - Fixed Point =
 
-== Comments ==
+== Description ==
 
-The class of fixed point problems. In the framework of fixed point problems, an instance I is associated with a (continuous) function F,,I,,, and a solution of I is a fixed point of F,,I,,.
+{{{#!description
+
+The class of fixed point problems. In the framework of fixed point problems, an instance I is associated with a (continuous) function F,,I,,, and a solution of I is a fixed point of F,,I,,.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5759,6 +7639,10 @@ Linear-FIXP = [[Class_PPAD|$\\text{PPAD}$]].
 Defined in [[ZooRefs#EY07|[EY07] ]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -5785,14 +7669,28 @@ text = u'''
 
 = FNL - Function NL =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NL|$\\text{NL}$]] as [[Class_FNP|$\\text{FNP}$]] does to [[Class_NP|$\\text{NP}$]].
+{{{#!description
+
+Has the same relation to [[Class_NL|$\\text{NL}$]] as [[Class_FNP|$\\text{FNP}$]] does to [[Class_NP|$\\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined by [[ZooRefs#AJ93|[AJ93] ]], who also showed that if [[Class_NL|$\\text{NL}$]] = [[Class_UL|$\\text{UL}$]], then [[Class_FNL|$\\text{FNL}$]] is contained in [[Class_SharpL|$\\text{#L}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5820,14 +7718,28 @@ text = u'''
 
 = FNL/poly - Nonuniform FNL =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_FNL|$\\text{FNL}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_FNL|$\\text{FNL}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_SharpL/poly|$\\text{#L/poly}$]] [[ZooRefs#RA00|[RA00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5855,9 +7767,19 @@ text = u'''
 
 = FNP - Function NP =
 
-== Comments ==
+== Description ==
 
-The class of function problems of the following form:
+{{{#!description
+
+The class of function problems of the following form:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5883,6 +7805,10 @@ Contains [[Class_TFNP|$\\text{TFNP}$]].
 
 A basic question about [[Class_FNP|$\\text{FNP}$]] problems is whether they're self-reducible; that is, whether they reduce to the corresponding [[Class_NP|$\\text{NP}$]] decision problems.  Although this is true for all [[Class_NPC|$\\text{NPC}$]] problems, [[ZooRefs#BG94|[BG94] ]] shows that if [[Class_EE|$\\text{EE}$]] does not equal [[Class_NEE|$\\text{NEE}$]], then there is a problem in [[Class_NP|$\\text{NP}$]] such that no corresponding [[Class_FNP|$\\text{FNP}$]] problem can be reduced to it.  [[ZooRefs#BG94|[BG94] ]] cites Impagliazzo and Sudan as giving the same conclusion under the assumption that [[Class_NE|$\\text{NE}$]] does not equal [[Class_coNE|$\\text{coNE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -5910,9 +7836,19 @@ text = u'''
 
 = FO - First-Order logic =
 
-== Comments ==
+== Description ==
 
-First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class [[Class_AC0|$\\text{AC0}$]] and to [[Class_AH|$\\text{AH}$]], the alternating logtime hierarchy.
+{{{#!description
+
+First order logic is the smallest logical class of logic language. It is the base of Descriptive complexity and equal to the class [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] and to [[Class_AH|$\\text{AH}$]], the alternating logtime hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5945,6 +7881,10 @@ A querie in [[Class_FO|$\\text{FO}$]] will then be to check if a [[Class_FO|$\\t
 Every formulae is equivalent to a formulae in prenexe normal form where we put recursively every quantifier and then a quantifier-free formulae.
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -5971,9 +7911,19 @@ text = u'''
 
 = FO(DTC) - First-order with deterministic transitive closure =
 
-== Comments ==
+== Description ==
 
-[[Class_FO(DTC)|$\\text{FO(DTC)}$]] is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC(), we know that for all , there exist at most one  such that phi(u,v).
+{{{#!description
+
+FO(DTC) is defined as FO(tc) where the transitive closure operator is deterministic, which means that when we apply DTC(), we know that for all , there exist at most one  such that phi(u,v).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -5983,6 +7933,10 @@ We can suppose that DTC() is syntactic sugar for TC() where .
 
 It was shown in [[ZooRefs#Imm99|[Imm99] ]] page 144 that this class is equal to [[Class_L|$\\text{L}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6010,9 +7964,19 @@ text = u'''
 
 = FO(LFP) - First-order with least fixed point =
 
-== Comments ==
+== Description ==
 
-[[Class_FO(LFP)|$\\text{FO(LFP)}$]] is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is , then  always implies .
+{{{#!description
+
+FO(LFP) is the set of boolean queries definable with first-order fixed-point formulae where the partial fixed point is limited to be monotone, which means that if the second order variable is , then  always implies .}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6020,8 +7984,12 @@ We can obtain the monotony by restricting the formula  to have only positive occ
 
 
 
-Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [[ZooRefs#Imm82|[Imm82] ]] that FO(LFP)=P. This definition is equivalent to FO().
+Thanks to monotonicity we only add and never remove vectors to the truth table of , and since there is only  possible vectors we always find a fixed point before  iterations. Hence it was shown in [[ZooRefs#Imm82|[Imm82] ]] that FO(LFP)=P. This definition is equivalent to [[Class_FO|$\\text{FO}$]]().
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6049,13 +8017,23 @@ text = u'''
 
 = FO(PFP) - First-order with partial fixed point =
 
+== Description ==
+
+{{{#!description
+
+FO(pfp) is the set of boolean queries definable with first-order formulae with a partial fixed point operator.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-FO(pfp) is the set of boolean queries definable with first-order formulae with a partial fixed point operator.
 
 
-
-Let  be an integer,   vectors of  variables,  a second-order variable of arity , and  a [[Class_FO(PFP)|$\\text{FO(PFP)}$]] function using  and  as variables, then we can define iteratively  such that  and  which means that the property  is true on the input  if  is true on input , and when the variable  is replaced by . Then, either there is a fixed point, or the list of  is looping.
+Let  be an integer,   vectors of  variables,  a second-order variable of arity , and  a FO(PFP) function using  and  as variables, then we can define iteratively  such that  and  which means that the property  is true on the input  if  is true on input , and when the variable  is replaced by . Then, either there is a fixed point, or the list of  is looping.
 
 
 
@@ -6069,6 +8047,10 @@ Since s are property of arity , there is at most  values for the s, so with a po
 
 It was proved in [[ZooRefs#Imm98|[Imm98] ]] that FO(pfp) is equal to [[Class_PSPACE|$\\text{PSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6096,22 +8078,36 @@ text = u'''
 
 = FO(TC) - First-order with transitive closure =
 
+== Description ==
+
+{{{#!description
+
+FO(TC) is the set of boolean queries definable with first-order formulae with a transitive closure (TC) operator.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-[[Class_FO(TC)|$\\text{FO(TC)}$]] is the set of boolean queries definable with first-order formulae with a transitive closure (TC) operator.
+
+
+TC is defined this way: let  be a positiver integer and  be vectors of  variables, then TC( is true if there exist  variables  such that  and for all  . Here,  is a formula over  written in FO(TC) and  means that the variables  and  are replaced by  and .
 
 
 
-TC is defined this way: let  be a positiver integer and  be vectors of  variables, then TC( is true if there exist  variables  such that  and for all  . Here,  is a formula over  written in [[Class_FO(TC)|$\\text{FO(TC)}$]] and  means that the variables  and  are replaced by  and .
-
-
-
-Every formula of TC can be written in a normal form FO( where  is a [[Class_FO|$\\text{FO}$]] formula and we suppose that there is an order on the model where variables are quantified, so we can choose the minimum and maximum element.
+Every formula of TC can be written in a normal form [[Class_FO|$\\text{FO}$]]( where  is a [[Class_FO|$\\text{FO}$]] formula and we suppose that there is an order on the model where variables are quantified, so we can choose the minimum and maximum element.
 
 
 
 It was shown in [[ZooRefs#Imm98|[Imm98] ]] page 150 that this class is equal to [[Class_NL|$\\text{NL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6139,9 +8135,19 @@ text = u'''
 
 = FO(t(n)) - First-Order =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer can be expressed by a first-order logic predicate, with a block of restricted quantifiers repeated t(n) times.  See [[ZooRefs#Imm98|[Imm98] ]] for a full definition.
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be expressed by a first-order logic predicate, with a block of restricted quantifiers repeated t(n) times.  See [[ZooRefs#Imm98|[Imm98] ]] for a full definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6151,6 +8157,10 @@ FO(poly(n)) = [[Class_P|$\\text{P}$]] (see [[ZooRefs#Var82|[Var82] ]] for exampl
 
 FO(poly(n)) is contained in [[Class_SO-E|$\\text{SO-E}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6178,9 +8188,19 @@ text = u'''
 
 = FOLL - First-Order loglog n =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a uniform family of polynomial-size, unbounded-fanin, depth O(log log n) circuits with AND, OR, and NOT gates. Equals FO(log log n).
+{{{#!description
+
+The class of decision problems solvable by a uniform family of polynomial-size, unbounded-fanin, depth O(log log n) circuits with AND, OR, and NOT gates. Equals FO(log log n).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6188,7 +8208,7 @@ Defined in [[ZooRefs#BKL+00|[BKL+00] ]], where it was also shown that many probl
 
 
 
-Contains uniform [[Class_AC0|$\\text{AC0}$]], and is contained in uniform [[Class_AC1|$\\text{AC1}$]].
+Contains uniform [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], and is contained in uniform [[Class_AC1|$\\text{AC}^\\text{1}\\text{}$]].
 
 
 
@@ -6200,12 +8220,16 @@ The class of decision problems solvable by a nonuniform family of polynomial-siz
 
 
 
-Contains [[Class_AC0|$\\text{AC0}$]], and is contained in [[Class_AC1|$\\text{AC1}$]].
+Contains [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], and is contained in [[Class_AC1|$\\text{AC}^\\text{1}\\text{}$]].
 
 
 
 Is not known to be comparable to [[Class_L/poly|$\\text{L/poly}$]] or [[Class_NL/poly|$\\text{NL/poly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6233,9 +8257,19 @@ text = u'''
 
 = FO[] - Iterated First-Order logic =
 
-== Comments ==
+== Description ==
 
-Let  be a function from integers to integers.
+{{{#!description
+
+Let  be a function from integers to integers.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
  abbreviates  and  abbreviates .
 
@@ -6261,10 +8295,14 @@ In Descriptive complexity we can see that :
 
 [[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_NC|$\\text{NC}$]]
 
-[[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_P|$\\text{P}$]] and [[Class_FO(LFP)|$\\text{FO(LFP)}$]]
+[[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_P|$\\text{P}$]] and FO(LFP)
 
-[[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_PSPACE|$\\text{PSPACE}$]] and [[Class_FO(PFP)|$\\text{FO(PFP)}$]]
+[[Class_FO[]|$\\text{FO[]}$]] is equal to [[Class_PSPACE|$\\text{PSPACE}$]] and FO(PFP)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6292,9 +8330,19 @@ text = u'''
 
 = FP - Function Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-Sometimes defined as the class of functions computable in polynomial time by a Turing machine.  (Generalizes [[Class_P|$\\text{P}$]], which is defined in terms of decision problems only.)
+{{{#!description
+
+Sometimes defined as the class of functions computable in polynomial time by a Turing machine.  (Generalizes [[Class_P|$\\text{P}$]], which is defined in terms of decision problems only.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6306,8 +8354,12 @@ However, if we want to compare [[Class_FP|$\\text{FP}$]] to [[Class_FNP|$\\text{
 
 
 
-If FP^NP^ = [[Class_FPNP[log]|$\\text{FPNP[log]}$]] (that is, allowed only a logarithmic number of queries), then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]] [[ZooRefs#Kre88|[Kre88] ]].  The corresponding result for [[Class_PNP|$\\text{PNP}$]] versus [[Class_PNP[log]|$\\text{PNP[log]}$]] is not known, and indeed fails relative to some oracles (see [Har87b]).
+If FP^NP^ = [[Class_FPNP[log]|$\\text{FP}^\\text{NP[log]}\\text{}$]] (that is, allowed only a logarithmic number of queries), then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]] [[ZooRefs#Kre88|[Kre88] ]].  The corresponding result for [[Class_PNP|$\\text{P}^\\text{NP}\\text{}$]] versus [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]] is not known, and indeed fails relative to some oracles (see [Har87b]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6335,10 +8387,26 @@ text = u'''
 
 = FP^NP[log]^ - FP With Logarithmically Many Queries To NP =
 
+== Description ==
+
+{{{#!description
+
+Given a graph, the problem of outputting the size of its maximum clique is complete for [[Class_FPNP[log]|$\\text{FP}^\\text{NP[log]}\\text{}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Given a graph, the problem of outputting the size of its maximum clique is complete for [[Class_FPNP[log]|$\\text{FPNP[log]}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6366,9 +8434,19 @@ text = u'''
 
 = FPR - Fixed-Parameter Randomized =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_FPT|$\\text{FPT}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_FPT|$\\text{FPT}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6378,6 +8456,10 @@ Defined in [[ZooRefs#AR01|[AR01] ]], where it was shown that, if the Resolution 
 
 Has the same relation to [[Class_FPT|$\\text{FPT}$]] as [[Class_R|$\\text{R}$]] does to [[Class_P|$\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6405,14 +8487,28 @@ text = u'''
 
 = FPRAS - Fully Polynomial Randomized Approximation Scheme =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_SharpP|$\\text{#P}$]] counting problems whose answer, y, is approximable in the following sense.  There exists a randomized algorithm that, with probability at least 1-δ, approximates y to within an ε multiplicative factor in time polynomial in n (the input size), 1/ε, and log(1/δ).
+{{{#!description
+
+The subclass of [[Class_SharpP|$\\text{#P}$]] counting problems whose answer, y, is approximable in the following sense.  There exists a randomized algorithm that, with probability at least 1-δ, approximates y to within an ε multiplicative factor in time polynomial in n (the input size), 1/ε, and log(1/δ).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 The permanent of a nonnegative matrix is in [[Class_FPRAS|$\\text{FPRAS}$]] [[ZooRefs#JSV01|[JSV01] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6440,9 +8536,19 @@ text = u'''
 
 = FPT - Fixed-Parameter Tractable =
 
-== Comments ==
+== Description ==
 
-The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.
+{{{#!description
+
+The class of decision problems of the form (x,k), k a parameter, that are solvable in time f(k)p(|x|), where f is arbitrary and p is a polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6454,16 +8560,20 @@ To separate [[Class_FPT|$\\text{FPT}$]] and W[2], one could show there is no pro
 
 
 
-Contained in [[Class_FPTnu|$\\text{FPTnu}$]], [[Class_W[1]|$\\text{W[1]}$]], and [[Class_FPR|$\\text{FPR}$]].
+Contained in [[Class_FPTnu|$\\text{FPT}_\\text{nu}\\text{}$]], [[Class_W[1]|$\\text{W[1]}$]], and [[Class_FPR|$\\text{FPR}$]].
 
 
 
-Contains [[Class_FPTAS|$\\text{FPTAS}$]] [[ZooRefs#CC97|[CC97] ]], as well as [[Class_FPTsu|$\\text{FPTsu}$]].
+Contains [[Class_FPTAS|$\\text{FPTAS}$]] [[ZooRefs#CC97|[CC97] ]], as well as [[Class_FPTsu|$\\text{FPT}_\\text{su}\\text{}$]].
 
 
 
 Contains [[Class_EPTAS|$\\text{EPTAS}$]] unless [[Class_FPT|$\\text{FPT}$]] = [[Class_W[1]|$\\text{W[1]}$]] [[ZooRefs#Baz95|[Baz95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6491,9 +8601,19 @@ text = u'''
 
 = FPTAS - Fully Polynomial-Time Approximation Scheme =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_NPO|$\\text{NPO}$]] problems that admit an approximation scheme in the following sense.  For any ε>0, there is an algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  Furthermore, the running time of the algorithm is polynomial in n (the size of the problem) and in 1/ε.
+{{{#!description
+
+The subclass of [[Class_NPO|$\\text{NPO}$]] problems that admit an approximation scheme in the following sense.  For any ε>0, there is an algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  Furthermore, the running time of the algorithm is polynomial in n (the size of the problem) and in 1/ε.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6507,6 +8627,10 @@ Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 
 Contained in [[Class_FPT|$\\text{FPT}$]] [[ZooRefs#CC97|[CC97] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6534,9 +8658,19 @@ text = u'''
 
 = FPT,,nu,, - Fixed-Parameter Tractable (nonuniform) =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_FPT|$\\text{FPT}$]] except that the algorithm can vary with the parameter k (though its running time must always be O(p(|x|)), for a fixed polynomial p).
+{{{#!description
+
+Same as [[Class_FPT|$\\text{FPT}$]] except that the algorithm can vary with the parameter k (though its running time must always be O(p(|x|)), for a fixed polynomial p).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6546,6 +8680,10 @@ An alternate view is that a single algorithm can take a polynomial-length advice
 
 Defined in [[ZooRefs#DF99|[DF99] ]] (though they did not use our notation).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6573,14 +8711,28 @@ text = u'''
 
 = FPT,,su,, - Fixed-Parameter Tractable (strongly uniform) =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_FPT|$\\text{FPT}$]] except that f has to be recursive.
+{{{#!description
+
+Same as [[Class_FPT|$\\text{FPT}$]] except that f has to be recursive.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#DF99|[DF99] ]] (though they did not use our notation).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6608,14 +8760,28 @@ text = u'''
 
 = FQMA - Function QMA =
 
-== Comments ==
+== Description ==
 
-The class of problems for which the task is to output a quantum certificate for a [[Class_QMA|$\\text{QMA}$]] problem, when such a certificate exists.  Thus, the desired output is a quantum state.
+{{{#!description
+
+The class of problems for which the task is to output a quantum certificate for a [[Class_QMA|$\\text{QMA}$]] problem, when such a certificate exists.  Thus, the desired output is a quantum state.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#JWB03|[JWB03] ]], where it is also shown that state preparation for 3-local Hamiltonians is FQMA-complete.  The authors also observe that, in contrast to the case of [[Class_FNP|$\\text{FNP}$]] versus [[Class_NP|$\\text{NP}$]], there is no obvious reduction of [[Class_FQMA|$\\text{FQMA}$]] problems to [[Class_QMA|$\\text{QMA}$]] problems.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6643,9 +8809,19 @@ text = u'''
 
 = Few - FewP With Flexible Acceptance Mechanism =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6669,6 +8845,10 @@ Contains [[Class_FewP|$\\text{FewP}$]], and is contained in P^FewP^ [[ZooRefs#Ko
 
 See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6696,13 +8876,23 @@ text = u'''
 
 = FewEXP - NEXP With Few Witnesses =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NEXP|$\\text{NEXP}$]] machine such that, given a "yes" instance, no more than an exponential number of computation paths accept.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable by an [[Class_NEXP|$\\text{NEXP}$]] machine such that, given a "yes" instance, no more than an exponential number of computation paths accept.
 
 
-
-Contained in MIP[NP^FewEXP^] (MIP where provers are not unbounded in computational power, but are limited to NP^FewEXP^) [[ZooRefs#AKS+94|[AKS+94] ]].
+Contained in MIP[NP^FewEXP^] ([[Class_MIP|$\\text{MIP}$]] where provers are not unbounded in computational power, but are limited to NP^FewEXP^) [[ZooRefs#AKS+94|[AKS+94] ]].
 
 
 
@@ -6714,6 +8904,10 @@ There exists an [[Class_EXP|$\\text{EXP}$]] machine  such that if given a string
 
  There exists an [[Class_EXP/poly|$\\text{EXP/poly}$]] machine  which accepts a string  if and only  accepts.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6741,9 +8935,19 @@ text = u'''
 
 = FewP - NP With Few Witnesses =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6776,6 +8980,10 @@ Contained in [[Class_Few|$\\text{Few}$]].
 See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -6802,9 +9010,19 @@ text = u'''
 
 = GA - Graph Automorphism =
 
-== Comments ==
+== Description ==
 
-Can be defined as the class of problems polynomial-time Turing reducible to the Graph Automorphism problem.
+{{{#!description
+
+Can be defined as the class of problems polynomial-time Turing reducible to the Graph Automorphism problem.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6818,6 +9036,10 @@ See [[ZooRefs#KST93|[KST93] ]] for much more information about [[Class_GA|$\\tex
 
 Can be defined as the class of problems polynomial-time Turing reducible to the problem of deciding whether a given graph has any nontrivial automorphisms.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6845,18 +9067,32 @@ text = u'''
 
 = GAN-SPACE(f(n)) - Games Against Nature f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+The class of problems decidable by an O(f(n))-space Turing machine with two kinds of quantifiers: existential and randomized.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of problems decidable by an O(f(n))-space Turing machine with two kinds of quantifiers: existential and randomized.
 
 
-
-Contains [[Class_NSPACE(f(n))|$\\text{NSPACE(f(n))}$]] and [[Class_BPSPACE(f(n))|$\\text{BPSPACE(f(n))}$]], and is contained in [[Class_AUC-SPACE(f(n))|$\\text{AUC-SPACE(f(n))}$]].
+Contains NSPACE(f(n)) and BPSPACE(f(n)), and is contained in AUC-SPACE(f(n)).
 
 
 
 By linear programming, GAN-SPACE(log n) is contained in [[Class_P|$\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6884,9 +9120,19 @@ text = u'''
 
 = GC(s(n),C) - Guess and Check =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer can be verified by
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6910,6 +9156,10 @@ Umans [[ZooRefs#Uma98|[Uma98] ]] has shown that given a DNF expression Φ, the S
 
 Umans [[ZooRefs#Uma98|[Uma98] ]] has shown that given a DNF expression Φ, the Shortest Implicant problem (is there a conjunction of at most k negated or non-negated literals that implies Φ?) is GC(log^2^n, coNP)-complete.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6937,9 +9187,19 @@ text = u'''
 
 = GCSL - Growing CSL =
 
-== Comments ==
+== Description ==
 
-The class of languages generated by context-sensitive grammars in which the right-hand side of each transformation is either strictly longer than the left-hand side or the left-hand side consists of the start symbol.
+{{{#!description
+
+The class of languages generated by context-sensitive grammars in which the right-hand side of each transformation is either strictly longer than the left-hand side or the left-hand side consists of the start symbol.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -6957,6 +9217,10 @@ The class of languages generated by context-sensitive grammars in which the righ
 
 Defined in [[ZooRefs#DW86|[DW86] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -6984,17 +9248,27 @@ text = u'''
 
 = GI - Graph Isomorphism =
 
+== Description ==
+
+{{{#!description
+
+Can be defined as the class of problems polynomial-time Turing reducible to the Graph Isomorphism problem.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Can be defined as the class of problems polynomial-time Turing reducible to the Graph Isomorphism problem.
+
+
+Contains [[Class_GA|$\\text{GA}$]] and is contained in [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]].
 
 
 
-Contains [[Class_GA|$\\text{GA}$]] and is contained in [[Class_Δ2P|$\\text{Δ2P}$]].
-
-
-
-The Graph Isomorphism problem itself (as opposed to the set of problems Turing reducible to Graph Isomorphism) is contained in [[Class_NP|$\\text{NP}$]] as well as [[Class_coAM|$\\text{coAM}$]] (and indeed SZK).  So in particular, if Graph Isomorphism is NP-complete, then [[Class_PH|$\\text{PH}$]] collapses.
+The Graph Isomorphism problem itself (as opposed to the set of problems Turing reducible to Graph Isomorphism) is contained in [[Class_NP|$\\text{NP}$]] as well as [[Class_coAM|$\\text{coAM}$]] (and indeed [[Class_SZK|$\\text{SZK}$]]).  So in particular, if Graph Isomorphism is NP-complete, then [[Class_PH|$\\text{PH}$]] collapses.
 
 
 
@@ -7006,8 +9280,12 @@ Can be defined as the class of problems polynomial-time Turing reducible to the 
 
 
 
-The [[Class_GI|$\\text{GI}$]] problem itself (as opposed to the set of problems Turing reducible to GI) is contained in [[Class_NP|$\\text{NP}$]] as well as [[Class_coAM|$\\text{coAM}$]] (and indeed SZK).  So in particular, if graph isomorphism is NP-complete, then [[Class_PH|$\\text{PH}$]] collapses.
+The [[Class_GI|$\\text{GI}$]] problem itself (as opposed to the set of problems Turing reducible to [[Class_GI|$\\text{GI}$]]) is contained in [[Class_NP|$\\text{NP}$]] as well as [[Class_coAM|$\\text{coAM}$]] (and indeed [[Class_SZK|$\\text{SZK}$]]).  So in particular, if graph isomorphism is NP-complete, then [[Class_PH|$\\text{PH}$]] collapses.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7035,9 +9313,19 @@ text = u'''
 
 = GLO - Guaranteed Local Optima =
 
-== Comments ==
+== Description ==
 
-The class of [[Class_NPO|$\\text{NPO}$]] problems which have the property that for all locally optimal solutions, the ratio between the values of the local and global optima is upper-bounded by a constant.
+{{{#!description
+
+The class of [[Class_NPO|$\\text{NPO}$]] problems which have the property that for all locally optimal solutions, the ratio between the values of the local and global optima is upper-bounded by a constant.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7047,6 +9335,10 @@ Defined in [[ZooRefs#AP95|[AP95] ]], where it was also shown that [[Class_GLO|$\
 
 [[ZooRefs#KMS+99|[KMS+99] ]] showed that [[Class_MaxSNP|$\\text{MaxSNP}$]] is not contained in [[Class_GLO|$\\text{GLO}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7074,14 +9366,28 @@ text = u'''
 
 = GPCD(r(n),q(n)) - Generalized Probabilistically Checkable Debate =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_PCD(r(n),q(n))|$\\text{PCD(r(n),q(n))}$]], except that now the verifier is allowed nonadaptively to query O(q(n)) rounds of the debate, with no restriction on the number of bits it looks at within each round.
+{{{#!description
+
+Same as PCD(r(n),q(n)), except that now the verifier is allowed nonadaptively to query O(q(n)) rounds of the debate, with no restriction on the number of bits it looks at within each round.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#CFL+93|[CFL+93] ]], who also showed that PCD(log n, q(n)) = GPCD(log n, q(n)) for every q(n).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7109,9 +9415,19 @@ text = u'''
 
 = G[t] - Stratification of Fixed-Parameter Tractable Problems =
 
-== Comments ==
+== Description ==
 
-(Basically) the class of decision problems of the form (x,k) (k a parameter), that are solvable by a parameterized family of circuits with unbounded fanin and depth t.  A uniformity condition may also be imposed.
+{{{#!description
+
+(Basically) the class of decision problems of the form (x,k) (k a parameter), that are solvable by a parameterized family of circuits with unbounded fanin and depth t.  A uniformity condition may also be imposed.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7121,6 +9437,10 @@ Defined in [[ZooRefs#DF99|[DF99] ]], which should be consulted for the full defi
 
 Uniform G[P] (i.e. with no restriction on depth) is equal to [[Class_FPT|$\\text{FPT}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7148,14 +9468,28 @@ text = u'''
 
 = GapAC^0^ - Gap #AC0 =
 
+== Description ==
+
+{{{#!description
+
+The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from [[Class_SharpAC0|$\\text{#AC}^\\text{0}\\text{}$]] is the ability to subtract, using the constant -1.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of functions from {0,1}^n^ to integers computable by constant-depth, polynomial-size arithmetic circuits with addition and multiplication gates and the constants 0, 1, and -1.  (The only difference from [[Class_SharpAC0|$\\text{#AC0}$]] is the ability to subtract, using the constant -1.)
 
 
-
-Equals [[Class_DiffAC0|$\\text{DiffAC0}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_DiffAC0|$\\text{DiffAC}^\\text{0}\\text{}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7183,10 +9517,26 @@ text = u'''
 
 = GapL - Gap Logarithmic-Space =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_GapP|$\\text{GapP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_GapP|$\\text{GapP}$]] does to [[Class_P|$\\text{P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7214,9 +9564,19 @@ text = u'''
 
 = GapP - Gap Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of functions f(x) such that for some [[Class_NP|$\\text{NP}$]] machine, f(x) is the number of accepting paths minus the number of rejecting paths.
+{{{#!description
+
+The class of functions f(x) such that for some [[Class_NP|$\\text{NP}$]] machine, f(x) is the number of accepting paths minus the number of rejecting paths.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7226,6 +9586,10 @@ Equivalently, the closure of the [[Class_SharpP|$\\text{#P}$]] functions under s
 
 Defined in [[ZooRefs#FFK94|[FFK94] ]] and independently [[ZooRefs#Gup95|[Gup95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7253,9 +9617,19 @@ text = u'''
 
 = HO - High-Order logic =
 
-== Comments ==
+== Description ==
 
-High order logic is an extension of Second order, First order where we add quantification over higher order variables.
+{{{#!description
+
+High order logic is an extension of Second order, First order where we add quantification over higher order variables.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7269,6 +9643,10 @@ is the set of formulae with quantification up to order O. (resp. ) is defined as
 
 This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that  where  is the th level of the polynomial hierarchy.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7296,14 +9674,28 @@ text = u'''
 
 = HVSZK - Honest-Verifier SZK =
 
-== Comments ==
+== Description ==
 
-The class of decision problems that have [[Class_SZK|$\\text{SZK}$]] protocols assuming an honest verifier (i.e. one who doesn't try to learn more about the problem by deviating from the protocol).
+{{{#!description
+
+The class of decision problems that have [[Class_SZK|$\\text{SZK}$]] protocols assuming an honest verifier (i.e. one who doesn't try to learn more about the problem by deviating from the protocol).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_SZK|$\\text{SZK}$]] [[ZooRefs#Oka96|[Oka96] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7331,9 +9723,19 @@ text = u'''
 
 = HalfP - RP With Exactly Half Acceptance =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7347,12 +9749,16 @@ Significantly, the number of candidate witnesses is restricted to be a power of 
 
 
 
-Contained in [[Class_RP|$\\text{RP}$]], [[Class_EP|$\\text{EP}$]], and [[Class_ModkP|$\\text{ModkP}$]] for every odd k.  Contained in [[Class_EQP|$\\text{EQP}$]] by the Deutsch-Jozsa algorithm.
+Contained in [[Class_RP|$\\text{RP}$]], [[Class_EP|$\\text{EP}$]], and [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]] for every odd k.  Contained in [[Class_EQP|$\\text{EQP}$]] by the Deutsch-Jozsa algorithm.
 
 
 
 Defined in [[ZooRefs#BB92|[BB92] ]], where it was called C,,==,,P[half].  The name used here is from [[ZooRefs#BS00|[BS00] ]].  There it was shown that [[Class_HalfP|$\\text{HalfP}$]] is contained in every similar class in which 1/2 is replaced by some other dyadic fraction.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7380,14 +9786,28 @@ text = u'''
 
 = HeurBPP - Heuristic BPP =
 
-== Comments ==
+== Description ==
 
-The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPP|$\\text{BPP}$]] machine.
+{{{#!description
+
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPP|$\\text{BPP}$]] machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 [[ZooRefs#FS04|[FS04] ]] showed a strict hierarchy theorem for [[Class_HeurBPP|$\\text{HeurBPP}$]]; thus, [[Class_HeurBPP|$\\text{HeurBPP}$]] does not equal HeurBPTIME(n^c^) for any fixed c.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7415,9 +9835,19 @@ text = u'''
 
 = HeurBPTIME(f(n)) - Heuristic BPTIME(f(n)) =
 
-== Comments ==
+== Description ==
 
-The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPTIME(f(n))|$\\text{BPTIME(f(n))}$]] machine. Thus, [[Class_HeurBPTIME(f(n))|$\\text{HeurBPTIME(f(n))}$]] has the same relationship with BPTIME as HeurDTIME.
+{{{#!description
+
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPTIME(f(n)) machine. Thus, HeurBPTIME(f(n)) has the same relationship with BPTIME as HeurDTIME.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7425,8 +9855,12 @@ Thus [[Class_HeurBPP|$\\text{HeurBPP}$]] is the union of HeurBPTIME(n^c^) over a
 
 
 
-The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPTIME(f(n))|$\\text{BPTIME(f(n))}$]] machine.
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a BPTIME(f(n)) machine.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7454,10 +9888,26 @@ text = u'''
 
 = HeurDTIME,,,,(f(n)) - Heuristic DTIME =
 
+== Description ==
+
+{{{#!description
+
+For functions  and , we say that tuple , where  is a language and  is a distribution of problem instances, if there exists a heuristic deterministic algorithm  such that for all  in the support of ,  runs in time bounded by  and with failure probability bounded by  [[ZooRefs#BT06|[BT06] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-For functions  and , we say that tuple , where  is a language and  is a distribution of problem instances, if there exists a heuristic deterministic algorithm  such that for all  in the support of ,  runs in time bounded by  and with failure probability bounded by  [[ZooRefs#BT06|[BT06] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7485,14 +9935,28 @@ text = u'''
 
 = HeurNTIME,,,, - Heuristic NTIME =
 
+== Description ==
+
+{{{#!description
+
+Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Defined as Heur,,,,DTIME, but for non-deterministic heuristic algorithms.
 
 
-
-[[Class_NP|$\\text{NP}$]] is not contained in HeurNTIME,,,,() for any constants  [[ZooRefs#Per07|[Per07] ]].
+[[Class_NP|$\\text{NP}$]] is not contained in [[Class_HeurNTIME|$\\text{HeurNTIME}_\\text{}\\text{}$]]() for any constants  [[ZooRefs#Per07|[Per07] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7520,9 +9984,19 @@ text = u'''
 
 = HeurP - Heuristic P =
 
-== Comments ==
+== Description ==
 
-The class of distributional problems solvable by a [[Class_P|$\\text{P}$]] machine. Defined in [[ZooRefs#Imp95|[Imp95] ]], though he calls the class HP.
+{{{#!description
+
+The class of distributional problems solvable by a [[Class_P|$\\text{P}$]] machine. Defined in [[ZooRefs#Imp95|[Imp95] ]], though he calls the class HP.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7534,6 +10008,10 @@ For every , for every  in the support of , and for every ,  runs in time bounded
 
  For every ,  is a heuristic algorithm for  whose error probability is bounded by .
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7561,10 +10039,26 @@ text = u'''
 
 = HeurPP - Heuristic PP =
 
+== Description ==
+
+{{{#!description
+
+The class of distributional problems solvable by a [[Class_PP|$\\text{PP}$]] machine. Defined in [[ZooRefs#Ill95|[Ill95] ]], though he calls the class HPP.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of distributional problems solvable by a [[Class_PP|$\\text{PP}$]] machine. Defined in [[ZooRefs#Ill95|[Ill95] ]], though he calls the class HPP.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7592,9 +10086,19 @@ text = u'''
 
 = H,,k,,P - High Hierarchy In NP =
 
-== Comments ==
+== Description ==
 
-The class of problems A in [[Class_NP|$\\text{NP}$]] such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.
+{{{#!description
+
+The class of problems A in [[Class_NP|$\\text{NP}$]] such that Σ,,k,,P^A^ = Σ,,k+1,,P; that is, adding A as an oracle increases the power of the k^th^ level of the polynomial hierarchy by a maximum amount.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7614,8 +10118,12 @@ Defined in [[ZooRefs#Sch83|[Sch83] ]].
 
 
 
-See also [[Class_LkP|$\\text{LkP}$]].
+See also [[Class_LkP|$\\text{L}_\\text{k}\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7643,9 +10151,19 @@ text = u'''
 
 = IC[log,poly] - Logarithmic Instance Complexity, Polynomial Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that, for every n-bit string x, there exists a program A of size O(log n) that, given x as input, "correctly decides" the answer on x in time polynomial in n.  This means:
+{{{#!description
+
+The class of decision problems such that, for every n-bit string x, there exists a program A of size O(log n) that, given x as input, "correctly decides" the answer on x in time polynomial in n.  This means:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7667,6 +10185,10 @@ If [[Class_NP|$\\text{NP}$]] is contained in [[Class_IC[log,poly]|$\\text{IC[log
 
 Strictly contains [[Class_P/log|$\\text{P/log}$]], and is strictly contained in [[Class_P/poly|$\\text{P/poly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7694,9 +10216,19 @@ text = u'''
 
 = IP - Interactive Proof =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a probabilistic polynomial-time verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a probabilistic polynomial-time verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7706,7 +10238,7 @@ If the answer is "no," then however the prover behaves the verifier must reject 
 
 
 
-Defined in [[ZooRefs#GMR89|[GMR89] ]], with the motivation of providing a framework for the introduction of zero-knowledge proofs (see the class ZK). Interestingly, the power of general interactive proof systems is not decreased if the verifier is only allowed random queries (i.e., it merely tosses coins and sends any outcome to the prover). The latter model, known as the Arthur-Merlin (or public-coin) model was introduced independently (but later) in [[ZooRefs#Bab85|[Bab85] ]], and a strong equivalent (which preserves the number of rounds) is proved in [[ZooRefs#GS86|[GS86] ]]. 
+Defined in [[ZooRefs#GMR89|[GMR89] ]], with the motivation of providing a framework for the introduction of zero-knowledge proofs (see the class [[Class_ZK|$\\text{ZK}$]]). Interestingly, the power of general interactive proof systems is not decreased if the verifier is only allowed random queries (i.e., it merely tosses coins and sends any outcome to the prover). The latter model, known as the Arthur-Merlin (or public-coin) model was introduced independently (but later) in [[ZooRefs#Bab85|[Bab85] ]], and a strong equivalent (which preserves the number of rounds) is proved in [[ZooRefs#GS86|[GS86] ]]. 
 
 Often, it is required that the prover can convince the verifier to accept correct assertions with probability 1; this is called perfect completeness.
 
@@ -7714,7 +10246,7 @@ However, the definitions with one-sided and two-sided error can be shown to be e
 
 
 
-First demonstration to the power of interactive proofs was given by showing that for graph nonisomorphism (a problem not known in NP) has such proofs [[ZooRefs#GMW91|[GMW91] ]]. Five years later is was shown that
+First demonstration to the power of interactive proofs was given by showing that for graph nonisomorphism (a problem not known in [[Class_NP|$\\text{NP}$]]) has such proofs [[ZooRefs#GMW91|[GMW91] ]]. Five years later is was shown that
 
 [[Class_IP|$\\text{IP}$]] contains [[Class_PH|$\\text{PH}$]] [[ZooRefs#LFK+90|[LFK+90] ]], and indeed (this was discovered only a few weeks later) equals [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Sha90|[Sha90] ]].  On the other hand, [[Class_coNP|$\\text{coNP}$]] is not contained in [[Class_IP|$\\text{IP}$]] relative to a random oracle [[ZooRefs#CCG+94|[CCG+94] ]].
 
@@ -7734,6 +10266,10 @@ The class of decision problems for which a "yes" answer can be verified by an in
 
 See also: [[Class_MIP|$\\text{MIP}$]], [[Class_QIP|$\\text{QIP}$]], [[Class_MA|$\\text{MA}$]], [[Class_AM|$\\text{AM}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7761,9 +10297,19 @@ text = u'''
 
 = IPP - Unbounded IP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_IP|$\\text{IP}$]], except that if the answer is "yes," there need only be a prover strategy that causes the verifier to accept with probability greater than 1/2, while if the answer is "no," then for all prover strategies the verifier accepts with probability less than 1/2.
+{{{#!description
+
+Same as [[Class_IP|$\\text{IP}$]], except that if the answer is "yes," there need only be a prover strategy that causes the verifier to accept with probability greater than 1/2, while if the answer is "no," then for all prover strategies the verifier accepts with probability less than 1/2.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7773,6 +10319,10 @@ Defined in [[ZooRefs#CCG+94|[CCG+94] ]], where it was also shown that [[Class_IP
 
 See also: [[Class_PPSPACE|$\\text{PPSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7800,10 +10350,26 @@ text = u'''
 
 = IP[polylog] - Alternate Name for AM[polylog] =
 
+== Description ==
+
+{{{#!description
+
+Alternate name for [[Class_AM[polylog]|$\\text{AM[polylog]}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Alternate name for [[Class_AM[polylog]|$\\text{AM[polylog]}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7831,14 +10397,28 @@ text = u'''
 
 = K - Feasibly recursive functions =
 
-== Comments ==
+== Description ==
 
-A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [[ZooRefs#Con73|[Con73] ]], who mistakenly claimed it coincides with [[Class_FP|$\\text{FP}$]].
+{{{#!description
+
+A class of number-theoretic functions, defined as the closure of basic integer arithmetic operations (, as well as constants 0, 1, and projections) under composition and polynomially long sums and products. Defined by [[ZooRefs#Con73|[Con73] ]], who mistakenly claimed it coincides with [[Class_FP|$\\text{FP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals U,,D,,-uniform FTC^0^ by [[ZooRefs#Hes01|[Hes01] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7866,13 +10446,23 @@ text = u'''
 
 = L - Logarithmic Space =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a Turing machine restricted to use an amount of memory logarithmic in the size of the input, n.  (The input itself is not counted as part of the memory.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable by a Turing machine restricted to use an amount of memory logarithmic in the size of the input, n.  (The input itself is not counted as part of the memory.)
 
 
-
-[[Class_L|$\\text{L}$]] is contained in [[Class_P|$\\text{P}$]].  [[Class_L|$\\text{L}$]] contains [[Class_NC1|$\\text{NC1}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\\text{NL}$]], [[Class_L/poly|$\\text{L/poly}$]], [[Class_SL|$\\text{SL}$]], [[Class_RL|$\\text{RL}$]], [[Class_⊕L|$\\text{⊕L}$]], and [[Class_ModkL|$\\text{ModkL}$]].
+[[Class_L|$\\text{L}$]] is contained in [[Class_P|$\\text{P}$]].  [[Class_L|$\\text{L}$]] contains [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\\text{NL}$]], [[Class_L/poly|$\\text{L/poly}$]], [[Class_SL|$\\text{SL}$]], [[Class_RL|$\\text{RL}$]], [[Class_⊕L|$\\text{⊕L}$]], and [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]].
 
 
 
@@ -7888,8 +10478,12 @@ Immerman [[ZooRefs#Imm83|[Imm83] ]] showed that [[Class_L|$\\text{L}$]] is the c
 
 
 
-[[Class_L|$\\text{L}$]] contains [[Class_NC1|$\\text{NC1}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\\text{NL}$]], [[Class_L/poly|$\\text{L/poly}$]], [[Class_SL|$\\text{SL}$]], [[Class_RL|$\\text{RL}$]], [[Class_⊕L|$\\text{⊕L}$]], and [[Class_ModkL|$\\text{ModkL}$]].
+[[Class_L|$\\text{L}$]] contains [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] [[ZooRefs#Bor77|[Bor77] ]], and is contained in generalizations including [[Class_NL|$\\text{NL}$]], [[Class_L/poly|$\\text{L/poly}$]], [[Class_SL|$\\text{SL}$]], [[Class_RL|$\\text{RL}$]], [[Class_⊕L|$\\text{⊕L}$]], and [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7917,9 +10511,19 @@ text = u'''
 
 = L/poly - Nonuniform Logarithmic Space =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -7929,6 +10533,10 @@ Equals [[Class_PBP|$\\text{PBP}$]] [[ZooRefs#Cob66|[Cob66] ]].
 
 Contains [[Class_SL|$\\text{SL}$]] [[ZooRefs#AKL+79|[AKL+79] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7956,14 +10564,28 @@ text = u'''
 
 = LC^0^ - Unbounded Fanin Linear Size Constant-Depth Circuits =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a nonuniform family of Boolean circuits, with linear size, constant depth and unbounded fanin.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable by a nonuniform family of Boolean circuits, with linear size, constant depth and unbounded fanin.
 
 
-
-It is equivalent to [[Class_AC0|$\\text{AC0}$]] with bounded fanout and it is properly contained in [[Class_AC0|$\\text{AC0}$]] [[ZooRefs#CR96|[CR96] ]].
+It is equivalent to [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] with bounded fanout and it is properly contained in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] [[ZooRefs#CR96|[CR96] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -7991,14 +10613,28 @@ text = u'''
 
 = LH - Logarithmic Time Hierarchy =
 
+== Description ==
+
+{{{#!description
+
+A Turing machine with random access owns a special tape where it can write a binary number , and it can query the value of the th bit of the input. Hence any bit of the input can be read in only logtime.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-A Turing machine with random access owns a special tape where it can write a binary number , and it can query the value of the th bit of the input. Hence any bit of the input can be read in only logtime.
 
 
-
-The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. [[Class_LH|$\\text{LH}$]] is the union of all levels and is equal to tothe class [[Class_AC0|$\\text{AC0}$]] and to [[Class_FO|$\\text{FO}$]] Descriptive complexity.
+The th level of the Logarithmic Time Hierarchy is the set of languages recognised by alternating Turing machine in logtime with random access and  alternation, begining with existantial state. [[Class_LH|$\\text{LH}$]] is the union of all levels and is equal to tothe class [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] and to [[Class_FO|$\\text{FO}$]] Descriptive complexity.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8026,9 +10662,19 @@ text = u'''
 
 = LIN - Linear Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a deterministic Turing machine in linear time.
+{{{#!description
+
+The class of decision problems solvable by a deterministic Turing machine in linear time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8038,6 +10684,10 @@ Strictly Contained in [[Class_NLIN|$\\text{NLIN}$]]. [[ZooRefs#PPS+83|[PPS+83] ]
 
 Contained in [[Class_NLIN|$\\text{NLIN}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8065,13 +10715,23 @@ text = u'''
 
 = LOGCFL - Logarithmically Reducible to CFL =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems reducible in [[Class_L|$\\text{L}$]] to the problem of deciding membership in a context-free language.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems reducible in [[Class_L|$\\text{L}$]] to the problem of deciding membership in a context-free language.
 
 
-
-Equivalently, [[Class_LOGCFL|$\\text{LOGCFL}$]] is the class of decision problems solvable by a uniform family of [[Class_AC1|$\\text{AC1}$]] circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [[ZooRefs#Joh90|[Joh90] ]], p. 137).
+Equivalently, [[Class_LOGCFL|$\\text{LOGCFL}$]] is the class of decision problems solvable by a uniform family of [[Class_AC1|$\\text{AC}^\\text{1}\\text{}$]] circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [[ZooRefs#Joh90|[Joh90] ]], p. 137).
 
 
 
@@ -8081,6 +10741,10 @@ Equivalently, [[Class_LOGCFL|$\\text{LOGCFL}$]] is the class of decision problem
 
 Contains [[Class_NL|$\\text{NL}$]] [[ZooRefs#Sud78|[Sud78] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8108,9 +10772,19 @@ text = u'''
 
 = LOGLOG - loglog Space =
 
-== Comments ==
+== Description ==
 
-There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [[ZooRefs#Szep94|[Szep94] ]] and [[ZooRefs#LiRe93|[LiRe93] ]]. The alternation hierarchy for this class is infinite ([[ZooRefs#BGR93|[BGR93] ]]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([[ZooRefs#Geff91|[Geff91] ]]).
+{{{#!description
+
+There are several possible definitions of this class; the most common is the class of languages which can be computed in space O(log log n) by a deterministic Turing machine with two-way access to the input. A typical nonregular language in this class has a form such as 00..00a00..01b00..10b00..11a..., with the successive numbers having logarithmic length. It is the smallest of a collection of sublogarithmically bounded space classes, since any smaller space class contains only the regular languages. These and related classes are studied extensively in [[ZooRefs#Szep94|[Szep94] ]] and [[ZooRefs#LiRe93|[LiRe93] ]]. The alternation hierarchy for this class is infinite ([[ZooRefs#BGR93|[BGR93] ]]), and the  and  levels are incomparable unless ; however, the nondeterministic version of the class is closed under complement ([[ZooRefs#Geff91|[Geff91] ]]).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8124,6 +10798,10 @@ Note that while there are no decision problems that can be tested in one-way log
 
 Obviously contained in [[Class_L|$\\text{L}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8151,9 +10829,19 @@ text = u'''
 
 = LOGNP - Logarithmically-Restricted NP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems expressible in logical form as
+{{{#!description
+
+The class of decision problems expressible in logical form as}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8184,6 +10872,10 @@ Contains [[Class_LOGSNP|$\\text{LOGSNP}$]], and is contained in [[Class_βP|$\\t
 The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists y such that for all j, the predicate φ(I,s,,j,,,x,y,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in [[Class_P|$\\text{P}$]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -8210,9 +10902,19 @@ text = u'''
 
 = LOGSNP - Logarithmically-Restricted SNP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems expressible in logical form as
+{{{#!description
+
+The class of decision problems expressible in logical form as}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8232,12 +10934,16 @@ Contained in [[Class_LOGNP|$\\text{LOGNP}$]], and therefore [[Class_QPLIN|$\\tex
 
 
 
-If [[Class_P|$\\text{P}$]] = [[Class_LOGSNP|$\\text{LOGSNP}$]], then for every constructible f(n) > n, [[Class_NTIME(f(n))|$\\text{NTIME(f(n))}$]] is contained in DTIME(g(n)^sqrt(g(n))^), where g(n) = O(f(n) logf(n)) [[ZooRefs#FK97|[FK97] ]].
+If [[Class_P|$\\text{P}$]] = [[Class_LOGSNP|$\\text{LOGSNP}$]], then for every constructible f(n) > n, NTIME(f(n)) is contained in DTIME(g(n)^sqrt(g(n))^), where g(n) = O(f(n) logf(n)) [[ZooRefs#FK97|[FK97] ]].
 
 
 
 The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists j such that the predicate φ(I,s,,j,,,x,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in [[Class_P|$\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8265,19 +10971,29 @@ text = u'''
 
 = LWPP - Length-Dependent Wide PP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
 
-If the answer is "yes," then the difference of these numbers equals a function f(|x|) computable in polynomial time (i.e. FP).  Here |x| is the length of the input x, and ``polynomial time means polynomial in |x|, the length of x, rather than the length of |x|.
+If the answer is "yes," then the difference of these numbers equals a function f(|x|) computable in polynomial time (i.e. [[Class_FP|$\\text{FP}$]]).  Here |x| is the length of the input x, and ``polynomial time means polynomial in |x|, the length of x, rather than the length of |x|.
 
 
 
-Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_LWPP|$\\text{LWPP}$]] is low for [[Class_PP|$\\text{PP}$]] and [[Class_C=P|$\\text{C=P}$]].  (I.e. adding [[Class_LWPP|$\\text{LWPP}$]] as an oracle does not increase the power of these classes.)
+Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_LWPP|$\\text{LWPP}$]] is low for [[Class_PP|$\\text{PP}$]] and [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]].  (I.e. adding [[Class_LWPP|$\\text{LWPP}$]] as an oracle does not increase the power of these classes.)
 
 
 
@@ -8299,6 +11015,10 @@ Contains a whole litter of problems for solvable black-box groups: group interse
 
 Contains a whole litter of problems for solvable black-box groups: group intersection, group factorization, coset intersection, and double-coset membership [[ZooRefs#Vin04|[Vin04] ]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8326,9 +11046,19 @@ text = u'''
 
 = L,,k,,P - Low Hierarchy In NP =
 
-== Comments ==
+== Description ==
 
-The class of problems A such that Σ,,k,,P^A^ = Σ,,k,,P; that is, adding A as an oracle does not increase the power of the k^th^ level of the polynomial hierarchy.
+{{{#!description
+
+The class of problems A such that Σ,,k,,P^A^ = Σ,,k,,P; that is, adding A as an oracle does not increase the power of the k^th^ level of the polynomial hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8344,8 +11074,12 @@ Defined in [[ZooRefs#Sch83|[Sch83] ]].
 
 
 
-See also [[Class_HkP|$\\text{HkP}$]].
+See also [[Class_HkP|$\\text{H}_\\text{k}\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8373,9 +11107,19 @@ text = u'''
 
 = LogFew - Logspace-Bounded Few =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NL|$\\text{NL}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NL|$\\text{NL}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8385,8 +11129,12 @@ The answer is 'yes' if and only if R(x,f(x))=1, where [[Class_R|$\\text{R}$]] is
 
 
 
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFew|$\\text{LogFew}$]] is contained in [[Class_ModkL|$\\text{ModkL}$]] for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFew|$\\text{LogFew}$]] is contained in [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]] for all k>1.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8414,14 +11162,28 @@ text = u'''
 
 = LogFewNL - Logspace-Bounded FewP =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_FewP|$\\text{FewP}$]] but for logspace-bounded (i.e. [[Class_NL|$\\text{NL}$]]) machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_FewP|$\\text{FewP}$]] but for logspace-bounded (i.e. NL) machines.
 
 
-
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFewNL|$\\text{LogFewNL}$]] is contained in [[Class_ModZkL|$\\text{ModZkL}$]] for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFewNL|$\\text{LogFewNL}$]] is contained in [[Class_ModZkL|$\\text{ModZ}_\\text{k}\\text{L}$]] for all k>1.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8449,9 +11211,19 @@ text = u'''
 
 = MA - Merlin-Arthur =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a Merlin-Arthur protocol, which goes as follows.  Merlin, who has unbounded computational resources, sends Arthur a polynomial-size purported proof that the answer to the problem is "yes."  Arthur must verify the proof in [[Class_BPP|$\\text{BPP}$]] (i.e. probabilistic polynomial-time), so that
+{{{#!description
+
+The class of decision problems solvable by a Merlin-Arthur protocol, which goes as follows.  Merlin, who has unbounded computational resources, sends Arthur a polynomial-size purported proof that the answer to the problem is "yes."  Arthur must verify the proof in [[Class_BPP|$\\text{BPP}$]] (i.e. probabilistic polynomial-time), so that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8467,11 +11239,11 @@ An alternative definition requires that if the answer is "yes," then there exist
 
 Contains [[Class_NP|$\\text{NP}$]] and [[Class_BPP|$\\text{BPP}$]] 
 
-(in fact also ∃BPP), and is contained in [[Class_AM|$\\text{AM}$]] and in [[Class_QMA|$\\text{QMA}$]].
+(in fact also [[Class_∃BPP|$\\text{∃BPP}$]]), and is contained in [[Class_AM|$\\text{AM}$]] and in [[Class_QMA|$\\text{QMA}$]].
 
 
 
-Also contained in [[Class_Σ2P|$\\text{Σ2P}$]] ∩ [[Class_Π2P|$\\text{Π2P}$]].
+Also contained in [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] ∩ [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]].
 
 
 
@@ -8487,7 +11259,7 @@ Shown in [[ZooRefs#San07|[San07] ]] that MA/1 does not have circuits of size  fo
 
 
 
-See also: [[Class_MAE|$\\text{MAE}$]], [[Class_MAEXP|$\\text{MAEXP}$]].
+See also: [[Class_MAE|$\\text{MA}_\\text{E}\\text{}$]], [[Class_MAEXP|$\\text{MA}_\\text{EXP}\\text{}$]].
 
 
 
@@ -8501,6 +11273,10 @@ Contains [[Class_NP|$\\text{NP}$]] and [[Class_∃BPP|$\\text{∃BPP}$]], and is
 
 Equals [[Class_NP|$\\text{NP}$]] under a derandomization assumption.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8528,14 +11304,28 @@ text = u'''
 
 = MA' - Sparse MA =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_MA|$\\text{MA}$]] such that for each input size n, there is a sparse set S,,n,, that Merlin's proof string always belongs to (no matter what the input is).
+{{{#!description
+
+The subclass of [[Class_MA|$\\text{MA}$]] such that for each input size n, there is a sparse set S,,n,, that Merlin's proof string always belongs to (no matter what the input is).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#KST93|[KST93] ]], where it is also observed that if graph isomorphism is in [[Class_P/poly|$\\text{P/poly}$]], then the complement of graph isomorphism is in [[Class_MA'|$\\text{MA'}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8563,9 +11353,19 @@ text = u'''
 
 = MAC^0^ - Majority of AC0 =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_AC0|$\\text{AC0}$]], except now we're allowed a single unbounded-fanin majority gate at the root.
+{{{#!description
+
+Same as [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], except now we're allowed a single unbounded-fanin majority gate at the root.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8573,8 +11373,12 @@ Defined in [[ZooRefs#JKS02|[JKS02] ]].
 
 
 
-[[Class_MAC0|$\\text{MAC0}$]] is strictly contained in [[Class_TC0|$\\text{TC0}$]] [[ZooRefs#ABF+94|[ABF+94] ]].
+[[Class_MAC0|$\\text{MAC}^\\text{0}\\text{}$]] is strictly contained in [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] [[ZooRefs#ABF+94|[ABF+94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8602,14 +11406,28 @@ text = u'''
 
 = MA,,E,, - Exponential-Time MA With Linear Exponent =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_MA|$\\text{MA}$]], except now Arthur is [[Class_E|$\\text{E}$]] instead of polynomial-time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_MA|$\\text{MA}$]], except now Arthur is [[Class_E|$\\text{E}$]] instead of polynomial-time.
 
 
-
-If [[Class_MAE|$\\text{MAE}$]] = [[Class_NEE|$\\text{NEE}$]] then [[Class_MA|$\\text{MA}$]] = [[Class_NEXP|$\\text{NEXP}$]] ∩ [[Class_coNEXP|$\\text{coNEXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
+If [[Class_MAE|$\\text{MA}_\\text{E}\\text{}$]] = [[Class_NEE|$\\text{NEE}$]] then [[Class_MA|$\\text{MA}$]] = [[Class_NEXP|$\\text{NEXP}$]] ∩ [[Class_coNEXP|$\\text{coNEXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8637,18 +11455,32 @@ text = u'''
 
 = MA,,EXP,, - Exponential-Time MA =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_MA|$\\text{MA}$]], except now Arthur is [[Class_EXP|$\\text{EXP}$]] instead of polynomial-time, and the message from Merlin can be exponentially long.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_MA|$\\text{MA}$]], except now Arthur is [[Class_EXP|$\\text{EXP}$]] instead of polynomial-time, and the message from Merlin can be exponentially long.
+
+
+There is a problem in [[Class_MAEXP|$\\text{MA}_\\text{EXP}\\text{}$]] that does not have polynomial-size circuits [[ZooRefs#BFT98|[BFT98] ]].  On the other hand, there is an oracle relative to which every problem in [[Class_MAEXP|$\\text{MA}_\\text{EXP}\\text{}$]] does have polynomial-size circuits.
 
 
 
-There is a problem in [[Class_MAEXP|$\\text{MAEXP}$]] that does not have polynomial-size circuits [[ZooRefs#BFT98|[BFT98] ]].  On the other hand, there is an oracle relative to which every problem in [[Class_MAEXP|$\\text{MAEXP}$]] does have polynomial-size circuits.
-
-
-
-[[ZooRefs#MVW99|[MVW99] ]] considered the best circuit lower bound obtainable for a problem in [[Class_MAEXP|$\\text{MAEXP}$]], using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
+[[ZooRefs#MVW99|[MVW99] ]] considered the best circuit lower bound obtainable for a problem in [[Class_MAEXP|$\\text{MA}_\\text{EXP}\\text{}$]], using current techniques.  They found that this bound is half-exponential: i.e. a function f such that f(f(n))=2^n^.  Such functions exist, but are not expressible using standard asymptotic notation.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8676,14 +11508,28 @@ text = u'''
 
 = MA,,POLYLOG,, - MA With Polylog Verifier =
 
-== Comments ==
+== Description ==
 
-Identical to [[Class_MA|$\\text{MA}$]] except for that Arthur (the verifier) has random access to the proof string given by Merlin, and is limited to running times of order .
+{{{#!description
+
+Identical to [[Class_MA|$\\text{MA}$]] except for that Arthur (the verifier) has random access to the proof string given by Merlin, and is limited to running times of order .}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 This class was used by [[ZooRefs#SM03|[SM03] ]] to show that if [[Class_EXP|$\\text{EXP}$]] has circuits of polynomial size, then [[Class_EXP|$\\text{EXP}$]] = [[Class_MA|$\\text{MA}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8711,9 +11557,19 @@ text = u'''
 
 = MIP - Multi-Prover Interactive Proof =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_IP|$\\text{IP}$]], except that now the verifier can exchange messages with many provers, not just one.  The provers cannot communicate with each other during the execution of the protocol, so the verifier can "cross-check" their assertions (as with suspects in separate interrogation rooms).
+{{{#!description
+
+Same as [[Class_IP|$\\text{IP}$]], except that now the verifier can exchange messages with many provers, not just one.  The provers cannot communicate with each other during the execution of the protocol, so the verifier can "cross-check" their assertions (as with suspects in separate interrogation rooms).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8727,6 +11583,10 @@ Let MIP[k] be the class of decision problems for which a "yes" answer can be ver
 
 [[Class_MIP|$\\text{MIP}$]] equals [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#BFL91|[BFL91] ]]; this is a famous non-relativizing result.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8754,9 +11614,19 @@ text = u'''
 
 = MIP* - MIP With Quantum Provers =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_MIP|$\\text{MIP}$]], except that the provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
+{{{#!description
+
+Same as [[Class_MIP|$\\text{MIP}$]], except that the provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8764,7 +11634,7 @@ Defined in [[ZooRefs#CHT+04|[CHT+04] ]], where evidence was given suggesting tha
 
 
 
-[[Class_MIP*|$\\text{MIP*}$]] contains [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]]. By contrast, [[Class_MIP|$\\text{MIP}$]], the corresponding class without entanglement, equals [[Class_NEXP|$\\text{NEXP}$]] (and even MIP[2,1] with two provers and one round equals NEXP).
+[[Class_MIP*|$\\text{MIP*}$]] contains [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]]. By contrast, [[Class_MIP|$\\text{MIP}$]], the corresponding class without entanglement, equals [[Class_NEXP|$\\text{NEXP}$]] (and even MIP[2,1] with two provers and one round equals [[Class_NEXP|$\\text{NEXP}$]]).
 
 
 
@@ -8778,6 +11648,10 @@ Even MIP*[4,poly] and MIP[5,1] contain [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#I
 
 In 2012 it was shown that [[Class_QMIP|$\\text{QMIP}$]] = [[Class_MIP*|$\\text{MIP*}$]] [[ZooRefs#RUV12|[RUV12] ]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8805,9 +11679,19 @@ text = u'''
 
 = MIP*[2,1] - 2-Prover, 1-Round MIP With Quantum Provers =
 
-== Comments ==
+== Description ==
 
-Same as MIP[2], except that now only one round is allowed, and the two provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.
+{{{#!description
+
+Same as MIP[2], except that now only one round is allowed, and the two provers can share arbitrarily many entangled qubits.  The verifier is classical, as are all messages between the provers and verifier.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8825,6 +11709,10 @@ It is also unknown whether increasing the number of provers or rounds changes [[
 
 Contains [[Class_XOR-MIP*[2,1]|$\\text{XOR-MIP*[2,1]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8852,9 +11740,19 @@ text = u'''
 
 = MIP,,EXP,, - Exponential-Time Multi-Prover Interactive Proof =
 
-== Comments ==
+== Description ==
 
-The exponential-time analogue of [[Class_MIP|$\\text{MIP}$]].
+{{{#!description
+
+The exponential-time analogue of [[Class_MIP|$\\text{MIP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8862,8 +11760,12 @@ In the unrelativized world, equals [[Class_NEEXP|$\\text{NEEXP}$]].
 
 
 
-There exists an oracle relative to which [[Class_MIPEXP|$\\text{MIPEXP}$]] equals the intersection of [[Class_P/poly|$\\text{P/poly}$]], [[Class_PNP|$\\text{PNP}$]], and [[Class_⊕P|$\\text{⊕P}$]] [[ZooRefs#BFT98|[BFT98] ]].
+There exists an oracle relative to which [[Class_MIPEXP|$\\text{MIP}_\\text{EXP}\\text{}$]] equals the intersection of [[Class_P/poly|$\\text{P/poly}$]], [[Class_PNP|$\\text{P}^\\text{NP}\\text{}$]], and [[Class_⊕P|$\\text{⊕P}$]] [[ZooRefs#BFT98|[BFT98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8891,14 +11793,28 @@ text = u'''
 
 = MM - Problems reducible to matrix multiplication =
 
-== Comments ==
+== Description ==
 
-The set of all problems reducible to matrix multiplication. That is, the set of problems  that can be reduced to the multiplication of two square matrices can be reduced to  in linear time.
+{{{#!description
+
+The set of all problems reducible to matrix multiplication. That is, the set of problems  that can be reduced to the multiplication of two square matrices can be reduced to  in linear time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Currently, the best known algorithm for multiplying two  matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of  [[ZooRefs#CW90|[CW90] ]]. Note that for the general problem, a lower bound of  is trivial from the number of elements being considered.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -8926,9 +11842,19 @@ text = u'''
 
 = MMSNP - Monadic Monotone SNP =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\\text{SNP}$]].  There are three syntactic restrictions defining the subclass [[Class_MMSNP|$\\text{MMSNP}$]], based on the form of the [[Class_SNP|$\\text{SNP}$]] formula defining the language:
+{{{#!description
+
+Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\\text{SNP}$]].  There are three syntactic restrictions defining the subclass [[Class_MMSNP|$\\text{MMSNP}$]], based on the form of the [[Class_SNP|$\\text{SNP}$]] formula defining the language:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -8959,6 +11885,10 @@ Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\\text{SNP}$]]
 Every constraint satisfaction problem is expressible in [[Class_MMSNP|$\\text{MMSNP}$]], and there is a polynomial time Turing reduction from every [[Class_MMSNP|$\\text{MMSNP}$]] query to finitely many constraint satisfaction problems.  [[Class_MMSNP|$\\text{MMSNP}$]] therefore seems to capture the class of constraint satisfaction problems.
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -8985,9 +11915,19 @@ text = u'''
 
 = MP - Middle-Bit P =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that for some [[Class_SharpP|$\\text{#P}$]] function f, the answer on input x is 'yes' if and only if the middle bit of f(x) is 1.
+{{{#!description
+
+The class of decision problems such that for some [[Class_SharpP|$\\text{#P}$]] function f, the answer on input x is 'yes' if and only if the middle bit of f(x) is 1.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9001,6 +11941,10 @@ Contains [[Class_AmpMP|$\\text{AmpMP}$]] and [[Class_PH|$\\text{PH}$]].
 
 [[Class_MP|$\\text{MP}$]] with [[Class_ModP|$\\text{ModP}$]] oracle equals [[Class_MP|$\\text{MP}$]] with [[Class_SharpP|$\\text{#P}$]] oracle [[ZooRefs#KT96|[KT96] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9028,9 +11972,19 @@ text = u'''
 
 = MPC - Monotone Planar Circuits =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a family of monotone stratified planar circuits (a uniformity condition may also be imposed).
+{{{#!description
+
+The class of decision problems solvable by a family of monotone stratified planar circuits (a uniformity condition may also be imposed).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9044,6 +11998,10 @@ Defined in [[ZooRefs#DC89|[DC89] ]].
 
 [[ZooRefs#BLM+99|[BLM+99] ]] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9071,9 +12029,19 @@ text = u'''
 
 = MaxNP - Maximization NP =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NP|$\\text{NP}$]] as [[Class_MaxSNP|$\\text{MaxSNP}$]] does to [[Class_SNP|$\\text{SNP}$]].
+{{{#!description
+
+Has the same relation to [[Class_NP|$\\text{NP}$]] as [[Class_MaxSNP|$\\text{MaxSNP}$]] does to [[Class_SNP|$\\text{SNP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9083,6 +12051,10 @@ Contains [[Class_MaxPB|$\\text{MaxPB}$]].
 
 The closure of [[Class_MaxNP|$\\text{MaxNP}$]] under [[Class_PTAS|$\\text{PTAS}$]] reduction is [[Class_APX|$\\text{APX}$]] [[ZooRefs#KMS+99|[KMS+99] ]], [[ZooRefs#CT94|[CT94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9110,9 +12082,19 @@ text = u'''
 
 = MaxPB - MaxNP Polynomially Bounded =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_MaxNP|$\\text{MaxNP}$]] problems for which the cost function is guaranteed always to be bounded by a polynomial.
+{{{#!description
+
+The subclass of [[Class_MaxNP|$\\text{MaxNP}$]] problems for which the cost function is guaranteed always to be bounded by a polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9126,6 +12108,10 @@ Defined in [[ZooRefs#KT94|[KT94] ]].
 
 The closure of [[Class_MaxPB|$\\text{MaxPB}$]] under [[Class_PTAS|$\\text{PTAS}$]] reductions equals [[Class_NPOPB|$\\text{NPOPB}$]] [[ZooRefs#CKS+99|[CKS+99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9153,9 +12139,19 @@ text = u'''
 
 = MaxSNP - Maximization SNP =
 
-== Comments ==
+== Description ==
 
-The class of optimization problems reducible by an "L-reduction" to a problem in [[Class_MaxSNP0|$\\text{MaxSNP0}$]].  (Note: 'L' stands for linear -- this is not the same as an [[Class_L|$\\text{L}$]] reduction!  For more details see [[ZooRefs#PY88|[PY88] ]].)
+{{{#!description
+
+The class of optimization problems reducible by an "L-reduction" to a problem in [[Class_MaxSNP0|$\\text{MaxSNP}_\\text{0}\\text{}$]].  (Note: 'L' stands for linear -- this is not the same as an [[Class_L|$\\text{L}$]] reduction!  For more details see [[ZooRefs#PY88|[PY88] ]].)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9171,6 +12167,10 @@ Any problem in [[Class_MaxSNP|$\\text{MaxSNP}$]] can be approximated to within a
 
 The closure of [[Class_MaxSNP|$\\text{MaxSNP}$]] under [[Class_PTAS|$\\text{PTAS}$]] reduction is [[Class_APX|$\\text{APX}$]] [[ZooRefs#KMS+99|[KMS+99] ]], [[ZooRefs#CT94|[CT94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9198,9 +12198,19 @@ text = u'''
 
 = MaxSNP,,0,, - Generating Class of MaxSNP =
 
-== Comments ==
+== Description ==
 
-The class of function problems expressible as "find a relation such that the set of k-tuples for which a given [[Class_SNP|$\\text{SNP}$]] predicate holds has maximum cardinality."
+{{{#!description
+
+The class of function problems expressible as "find a relation such that the set of k-tuples for which a given [[Class_SNP|$\\text{SNP}$]] predicate holds has maximum cardinality."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9214,6 +12224,10 @@ Given a graph G, find a subset S of vertices that maximizes the number of pairs 
 
 Defined in [[ZooRefs#PY88|[PY88] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9241,10 +12255,26 @@ text = u'''
 
 = MinPB - MinNP Polynomially Bounded =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_MaxPB|$\\text{MaxPB}$]] but for minimization instead of maximization problems.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_MaxPB|$\\text{MaxPB}$]] but for minimization instead of maximization problems.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9272,9 +12302,19 @@ text = u'''
 
 = ModL - ModL =
 
-== Comments ==
+== Description ==
 
-A language  if there are functions  and  such that for all strings :
+{{{#!description
+
+A language  if there are functions  and  such that for all strings :}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9290,6 +12330,10 @@ Thus, for any prime  and natural number , . Moreover, FL^ModL^ = FL^GapL^ [[ZooR
 
 Defined in [[ZooRefs#AV04|[AV04] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9317,14 +12361,28 @@ text = u'''
 
 = ModP - ModkP With Arbitrary k =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a [[Class_ModkP|$\\text{ModkP}$]] machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.
+{{{#!description
+
+The class of decision problems solvable by a [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]] machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#KT96|[KT96] ]], where it was also shown that [[Class_ModP|$\\text{ModP}$]] is contained in [[Class_AmpMP|$\\text{AmpMP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9352,9 +12410,19 @@ text = u'''
 
 = ModZ,,k,,L - Restricted ModkL =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a nondeterministic logspace Turing machine, such that
+{{{#!description
+
+The class of decision problems solvable by a nondeterministic logspace Turing machine, such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9364,12 +12432,16 @@ If the answer is "no," then there are no accepting paths.
 
 
 
-Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_ModZkL|$\\text{ModZkL}$]] contains [[Class_LogFewNL|$\\text{LogFewNL}$]] for all k>1.
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_ModZkL|$\\text{ModZ}_\\text{k}\\text{L}$]] contains [[Class_LogFewNL|$\\text{LogFewNL}$]] for all k>1.
 
 
 
-Contained in [[Class_ModkL|$\\text{ModkL}$]] and in [[Class_NL|$\\text{NL}$]].
+Contained in [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]] and in [[Class_NL|$\\text{NL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9397,22 +12469,36 @@ text = u'''
 
 = Mod,,k,,L - Mod-k L =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_ModkP|$\\text{ModkP}$]] does to [[Class_P|$\\text{P}$]].
+
+
+For any prime k, [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]] contains [[Class_SL|$\\text{SL}$]] [[ZooRefs#KW93|[KW93] ]].
 
 
 
-For any prime k, [[Class_ModkL|$\\text{ModkL}$]] contains [[Class_SL|$\\text{SL}$]] [[ZooRefs#KW93|[KW93] ]].
-
-
-
-For any prime k, Mod,,k,,L^ModkL^ = [[Class_ModkL|$\\text{ModkL}$]] [[ZooRefs#HRV00|[HRV00] ]].
+For any prime k, Mod,,k,,L^ModkL^ = [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]] [[ZooRefs#HRV00|[HRV00] ]].
 
 
 
 For any k>1, contains [[Class_LogFew|$\\text{LogFew}$]] [[ZooRefs#BDH+92|[BDH+92] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9440,9 +12526,19 @@ text = u'''
 
 = Mod,,k,,P - Mod-k Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-For any k>1: The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that the number of accepting paths is divisible by k, if and only if the answer is "no."
+{{{#!description
+
+For any k>1: The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that the number of accepting paths is divisible by k, if and only if the answer is "no."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9450,7 +12546,7 @@ Mod,,2,,P is more commonly known as [[Class_⊕P|$\\text{⊕P}$]] "parity-P."
 
 
 
-For every k, [[Class_ModkP|$\\text{ModkP}$]] contains graph isomorphism [[ZooRefs#AK02|[AK02] ]].
+For every k, [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]] contains graph isomorphism [[ZooRefs#AK02|[AK02] ]].
 
 
 
@@ -9458,16 +12554,20 @@ Defined in [[ZooRefs#CH89|[CH89] ]], [[ZooRefs#Her90|[Her90] ]].
 
 
 
-[[ZooRefs#Her90|[Her90] ]] and [[ZooRefs#BG92|[BG92] ]] showed that [[Class_ModkP|$\\text{ModkP}$]] is the set of unions of languages in Mod,,p,,P for each prime p that divides k.  In particular, if p is prime, then Mod,,p,,P = Mod,,p^m,,P for all positive integers m.  A further fact is that Mod,,p,,P is closed under union, intersection, and complement for p prime.
+[[ZooRefs#Her90|[Her90] ]] and [[ZooRefs#BG92|[BG92] ]] showed that [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]] is the set of unions of languages in Mod,,p,,P for each prime p that divides k.  In particular, if p is prime, then Mod,,p,,P = Mod,,p^m,,P for all positive integers m.  A further fact is that Mod,,p,,P is closed under union, intersection, and complement for p prime.
 
 
 
-On the other hand, if k is not a prime power, then there exists an oracle relative to which [[Class_ModkP|$\\text{ModkP}$]] is not closed under intersection or complement [[ZooRefs#BBR94|[BBR94] ]].
+On the other hand, if k is not a prime power, then there exists an oracle relative to which [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]] is not closed under intersection or complement [[ZooRefs#BBR94|[BBR94] ]].
 
 
 
 For prime p, there exists an oracle relative to which Mod,,p,,P does not contain [[Class_EQP|$\\text{EQP}$]] [[ZooRefs#GV02|[GV02] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9495,14 +12595,28 @@ text = u'''
 
 = NAuxPDA^p^ - Nondeterministic Auxiliary Pushdown Automata =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by nondeterministic logarithmic-space and polynomial-time Turing machines with auxiliary pushdown.
+{{{#!description
+
+The class of problems solvable by nondeterministic logarithmic-space and polynomial-time Turing machines with auxiliary pushdown.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_LOGCFL|$\\text{LOGCFL}$]] [[ZooRefs#Sud78|[Sud78] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9530,9 +12644,19 @@ text = u'''
 
 = NC - Nick's Class =
 
-== Comments ==
+== Description ==
 
-(Named in honor of Nick Pippenger.)
+{{{#!description
+
+(Named in honor of Nick Pippenger.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9575,6 +12699,10 @@ In descriptive complexity, [[Class_NC|$\\text{NC}$]] can be defined by [[Class_F
 NC^i^ is the class of decision problems solvable by a nonuniform family of Boolean circuits, with polynomial size, depth O(log^i^(n)), and fan-in 2.
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -9601,18 +12729,32 @@ text = u'''
 
 = NC^0^ - Level 0 of NC =
 
+== Description ==
+
+{{{#!description
+
+By definition, a decision problem in [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]] can depend on only a constant number of bits of the input.  Thus, [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]] usually refers to functions computable by constant-depth, bounded-fanin circuits.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-By definition, a decision problem in [[Class_NC0|$\\text{NC0}$]] can depend on only a constant number of bits of the input.  Thus, [[Class_NC0|$\\text{NC0}$]] usually refers to functions computable by constant-depth, bounded-fanin circuits.
+
+
+There is a family of permutations computable by a uniform family of [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]] circuits that is P-hard to invert [[ZooRefs#Has88|[Has88] ]].
 
 
 
-There is a family of permutations computable by a uniform family of [[Class_NC0|$\\text{NC0}$]] circuits that is P-hard to invert [[ZooRefs#Has88|[Has88] ]].
-
-
-
-Recently [[ZooRefs#AIK04|[AIK04] ]] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in [[Class_NC0|$\\text{NC0}$]], based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [[ZooRefs#AIK04|[AIK04] ]] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
+Recently [[ZooRefs#AIK04|[AIK04] ]] solved a longstanding open problem by showing that there exist pseudorandom generators and one-way functions in [[Class_NC0|$\\text{NC}^\\text{0}\\text{}$]], based on (for example) the hardness of factoring.  Specifically, in these generators every bit of the output depends on only 4 input bits.  Whether the dependence can be reduced to 3 bits under the same cryptographic assumptions is open, but [[ZooRefs#AIK04|[AIK04] ]] have some partial results in this direction.  It is known that the dependence cannot be reduced to 2 bits.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9640,21 +12782,31 @@ text = u'''
 
 = NC^1^ - Level 1 of NC =
 
+== Description ==
+
+{{{#!description
+
+See [[Class_NC|$\\text{NC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-See [[Class_NC|$\\text{NC}$]] for definition.
+
+
+[[ZooRefs#KV94|[KV94] ]] give a family of functions that is computable in [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]], but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
 
 
 
-[[ZooRefs#KV94|[KV94] ]] give a family of functions that is computable in [[Class_NC1|$\\text{NC1}$]], but not efficiently learnable unless there exists an efficient algorithm for factoring Blum integers.
+Was shown to equal 5-PBP [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, width 5 is necessary unless [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] = [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]] [[ZooRefs#BT88|[BT88] ]].
 
 
 
-Was shown to equal 5-PBP [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, width 5 is necessary unless [[Class_NC1|$\\text{NC1}$]] = [[Class_ACC0|$\\text{ACC0}$]] [[ZooRefs#BT88|[BT88] ]].
-
-
-
-As an application of this result, [[Class_NC1|$\\text{NC1}$]] can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].  Surprisingly, [[ZooRefs#AMP02|[AMP02] ]] showed that only a single qubit is needed to simulate [[Class_NC1|$\\text{NC1}$]] - i.e. that [[Class_NC1|$\\text{NC1}$]] is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
+As an application of this result, [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] can be simulated on a quantum computer with three qubits, one initialized to a pure state and the remaining two in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].  Surprisingly, [[ZooRefs#AMP02|[AMP02] ]] showed that only a single qubit is needed to simulate [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] - i.e. that [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] is contained in 2-EQBP.  (Complex amplitudes are needed for this result.)
 
 
 
@@ -9662,16 +12814,20 @@ Is contained in [[Class_L|$\\text{L}$]] [[ZooRefs#Bor77|[Bor77] ]].
 
 
 
-Contains [[Class_TC0|$\\text{TC0}$]].
+Contains [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]].
 
 
 
-[[Class_NC1|$\\text{NC1}$]] contains the integer division problem [[ZooRefs#BCH86|[BCH86] ]], even if an L-uniformity condition is imposed [[ZooRefs#CDL01|[CDL01] ]].
+[[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] contains the integer division problem [[ZooRefs#BCH86|[BCH86] ]], even if an L-uniformity condition is imposed [[ZooRefs#CDL01|[CDL01] ]].
 
 
 
-U,,E^*^,,-uniform [[Class_NC1|$\\text{NC1}$]] is equal to [[Class_ALOGTIME|$\\text{ALOGTIME}$]] [[ZooRefs#RUZ81|[RUZ81] ]].
+U,,E^*^,,-uniform [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] is equal to [[Class_ALOGTIME|$\\text{ALOGTIME}$]] [[ZooRefs#RUZ81|[RUZ81] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9699,14 +12855,28 @@ text = u'''
 
 = NC^2^ - Level 2 of NC =
 
-== Comments ==
+== Description ==
 
-See [[Class_NC|$\\text{NC}$]] for definition.
+{{{#!description
+
+See [[Class_NC|$\\text{NC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_NL|$\\text{NL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9734,9 +12904,19 @@ text = u'''
 
 = NE - Nondeterministic E =
 
-== Comments ==
+== Description ==
 
-Nondeterministic exponential time with linear exponent (i.e. NTIME(2^O(n)^)).
+{{{#!description
+
+Nondeterministic exponential time with linear exponent (i.e. NTIME(2^O(n)^)).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9746,6 +12926,10 @@ P^NE^ = NP^NE^ [[ZooRefs#Hem89|[Hem89] ]].
 
 Contained in [[Class_NEXP|$\\text{NEXP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9773,10 +12957,26 @@ text = u'''
 
 = NE/poly - Nonuniform NE =
 
+== Description ==
+
+{{{#!description
+
+Contains [[Class_coNE|$\\text{coNE}$]], just as [[Class_NEXP/poly|$\\text{NEXP/poly}$]] contains [[Class_coNEXP|$\\text{coNEXP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains [[Class_coNE|$\\text{coNE}$]], just as [[Class_NEXP/poly|$\\text{NEXP/poly}$]] contains [[Class_coNEXP|$\\text{coNEXP}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9804,13 +13004,23 @@ text = u'''
 
 = NEE - Nondeterministic EE =
 
+== Description ==
+
+{{{#!description
+
+Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^^)).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^^)).
 
 
-
-If [[Class_MAE|$\\text{MAE}$]] = [[Class_NEE|$\\text{NEE}$]] then [[Class_MA|$\\text{MA}$]] = [[Class_NEXP|$\\text{NEXP}$]] ∩ [[Class_coNEXP|$\\text{coNEXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
+If [[Class_MAE|$\\text{MA}_\\text{E}\\text{}$]] = [[Class_NEE|$\\text{NEE}$]] then [[Class_MA|$\\text{MA}$]] = [[Class_NEXP|$\\text{NEXP}$]] ∩ [[Class_coNEXP|$\\text{coNEXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 
 
 
@@ -9820,6 +13030,10 @@ Contained in [[Class_NEEXP|$\\text{NEEXP}$]].
 
 Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(n)^)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9847,10 +13061,26 @@ text = u'''
 
 = NEEE - Nondeterministic EEE =
 
+== Description ==
+
+{{{#!description
+
+Nondeterministic triple-exponential time with linear exponent.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Nondeterministic triple-exponential time with linear exponent.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9878,18 +13108,32 @@ text = u'''
 
 = NEEXP - Nondeterministic EEXP =
 
+== Description ==
+
+{{{#!description
+
+Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^^) for p a polynomial).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^^) for p a polynomial).
 
 
-
-Equals [[Class_MIPEXP|$\\text{MIPEXP}$]] (unrelativized).
+Equals [[Class_MIPEXP|$\\text{MIP}_\\text{EXP}\\text{}$]] (unrelativized).
 
 
 
 Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^) for p a polynomial).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9917,9 +13161,19 @@ text = u'''
 
 = NEXP - Nondeterministic EXP =
 
-== Comments ==
+== Description ==
 
-Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).
+{{{#!description
+
+Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -9959,8 +13213,12 @@ There exists an oracle relative to which [[Class_EXP|$\\text{EXP}$]] = [[Class_N
 
 
 
-The theory of reals with addition (see EXPSPACE) is hard for [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#FR74|[FR74] ]].
+The theory of reals with addition (see [[Class_EXPSPACE|$\\text{EXPSPACE}$]]) is hard for [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#FR74|[FR74] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -9988,10 +13246,26 @@ text = u'''
 
 = NEXP/poly - Nonuniform NEXP =
 
+== Description ==
+
+{{{#!description
+
+Contains [[Class_coNEXP|$\\text{coNEXP}$]] (folklore result reported in [weblog]).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains [[Class_coNEXP|$\\text{coNEXP}$]] (folklore result reported in [weblog]).
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10019,9 +13293,19 @@ text = u'''
 
 = NIPZK - Non-Interactive PZK =
 
-== Comments ==
+== Description ==
 
-Defined in [M08] based on [[ZooRefs#DDPY98|[DDPY98] ]],[[ZooRefs#BFM88|[BFM88] ]].
+{{{#!description
+
+Defined in [M08] based on [[ZooRefs#DDPY98|[DDPY98] ]],[[ZooRefs#BFM88|[BFM88] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10033,6 +13317,10 @@ Contained in [[Class_PZK|$\\text{PZK}$]].
 
 in UN are circuits with n+1 output bits. The first n bits represent the uniform distribution, and the last bit is 1 with probability at least 2/3. For instances not in UN, when the last bit is 1, at most 1/3 of the strings of length n can appear as the output of the circuit. The problem is to decide which is the case.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10060,9 +13348,19 @@ text = u'''
 
 = NIQSZK - Non-Interactive QSZK =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_QSZK|$\\text{QSZK}$]] as [[Class_NISZK|$\\text{NISZK}$]] does to [[Class_SZK|$\\text{SZK}$]].
+{{{#!description
+
+Has the same relation to [[Class_QSZK|$\\text{QSZK}$]] as [[Class_NISZK|$\\text{NISZK}$]] does to [[Class_SZK|$\\text{SZK}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10072,6 +13370,10 @@ Defined in [[ZooRefs#Kob02|[Kob02] ]], where it was also shown that the followin
 
 NIQPZK can be defined similarly.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10099,9 +13401,19 @@ text = u'''
 
 = NISZK - Non-Interactive SZK =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#DDP+98|[DDP+98] ]].
+{{{#!description
+
+Defined in [[ZooRefs#DDP+98|[DDP+98] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10130,6 +13442,10 @@ If [[Class_SZK|$\\text{SZK}$]] does not equal [[Class_BPP|$\\text{BPP}$]] then [
 [[Class_NIPZK|$\\text{NIPZK}$]] can be defined similarly.
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -10156,9 +13472,19 @@ text = u'''
 
 = NISZK,,h,, - NISZK With Limited Help =
 
-== Comments ==
+== Description ==
 
-The non-interactive analogue of [[Class_SZKh|$\\text{SZKh}$]].
+{{{#!description
+
+The non-interactive analogue of [[Class_SZKh|$\\text{SZK}_\\text{h}\\text{}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10166,16 +13492,20 @@ Defined in [[ZooRefs#BG03|[BG03] ]], where the following was also shown:
 
 
 
-[[Class_NISZKh|$\\text{NISZKh}$]] contains [[Class_NISZK|$\\text{NISZK}$]] and is contained in [[Class_SZK|$\\text{SZK}$]].
+[[Class_NISZKh|$\\text{NISZK}_\\text{h}\\text{}$]] contains [[Class_NISZK|$\\text{NISZK}$]] and is contained in [[Class_SZK|$\\text{SZK}$]].
 
-Graph Isomorphism is in [[Class_NISZKh|$\\text{NISZKh}$]].
+Graph Isomorphism is in [[Class_NISZKh|$\\text{NISZK}_\\text{h}\\text{}$]].
 
-The following problem is complete for [[Class_NISZKh|$\\text{NISZKh}$]]: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
+The following problem is complete for [[Class_NISZKh|$\\text{NISZK}_\\text{h}\\text{}$]]: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
 
 
 
-The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|[Aar02] ]] implies an oracle relative to which [[Class_NISZKh|$\\text{NISZKh}$]] is not in [[Class_BQP|$\\text{BQP}$]].
+The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|[Aar02] ]] implies an oracle relative to which [[Class_NISZKh|$\\text{NISZK}_\\text{h}\\text{}$]] is not in [[Class_BQP|$\\text{BQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10203,17 +13533,27 @@ text = u'''
 
 = NL - Nondeterministic Logarithmic-Space =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_NP|$\\text{NP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_NP|$\\text{NP}$]] does to [[Class_P|$\\text{P}$]].
+
+
+In a breakthrough result, was shown to equal [[Class_coNL|$\\text{coNL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze87] ]].  (Though contrast to [[Class_mNL|$\\text{mNL}$]].)
 
 
 
-In a breakthrough result, was shown to equal [[Class_coNL|$\\text{coNL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze87] ]].  (Though contrast to mNL.)
-
-
-
-Is contained in [[Class_LOGCFL|$\\text{LOGCFL}$]] [[ZooRefs#Sud78|[Sud78] ]], as well as [[Class_NC2|$\\text{NC2}$]].
+Is contained in [[Class_LOGCFL|$\\text{LOGCFL}$]] [[ZooRefs#Sud78|[Sud78] ]], as well as [[Class_NC2|$\\text{NC}^\\text{2}\\text{}$]].
 
 
 
@@ -10227,6 +13567,10 @@ Deciding whether a bipartite graph has a perfect matching is hard for [[Class_NL
 
 [[Class_NL|$\\text{NL}$]] can be defined in a logical formalism as SO(krom) and also as FO(tc), reachability in directed graph is NL-Complete under FO-reduction.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10254,18 +13598,32 @@ text = u'''
 
 = NL/poly - Nonuniform NL =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_NL|$\\text{NL}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_NL|$\\text{NL}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].
 
 
-
-Is contained in [[Class_⊕L/poly|$\\text{⊕L/poly}$]] [[ZooRefs#GW96|[GW96] ]], as well as [[Class_SAC1|$\\text{SAC1}$]].
+Is contained in [[Class_⊕L/poly|$\\text{⊕L/poly}$]] [[ZooRefs#GW96|[GW96] ]], as well as [[Class_SAC1|$\\text{SAC}^\\text{1}\\text{}$]].
 
 
 
 Equals [[Class_UL/poly|$\\text{UL/poly}$]] [[ZooRefs#RA00|[RA00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10293,10 +13651,26 @@ text = u'''
 
 = NLIN - Nondeterministic LIN =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_LIN|$\\text{LIN}$]] as [[Class_NP|$\\text{NP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_LIN|$\\text{LIN}$]] as [[Class_NP|$\\text{NP}$]] does to [[Class_P|$\\text{P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10324,9 +13698,19 @@ text = u'''
 
 = NLOG - NL With Nondeterministic Oracle Tape =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_NL|$\\text{NL}$]] -- but if there's an oracle, then [[Class_NLOG|$\\text{NLOG}$]] can make queries nondeterministically on a polynomial-size, one-way oracle tape.  (NL, by contrast, can use nondeterministic transitions only on the worktape; oracle queries have to be deterministic.)
+{{{#!description
+
+Same as [[Class_NL|$\\text{NL}$]] -- but if there's an oracle, then [[Class_NLOG|$\\text{NLOG}$]] can make queries nondeterministically on a polynomial-size, one-way oracle tape.  ([[Class_NL|$\\text{NL}$]], by contrast, can use nondeterministic transitions only on the worktape; oracle queries have to be deterministic.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10336,6 +13720,10 @@ See [[ZooRefs#LL76|[LL76] ]] or [[ZooRefs#HCK+88|[HCK+88] ]] for more informatio
 
 Although [[Class_NLOG|$\\text{NLOG}$]] is contained in [[Class_P|$\\text{P}$]], there exists an oracle relative to which that is not the case.  This illustrates that care is needed when defining oracle access mechanisms.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10363,9 +13751,19 @@ text = u'''
 
 = NLT - Nearly Linear Time =
 
-== Comments ==
+== Description ==
 
-Class of functions computable in nearly linear time n(log n)^O(1)^ on deterministic random access machines.
+{{{#!description
+
+Class of functions computable in nearly linear time n(log n)^O(1)^ on deterministic random access machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10375,6 +13773,10 @@ Defined in [[ZooRefs#GS89|[GS89] ]].
 
 See also [[Class_QL|$\\text{QL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10402,14 +13804,28 @@ text = u'''
 
 = NNC(f(n)) - NC with O(f(n)) nondeterministic gates =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_NC|$\\text{NC}$]], but with O(f(n)) nondeterministic gates. A nondeterministic gate has no inputs and a single output bit.
+{{{#!description
+
+Same as [[Class_NC|$\\text{NC}$]], but with O(f(n)) nondeterministic gates. A nondeterministic gate has no inputs and a single output bit.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#Wol94|[Wol94] ]], where the author proves various inclusions, including but not limited to NNC(poly(n))=NP, NNC(log(n))=NC, and NNC(polylog)⊆DSPACE(polylog).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10437,14 +13853,28 @@ text = u'''
 
 = NNLT - Nondeterministic Nearly Linear Time =
 
-== Comments ==
+== Description ==
 
-Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals [[Class_NQL|$\\text{NQL}$]] [[ZooRefs#GS89|[GS89] ]].
+{{{#!description
+
+Class of functions computable in nearly linear time n(log n)^O(1)^ on nondeterministic random access machines.  Equals [[Class_NQL|$\\text{NQL}$]] [[ZooRefs#GS89|[GS89] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#GS89|[GS89] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10472,9 +13902,19 @@ text = u'''
 
 = NONE - The Empty Class =
 
-== Comments ==
+== Description ==
 
-The class that does not contain any languages.  (It might not surprise you that I put this one in at the suggestion of a mathematician...)
+{{{#!description
+
+The class that does not contain any languages.  (It might not surprise you that I put this one in at the suggestion of a mathematician...)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10488,6 +13928,10 @@ Is closed under polynomial-time Turing reductions :-).
 
 Equals [[Class_SPARSE|$\\text{SPARSE}$]] ∩ [[Class_coSPARSE|$\\text{coSPARSE}$]] and [[Class_TALLY|$\\text{TALLY}$]] ∩ coTALLY.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10515,9 +13959,19 @@ text = u'''
 
 = NP - Nondeterministic Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of dashed hopes and idle dreams.
+{{{#!description
+
+The class of dashed hopes and idle dreams.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10591,7 +14045,7 @@ If we restrict to monotone classes, [[Class_mP|$\\text{mP}$]] is strictly contai
 
 
 
-Perhaps the most important insight anyone has had into [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]] is to be found in [[ZooRefs#RR97|[RR97] ]].  There the authors show that no 'natural proof' can separate [[Class_P|$\\text{P}$]] from [[Class_NP|$\\text{NP}$]] (or more precisely, place [[Class_NP|$\\text{NP}$]] outside of P/poly), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]] to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [[ZooRefs#MS02|[MS02] ]] (and the survey article [[ZooRefs#Reg02|[Reg02] ]]) for a development of this point of view.
+Perhaps the most important insight anyone has had into [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]] is to be found in [[ZooRefs#RR97|[RR97] ]].  There the authors show that no 'natural proof' can separate [[Class_P|$\\text{P}$]] from [[Class_NP|$\\text{NP}$]] (or more precisely, place [[Class_NP|$\\text{NP}$]] outside of [[Class_P/poly|$\\text{P/poly}$]]), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]] to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [[ZooRefs#MS02|[MS02] ]] (and the survey article [[ZooRefs#Reg02|[Reg02] ]]) for a development of this point of view.
 
 
 
@@ -10607,11 +14061,11 @@ The set of decision problems in [[Class_NP|$\\text{NP}$]], but not in [[Class_P|
 
 
 
-Probabilistic generalizations of [[Class_NP|$\\text{NP}$]] include [[Class_MA|$\\text{MA}$]] and [[Class_AM|$\\text{AM}$]].  If [[Class_NP|$\\text{NP}$]] is in [[Class_coAM|$\\text{coAM}$]] (or BPP) then [[Class_PH|$\\text{PH}$]] collapses to [[Class_Σ2P|$\\text{Σ2P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
+Probabilistic generalizations of [[Class_NP|$\\text{NP}$]] include [[Class_MA|$\\text{MA}$]] and [[Class_AM|$\\text{AM}$]].  If [[Class_NP|$\\text{NP}$]] is in [[Class_coAM|$\\text{coAM}$]] (or [[Class_BPP|$\\text{BPP}$]]) then [[Class_PH|$\\text{PH}$]] collapses to [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
 
 
 
-[[Class_PH|$\\text{PH}$]] also collapses to [[Class_Σ2P|$\\text{Σ2P}$]] if [[Class_NP|$\\text{NP}$]] is in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#KL82|[KL82] ]].
+[[Class_PH|$\\text{PH}$]] also collapses to [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] if [[Class_NP|$\\text{NP}$]] is in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#KL82|[KL82] ]].
 
 
 
@@ -10642,6 +14096,10 @@ For example, the SAT problem is to decide whether a given Boolean formula has an
 Also, [[ZooRefs#Fag74|[Fag74] ]] gave a logical characterization of [[Class_NP|$\\text{NP}$]], which leads to the subclass [[Class_SNP|$\\text{SNP}$]].
 == Relations ==
 
+{{{#!class_relations
+{"version": 1.0, "class": "NP", "relations": {"contained_in": [{"class": "EXP"}], "equals": [{"class": "PCP(r(n),q(n))", "condition": "$r(n) = log(n), q(n) = O(1)$"}]}}
+}}}
+
 
 == See Also ==
 
@@ -10668,9 +14126,19 @@ text = u'''
 
 = NP ∩ coNP - NP ∩ coNP =
 
-== Comments ==
+== Description ==
 
-The class of problems in both [[Class_NP|$\\text{NP}$]] and [[Class_coNP|$\\text{coNP}$]].
+{{{#!description
+
+The class of problems in both [[Class_NP|$\\text{NP}$]] and [[Class_coNP|$\\text{coNP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10682,12 +14150,16 @@ Contains graph isomorphism under the assumption that some language in [[Class_NE
 
 
 
-Equals [[Class_PNP|$\\text{PNP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] [[ZooRefs#Bra79|[Bra79] ]].  In particular, if a problem in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] is NP-hard with Turing reduction, then [[Class_NP|$\\text{NP}$]] = [[Class_coNP|$\\text{coNP}$]].
+Equals [[Class_PNP|$\\text{P}^\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}\\text{}$]] [[ZooRefs#Bra79|[Bra79] ]].  In particular, if a problem in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] is NP-hard with Turing reduction, then [[Class_NP|$\\text{NP}$]] = [[Class_coNP|$\\text{coNP}$]].
 
 
 
 Is not believed to contain complete problems.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10715,14 +14187,28 @@ text = u'''
 
 = NP/log - NP With Logarithmic Advice =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_NP/poly|$\\text{NP/poly}$]], except that now the advice string is logarithmic-size.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_NP/poly|$\\text{NP/poly}$]], except that now the advice string is logarithmic-size.
 
 
-
-Shown in [[ZooRefs#FK05|[FK05] ]] that [[Class_EXP|$\\text{EXP}$]] ⊆ [[Class_NP/log|$\\text{NP/log}$]] if and only if [[Class_EXP|$\\text{EXP}$]] = [[Class_P||NP|$\\text{P||NP}$]].
+Shown in [[ZooRefs#FK05|[FK05] ]] that [[Class_EXP|$\\text{EXP}$]] ⊆ [[Class_NP/log|$\\text{NP/log}$]] if and only if [[Class_EXP|$\\text{EXP}$]] = [[Class_P||NP|$\\text{P}^\\text{||NP}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10750,9 +14236,19 @@ text = u'''
 
 = NP/poly - Nonuniform NP =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NP|$\\text{NP}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_NP|$\\text{NP}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10762,6 +14258,10 @@ Contains [[Class_AM|$\\text{AM}$]].  On the other hand, if [[Class_NP/poly|$\\te
 
 NP/poly-natural proofs cannot show that circuit families are outside [[Class_P/poly|$\\text{P/poly}$]], under a pseudorandomness assumption [[ZooRefs#Rud97|[Rud97] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10789,9 +14289,19 @@ text = u'''
 
 = NP,,C,, - NP Over The Complex Numbers =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that (1) they're in [[Class_NP|$\\text{NP}$]] and (2) every problem in [[Class_NP|$\\text{NP}$]] is reducible to them (under some notion of reduction).  In other words, the hardest problems in [[Class_NP|$\\text{NP}$]].
+{{{#!description
+
+The class of decision problems such that (1) they're in [[Class_NP|$\\text{NP}$]] and (2) every problem in [[Class_NP|$\\text{NP}$]] is reducible to them (under some notion of reduction).  In other words, the hardest problems in [[Class_NP|$\\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10833,20 +14343,24 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-It is unknown whether [[Class_PC|$\\text{PC}$]] = [[Class_NPC|$\\text{NPC}$]], nor are implications known among this question, [[Class_PR|$\\text{PR}$]] versus [[Class_NPR|$\\text{NPR}$]], and [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]].
+It is unknown whether [[Class_PC|$\\text{P}_\\text{C}\\text{}$]] = [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]], nor are implications known among this question, [[Class_PR|$\\text{P}_\\text{R}\\text{}$]] versus [[Class_NPR|$\\text{NP}_\\text{R}\\text{}$]], and [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]].
 
 
 
-However, [[ZooRefs#CKK+95|[CKK+95] ]] show that if [[Class_P/poly|$\\text{P/poly}$]] does not equal [[Class_NP/poly|$\\text{NP/poly}$]] then [[Class_PC|$\\text{PC}$]] does not equal [[Class_NPC|$\\text{NPC}$]].
+However, [[ZooRefs#CKK+95|[CKK+95] ]] show that if [[Class_P/poly|$\\text{P/poly}$]] does not equal [[Class_NP/poly|$\\text{NP/poly}$]] then [[Class_PC|$\\text{P}_\\text{C}\\text{}$]] does not equal [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]].
 
 
 
-[[ZooRefs#BCS+97|[BCS+97] ]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then [[Class_PC|$\\text{PC}$]] does not equal [[Class_NPC|$\\text{NPC}$]].
+[[ZooRefs#BCS+97|[BCS+97] ]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then [[Class_PC|$\\text{P}_\\text{C}\\text{}$]] does not equal [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]].
 
 
 
-See also [[Class_VNPk|$\\text{VNPk}$]].
+See also [[Class_VNPk|$\\text{VNP}_\\text{k}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10874,9 +14388,19 @@ text = u'''
 
 = NPI - NP-Intermediate =
 
-== Comments ==
+== Description ==
 
-Sometimes used to denote the set of decision problems in [[Class_NP|$\\text{NP}$]] that are neither NP-complete (that is, in NPC) nor in [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Sometimes used to denote the set of decision problems in [[Class_NP|$\\text{NP}$]] that are neither NP-complete (that is, in [[Class_NPC|$\\text{NPC}$]]) nor in [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -10886,6 +14410,10 @@ Is thought to contain (for example) decision versions of factoring and graph iso
 
 Is nonempty if [[Class_P|$\\text{P}$]] does not equal [[Class_NP|$\\text{NP}$]] [[ZooRefs#Lad75|[Lad75] ]].  Indeed, under this assumption, it contains an infinite number of distinct polynomial-time equivalence classes.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10913,13 +14441,23 @@ text = u'''
 
 = NPMV - NP Multiple Value =
 
+== Description ==
+
+{{{#!description
+
+The class of all (possibly partial, possibly multivalued) functions computed by an [[Class_NP|$\\text{NP}$]] machine as follows: ignore the rejecting paths, and consider any output of an accepting path to be "one of the outputs."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of all (possibly partial, possibly multivalued) functions computed by an [[Class_NP|$\\text{NP}$]] machine as follows: ignore the rejecting paths, and consider any output of an accepting path to be "one of the outputs."
 
 
-
-Contains [[Class_NPSV|$\\text{NPSV}$]] and [[Class_NPMVt|$\\text{NPMVt}$]].
+Contains [[Class_NPSV|$\\text{NPSV}$]] and [[Class_NPMVt|$\\text{NPMV}_\\text{t}\\text{}$]].
 
 
 
@@ -10929,6 +14467,10 @@ Defined in [[ZooRefs#BLS84|[BLS84] ]].
 
 Contrast with [[Class_FNP|$\\text{FNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10956,14 +14498,28 @@ text = u'''
 
 = NPMV-sel - NPMV Selective =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NPMV|$\\text{NPMV}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_NPMV|$\\text{NPMV}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -10991,10 +14547,26 @@ text = u'''
 
 = NPMV,,t,, - NPMV Total =
 
+== Description ==
+
+{{{#!description
+
+The class of all (possibly multivalued) [[Class_NPMV|$\\text{NPMV}$]] functions that are total (that is, defined for every input).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of all (possibly multivalued) [[Class_NPMV|$\\text{NPMV}$]] functions that are total (that is, defined for every input).
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11022,14 +14594,28 @@ text = u'''
 
 = NPMV,,t,,-sel - NPMVt Selective =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NPMVt|$\\text{NPMVt}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_NPMVt|$\\text{NPMV}_\\text{t}\\text{}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11057,9 +14643,19 @@ text = u'''
 
 = NPO - NP Optimization =
 
-== Comments ==
+== Description ==
 
-The class of function problems of the form, "Find any n-bit string x that maximizes a cost function C(x), where C is computable in [[Class_FP|$\\text{FP}$]] (i.e. polynomial-time)."
+{{{#!description
+
+The class of function problems of the form, "Find any n-bit string x that maximizes a cost function C(x), where C is computable in [[Class_FP|$\\text{FP}$]] (i.e. polynomial-time)."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11069,6 +14665,10 @@ Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 
 Contains [[Class_APX|$\\text{APX}$]] and [[Class_NPOPB|$\\text{NPOPB}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11096,9 +14696,19 @@ text = u'''
 
 = NPOPB - NPO Polynomially Bounded =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_NPO|$\\text{NPO}$]] problems for which the cost function is guaranteed always to be bounded by a polynomial in n (the input size).
+{{{#!description
+
+The subclass of [[Class_NPO|$\\text{NPO}$]] problems for which the cost function is guaranteed always to be bounded by a polynomial in n (the input size).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11108,6 +14718,10 @@ See [[ZooRefs#ACG+99|[ACG+99] ]].
 
 [[Class_NPOPB|$\\text{NPOPB}$]] equals the closure of [[Class_MaxPB|$\\text{MaxPB}$]] under [[Class_PTAS|$\\text{PTAS}$]] reductions [[ZooRefs#CKS+99|[CKS+99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11135,9 +14749,19 @@ text = u'''
 
 = NP,,R,, - NP Over The Reals =
 
-== Comments ==
+== Description ==
 
-An analog of [[Class_NP|$\\text{NP}$]] for Turing machines over a real number field.
+{{{#!description
+
+An analog of [[Class_NP|$\\text{NP}$]] for Turing machines over a real number field.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11145,16 +14769,20 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-It is unknown whether [[Class_PR|$\\text{PR}$]] = [[Class_NPR|$\\text{NPR}$]], nor are implications known among this question, [[Class_PC|$\\text{PC}$]] versus [[Class_NPC|$\\text{NPC}$]], and [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]].
+It is unknown whether [[Class_PR|$\\text{P}_\\text{R}\\text{}$]] = [[Class_NPR|$\\text{NP}_\\text{R}\\text{}$]], nor are implications known among this question, [[Class_PC|$\\text{P}_\\text{C}\\text{}$]] versus [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]], and [[Class_P|$\\text{P}$]] versus [[Class_NP|$\\text{NP}$]].
 
 
 
-Also, in contrast to the case of [[Class_NPC|$\\text{NPC}$]], it is an open problem to show that [[Class_P/poly|$\\text{P/poly}$]] distinct from [[Class_NP/poly|$\\text{NP/poly}$]] implies [[Class_PR|$\\text{PR}$]] distinct from [[Class_NPR|$\\text{NPR}$]].  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
+Also, in contrast to the case of [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]], it is an open problem to show that [[Class_P/poly|$\\text{P/poly}$]] distinct from [[Class_NP/poly|$\\text{NP/poly}$]] implies [[Class_PR|$\\text{P}_\\text{R}\\text{}$]] distinct from [[Class_NPR|$\\text{NP}_\\text{R}\\text{}$]].  The difference is that in the real case, a comparison (or greater-than) operator is available, and it is not known how much power this yields in comparison to the complex case.
 
 
 
-See also [[Class_VNPk|$\\text{VNPk}$]].
+See also [[Class_VNPk|$\\text{VNP}_\\text{k}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11182,14 +14810,28 @@ text = u'''
 
 = NPSPACE - Nondeterministic PSPACE =
 
-== Comments ==
+== Description ==
 
-Equals [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Sav70|[Sav70] ]].
+{{{#!description
+
+Equals [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Sav70|[Sav70] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which [[Class_NPSPACE|$\\text{NPSPACE}$]] is not contained in [[Class_EXP|$\\text{EXP}$]] [[ZooRefs#GTW+91|[GTW+91] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11217,9 +14859,19 @@ text = u'''
 
 = NPSV - NP Single Value =
 
-== Comments ==
+== Description ==
 
-The class of [[Class_NPMV|$\\text{NPMV}$]] functions that are single-valued (i.e., such that every accepting path outputs the same value).
+{{{#!description
+
+The class of [[Class_NPMV|$\\text{NPMV}$]] functions that are single-valued (i.e., such that every accepting path outputs the same value).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11227,12 +14879,16 @@ Defined in [[ZooRefs#BLS84|[BLS84] ]].
 
 
 
-Contains [[Class_NPSVt|$\\text{NPSVt}$]].
+Contains [[Class_NPSVt|$\\text{NPSV}_\\text{t}\\text{}$]].
 
 
 
 [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]] if and only if [[Class_FP|$\\text{FP}$]] = [[Class_NPSV|$\\text{NPSV}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11260,9 +14916,19 @@ text = u'''
 
 = NPSV-sel - NPSV Selective =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NPSV|$\\text{NPSV}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_NPSV|$\\text{NPSV}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11272,6 +14938,10 @@ Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 
 Has the same relation to href="#npsv">NPSV as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11299,14 +14969,28 @@ text = u'''
 
 = NPSV,,t,, - NPSV Total =
 
+== Description ==
+
+{{{#!description
+
+The class of all [[Class_NPSV|$\\text{NPSV}$]] functions that are total (that is, defined on every input).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of all [[Class_NPSV|$\\text{NPSV}$]] functions that are total (that is, defined on every input).
 
 
-
-Contained in [[Class_NPMVt|$\\text{NPMVt}$]].
+Contained in [[Class_NPMVt|$\\text{NPMV}_\\text{t}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11334,9 +15018,19 @@ text = u'''
 
 = NPSV,,t,,-sel - NPSVt Selective =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NPSVt|$\\text{NPSVt}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_NPSVt|$\\text{NPSV}_\\text{t}\\text{}$]] as [[Class_P-Sel|$\\text{P-Sel}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11346,6 +15040,10 @@ Also known as NP-sel.
 
 Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11373,13 +15071,23 @@ text = u'''
 
 = NP^cc^ - Communication Complexity NP =
 
+== Description ==
+
+{{{#!description
+
+The analogue of [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The analogue of [[Class_Pcc|$\\text{Pcc}$]] for nondeterministic communication complexity.  Both communication bits and nondeterministic guess bits count toward the complexity.
 
 
-
-Does not equal [[Class_Pcc|$\\text{Pcc}$]] or [[Class_coNPcc|$\\text{coNPcc}$]] because of the EQUALITY problem.  Also, does not contain [[Class_BPPcc|$\\text{BPPcc}$]] because of that problem.
+Does not equal [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] or [[Class_coNPcc|$\\text{coNP}^\\text{cc}\\text{}$]] because of the EQUALITY problem.  Also, does not contain [[Class_BPPcc|$\\text{BPP}^\\text{cc}\\text{}$]] because of that problem.
 
 
 
@@ -11387,16 +15095,20 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 
-Contained in [[Class_PHcc|$\\text{PHcc}$]].
+Contained in [[Class_PHcc|$\\text{PH}^\\text{cc}\\text{}$]].
 
 
 
-Has the same relation to [[Class_NPcc|$\\text{NPcc}$]] and [[Class_NP|$\\text{NP}$]] as [[Class_Pcc|$\\text{Pcc}$]] does to [[Class_Pcc|$\\text{Pcc}$]] and [[Class_P|$\\text{P}$]].
+Has the same relation to [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] and [[Class_NP|$\\text{NP}$]] as [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] does to [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] and [[Class_P|$\\text{P}$]].
 
 
 
-[[Class_NPcc|$\\text{NPcc}$]] is not contained in [[Class_BPPcc|$\\text{BPPcc}$]] for  players, for any constant . As a result, [[Class_NPcc|$\\text{NPcc}$]] is not equal to [[Class_RPcc|$\\text{RPcc}$]] under the same conditions [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not contained in [[Class_BPPcc|$\\text{BPP}_\\text{}\\text{}^\\text{cc}\\text{}$]] for  players, for any constant . As a result, [[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not equal to [[Class_RPcc|$\\text{RP}_\\text{}\\text{}^\\text{cc}\\text{}$]] under the same conditions [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11424,9 +15136,19 @@ text = u'''
 
 = NQL - Nondet Quasi-Linear =
 
-== Comments ==
+== Description ==
 
-The class of problems that can be decided in quasi-linear time by a multitape nondeterministic Turing machine.  Quasi-linear here means n(log n)^k^ + k, for some k.
+{{{#!description
+
+The class of problems that can be decided in quasi-linear time by a multitape nondeterministic Turing machine.  Quasi-linear here means n(log n)^k^ + k, for some k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11444,6 +15166,10 @@ Defined in [[ZooRefs#Sch78|[Sch78] ]].
 
 See also: [[Class_NLT|$\\text{NLT}$]], [[Class_Q|$\\text{Q}$]], [[Class_QL|$\\text{QL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11471,9 +15197,19 @@ text = u'''
 
 = NQP - Nondeterministic Quantum Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, [[Class_NQP|$\\text{NQP}$]] has the same technical caveats as [[Class_EQP|$\\text{EQP}$]].  Or it would, except that it turns out to equal [[Class_coC=P|$\\text{coC=P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
+{{{#!description
+
+The class of decision problems solvable by a QTM in polynomial time such that a particular '|Accept>' state has nonzero amplitude at the end of the computation, if and only if the answer is 'yes.'  Since it has an exact amplitude condition, [[Class_NQP|$\\text{NQP}$]] has the same technical caveats as [[Class_EQP|$\\text{EQP}$]].  Or it would, except that it turns out to equal [[Class_coC=P|$\\text{coC}_\\text{=}\\text{P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11483,6 +15219,10 @@ Defined in [[ZooRefs#ADH97|[ADH97] ]].
 
 Contrast with [[Class_QMA|$\\text{QMA}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11510,9 +15250,19 @@ text = u'''
 
 = NSPACE(f(n)) - Nondeterministic f(n)-Space =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_NPSPACE|$\\text{NPSPACE}$]], but with f(n)-space (for some constructible function f) rather than polynomial-space machines.
+{{{#!description
+
+Same as [[Class_NPSPACE|$\\text{NPSPACE}$]], but with f(n)-space (for some constructible function f) rather than polynomial-space machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11526,6 +15276,10 @@ NSPACE(n^k^) is strictly contained in NSPACE(n^k+ε^) for ε>0 [[ZooRefs#Iba72|[
 
 Contained in DSPACE(f(n)^2^) [[ZooRefs#Sav70|[Sav70] ]], and indeed RevSPACE(f(n)^2^) [[ZooRefs#CP95|[CP95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11553,14 +15307,28 @@ text = u'''
 
 = NT - Near-Testable =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that whether the answer on input x agrees with the answer on input x-1 (that is, the lexicographic predecessor of x) is solvable in polynomial time.  The Turing machine has to decide agreement or disagreement without access to the answer for x-1.
+{{{#!description
+
+The class of decision problems such that whether the answer on input x agrees with the answer on input x-1 (that is, the lexicographic predecessor of x) is solvable in polynomial time.  The Turing machine has to decide agreement or disagreement without access to the answer for x-1.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Is contained in [[Class_E|$\\text{E}$]], [[Class_NT*|$\\text{NT*}$]], and [[Class_⊕P|$\\text{⊕P}$]].  Defined in [[ZooRefs#GHJ+91|[GHJ+91] ]] to study ⊕P-complete problems.  They show  that [[Class_P|$\\text{P}$]], [[Class_NT|$\\text{NT}$]], [[Class_NT*|$\\text{NT*}$]], and [[Class_⊕P|$\\text{⊕P}$]] are either all equal or strictly nested.  In particular, they differ with probability 1 relative to a random oracle.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11588,9 +15356,19 @@ text = u'''
 
 = NT* - Near-Testable With Forest Ordering =
 
-== Comments ==
+== Description ==
 
-Defined like [[Class_NT|$\\text{NT}$]], but with a more general ordering on inputs.  A problem [[Class_L|$\\text{L}$]] is in [[Class_NT*|$\\text{NT*}$]] if, first, there is a partially defined predecessor function pred(x) in [[Class_FP|$\\text{FP}$]] that organizes the space of inputs into a forest.  The size of the lineage of each x must also be bounded by 2^poly(|x|)^.  Second, if L(x) is the Boolean answer to [[Class_L|$\\text{L}$]] on input x, then L(x)+L(pred(x)) is computable in polynomial time; or if pred(x) does not exist, L(x) is computable in polynomial time.
+{{{#!description
+
+Defined like [[Class_NT|$\\text{NT}$]], but with a more general ordering on inputs.  A problem [[Class_L|$\\text{L}$]] is in [[Class_NT*|$\\text{NT*}$]] if, first, there is a partially defined predecessor function pred(x) in [[Class_FP|$\\text{FP}$]] that organizes the space of inputs into a forest.  The size of the lineage of each x must also be bounded by 2^poly(|x|)^.  Second, if L(x) is the Boolean answer to [[Class_L|$\\text{L}$]] on input x, then L(x)+L(pred(x)) is computable in polynomial time; or if pred(x) does not exist, L(x) is computable in polynomial time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11600,6 +15378,10 @@ Defined in [[ZooRefs#GHJ+91|[GHJ+91] ]].
 
 Contains [[Class_NT|$\\text{NT}$]] and is contained in [[Class_⊕P|$\\text{⊕P}$]].  The inclusions are either both strict or both equalities (whence [[Class_⊕P|$\\text{⊕P}$]] = [[Class_P|$\\text{P}$]] as well).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11627,13 +15409,23 @@ text = u'''
 
 = NTIME(f(n)) - Nondeterministic f(n)-Time =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_NP|$\\text{NP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_NP|$\\text{NP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.
 
 
-
-The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible and f(n+1)=o(g), then [[Class_NTIME(f(n))|$\\text{NTIME(f(n))}$]] does not equal NTIME(g(n)) [[ZooRefs#SFM78|[SFM78] ]] (this is actually stronger than the hierarchy theorem for DTIME).
+The Nondeterministic Time Hierarchy Theorem: If f and g are time-constructible and f(n+1)=o(g), then NTIME(f(n)) does not equal NTIME(g(n)) [[ZooRefs#SFM78|[SFM78] ]] (this is actually stronger than the hierarchy theorem for DTIME).
 
 
 
@@ -11641,8 +15433,12 @@ NTIME(n) strictly contains DTIME(n) [[ZooRefs#PPS+83|[PPS+83] ]] (this result do
 
 
 
-For any constructible superpolynomial f, [[Class_NTIME(f(n))|$\\text{NTIME(f(n))}$]] with [[Class_NP|$\\text{NP}$]] oracle is not in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#Kan82|[Kan82] ]].
+For any constructible superpolynomial f, NTIME(f(n)) with [[Class_NP|$\\text{NP}$]] oracle is not in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11670,14 +15466,28 @@ text = u'''
 
 = Nearly-P - Languages Superpolynomially Close to P =
 
-== Comments ==
+== Description ==
 
-The set of languages [[Class_L|$\\text{L}$]] such that for every k, there is a language L_k in [[Class_P|$\\text{P}$]] that differs from [[Class_L|$\\text{L}$]] on at most 2^n^/n^k^ inputs of length n.  Discussed in [[ZooRefs#NS05|[NS05] ]] and implicitly defined in [[ZooRefs#Yam99|[Yam99] ]].
+{{{#!description
+
+The set of languages [[Class_L|$\\text{L}$]] such that for every k, there is a language L_k in [[Class_P|$\\text{P}$]] that differs from [[Class_L|$\\text{L}$]] on at most 2^n^/n^k^ inputs of length n.  Discussed in [[ZooRefs#NS05|[NS05] ]] and implicitly defined in [[ZooRefs#Yam99|[Yam99] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 The set of languages [[Class_L|$\\text{L}$]] such that for every k, there is a language L_k in [[Class_P|$\\text{P}$]] that differs from [[Class_L|$\\text{L}$]] on at most 2^n/n^k inputs of length n.  Discussed in [[ZooRefs#NS05|[NS05] ]] and implicitly defined in [[ZooRefs#Yam99|[Yam99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11705,9 +15515,19 @@ text = u'''
 
 = OCQ - One Clean Qubit =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a [[Class_BQP|$\\text{BQP}$]] machine in which a single qubit is initialized to the '0' state, and the remaining qubits are initialized to the maximally mixed state.  (This definition is not known to be robust, so one also needs to specify a gate set.)
+{{{#!description
+
+The class of problems solvable by a [[Class_BQP|$\\text{BQP}$]] machine in which a single qubit is initialized to the '0' state, and the remaining qubits are initialized to the maximally mixed state.  (This definition is not known to be robust, so one also needs to specify a gate set.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11715,8 +15535,12 @@ We also need to stipulate that there are no "strong measurements" -- intermediat
 
 
 
-Defined by [[ZooRefs#ASV00|[ASV00] ]] (though they didn't use the name OCQ), who also showed that if [[Class_OCQ|$\\text{OCQ}$]] = [[Class_BQP|$\\text{BQP}$]], something other than gate-by-gate simulation will be needed to show this.
+Defined by [[ZooRefs#ASV00|[ASV00] ]] (though they didn't use the name [[Class_OCQ|$\\text{OCQ}$]]), who also showed that if [[Class_OCQ|$\\text{OCQ}$]] = [[Class_BQP|$\\text{BQP}$]], something other than gate-by-gate simulation will be needed to show this.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11744,9 +15568,19 @@ text = u'''
 
 = OptP - Optimum Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of functions computable by taking the maximum of the output values over all accepting paths of an [[Class_NP|$\\text{NP}$]] machine.
+{{{#!description
+
+The class of functions computable by taking the maximum of the output values over all accepting paths of an [[Class_NP|$\\text{NP}$]] machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11756,6 +15590,10 @@ Defined in [[ZooRefs#Kre88|[Kre88] ]].
 
 Contrast with [[Class_FNP|$\\text{FNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11783,9 +15621,19 @@ text = u'''
 
 = P - Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class that started it all.
+{{{#!description
+
+The class that started it all.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11821,16 +15669,20 @@ Efforts to generalize [[Class_P|$\\text{P}$]] resulted in [[Class_BPP|$\\text{BP
 
 
 
-The nonuniform version is [[Class_P/poly|$\\text{P/poly}$]], the monotone version is [[Class_mP|$\\text{mP}$]], and versions over the real and complex number fields are [[Class_PR|$\\text{PR}$]] and [[Class_PC|$\\text{PC}$]] respectively.
+The nonuniform version is [[Class_P/poly|$\\text{P/poly}$]], the monotone version is [[Class_mP|$\\text{mP}$]], and versions over the real and complex number fields are [[Class_PR|$\\text{P}_\\text{R}\\text{}$]] and [[Class_PC|$\\text{P}_\\text{C}\\text{}$]] respectively.
 
 
 
-In descriptive complexity, [[Class_P|$\\text{P}$]] can be defined by three different kind of formulae, FO(lfp) which is also FO()], and also as [[Class_SO(Horn)|$\\text{SO(Horn)}$]]
+In descriptive complexity, [[Class_P|$\\text{P}$]] can be defined by three different kind of formulae, FO(lfp) which is also FO()], and also as SO(Horn)
 
 
 
 [[Class_P|$\\text{P}$]] queries are exactly the one that can be written in the While^/cons^ languages.
 == Relations ==
+
+{{{#!class_relations
+{"version": 1.0, "class": "P", "relations": {"contained_in": [{"class": "EXP"}, {"class": "NP"}]}}
+}}}
 
 
 == See Also ==
@@ -11858,9 +15710,19 @@ text = u'''
 
 = P^#P^ - P With #P Oracle =
 
-== Comments ==
+== Description ==
 
-I decided this class is so important that it deserves an entry of its own, apart from [[Class_SharpP|$\\text{#P}$]].
+{{{#!description
+
+I decided this class is so important that it deserves an entry of its own, apart from [[Class_SharpP|$\\text{#P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11868,8 +15730,12 @@ Contains [[Class_PH|$\\text{PH}$]] [[ZooRefs#Tod89|[Tod89] ]], and is contained 
 
 
 
-Equals [[Class_PPP|$\\text{PPP}$]] (exercise for the visitor).
+Equals [[Class_PPP|$\\text{P}^\\text{PP}\\text{}$]] (exercise for the visitor).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11897,10 +15763,26 @@ text = u'''
 
 = P^#P[1]^ - P With Single Query To #P Oracle =
 
+== Description ==
+
+{{{#!description
+
+Contains [[Class_PH|$\\text{PH}$]] [[ZooRefs#Tod89|[Tod89] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains [[Class_PH|$\\text{PH}$]] [[ZooRefs#Tod89|[Tod89] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11928,9 +15810,19 @@ text = u'''
 
 = P-Close - Problems Close to P =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a polynomial-time algorithm that outputs the wrong answer on only a sparse (that is, polynomially-bounded) set of instances.
+{{{#!description
+
+The class of decision problems solvable by a polynomial-time algorithm that outputs the wrong answer on only a sparse (that is, polynomially-bounded) set of instances.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11940,6 +15832,10 @@ Defined in [[ZooRefs#Yes83|[Yes83] ]].
 
 Contains [[Class_Almost-P|$\\text{Almost-P}$]] and is contained in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#Sch86|[Sch86] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -11967,9 +15863,19 @@ text = u'''
 
 = P-OBDD - Polynomial-Size Ordered Binary Decision Diagram =
 
-== Comments ==
+== Description ==
 
-An ordered binary decision diagram (OBDD) is a branching program (see k-PBP), with the additional constraint that if x,,i,, is queried before x,,j,, on any path, then i<j.
+{{{#!description
+
+An ordered binary decision diagram (OBDD) is a branching program (see [[Class_k-PBP|$\\text{k-PBP}$]]), with the additional constraint that if x,,i,, is queried before x,,j,, on any path, then i<j.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -11979,6 +15885,10 @@ Then [[Class_P-OBDD|$\\text{P-OBDD}$]] is the class of decision problems solvabl
 
 Contained in [[Class_PBP|$\\text{PBP}$]], as well as [[Class_BPP-OBDD|$\\text{BPP-OBDD}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12006,9 +15916,19 @@ text = u'''
 
 = P-Sel - P-Selective Sets =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which there's a polynomial-time algorithm with the following property.  Whenever it's given two instances, a "yes" and a "no" instance, the algorithm can always decide which is the "yes" instance.
+{{{#!description
+
+The class of decision problems for which there's a polynomial-time algorithm with the following property.  Whenever it's given two instances, a "yes" and a "no" instance, the algorithm can always decide which is the "yes" instance.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12016,8 +15936,12 @@ Defined in [[ZooRefs#Sel79|[Sel79] ]], where it was also shown that if [[Class_N
 
 
 
-There exist P-selective sets that are not recursive (i.e. not in R).
+There exist P-selective sets that are not recursive (i.e. not in [[Class_R|$\\text{R}$]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12045,9 +15969,19 @@ text = u'''
 
 = P/log - P With Logarithmic Advice =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_P/poly|$\\text{P/poly}$]], except that the advice string for input size n can have length at most logarithmic in n, rather than polynomial.
+{{{#!description
+
+Same as [[Class_P/poly|$\\text{P/poly}$]], except that the advice string for input size n can have length at most logarithmic in n, rather than polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12057,6 +15991,10 @@ Strictly contained in [[Class_IC[log,poly]|$\\text{IC[log,poly]}$]].
 
 If [[Class_NP|$\\text{NP}$]] is contained in [[Class_P/log|$\\text{P/log}$]] then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12084,9 +16022,19 @@ text = u'''
 
 = P/poly - Nonuniform Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a family of polynomial-size Boolean circuits.  The family can be nonuniform; that is, there could be a completely different circuit for each input length.
+{{{#!description
+
+The class of decision problems solvable by a family of polynomial-size Boolean circuits.  The family can be nonuniform; that is, there could be a completely different circuit for each input length.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12098,7 +16046,7 @@ Contains [[Class_BPP|$\\text{BPP}$]] by the progenitor of derandomization argume
 
 
 
-[[ZooRefs#KL82|[KL82] ]] showed that, if [[Class_P/poly|$\\text{P/poly}$]] contains [[Class_NP|$\\text{NP}$]], then [[Class_PH|$\\text{PH}$]] collapses to the second level, [[Class_Σ2P|$\\text{Σ2P}$]].
+[[ZooRefs#KL82|[KL82] ]] showed that, if [[Class_P/poly|$\\text{P/poly}$]] contains [[Class_NP|$\\text{NP}$]], then [[Class_PH|$\\text{PH}$]] collapses to the second level, [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]].
 
 
 
@@ -12106,13 +16054,13 @@ They also showed:
 
 
 
-If [[Class_PSPACE|$\\text{PSPACE}$]] is in [[Class_P/poly|$\\text{P/poly}$]] then [[Class_PSPACE|$\\text{PSPACE}$]] equals [[Class_Σ2P|$\\text{Σ2P}$]] ∩ [[Class_Π2P|$\\text{Π2P}$]].
+If [[Class_PSPACE|$\\text{PSPACE}$]] is in [[Class_P/poly|$\\text{P/poly}$]] then [[Class_PSPACE|$\\text{PSPACE}$]] equals [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] ∩ [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]].
 
-If [[Class_EXP|$\\text{EXP}$]] is in [[Class_P/poly|$\\text{P/poly}$]] then [[Class_EXP|$\\text{EXP}$]] = [[Class_Σ2P|$\\text{Σ2P}$]].
+If [[Class_EXP|$\\text{EXP}$]] is in [[Class_P/poly|$\\text{P/poly}$]] then [[Class_EXP|$\\text{EXP}$]] = [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]].
 
 
 
-It was later shown that, if [[Class_NP|$\\text{NP}$]] is contained in [[Class_P/poly|$\\text{P/poly}$]], then [[Class_PH|$\\text{PH}$]] collapses to ZPP^NP^ [[ZooRefs#KW98|[KW98] ]] and indeed [[Class_S2P|$\\text{S2P}$]] [[ZooRefs#Cai01|[Cai01] ]]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to [[Class_Δ2P|$\\text{Δ2P}$]] [[ZooRefs#Wil85|[Wil85] ]].
+It was later shown that, if [[Class_NP|$\\text{NP}$]] is contained in [[Class_P/poly|$\\text{P/poly}$]], then [[Class_PH|$\\text{PH}$]] collapses to ZPP^NP^ [[ZooRefs#KW98|[KW98] ]] and indeed [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]] [[ZooRefs#Cai01|[Cai01] ]]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]] [[ZooRefs#Wil85|[Wil85] ]].
 
 
 
@@ -12128,12 +16076,16 @@ The monotone version of [[Class_P/poly|$\\text{P/poly}$]] is [[Class_mP/poly|$\\
 
 
 
-[[Class_P/poly|$\\text{P/poly}$]] has measure 0 in [[Class_E|$\\text{E}$]] with [[Class_Σ2P|$\\text{Σ2P}$]] oracle [May94b].
+[[Class_P/poly|$\\text{P/poly}$]] has measure 0 in [[Class_E|$\\text{E}$]] with [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] oracle [May94b].
 
 
 
 Strictly contains [[Class_IC[log,poly]|$\\text{IC[log,poly]}$]] and [[Class_P/log|$\\text{P/log}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12161,18 +16113,32 @@ text = u'''
 
 = PAC^0^ - Probabilistic AC0 =
 
+== Description ==
+
+{{{#!description
+
+The Political Action Committee for computational complexity research.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The Political Action Committee for computational complexity research.
+
+
+The class of problems for which there exists a [[Class_DiffAC0|$\\text{DiffAC}^\\text{0}\\text{}$]] function f such that the answer is "yes" on input x if and only if f(x)>0.
 
 
 
-The class of problems for which there exists a [[Class_DiffAC0|$\\text{DiffAC0}$]] function f such that the answer is "yes" on input x if and only if f(x)>0.
-
-
-
-Equals [[Class_TC0|$\\text{TC0}$]] and [[Class_C=AC0|$\\text{C=AC0}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+Equals [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] and [[Class_C=AC0|$\\text{C}_\\text{=}\\text{AC}^\\text{0}\\text{}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12200,9 +16166,19 @@ text = u'''
 
 = PBP - Polynomial-Size Branching Program =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_k-PBP|$\\text{k-PBP}$]] but with no width restriction.
+{{{#!description
+
+Same as [[Class_k-PBP|$\\text{k-PBP}$]] but with no width restriction.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12210,8 +16186,12 @@ Equals [[Class_L/poly|$\\text{L/poly}$]] [[ZooRefs#Cob66|[Cob66] ]].
 
 
 
-Contains [[Class_P-OBDD|$\\text{P-OBDD}$]], [[Class_BPd(P)|$\\text{BPd(P)}$]].
+Contains [[Class_P-OBDD|$\\text{P-OBDD}$]], BP,,d,,(P).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12239,9 +16219,19 @@ text = u'''
 
 = P,,C,, - Polynomial-Time Over The Complex Numbers =
 
-== Comments ==
+== Description ==
 
-An analog of [[Class_P|$\\text{P}$]] for Turing machines over a complex number field.
+{{{#!description
+
+An analog of [[Class_P|$\\text{P}$]] for Turing machines over a complex number field.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12249,8 +16239,12 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-See also [[Class_PR|$\\text{PR}$]], [[Class_NPC|$\\text{NPC}$]], [[Class_NPR|$\\text{NPR}$]], [[Class_VPk|$\\text{VPk}$]].
+See also [[Class_PR|$\\text{P}_\\text{R}\\text{}$]], [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]], [[Class_NPR|$\\text{NP}_\\text{R}\\text{}$]], [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12278,9 +16272,19 @@ text = u'''
 
 = PCD(r(n),q(n)) - Probabilistically Checkable Debate =
 
-== Comments ==
+== Description ==
 
-The class of decision problems decidable by a probabilistically checkable debate system, as follows.
+{{{#!description
+
+The class of decision problems decidable by a probabilistically checkable debate system, as follows.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12292,8 +16296,12 @@ Defined in [[ZooRefs#CFL+93|[CFL+93] ]], who also showed that PCD(log n, 1) = [[
 
 
 
-Contained in [[Class_GPCD(r(n),q(n))|$\\text{GPCD(r(n),q(n))}$]].
+Contained in GPCD(r(n),q(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12321,9 +16329,19 @@ text = u'''
 
 = PCP(r(n),q(n)) - Probabilistically Checkable Proof =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that a "yes" answer can be verified by a probabilistically checkable proof, as follows.
+{{{#!description
+
+The class of decision problems such that a "yes" answer can be verified by a probabilistically checkable proof, as follows.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12353,7 +16371,7 @@ By definition [[Class_NP|$\\text{NP}$]] = PCP(0,poly(n)).
 
 
 
-[[Class_PCP(r(n),q(n))|$\\text{PCP(r(n),q(n))}$]] is contained in NTIME(2^O(r(n))^q(n) + poly(n)).
+PCP(r(n),q(n)) is contained in NTIME(2^O(r(n))^q(n) + poly(n)).
 
 
 
@@ -12375,6 +16393,10 @@ Also, even though there exists an oracle relative to which [[Class_NP|$\\text{NP
 
 Another weird oracle fact: since [[Class_NP|$\\text{NP}$]] does not equal [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#SFM78|[SFM78] ]], PCP(0,log n) does not equal PCP(0,poly(n)).  However, there exist oracles relative to which the latter inequality is false [[ZooRefs#HCC+92|[HCC+92] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12402,18 +16424,32 @@ text = u'''
 
 = P,,CTC,, - P With Closed Time Curves =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_P|$\\text{P}$]] with access to bits along a closed time curve.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_P|$\\text{P}$]] with access to bits along a closed time curve.
+
+
+Implicitly defined in [Aar05c], where it was shown that [[Class_PSPACE|$\\text{PSPACE}$]] = [[Class_PCTC|$\\text{P}_\\text{CTC}\\text{}$]].
 
 
 
-Implicitly defined in [Aar05c], where it was shown that [[Class_PSPACE|$\\text{PSPACE}$]] = [[Class_PCTC|$\\text{PCTC}$]].
-
-
-
-See also [[Class_BQPCTC|$\\text{BQPCTC}$]].
+See also [[Class_BQPCTC|$\\text{BQP}_\\text{CTC}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12441,14 +16477,28 @@ text = u'''
 
 = PEXP - Probabilistic Exponential-Time =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_EXP|$\\text{EXP}$]] as [[Class_PP|$\\text{PP}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_EXP|$\\text{EXP}$]] as [[Class_PP|$\\text{PP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Is not contained in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#BFT98|[BFT98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12476,10 +16526,26 @@ text = u'''
 
 = PF - Alternate Name for FP =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12507,9 +16573,19 @@ text = u'''
 
 = PFCHK(t(n)) - Proof-Checker =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable in time O(t(n)) by a nondeterministic Turing machine, as follows.  The machine is given oracle access to a proof string of unbounded length.
+{{{#!description
+
+The class of decision problems solvable in time O(t(n)) by a nondeterministic Turing machine, as follows.  The machine is given oracle access to a proof string of unbounded length.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12525,6 +16601,10 @@ Credited in [[ZooRefs#For94|[For94] ]] to S. Arora, [[Class_R|$\\text{R}$]]. Imp
 
 An interesting question is whether [[Class_NP|$\\text{NP}$]] = PFCHK(log n) relative to all possible oracles.  Fortnow [[ZooRefs#For94|[For94] ]] observes that the answer depends on what oracle access mechanism is used.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12552,9 +16632,19 @@ text = u'''
 
 = PH - Polynomial-Time Hierarchy =
 
-== Comments ==
+== Description ==
 
-Let Δ,,0,,P = Σ,,0,,P = Π,,0,,P = [[Class_P|$\\text{P}$]].  Then for i>0, let
+{{{#!description
+
+Let Δ,,0,,P = Σ,,0,,P = Π,,0,,P = [[Class_P|$\\text{P}$]].  Then for i>0, let}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12611,6 +16701,10 @@ For a compendium of problems complete for different classes of the Polynomial Hi
 Since [[Class_NP|$\\text{NP}$]] is the class of query expressible in second-order existantial logic, [[Class_PH|$\\text{PH}$]] can also be defined as the query expressible in second-order logic.
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -12637,9 +16731,19 @@ text = u'''
 
 = PH^cc^ - Communication Complexity PH =
 
-== Comments ==
+== Description ==
 
-The obvious generalization of [[Class_NPcc|$\\text{NPcc}$]] and [[Class_coNPcc|$\\text{coNPcc}$]] to a nondeterministic hierarchy.
+{{{#!description
+
+The obvious generalization of [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] and [[Class_coNPcc|$\\text{coNP}^\\text{cc}\\text{}$]] to a nondeterministic hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12647,8 +16751,12 @@ It is unknown whether Σ,,2,,^cc^ equals Π,,2,,^cc^.
 
 
 
-Defined in [[ZooRefs#BFS86|[BFS86] ]], where it was also shown (among other things) that [[Class_BPPcc|$\\text{BPPcc}$]] is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
+Defined in [[ZooRefs#BFS86|[BFS86] ]], where it was also shown (among other things) that [[Class_BPPcc|$\\text{BPP}^\\text{cc}\\text{}$]] is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12676,9 +16784,19 @@ text = u'''
 
 = PINC - Polynomial Ignorance of Names of Classes =
 
-== Comments ==
+== Description ==
 
-(Actually, I've since been informed that [[Class_PINC|$\\text{PINC}$]] means "Incremental Polynomial-Time.")
+{{{#!description
+
+(Actually, I've since been informed that [[Class_PINC|$\\text{PINC}$]] means "Incremental Polynomial-Time.")}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12692,6 +16810,10 @@ Defined in [[ZooRefs#JY88|[JY88] ]].
 
 Contained in [[Class_PIO|$\\text{PIO}$]].  This containment is strict, since if m=2^n^ (say), then computing the first bit of f(x) might be EXP-complete.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12719,9 +16841,19 @@ text = u'''
 
 = PIO - Polynomial Input Output =
 
-== Comments ==
+== Description ==
 
-The class of function problems, f:{0,1}^n^->{0,1}^m^, such that f(x) is computable in time polynomial in n and m.  Allows us to discuss whether a function is "efficiently computable" or not, even if the output is too long to write down in polynomial time.
+{{{#!description
+
+The class of function problems, f:{0,1}^n^->{0,1}^m^, such that f(x) is computable in time polynomial in n and m.  Allows us to discuss whether a function is "efficiently computable" or not, even if the output is too long to write down in polynomial time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12731,6 +16863,10 @@ Defined in [[ZooRefs#Yan81|[Yan81] ]].
 
 Strictly contains [[Class_PINC|$\\text{PINC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12758,18 +16894,32 @@ text = u'''
 
 = P^K^ - P With Kolmogorov-Complexity Oracle =
 
+== Description ==
+
+{{{#!description
+
+[[Class_P|$\\text{P}$]] equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-[[Class_P|$\\text{P}$]] equipped with an oracle that, given a string x, returns the length of the shortest program that outputs x.
+
+
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that [[Class_PK|$\\text{P}^\\text{K}\\text{}$]] contains [[Class_PSPACE|$\\text{PSPACE}$]].  It is not known whether [[Class_PK|$\\text{P}^\\text{K}\\text{}$]] contains all of [[Class_R|$\\text{R}$]], or even any recursive problem not in [[Class_PSPACE|$\\text{PSPACE}$]].
 
 
 
-A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that [[Class_PK|$\\text{PK}$]] contains [[Class_PSPACE|$\\text{PSPACE}$]].  It is not known whether [[Class_PK|$\\text{PK}$]] contains all of [[Class_R|$\\text{R}$]], or even any recursive problem not in [[Class_PSPACE|$\\text{PSPACE}$]].
-
-
-
-See also: [[Class_BPPKT|$\\text{BPPKT}$]].
+See also: [[Class_BPPKT|$\\text{BPP}^\\text{KT}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12797,14 +16947,28 @@ text = u'''
 
 = PKC - Perfect Knowledge Complexity =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_PZK|$\\text{PZK}$]] as [[Class_SKC|$\\text{SKC}$]] does to [[Class_SZK|$\\text{SZK}$]].
+{{{#!description
+
+Has the same relation to [[Class_PZK|$\\text{PZK}$]] as [[Class_SKC|$\\text{SKC}$]] does to [[Class_SZK|$\\text{SZK}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#GP91|[GP91] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12832,9 +16996,19 @@ text = u'''
 
 = PL - Probabilistic L =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] that [[Class_PP|$\\text{PP}$]] has to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] that [[Class_PP|$\\text{PP}$]] has to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -12844,6 +17018,10 @@ Contains [[Class_BPL|$\\text{BPL}$]].
 
 PL^PL^ = [[Class_PL|$\\text{PL}$]] (see [[ZooRefs#HO02|[HO02] ]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12871,14 +17049,28 @@ text = u'''
 
 = PL,,1,, - Polynomially-Bounded L1 Spectral Norm =
 
+== Description ==
+
+{{{#!description
+
+The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the sum of absolute values of Fourier coefficients of f is bounded by a polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the sum of absolute values of Fourier coefficients of f is bounded by a polynomial in n.
 
 
-
-Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL1|$\\text{PL1}$]] is contained in [[Class_PT1|$\\text{PT1}$]] (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL1|$\\text{PL}_\\text{1}\\text{}$]] is contained in [[Class_PT1|$\\text{PT}_\\text{1}\\text{}$]] (and this inclusion is strict).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12906,14 +17098,28 @@ text = u'''
 
 = PLF - Polynomial Leaf =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#Pap90|[Pap90] ]].
+{{{#!description
+
+Defined in [[ZooRefs#Pap90|[Pap90] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 I believe it's the same as [[Class_PPA|$\\text{PPA}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12941,10 +17147,26 @@ text = u'''
 
 = PLL - Polynomial Local Lemma =
 
+== Description ==
+
+{{{#!description
+
+The class of [[Class_TFNP|$\\text{TFNP}$]] function problems that are guaranteed to have a solution because of the Lovász Local Lemma.  Defined in [Pap94b].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of [[Class_TFNP|$\\text{TFNP}$]] function problems that are guaranteed to have a solution because of the Lovász Local Lemma.  Defined in [Pap94b].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -12972,9 +17194,19 @@ text = u'''
 
 = PLS - Polynomial Local Search =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_TFNP|$\\text{TFNP}$]] function problems that are guaranteed to have a solution because of the lemma that "every finite directed acyclic graph has a sink."
+{{{#!description
+
+The subclass of [[Class_TFNP|$\\text{TFNP}$]] function problems that are guaranteed to have a solution because of the lemma that "every finite directed acyclic graph has a sink."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13009,6 +17241,10 @@ Whether [[Class_PLS|$\\text{PLS}$]] is not in [[Class_PPP|$\\text{PPP}$]] relati
 [[ZooRefs#CT07|[CT07] ]] conjecture that if [[Class_PPAD|$\\text{PPAD}$]] is in [[Class_P|$\\text{P}$]], then [[Class_PLS|$\\text{PLS}$]] is in [[Class_P|$\\text{P}$]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -13035,14 +17271,28 @@ text = u'''
 
 = PL,,∞,, - Polynomially-Bounded L∞-1 Spectral Norm =
 
+== Description ==
+
+{{{#!description
+
+The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the maximum of |α|^-1^, over all Fourier coefficients α of f, is upper-bounded by a polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the maximum of |α|^-1^, over all Fourier coefficients α of f, is upper-bounded by a polynomial in n.
 
 
-
-Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL∞|$\\text{PL∞}$]] contains [[Class_PT1|$\\text{PT1}$]] (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL∞|$\\text{PL}_\\text{∞}\\text{}$]] contains [[Class_PT1|$\\text{PT}_\\text{1}\\text{}$]] (and this inclusion is strict).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13070,10 +17320,26 @@ text = u'''
 
 = P^NP^ - P With Oracle Access To NP =
 
+== Description ==
+
+{{{#!description
+
+See [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-See [[Class_Δ2P|$\\text{Δ2P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13101,14 +17367,28 @@ text = u'''
 
 = P^NP[k]^ - P With k NP Queries(for constant k) =
 
+== Description ==
+
+{{{#!description
+
+Equals [[Class_P|$\\text{P}$]] with 2^k^-1 parallel queries to [[Class_NP|$\\text{NP}$]] (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_P|$\\text{P}$]] with 2^k^-1 parallel queries to [[Class_NP|$\\text{NP}$]] (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
 
 
-
-If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = [[Class_PNP[log]|$\\text{PNP[log]}$]] and indeed [[Class_PH|$\\text{PH}$]] collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
+If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]] and indeed [[Class_PH|$\\text{PH}$]] collapses to Δ,,3,,P (attributed in [Har87b] to J. Kadin).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13136,26 +17416,40 @@ text = u'''
 
 = P^NP[log]^ - P With Log NP Queries =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a [[Class_P|$\\text{P}$]] machine, that can make O(log n) queries to an [[Class_NP|$\\text{NP}$]] oracle (where n is the length of the input).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable by a [[Class_P|$\\text{P}$]] machine, that can make O(log n) queries to an [[Class_NP|$\\text{NP}$]] oracle (where n is the length of the input).
+
+
+Equals [[Class_P||NP|$\\text{P}^\\text{||NP}\\text{}$]], the class of decision problems solvable by a [[Class_P|$\\text{P}$]] machine that can make polynomially many nonadaptive queries to an [[Class_NP|$\\text{NP}$]] oracle (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
 
 
 
-Equals [[Class_P||NP|$\\text{P||NP}$]], the class of decision problems solvable by a [[Class_P|$\\text{P}$]] machine that can make polynomially many nonadaptive queries to an [[Class_NP|$\\text{NP}$]] oracle (i.e. queries that do not depend on the outcomes of previous queries) ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
+[[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]] is contained in [[Class_PP|$\\text{PP}$]] [[ZooRefs#BHW89|[BHW89] ]].
 
 
 
-[[Class_PNP[log]|$\\text{PNP[log]}$]] is contained in [[Class_PP|$\\text{PP}$]] [[ZooRefs#BHW89|[BHW89] ]].
+Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]] [[ZooRefs#HHR97|[HHR97] ]].
 
 
 
-Determining the winner in an election system proposed in 1876 by Charles Dodgson (a.k.a. Lewis Carroll) has been shown to be complete for [[Class_PNP[log]|$\\text{PNP[log]}$]] [[ZooRefs#HHR97|[HHR97] ]].
-
-
-
-Contains [[Class_PNP[k]|$\\text{PNP[k]}$]] for all constants k.
+Contains [[Class_PNP[k]|$\\text{P}^\\text{NP[k]}\\text{}$]] for all constants k.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13183,9 +17477,19 @@ text = u'''
 
 = P^NP[log^2]^ - P With Log2 NP Queries =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_PNP[log]|$\\text{PNP[log]}$]], except that now log^2^ queries can be made.
+{{{#!description
+
+Same as [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]], except that now log^2^ queries can be made.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13195,6 +17499,10 @@ The model-checking problem for a certain temporal logic is P^NP[log^2]^-complete
 
 For all k, [[Class_P|$\\text{P}$]] with log^k^ adaptive queries to [[Class_NP|$\\text{NP}$]] coincides with [[Class_P|$\\text{P}$]] with log^k+1^ nonadaptive queries [[ZooRefs#CS92|[CS92] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13222,14 +17530,28 @@ text = u'''
 
 = PODN - Polynomial Odd Degree Node =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_TFNP|$\\text{TFNP}$]] function problems that are guaranteed to have a solution because of the lemma that "every finite graph has an even number of odd-degree nodes."
+{{{#!description
+
+The subclass of [[Class_TFNP|$\\text{TFNP}$]] function problems that are guaranteed to have a solution because of the lemma that "every finite graph has an even number of odd-degree nodes."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_PPA|$\\text{PPA}$]] [[ZooRefs#Pap90|[Pap90] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13257,9 +17579,19 @@ text = u'''
 
 = PP - Probabilistic Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13277,7 +17609,7 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 
 
-Contains [[Class_PNP[log]|$\\text{PNP[log]}$]] [[ZooRefs#BHW89|[BHW89] ]].
+Contains [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]] [[ZooRefs#BHW89|[BHW89] ]].
 
 
 
@@ -13285,11 +17617,11 @@ Equals PP^BPP^ [KST+89b] as well as [[Class_PostBQP|$\\text{PostBQP}$]] [Aar05b]
 
 
 
-However, there exists an oracle relative to which [[Class_PP|$\\text{PP}$]] does not contain [[Class_Δ2P|$\\text{Δ2P}$]] [[ZooRefs#Bei94|[Bei94] ]].
+However, there exists an oracle relative to which [[Class_PP|$\\text{PP}$]] does not contain [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]] [[ZooRefs#Bei94|[Bei94] ]].
 
 
 
-[[Class_PH|$\\text{PH}$]] is in [[Class_PPP|$\\text{PPP}$]] [[ZooRefs#Tod89|[Tod89] ]].
+[[Class_PH|$\\text{PH}$]] is in [[Class_PPP|$\\text{P}^\\text{PP}\\text{}$]] [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
@@ -13297,7 +17629,7 @@ However, there exists an oracle relative to which [[Class_PP|$\\text{PP}$]] does
 
 
 
-For a random oracle A, [[Class_PPA|$\\text{PPA}$]] is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|[ABF+94] ]].
+For a random oracle A, [[Class_PPA|$\\text{PP}^\\text{A}\\text{}$]] is strictly contained in PSPACE^A^ with probability 1 [[ZooRefs#ABF+94|[ABF+94] ]].
 
 
 
@@ -13311,6 +17643,10 @@ By contrast, there exists an oracle relative to which [[Class_PP|$\\text{PP}$]] 
 
 [[Class_PP|$\\text{PP}$]] can be generalized to the counting hierarchy [[Class_CH|$\\text{CH}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13338,14 +17674,28 @@ text = u'''
 
 = PP/poly - Nonuniform PP =
 
-== Comments ==
+== Description ==
 
-Contains [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]] [Aar04b].
+{{{#!description
+
+Contains [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]] [Aar04b].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 If [[Class_PP/poly|$\\text{PP/poly}$]] = [[Class_P/poly|$\\text{P/poly}$]] then [[Class_PP|$\\text{PP}$]] is contained in [[Class_P/poly|$\\text{P/poly}$]].  Indeed this is true with any syntactically defined class in place of [[Class_PP|$\\text{PP}$]].  An implication is that any unrelativized separation of [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]] from [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] would imply that [[Class_PP|$\\text{PP}$]] does not have polynomial-size circuits.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13373,9 +17723,19 @@ text = u'''
 
 = PPA - Polynomial Parity Argument =
 
-== Comments ==
+== Description ==
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13408,6 +17768,10 @@ Contains [[Class_PPAD|$\\text{PPAD}$]].
 There exist oracles relative to which [[Class_PPA|$\\text{PPA}$]] does not contain [[Class_PLS|$\\text{PLS}$]] [[ZooRefs#BM04|[BM04] ]] and [[Class_PPP|$\\text{PPP}$]] [[ZooRefs#BCE+95|[BCE+95] ]].  There also exists an oracle relative to which [[Class_PPA|$\\text{PPA}$]] is not contained in [[Class_PPP|$\\text{PPP}$]] [[ZooRefs#BCE+95|[BCE+95] ]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -13434,9 +17798,19 @@ text = u'''
 
 = PPAD - Polynomial Parity Argument (Directed) =
 
-== Comments ==
+== Description ==
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13460,6 +17834,10 @@ There exists an oracle relative to which [[Class_PPAD|$\\text{PPAD}$]] is not co
 
 There exists an oracle relative to which [[Class_PPP|$\\text{PPP}$]] is not contained in [[Class_PPAD|$\\text{PPAD}$]] [[ZooRefs#BCE+95|[BCE+95] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13487,9 +17865,19 @@ text = u'''
 
 = PPADS - Polynomial Parity Argument (Directed, Sink) =
 
-== Comments ==
+== Description ==
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13503,6 +17891,10 @@ Contained in [[Class_PPP|$\\text{PPP}$]].
 
 Contains [[Class_PPAD|$\\text{PPAD}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13530,9 +17922,19 @@ text = u'''
 
 = P^PP^ - P With PP Oracle =
 
-== Comments ==
+== Description ==
 
-Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13568,7 +17970,7 @@ A level of the counting hierarchy [[Class_CH|$\\text{CH}$]].
 
 
 
-It is not known whether there exists an oracle relative to which [[Class_PPP|$\\text{PPP}$]] does not equal [[Class_PSPACE|$\\text{PSPACE}$]].
+It is not known whether there exists an oracle relative to which [[Class_PPP|$\\text{P}^\\text{PP}\\text{}$]] does not equal [[Class_PSPACE|$\\text{PSPACE}$]].
 
 
 
@@ -13576,12 +17978,16 @@ Contains PP^PH^ [[ZooRefs#Tod89|[Tod89] ]].
 
 
 
-Equals [[Class_PSharpP|$\\text{P#P}$]] (exercise for the visitor).
+Equals [[Class_PSharpP|$\\text{P}^\\text{#P}\\text{}$]] (exercise for the visitor).
 
 
 
 Since the permanent of a matrix is #P-complete [[ZooRefs#Val79|[Val79] ]], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13609,9 +18015,19 @@ text = u'''
 
 = PPSPACE - Probabilistic PSPACE =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_IPP|$\\text{IPP}$]], except that [[Class_IPP|$\\text{IPP}$]] uses private coins while [[Class_PPSPACE|$\\text{PPSPACE}$]] uses public coins.
+{{{#!description
+
+Same as [[Class_IPP|$\\text{IPP}$]], except that [[Class_IPP|$\\text{IPP}$]] uses private coins while [[Class_PPSPACE|$\\text{PPSPACE}$]] uses public coins.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13625,6 +18041,10 @@ Equals [[Class_PSPACE|$\\text{PSPACE}$]].
 
 Defined in [[ZooRefs#Pap83|[Pap83] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13652,18 +18072,32 @@ text = u'''
 
 = PP^cc^ - Analogue of PP for Communication Complexity =
 
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#BFS86|[BFS86] ]], [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]] is one of two ways to define a communication complexity analogue of [[Class_PP|$\\text{PP}$]]. In [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]], we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]], the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Defined in [[ZooRefs#BFS86|[BFS86] ]], [[Class_PPcc|$\\text{PPcc}$]] is one of two ways to define a communication complexity analogue of [[Class_PP|$\\text{PP}$]]. In [[Class_PPcc|$\\text{PPcc}$]], we note that in an algorithm that uses an amount of random bits bounded by , the bias between the accept and reject probabilities can be no smaller than . Thus, in [[Class_PPcc|$\\text{PPcc}$]], the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.
+
+
+The difference between this class and [[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]] is discussed further in [[ZooRefs#BVW07|[BVW07] ]], where it is shown that [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]] ⊂ [[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]].
 
 
 
-The difference between this class and [[Class_UPPcc|$\\text{UPPcc}$]] is discussed further in [[ZooRefs#BVW07|[BVW07] ]], where it is shown that [[Class_PPcc|$\\text{PPcc}$]] ⊂ [[Class_UPPcc|$\\text{UPPcc}$]].
-
-
-
-See Also: [[Class_UPPcc|$\\text{UPPcc}$]].
+See Also: [[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13691,9 +18125,19 @@ text = u'''
 
 = PQUERY - PSPACE With Polynomial Queries =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable in polynomial space using at most a polynomial number of queries to the oracle.
+{{{#!description
+
+The class of decision problems solvable in polynomial space using at most a polynomial number of queries to the oracle.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13703,6 +18147,10 @@ Thus, [[Class_PQUERY|$\\text{PQUERY}$]] = [[Class_PSPACE|$\\text{PSPACE}$]], but
 
 Defined in [[ZooRefs#Kur83|[Kur83] ]], where it was actually put forward as a serious argument (!!) against believing relativization results.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13730,9 +18178,19 @@ text = u'''
 
 = P,,R,, - Polynomial-Time Over The Reals =
 
-== Comments ==
+== Description ==
 
-Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that [[Class_PR|$\\text{PR}$]] is strictly contained in [[Class_R|$\\text{R}$]].
+{{{#!description
+
+Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that [[Class_PR|$\\text{PR}$]] is strictly contained in [[Class_R|$\\text{R}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13760,8 +18218,12 @@ Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
 
 
 
-See also [[Class_PC|$\\text{PC}$]], [[Class_NPC|$\\text{NPC}$]], [[Class_NPR|$\\text{NPR}$]], [[Class_VPk|$\\text{VPk}$]].
+See also [[Class_PC|$\\text{P}_\\text{C}\\text{}$]], [[Class_NPC|$\\text{NP}_\\text{C}\\text{}$]], [[Class_NPR|$\\text{NP}_\\text{R}\\text{}$]], [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13789,9 +18251,19 @@ text = u'''
 
 = PSK - Polynomial Sink =
 
-== Comments ==
+== Description ==
 
-Yeah, I'm told that's what the S and [[Class_K|$\\text{K}$]] stand for.  Go figure.
+{{{#!description
+
+Yeah, I'm told that's what the S and [[Class_K|$\\text{K}$]] stand for.  Go figure.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13805,6 +18277,10 @@ Defined in [[ZooRefs#Pap90|[Pap90] ]].
 
 Equals [[Class_PPADS|$\\text{PPADS}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13832,9 +18308,19 @@ text = u'''
 
 = PSPACE - Polynomial-Space =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a Turing machine in polynomial space.
+{{{#!description
+
+The class of decision problems solvable by a Turing machine in polynomial space.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -13862,12 +18348,16 @@ Contained in [[Class_EXP|$\\text{EXP}$]].  There exists an oracle relative to wh
 
 
 
-In descriptive complexity, [[Class_PSPACE|$\\text{PSPACE}$]] can be defined with 4 differents kind of formulae, FO() which is also [[Class_FO(PFP)|$\\text{FO(PFP)}$]] and SO() which is also SO(TC).
+In descriptive complexity, [[Class_PSPACE|$\\text{PSPACE}$]] can be defined with 4 differents kind of formulae, [[Class_FO|$\\text{FO}$]]() which is also FO(PFP) and [[Class_SO|$\\text{SO}$]]() which is also SO(TC).
 
 
 
 A canonical PSPACE-complete problem is Quantified Boolean Formula (QBF): Given a Boolean formula with universal and existential quantifiers, decide whether it's true or false.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13895,10 +18385,26 @@ text = u'''
 
 = PSPACE/poly - PSPACE With Polynomial-Size Advice =
 
+== Description ==
+
+{{{#!description
+
+Contains [[Class_QMA/qpoly|$\\text{QMA/qpoly}$]] [Aar06b].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains [[Class_QMA/qpoly|$\\text{QMA/qpoly}$]] [Aar06b].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13926,14 +18432,28 @@ text = u'''
 
 = PT/WK(f(n),g(n)) - Parallel Time f(n) / Work g(n) =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a uniform family of Boolean circuits with depth upper-bounded by f(n) and size (number of gates) upper-bounded by g(n).
+{{{#!description
+
+The class of decision problems solvable by a uniform family of Boolean circuits with depth upper-bounded by f(n) and size (number of gates) upper-bounded by g(n).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 The union of PT/WK(log^k^n, n^k^) over all constants k equals [[Class_NC|$\\text{NC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13961,14 +18481,28 @@ text = u'''
 
 = PT,,1,, - Polynomial Threshold Functions =
 
+== Description ==
+
+{{{#!description
+
+The class of Boolean functions f:{-1,1}^n^->{-1,1} such that f(x)=sgn(p(x)), where p is a polynomial having a number of terms polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of Boolean functions f:{-1,1}^n^->{-1,1} such that f(x)=sgn(p(x)), where p is a polynomial having a number of terms polynomial in n.
 
 
-
-Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PT1|$\\text{PT1}$]] contains [[Class_PL1|$\\text{PL1}$]] (and this inclusion is strict), and that [[Class_PT1|$\\text{PT1}$]] is contained in [[Class_PL∞|$\\text{PL∞}$]] (and this inclusion is strict).
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PT1|$\\text{PT}_\\text{1}\\text{}$]] contains [[Class_PL1|$\\text{PL}_\\text{1}\\text{}$]] (and this inclusion is strict), and that [[Class_PT1|$\\text{PT}_\\text{1}\\text{}$]] is contained in [[Class_PL∞|$\\text{PL}_\\text{∞}\\text{}$]] (and this inclusion is strict).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -13996,10 +18530,26 @@ text = u'''
 
 = PTAPE - Archaic for PSPACE =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14027,9 +18577,19 @@ text = u'''
 
 = PTAS - Polynomial-Time Approximation Scheme =
 
-== Comments ==
+== Description ==
 
-The subclass of [[Class_NPO|$\\text{NPO}$]] problems that admit an approximation scheme in the following sense.  For any ε>0, there is a polynomial-time algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  (However, the exponent of the polynomial might depend strongly on ε.)
+{{{#!description
+
+The subclass of [[Class_NPO|$\\text{NPO}$]] problems that admit an approximation scheme in the following sense.  For any ε>0, there is a polynomial-time algorithm that is guaranteed to find a solution whose cost is within a 1+ε factor of the optimum cost.  (However, the exponent of the polynomial might depend strongly on ε.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14043,6 +18603,10 @@ As an example, the Traveling Salesman Problem in the Euclidean plane is in [[Cla
 
 Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14070,9 +18634,19 @@ text = u'''
 
 = PZK - Perfect Zero Knowledge =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_SZK|$\\text{SZK}$]], but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of his interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)
+{{{#!description
+
+Same as [[Class_SZK|$\\text{SZK}$]], but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of his interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14086,6 +18660,10 @@ See also: [[Class_CZK|$\\text{CZK}$]].
 
 Same as [[Class_SZK|$\\text{SZK}$]], but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over Arthur's view of his interaction with Merlin, conditioned on Arthur's random coins, and (2) the distribution over views that Arthur can simulate without Merlin's help.)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14113,9 +18691,19 @@ text = u'''
 
 = P^cc^ - Communication Complexity P =
 
-== Comments ==
+== Description ==
 
-In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  [[Class_Pcc|$\\text{Pcc}$]] is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.
+{{{#!description
+
+In a two-party communication complexity problem, Alice and Bob have n-bit strings x and y respectively, and they wish to evaluate some Boolean function f(x,y) using as few bits of communication as possible.  [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]] is the class of (infinite families of) f's, such that the amount of communication needed is only O(polylog(n)), even if Alice and Bob are restricted to a deterministic protocol.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14123,11 +18711,11 @@ Note that all functions of the form above are solvable given  bits of communicat
 
 
 
-Is strictly contained in [[Class_NPcc|$\\text{NPcc}$]] and in [[Class_BPPcc|$\\text{BPPcc}$]] because of the EQUALITY problem.
+Is strictly contained in [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] and in [[Class_BPPcc|$\\text{BPP}^\\text{cc}\\text{}$]] because of the EQUALITY problem.
 
 
 
-Equals [[Class_NPcc|$\\text{NPcc}$]] ∩ [[Class_coNPcc|$\\text{coNPcc}$]].
+Equals [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] ∩ [[Class_coNPcc|$\\text{coNP}^\\text{cc}\\text{}$]].
 
 
 
@@ -14135,16 +18723,20 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 
 
-Like [[Class_Pcc|$\\text{Pcc}$]], but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
+Like [[Class_Pcc|$\\text{P}^\\text{cc}\\text{}$]], but with  players, where each player can see all of the other player's bits, but not their own. Intuitively, each player has their bits written on their forehead.
 
 
 
-More formally, [[Class_Pcc|$\\text{Pcc}$]] is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
+More formally, [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] is the class of functions  where for all , , such that  is solvable in a deterministic sense by  players, each of which is aware of all inputs  other than his own, and such that  bits of communication are used.
 
 
 
-[[Class_Pcc|$\\text{Pcc}$]] is trivially contained in [[Class_BPPcc|$\\text{BPPcc}$]], [[Class_RPcc|$\\text{RPcc}$]] and [[Class_NPcc|$\\text{NPcc}$]].
+[[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]] is trivially contained in [[Class_BPPcc|$\\text{BPP}_\\text{}\\text{}^\\text{cc}\\text{}$]], [[Class_RPcc|$\\text{RP}_\\text{}\\text{}^\\text{cc}\\text{}$]] and [[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14172,9 +18764,19 @@ text = u'''
 
 = PermUP - Self-Permuting UP =
 
-== Comments ==
+== Description ==
 
-The class of languages [[Class_L|$\\text{L}$]] in [[Class_UP|$\\text{UP}$]] such that the mapping from an input x to the unique witness for x is a permutation of [[Class_L|$\\text{L}$]].
+{{{#!description
+
+The class of languages [[Class_L|$\\text{L}$]] in [[Class_UP|$\\text{UP}$]] such that the mapping from an input x to the unique witness for x is a permutation of [[Class_L|$\\text{L}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14192,6 +18794,10 @@ On the other hand, they show that if [[Class_PermUP|$\\text{PermUP}$]] = [[Class
 
 See also: [[Class_SelfNP|$\\text{SelfNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14219,9 +18825,19 @@ text = u'''
 
 = PhP - Physical Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-Defined by Valiant [[ZooRefs#Val03|[Val03] ]] to be "the class of physically constructible polynomial resource computers" (characterizing what "can be computed in the physical world in practice").  There he says that [[Class_PhP|$\\text{PhP}$]] contains [[Class_P|$\\text{P}$]] and [[Class_BPP|$\\text{BPP}$]], but that it is open whether [[Class_PhP|$\\text{PhP}$]] contains [[Class_BQP|$\\text{BQP}$]], since no scalable quantum computing proposal has been demonstrated beyond reasonable doubt.
+{{{#!description
+
+Defined by Valiant [[ZooRefs#Val03|[Val03] ]] to be "the class of physically constructible polynomial resource computers" (characterizing what "can be computed in the physical world in practice").  There he says that [[Class_PhP|$\\text{PhP}$]] contains [[Class_P|$\\text{P}$]] and [[Class_BPP|$\\text{BPP}$]], but that it is open whether [[Class_PhP|$\\text{PhP}$]] contains [[Class_BQP|$\\text{BQP}$]], since no scalable quantum computing proposal has been demonstrated beyond reasonable doubt.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14231,6 +18847,10 @@ For what it's worth, the present zookeeper has more qualms about admitting DTIME
 
 The present veterinarian concurs that [[Class_PhP|$\\text{PhP}$]] is an unhealthy animal, although it is valid to ask whether [[Class_BQP|$\\text{BQP}$]] is a realistic class.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14258,9 +18878,19 @@ text = u'''
 
 = PostBQP - BQP With Postselection =
 
-== Comments ==
+== Description ==
 
-A class inspired by the proverb, "if at first you don't succeed, try, try again."
+{{{#!description
+
+A class inspired by the proverb, "if at first you don't succeed, try, try again."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14280,16 +18910,20 @@ Defined in [Aar05b], where it is also shown that [[Class_PostBQP|$\\text{PostBQP
 
 
 
-[Aar05b] also gives the following alternate characterizations of [[Class_PostBQP|$\\text{PostBQP}$]] (and therefore of PP):
+[Aar05b] also gives the following alternate characterizations of [[Class_PostBQP|$\\text{PostBQP}$]] (and therefore of [[Class_PP|$\\text{PP}$]]):
 
 
 
-The quantum analogue of [[Class_BPPpath|$\\text{BPPpath}$]].
+The quantum analogue of [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]].
 
 The class of problems solvable in quantum polynomial time if we allow arbitrary linear operations (not just unitary ones). Before measuring, we divide all amplitudes by a normalizing factor to make the probabilities sum to 1.
 
 The class of problems solvable in quantum polynomial time if we take the probability of measuring a basis state with amplitude α to be not |α|^2^ but |α|^p^, where p is an even integer greater than 2.  (Again we need to divide all amplitudes by a normalizing factor to make the probabilities sum to 1.)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14317,14 +18951,28 @@ text = u'''
 
 = Pr,,H,,SPACE(f(n)) - Unbounded-Error Halting Probabilistic f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to DSPACE(f(n)) as [[Class_PP|$\\text{PP}$]] does to [[Class_P|$\\text{P}$]].  The Turing machine has to halt on every input and every setting of the random tape.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_DSPACE(f(n))|$\\text{DSPACE(f(n))}$]] as [[Class_PP|$\\text{PP}$]] does to [[Class_P|$\\text{P}$]].  The Turing machine has to halt on every input and every setting of the random tape.
 
 
-
-Equals [[Class_PrSPACE(f(n))|$\\text{PrSPACE(f(n))}$]] [[ZooRefs#Jun85|[Jun85] ]].
+Equals PrSPACE(f(n)) [[ZooRefs#Jun85|[Jun85] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14352,9 +19000,19 @@ text = u'''
 
 = PrSPACE(f(n)) - Unbounded-Error Probabilistic f(n)-Space =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_DSPACE(f(n))|$\\text{DSPACE(f(n))}$]] as [[Class_PP|$\\text{PP}$]] does to [[Class_P|$\\text{P}$]].  The Turing machine has to halt with probability 1 on every input.
+{{{#!description
+
+Has the same relation to DSPACE(f(n)) as [[Class_PP|$\\text{PP}$]] does to [[Class_P|$\\text{P}$]].  The Turing machine has to halt with probability 1 on every input.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14362,8 +19020,12 @@ Contained in DSPACE(f(n)^2^) [[ZooRefs#BCP83|[BCP83] ]].
 
 
 
-Equals [[Class_PrHSPACE(f(n))|$\\text{PrHSPACE(f(n))}$]] [[ZooRefs#Jun85|[Jun85] ]].
+Equals Pr,,H,,SPACE(f(n)) [[ZooRefs#Jun85|[Jun85] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14391,14 +19053,28 @@ text = u'''
 
 = PromiseBPP - Promise-Problem BPP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_PromiseRP|$\\text{PromiseRP}$]], but for [[Class_BPP|$\\text{BPP}$]] instead of [[Class_RP|$\\text{RP}$]].
+{{{#!description
+
+Same as [[Class_PromiseRP|$\\text{PromiseRP}$]], but for [[Class_BPP|$\\text{BPP}$]] instead of [[Class_RP|$\\text{RP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#BF99|[BF99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14426,9 +19102,19 @@ text = u'''
 
 = PromiseBQP - Promise-Problem BQP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_PromiseBPP|$\\text{PromiseBPP}$]], but for [[Class_BQP|$\\text{BQP}$]] instead of [[Class_BPP|$\\text{BPP}$]].
+{{{#!description
+
+Same as [[Class_PromiseBPP|$\\text{PromiseBPP}$]], but for [[Class_BQP|$\\text{BQP}$]] instead of [[Class_BPP|$\\text{BPP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14438,6 +19124,10 @@ If [[Class_PromiseBQP|$\\text{PromiseBQP}$]] = [[Class_PromiseP|$\\text{PromiseP
 
 Same as [[Class_PromiseBQP|$\\text{PromiseBQP}$]], but for [[Class_BQP|$\\text{BQP}$]] instead of [[Class_BPP|$\\text{BPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14465,10 +19155,26 @@ text = u'''
 
 = PromiseP - Promise-Problem P =
 
+== Description ==
+
+{{{#!description
+
+The class of promise problems solvable by a [[Class_P|$\\text{P}$]] machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of promise problems solvable by a [[Class_P|$\\text{P}$]] machine.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14496,18 +19202,32 @@ text = u'''
 
 = PromiseRP - Promise-Problem RP =
 
+== Description ==
+
+{{{#!description
+
+The class of promise problems solvable by an [[Class_RP|$\\text{RP}$]] machine. I.e., the machine must accept with probability at least 1/2 for "yes" inputs, and with probability 0 for "no" inputs, but could have acceptance probability between 0 and 1/2 for inputs that do not satisfy the promise.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of promise problems solvable by an [[Class_RP|$\\text{RP}$]] machine. I.e., the machine must accept with probability at least 1/2 for "yes" inputs, and with probability 0 for "no" inputs, but could have acceptance probability between 0 and 1/2 for inputs that do not satisfy the promise.
 
 
-
-Defined in [[ZooRefs#BF99|[BF99] ]], where it was also shown that [[Class_BPP|$\\text{BPP}$]] is in RP^PromiseRP[1]^ (i.e. with a single oracle query to PromiseRP).
+Defined in [[ZooRefs#BF99|[BF99] ]], where it was also shown that [[Class_BPP|$\\text{BPP}$]] is in RP^PromiseRP[1]^ (i.e. with a single oracle query to [[Class_PromiseRP|$\\text{PromiseRP}$]]).
 
 
 
 Contained in [[Class_PromiseBPP|$\\text{PromiseBPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14535,14 +19255,28 @@ text = u'''
 
 = PromiseUP - Promise-Problem UP =
 
-== Comments ==
+== Description ==
 
-The class of promise problems solvable by an [[Class_UP|$\\text{UP}$]] machine. I.e., the nondeterministic machine must have a unique accepting path for "yes" inputs, and no accepting paths "no" inputs, but could have any number of accepting paths for inputs that do not satisfy the promise.
+{{{#!description
+
+The class of promise problems solvable by an [[Class_UP|$\\text{UP}$]] machine. I.e., the nondeterministic machine must have a unique accepting path for "yes" inputs, and no accepting paths "no" inputs, but could have any number of accepting paths for inputs that do not satisfy the promise.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Although not originally stated with this notation, the main result of [[ZooRefs#VV86|[VV86] ]] is that [[Class_NP|$\\text{NP}$]] is contained in RP^PromiseUP^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14570,10 +19304,26 @@ text = u'''
 
 = P^||NP^ - P With Parallel Queries To NP =
 
+== Description ==
+
+{{{#!description
+
+Equals [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]] ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_PNP[log]|$\\text{PNP[log]}$]] ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14601,14 +19351,28 @@ text = u'''
 
 = Q - Quasi-Realtime Languages =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [[ZooRefs#BG69|[BG69] ]], where it was shown that [[Class_Q|$\\text{Q}$]] equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).
+{{{#!description
+
+The class of problems solvable by a nondeterministic multitape Turing machine in linear time. Defined in [[ZooRefs#BG69|[BG69] ]], where it was shown that [[Class_Q|$\\text{Q}$]] equals the class of problems solvable by a nondeterministic multitape Turing machine in exactly n steps (as opposed to O(n) steps).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_GCSL|$\\text{GCSL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14636,9 +19400,19 @@ text = u'''
 
 = QAC^0^ - Quantum AC0 =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a family of constant-depth, polynomial-size quantum circuits.  Here each layer of the circuit is a tensor product of one-qubit gates and Toffoli gates, or is a tensor product of controlled-NOT gates.
+{{{#!description
+
+The class of decision problems solvable by a family of constant-depth, polynomial-size quantum circuits.  Here each layer of the circuit is a tensor product of one-qubit gates and Toffoli gates, or is a tensor product of controlled-NOT gates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14650,12 +19424,16 @@ Defined in [[ZooRefs#Moo99|[Moo99] ]].
 
 
 
-It is contained in [[Class_QACf0|$\\text{QACf0}$]], but it is not known if it contains [[Class_AC0|$\\text{AC0}$]]. Notice that the latter containment is not obvious, since the set of gates in [[Class_QAC0|$\\text{QAC0}$]] do not allow to implement fanout in any way we may take for granted.
+It is contained in [[Class_QACf0|$\\text{QAC}_\\text{f}\\text{}^\\text{0}\\text{}$]], but it is not known if it contains [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]]. Notice that the latter containment is not obvious, since the set of gates in [[Class_QAC0|$\\text{QAC}^\\text{0}\\text{}$]] do not allow to implement fanout in any way we may take for granted.
 
 
 
-Contains [[Class_AC0|$\\text{AC0}$]], and is contained in [[Class_QACf0|$\\text{QACf0}$]].
+Contains [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], and is contained in [[Class_QACf0|$\\text{QAC}_\\text{f}\\text{}^\\text{0}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14683,14 +19461,28 @@ text = u'''
 
 = QAC^0^[m] - Quantum AC0[m] =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_QAC0|$\\text{QAC0}$]], except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.
+{{{#!description
+
+Same as [[Class_QAC0|$\\text{QAC}^\\text{0}\\text{}$]], except that now Mod-m gates are also allowed.  A Mod-m gate computes whether the sum of a given set of bits is congruent to 0 modulo m, and exclusive-OR's the answer into another bit.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#Moo99|[Moo99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14718,9 +19510,19 @@ text = u'''
 
 = QACC^0^ - Quantum ACC0 =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_QAC0[m]|$\\text{QAC0[m]}$]], except that Mod-m gates are allowed for any m.
+{{{#!description
+
+Same as [[Class_QAC0[m]|$\\text{QAC}^\\text{0}\\text{[m]}$]], except that Mod-m gates are allowed for any m.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14728,8 +19530,12 @@ Defined in [[ZooRefs#Moo99|[Moo99] ]].
 
 
 
-[[ZooRefs#GHP00|[GHP00] ]] showed that [[Class_QACC0|$\\text{QACC0}$]] equals QAC^0^[p] for any prime p.
+[[ZooRefs#GHP00|[GHP00] ]] showed that [[Class_QACC0|$\\text{QACC}^\\text{0}\\text{}$]] equals QAC^0^[p] for any prime p.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14757,16 +19563,30 @@ text = u'''
 
 = QAC,,f,,^0^ - QAC0 With Fanout =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QAC0|$\\text{QAC}^\\text{0}\\text{}$]], except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QAC0|$\\text{QAC0}$]], except that an additional "quantum fanout" gate is available, which CNOT's a qubit into arbitrarily many target qubits in a single step.
 
 
+Defined in [[ZooRefs#Moo99|[Moo99] ]], where it was also shown that [[Class_QACf0|$\\text{QAC}_\\text{f}\\text{}^\\text{0}\\text{}$]] =
 
-Defined in [[ZooRefs#Moo99|[Moo99] ]], where it was also shown that [[Class_QACf0|$\\text{QACf0}$]] =
-
-QAC^0^[2] = [[Class_QACC0|$\\text{QACC0}$]].
+QAC^0^[2] = [[Class_QACC0|$\\text{QACC}^\\text{0}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14794,9 +19614,19 @@ text = u'''
 
 = QAM - Quantum AM =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer can be verified by a public-coin quantum [[Class_AM|$\\text{AM}$]] protocol, as follows.  Arthur generates a uniformly random (classical) string and sends it to Merlin.  Merlin responds with a polynomial-size quantum certificate, on which Arthur can perform any [[Class_BQP|$\\text{BQP}$]] operation.  The completeness and soundness requirements are the same as for [[Class_AM|$\\text{AM}$]].
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a public-coin quantum [[Class_AM|$\\text{AM}$]] protocol, as follows.  Arthur generates a uniformly random (classical) string and sends it to Merlin.  Merlin responds with a polynomial-size quantum certificate, on which Arthur can perform any [[Class_BQP|$\\text{BQP}$]] operation.  The completeness and soundness requirements are the same as for [[Class_AM|$\\text{AM}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14804,8 +19634,12 @@ Defined by Marriott and Watrous [[ZooRefs#MW05|[MW05] ]].
 
 
 
-Contains [[Class_QMA|$\\text{QMA}$]] and is contained in [[Class_QIP[2]|$\\text{QIP[2]}$]] and BP•PP (and therefore PSPACE).
+Contains [[Class_QMA|$\\text{QMA}$]] and is contained in [[Class_QIP[2]|$\\text{QIP[2]}$]] and BP•PP (and therefore [[Class_PSPACE|$\\text{PSPACE}$]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14833,10 +19667,26 @@ text = u'''
 
 = QCFL - Quantum CFL =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems recognized by quantum context-free languages, which are defined in [[ZooRefs#MC00|[MC00] ]].  The authors also showed that [[Class_QCFL|$\\text{QCFL}$]] does not equal [[Class_CFL|$\\text{CFL}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems recognized by quantum context-free languages, which are defined in [[ZooRefs#MC00|[MC00] ]].  The authors also showed that [[Class_QCFL|$\\text{QCFL}$]] does not equal [[Class_CFL|$\\text{CFL}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14864,9 +19714,19 @@ text = u'''
 
 = QCMA - Quantum Classical MA =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of [[Class_QMA|$\\text{QMA}$]] with classical witnesses.
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof. Also known as the subclass of of [[Class_QMA|$\\text{QMA}$]] with classical witnesses.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14888,6 +19748,10 @@ See [[ZooRefs#AK06|[AK06] ]] for a "quantum oracle separation" between [[Class_Q
 
 The class of decision problems for which a "yes" answer can be verified by a quantum computer with access to a classical proof.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14915,9 +19779,19 @@ text = u'''
 
 = QH - Query Hierarchy Over NP =
 
-== Comments ==
+== Description ==
 
-QH,,k,, is defined to be [[Class_PNP[k]|$\\text{PNP[k]}$]]; that is, [[Class_P|$\\text{P}$]] with k queries to an [[Class_NP|$\\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\\text{QH}$]] is the union of QH,,k,, over all nonnegative k.
+{{{#!description
+
+QH,,k,, is defined to be [[Class_PNP[k]|$\\text{P}^\\text{NP[k]}\\text{}$]]; that is, [[Class_P|$\\text{P}$]] with k queries to an [[Class_NP|$\\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\\text{QH}$]] is the union of QH,,k,, over all nonnegative k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14925,8 +19799,12 @@ QH,,k,, is defined to be [[Class_PNP[k]|$\\text{PNP[k]}$]]; that is, [[Class_P|$
 
 
 
-QH,,i,, is defined to be [[Class_PNP[k]|$\\text{PNP[k]}$]]; that is, [[Class_P|$\\text{P}$]] with k queries to an [[Class_NP|$\\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\\text{QH}$]] is the union of QH,,i,, over all nonnegative i.
+QH,,i,, is defined to be [[Class_PNP[k]|$\\text{P}^\\text{NP[k]}\\text{}$]]; that is, [[Class_P|$\\text{P}$]] with k queries to an [[Class_NP|$\\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\\text{QH}$]] is the union of QH,,i,, over all nonnegative i.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -14954,9 +19832,19 @@ text = u'''
 
 = QIP - Quantum IP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that a "yes" answer can be verified by a quantum interactive proof.  Here the verifier is a [[Class_BQP|$\\text{BQP}$]] (i.e. quantum polynomial-time) algorithm, while the prover has unbounded computational resources (though cannot violate the linearity of quantum mechanics). The prover and verifier exchange a polynomial number of messages, which can be quantum states.  Thus, the verifier's and prover's states may become entangled during the course of the protocol.  Given the verifier's algorithm, we require that
+{{{#!description
+
+The class of decision problems such that a "yes" answer can be verified by a quantum interactive proof.  Here the verifier is a [[Class_BQP|$\\text{BQP}$]] (i.e. quantum polynomial-time) algorithm, while the prover has unbounded computational resources (though cannot violate the linearity of quantum mechanics). The prover and verifier exchange a polynomial number of messages, which can be quantum states.  Thus, the verifier's and prover's states may become entangled during the course of the protocol.  Given the verifier's algorithm, we require that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -14993,6 +19881,10 @@ QIP(1) is more commonly known as [[Class_QMA|$\\text{QMA}$]].
 See also: [[Class_QIP[2]|$\\text{QIP[2]}$]], [[Class_QSZK|$\\text{QSZK}$]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -15019,14 +19911,28 @@ text = u'''
 
 = QIP[2] - 2-Message Quantum IP =
 
-== Comments ==
+== Description ==
 
-See [[Class_QIP|$\\text{QIP}$]] for definition.
+{{{#!description
+
+See [[Class_QIP|$\\text{QIP}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_QSZK|$\\text{QSZK}$]] [[ZooRefs#Wat02|[Wat02] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15054,9 +19960,19 @@ text = u'''
 
 = QL - Quasi-Linear =
 
-== Comments ==
+== Description ==
 
-The class of problems that can be decided in quasi-linear time by a multitape deterministic Turing machine.  Quasi-linear time here means n(log n)^k^ + k, for some k.
+{{{#!description
+
+The class of problems that can be decided in quasi-linear time by a multitape deterministic Turing machine.  Quasi-linear time here means n(log n)^k^ + k, for some k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15066,6 +19982,10 @@ Defined in [[ZooRefs#Sch78|[Sch78] ]].
 
 See also: [[Class_Q|$\\text{Q}$]], [[Class_NQL|$\\text{NQL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15093,9 +20013,19 @@ text = u'''
 
 = QMA - Quantum MA =
 
-== Comments ==
+== Description ==
 
-The class of decision problems such that a "yes" answer can be verified by a 1-message quantum interactive proof.  That is, a [[Class_BQP|$\\text{BQP}$]] (i.e. quantum polynomial-time) verifier is given a quantum state (the "proof").  We require that
+{{{#!description
+
+The class of decision problems such that a "yes" answer can be verified by a 1-message quantum interactive proof.  That is, a [[Class_BQP|$\\text{BQP}$]] (i.e. quantum polynomial-time) verifier is given a quantum state (the "proof").  We require that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15121,7 +20051,7 @@ Kitaev and Watrous (unpublished) showed [[Class_QMA|$\\text{QMA}$]] is contained
 
 
 
-Kitaev ([[ZooRefs#KSV02|[KSV02] ]], see also [[ZooRefs#AN02|[AN02] ]]) showed that the 5-Local Hamiltonians Problem is QMA-complete. Subsequently, Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\\text{P}$]] does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
+Kitaev ([[ZooRefs#KSV02|[KSV02] ]], see also [[ZooRefs#AN02|[AN02] ]]) showed that the 5-Local Hamiltonians Problem is QMA-complete. Subsequently, Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\\text{P}$]] does not equal [[Class_QMA|$\\text{QMA}$]]), by showing 2-local Hamiltonians QMA-complete.
 
 
 
@@ -15129,7 +20059,7 @@ Compare to [[Class_NQP|$\\text{NQP}$]].
 
 
 
-If [[Class_QMA|$\\text{QMA}$]] = [[Class_PP|$\\text{PP}$]] then [[Class_PP|$\\text{PP}$]] contains [[Class_PH|$\\text{PH}$]] [[ZooRefs#Vya03|[Vya03] ]].  This result uses the fact that [[Class_QMA|$\\text{QMA}$]] is contained in [[Class_A0PP|$\\text{A0PP}$]].
+If [[Class_QMA|$\\text{QMA}$]] = [[Class_PP|$\\text{PP}$]] then [[Class_PP|$\\text{PP}$]] contains [[Class_PH|$\\text{PH}$]] [[ZooRefs#Vya03|[Vya03] ]].  This result uses the fact that [[Class_QMA|$\\text{QMA}$]] is contained in [[Class_A0PP|$\\text{A}_\\text{0}\\text{PP}$]].
 
 
 
@@ -15137,7 +20067,7 @@ Approximating the ground state energy of a system composed of a line of quantum 
 
 
 
-See also: [[Class_QCMA|$\\text{QCMA}$]], [[Class_QMA/qpoly|$\\text{QMA/qpoly}$]], [[Class_QSZK|$\\text{QSZK}$]], [[Class_QMA(2)|$\\text{QMA(2)}$]], [[Class_QMA-plus|$\\text{QMA-plus}$]].
+See also: [[Class_QCMA|$\\text{QCMA}$]], [[Class_QMA/qpoly|$\\text{QMA/qpoly}$]], [[Class_QSZK|$\\text{QSZK}$]], QMA(2), [[Class_QMA-plus|$\\text{QMA-plus}$]].
 
 
 
@@ -15161,12 +20091,16 @@ Kitaev and Watrous (unpublished) showed [[Class_QMA|$\\text{QMA}$]] is contained
 
 
 
-Subsequently Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\\text{P}$]] does not equal QMA), by showing 2-local Hamiltonians QMA-complete.
+Subsequently Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local Hamiltonians is QMA-complete.  A subsequent paper by Kempe, Kitaev, and Regev [[ZooRefs#KKR04|[KKR04] ]], has hit rock bottom (assuming [[Class_P|$\\text{P}$]] does not equal [[Class_QMA|$\\text{QMA}$]]), by showing 2-local Hamiltonians QMA-complete.
 
 
 
 [[Class_NQP|$\\text{NQP}$]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15194,9 +20128,19 @@ text = u'''
 
 = QMA(2) - Quantum MA With Multiple Certificates =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_QMA|$\\text{QMA}$]], except that now the verifier is given two polynomial-size quantum certificates, which are guaranteed to be unentangled.
+{{{#!description
+
+Same as [[Class_QMA|$\\text{QMA}$]], except that now the verifier is given two polynomial-size quantum certificates, which are guaranteed to be unentangled.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15204,16 +20148,20 @@ Defined in [[ZooRefs#KMY01|[KMY01] ]].
 
 
 
-It was shown in [[ZooRefs#ABD+08|[ABD+08] ]] that a conjecture they call the Strong Amplification Conjecture implies that [[Class_QMA(2)|$\\text{QMA(2)}$]] is contained in [[Class_PSPACE|$\\text{PSPACE}$]]. The authors also show that there exists no perfectly disentangler that can be used to simulate [[Class_QMA(2)|$\\text{QMA(2)}$]] in [[Class_QMA|$\\text{QMA}$]], though other approaches to showing [[Class_QMA|$\\text{QMA}$]] = [[Class_QMA(2)|$\\text{QMA(2)}$]] may still exist.
+It was shown in [[ZooRefs#ABD+08|[ABD+08] ]] that a conjecture they call the Strong Amplification Conjecture implies that QMA(2) is contained in [[Class_PSPACE|$\\text{PSPACE}$]]. The authors also show that there exists no perfectly disentangler that can be used to simulate QMA(2) in [[Class_QMA|$\\text{QMA}$]], though other approaches to showing [[Class_QMA|$\\text{QMA}$]] = QMA(2) may still exist.
 
 
 
-It was shown in [[ZooRefs#HM13|[HM13] ]] that QMA(k) = [[Class_QMA(2)|$\\text{QMA(2)}$]] for k >= 2. However we still do not know if [[Class_QMA(2)|$\\text{QMA(2)}$]] = [[Class_QMA|$\\text{QMA}$]] and we also do not know any upper bound for [[Class_QMA(2)|$\\text{QMA(2)}$]] better than [[Class_NEXP|$\\text{NEXP}$]].
+It was shown in [[ZooRefs#HM13|[HM13] ]] that QMA(k) = QMA(2) for k >= 2. However we still do not know if QMA(2) = [[Class_QMA|$\\text{QMA}$]] and we also do not know any upper bound for QMA(2) better than [[Class_NEXP|$\\text{NEXP}$]].
 
 
 
-Defined in [[ZooRefs#KMY01|[KMY01] ]].  It is unknown whether QMA(k) = [[Class_QMA(2)|$\\text{QMA(2)}$]] for all k>2, and also whether [[Class_QMA(2)|$\\text{QMA(2)}$]] = [[Class_QMA|$\\text{QMA}$]].
+Defined in [[ZooRefs#KMY01|[KMY01] ]].  It is unknown whether QMA(k) = QMA(2) for all k>2, and also whether QMA(2) = [[Class_QMA|$\\text{QMA}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15241,14 +20189,28 @@ text = u'''
 
 = QMA-plus - QMA With Super-Verifier =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_QMA|$\\text{QMA}$]], except now the verifier can directly obtain the probability that a given observable of the certificate state, if measured, would equal 1.  (In the usual model, by contrast, one can only sample an observable.)
+{{{#!description
+
+Same as [[Class_QMA|$\\text{QMA}$]], except now the verifier can directly obtain the probability that a given observable of the certificate state, if measured, would equal 1.  (In the usual model, by contrast, one can only sample an observable.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#AR03|[AR03] ]], where it was also shown that [[Class_QMA-plus|$\\text{QMA-plus}$]] = [[Class_QMA|$\\text{QMA}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15276,10 +20238,26 @@ text = u'''
 
 = QMA/qpoly - QMA With Polynomial-Size Quantum Advice =
 
+== Description ==
+
+{{{#!description
+
+Is contained in [[Class_PSPACE/poly|$\\text{PSPACE/poly}$]] [Aar06b].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Is contained in [[Class_PSPACE/poly|$\\text{PSPACE/poly}$]] [Aar06b].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15307,9 +20285,19 @@ text = u'''
 
 = QMA,,1,, - One Sided QMA =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_QMA|$\\text{QMA}$]] except that for a "yes" instance, there exists a state that is accepted with probability 1.
+{{{#!description
+
+Same as [[Class_QMA|$\\text{QMA}$]] except that for a "yes" instance, there exists a state that is accepted with probability 1.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15319,6 +20307,10 @@ Defined in [[ZooRefs#Bra06|[Bra06] ]]. It was shown there that Quantum k-SAT is 
 
 This result was later improved in [[ZooRefs#GN13|[GN13] ]] where it was shown that Quantum 3-SAT is QMA,,1,,-complete.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15346,9 +20338,19 @@ text = u'''
 
 = QMAM - Quantum Merlin-Arthur-Merlin Public-Coin Interactive Proofs =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer can be verified by a public-coin quantum MAM protocol, as follows.  Merlin sends a polynomial-size quantum state to Arthur.  Arthur then flips some classical coins (in fact, he only has to flip one without loss of generality) and sends the outcome to Merlin.  At this stage Arthur is not yet allowed to perform any quantum operations.  Merlin then sends Arthur another quantum state.  Finally, Arthur performs a [[Class_BQP|$\\text{BQP}$]] operation on both of the states simultaneously, and either accepts or rejects.  The completeness and soundness requirements are the same as for [[Class_AM|$\\text{AM}$]].  Also, Merlin's messages might be entangled.
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a public-coin quantum MAM protocol, as follows.  Merlin sends a polynomial-size quantum state to Arthur.  Arthur then flips some classical coins (in fact, he only has to flip one without loss of generality) and sends the outcome to Merlin.  At this stage Arthur is not yet allowed to perform any quantum operations.  Merlin then sends Arthur another quantum state.  Finally, Arthur performs a [[Class_BQP|$\\text{BQP}$]] operation on both of the states simultaneously, and either accepts or rejects.  The completeness and soundness requirements are the same as for [[Class_AM|$\\text{AM}$]].  Also, Merlin's messages might be entangled.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15358,6 +20360,10 @@ Defined by Marriott and Watrous [[ZooRefs#MW05|[MW05] ]], who also showed that [
 
 Hence [[Class_QMAM|$\\text{QMAM}$]] contains [[Class_PSPACE|$\\text{PSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15385,14 +20391,28 @@ text = u'''
 
 = QMA,,log,, - QMA With Logarithmic-Size Proofs =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_QMA|$\\text{QMA}$]] except that the quantum proof has O(log n) qubits instead of a polynomial number.
+{{{#!description
+
+Same as [[Class_QMA|$\\text{QMA}$]] except that the quantum proof has O(log n) qubits instead of a polynomial number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Equals [[Class_BQP|$\\text{BQP}$]] [[ZooRefs#MW05|[MW05] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15420,9 +20440,19 @@ text = u'''
 
 = QMIP - Quantum Multi-Prover Interactive Proofs =
 
-== Comments ==
+== Description ==
 
-The quantum generalization of [[Class_MIP|$\\text{MIP}$]], and the multi-prover generalization of [[Class_QIP|$\\text{QIP}$]].
+{{{#!description
+
+The quantum generalization of [[Class_MIP|$\\text{MIP}$]], and the multi-prover generalization of [[Class_QIP|$\\text{QIP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15438,12 +20468,16 @@ Shown to be equal to [[Class_MIP*|$\\text{MIP*}$]] in [[ZooRefs#RUV12|[RUV12] ]]
 
 
 
-[[Class_QMIP|$\\text{QMIP}$]] contains [[Class_NEXP|$\\text{NEXP}$]] simply because [[Class_MIP*|$\\text{MIP*}$]] contains [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]]. Since we know that [[Class_NEXP|$\\text{NEXP}$]] = [[Class_QMIPne|$\\text{QMIPne}$]], this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
+[[Class_QMIP|$\\text{QMIP}$]] contains [[Class_NEXP|$\\text{NEXP}$]] simply because [[Class_MIP*|$\\text{MIP*}$]] contains [[Class_NEXP|$\\text{NEXP}$]] [[ZooRefs#IV12|[IV12] ]]. Since we know that [[Class_NEXP|$\\text{NEXP}$]] = [[Class_QMIPne|$\\text{QMIP}_\\text{ne}\\text{}$]], this tells us that giving the provers unlimited prior entanglement does not make the class less powerful.
 
 
 
 Fascinatingly, no relationship between [[Class_QMIP|$\\text{QMIP}$]] and [[Class_NEXP|$\\text{NEXP}$]] is known.  We don't know whether allowing the provers unlimited prior entanglement makes the class more powerful, less powerful, or both!
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15471,14 +20505,28 @@ text = u'''
 
 = QMIP,,le,, - Quantum Multi-Prover Interactive Proofs With Limited Prior Entanglement =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QMIP|$\\text{QMIP}$]], except that now the provers share only a polynomial number of EPR pairs, instead of an unlimited number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QMIP|$\\text{QMIP}$]], except that now the provers share only a polynomial number of EPR pairs, instead of an unlimited number.
 
 
-
-Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPle|$\\text{QMIPle}$]] is contained in [[Class_NEXP|$\\text{NEXP}$]] = [[Class_QMIPne|$\\text{QMIPne}$]].
+Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPle|$\\text{QMIP}_\\text{le}\\text{}$]] is contained in [[Class_NEXP|$\\text{NEXP}$]] = [[Class_QMIPne|$\\text{QMIP}_\\text{ne}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15506,14 +20554,28 @@ text = u'''
 
 = QMIP,,ne,, - Quantum Multi-Prover Interactive Proofs With No Prior Entanglement =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QMIP|$\\text{QMIP}$]], except that now the provers have no prior entanglement.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QMIP|$\\text{QMIP}$]], except that now the provers have no prior entanglement.
 
 
-
-Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPne|$\\text{QMIPne}$]] = [[Class_NEXP|$\\text{NEXP}$]].  Thus, [[Class_QMIPne|$\\text{QMIPne}$]] contains [[Class_QMIPle|$\\text{QMIPle}$]].
+Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPne|$\\text{QMIP}_\\text{ne}\\text{}$]] = [[Class_NEXP|$\\text{NEXP}$]].  Thus, [[Class_QMIPne|$\\text{QMIP}_\\text{ne}\\text{}$]] contains [[Class_QMIPle|$\\text{QMIP}_\\text{le}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15541,9 +20603,19 @@ text = u'''
 
 = QNC - Quantum NC =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by polylogarithmic-depth quantum circuits with bounded probability of error.  (A uniformity condition may also be imposed.)
+{{{#!description
+
+The class of decision problems solvable by polylogarithmic-depth quantum circuits with bounded probability of error.  (A uniformity condition may also be imposed.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15561,6 +20633,10 @@ Is incomparable with [[Class_BPP|$\\text{BPP}$]] as far as anyone knows.
 
 See also: [[Class_RNC|$\\text{RNC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15588,9 +20664,19 @@ text = u'''
 
 = QNC^0^ - Quantum NC0 =
 
-== Comments ==
+== Description ==
 
-Constant-depth quantum circuits without fanout gates.
+{{{#!description
+
+Constant-depth quantum circuits without fanout gates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15598,8 +20684,12 @@ Defined in [[ZooRefs#Spa02|[Spa02] ]].
 
 
 
-Contained in [[Class_QNCf0|$\\text{QNCf0}$]].
+Contained in [[Class_QNCf0|$\\text{QNC}_\\text{f}\\text{}^\\text{0}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15627,18 +20717,32 @@ text = u'''
 
 = QNC^1^ - Quantum NC1 =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QNC1|$\\text{QNC}^\\text{1}\\text{}$]], but for the exact rather than bounded-error case.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QNC1|$\\text{QNC1}$]], but for the exact rather than bounded-error case.
 
 
-
-In contrast to [[Class_NC1|$\\text{NC1}$]], it is not clear how to simulate [[Class_QNC1|$\\text{QNC1}$]] on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].
+In contrast to [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]], it is not clear how to simulate [[Class_QNC1|$\\text{QNC}^\\text{1}\\text{}$]] on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].
 
 
 
 See also [[ZooRefs#MN02|[MN02] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15666,9 +20770,19 @@ text = u'''
 
 = QNC,,f,,^0^ - Quantum NC0 With Unbounded Fanout =
 
-== Comments ==
+== Description ==
 
-Constant-depth quantum circuits with unbounded-fanout gates.
+{{{#!description
+
+Constant-depth quantum circuits with unbounded-fanout gates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15676,8 +20790,12 @@ Defined in [[ZooRefs#Spa02|[Spa02] ]].
 
 
 
-Contains [[Class_QNC0|$\\text{QNC0}$]], and is contained in [[Class_QACC0|$\\text{QACC0}$]].
+Contains [[Class_QNC0|$\\text{QNC}^\\text{0}\\text{}$]], and is contained in [[Class_QACC0|$\\text{QACC}^\\text{0}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15705,10 +20823,26 @@ text = u'''
 
 = QP - Quasipolynomial-Time =
 
+== Description ==
+
+{{{#!description
+
+Equals DTIME(2^polylog(n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals DTIME(2^polylog(n)^).
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15736,14 +20870,28 @@ text = u'''
 
 = QPLIN - Linear Quasipolynomial-Time =
 
-== Comments ==
+== Description ==
 
-Equals DTIME(n^O(log n)^).
+{{{#!description
+
+Equals DTIME(n^O(log n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Has the same relationship to [[Class_QP|$\\text{QP}$]] that [[Class_E|$\\text{E}$]] does to [[Class_EXP|$\\text{EXP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15771,14 +20919,28 @@ text = u'''
 
 = QPSPACE - Quasipolynomial-Space =
 
-== Comments ==
+== Description ==
 
-Equals DSPACE(2^polylog(n)^).
+{{{#!description
+
+Equals DSPACE(2^polylog(n)^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 According to [[ZooRefs#BG94|[BG94] ]], Beigel and Feigenbaum and (independently) Krawczyk showed that [[Class_QPSPACE|$\\text{QPSPACE}$]] is not contained in [[Class_Check|$\\text{Check}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15806,9 +20968,19 @@ text = u'''
 
 = QRG - Quantum Refereed Games =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_RG|$\\text{RG}$]], except that now the verifier is a [[Class_BQP|$\\text{BQP}$]] machine, and can exchange polynomially many quantum messages with the competing provers.
+{{{#!description
+
+Same as [[Class_RG|$\\text{RG}$]], except that now the verifier is a [[Class_BQP|$\\text{BQP}$]] machine, and can exchange polynomially many quantum messages with the competing provers.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15820,12 +20992,16 @@ Defined in [[ZooRefs#Gut05|[Gut05] ]], where it was also shown that [[Class_QRG|
 
 
 
-[[Class_QRG|$\\text{QRG}$]] trivially contains [[Class_RG|$\\text{RG}$]] (and hence EXP), as well as [[Class_SQG|$\\text{SQG}$]].
+[[Class_QRG|$\\text{QRG}$]] trivially contains [[Class_RG|$\\text{RG}$]] (and hence [[Class_EXP|$\\text{EXP}$]]), as well as [[Class_SQG|$\\text{SQG}$]].
 
 
 
 [[Class_QRG|$\\text{QRG}$]] is contained in [[Class_EXP|$\\text{EXP}$]] [[ZooRefs#GW07|[GW07] ]].  Hence [[Class_QRG|$\\text{QRG}$]] = [[Class_RG|$\\text{RG}$]] = [[Class_EXP|$\\text{EXP}$]] and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15853,9 +21029,19 @@ text = u'''
 
 = QRG(1) - One-turn Quantum Refereed Games =
 
-== Comments ==
+== Description ==
 
-The class of problems for which there exists a [[Class_BQP|$\\text{BQP}$]] machine M such that:
+{{{#!description
+
+The class of problems for which there exists a [[Class_BQP|$\\text{BQP}$]] machine M such that:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -15865,20 +21051,24 @@ If the answer is "no," then there exists a σ such that for all ρ, M(ρ,σ) rej
 
 
 
-In other words, it's the same as [[Class_QRG(k)|$\\text{QRG(k)}$]] for , the class of problems that admit quantum interactive proofs with competing provers in which there's no communication from the verifier back to the provers.  [[Class_QRG(1)|$\\text{QRG(1)}$]] is the quantum version of [[Class_RG(1)|$\\text{RG(1)}$]].
+In other words, it's the same as QRG(k) for , the class of problems that admit quantum interactive proofs with competing provers in which there's no communication from the verifier back to the provers.  QRG(1) is the quantum version of RG(1).
 
 
 
-Defined in [[ZooRefs#JW09|[JW09] ]], where it was shown that [[Class_QRG(1)|$\\text{QRG(1)}$]] is contained in [[Class_PSPACE|$\\text{PSPACE}$]] .
+Defined in [[ZooRefs#JW09|[JW09] ]], where it was shown that QRG(1) is contained in [[Class_PSPACE|$\\text{PSPACE}$]] .
 
 
 
-[[Class_QRG(1)|$\\text{QRG(1)}$]] trivially contains [[Class_QMA|$\\text{QMA}$]] (and indeed P^QMA^).
+QRG(1) trivially contains [[Class_QMA|$\\text{QMA}$]] (and indeed P^QMA^).
 
 
 
-[[Class_QRG(1)|$\\text{QRG(1)}$]] is trivially contained in [[Class_QRG(2)|$\\text{QRG(2)}$]] (and hence PSPACE).
+QRG(1) is trivially contained in QRG(2) (and hence [[Class_PSPACE|$\\text{PSPACE}$]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15906,18 +21096,32 @@ text = u'''
 
 = QRG(2) - Two-turn (one-round) Quantum Refereed Games =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QRG|$\\text{QRG}$]], except that now the verifier can exchange only two messages with each prover.  Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  QRG(2) is the quantum version of RG(2).  See also QRG(k).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QRG|$\\text{QRG}$]], except that now the verifier can exchange only two messages with each prover.  Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  [[Class_QRG(2)|$\\text{QRG(2)}$]] is the quantum version of [[Class_RG(2)|$\\text{RG(2)}$]].  See also [[Class_QRG(k)|$\\text{QRG(k)}$]].
+
+
+QRG(2) trivially contains RG(2) (and hence [[Class_PSPACE|$\\text{PSPACE}$]]).
 
 
 
-[[Class_QRG(2)|$\\text{QRG(2)}$]] trivially contains [[Class_RG(2)|$\\text{RG(2)}$]] (and hence PSPACE).
-
-
-
-[[Class_QRG(2)|$\\text{QRG(2)}$]] is trivially contained in [[Class_SQG|$\\text{SQG}$]] (and hence PSPACE).  Hence [[Class_QRG(2)|$\\text{QRG(2)}$]] = [[Class_RG(2)|$\\text{RG(2)}$]] = [[Class_PSPACE|$\\text{PSPACE}$]] and finding optimal strategies for two-turn zero-sum quantum games is no harder than finding optimal strategies for two-turn zero-sum classical games.
+QRG(2) is trivially contained in [[Class_SQG|$\\text{SQG}$]] (and hence [[Class_PSPACE|$\\text{PSPACE}$]]).  Hence QRG(2) = RG(2) = [[Class_PSPACE|$\\text{PSPACE}$]] and finding optimal strategies for two-turn zero-sum quantum games is no harder than finding optimal strategies for two-turn zero-sum classical games.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15945,22 +21149,36 @@ text = u'''
 
 = QRG(k) - k-turn Quantum Refereed Games =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QRG|$\\text{QRG}$]], except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length.  Messages are exchanged in parallel.  QRG(k) is the quantum version of RG(k).  By definition, QRG(poly) = [[Class_QRG|$\\text{QRG}$]].  See also QRG(1) and QRG(2).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_QRG|$\\text{QRG}$]], except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length.  Messages are exchanged in parallel.  [[Class_QRG(k)|$\\text{QRG(k)}$]] is the quantum version of [[Class_RG(k)|$\\text{RG(k)}$]].  By definition, QRG(poly) = [[Class_QRG|$\\text{QRG}$]].  See also [[Class_QRG(1)|$\\text{QRG(1)}$]] and [[Class_QRG(2)|$\\text{QRG(2)}$]].
+
+
+QRG(k) trivially contains RG(k) for each k (and hence [[Class_PSPACE|$\\text{PSPACE}$]] when ).  QRG(4) trivially contains [[Class_SQG|$\\text{SQG}$]].
 
 
 
-[[Class_QRG(k)|$\\text{QRG(k)}$]] trivially contains [[Class_RG(k)|$\\text{RG(k)}$]] for each k (and hence [[Class_PSPACE|$\\text{PSPACE}$]] when ).  QRG(4) trivially contains [[Class_SQG|$\\text{SQG}$]].
+QRG(k) is trivially contained in [[Class_QRG|$\\text{QRG}$]] for each k (and hence [[Class_EXP|$\\text{EXP}$]]).
 
 
 
-[[Class_QRG(k)|$\\text{QRG(k)}$]] is trivially contained in [[Class_QRG|$\\text{QRG}$]] for each k (and hence EXP).
-
-
-
-Other than these trivial bounds, very little is known of [[Class_QRG(k)|$\\text{QRG(k)}$]] for intermediate values of k.  For example, does [[Class_QRG(k)|$\\text{QRG(k)}$]] = [[Class_RG(k)|$\\text{RG(k)}$]] for each k?
+Other than these trivial bounds, very little is known of QRG(k) for intermediate values of k.  For example, does QRG(k) = RG(k) for each k?
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -15988,9 +21206,19 @@ text = u'''
 
 = QS,,2,,P - Quantum S2P =
 
-== Comments ==
+== Description ==
 
-The class of problems for which there exists a [[Class_BQP|$\\text{BQP}$]] machine M such that:
+{{{#!description
+
+The class of problems for which there exists a [[Class_BQP|$\\text{BQP}$]] machine M such that:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16006,6 +21234,10 @@ In other words, it's the same as [[Class_SQG|$\\text{SQG}$]], but without commun
 
 Contains [[Class_QMA|$\\text{QMA}$]] (and indeed P^QMA^), and is contained in [[Class_SQG|$\\text{SQG}$]] and hence [[Class_EXP|$\\text{EXP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16033,9 +21265,19 @@ text = u'''
 
 = QSZK - Quantum Statistical Zero-Knowledge =
 
-== Comments ==
+== Description ==
 
-A quantum analog of [[Class_SZK|$\\text{SZK}$]] (or more precisely HVSZK).
+{{{#!description
+
+A quantum analog of [[Class_SZK|$\\text{SZK}$]] (or more precisely [[Class_HVSZK|$\\text{HVSZK}$]]).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16043,7 +21285,7 @@ Arthur is a [[Class_BQP|$\\text{BQP}$]] (i.e. quantum) verifier who can exchange
 
 
 
-Arthur's "view" of his interaction with Merlin is taken to be the sequence of mixed states he has, over all steps of the protocol.  The zero-knowledge requirement is that each of these states must have trace distance at most (say) 1/10 from a state that Arthur could prepare himself (in BQP), without help from Merlin.  Arthur is assumed to be an honest verifier.
+Arthur's "view" of his interaction with Merlin is taken to be the sequence of mixed states he has, over all steps of the protocol.  The zero-knowledge requirement is that each of these states must have trace distance at most (say) 1/10 from a state that Arthur could prepare himself (in [[Class_BQP|$\\text{BQP}$]]), without help from Merlin.  Arthur is assumed to be an honest verifier.
 
 
 
@@ -16061,6 +21303,10 @@ One can assume without loss of generality that protocols are public-coin, as for
 
 [[Class_QSZK|$\\text{QSZK}$]] has a natural complete promise problem, called Quantum State Distinguishability (QSD).  We are given quantum circuits Q,,0,, and Q,,1,,.  Let ρ,,0,, and ρ,,1,, be the mixed states they produce respectively, when run on the all-0 state (and when non-output qubits are traced out).  We are promised that the trace distance between ρ,,0,, and ρ,,1,, is either at most α or at least β, where α and β are constants in [0,1] satisfying α < β^2^.  The problem is to decide which of these is the case.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16088,9 +21334,19 @@ text = u'''
 
 = R - Recursive Languages =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a Turing machine.  Often identified with the class of 'effectively computable' functions (the Church-Turing thesis).
+{{{#!description
+
+The class of decision problems solvable by a Turing machine.  Often identified with the class of 'effectively computable' functions (the Church-Turing thesis).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16104,6 +21360,10 @@ Equals [[Class_RE|$\\text{RE}$]] ∩ [[Class_coRE|$\\text{coRE}$]].
 
 Strictly contains [[Class_PR|$\\text{PR}$]], the primitive recursive functions (see [[ZooRefs#Kle71|[Kle71] ]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16131,14 +21391,28 @@ text = u'''
 
 = RBQP - Strict Quantum RP =
 
-== Comments ==
+== Description ==
 
-The class of problems in [[Class_NP|$\\text{NP}$]] whose witnesses are in [[Class_FBQP|$\\text{FBQP}$]].  For example, the set of square-free numbers is in coRBQP using only the fact that factoring is in [[Class_FBQP|$\\text{FBQP}$]].  (Even without a proof that the factors are prime, the factorization proves that there is a square divisor.)
+{{{#!description
+
+The class of problems in [[Class_NP|$\\text{NP}$]] whose witnesses are in [[Class_FBQP|$\\text{FBQP}$]].  For example, the set of square-free numbers is in coRBQP using only the fact that factoring is in [[Class_FBQP|$\\text{FBQP}$]].  (Even without a proof that the factors are prime, the factorization proves that there is a square divisor.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_RP|$\\text{RP}$]] and [[Class_ZBQP|$\\text{ZBQP}$]], and is contained in [[Class_BQP|$\\text{BQP}$]] and [[Class_RQP|$\\text{RQP}$]].  Defined here to clarify [[Class_EQP|$\\text{EQP}$]]; see also [[Class_ZBQP|$\\text{ZBQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16166,9 +21440,19 @@ text = u'''
 
 = RE - Recursively Enumerable Languages =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a 'yes' answer can be verified by a Turing machine in a finite amount of time.  (If the answer is 'no,' on the other hand, the machine might never halt.)
+{{{#!description
+
+The class of decision problems for which a 'yes' answer can be verified by a Turing machine in a finite amount of time.  (If the answer is 'no,' on the other hand, the machine might never halt.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16211,6 +21495,10 @@ There are problems in [[Class_RE|$\\text{RE}$]] that are neither RE-complete und
 Indeed, [[Class_RE|$\\text{RE}$]] contains infinitely many nonequivalent 'T-degrees.'  (A T-degree is a class of problems, all of which can be T-reduced to one another.)  The structure of the T-degrees has been studied in more detail than you can possibly imagine [[ZooRefs#Sho99|[Sho99] ]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -16237,9 +21525,19 @@ text = u'''
 
 = REG - Regular Languages =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by deterministic finite automata (DFAs).
+{{{#!description
+
+The class of decision problems solvable by deterministic finite automata (DFAs).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16255,7 +21553,7 @@ Includes, i.e., "Is the parity of the input odd?," but not "Are the majority of 
 
 
 
-Contained in [[Class_NC1|$\\text{NC1}$]].
+Contained in [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]].
 
 
 
@@ -16269,6 +21567,10 @@ The class of decision problems solvable by deterministic finite automata (DFA's)
 
 Equals the class solvable by nondeterministic finite automata (NDFA's).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16296,9 +21598,19 @@ text = u'''
 
 = RG - Refereed Games =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a probabilistic polynomial-time verifier who can exchange a polynomial number of messages with two competing, computationally-unbounded provers -- one trying to convince the verifier that the answer is "yes," the other that the answer is "no."  Note that the verifier can hide information from the provers.  Public-coin [[Class_RG|$\\text{RG}$]] amounts to [[Class_SAPTIME|$\\text{SAPTIME}$]], which equals [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Pap83|[Pap83] ]].
+{{{#!description
+
+The class of problems solvable by a probabilistic polynomial-time verifier who can exchange a polynomial number of messages with two competing, computationally-unbounded provers -- one trying to convince the verifier that the answer is "yes," the other that the answer is "no."  Note that the verifier can hide information from the provers.  Public-coin [[Class_RG|$\\text{RG}$]] amounts to [[Class_SAPTIME|$\\text{SAPTIME}$]], which equals [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#Pap83|[Pap83] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16312,6 +21624,10 @@ See also PCD, GPCD.
 
 Contains [[Class_RG[1]|$\\text{RG[1]}$]], and is contained in [[Class_QRG|$\\text{QRG}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16339,9 +21655,19 @@ text = u'''
 
 = RG(1) - One-turn Refereed Games =
 
-== Comments ==
+== Description ==
 
-The class of problems for which there exists a [[Class_BPP|$\\text{BPP}$]] machine M such that, on input x:
+{{{#!description
+
+The class of problems for which there exists a [[Class_BPP|$\\text{BPP}$]] machine M such that, on input x:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16351,16 +21677,20 @@ If the answer is 'no,' then there exists a distribution Z such that for all dist
 
 
 
-In other words, it's the same as [[Class_RG(k)|$\\text{RG(k)}$]] for , the class of problems that admit interactive proofs with competing provers in which there's no communication from the verifier back to the provers.
+In other words, it's the same as RG(k) for , the class of problems that admit interactive proofs with competing provers in which there's no communication from the verifier back to the provers.
 
 
 
-[[Class_RG(1)|$\\text{RG(1)}$]] trivially contains [[Class_S2P|$\\text{S2P}$]].  Indeed, [[Class_RG(1)|$\\text{RG(1)}$]] can be viewed as a randomized version of [[Class_S2P|$\\text{S2P}$]].
+RG(1) trivially contains [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]].  Indeed, RG(1) can be viewed as a randomized version of [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]].
 
 
 
-[[Class_RG(1)|$\\text{RG(1)}$]] is trivially contained in [[Class_RG(2)|$\\text{RG(2)}$]] (and hence PSPACE).
+RG(1) is trivially contained in RG(2) (and hence [[Class_PSPACE|$\\text{PSPACE}$]]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16388,14 +21718,28 @@ text = u'''
 
 = RG(2) - Two-turn (one-round) Refereed Games =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_RG|$\\text{RG}$]], except that now the verifier can exchange only two messages with each prover. Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  See also RG(k).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_RG|$\\text{RG}$]], except that now the verifier can exchange only two messages with each prover. Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  See also [[Class_RG(k)|$\\text{RG(k)}$]].
 
 
-
-[[Class_RG(2)|$\\text{RG(2)}$]] is contained in [[Class_PSPACE|$\\text{PSPACE}$]], and they are equal, unrelativized [FK97b].
+RG(2) is contained in [[Class_PSPACE|$\\text{PSPACE}$]], and they are equal, unrelativized [FK97b].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16423,14 +21767,28 @@ text = u'''
 
 = RG(k) - k-turn Refereed Games =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_RG|$\\text{RG}$]], except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length. Messages are exchanged in parallel.  By definition, RG(poly) = [[Class_RG|$\\text{RG}$]]. See also RG(1) and RG(2).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_RG|$\\text{RG}$]], except that now the verifier exchanges exactly k messages with each prover where k is a polynomial-bounded function of the input length. Messages are exchanged in parallel.  By definition, RG(poly) = [[Class_RG|$\\text{RG}$]]. See also [[Class_RG(1)|$\\text{RG(1)}$]] and [[Class_RG(2)|$\\text{RG(2)}$]].
 
 
-
-Other than trivial bounds, very little is known of [[Class_RG(k)|$\\text{RG(k)}$]] for intermediate values of k. For example, does [[Class_RG(k)|$\\text{RG(k)}$]] = [[Class_PSPACE|$\\text{PSPACE}$]] for each constant ?
+Other than trivial bounds, very little is known of RG(k) for intermediate values of k. For example, does RG(k) = [[Class_PSPACE|$\\text{PSPACE}$]] for each constant ?
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16458,9 +21816,19 @@ text = u'''
 
 = RG[1] - One-Round Refereed Games =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_RG|$\\text{RG}$]], except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes [[Class_RG[1]|$\\text{RG[1]}$]] a symmetric class, indeed a randomized analogue of [[Class_S2P|$\\text{S2P}$]].
+{{{#!description
+
+Same as [[Class_RG|$\\text{RG}$]], except that now the verifier can exchange only a single round of messages with the two provers.  A round consists of private messages from the verifier to the provers, followed by private responses from the provers to the verifier.  Since the queries are private, they may as well be parallel; likewise the responses.  This makes [[Class_RG[1]|$\\text{RG[1]}$]] a symmetric class, indeed a randomized analogue of [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16468,8 +21836,12 @@ Same as [[Class_RG|$\\text{RG}$]], except that now the verifier can exchange onl
 
 
 
-Contains [[Class_S2P|$\\text{S2P}$]] and is contained in [[Class_SQG|$\\text{SQG}$]].
+Contains [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]] and is contained in [[Class_SQG|$\\text{SQG}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16497,9 +21869,19 @@ text = u'''
 
 = R,,H,,L - Randomized Halting Logarithmic-Space =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].  The randomized machine must halt for every input and every setting of the random tape.
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].  The randomized machine must halt for every input and every setting of the random tape.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16509,6 +21891,10 @@ Contains undirected reachability (is there a path from vertex u to vertex v in a
 
 Contained in [[Class_RL|$\\text{RL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16536,10 +21922,26 @@ text = u'''
 
 = R,,H,,SPACE(f(n)) - One-Sided Error Halting Probabilistic f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to BP,,H,,SPACE(f(n)) as [[Class_RP|$\\text{RP}$]] does to [[Class_BPP|$\\text{BPP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_BPHSPACE(f(n))|$\\text{BPHSPACE(f(n))}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_BPP|$\\text{BPP}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16567,15 +21969,25 @@ text = u'''
 
 = RL - Randomized Logarithmic-Space =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].  The randomized machine must halt with probability 1 on any input.  It must also run in polynomial time (since otherwise we would just get}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].  The randomized machine must halt with probability 1 on any input.  It must also run in polynomial time (since otherwise we would just get
-
-NL).
+[[Class_NL|$\\text{NL}$]]).
 
 
 
-Contains [[Class_RHL|$\\text{RHL}$]].
+Contains [[Class_RHL|$\\text{R}_\\text{H}\\text{L}$]].
 
 
 
@@ -16585,6 +21997,10 @@ Contained in [[Class_SC|$\\text{SC}$]] [[ZooRefs#Nis92|[Nis92] ]].
 
 [[ZooRefs#RTV05|[RTV05] ]] give strong evidence that [[Class_RL|$\\text{RL}$]] = [[Class_L|$\\text{L}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16612,9 +22028,19 @@ text = u'''
 
 = RNC - Randomized NC =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_NC|$\\text{NC}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_NC|$\\text{NC}$]] as [[Class_RP|$\\text{RP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16628,6 +22054,10 @@ Contained in [[Class_QNC|$\\text{QNC}$]].
 
 See also: [[Class_coRNC|$\\text{coRNC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16655,9 +22085,19 @@ text = u'''
 
 = RP - Randomized Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16694,6 +22134,10 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 Contains the problem of testing whether an integer is prime [[ZooRefs#AH87|[AH87] ]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -16720,9 +22164,19 @@ text = u'''
 
 = RPP - Restricted Pseudo Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems (x,m) (where x is an input of length |x|=n and m is an integer parameter), that are solvable by a nondeterministic (i.e. NP) machine in poly(n+m) time and O(m+log n) space simultaneously.
+{{{#!description
+
+The class of decision problems (x,m) (where x is an input of length |x|=n and m is an integer parameter), that are solvable by a nondeterministic (i.e. [[Class_NP|$\\text{NP}$]]) machine in poly(n+m) time and O(m+log n) space simultaneously.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16732,6 +22186,10 @@ Defined in [[ZooRefs#Mon80|[Mon80] ]].
 
 See also [[Class_FPT|$\\text{FPT}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16759,9 +22217,19 @@ text = u'''
 
 = RP,,,,^cc^ - Randomized Pcc =
 
-== Comments ==
+== Description ==
 
-The class of functions  which can be computed by  players with access to shared random bits in the number-on-forehead (defined as in P,,,,^cc^) model, subject to two constraints:
+{{{#!description
+
+The class of functions  which can be computed by  players with access to shared random bits in the number-on-forehead (defined as in [[Class_Pcc|$\\text{P}_\\text{}\\text{}^\\text{cc}\\text{}$]]) model, subject to two constraints:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16771,8 +22239,12 @@ The communication cost (the sum of the number of random bits used and bits writt
 
 
 
-[[Class_NPcc|$\\text{NPcc}$]] is not equal to [[Class_RPcc|$\\text{RPcc}$]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPcc|$\\text{NP}_\\text{}\\text{}^\\text{cc}\\text{}$]] is not equal to [[Class_RPcc|$\\text{RP}_\\text{}\\text{}^\\text{cc}\\text{}$]] for  players, for any constant  [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16800,14 +22272,28 @@ text = u'''
 
 = RQP - One-sided Error Extension of EQP =
 
-== Comments ==
+== Description ==
 
-The class of questions that can be answered by a QTM that accepts with probability 0 when the true answer is no, and accepts with probability at least 1/2 when the true answer is yes.  Since one of the probabilities has to vanish, [[Class_RQP|$\\text{RQP}$]] has the same technical caveats as [[Class_EQP|$\\text{EQP}$]].
+{{{#!description
+
+The class of questions that can be answered by a QTM that accepts with probability 0 when the true answer is no, and accepts with probability at least 1/2 when the true answer is yes.  Since one of the probabilities has to vanish, [[Class_RQP|$\\text{RQP}$]] has the same technical caveats as [[Class_EQP|$\\text{EQP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_ZQP|$\\text{ZQP}$]] and [[Class_RBQP|$\\text{RBQP}$]], and is contained in [[Class_BQP|$\\text{BQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16835,18 +22321,32 @@ text = u'''
 
 = RSPACE(f(n)) - Randomized f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_RL|$\\text{RL}$]], but for O(f(n))-space instead of logarithmic-space.  (Just as an [[Class_RL|$\\text{RL}$]] machine must run in polynomial time, so an RSPACE(f(n)) machine must run in 2^O(f(n))^ time.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_RL|$\\text{RL}$]], but for O(f(n))-space instead of logarithmic-space.  (Just as an [[Class_RL|$\\text{RL}$]] machine must run in polynomial time, so an [[Class_RSPACE(f(n))|$\\text{RSPACE(f(n))}$]] machine must run in 2^O(f(n))^ time.)
 
 
-
-Contained in [[Class_NSPACE(f(n))|$\\text{NSPACE(f(n))}$]] and [[Class_BPSPACE(f(n))|$\\text{BPSPACE(f(n))}$]].
+Contained in NSPACE(f(n)) and BPSPACE(f(n)).
 
 
 
 Same as [[Class_RL|$\\text{RL}$]], but for O(f(n))-space instead of logarithmic-space.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16874,14 +22374,28 @@ text = u'''
 
 = RevSPACE(f(n)) - Reversible f(n)-Space =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable in space O(f(n)) by a reversible Turing machine (a deterministic Turing machine for which every configuration has at most one immediate predecessor).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems solvable in space O(f(n)) by a reversible Turing machine (a deterministic Turing machine for which every configuration has at most one immediate predecessor).
 
 
-
-Was shown to equal [[Class_DSPACE(f(n))|$\\text{DSPACE(f(n))}$]] [[ZooRefs#LMT97|[LMT97] ]].
+Was shown to equal DSPACE(f(n)) [[ZooRefs#LMT97|[LMT97] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16909,14 +22423,28 @@ text = u'''
 
 = S,,2,,-EXP•P^NP^ - Don't Ask =
 
-== Comments ==
+== Description ==
 
-One of the caged classes of the Complexity Zoo.
+{{{#!description
+
+One of the caged classes of the Complexity Zoo.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Has been implicated in a collapse scandal involving [[Class_AM[polylog]|$\\text{AM[polylog]}$]], [[Class_coNP|$\\text{coNP}$]], and [[Class_EH|$\\text{EH}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -16944,9 +22472,19 @@ text = u'''
 
 = S,,2,,P - Second Level of the Symmetric Hierarchy =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which there is a polynomial-time predicate [[Class_P|$\\text{P}$]] such that, on input x,
+{{{#!description
+
+The class of decision problems for which there is a polynomial-time predicate [[Class_P|$\\text{P}$]] such that, on input x,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -16956,15 +22494,15 @@ If the answer is 'no,' then there exists a z such that for all y, P(x,y,z) is fa
 
 
 
-Note that this differs from [[Class_Σ2P|$\\text{Σ2P}$]] in that the quantifiers in the second condition are reversed.
+Note that this differs from [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] in that the quantifiers in the second condition are reversed.
 
 
 
-Less formally, [[Class_S2P|$\\text{S2P}$]] is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In [[Class_Σ2P|$\\text{Σ2P}$]], the disprover moves first.
+Less formally, [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]] is the class of one-round games in which a prover and a disprover submit simultaneous moves to a deterministic, polynomial-time referee.  In [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]], the disprover moves first.
 
 
 
-Defined in [[ZooRefs#RS98|[RS98] ]], where it was also shown that [[Class_S2P|$\\text{S2P}$]] contains [[Class_MA|$\\text{MA}$]] and [[Class_Δ2P|$\\text{Δ2P}$]].  Defined independently in [[ZooRefs#Can96|[Can96] ]].
+Defined in [[ZooRefs#RS98|[RS98] ]], where it was also shown that [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]] contains [[Class_MA|$\\text{MA}$]] and [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]].  Defined independently in [[ZooRefs#Can96|[Can96] ]].
 
 
 
@@ -16972,12 +22510,16 @@ Contained in ZPP^NP^ [[ZooRefs#Cai01|[Cai01] ]].
 
 
 
-[[Class_S2-EXP•PNP|$\\text{S2-EXP•PNP}$]]: Don't Ask 
+[[Class_S2-EXP•PNP|$\\text{S}_\\text{2}\\text{-EXP•P}^\\text{NP}\\text{}$]]: Don't Ask 
 
 One of the caged classes of the Complexity Zoo.
 
 Has been implicated in a collapse scandal involving [[Class_AM[polylog]|$\\text{AM[polylog]}$]], [[Class_coNP|$\\text{coNP}$]], and [[Class_EH|$\\text{EH}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17005,9 +22547,19 @@ text = u'''
 
 = SAC - Semi-Unbounded-Fanin AC =
 
-== Comments ==
+== Description ==
 
-SAC^k^ is the class of decision problems solvable by a family of depth-O(log^k^n) circuits with unbounded-fanin OR & bounded-fanin AND gates.  Negations are only allowed at the input level.
+{{{#!description
+
+SAC^k^ is the class of decision problems solvable by a family of depth-O(log^k^n) circuits with unbounded-fanin OR & bounded-fanin AND gates.  Negations are only allowed at the input level.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17017,6 +22569,10 @@ A uniformity condition may also be imposed.
 
 Defined by [[ZooRefs#BCD+89|[BCD+89] ]], who also showed that SAC,,k,, is closed under complement for every k>0.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17044,14 +22600,28 @@ text = u'''
 
 = SAC^0^ - Semi-Unbounded-Fanin AC0 =
 
-== Comments ==
+== Description ==
 
-See [[Class_SAC|$\\text{SAC}$]] for definition.
+{{{#!description
+
+See [[Class_SAC|$\\text{SAC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Not closed under complement [[ZooRefs#BCD+89|[BCD+89] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17079,9 +22649,19 @@ text = u'''
 
 = SAC^1^ - Semi-Unbounded-Fanin AC1 =
 
-== Comments ==
+== Description ==
 
-See [[Class_SAC|$\\text{SAC}$]] for definition.
+{{{#!description
+
+See [[Class_SAC|$\\text{SAC}$]] for definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17089,8 +22669,12 @@ Equals LOGCFL/poly [[ZooRefs#Ven91|[Ven91] ]].
 
 
 
-Contained in [[Class_⊕SAC1|$\\text{⊕SAC1}$]] [[ZooRefs#GW96|[GW96] ]].
+Contained in [[Class_⊕SAC1|$\\text{⊕SAC}^\\text{1}\\text{}$]] [[ZooRefs#GW96|[GW96] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17118,14 +22702,28 @@ text = u'''
 
 = SAPTIME - Stochastic Alternating Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a polynomial-time Turing machine with three kinds of quantifiers: existential, universal, and randomized.
+{{{#!description
+
+The class of problems solvable by a polynomial-time Turing machine with three kinds of quantifiers: existential, universal, and randomized.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#Pap83|[Pap83] ]], where it was also observed that [[Class_SAPTIME|$\\text{SAPTIME}$]] = [[Class_PSPACE|$\\text{PSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17153,9 +22751,19 @@ text = u'''
 
 = SBP - Small Bounded-Error Probability =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which the following holds.  There exists a [[Class_SharpP|$\\text{#P}$]] function f and an [[Class_FP|$\\text{FP}$]] function g such that, for all inputs x,
+{{{#!description
+
+The class of decision problems for which the following holds.  There exists a [[Class_SharpP|$\\text{#P}$]] function f and an [[Class_FP|$\\text{FP}$]] function g such that, for all inputs x,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17171,12 +22779,16 @@ Defined in [[ZooRefs#BGM02|[BGM02] ]], where the following was also shown:
 
 [[Class_SBP|$\\text{SBP}$]] contains [[Class_MA|$\\text{MA}$]], [[Class_WAPP|$\\text{WAPP}$]], and [[Class_∃BPP|$\\text{∃BPP}$]].
 
-[[Class_SBP|$\\text{SBP}$]] is contained in [[Class_AM|$\\text{AM}$]] and [[Class_BPPpath|$\\text{BPPpath}$]].
+[[Class_SBP|$\\text{SBP}$]] is contained in [[Class_AM|$\\text{AM}$]] and [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]].
 
-There exists an oracle relative to which [[Class_SBP|$\\text{SBP}$]] is not contained in [[Class_Σ2P|$\\text{Σ2P}$]].
+There exists an oracle relative to which [[Class_SBP|$\\text{SBP}$]] is not contained in [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]].
 
 [[Class_SBP|$\\text{SBP}$]] is closed under union.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17204,14 +22816,28 @@ text = u'''
 
 = SBQP - Small Bounded-Error Quantum Polynomial-Time =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which there exists a polynomial-time quantum algorithm that accepts with probability at least 2^−p(n)^ if the answer is "yes", and with probability at most 2^−p(n)−1^ if the answer is "no", for some polynomial p.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems for which there exists a polynomial-time quantum algorithm that accepts with probability at least 2^−p(n)^ if the answer is "yes", and with probability at most 2^−p(n)−1^ if the answer is "no", for some polynomial p.
 
 
-
-Defined by Kuperberg in [[ZooRefs#Kup09|[Kup09] ]], where he showed that [[Class_SBQP|$\\text{SBQP}$]] = [[Class_A0PP|$\\text{A0PP}$]].
+Defined by Kuperberg in [[ZooRefs#Kup09|[Kup09] ]], where he showed that [[Class_SBQP|$\\text{SBQP}$]] = [[Class_A0PP|$\\text{A}_\\text{0}\\text{PP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17239,9 +22865,19 @@ text = u'''
 
 = SC - Steve's Class =
 
-== Comments ==
+== Description ==
 
-(Named in honor of Stephen Cook.)
+{{{#!description
+
+(Named in honor of Stephen Cook.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17267,6 +22903,10 @@ Deterministic context-free languages (DCFLs) can be recognized in [[Class_SC|$\\
 
 Deterministic context-free languages (DCFL's) can be recognized in [[Class_SC|$\\text{SC}$]] [[ZooRefs#Coo79|[Coo79] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17294,14 +22934,28 @@ text = u'''
 
 = SE - Subexponentially-Solvable Search Problems =
 
-== Comments ==
+== Description ==
 
-The class of [[Class_FNP|$\\text{FNP}$]] search problems solvable in O(2^εn^) time for every ε>0.
+{{{#!description
+
+The class of [[Class_FNP|$\\text{FNP}$]] search problems solvable in O(2^εn^) time for every ε>0.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#IPZ01|[IPZ01] ]], who also gave reductions showing that if any of k-SAT, k-colorability, k-set cover, clique, or vertex cover is in [[Class_SE|$\\text{SE}$]], then all of them are.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17329,9 +22983,19 @@ text = u'''
 
 = SEH - Strong Exponential Hierarchy =
 
-== Comments ==
+== Description ==
 
-The union of [[Class_NE|$\\text{NE}$]], NP^NE^, NP^NP^NE^, and so on.
+{{{#!description
+
+The union of [[Class_NE|$\\text{NE}$]], NP^NE^, NP^NP^NE^, and so on.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17351,6 +23015,10 @@ There exists an oracle relative to which [[Class_SEH|$\\text{SEH}$]] is not cont
 
 [[Class_EH|$\\text{EH}$]] and [[Class_SEH|$\\text{SEH}$]] are incomparable for all anyone knows.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17378,9 +23046,19 @@ text = u'''
 
 = SF,,k,, - Width-k Bottleneck Turing Machines =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a k-bottleneck Turing machine. This is a machine that, after a polynomial amount of time, erases everything on the tape except for a single k-valued "safe-storage".  There's also a counter recording the number of erasings, which is in effect a non-deterministic witness.  For example, SF,,2,, contains both [[Class_⊕P|$\\text{⊕P}$]] and [[Class_NP|$\\text{NP}$]] by using the counter as a witness.
+{{{#!description
+
+The class of decision problems solvable by a k-bottleneck Turing machine. This is a machine that, after a polynomial amount of time, erases everything on the tape except for a single k-valued "safe-storage".  There's also a counter recording the number of erasings, which is in effect a non-deterministic witness.  For example, SF,,2,, contains both [[Class_⊕P|$\\text{⊕P}$]] and [[Class_NP|$\\text{NP}$]] by using the counter as a witness.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17392,12 +23070,16 @@ The complexity of SF,,2,,, SF,,3,,, and SF,,4,, was studied in [[ZooRefs#Ogi94|[
 
 
 
-SF,,4,, is contained in BP ⊕P^Mod_3P ^ [[Class_⊕P|$\\text{⊕P}$]] ^ Mod_3P ^ [[Class_⊕P|$\\text{⊕P}$]]
+SF,,4,, is contained in BP ⊕P^Mod_3P ^ [[Class_⊕P|$\\text{⊕P}$]] ^ Mod_3P ^ [[Class_⊕P|$\\text{⊕P}\\text{}$]]
 
 
 
-(Here the BP operator means that one makes the class into a bounded-error probabilistic class, the same way one makes [[Class_P|$\\text{P}$]] into [[Class_BPP|$\\text{BPP}$]] and [[Class_NP|$\\text{NP}$]] into AM.)
+(Here the BP operator means that one makes the class into a bounded-error probabilistic class, the same way one makes [[Class_P|$\\text{P}$]] into [[Class_BPP|$\\text{BPP}$]] and [[Class_NP|$\\text{NP}$]] into [[Class_AM|$\\text{AM}$]].)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17425,9 +23107,19 @@ text = u'''
 
 = SKC - Statistical Knowledge Complexity =
 
-== Comments ==
+== Description ==
 
-A hierarchy of generalizations of [[Class_SZK|$\\text{SZK}$]], in which Arthur is allowed to gain some information from his interaction with Merlin.
+{{{#!description
+
+A hierarchy of generalizations of [[Class_SZK|$\\text{SZK}$]], in which Arthur is allowed to gain some information from his interaction with Merlin.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17451,6 +23143,10 @@ SKC,,ent,,(k(n)): Entropy sense.  Defined in [[ZooRefs#ABV95|[ABV95] ]]. For eac
 
 See also: [[Class_PKC|$\\text{PKC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17478,9 +23174,19 @@ text = u'''
 
 = SL - Symmetric Logarithmic-Space =
 
-== Comments ==
+== Description ==
 
-The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that
+{{{#!description
+
+The class of problems solvable by a nondeterministic Turing machine in logarithmic space, such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17508,7 +23214,7 @@ It follows from [[ZooRefs#AKL+79|[AKL+79] ]] that [[Class_SL|$\\text{SL}$]] is c
 
 
 
-[[ZooRefs#KW93|[KW93] ]] showed that [[Class_SL|$\\text{SL}$]] is contained in [[Class_⊕L|$\\text{⊕L}$]], as well as [[Class_ModkL|$\\text{ModkL}$]] for every prime k.
+[[ZooRefs#KW93|[KW93] ]] showed that [[Class_SL|$\\text{SL}$]] is contained in [[Class_⊕L|$\\text{⊕L}$]], as well as [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]] for every prime k.
 
 
 
@@ -17532,6 +23238,10 @@ The story ends with the remarkable result that [[Class_SL|$\\text{SL}$]] = [[Cla
 
 [[ZooRefs#Rei04|[Rei04] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17559,9 +23269,19 @@ text = u'''
 
 = SLICEWISE PSPACE - Parametrized PSPACE =
 
-== Comments ==
+== Description ==
 
-The parameterized version of [[Class_PSPACE|$\\text{PSPACE}$]].
+{{{#!description
+
+The parameterized version of [[Class_PSPACE|$\\text{PSPACE}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17575,6 +23295,10 @@ If [[Class_P|$\\text{P}$]] = [[Class_PSPACE|$\\text{PSPACE}$]], then [[Class_FPT
 
 Defined in [[ZooRefs#DF99|[DF99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17602,9 +23326,19 @@ text = u'''
 
 = SNP - Strict NP =
 
-== Comments ==
+== Description ==
 
-[[ZooRefs#Fag74|[Fag74] ]] showed that [[Class_NP|$\\text{NP}$]] is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.
+{{{#!description
+
+[[ZooRefs#Fag74|[Fag74] ]] showed that [[Class_NP|$\\text{NP}$]] is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17639,6 +23373,10 @@ There exists a relation P(u,v) on vertices of G, such that P(u,u) is false, and 
 total order
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -17665,9 +23403,19 @@ text = u'''
 
 = SO - Second-Order logic =
 
-== Comments ==
+== Description ==
 
-We define second-order variable  has got an arity k and represent any proposition of arity . They are usually written in upper-case.
+{{{#!description
+
+We define second-order variable  has got an arity k and represent any proposition of arity . They are usually written in upper-case.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17685,6 +23433,10 @@ In Descriptive complexity we can see that [[Class_SO|$\\text{SO}$]] is equal to 
 
 This means that [[Class_SO|$\\text{SO}$]] with only existantial second-order quantification is equal to  which is [[Class_NP|$\\text{NP}$]], and with only universal quantification is equal to  which is Co-NP.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17712,9 +23464,19 @@ text = u'''
 
 = SO(Horn) - Second-order in Horn form =
 
-== Comments ==
+== Description ==
 
-SO(horn) is the set of boolean queries definable with second-order formulae in normal form such that the quantifier-free part of the formula is in conjunctive normal form with at most one positive instance of a quantified relation per clause.  (Atomic queries to the database don't count.)
+{{{#!description
+
+SO(horn) is the set of boolean queries definable with second-order formulae in normal form such that the quantifier-free part of the formula is in conjunctive normal form with at most one positive instance of a quantified relation per clause.  (Atomic queries to the database don't count.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17724,6 +23486,10 @@ It was shown in [Grä92] that this class is equal to [[Class_P|$\\text{P}$]].
 
 Those formulae can be made in prenex form where the second order is existential and the first order universal without loss of generality.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17751,9 +23517,19 @@ text = u'''
 
 = SO(Krom) - Second-order in Krom form =
 
-== Comments ==
+== Description ==
 
-SO(krom) is the set of boolean queries definable with second-order formulae in normal form such that the quantifier-free part of the formula is in Krom form, wich means that in every clause there is at most two literals and the first-order portion contains no existential quantifiers.
+{{{#!description
+
+SO(krom) is the set of boolean queries definable with second-order formulae in normal form such that the quantifier-free part of the formula is in Krom form, wich means that in every clause there is at most two literals and the first-order portion contains no existential quantifiers.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17763,6 +23539,10 @@ It was shown in [Grä92] that this class is equal to [[Class_NL|$\\text{NL}$]].
 
 Those formulaes can be made in prenex form where the second order is existential and the first order universal without loss of generalities.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17790,9 +23570,19 @@ text = u'''
 
 = SO-E - Second Order Existential =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [[ZooRefs#Imm98|[Imm98] ]] for a full definition.
+{{{#!description
+
+The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [[ZooRefs#Imm98|[Imm98] ]] for a full definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17802,6 +23592,10 @@ The class of decision problems for which a "yes" answer is expressible by a prop
 
 Contains FO(poly(n)).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17829,9 +23623,19 @@ text = u'''
 
 = SO[LFP] - Second-Order logic with least fixed point =
 
-== Comments ==
+== Description ==
 
-[[Class_SO[LFP]|$\\text{SO[LFP]}$]] is to [[Class_SO|$\\text{SO}$]] what FO[LFP] is to [[Class_FO|$\\text{FO}$]]. The LFP operator can now also take second-order variable as argument.
+{{{#!description
+
+[[Class_SO[LFP]|$\\text{SO[LFP]}$]] is to [[Class_SO|$\\text{SO}$]] what FO[LFP] is to [[Class_FO|$\\text{FO}$]]. The LFP operator can now also take second-order variable as argument.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17839,6 +23643,10 @@ In Descriptive complexity we can see that
 
 [[Class_SO[LFP]|$\\text{SO[LFP]}$]] is  equal to EXPTIME.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17866,9 +23674,19 @@ text = u'''
 
 = SO[TC] - Second-Order logic with transitive closure =
 
-== Comments ==
+== Description ==
 
-[[Class_SO[TC]|$\\text{SO[TC]}$]] is to [[Class_SO|$\\text{SO}$]] what FO[TC] is to [[Class_FO|$\\text{FO}$]]. The TC operator can now also take second-order variable as argument.
+{{{#!description
+
+[[Class_SO[TC]|$\\text{SO[TC]}$]] is to [[Class_SO|$\\text{SO}$]] what FO[TC] is to [[Class_FO|$\\text{FO}$]]. The TC operator can now also take second-order variable as argument.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17876,6 +23694,10 @@ In Descriptive complexity we can see that :
 
 [[Class_SO[TC]|$\\text{SO[TC]}$]] is  equal to [[Class_PSPACE|$\\text{PSPACE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17903,9 +23725,19 @@ text = u'''
 
 = SO[] - Iterated Second-Order logic =
 
-== Comments ==
+== Description ==
 
-[[Class_SO[]|$\\text{SO[]}$]] is to [[Class_SO|$\\text{SO}$]] what [[Class_FO[]|$\\text{FO[]}$]] is to [[Class_FO|$\\text{FO}$]]. But we now also have second-order quantifier in the quantifier block.
+{{{#!description
+
+[[Class_SO[]|$\\text{SO[]}$]] is to [[Class_SO|$\\text{SO}$]] what [[Class_FO[]|$\\text{FO[]}$]] is to [[Class_FO|$\\text{FO}$]]. But we now also have second-order quantifier in the quantifier block.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17917,6 +23749,10 @@ In Descriptive complexity we can see that :
 
 [[Class_SO[]|$\\text{SO[]}$]] is equal to EXPTIME it is also another way to write SO(LFP)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17944,9 +23780,19 @@ text = u'''
 
 = SP - Semi-Efficient Parallel =
 
-== Comments ==
+== Description ==
 
-The class of problems in [[Class_P|$\\text{P}$]] for which the best parallel algorithm (using a polynomial number of processors) is faster than the best serial algorithm by a factor of Ω(n^ε^) for some ε>0.
+{{{#!description
+
+The class of problems in [[Class_P|$\\text{P}$]] for which the best parallel algorithm (using a polynomial number of processors) is faster than the best serial algorithm by a factor of Ω(n^ε^) for some ε>0.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -17954,8 +23800,12 @@ Defined in [[ZooRefs#KRS90|[KRS90] ]].
 
 
 
-[[Class_SP|$\\text{SP}$]] is also an alternate name for [[Class_XPuniform|$\\text{XPuniform}$]]
+[[Class_SP|$\\text{SP}$]] is also an alternate name for [[Class_XPuniform|$\\text{XP}_\\text{uniform}\\text{}$]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -17983,14 +23833,28 @@ text = u'''
 
 = SPARSE - Sparse Languages =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which the number of 'yes' instances of size n is upper-bounded by a polynomial in n.  If [[Class_SPARSE|$\\text{SPARSE}$]] intersects [[Class_NPC|$\\text{NPC}$]] then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].
+{{{#!description
+
+The class of decision problems for which the number of 'yes' instances of size n is upper-bounded by a polynomial in n.  If [[Class_SPARSE|$\\text{SPARSE}$]] intersects [[Class_NPC|$\\text{NPC}$]] then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_TALLY|$\\text{TALLY}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18018,9 +23882,19 @@ text = u'''
 
 = SPL - Stoic PL =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_PL|$\\text{PL}$]] as [[Class_SPP|$\\text{SPP}$]] does to [[Class_PP|$\\text{PP}$]].
+{{{#!description
+
+Has the same relation to [[Class_PL|$\\text{PL}$]] as [[Class_SPP|$\\text{SPP}$]] does to [[Class_PP|$\\text{PP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18032,12 +23906,16 @@ Contains [[Class_UL|$\\text{UL}$]].
 
 
 
-Contained in [[Class_C=L|$\\text{C=L}$]] and [[Class_ModkL|$\\text{ModkL}$]].
+Contained in [[Class_C=L|$\\text{C}_\\text{=}\\text{L}$]] and [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]].
 
 
 
 Equals the set of problems low for [[Class_GapL|$\\text{GapL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18065,9 +23943,19 @@ text = u'''
 
 = SPP - Stoic PP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18081,7 +23969,7 @@ If the answer is "yes," then these numbers differ by 2.
 
 
 
-Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_SPP|$\\text{SPP}$]] is low for [[Class_PP|$\\text{PP}$]], [[Class_C=P|$\\text{C=P}$]], [[Class_ModkP|$\\text{ModkP}$]], and [[Class_SPP|$\\text{SPP}$]] itself.  (I.e. adding [[Class_SPP|$\\text{SPP}$]] as an oracle does not increase the power of these classes.)
+Defined in [[ZooRefs#FFK94|[FFK94] ]], where it was also shown that [[Class_SPP|$\\text{SPP}$]] is low for [[Class_PP|$\\text{PP}$]], [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]], [[Class_ModkP|$\\text{Mod}_\\text{k}\\text{P}$]], and [[Class_SPP|$\\text{SPP}$]] itself.  (I.e. adding [[Class_SPP|$\\text{SPP}$]] as an oracle does not increase the power of these classes.)
 
 
 
@@ -18089,7 +23977,7 @@ Independently defined in [[ZooRefs#OH93|[OH93] ]], who called the class [[Class_
 
 
 
-Contained in [[Class_LWPP|$\\text{LWPP}$]], [[Class_C=P|$\\text{C=P}$]], and [[Class_WPP|$\\text{WPP}$]] among other classes.
+Contained in [[Class_LWPP|$\\text{LWPP}$]], [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]], and [[Class_WPP|$\\text{WPP}$]] among other classes.
 
 
 
@@ -18111,6 +23999,10 @@ Contains a whole gaggle of problems for solvable black-box groups: solvability t
 
 [[ZooRefs#AK02|[AK02] ]] also showed that the Hidden Subgroup Problem for permutation groups, of interest in quantum computing, is in FP^SPP^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18138,9 +24030,19 @@ text = u'''
 
 = SQG - Short Quantum Games =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_QRG(2)|$\\text{QRG(2)}$]], except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.
+{{{#!description
+
+Same as QRG(2), except that now the verifier can process the yes-prover's answer before preparing the no-prover's question.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18152,15 +24054,15 @@ Defined in [[ZooRefs#GW05|[GW05] ]], where it was also shown that [[Class_SQG|$\
 
 
 
-[[Class_SQG|$\\text{SQG}$]] is trivially contained in QRG(4) (and hence EXP).
+[[Class_SQG|$\\text{SQG}$]] is trivially contained in QRG(4) (and hence [[Class_EXP|$\\text{EXP}$]]).
 
 
 
-[[Class_SQG|$\\text{SQG}$]] trivially contains [[Class_QRG(2)|$\\text{QRG(2)}$]] (and hence PSPACE).
+[[Class_SQG|$\\text{SQG}$]] trivially contains QRG(2) (and hence [[Class_PSPACE|$\\text{PSPACE}$]]).
 
 
 
-[[Class_SQG|$\\text{SQG}$]] is contained in [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#GW10|[GW10] ]].  Hence [[Class_SQG|$\\text{SQG}$]] = [[Class_QRG(2)|$\\text{QRG(2)}$]] = [[Class_RG(2)|$\\text{RG(2)}$]] = [[Class_PSPACE|$\\text{PSPACE}$]] and the addition of quantum information, combined with the ability of the verifier to process the one prover's answer before preparing the other prover's question, has no effect on the complexity of two-turn (one-round) zero-sum games.
+[[Class_SQG|$\\text{SQG}$]] is contained in [[Class_PSPACE|$\\text{PSPACE}$]] [[ZooRefs#GW10|[GW10] ]].  Hence [[Class_SQG|$\\text{SQG}$]] = QRG(2) = RG(2) = [[Class_PSPACE|$\\text{PSPACE}$]] and the addition of quantum information, combined with the ability of the verifier to process the one prover's answer before preparing the other prover's question, has no effect on the complexity of two-turn (one-round) zero-sum games.
 
 
 
@@ -18172,8 +24074,12 @@ Same as [[Class_QRG|$\\text{QRG}$]], except that now the verifier can exchange o
 
 
 
-[[Class_SQG|$\\text{SQG}$]] trivially contains [[Class_QS2P|$\\text{QS2P}$]].
+[[Class_SQG|$\\text{SQG}$]] trivially contains [[Class_QS2P|$\\text{QS}_\\text{2}\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18201,10 +24107,26 @@ text = u'''
 
 = SUBEXP - Deterministic Subexponential-Time =
 
+== Description ==
+
+{{{#!description
+
+The intersection of DTIME(2^n^ε^) over all ε>0.  (Note that the algorithm used may vary with ε.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The intersection of DTIME(2^n^ε^) over all ε>0.  (Note that the algorithm used may vary with ε.)
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18232,11 +24154,21 @@ text = u'''
 
 = SZK - Statistical Zero Knowledge =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol.  In such an interactive proof}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol.  In such an interactive proof
-
-(see IP), we have a probabilistic polynomial-time verifier, and a prover who has unbounded computational resources.  By exchanging messages with the prover, the verifier must become convinced (with high probability) that the answer is "yes," without learning anything else about the problem (statistically).
+(see [[Class_IP|$\\text{IP}$]]), we have a probabilistic polynomial-time verifier, and a prover who has unbounded computational resources.  By exchanging messages with the prover, the verifier must become convinced (with high probability) that the answer is "yes," without learning anything else about the problem (statistically).
 
 
 
@@ -18278,7 +24210,7 @@ If any hard-on-average language is in [[Class_SZK|$\\text{SZK}$]], then one-way 
 
 
 
-See general zero-knowledge (ZK).
+See general zero-knowledge ([[Class_ZK|$\\text{ZK}$]]).
 
 
 
@@ -18317,6 +24249,10 @@ Finally, we can assume without loss of generality that the verifier (Arthur) is 
 Zero-knowledge proofs were first studied in [[ZooRefs#GMW91|[GMW91] ]], [[ZooRefs#GMR89|[GMR89] ]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -18343,18 +24279,32 @@ text = u'''
 
 = SZK,,h,, - SZK With Limited Help =
 
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol, and the prover and verifier both have access to a string computed by a trusted probabilistic polynomial-time third party with access to the input.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of decision problems for which a "yes" answer can be verified by a statistical zero-knowledge proof protocol, and the prover and verifier both have access to a string computed by a trusted probabilistic polynomial-time third party with access to the input.
+
+
+Defined in [[ZooRefs#BG03|[BG03] ]], where it was also shown that [[Class_SZKh|$\\text{SZK}_\\text{h}\\text{}$]] = [[Class_SZK|$\\text{SZK}$]].
 
 
 
-Defined in [[ZooRefs#BG03|[BG03] ]], where it was also shown that [[Class_SZKh|$\\text{SZKh}$]] = [[Class_SZK|$\\text{SZK}$]].
-
-
-
-Contains [[Class_NISZKh|$\\text{NISZKh}$]].
+Contains [[Class_NISZKh|$\\text{NISZK}_\\text{h}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18382,9 +24332,19 @@ text = u'''
 
 = SelfNP - Self-Witnessing NP =
 
-== Comments ==
+== Description ==
 
-The class of languages [[Class_L|$\\text{L}$]] in [[Class_NP|$\\text{NP}$]] such that the union, over all x in [[Class_L|$\\text{L}$]], of the set of valid witnesses for x equals [[Class_L|$\\text{L}$]] itself.
+{{{#!description
+
+The class of languages [[Class_L|$\\text{L}$]] in [[Class_NP|$\\text{NP}$]] such that the union, over all x in [[Class_L|$\\text{L}$]], of the set of valid witnesses for x equals [[Class_L|$\\text{L}$]] itself.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18398,6 +24358,10 @@ They also show that if [[Class_SelfNP|$\\text{SelfNP}$]] = [[Class_NP|$\\text{NP
 
 See also: [[Class_PermUP|$\\text{PermUP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18425,14 +24389,28 @@ text = u'''
 
 = TALLY - Tally Languages =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If [[Class_TALLY|$\\text{TALLY}$]] intersects [[Class_NPC|$\\text{NPC}$]] then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].
+{{{#!description
+
+The class of decision problems for which every 'yes' instance has the form 0^n^ (i.e. inputs are encoded in unary).  If [[Class_TALLY|$\\text{TALLY}$]] intersects [[Class_NPC|$\\text{NPC}$]] then [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]] [[ZooRefs#Mah82|[Mah82] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_SPARSE|$\\text{SPARSE}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18460,9 +24438,19 @@ text = u'''
 
 = TC^0^ - Constant-Depth Threshold Circuits =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by polynomial-size, constant-depth circuits with unbounded fanin, which can use AND, OR, and NOT gates (as in AC^0^) as well as threshold gates.  A threshold gate returns 1 if at least half of its inputs are 1, and 0 otherwise.
+{{{#!description
+
+The class of decision problems solvable by polynomial-size, constant-depth circuits with unbounded fanin, which can use AND, OR, and NOT gates (as in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]]) as well as threshold gates.  A threshold gate returns 1 if at least half of its inputs are 1, and 0 otherwise.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18470,40 +24458,44 @@ A uniformity requirement is sometimes also placed.
 
 
 
-[[Class_TC0|$\\text{TC0}$]] contains [[Class_ACC0|$\\text{ACC0}$]], and is contained in [[Class_NC1|$\\text{NC1}$]].
+[[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] contains [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]], and is contained in [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]].
 
 
 
-[[Class_TC0|$\\text{TC0}$]] circuits of depth 3 are strictly more powerful than [[Class_TC0|$\\text{TC0}$]] circuits of depth 2 [[ZooRefs#HMP+93|[HMP+93] ]].
+[[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] circuits of depth 3 are strictly more powerful than [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] circuits of depth 2 [[ZooRefs#HMP+93|[HMP+93] ]].
 
 
 
-[[Class_TC0|$\\text{TC0}$]] circuits of depth 3 and quasipolynomial size can simulate all of [[Class_ACC0|$\\text{ACC0}$]] [[ZooRefs#Yao90|[Yao90] ]].
+[[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] circuits of depth 3 and quasipolynomial size can simulate all of [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]] [[ZooRefs#Yao90|[Yao90] ]].
 
 
 
-There is a function in [[Class_AC0|$\\text{AC0}$]] (explicitly given in [[ZooRefs#She08|[She08] ]]), whose computation with [[Class_TC0|$\\text{TC0}$]]  circuits of depth 2 requires an exponential number of gates.
+There is a function in [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] (explicitly given in [[ZooRefs#She08|[She08] ]]), whose computation with [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]]  circuits of depth 2 requires an exponential number of gates.
 
 
 
-[[ZooRefs#NR97|[NR97] ]] give a candidate pseudorandom function family computable in [[Class_TC0|$\\text{TC0}$]], that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [[ZooRefs#NRR01|[NRR01] ]] for an improvement of this construction, as well as [[ZooRefs#Kha93|[Kha93] ]].)
+[[ZooRefs#NR97|[NR97] ]] give a candidate pseudorandom function family computable in [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]], that is secure assuming a subexponential lower bound on the hardness of factoring.  (See also [[ZooRefs#NRR01|[NRR01] ]] for an improvement of this construction, as well as [[ZooRefs#Kha93|[Kha93] ]].)
 
 
 
-One implication is that, assuming such a bound, there is no natural proof in the sense of [[ZooRefs#RR97|[RR97] ]] separating [[Class_TC0|$\\text{TC0}$]] from [[Class_P/poly|$\\text{P/poly}$]].  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in TC^0^.)  Another implication is that functions in [[Class_TC0|$\\text{TC0}$]] are likely to be difficult to learn.
+One implication is that, assuming such a bound, there is no natural proof in the sense of [[ZooRefs#RR97|[RR97] ]] separating [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] from [[Class_P/poly|$\\text{P/poly}$]].  (It is important for this that a function family, and not just a candidate pseudorandom generator, is computable in [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]].)  Another implication is that functions in [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] are likely to be difficult to learn.
 
 
 
-The permanent of a 0-1 matrix cannot be computed in uniform [[Class_TC0|$\\text{TC0}$]] [[ZooRefs#All99|[All99] ]].
+The permanent of a 0-1 matrix cannot be computed in uniform [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] [[ZooRefs#All99|[All99] ]].
 
 
 
-In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in U,,D,,-uniform [[Class_TC0|$\\text{TC0}$]].  Indeed division is complete for this class under [[Class_AC0|$\\text{AC0}$]] reductions.
+In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in U,,D,,-uniform [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]].  Indeed division is complete for this class under [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] reductions.
 
 
 
-In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in L-uniform [[Class_TC0|$\\text{TC0}$]].  Indeed division is complete for this class under [[Class_AC0|$\\text{AC0}$]] reductions.
+In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86|[BCH86] ]] and [[ZooRefs#CDL01|[CDL01] ]]), integer division was shown to be in L-uniform [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]].  Indeed division is complete for this class under [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] reductions.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18531,9 +24523,19 @@ text = u'''
 
 = TFNP - Total Function NP =
 
-== Comments ==
+== Description ==
 
-The class of function problems of the following form:
+{{{#!description
+
+The class of function problems of the following form:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18551,6 +24553,10 @@ Contained in [[Class_FNP|$\\text{FNP}$]].
 
 Subclasses include [[Class_PPA|$\\text{PPA}$]], [[Class_PPP|$\\text{PPP}$]], and [[Class_PLS|$\\text{PLS}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18578,14 +24584,28 @@ text = u'''
 
 = TREE-REGULAR - Regular Tree-Valued Languages =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_REG|$\\text{REG}$]], except that now the inputs are trees (say, binary trees) instead of strings.  Each vertex is labeled with a symbol from a fixed alphabet.  Evaluation begins at the leaves and proceeds to the root.  The state of the finite automaton at each vertex v is a function of (1) the states at v's children (if any), and (2) the symbol at v.  The tree is in the language if and only if the automaton is in an 'accept' state at the root.
+{{{#!description
+
+Same as [[Class_REG|$\\text{REG}$]], except that now the inputs are trees (say, binary trees) instead of strings.  Each vertex is labeled with a symbol from a fixed alphabet.  Evaluation begins at the leaves and proceeds to the root.  The state of the finite automaton at each vertex v is a function of (1) the states at v's children (if any), and (2) the symbol at v.  The tree is in the language if and only if the automaton is in an 'accept' state at the root.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 See [[ZooRefs#Koz92|[Koz92] ]] for example.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18613,9 +24633,19 @@ text = u'''
 
 = TreeBQP - BQP Restricted To Tree States =
 
-== Comments ==
+== Description ==
 
-The class of languages accepted by a [[Class_BQP|$\\text{BQP}$]] machine subject to the constraint that at every time step t, the machine's state is exponentially close to a tree state -- that is, a state expressible by a polynomial-size tree of additions and tensor products (together with complex constants and |0> and |1> leaf nodes).
+{{{#!description
+
+The class of languages accepted by a [[Class_BQP|$\\text{BQP}$]] machine subject to the constraint that at every time step t, the machine's state is exponentially close to a tree state -- that is, a state expressible by a polynomial-size tree of additions and tensor products (together with complex constants and |0> and |1> leaf nodes).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18633,6 +24663,10 @@ contained in the third level of [[Class_PH|$\\text{PH}$]], which might provide w
 
 [[Class_TreeBQP|$\\text{TreeBQP}$]] does not equal [[Class_BQP|$\\text{BQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18660,9 +24694,19 @@ text = u'''
 
 = UAP - Unambiguous Alternating Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_AP|$\\text{AP}$]], except we are promised that each existential quantifier has at most one 'yes' path, and each universal quantifier has at most one 'no' path.
+{{{#!description
+
+Same as [[Class_AP|$\\text{AP}$]], except we are promised that each existential quantifier has at most one 'yes' path, and each universal quantifier has at most one 'no' path.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18680,6 +24724,10 @@ Defined in [[ZooRefs#NR98|[NR98] ]], where it was also shown that, even though [
 
 [[ZooRefs#CGR+04|[CGR+04] ]] have also shown that UAP^UAP^ = [[Class_UAP|$\\text{UAP}$]], and that [[Class_UAP|$\\text{UAP}$]] contains the Graph Isomorphism problem.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18707,9 +24755,19 @@ text = u'''
 
 = UCC - Unique Connected Component =
 
-== Comments ==
+== Description ==
 
-The class of problems reducible in [[Class_L|$\\text{L}$]] to the problem of whether an undirected graph has a unique connected component.
+{{{#!description
+
+The class of problems reducible in [[Class_L|$\\text{L}$]] to the problem of whether an undirected graph has a unique connected component.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18723,6 +24781,10 @@ Contained in [[Class_SL|$\\text{SL}$]].
 
 See also [[Class_coUCC|$\\text{coUCC}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18750,14 +24812,28 @@ text = u'''
 
 = UCFL - Unambiguous CFL =
 
-== Comments ==
+== Description ==
 
-The class of context-free languages which can be represented by grammars where each word in the language has exactly one leftmost derivation.
+{{{#!description
+
+The class of context-free languages which can be represented by grammars where each word in the language has exactly one leftmost derivation.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Strictly contains Deterministic [[Class_CFL|$\\text{CFL}$]].  Strictly contained in [[Class_CFL|$\\text{CFL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18785,10 +24861,26 @@ text = u'''
 
 = UE - Unambiguous Exponential-Time With Linear Exponent =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_UP|$\\text{UP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_UP|$\\text{UP}$]] does to [[Class_P|$\\text{P}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18816,14 +24908,28 @@ text = u'''
 
 = UL - Unambiguous L =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_UP|$\\text{UP}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_UP|$\\text{UP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 If [[Class_UL|$\\text{UL}$]] = [[Class_NL|$\\text{NL}$]], then [[Class_FNL|$\\text{FNL}$]] is contained in [[Class_SharpL|$\\text{#L}$]] [[ZooRefs#AJ93|[AJ93] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18851,9 +24957,19 @@ text = u'''
 
 = UL/poly - Nonuniform UL =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_UL|$\\text{UL}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_UL|$\\text{UL}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18861,8 +24977,12 @@ Equals [[Class_NL/poly|$\\text{NL/poly}$]] [[ZooRefs#RA00|[RA00] ]]. (A corollar
 
 
 
-Note that in [[Class_UL/poly|$\\text{UL/poly}$]], the witness must be unique even for bad advice. UL/mpoly (as in BQP/mpoly) is a more natural definition, but this is a moot distinction here because [[ZooRefs#RA00|[RA00] ]] show that they both equal [[Class_NL/poly|$\\text{NL/poly}$]].
+Note that in [[Class_UL/poly|$\\text{UL/poly}$]], the witness must be unique even for bad advice. UL/mpoly (as in [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]]) is a more natural definition, but this is a moot distinction here because [[ZooRefs#RA00|[RA00] ]] show that they both equal [[Class_NL/poly|$\\text{NL/poly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18890,9 +25010,19 @@ text = u'''
 
 = UP - Unambiguous Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -18925,6 +25055,10 @@ There exists an oracle relative to which [[Class_P|$\\text{P}$]] is strictly con
 [[Class_NP|$\\text{NP}$]] is contained in RP^Promise-UP^ [[ZooRefs#VV86|[VV86] ]].  On the other hand, [[ZooRefs#BBF98|[BBF98] ]] give an oracle relative to which [[Class_P|$\\text{P}$]] = [[Class_UP|$\\text{UP}$]] but still [[Class_P|$\\text{P}$]] does not equal [[Class_NP|$\\text{NP}$]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -18951,16 +25085,30 @@ text = u'''
 
 = UPP^cc^ - Unrestricted Communication Analogue of PP =
 
+== Description ==
+
+{{{#!description
+
+Defined by [[ZooRefs#BFS86|[BFS86] ]], [[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]] is one of two communication complexity analogues of [[Class_PP|$\\text{PP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Defined by [[ZooRefs#BFS86|[BFS86] ]], [[Class_UPPcc|$\\text{UPPcc}$]] is one of two communication complexity analogues of [[Class_PP|$\\text{PP}$]].
-
-[[Class_UPPcc|$\\text{UPPcc}$]] is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
+[[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]] is the class of all languages defined by functions  which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when  and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
 
 
 
-See also: [[Class_PPcc|$\\text{PPcc}$]].
+See also: [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -18988,9 +25136,19 @@ text = u'''
 
 = US - Unique Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The all-American counting class.
+{{{#!description
+
+The all-American counting class.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19008,6 +25166,10 @@ Defined in [[ZooRefs#BG82|[BG82] ]].
 
 Contains [[Class_coNP|$\\text{coNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19035,13 +25197,23 @@ text = u'''
 
 = VC,,k,, - Verification Class With A Circuit of Depth K =
 
-== Comments ==
+== Description ==
 
-For k = 0, VC,,0,, is the class of compressible languages.
+{{{#!description
+
+For k = 0, VC,,0,, is the class of compressible languages.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
  For k = 1, VC,,1,, is the class of languages that have local verification: they can be verified by testing only a small part of the instance. (Small means polynomial in the witness length and the log of the instance length.)
 
- For k ≥ 2, [[Class_VCk|$\\text{VCk}$]] is the class of languages that can be verified by a circuit of depth k, with size polynomial in the witness length and instance length.
+ For k ≥ 2, [[Class_VCk|$\\text{VC}_\\text{k}\\text{}$]] is the class of languages that can be verified by a circuit of depth k, with size polynomial in the witness length and instance length.
 
 
 
@@ -19051,6 +25223,10 @@ VC,,0,, ⊆ VC,,OR,, ⊆ VC,,1,, ⊆ VC,,2,, ⊆ VC,,3,, ...
 
 Introduced in [[ZooRefs#HN06|[HN06] ]]; see there for formal definitions.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19078,9 +25254,19 @@ text = u'''
 
 = VC,,or,, - Verification Class With OR =
 
-== Comments ==
+== Description ==
 
-The class of languages that have verification presentable as the OR of m instances of SAT, each of size n. (m is the witness length of an instance and n is the instance length.)
+{{{#!description
+
+The class of languages that have verification presentable as the OR of m instances of SAT, each of size n. (m is the witness length of an instance and n is the instance length.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19088,8 +25274,12 @@ Introduced in [[ZooRefs#HN06|[HN06] ]].
 
 
 
-See also [[Class_VCk|$\\text{VCk}$]].
+See also [[Class_VCk|$\\text{VC}_\\text{k}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19117,18 +25307,32 @@ text = u'''
 
 = VNC,,k,, - Valiant NC Over Field k =
 
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] as [[Class_NC|$\\text{NC}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Has the same relation to [[Class_VPk|$\\text{VPk}$]] as [[Class_NC|$\\text{NC}$]] does to [[Class_P|$\\text{P}$]].
+
+
+More formally, the class of [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] problems computable by a straight-line program of depth polylogarithmic in n.
 
 
 
-More formally, the class of [[Class_VPk|$\\text{VPk}$]] problems computable by a straight-line program of depth polylogarithmic in n.
-
-
-
-Surprisingly, [[Class_VNCk|$\\text{VNCk}$]] = [[Class_VPk|$\\text{VPk}$]] for any k [[ZooRefs#VSB+83|[VSB+83] ]].
+Surprisingly, [[Class_VNCk|$\\text{VNC}_\\text{k}\\text{}$]] = [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] for any k [[ZooRefs#VSB+83|[VSB+83] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19156,17 +25360,27 @@ text = u'''
 
 = VNP,,k,, - Valiant NP Over Field k =
 
+== Description ==
+
+{{{#!description
+
+A superclass of [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] in Valiant's algebraic complexity theory, but not quite the analogue of [[Class_NP|$\\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-A superclass of [[Class_VPk|$\\text{VPk}$]] in Valiant's algebraic complexity theory, but not quite the analogue of [[Class_NP|$\\text{NP}$]].
+
+
+A problem is in [[Class_VNPk|$\\text{VNP}_\\text{k}\\text{}$]] if there exists a polynomial p with the following properties:
 
 
 
-A problem is in [[Class_VNPk|$\\text{VNPk}$]] if there exists a polynomial p with the following properties:
-
-
-
-p is computable in [[Class_VPk|$\\text{VPk}$]]; that is, by a polynomial-size straight-line program.
+p is computable in [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]]; that is, by a polynomial-size straight-line program.
 
 The inputs to p are constants c,,1,,,...,c,,m,,,e,,1,,,...,e,,h,, and indeterminates X,,1,,,...,X,,n,, over the base field k.
 
@@ -19182,7 +25396,7 @@ If the field k has characteristic greater than 2, then the permanent of an n-by-
 
 
 
-A central conjecture is that for all k, [[Class_VPk|$\\text{VPk}$]] is not equal to [[Class_VNPk|$\\text{VNPk}$]].  Bürgisser [[ZooRefs#Bur00|[Bur00] ]] shows that if this were false then:
+A central conjecture is that for all k, [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] is not equal to [[Class_VNPk|$\\text{VNP}_\\text{k}\\text{}$]].  Bürgisser [[ZooRefs#Bur00|[Bur00] ]] shows that if this were false then:
 
 
 
@@ -19192,8 +25406,12 @@ If k has characteristic 0, then assuming the Generalized Riemann Hypothesis (GRH
 
 
 
-In both cases, [[Class_PH|$\\text{PH}$]] collapses to [[Class_Σ2P|$\\text{Σ2P}$]].
+In both cases, [[Class_PH|$\\text{PH}$]] collapses to [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19221,9 +25439,19 @@ text = u'''
 
 = VPL - Visibly pushdown languages =
 
-== Comments ==
+== Description ==
 
-The class of problems that can be decided by a visibly pushdown automaton. In a visibly pushdown automaton, all push and pop transitions have to be triggered by special alphabet symbols, and thus are visible in the input word. Nondeterminism does not add to the expressive power of this automaton model, and the complexity class is closed under all Boolean operations.
+{{{#!description
+
+The class of problems that can be decided by a visibly pushdown automaton. In a visibly pushdown automaton, all push and pop transitions have to be triggered by special alphabet symbols, and thus are visible in the input word. Nondeterminism does not add to the expressive power of this automaton model, and the complexity class is closed under all Boolean operations.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19233,6 +25461,10 @@ Originated in [[ZooRefs#AM04|[AM04] ]]. See also [[ZooRefs#AM09|[AM09] ]].
 
 Properly contains [[Class_REG|$\\text{REG}$]]. Properly contained in [[Class_DCFL|$\\text{DCFL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19260,13 +25492,23 @@ text = u'''
 
 = VP,,k,, - Valiant P Over Field k =
 
+== Description ==
+
+{{{#!description
+
+The class of efficiently-solvable problems in Valiant's algebraic complexity theory.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of efficiently-solvable problems in Valiant's algebraic complexity theory.
 
 
-
-More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X,,1,,,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  [[Class_VPk|$\\text{VPk}$]] is the class of problems whose complexity is polynomial in n.  (Hence, [[Class_VPk|$\\text{VPk}$]] is a nonuniform class, in contrast to [[Class_PC|$\\text{PC}$]] and P,,R,,.)
+More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X,,1,,,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] is the class of problems whose complexity is polynomial in n.  (Hence, [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] is a nonuniform class, in contrast to [[Class_PC|$\\text{P}_\\text{C}\\text{}$]] and [[Class_PR|$\\text{P}_\\text{R}\\text{}$]].)
 
 
 
@@ -19274,12 +25516,16 @@ Originated in [Val79b]; see [[ZooRefs#Bur00|[Bur00] ]] for more information.
 
 
 
-Contained in [[Class_VNPk|$\\text{VNPk}$]] and [[Class_VQPk|$\\text{VQPk}$]], and contains [[Class_VNCk|$\\text{VNCk}$]].
+Contained in [[Class_VNPk|$\\text{VNP}_\\text{k}\\text{}$]] and [[Class_VQPk|$\\text{VQP}_\\text{k}\\text{}$]], and contains [[Class_VNCk|$\\text{VNC}_\\text{k}\\text{}$]].
 
 
 
-More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X^1^,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  [[Class_VPk|$\\text{VPk}$]] is the class of problems whose complexity is polynomial in n.  (Hence, [[Class_VPk|$\\text{VPk}$]] is a nonuniform class, in contrast to [[Class_PC|$\\text{PC}$]] and P,,R,,.)
+More formally, the input consists of constants c,,1,,,...,c,,m,, and indeterminates X^1^,...,X,,n,, over a base field k (for instance, the complex numbers or Z,,2,,).  The desired output is a collection of polynomials over the X,,i,,'s.  The complexity is the minimum number of pairwise additions, subtractions, and multiplications needed by a straight-line program to produce these polynomials.  [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] is the class of problems whose complexity is polynomial in n.  (Hence, [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] is a nonuniform class, in contrast to [[Class_PC|$\\text{P}_\\text{C}\\text{}$]] and [[Class_PR|$\\text{P}_\\text{R}\\text{}$]].)
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19307,9 +25553,19 @@ text = u'''
 
 = VQP,,k,, - Valiant QP Over Field k =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_VPk|$\\text{VPk}$]] as [[Class_QP|$\\text{QP}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_VPk|$\\text{VP}_\\text{k}\\text{}$]] as [[Class_QP|$\\text{QP}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19319,6 +25575,10 @@ Originated in [Val79b].
 
 The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under a type of reduction called qp-projections (see [[ZooRefs#Bur00|[Bur00] ]] for example).  It is an open problem whether the determinant is VP,,k,,-complete.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19346,14 +25606,28 @@ text = u'''
 
 = W^*^[t] - W[t] With Parameter-Dependent Depth =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_W[t]|$\\text{W[t]}$]], except that now the circuit depth can depend on the parameter k rather than being constant.  (The number of unbounded-fanin gates along any path to the root is still at most t.)
+{{{#!description
+
+Same as [[Class_W[t]|$\\text{W[t]}$]], except that now the circuit depth can depend on the parameter k rather than being constant.  (The number of unbounded-fanin gates along any path to the root is still at most t.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 W^*^[1] = [[Class_W[1]|$\\text{W[1]}$]] [[ZooRefs#DFT96|[DFT96] ]], and W^*^[2] = W[2] [[ZooRefs#DF97|[DF97] ]], but the problem is open for larger t.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19381,9 +25655,19 @@ text = u'''
 
 = WAPP - Weak Almost-Wide PP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which there exists a [[Class_SharpP|$\\text{#P}$]] function f, a polynomial p, and an ε > 0, such that for all inputs x,
+{{{#!description
+
+The class of decision problems for which there exists a [[Class_SharpP|$\\text{#P}$]] function f, a polynomial p, and an ε > 0, such that for all inputs x,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19395,6 +25679,10 @@ If the answer is "no" then 0 ≤ f(x) < (1-ε) 2^p(|x|)-1^.
 
 Defined in [[ZooRefs#BGM02|[BGM02] ]], where it is also shown that [[Class_WAPP|$\\text{WAPP}$]] is contained in [[Class_AWPP|$\\text{AWPP}$]] and [[Class_SBP|$\\text{SBP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19422,9 +25710,19 @@ text = u'''
 
 = WHILE - While programs and some restrictions =
 
-== Comments ==
+== Description ==
 
-While is a theorical programing language defined in [[ZooRefs#jon98|[jon98] ]],  is a way to define syntacticaly [[Class_P|$\\text{P}$]] and a syntactic resctriction of [[Class_WHILE|$\\text{WHILE}$]] is exactly [[Class_L|$\\text{L}$]]. The important point is that those two languages are powerful enough to simulate all of [[Class_P|$\\text{P}$]] (and L) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !
+{{{#!description
+
+While is a theorical programing language defined in [[ZooRefs#jon98|[jon98] ]],  is a way to define syntacticaly [[Class_P|$\\text{P}$]] and a syntactic resctriction of [[Class_WHILE|$\\text{WHILE}$]] is exactly [[Class_L|$\\text{L}$]]. The important point is that those two languages are powerful enough to simulate all of [[Class_P|$\\text{P}$]] (and [[Class_L|$\\text{L}$]]) and when we write a program in this language we never need to prove his time (space) complexity, since the language garantee it !}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19463,6 +25761,10 @@ The trick to do a computation of a WHILE^rec/cons^ in [[Class_P|$\\text{P}$]] is
 Simulating [[Class_P|$\\text{P}$]] in WHILE^rec/cons^ is quite more subtle, [[Class_P|$\\text{P}$]] TM are equivalent to some counter machine wich can easily be simulated by [[Class_WHILE|$\\text{WHILE}$]] programs with cons, and then we can simulate the cons thanks to the call stack.
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -19489,15 +25791,25 @@ text = u'''
 
 = WPP - Wide PP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 If the answer is "no," then the number of accepting computation paths exactly equals the number of rejecting paths.
 
-If the answer is "yes," then their difference exactly equals a function f(x) computable in polynomial time (i.e. FP).
+If the answer is "yes," then their difference exactly equals a function f(x) computable in polynomial time (i.e. [[Class_FP|$\\text{FP}$]]).
 
 
 
@@ -19505,12 +25817,16 @@ Defined in [[ZooRefs#FFK94|[FFK94] ]].
 
 
 
-Contained in [[Class_C=P|$\\text{C=P}$]] ∩ [[Class_coC=P|$\\text{coC=P}$]], as well as [[Class_AWPP|$\\text{AWPP}$]].
+Contained in [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]] ∩ [[Class_coC=P|$\\text{coC}_\\text{=}\\text{P}$]], as well as [[Class_AWPP|$\\text{AWPP}$]].
 
 
 
 Contains [[Class_SPP|$\\text{SPP}$]] and [[Class_LWPP|$\\text{LWPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19538,10 +25854,26 @@ text = u'''
 
 = W[*] - Union of W[t]'s =
 
+== Description ==
+
+{{{#!description
+
+The union of [[Class_W[t]|$\\text{W[t]}$]] over all t.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The union of [[Class_W[t]|$\\text{W[t]}$]] over all t.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19569,9 +25901,19 @@ text = u'''
 
 = W[1] - Weighted Analog of NP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following:
+{{{#!description
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19597,6 +25939,10 @@ If [[Class_FPT|$\\text{FPT}$]] = [[Class_W[1]|$\\text{W[1]}$]] then [[Class_NP|$
 
 [[Class_W[1]|$\\text{W[1]}$]] can be generalized to [[Class_W[t]|$\\text{W[t]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19624,9 +25970,19 @@ text = u'''
 
 = W[P] - Weighted Circuit Satisfiability =
 
-== Comments ==
+== Description ==
 
-The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
+{{{#!description
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19644,6 +26000,10 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 Contains [[Class_W[SAT]|$\\text{W[SAT]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19671,9 +26031,19 @@ text = u'''
 
 = W[SAT] - Weighted Satisfiability =
 
-== Comments ==
+== Description ==
 
-The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:
+{{{#!description
+
+The class of decision problems of the form (x,k) (k a parameter), that are fixed-parameter reducible to the following problem, for some constant h:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19691,6 +26061,10 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 Contains [[Class_W[t]|$\\text{W[t]}$]] for every t, and is contained in [[Class_W[P]|$\\text{W[P]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19718,9 +26092,19 @@ text = u'''
 
 = W[t] - Nondeterministic Fixed-Parameter Hierarchy =
 
-== Comments ==
+== Description ==
 
-A generalization of [[Class_W[1]|$\\text{W[1]}$]].
+{{{#!description
+
+A generalization of [[Class_W[1]|$\\text{W[1]}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19740,8 +26124,12 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 
 
-Contained in [[Class_W[SAT]|$\\text{W[SAT]}$]] and in [[Class_W*[t]|$\\text{W*[t]}$]].
+Contained in [[Class_W[SAT]|$\\text{W[SAT]}$]] and in [[Class_W*[t]|$\\text{W}^\\text{*}\\text{[t]}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19769,9 +26157,19 @@ text = u'''
 
 = XOR-MIP*[2,1] - MIP*[2,1] With 1-Bit Proofs =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_MIP*[2,1]|$\\text{MIP*[2,1]}$]], but with the further restriction that both provers send only a single bit to the verifier, and the verifier's output is a function of the exclusive-OR of those bits.  There should exist 0<a<b<1 such that if the answer is "yes", then for some responses of the provers the verifier accepts with probability at least b, while if the answer is "no", then for all responses of the provers the verifier accepts with probability at most a.
+{{{#!description
+
+Same as [[Class_MIP*[2,1]|$\\text{MIP*[2,1]}$]], but with the further restriction that both provers send only a single bit to the verifier, and the verifier's output is a function of the exclusive-OR of those bits.  There should exist 0<a<b<1 such that if the answer is "yes", then for some responses of the provers the verifier accepts with probability at least b, while if the answer is "no", then for all responses of the provers the verifier accepts with probability at most a.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19785,6 +26183,10 @@ Defined by [[ZooRefs#CHT+04|[CHT+04] ]], whose motivation was a connection to th
 
 [[Class_XOR-MIP*[2,1]|$\\text{XOR-MIP*[2,1]}$]] is contained in [[Class_QIP[2]|$\\text{QIP[2]}$]] [[ZooRefs#Weh06|[Weh06] ]]
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19812,9 +26214,19 @@ text = u'''
 
 = XP - Fixed-Parameter Tractable for Each Parameter =
 
-== Comments ==
+== Description ==
 
-The class of decision problems of the form (x,k) (k a parameter) that are solvable in time O(|x|^f(k)^) for some function f.  The algorithm used may depend on k.
+{{{#!description
+
+The class of decision problems of the form (x,k) (k a parameter) that are solvable in time O(|x|^f(k)^) for some function f.  The algorithm used may depend on k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19822,12 +26234,16 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 
 
-Contains [[Class_XPuniform|$\\text{XPuniform}$]].
+Contains [[Class_XPuniform|$\\text{XP}_\\text{uniform}\\text{}$]].
 
 
 
 Strictly contains [[Class_FPT|$\\text{FPT}$]] (by diagonalization).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19855,14 +26271,28 @@ text = u'''
 
 = XP,,uniform,, - Uniform XP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_XP|$\\text{XP}$]] except that the algorithm used must be the same for each k (though it can take k as input).
+{{{#!description
+
+Same as [[Class_XP|$\\text{XP}$]] except that the algorithm used must be the same for each k (though it can take k as input).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#DF99|[DF99] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19890,10 +26320,26 @@ text = u'''
 
 = YACC - Yet Another Complexity Class =
 
+== Description ==
+
+{{{#!description
+
+A term of derision, used against a complexity class.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-A term of derision, used against a complexity class.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19921,9 +26367,19 @@ text = u'''
 
 = YP - Your Polynomial-Time or Yaroslav-Percival =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which there exists a polynomial-time machine M such that:
+{{{#!description
+
+The class of decision problems for which there exists a polynomial-time machine M such that:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19947,6 +26403,10 @@ Also contains [[Class_P|$\\text{P}$]] with [[Class_TALLY|$\\text{TALLY}$]] ∩ [
 
 Is contained in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] and [[Class_YPP|$\\text{YPP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -19974,9 +26434,19 @@ text = u'''
 
 = YPP - Yaroslav BPP =
 
-== Comments ==
+== Description ==
 
-The probabilistic analogue of [[Class_YP|$\\text{YP}$]]; it is to [[Class_YP|$\\text{YP}$]] what [[Class_MA|$\\text{MA}$]] is to [[Class_NP|$\\text{NP}$]].  Formally, the class of decision problems for which there exists a syntactic [[Class_BPP|$\\text{BPP}$]] machine M such that:
+{{{#!description
+
+The probabilistic analogue of [[Class_YP|$\\text{YP}$]]; it is to [[Class_YP|$\\text{YP}$]] what [[Class_MA|$\\text{MA}$]] is to [[Class_NP|$\\text{NP}$]].  Formally, the class of decision problems for which there exists a syntactic [[Class_BPP|$\\text{BPP}$]] machine M such that:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -19992,6 +26462,10 @@ To amplify a [[Class_YPP|$\\text{YPP}$]] machine, one can run it multiple times,
 
 Contains [[Class_BPP|$\\text{BPP}$]] and [[Class_YP|$\\text{YP}$]], and is contained in [[Class_MA|$\\text{MA}$]] and [[Class_P/poly|$\\text{P/poly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20019,14 +26493,28 @@ text = u'''
 
 = YQP - Yaroslav BQP =
 
-== Comments ==
+== Description ==
 
-Is to [[Class_YPP|$\\text{YPP}$]] as [[Class_BQP|$\\text{BQP}$]] is to [[Class_BPP|$\\text{BPP}$]], and [[Class_QMA|$\\text{QMA}$]] is to [[Class_MA|$\\text{MA}$]].  The machine is now a quantum computer and the advice is a quantum state |ψ_n>.
+{{{#!description
+
+Is to [[Class_YPP|$\\text{YPP}$]] as [[Class_BQP|$\\text{BQP}$]] is to [[Class_BPP|$\\text{BPP}$]], and [[Class_QMA|$\\text{QMA}$]] is to [[Class_MA|$\\text{MA}$]].  The machine is now a quantum computer and the advice is a quantum state |ψ_n>.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_BQP|$\\text{BQP}$]] and [[Class_YPP|$\\text{YPP}$]], and is contained in [[Class_QMA|$\\text{QMA}$]] and [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20054,9 +26542,19 @@ text = u'''
 
 = ZBQP - Strict Quantum ZPP =
 
-== Comments ==
+== Description ==
 
-Defined as [[Class_RBQP|$\\text{RBQP}$]] ∩ coRBQP.  Equivalently, the class of problems in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] such that both positive and negative witnesses are in [[Class_FBQP|$\\text{FBQP}$]].
+{{{#!description
+
+Defined as [[Class_RBQP|$\\text{RBQP}$]] ∩ coRBQP.  Equivalently, the class of problems in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] such that both positive and negative witnesses are in [[Class_FBQP|$\\text{FBQP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20070,6 +26568,10 @@ Unlike [[Class_EQP|$\\text{EQP}$]] or [[Class_ZQP|$\\text{ZQP}$]], [[Class_ZBQP|
 
 Contains [[Class_ZPP|$\\text{ZPP}$]] and is contained in [[Class_RBQP|$\\text{RBQP}$]] and [[Class_ZQP|$\\text{ZQP}$]].  Also, ZBQP^ZBQP^ = [[Class_ZBQP|$\\text{ZBQP}$]].  Defined here to clarify [[Class_EQP|$\\text{EQP}$]] and [[Class_ZQP|$\\text{ZQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20097,14 +26599,28 @@ text = u'''
 
 = ZK - Zero-Knowledge (see CZK) =
 
-== Comments ==
+== Description ==
 
-Often used as a shorthand for (computational zero-knowledge) [[Class_CZK|$\\text{CZK}$]], but may also be used as a general paradigm encomposing various classes ranging from perfect and statistical zero-knowledge (SZK) to computational ones (CZK), and also various forms of non-interactive zero-knowledge proof systems.
+{{{#!description
+
+Often used as a shorthand for (computational zero-knowledge) [[Class_CZK|$\\text{CZK}$]], but may also be used as a general paradigm encomposing various classes ranging from perfect and statistical zero-knowledge ([[Class_SZK|$\\text{SZK}$]]) to computational ones ([[Class_CZK|$\\text{CZK}$]]), and also various forms of non-interactive zero-knowledge proof systems.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Zero-knowledge proofs were introduced in [[ZooRefs#GMR89|[GMR89] ]], and further studied in [[ZooRefs#GMW91|[GMW91] ]], which demonstrated the wide applicability of the concept.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20132,14 +26648,28 @@ text = u'''
 
 = ZPE - Zero-Error Probabilistic E =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_ZPP|$\\text{ZPP}$]], but with 2^O(n)^-time instead of polynomial-time.
+{{{#!description
+
+Same as [[Class_ZPP|$\\text{ZPP}$]], but with 2^O(n)^-time instead of polynomial-time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 [[Class_ZPE|$\\text{ZPE}$]] = [[Class_EE|$\\text{EE}$]] if and only if [[Class_ZPP|$\\text{ZPP}$]] = [[Class_EXP|$\\text{EXP}$]] [[ZooRefs#IKW01|[IKW01] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20167,9 +26697,19 @@ text = u'''
 
 = ZPP - Zero-Error Probabilistic Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-Defined as [[Class_RP|$\\text{RP}$]] ∩ [[Class_coRP|$\\text{coRP}$]].
+{{{#!description
+
+Defined as [[Class_RP|$\\text{RP}$]] ∩ [[Class_coRP|$\\text{coRP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20204,6 +26744,10 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 There exists an oracle relative to which [[Class_ZPP|$\\text{ZPP}$]] = [[Class_EXP|$\\text{EXP}$]] [[ZooRefs#Hel84|[Hel84] ]].
 == Relations ==
 
+{{{#!class_relations
+
+}}}
+
 
 == See Also ==
 
@@ -20230,14 +26774,28 @@ text = u'''
 
 = ZPTIME(f(n)) - Zero-Error Probabilistic f(n)-Time =
 
+== Description ==
+
+{{{#!description
+
+Same as [[Class_ZPP|$\\text{ZPP}$]], but with O(f(n))-time instead of polynomial-time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Same as [[Class_ZPP|$\\text{ZPP}$]], but with O(f(n))-time instead of polynomial-time.
 
 
-
-For any constructible superpolynomial f, [[Class_ZPTIME(f(n))|$\\text{ZPTIME(f(n))}$]] with [[Class_NP|$\\text{NP}$]] oracle is not contained in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#KW98|[KW98] ]].
+For any constructible superpolynomial f, ZPTIME(f(n)) with [[Class_NP|$\\text{NP}$]] oracle is not contained in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#KW98|[KW98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20265,9 +26823,19 @@ text = u'''
 
 = ZQP - Zero-Error Extension Of EQP =
 
-== Comments ==
+== Description ==
 
-The class of questions that can be answered by a QTM that answers yes, no, or "maybe".  If the correct answer is yes, then P[no] = 0, and vice-versa; and the probability of maybe is at most 1/2.  Since some of the probabilities have to vanish, [[Class_ZQP|$\\text{ZQP}$]] has the same technical caveats as [[Class_EQP|$\\text{EQP}$]].
+{{{#!description
+
+The class of questions that can be answered by a QTM that answers yes, no, or "maybe".  If the correct answer is yes, then P[no] = 0, and vice-versa; and the probability of maybe is at most 1/2.  Since some of the probabilities have to vanish, [[Class_ZQP|$\\text{ZQP}$]] has the same technical caveats as [[Class_EQP|$\\text{EQP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20277,6 +26845,10 @@ Defined independently in [[ZooRefs#BW03|[BW03] ]] and in [[ZooRefs#Nis02|[Nis02]
 
 Contains [[Class_EQP|$\\text{EQP}$]] and [[Class_ZBQP|$\\text{ZBQP}$]] and is contained in [[Class_BQP|$\\text{BQP}$]].  Equals [[Class_RQP|$\\text{RQP}$]] ∩ coRQP.  There is an oracle such that ZQP^ZQP^ is larger than [[Class_ZQP|$\\text{ZQP}$]] [[ZooRefs#BW03|[BW03] ]]; c.f. with [[Class_ZBQP|$\\text{ZBQP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20304,10 +26876,26 @@ text = u'''
 
 = coAM - Complement of AM =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20335,10 +26923,26 @@ text = u'''
 
 = coC,,=,,P - Complement of C=P =
 
+== Description ==
+
+{{{#!description
+
+Equals [[Class_NQP|$\\text{NQP}$]] [[ZooRefs#FGH+98|[FGH+98] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_NQP|$\\text{NQP}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20366,10 +26970,26 @@ text = u'''
 
 = coMA - Complement of MA =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20397,10 +27017,26 @@ text = u'''
 
 = coMod,,k,,P - Complement of ModkP =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20428,10 +27064,26 @@ text = u'''
 
 = coNE - Complement of NE =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20459,14 +27111,28 @@ text = u'''
 
 = coNEXP - Complement of NEXP =
 
-== Comments ==
+== Description ==
 
-Contained in [[Class_NEXP/poly|$\\text{NEXP/poly}$]] (folklore result reported in [Fortnow's weblog]).
+{{{#!description
+
+Contained in [[Class_NEXP/poly|$\\text{NEXP/poly}$]] (folklore result reported in [Fortnow's weblog]).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contained in [[Class_NEXP/poly|$\\text{NEXP/poly}$]] (folklore result reported in [weblog]).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20494,10 +27160,26 @@ text = u'''
 
 = coNL - Complement of NL =
 
+== Description ==
+
+{{{#!description
+
+Equals [[Class_NL|$\\text{NL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze87] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_NL|$\\text{NL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze87] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20525,9 +27207,19 @@ text = u'''
 
 = coNP - Complement of NP =
 
-== Comments ==
+== Description ==
 
-If [[Class_NP|$\\text{NP}$]] = [[Class_coNP|$\\text{coNP}$]], then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.
+{{{#!description
+
+If [[Class_NP|$\\text{NP}$]] = [[Class_coNP|$\\text{coNP}$]], then any inconsistent Boolean formula of size n has a proof of inconsistency of size polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20549,6 +27241,10 @@ Co-NP is equal to SO-A, the second-order queries where the second-order quantifi
 
 Every problem in [[Class_coNP|$\\text{coNP}$]] has an [[Class_IP|$\\text{IP}$]] (interactive proof) system, where moreover the prover can be restricted to BPP^#P^.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20576,9 +27272,19 @@ text = u'''
 
 = coNP/poly - Complement of NP/poly =
 
-== Comments ==
+== Description ==
 
-If [[Class_NP|$\\text{NP}$]] is contained in [[Class_coNP/poly|$\\text{coNP/poly}$]] then [[Class_PH|$\\text{PH}$]] collapses to S,,2,,P^NP^ [[ZooRefs#CCH+01|[CCH+01] ]].
+{{{#!description
+
+If [[Class_NP|$\\text{NP}$]] is contained in [[Class_coNP/poly|$\\text{coNP/poly}$]] then [[Class_PH|$\\text{PH}$]] collapses to S,,2,,P^NP^ [[ZooRefs#CCH+01|[CCH+01] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20588,6 +27294,10 @@ NP^NP^NP^(coNP/poly ∩ NP)^ = NP^NP^NP^ [[ZooRefs#HNO+96|[HNO+96] ]]
 
 Note: At the suggestion of Luis Antuñes, the above specimen of the Complexity Zoo has been locked in a cage.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20615,10 +27325,26 @@ text = u'''
 
 = coNP^cc^ - Complement of NPcc =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20646,10 +27372,26 @@ text = u'''
 
 = coNQP - Complement of NQP =
 
+== Description ==
+
+{{{#!description
+
+Equals [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Equals [[Class_C=P|$\\text{C=P}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20677,14 +27419,28 @@ text = u'''
 
 = coRE - Complement of RE =
 
-== Comments ==
+== Description ==
 
-Does not equal [[Class_RE|$\\text{RE}$]].
+{{{#!description
+
+Does not equal [[Class_RE|$\\text{RE}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 The problem "given a computable predicate [[Class_P|$\\text{P}$]], is [[Class_P|$\\text{P}$]] true of all positive integers?" is coRE-complete.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20712,10 +27468,26 @@ text = u'''
 
 = coRNC - Complement of RNC =
 
+== Description ==
+
+{{{#!description
+
+Contains the problem of whether a bipartite graph has a perfect matching [[ZooRefs#Kar86|[Kar86] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains the problem of whether a bipartite graph has a perfect matching [[ZooRefs#Kar86|[Kar86] ]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20743,9 +27515,19 @@ text = u'''
 
 = coRP - Complement of RP =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#Gil77|[Gil77] ]].  (This paper does not actually discuss [[Class_coRP|$\\text{coRP}$]], other than implicitly mentioning that [[Class_ZPP|$\\text{ZPP}$]] = [[Class_RP|$\\text{RP}$]] ∩ co-RP.  Is there a better reference?)
+{{{#!description
+
+Defined in [[ZooRefs#Gil77|[Gil77] ]].  (This paper does not actually discuss [[Class_coRP|$\\text{coRP}$]], other than implicitly mentioning that [[Class_ZPP|$\\text{ZPP}$]] = [[Class_RP|$\\text{RP}$]] ∩ co-RP.  Is there a better reference?)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20755,6 +27537,10 @@ Contains the problem of testing whether an integer is prime [[ZooRefs#SS77|[SS77
 
 Defined in [[ZooRefs#Gil77|[Gil77] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20782,10 +27568,26 @@ text = u'''
 
 = coSL - Complement of SL =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20813,10 +27615,26 @@ text = u'''
 
 = coSPARSE - Complement of SPARSE =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20844,14 +27662,28 @@ text = u'''
 
 = coUCC - Complement of UCC =
 
-== Comments ==
+== Description ==
 
-[[ZooRefs#Tor00|[Tor00] ]] showed the following problem complete for [[Class_coUCC|$\\text{coUCC}$]] under [[Class_L|$\\text{L}$]] reductions:
+{{{#!description
+
+[[ZooRefs#Tor00|[Tor00] ]] showed the following problem complete for [[Class_coUCC|$\\text{coUCC}$]] under [[Class_L|$\\text{L}$]] reductions:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Given a colored graph G with at most two vertices having any given color, does G have any nontrivial automorphisms?
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20879,10 +27711,26 @@ text = u'''
 
 = coUP - Complement of UP =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20910,10 +27758,26 @@ text = u'''
 
 = cofrIP - Complement of frIP =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20941,9 +27805,19 @@ text = u'''
 
 = compIP - Competitive IP Proof System =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_compNP|$\\text{compNP}$]] but for interactive (IP) proofs instead of [[Class_NP|$\\text{NP}$]] proofs.
+{{{#!description
+
+Same as [[Class_compNP|$\\text{compNP}$]] but for interactive ([[Class_IP|$\\text{IP}$]]) proofs instead of [[Class_NP|$\\text{NP}$]] proofs.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20951,8 +27825,12 @@ More formally, [[Class_compIP|$\\text{compIP}$]] is the class of decision proble
 
 
 
-Assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BPEE}$]], [[Class_NP|$\\text{NP}$]] (and indeed [[Class_NP|$\\text{NP}$]] ∩ Coh) is not contained in [[Class_compIP|$\\text{compIP}$]] [[ZooRefs#BG94|[BG94] ]].
+Assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BPEE}$]], [[Class_NP|$\\text{NP}$]] (and indeed [[Class_NP|$\\text{NP}$]] ∩ [[Class_Coh|$\\text{Coh}$]]) is not contained in [[Class_compIP|$\\text{compIP}$]] [[ZooRefs#BG94|[BG94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -20980,9 +27858,19 @@ text = u'''
 
 = compNP - Competitive NP Proof System =
 
-== Comments ==
+== Description ==
 
-The class of decision problems [[Class_L|$\\text{L}$]] in [[Class_NP|$\\text{NP}$]] such that, if the answer is "yes," then a proof can be constructed in polynomial time given access only to an oracle for [[Class_L|$\\text{L}$]].
+{{{#!description
+
+The class of decision problems [[Class_L|$\\text{L}$]] in [[Class_NP|$\\text{NP}$]] such that, if the answer is "yes," then a proof can be constructed in polynomial time given access only to an oracle for [[Class_L|$\\text{L}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -20992,6 +27880,10 @@ Contains [[Class_NPC|$\\text{NPC}$]].
 
 [[ZooRefs#BG94|[BG94] ]] show that [[Class_compNP|$\\text{compNP}$]] is contained in [[Class_frIP|$\\text{frIP}$]], and that assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BPEE}$]], [[Class_compNP|$\\text{compNP}$]] does not equal [[Class_NP|$\\text{NP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21019,13 +27911,23 @@ text = u'''
 
 = frIP - Function-Restricted IP Proof Systems =
 
+== Description ==
+
+{{{#!description
+
+The class of problems [[Class_L|$\\text{L}$]] that have a decider in the following sense.  There exists a [[Class_BPP|$\\text{BPP}$]] machine D such that for all inputs x,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of problems [[Class_L|$\\text{L}$]] that have a decider in the following sense.  There exists a [[Class_BPP|$\\text{BPP}$]] machine D such that for all inputs x,
 
 
-
-If the answer is "yes" then D^L^(x) (D with oracle for L) accepts with probability at least 2/3.
+If the answer is "yes" then D^L^(x) (D with oracle for [[Class_L|$\\text{L}$]]) accepts with probability at least 2/3.
 
 If the answer is "no" then D^A^(x) accepts with probability at most 1/3 for all oracles A.
 
@@ -21039,8 +27941,12 @@ Contained in [[Class_MIP|$\\text{MIP}$]] = [[Class_NEXP|$\\text{NEXP}$]] [[ZooRe
 
 
 
-Assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BPEE}$]], [[Class_NP|$\\text{NP}$]] (and indeed [[Class_NP|$\\text{NP}$]] ∩ Coh) is not contained in [[Class_frIP|$\\text{frIP}$]] [[ZooRefs#BG94|[BG94] ]].
+Assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BPEE}$]], [[Class_NP|$\\text{NP}$]] (and indeed [[Class_NP|$\\text{NP}$]] ∩ [[Class_Coh|$\\text{Coh}$]]) is not contained in [[Class_frIP|$\\text{frIP}$]] [[ZooRefs#BG94|[BG94] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21068,10 +27974,26 @@ text = u'''
 
 = k-BWBP - Bounded-Width Branching Program =
 
+== Description ==
+
+{{{#!description
+
+Alternate name for [[Class_k-PBP|$\\text{k-PBP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Alternate name for [[Class_k-PBP|$\\text{k-PBP}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21099,9 +28021,19 @@ text = u'''
 
 = k-EQBP - Width-k Polynomial-Time Exact Quantum Branching Programs =
 
-== Comments ==
+== Description ==
 
-See [[Class_k-PBP|$\\text{k-PBP}$]] for the definition of a classical branching program.
+{{{#!description
+
+See [[Class_k-PBP|$\\text{k-PBP}$]] for the definition of a classical branching program.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21109,12 +28041,16 @@ A quantum branching program is the natural quantum generalization: we have a qua
 
 
 
-Defined in [[ZooRefs#AMP02|[AMP02] ]], where it was also shown that [[Class_NC1|$\\text{NC1}$]] is contained in 2-EQBP.
+Defined in [[ZooRefs#AMP02|[AMP02] ]], where it was also shown that [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] is contained in 2-EQBP.
 
 
 
 k-BQBP can be defined similarly.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21142,9 +28078,19 @@ text = u'''
 
 = k-PBP - Polynomial-Size Width-k Branching Program =
 
-== Comments ==
+== Description ==
 
-A branching program is a directed acyclic graph with a designated start vertex.  Each (non-sink) vertex is labeled by the name of an input bit, and has two outgoing edges, one of which is followed if that input bit is 0, the other if the bit is 1.  A sink vertex can be either an 'accept' or a 'reject' vertex.
+{{{#!description
+
+A branching program is a directed acyclic graph with a designated start vertex.  Each (non-sink) vertex is labeled by the name of an input bit, and has two outgoing edges, one of which is followed if that input bit is 0, the other if the bit is 1.  A sink vertex can be either an 'accept' or a 'reject' vertex.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21156,7 +28102,7 @@ Then [[Class_k-PBP|$\\text{k-PBP}$]] is the class of decision problems solvable 
 
 
 
-[[Class_k-PBP|$\\text{k-PBP}$]] equals (nonuniform) [[Class_NC1|$\\text{NC1}$]] for constant k at least 5 [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, 4-PBP is in [[Class_ACC0|$\\text{ACC0}$]] [[ZooRefs#BT88|[BT88] ]].
+[[Class_k-PBP|$\\text{k-PBP}$]] equals (nonuniform) [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] for constant k at least 5 [[ZooRefs#Bar89|[Bar89] ]].  On the other hand, 4-PBP is in [[Class_ACC0|$\\text{ACC}^\\text{0}\\text{}$]] [[ZooRefs#BT88|[BT88] ]].
 
 
 
@@ -21164,8 +28110,12 @@ Contained in [[Class_k-EQBP|$\\text{k-EQBP}$]], as well as [[Class_PBP|$\\text{P
 
 
 
-See also [[Class_BPd(P)|$\\text{BPd(P)}$]].
+See also BP,,d,,(P).
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21193,10 +28143,26 @@ text = u'''
 
 = mAL - Monotone AL =
 
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#GS90|[GS90] ]].  Equals [[Class_mP|$\\text{mP}$]] by definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Defined in [[ZooRefs#GS90|[GS90] ]].  Equals [[Class_mP|$\\text{mP}$]] by definition.
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21224,9 +28190,19 @@ text = u'''
 
 = mL - Monotone L =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a family of monotone log-width polynomial-size leveled circuits.  (A leveled circuit is one where gates on each level can depend only on the level immediately below it.)
+{{{#!description
+
+The class of decision problems solvable by a family of monotone log-width polynomial-size leveled circuits.  (A leveled circuit is one where gates on each level can depend only on the level immediately below it.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21234,12 +28210,16 @@ Defined in [[ZooRefs#GS90|[GS90] ]], who raise as an open problem to define a un
 
 
 
-Strictly contains [[Class_mNC1|$\\text{mNC1}$]] [[ZooRefs#GS91|[GS91] ]].
+Strictly contains [[Class_mNC1|$\\text{mNC}^\\text{1}\\text{}$]] [[ZooRefs#GS91|[GS91] ]].
 
 
 
 Contained in (nonuniform versions of) [[Class_mNL|$\\text{mNL}$]] and [[Class_mcoNL|$\\text{mcoNL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21267,9 +28247,19 @@ text = u'''
 
 = mNC^1^ - Monotone NC1 =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a family of monotone [[Class_NC1|$\\text{NC1}$]] circuits (i.e. AND and OR gates only).
+{{{#!description
+
+The class of decision problems solvable by a family of monotone [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] circuits (i.e. AND and OR gates only).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21285,8 +28275,12 @@ Strictly contained in [[Class_mNL|$\\text{mNL}$]] [[ZooRefs#KW88|[KW88] ]], and 
 
 
 
-Strictly contains [[Class_mTC0|$\\text{mTC0}$]] [[ZooRefs#Yao89|[Yao89] ]].
+Strictly contains [[Class_mTC0|$\\text{mTC}^\\text{0}\\text{}$]] [[ZooRefs#Yao89|[Yao89] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21314,9 +28308,19 @@ text = u'''
 
 = mNL - Monotone NL =
 
-== Comments ==
+== Description ==
 
-See [[Class_mP|$\\text{mP}$]] for the definition of a monotone nondeterministic Turing machine, due to [[ZooRefs#GS90|[GS90] ]].
+{{{#!description
+
+See [[Class_mP|$\\text{mP}$]] for the definition of a monotone nondeterministic Turing machine, due to [[ZooRefs#GS90|[GS90] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21328,12 +28332,16 @@ See [[Class_mP|$\\text{mP}$]] for the definition of a monotone nondeterministic 
 
 
 
-Also, [[Class_mNL|$\\text{mNL}$]] strictly contains [[Class_mNC1|$\\text{mNC1}$]] [[ZooRefs#KW88|[KW88] ]].
+Also, [[Class_mNL|$\\text{mNL}$]] strictly contains [[Class_mNC1|$\\text{mNC}^\\text{1}\\text{}$]] [[ZooRefs#KW88|[KW88] ]].
 
 
 
 See also: [[Class_mL|$\\text{mL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21361,9 +28369,19 @@ text = u'''
 
 = mNP - Monotone NP =
 
-== Comments ==
+== Description ==
 
-The class of decision problems for which a 'yes' answer can be verified in [[Class_mP|$\\text{mP}$]] (that is, monotone polynomial-time).  The monotonicity requirement applies only to the input bits, not to the bits that are guessed nondeterministically. So, in the corresponding circuit, one can have NOT gates so long as they depend only on the nondeterministic guess bits.
+{{{#!description
+
+The class of decision problems for which a 'yes' answer can be verified in [[Class_mP|$\\text{mP}$]] (that is, monotone polynomial-time).  The monotonicity requirement applies only to the input bits, not to the bits that are guessed nondeterministically. So, in the corresponding circuit, one can have NOT gates so long as they depend only on the nondeterministic guess bits.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21373,6 +28391,10 @@ Defined in [[ZooRefs#GS90|[GS90] ]], where it was also shown that [[Class_mNP|$\
 
 Strictly contains [[Class_mP|$\\text{mP}$]] [[ZooRefs#Raz85|[Raz85] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21400,9 +28422,19 @@ text = u'''
 
 = mP - Monotone P =
 
-== Comments ==
+== Description ==
 
-The definition of this class, due to [[ZooRefs#GS90|[GS90] ]], is not obvious.  First, a monotone nondeterministic Turing machine is one such that, whenever it can make a transition with a 0 on its input tape, it can also make that same transition with a 1 on its input tape. (This restriction does not apply to the work tape.)  A monotone alternating Turing machine is subject to the restriction that it can only reference an input bit x by, "there exists a z at most x," or "for all z at least x."
+{{{#!description
+
+The definition of this class, due to [[ZooRefs#GS90|[GS90] ]], is not obvious.  First, a monotone nondeterministic Turing machine is one such that, whenever it can make a transition with a 0 on its input tape, it can also make that same transition with a 1 on its input tape. (This restriction does not apply to the work tape.)  A monotone alternating Turing machine is subject to the restriction that it can only reference an input bit x by, "there exists a z at most x," or "for all z at least x."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21422,8 +28454,12 @@ Deciding whether a bipartite graph has a perfect matching, despite being both a 
 
 
 
-See also: [[Class_mNC1|$\\text{mNC1}$]], [[Class_mL|$\\text{mL}$]], [[Class_mNL|$\\text{mNL}$]], [[Class_mcoNL|$\\text{mcoNL}$]].
+See also: [[Class_mNC1|$\\text{mNC}^\\text{1}\\text{}$]], [[Class_mL|$\\text{mL}$]], [[Class_mNL|$\\text{mNL}$]], [[Class_mcoNL|$\\text{mcoNL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21451,14 +28487,28 @@ text = u'''
 
 = mP/poly - Monotone P/poly =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a nonuniform family of polynomial-size Boolean circuits with only AND and OR gates, no NOT gates.  (Or rather, following the definitions of [[ZooRefs#GS90|[GS90] ]], the entire input can be negated as long as there are no other negations.)
+{{{#!description
+
+The class of decision problems solvable by a nonuniform family of polynomial-size Boolean circuits with only AND and OR gates, no NOT gates.  (Or rather, following the definitions of [[ZooRefs#GS90|[GS90] ]], the entire input can be negated as long as there are no other negations.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 More straightforward to define than [[Class_mP|$\\text{mP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21486,9 +28536,19 @@ text = u'''
 
 = mTC^0^ - Monotone TC0 =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by a family of monotone [[Class_TC0|$\\text{TC0}$]] circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).
+{{{#!description
+
+The class of decision problems solvable by a family of monotone [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21500,8 +28560,12 @@ Defined in [[ZooRefs#GS90|[GS90] ]].
 
 
 
-Strictly contained in [[Class_mNC1|$\\text{mNC1}$]] [[ZooRefs#Yao89|[Yao89] ]].
+Strictly contained in [[Class_mNC1|$\\text{mNC}^\\text{1}\\text{}$]] [[ZooRefs#Yao89|[Yao89] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21529,14 +28593,28 @@ text = u'''
 
 = mcoNL - Complement of mNL =
 
-== Comments ==
+== Description ==
 
-Defined in [[ZooRefs#GS90|[GS90] ]], where it was also shown that [[Class_mcoNL|$\\text{mcoNL}$]] does not equal [[Class_mNL|$\\text{mNL}$]].
+{{{#!description
+
+Defined in [[ZooRefs#GS90|[GS90] ]], where it was also shown that [[Class_mcoNL|$\\text{mcoNL}$]] does not equal [[Class_mNL|$\\text{mNL}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 See also: [[Class_mL|$\\text{mL}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21564,14 +28642,28 @@ text = u'''
 
 = polyL - Polylogarithmic Space =
 
-== Comments ==
+== Description ==
 
-Equals DSPACE((log n)^c^).
+{{{#!description
+
+Equals DSPACE((log n)^c^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 In contrast to [[Class_L|$\\text{L}$]], which is contained in [[Class_P|$\\text{P}$]], it is not known if [[Class_polyL|$\\text{polyL}$]] is contained in [[Class_P|$\\text{P}$]] or vice versa.  On the other hand, we do know that [[Class_polyL|$\\text{polyL}$]] does not equal [[Class_P|$\\text{P}$]], since (for example) [[Class_polyL|$\\text{polyL}$]] does not have complete problems under many-to-one logspace reductions.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21599,14 +28691,28 @@ text = u'''
 
 = span-P - Span Polynomial-Time =
 
-== Comments ==
+== Description ==
 
-The class of functions computable as |S|, where S is the set of output values returned by the accepting paths of an [[Class_NP|$\\text{NP}$]] machine.
+{{{#!description
+
+The class of functions computable as |S|, where S is the set of output values returned by the accepting paths of an [[Class_NP|$\\text{NP}$]] machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Defined in [[ZooRefs#KST+89|[KST+89] ]], where it is also shown that [[Class_span-P|$\\text{span-P}$]] contains [[Class_SharpP|$\\text{#P}$]] and [[Class_OptP|$\\text{OptP}$]]; and that [[Class_span-P|$\\text{span-P}$]] = [[Class_SharpP|$\\text{#P}$]] if and only if [[Class_UP|$\\text{UP}$]] = [[Class_NP|$\\text{NP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21634,10 +28740,26 @@ text = u'''
 
 = symP - Alternate Name for S2P =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21665,9 +28787,19 @@ text = u'''
 
 = Δ,,2,,P - P With NP Oracle =
 
-== Comments ==
+== Description ==
 
-A level of [[Class_PH|$\\text{PH}$]], the polynomial hierarchy.
+{{{#!description
+
+A level of [[Class_PH|$\\text{PH}$]], the polynomial hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21675,11 +28807,11 @@ Contains [[Class_BH|$\\text{BH}$]].
 
 
 
-There exists an oracle relative to which [[Class_Δ2P|$\\text{Δ2P}$]] is not contained in [[Class_PP|$\\text{PP}$]] [[ZooRefs#Bei94|[Bei94] ]].
+There exists an oracle relative to which [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]] is not contained in [[Class_PP|$\\text{PP}$]] [[ZooRefs#Bei94|[Bei94] ]].
 
 
 
-There exists another oracle relative to which [[Class_Δ2P|$\\text{Δ2P}$]] is contained in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#BGS75|[BGS75] ]], and indeed has linear-size circuits [[ZooRefs#Wil85|[Wil85] ]].
+There exists another oracle relative to which [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]] is contained in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#BGS75|[BGS75] ]], and indeed has linear-size circuits [[ZooRefs#Wil85|[Wil85] ]].
 
 
 
@@ -21687,8 +28819,12 @@ There exists an oracle B for which BPP^B^ is exponentially more powerful than Δ
 
 
 
-If [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]], then any polynomial-size circuit C can be learned in [[Class_Δ2P|$\\text{Δ2P}$]] with C oracle [[ZooRefs#Aar06|[Aar06] ]].
+If [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]], then any polynomial-size circuit C can be learned in [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]] with C oracle [[ZooRefs#Aar06|[Aar06] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21716,10 +28852,26 @@ text = u'''
 
 = Θ,,2,,P - Alternate name for PNP[log] =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21747,14 +28899,28 @@ text = u'''
 
 = Π,,2,,P - coNP With NP Oracle =
 
+== Description ==
+
+{{{#!description
+
+Complement of [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Complement of [[Class_Σ2P|$\\text{Σ2P}$]].
 
 
-
-Along with [[Class_Σ2P|$\\text{Σ2P}$]], comprises the second level of [[Class_PH|$\\text{PH}$]], the polynomial hierarchy. For any fixed k, there is a problem in [[Class_Π2P|$\\text{Π2P}$]] ∩ [[Class_Σ2P|$\\text{Σ2P}$]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
+Along with [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]], comprises the second level of [[Class_PH|$\\text{PH}$]], the polynomial hierarchy. For any fixed k, there is a problem in [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]] ∩ [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21782,28 +28948,42 @@ text = u'''
 
 = Σ,,2,,P - NP With NP Oracle =
 
+== Description ==
+
+{{{#!description
+
+Complement of [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Complement of [[Class_Π2P|$\\text{Π2P}$]].
+
+
+Along with [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]], comprises the second level of [[Class_PH|$\\text{PH}$]], the polynomial hierarchy.
 
 
 
-Along with [[Class_Π2P|$\\text{Π2P}$]], comprises the second level of [[Class_PH|$\\text{PH}$]], the polynomial hierarchy.
-
-
-
-[[ZooRefs#Uma98|[Uma98] ]] has shown that the following problems are complete for [[Class_Σ2P|$\\text{Σ2P}$]]:
+[[ZooRefs#Uma98|[Uma98] ]] has shown that the following problems are complete for [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]]:
 
 
 
 Minimum equivalent DNF.  Given a DNF formula F and integer k, is there a DNF formula equivalent to F with k or fewer occurences of literals?
 
-Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless [[Class_Σ2P|$\\text{Σ2P}$]] equals βP^NP^.)
+Shortest implicant.  Given a formula F and integer k, is there a conjunction of k or fewer literals that implies F?  (Note that this problem cannot be Σ,,2,,P-complete for DNF formulas unless [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] equals βP^NP^.)
 
 
 
-For any fixed k, there is a problem in [[Class_Σ2P|$\\text{Σ2P}$]] ∩ [[Class_Π2P|$\\text{Π2P}$]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
+For any fixed k, there is a problem in [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] ∩ [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]] that cannot be solved by circuits of size n^k^ [[ZooRefs#Kan82|[Kan82] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21831,9 +29011,19 @@ text = u'''
 
 = Φ,,2,,P - Second Level of the Symmetric Hierarchy, Alternative Definition =
 
-== Comments ==
+== Description ==
 
-The class of problems for which there exists a polynomial-time predicate P(x,y,z) such that for all x, if the answer on input x is "yes," then
+{{{#!description
+
+The class of problems for which there exists a polynomial-time predicate P(x,y,z) such that for all x, if the answer on input x is "yes," then}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21843,12 +29033,16 @@ For all z, there exists a y for which P(x,y,z).
 
 
 
-Contained in [[Class_Σ2P|$\\text{Σ2P}$]] and [[Class_Π2P|$\\text{Π2P}$]].
+Contained in [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]] and [[Class_Π2P|$\\text{Π}_\\text{2}\\text{P}$]].
 
 
 
-Defined in [[ZooRefs#Can96|[Can96] ]], where it was also observed that [[Class_Φ2P|$\\text{Φ2P}$]] = [[Class_S2P|$\\text{S2P}$]].
+Defined in [[ZooRefs#Can96|[Can96] ]], where it was also observed that [[Class_Φ2P|$\\text{Φ}_\\text{2}\\text{P}$]] = [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21876,9 +29070,19 @@ text = u'''
 
 = βP - Limited-Nondeterminism NP =
 
-== Comments ==
+== Description ==
 
-β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as [[Class_NP|$\\text{NP}$]].  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'
+{{{#!description
+
+β,,k,,P is the class of decision problems solvable by a polynomial-time Turing machine that makes O(log^k^n) nondeterministic transitions, with the same acceptance mechanism as [[Class_NP|$\\text{NP}$]].  Equivalently, the machine receives a purported proof of size O(log^k^n) that the answer is 'yes.'}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21896,6 +29100,10 @@ There exist oracles relative to which basically any consistent inclusion structu
 
 β,,2,,P contains [[Class_LOGNP|$\\text{LOGNP}$]] and [[Class_LOGSNP|$\\text{LOGSNP}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21923,9 +29131,19 @@ text = u'''
 
 = δ-BPP - δ-Semi-Random BPP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_BPP|$\\text{BPP}$]], except that the random bit source is biased as follows.  Each bit could depend on all the previous bits in arbitrarily complicated ways; the only promise is that the bit is 1 with probability in the range [δ,1-δ], conditioned on all previous bits.
+{{{#!description
+
+Same as [[Class_BPP|$\\text{BPP}$]], except that the random bit source is biased as follows.  Each bit could depend on all the previous bits in arbitrarily complicated ways; the only promise is that the bit is 1 with probability in the range [δ,1-δ], conditioned on all previous bits.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -21935,6 +29153,10 @@ So clearly 0-BPP = [[Class_P|$\\text{P}$]] and 1/2-BPP = [[Class_BPP|$\\text{BPP
 
 It turns out that, for any δ>0, [[Class_δ-BPP|$\\text{δ-BPP}$]] = [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#VV85|[VV85] ]], [[ZooRefs#Zuc91|[Zuc91] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21962,14 +29184,28 @@ text = u'''
 
 = δ-RP - δ-Semi-Random RP =
 
-== Comments ==
+== Description ==
 
-Same as [[Class_δ-BPP|$\\text{δ-BPP}$]], but for [[Class_RP|$\\text{RP}$]] instead of [[Class_BPP|$\\text{BPP}$]].
+{{{#!description
+
+Same as [[Class_δ-BPP|$\\text{δ-BPP}$]], but for [[Class_RP|$\\text{RP}$]] instead of [[Class_BPP|$\\text{BPP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 For any δ>0, [[Class_δ-RP|$\\text{δ-RP}$]] = [[Class_RP|$\\text{RP}$]] [[ZooRefs#VV85|[VV85] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -21997,9 +29233,19 @@ text = u'''
 
 = ∃BPP - BPP With Existential Operator =
 
-== Comments ==
+== Description ==
 
-The class of problems for which there exists a [[Class_BPP|$\\text{BPP}$]] machine M such that, for all inputs x,
+{{{#!description
+
+The class of problems for which there exists a [[Class_BPP|$\\text{BPP}$]] machine M such that, for all inputs x,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -22019,6 +29265,10 @@ Contains [[Class_NP|$\\text{NP}$]] and [[Class_BPP|$\\text{BPP}$]], and is conta
 
 [[Class_∃BPP|$\\text{∃BPP}$]] seems obviously equal to [[Class_MA|$\\text{MA}$]], yet [[ZooRefs#FFK+93|[FFK+93] ]] constructed an oracle relative to which they're unequal!  Here is the difference: if the answer is "yes," [[Class_MA|$\\text{MA}$]] requires only that there exist a y such that for at least 2/3 of random strings r, M(x,y,r) accepts (where M is a [[Class_P|$\\text{P}$]] predicate).  For all other y's, the proportion of r's such that M(x,y,r) accepts can be arbitrary (say, 1/2).  For [[Class_∃BPP|$\\text{∃BPP}$]], by contrast, the probability that M(x,y) accepts must always be either at most 1/3 or at least 2/3, for all y's.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -22046,10 +29296,26 @@ text = u'''
 
 = ∃NISZK - NISZK With Existential Operator =
 
+== Description ==
+
+{{{#!description
+
+Contains [[Class_NP|$\\text{NP}$]] and [[Class_NISZK|$\\text{NISZK}$]], and is contained in the third level of [[Class_PH|$\\text{PH}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-Contains [[Class_NP|$\\text{NP}$]] and [[Class_NISZK|$\\text{NISZK}$]], and is contained in the third level of [[Class_PH|$\\text{PH}$]].
+
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -22077,14 +29343,28 @@ text = u'''
 
 = ⊕EXP - Parity EXP =
 
-== Comments ==
+== Description ==
 
-The exponential-time analogue of [[Class_⊕P|$\\text{⊕P}$]].
+{{{#!description
+
+The exponential-time analogue of [[Class_⊕P|$\\text{⊕P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 There exists an oracle relative to which [[Class_⊕EXP|$\\text{⊕EXP}$]] = [[Class_ZPP|$\\text{ZPP}$]] [[ZooRefs#BBF98|[BBF98] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -22112,9 +29392,19 @@ text = u'''
 
 = ⊕L - Parity L =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_⊕P|$\\text{⊕P}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_⊕P|$\\text{⊕P}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -22128,6 +29418,10 @@ Solving a linear system over Z,,2,, is complete for [[Class_⊕L|$\\text{⊕L}$]
 
 ⊕L^⊕L^ = [[Class_⊕L|$\\text{⊕L}$]] [[ZooRefs#HRV00|[HRV00] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -22155,14 +29449,28 @@ text = u'''
 
 = ⊕L/poly - Nonuniform ⊕L =
 
-== Comments ==
+== Description ==
 
-Has the same relation to [[Class_⊕L|$\\text{⊕L}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].
+{{{#!description
+
+Has the same relation to [[Class_⊕L|$\\text{⊕L}$]] as [[Class_P/poly|$\\text{P/poly}$]] does to [[Class_P|$\\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
 Contains [[Class_NL/poly|$\\text{NL/poly}$]] [[ZooRefs#GW96|[GW96] ]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -22190,9 +29498,19 @@ text = u'''
 
 = ⊕P - Parity P =
 
-== Comments ==
+== Description ==
 
-The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
 
 
 
@@ -22214,12 +29532,16 @@ Contains [[Class_FewP|$\\text{FewP}$]] [[ZooRefs#CH89|[CH89] ]].
 
 
 
-There exists an oracle relative to which [[Class_P|$\\text{P}$]] = [[Class_⊕P|$\\text{⊕P}$]] but [[Class_P|$\\text{P}$]] is not equal to [[Class_NP|$\\text{NP}$]] (and indeed [[Class_NP|$\\text{NP}$]] = EXP) [[ZooRefs#BBF98|[BBF98] ]].
+There exists an oracle relative to which [[Class_P|$\\text{P}$]] = [[Class_⊕P|$\\text{⊕P}$]] but [[Class_P|$\\text{P}$]] is not equal to [[Class_NP|$\\text{NP}$]] (and indeed [[Class_NP|$\\text{NP}$]] = [[Class_EXP|$\\text{EXP}$]]) [[ZooRefs#BBF98|[BBF98] ]].
 
 
 
 Equals Mod,,2^m,,P for every positive integer m.
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -22247,10 +29569,26 @@ text = u'''
 
 = ⊕SAC^0^ - AC0 With Unbounded Parity Gates =
 
+== Description ==
+
+{{{#!description
+
+}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
 
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==
@@ -22278,14 +29616,28 @@ text = u'''
 
 = ⊕SAC^1^ - AC1 With Unbounded Parity Gates =
 
+== Description ==
+
+{{{#!description
+
+The class of problems solvable by a nonuniform family of polynomial-size, polylog-depth circuits with unbounded-fanin XOR and bounded-fanin AND gates.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
 == Comments ==
 
-The class of problems solvable by a nonuniform family of polynomial-size, polylog-depth circuits with unbounded-fanin XOR and bounded-fanin AND gates.
 
 
-
-Defined in [[ZooRefs#GW96|[GW96] ]], where it was also shown that [[Class_⊕SAC1|$\\text{⊕SAC1}$]] contains [[Class_SAC1|$\\text{SAC1}$]].
+Defined in [[ZooRefs#GW96|[GW96] ]], where it was also shown that [[Class_⊕SAC1|$\\text{⊕SAC}^\\text{1}\\text{}$]] contains [[Class_SAC1|$\\text{SAC}^\\text{1}\\text{}$]].
 == Relations ==
+
+{{{#!class_relations
+
+}}}
 
 
 == See Also ==

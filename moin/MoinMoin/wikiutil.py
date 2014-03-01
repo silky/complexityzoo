@@ -57,9 +57,9 @@ def classFilter (name):
 def getPageSection (section_name, page_data):
     matches = re.search(r"{{{#!%s(.*?)}}}" % section_name, page_data, flags=re.DOTALL) 
     if not matches:
-        return ""
+        return None
 
-    return matches.group(1)
+    return matches.group(1).strip('\r\n ')
 #
 
 
