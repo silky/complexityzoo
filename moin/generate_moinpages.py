@@ -47,6 +47,7 @@ Contained in [[Class_GapAC0|$\\text{GapAC}^\\text{0}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SharpAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -99,6 +100,7 @@ Counterpart of [[Class_GI|$\\text{GI}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SharpGA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -151,6 +153,7 @@ Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_SharpP|$\\text{#P}$]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SharpL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -201,6 +204,7 @@ Has the same relation to [[Class_SharpL|$\\text{#L}$]] as [[Class_P/poly|$\\text
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SharpL/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -269,6 +273,7 @@ Any function in [[Class_SharpP|$\\text{#P}$]] can be approximated to within a po
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SharpP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -325,6 +330,7 @@ Defined in [[ZooRefs#FG02|[FG02] ]], which should be consulted for the full defi
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SharpW[t])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -389,6 +395,7 @@ If |G|=k, then (G)P contains [[Class_coModkP|$\\text{coMod}_\\text{k}\\text{P}$]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_(Mk)P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -445,6 +452,7 @@ If [[Class_NP|$\\text{NP}$]] is contained in ([[Class_NP|$\\text{NP}$]] ∩ coNP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_(NP ∩ coNP)/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -501,6 +509,7 @@ Any problem complete for [[Class_DistNP|$\\text{DistNP}$]] is also complete for 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_(NP,P-samplable))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -557,6 +566,7 @@ Is contained in [[Class_PSPACE|$\\text{PSPACE}$]], and in [[Class_AM|$\\text{AM}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_0-1-NPC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -607,6 +617,7 @@ Defined in [[ZooRefs#Bra77|[Bra77] ]], where it was also shown that [[Class_1NAu
 
 == See Also ==
 
+<<FullSearch(linkto:Class_1NAuxPDAp)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -675,6 +686,7 @@ Same as [[Class_SBP|$\\text{SBP}$]], except that f is a [[Class_GapP|$\\text{Gap
 
 == See Also ==
 
+<<FullSearch(linkto:Class_A0PP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -743,6 +755,7 @@ fo-uniform [[Class_AC|$\\text{AC}$]] with depth $t(n)$ is equal to [[Class_FO[t(
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -839,6 +852,7 @@ In descriptive complexity, uniform [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -903,6 +917,7 @@ However, if m is a product of distinct primes (i.e. 6), then it is not even know
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AC0[m])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -953,6 +968,7 @@ See [[Class_AC|$\\text{AC}$]].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AC1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1029,6 +1045,7 @@ In 1996, [[ZooRefs#All96|[All96] ]] suggested the existence of cryptographically
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ACC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1101,6 +1118,7 @@ An equivalent definition is: $\\Sigma_0=\\Delta_0=\\Pi_0$ is the set of numbers 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1153,6 +1171,7 @@ Same as [[Class_AP|$\\text{AP}$]], but for logarithmic-space instead of polynomi
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1229,6 +1248,7 @@ It is not as contradictory as it first seems.  The deterministic base class in a
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ALL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1281,6 +1301,7 @@ Known to be equal to U,,E^*^,,-uniform [[Class_NC1|$\\text{NC}^\\text{1}\\text{}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ALOGTIME)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1367,6 +1388,7 @@ There exists an oracle relative to which [[Class_AM|$\\text{AM}$]] is not contai
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AM)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1423,6 +1445,7 @@ There exists an oracle relative to which [[Class_AM|$\\text{AM}$]] ∩ [[Class_c
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AM ∩ coAM)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1479,6 +1502,7 @@ If [[Class_coNP|$\\text{coNP}$]] is contained in [[Class_AM[polylog]|$\\text{AM[
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AMEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1531,6 +1555,7 @@ Not much is known about [[Class_AM[polylog]|$\\text{AM[polylog]}$]] -- for examp
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AM[polylog])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1591,6 +1616,7 @@ The abbreviation [[Class_AP|$\\text{AP}$]] is also used for Approximable in Poly
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1663,6 +1689,7 @@ The abbreviation [[Class_APP|$\\text{APP}$]] is also used for Approximable in Pr
 
 == See Also ==
 
+<<FullSearch(linkto:Class_APP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1723,6 +1750,7 @@ Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_APX)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1775,6 +1803,7 @@ In particular, [[Class_AP|$\\text{AP}$]] = ATIME(poly(n)).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ATIME)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1835,6 +1864,7 @@ AUC-SPACE(poly(n)) = [[Class_SAPTIME|$\\text{SAPTIME}$]] = [[Class_PSPACE|$\\tex
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AUC-SPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1887,6 +1917,7 @@ Note that this is not the same as the [[Class_BPP|$\\text{BPP}$]] version of [[C
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AVBPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -1953,6 +1984,7 @@ Contained in [[Class_APP|$\\text{APP}$]] [[ZooRefs#Fen02|[Fen02] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AWPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2003,6 +2035,7 @@ The union of [[Class_AW[t]|$\\text{AW[t]}$]] over all t.}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AW[*])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2059,6 +2092,7 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AW[P])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2127,6 +2161,7 @@ Contains [[Class_AW[*]|$\\text{AW[*]}$]], and is contained in [[Class_AW[P]|$\\t
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AW[SAT])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2187,6 +2222,7 @@ Contained in [[Class_AW[*]|$\\text{AW[*]}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AW[t])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2243,6 +2279,7 @@ If [[Class_P|$\\text{P}$]] = [[Class_BPP|$\\text{BPP}$]] (or even [[Class_BPP|$\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AlgP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2295,6 +2332,7 @@ Equals [[Class_AM|$\\text{AM}$]] [[ZooRefs#NW94|[NW94] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Almost-NP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2347,6 +2385,7 @@ Equals [[Class_BPP|$\\text{BPP}$]] [[ZooRefs#BG81|[BG81] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Almost-P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2407,6 +2446,7 @@ Whereas both BP^exp^•PSPACE and BPPSPACE machines are allowed exponentially ma
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Almost-PSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2469,6 +2509,7 @@ Contains [[Class_PH|$\\text{PH}$]] and Contained in [[Class_MP|$\\text{MP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AmpMP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2521,6 +2562,7 @@ Defined in [Aar03b], where it was also observed that [[Class_AmpP-BQP|$\\text{Am
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AmpP-BQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2573,6 +2615,7 @@ Equals [[Class_P|$\\text{P}$]] [Coo71b].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AuxPDA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2623,6 +2666,7 @@ Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_AvgP|$\\text{AvgP}$]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AvgE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2695,6 +2739,7 @@ See also: (NP,P-samplable).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AvgP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2751,6 +2796,7 @@ Defined by [[ZooRefs#KRC00|[KRC00] ]], who also showed that the set of [[Class_A
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AxP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2823,6 +2869,7 @@ Interestingly, it is unclear whether the set of [[Class_AxPP|$\\text{AxPP}$]] ma
 
 == See Also ==
 
+<<FullSearch(linkto:Class_AxPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2911,6 +2958,7 @@ See also: [[Class_QH|$\\text{QH}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -2963,6 +3011,7 @@ Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_BPP|$\\text{BPP}$]] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3013,6 +3062,7 @@ Has the same relation to [[Class_EE|$\\text{EE}$]] as [[Class_BPP|$\\text{BPP}$]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPEE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3069,6 +3119,7 @@ Is contained in DSPACE(f(n)^3/2^) [[ZooRefs#SZ95|[SZ95] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPHSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3121,6 +3172,7 @@ Contained in [[Class_SC|$\\text{SC}$]] [[ZooRefs#Nis92|[Nis92] ]] and in [[Class
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3231,6 +3283,7 @@ If [[Class_BPP|$\\text{BPP}$]] contains [[Class_NP|$\\text{NP}$]], then [[Class_
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3287,6 +3340,7 @@ Strictly contained in [[Class_BQP-OBDD|$\\text{BQP-OBDD}$]] [[ZooRefs#NHK00|[NHK
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPP-OBDD)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3341,6 +3395,7 @@ Defined in [[ZooRefs#TV02|[TV02] ]], where it was also shown that if [[Class_EXP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPP//log)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3393,6 +3448,7 @@ Contained in [[Class_BPP/mlog|$\\text{BPP/mlog}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPP/log)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3445,6 +3501,7 @@ Contained in [[Class_BPP/rlog|$\\text{BPP/rlog}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPP/mlog)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3501,6 +3558,7 @@ Contained in [[Class_BPP//log|$\\text{BPP//log}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPP/rlog)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3557,6 +3615,7 @@ See also: [[Class_PK|$\\text{P}^\\text{K}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPPKT)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3613,6 +3672,7 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPPcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3665,6 +3725,7 @@ Has the same relation to [[Class_BPPcc|$\\text{BPP}^\\text{cc}\\text{}$]] and [[
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPPkcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3761,6 +3822,7 @@ If [[Class_BPPpath|$\\text{BPP}_\\text{path}\\text{}$]] contains [[Class_Σ2P|$\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPPpath)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3817,6 +3879,7 @@ If either (1) [[Class_SharpP|$\\text{#P}$]] does not have a subexponential-time 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3869,6 +3932,7 @@ Contains RSPACE(f(n)) and BP,,H,,SPACE(f(n)).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -3945,6 +4009,7 @@ For another bounded-error hierarchy result, see [[Class_BPQP|$\\text{BPQP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPTIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4009,6 +4074,7 @@ See also: [[Class_P-OBDD|$\\text{P-OBDD}$]], [[Class_k-PBP|$\\text{k-PBP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BPd(P))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4059,6 +4125,7 @@ Equals [[Class_AM|$\\text{AM}$]].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BP•NP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4109,6 +4176,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQNC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4159,6 +4227,7 @@ CategoryQuantum
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4265,6 +4334,7 @@ There exist oracles relative to which:
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4317,6 +4387,7 @@ Strictly contains [[Class_BPP-OBDD|$\\text{BPP-OBDD}$]] [[ZooRefs#NHK00|[NHK00] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP-OBDD)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4369,6 +4440,7 @@ Contained in [[Class_BQP/mlog|$\\text{BQP/mlog}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP/log)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4421,6 +4493,7 @@ Strictly contained in [[Class_BQP/qlog|$\\text{BQP/qlog}$]] [[ZooRefs#NY03|[NY03
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP/mlog)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4485,6 +4558,7 @@ Does not contain [[Class_ESPACE|$\\text{ESPACE}$]] [[ZooRefs#NY03|[NY03] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP/mpoly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4537,6 +4611,7 @@ Contained in [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]] and contains [[Class_BQP/lo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4593,6 +4668,7 @@ Contained in [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP/qlog)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4667,6 +4743,7 @@ Contains [[Class_BQP/mpoly|$\\text{BQP/mpoly}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQP/qpoly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4723,6 +4800,7 @@ See also [[Class_PCTC|$\\text{P}_\\text{CTC}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQPCTC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4773,6 +4851,7 @@ Equals [[Class_PSPACE|$\\text{PSPACE}$]] and [[Class_PPSPACE|$\\text{PPSPACE}$]]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQPSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4825,6 +4904,7 @@ Defined in [NY03b], where it was also shown that [[Class_P|$\\text{P}$]] is not 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQPtt/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4877,6 +4957,7 @@ Defined in [[ZooRefs#BV97|[BV97] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_BQTIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4929,6 +5010,7 @@ Equals [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] and [[Class_PAC0|$\\text{PAC
 
 == See Also ==
 
+<<FullSearch(linkto:Class_C=AC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -4981,6 +5063,7 @@ C,,=,,L^C=L^ = L^C=L^ [[ZooRefs#ABO99|[ABO99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_C=L)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5033,6 +5116,7 @@ Equals [[Class_coNQP|$\\text{coNQP}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_C=P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5089,6 +5173,7 @@ Natural complete problems for the [[Class_CC|$\\text{CC}$]] class include Stable
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5141,6 +5226,7 @@ This complexity class entry is a stub. If you feel so inclined, please help out!
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5201,6 +5287,7 @@ Strictly contains [[Class_DCFL|$\\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CFL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5265,6 +5352,7 @@ It is an open problem whether there exists an oracle relative to which [[Class_C
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5327,6 +5415,7 @@ Defined in [[ZooRefs#HHK+05|[HHK+05] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CLSharpP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5387,6 +5476,7 @@ Contained in [[Class_CP|$\\text{CP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CLOG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5439,6 +5529,7 @@ The authors raise the question of whether [[Class_CP|$\\text{CP}$]] equals [[Cla
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5499,6 +5590,7 @@ Contained in [[Class_CNP|$\\text{CNP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5555,6 +5647,7 @@ Defined in [[ZooRefs#SM02|[SM02] ]] among other places.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CSIZE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5607,6 +5700,7 @@ Equals NSPACE(n) [[ZooRefs#Kur64|[Kur64] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CSL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5677,6 +5771,7 @@ In [[ZooRefs#FV93|[FV93] ]], where the class is defined, the authors show that e
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CSP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5753,6 +5848,7 @@ Assuming the existence of one-way functions, [[Class_CZK|$\\text{CZK}$]] contain
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5819,6 +5915,7 @@ Introduced in [[ZooRefs#BK89|[BK89] ]], where it was also shown that [[Class_Che
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Check)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5889,6 +5986,7 @@ See [[ZooRefs#Tor91|[Tor91] ]] or [[ZooRefs#AW90|[AW90] ]] for more information.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_CkP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5945,6 +6043,7 @@ Defined in [Yao90b].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Coh)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -5995,6 +6094,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DSharpP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6051,6 +6151,7 @@ Defined in [[ZooRefs#GG66|[GG66] ]], where it was also shown that [[Class_DCFL|$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DCFL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6111,6 +6212,7 @@ Graph isomorphism is hard for [[Class_DET|$\\text{DET}$]] under L-reductions [[Z
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DET)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6163,6 +6265,7 @@ Defined in [[ZooRefs#PY84|[PY84] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6227,6 +6330,7 @@ There exists an oracle relative to which [[Class_DQP|$\\text{DQP}$]] does not co
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6293,6 +6397,7 @@ See also: NSPACE(f(n)).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6377,6 +6482,7 @@ For any constructible superpolynomial f(n), DTIME(f(n)) with [[Class_PP|$\\text{
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DTIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6433,6 +6539,7 @@ Defined in [[ZooRefs#Nis92|[Nis92] ]], where it was also shown that for all spac
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DTISP(t(n),s(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6485,6 +6592,7 @@ Equals [[Class_GapAC0|$\\text{GapAC}^\\text{0}\\text{}$]] under logspace uniform
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DiffAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6541,6 +6649,7 @@ If [[Class_P|$\\text{P}$]] does not equal [[Class_UP|$\\text{UP}$]], then [[Clas
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DisNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6609,6 +6718,7 @@ Any DistNP-complete problem is also complete for (NP,P-samplable) [[ZooRefs#IL90
 
 == See Also ==
 
+<<FullSearch(linkto:Class_DistNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6669,6 +6779,7 @@ See also [[Class_Dyn-ThC0|$\\text{Dyn-ThC}^\\text{0}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Dyn-FO)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6721,6 +6832,7 @@ See [[ZooRefs#HI02|[HI02] ]] for more information.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Dyn-ThC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6797,6 +6909,7 @@ Contrast with [[Class_EXP|$\\text{EXP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_E)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6857,6 +6970,7 @@ Equals DTIME(2^2^O(n)^) (though some authors alternatively define it as being eq
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6913,6 +7027,7 @@ Equals DTIME(2^2^2^O(n)^).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EEE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -6969,6 +7084,7 @@ Equals DSPACE(2^2^O(n)^).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EESPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7029,6 +7145,7 @@ Equals DTIME(2^2^p(n)^) for p a polynomial.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7097,6 +7214,7 @@ There exists an oracle relative to which [[Class_EH|$\\text{EH}$]] does not cont
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7153,6 +7271,7 @@ Equals the union of DTIME(2^n^), DTIME(2^2^n^), DTIME(2^2^2^n^), and so on.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ELEMENTARY)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7209,6 +7328,7 @@ Defined in [[ZooRefs#BBS86|[BBS86] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ELkP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7271,6 +7391,7 @@ Defined in [[ZooRefs#BHR00|[BHR00] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7335,6 +7456,7 @@ If [[Class_FPT|$\\text{FPT}$]] is strictly contained in [[Class_W[1]|$\\text{W[1
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EPTAS)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7399,6 +7521,7 @@ See also [[Class_ZBQP|$\\text{ZBQP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7459,6 +7582,7 @@ The hidden shift problem for a vector space over Z/2 is in EQP,,Q,, by Simon's a
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EQPK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7511,6 +7635,7 @@ Defined in [[ZooRefs#BV97|[BV97] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EQTIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7579,6 +7704,7 @@ See also: [[Class_EXPSPACE|$\\text{EXPSPACE}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ESPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7679,6 +7805,7 @@ In descriptive complexity EXPTIME can be defined as SO(2^{n^{O(1)}}) which is al
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7731,6 +7858,7 @@ Contains [[Class_BQP/qpoly|$\\text{BQP/qpoly}$]] [Aar04b].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EXP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7787,6 +7915,7 @@ Given a first-order statement about real numbers, involving only addition and co
 
 == See Also ==
 
+<<FullSearch(linkto:Class_EXPSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7843,6 +7972,7 @@ See also F-TIME(f(n)).  The results about F-TAPE mirror those about F-TIME, but 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_F-TAPE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7905,6 +8035,7 @@ See also F-TAPE(f(n)).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_F-TIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -7957,6 +8088,7 @@ There exists an oracle relative to which [[Class_PLS|$\\text{PLS}$]] is not cont
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FBQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8029,6 +8161,7 @@ FH,,2,, contains factoring, because of Kitaev's phase estimation algorithm
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8103,6 +8236,7 @@ Defined in [[ZooRefs#EY07|[EY07] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FIXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8155,6 +8289,7 @@ Defined by [[ZooRefs#AJ93|[AJ93] ]], who also showed that if [[Class_NL|$\\text{
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FNL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8207,6 +8342,7 @@ Contained in [[Class_SharpL/poly|$\\text{#L/poly}$]] [[ZooRefs#RA00|[RA00] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FNL/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8279,6 +8415,7 @@ A basic question about [[Class_FNP|$\\text{FNP}$]] problems is whether they're s
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8357,6 +8494,7 @@ Every formulae is equivalent to a formulae in prenexe normal form where we put r
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FO)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8413,6 +8551,7 @@ It was shown in [[ZooRefs#Imm99|[Imm99] ]] page 144 that this class is equal to 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FO(DTC))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8469,6 +8608,7 @@ Thanks to monotonicity we only add and never remove vectors to the truth table o
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FO(LFP))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8533,6 +8673,7 @@ It was proved in [[ZooRefs#Imm98|[Imm98] ]] that FO(pfp) is equal to [[Class_PSP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FO(PFP))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8593,6 +8734,7 @@ It was shown in [[ZooRefs#Imm98|[Imm98] ]] page 150 that this class is equal to 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FO(TC))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8649,6 +8791,7 @@ FO(poly(n)) is contained in [[Class_SO-E|$\\text{SO-E}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FO(t(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8721,6 +8864,7 @@ Is not known to be comparable to [[Class_L/poly|$\\text{L/poly}$]] or [[Class_NL
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FOLL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8797,6 +8941,7 @@ FO[2^{n^{O(1)}}] is equal to [[Class_PSPACE|$\\text{PSPACE}$]] and FO(PFP)
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FO[t(n)])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8857,6 +9002,7 @@ If FP^NP^ = [[Class_FPNP[log]|$\\text{FP}^\\text{NP[log]}\\text{}$]] (that is, a
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8907,6 +9053,7 @@ Given a graph, the problem of outputting the size of its maximum clique is compl
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FPNP[log])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -8963,6 +9110,7 @@ Has the same relation to [[Class_FPT|$\\text{FPT}$]] as [[Class_R|$\\text{R}$]] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FPR)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9015,6 +9163,7 @@ The permanent of a nonnegative matrix is in [[Class_FPRAS|$\\text{FPRAS}$]] [[Zo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FPRAS)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9083,6 +9232,7 @@ Contains [[Class_EPTAS|$\\text{EPTAS}$]] unless [[Class_FPT|$\\text{FPT}$]] = [[
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FPT)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9143,6 +9293,7 @@ Contained in [[Class_FPT|$\\text{FPT}$]] [[ZooRefs#CC97|[CC97] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FPTAS)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9199,6 +9350,7 @@ Defined in [[ZooRefs#DF99|[DF99] ]] (though they did not use our notation).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FPTnu)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9251,6 +9403,7 @@ Defined in [[ZooRefs#DF99|[DF99] ]] (though they did not use our notation).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FPTsu)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9303,6 +9456,7 @@ Defined in [[ZooRefs#JWB03|[JWB03] ]], where it is also shown that state prepara
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FQMA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9373,6 +9527,7 @@ See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Few)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9435,6 +9590,7 @@ There exists an [[Class_EXP|$\\text{EXP}$]] machine M such that if given a strin
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FewEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9513,6 +9669,7 @@ See also the survey [[ZooRefs#Tor90|[Tor90] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_FewP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9573,6 +9730,7 @@ Can be defined as the class of problems polynomial-time Turing reducible to the 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9629,6 +9787,7 @@ By linear programming, GAN-SPACE(log n) is contained in [[Class_P|$\\text{P}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GAN-SPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9699,6 +9858,7 @@ Umans [[ZooRefs#Uma98|[Uma98] ]] has shown that given a DNF expression Φ, the S
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GC(s(n),C))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9763,6 +9923,7 @@ Defined in [[ZooRefs#DW86|[DW86] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GCSL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9831,6 +9992,7 @@ The [[Class_GI|$\\text{GI}$]] problem itself (as opposed to the set of problems 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GI)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9887,6 +10049,7 @@ Defined in [[ZooRefs#AP95|[AP95] ]], where it was also shown that [[Class_GLO|$\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GLO)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9939,6 +10102,7 @@ Defined in [[ZooRefs#CFL+93|[CFL+93] ]], who also showed that PCD(log n, q(n)) =
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GPCD(r(n),q(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -9995,6 +10159,7 @@ Uniform G[P] (i.e. with no restriction on depth) is equal to [[Class_FPT|$\\text
 
 == See Also ==
 
+<<FullSearch(linkto:Class_G[t])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10047,6 +10212,7 @@ Equals [[Class_DiffAC0|$\\text{DiffAC}^\\text{0}\\text{}$]] under logspace unifo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GapAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10097,6 +10263,7 @@ Has the same relation to [[Class_L|$\\text{L}$]] as [[Class_GapP|$\\text{GapP}$]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GapL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10153,6 +10320,7 @@ Defined in [[ZooRefs#FFK94|[FFK94] ]] and independently [[ZooRefs#Gup95|[Gup95] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_GapP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10213,6 +10381,7 @@ This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that $\\Sig
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HO)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10265,6 +10434,7 @@ Equals [[Class_SZK|$\\text{SZK}$]] [[ZooRefs#Oka96|[Oka96] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HVSZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10331,6 +10501,7 @@ Defined in [[ZooRefs#BB92|[BB92] ]], where it was called C,,==,,P[half].  The na
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HalfP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10383,6 +10554,7 @@ The class of problems for which a 1-1/poly(n) fraction of instances are solvable
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HeurBPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10439,6 +10611,7 @@ The class of problems for which a 1-1/poly(n) fraction of instances are solvable
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HeurBPTIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10489,6 +10662,7 @@ For functions $f(n)$ and $\\delta(n)$, we say that tuple $(L,D)\\in\\mathsf{Heur
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HeurDTIME\delta(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10541,6 +10715,7 @@ Defined as Heur,,\delta,,DTIME, but for non-deterministic heuristic algorithms.}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HeurNTIME\delta)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10599,6 +10774,7 @@ For every n\in\mathbb{N}, for every x in the support of D, and for every \delta>
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HeurP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10649,6 +10825,7 @@ The class of distributional problems solvable by a [[Class_PP|$\\text{PP}$]] mac
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HeurPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10717,6 +10894,7 @@ See also [[Class_LkP|$\\text{L}_\\text{k}\\text{P}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_HkP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10785,6 +10963,7 @@ Strictly contains [[Class_P/log|$\\text{P/log}$]], and is strictly contained in 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_IC[log,poly])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10869,6 +11048,7 @@ See also: [[Class_MIP|$\\text{MIP}$]], [[Class_QIP|$\\text{QIP}$]], [[Class_MA|$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_IP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10925,6 +11105,7 @@ See also: [[Class_PPSPACE|$\\text{PPSPACE}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_IPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -10975,6 +11156,7 @@ Alternate name for [[Class_AM[polylog]|$\\text{AM[polylog]}$]].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_IP[polylog])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11027,6 +11209,7 @@ Equals U,,D,,-uniform FTC^0^ by [[ZooRefs#Hes01|[Hes01] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_K)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11095,6 +11278,7 @@ Immerman [[ZooRefs#Imm83|[Imm83] ]] showed that [[Class_L|$\\text{L}$]] is the c
 
 == See Also ==
 
+<<FullSearch(linkto:Class_L)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11151,6 +11335,7 @@ Contains [[Class_SL|$\\text{SL}$]] [[ZooRefs#AKL+79|[AKL+79] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_L/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11203,6 +11388,7 @@ It is equivalent to [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]] with bounded fa
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11255,6 +11441,7 @@ The $i$th level of the Logarithmic Time Hierarchy is the set of languages recogn
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11311,6 +11498,7 @@ Contained in [[Class_NLIN|$\\text{NLIN}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LIN)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11371,6 +11559,7 @@ Contains [[Class_NL|$\\text{NL}$]] [[ZooRefs#Sud78|[Sud78] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LOGCFL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11431,6 +11620,7 @@ Obviously contained in [[Class_L|$\\text{L}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LOGLOG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11507,6 +11697,7 @@ The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LOGNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11579,6 +11770,7 @@ The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LOGSNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11657,6 +11849,7 @@ Contains a whole litter of problems for solvable black-box groups: group interse
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LWPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11721,6 +11914,7 @@ See also [[Class_HkP|$\\text{H}_\\text{k}\\text{P}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LkP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11779,6 +11973,7 @@ Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_Lo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LogFew)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11831,6 +12026,7 @@ Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_Lo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_LogFewNL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11927,6 +12123,7 @@ Equals [[Class_NP|$\\text{NP}$]] under a derandomization assumption.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -11979,6 +12176,7 @@ Defined in [[ZooRefs#KST93|[KST93] ]], where it is also observed that if graph i
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MA')>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12035,6 +12233,7 @@ Defined in [[ZooRefs#JKS02|[JKS02] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12087,6 +12286,7 @@ If [[Class_MAE|$\\text{MA}_\\text{E}\\text{}$]] = [[Class_NEE|$\\text{NEE}$]] th
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MAE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12143,6 +12343,7 @@ There is a problem in [[Class_MAEXP|$\\text{MA}_\\text{EXP}\\text{}$]] that does
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MAEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12195,6 +12396,7 @@ This class was used by [[ZooRefs#SM03|[SM03] ]] to show that if [[Class_EXP|$\\t
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MAPOLYLOG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12255,6 +12457,7 @@ Let MIP[k] be the class of decision problems for which a "yes" answer can be ver
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MIP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12323,6 +12526,7 @@ In 2012 it was shown that [[Class_QMIP|$\\text{QMIP}$]] = [[Class_MIP*|$\\text{M
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MIP*)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12387,6 +12591,7 @@ Contains [[Class_XOR-MIP*[2,1]|$\\text{XOR-MIP*[2,1]}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MIP*[2,1])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12443,6 +12648,7 @@ There exists an oracle relative to which [[Class_MIPEXP|$\\text{MIP}_\\text{EXP}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MIPEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12495,6 +12701,7 @@ Currently, the best known algorithm for multiplying two $n\\times n$ matrices is
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MM)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12571,6 +12778,7 @@ Every constraint satisfaction problem is expressible in [[Class_MMSNP|$\\text{MM
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MMSNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12631,6 +12839,7 @@ Contains [[Class_AmpMP|$\\text{AmpMP}$]] and [[Class_PH|$\\text{PH}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12691,6 +12900,7 @@ Defined in [[ZooRefs#DC89|[DC89] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MPC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12747,6 +12957,7 @@ The closure of [[Class_MaxNP|$\\text{MaxNP}$]] under [[Class_PTAS|$\\text{PTAS}$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MaxNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12807,6 +13018,7 @@ The closure of [[Class_MaxPB|$\\text{MaxPB}$]] under [[Class_PTAS|$\\text{PTAS}$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MaxPB)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12869,6 +13081,7 @@ The closure of [[Class_MaxSNP|$\\text{MaxSNP}$]] under [[Class_PTAS|$\\text{PTAS
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MaxSNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12929,6 +13142,7 @@ Defined in [[ZooRefs#PY88|[PY88] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MaxSNP0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -12979,6 +13193,7 @@ Same as [[Class_MaxPB|$\\text{MaxPB}$]] but for minimization instead of maximiza
 
 == See Also ==
 
+<<FullSearch(linkto:Class_MinPB)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13041,6 +13256,7 @@ Defined in [[ZooRefs#AV04|[AV04] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ModL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13093,6 +13309,7 @@ Defined in [[ZooRefs#KT96|[KT96] ]], where it was also shown that [[Class_ModP|$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ModP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13155,6 +13372,7 @@ Contained in [[Class_ModkL|$\\text{Mod}_\\text{k}\\text{L}$]] and in [[Class_NL|
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ModZkL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13215,6 +13433,7 @@ For any k>1, contains [[Class_LogFew|$\\text{LogFew}$]] [[ZooRefs#BDH+92|[BDH+92
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ModkL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13287,6 +13506,7 @@ For prime p, there exists an oracle relative to which Mod,,p,,P does not contain
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ModkP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13339,6 +13559,7 @@ Equals [[Class_LOGCFL|$\\text{LOGCFL}$]] [[ZooRefs#Sud78|[Sud78] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NAuxPDAp)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13427,6 +13648,7 @@ NC^i^ is the class of decision problems solvable by a nonuniform family of Boole
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13483,6 +13705,7 @@ Recently [[ZooRefs#AIK04|[AIK04] ]] solved a longstanding open problem by showin
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13559,6 +13782,7 @@ U,,E^*^,,-uniform [[Class_NC1|$\\text{NC}^\\text{1}\\text{}$]] is equal to [[Cla
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NC1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13611,6 +13835,7 @@ Contains [[Class_NL|$\\text{NL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NC2)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13667,6 +13892,7 @@ Contained in [[Class_NEXP|$\\text{NEXP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13717,6 +13943,7 @@ Contains [[Class_coNE|$\\text{coNE}$]], just as [[Class_NEXP/poly|$\\text{NEXP/p
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NE/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13777,6 +14004,7 @@ Nondeterministic double-exponential time with linear exponent (i.e. NTIME(2^2^O(
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NEE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13827,6 +14055,7 @@ Nondeterministic triple-exponential time with linear exponent.}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NEEE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13883,6 +14112,7 @@ Nondeterministic double-exponential time (i.e. NTIME(2^2^p(n)^) for p a polynomi
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NEEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -13971,6 +14201,7 @@ The theory of reals with addition (see [[Class_EXPSPACE|$\\text{EXPSPACE}$]]) is
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14021,6 +14252,7 @@ Contains [[Class_coNEXP|$\\text{coNEXP}$]] (folklore result reported in [weblog]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NEXP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14079,6 +14311,7 @@ in UN are circuits with n+1 output bits. The first n bits represent the uniform 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NIPZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14135,6 +14368,7 @@ NIQPZK can be defined similarly.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NIQSZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14209,6 +14443,7 @@ If [[Class_SZK|$\\text{SZK}$]] does not equal [[Class_BPP|$\\text{BPP}$]] then [
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NISZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14273,6 +14508,7 @@ The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|[Aar02
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NISZKh)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14341,6 +14577,7 @@ Deciding whether a bipartite graph has a perfect matching is hard for [[Class_NL
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14397,6 +14634,7 @@ Equals [[Class_UL/poly|$\\text{UL/poly}$]] [[ZooRefs#RA00|[RA00] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NL/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14447,6 +14685,7 @@ Has the same relation to [[Class_LIN|$\\text{LIN}$]] as [[Class_NP|$\\text{NP}$]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NLIN)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14503,6 +14742,7 @@ Although [[Class_NLOG|$\\text{NLOG}$]] is contained in [[Class_P|$\\text{P}$]], 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NLOG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14559,6 +14799,7 @@ See also [[Class_QL|$\\text{QL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NLT)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14611,6 +14852,7 @@ Defined in [[ZooRefs#Wol94|[Wol94] ]], where the author proves various inclusion
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NNC(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14663,6 +14905,7 @@ Defined in [[ZooRefs#GS89|[GS89] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NNLT)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14723,6 +14966,7 @@ Equals [[Class_SPARSE|$\\text{SPARSE}$]] ∩ [[Class_coSPARSE|$\\text{coSPARSE}$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NONE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14893,6 +15137,7 @@ Also, [[ZooRefs#Fag74|[Fag74] ]] gave a logical characterization of [[Class_NP|$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -14957,6 +15202,7 @@ Is not believed to contain complete problems.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NP ∩ coNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15009,6 +15255,7 @@ Shown in [[ZooRefs#FK05|[FK05] ]] that [[Class_EXP|$\\text{EXP}$]] ⊆ [[Class_N
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NP/log)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15065,6 +15312,7 @@ NP/poly-natural proofs cannot show that circuit families are outside [[Class_P/p
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15167,6 +15415,7 @@ See also [[Class_VNPk|$\\text{VNP}_\\text{k}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15223,6 +15472,7 @@ Is nonempty if [[Class_P|$\\text{P}$]] does not equal [[Class_NP|$\\text{NP}$]] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPI)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15283,6 +15533,7 @@ Contrast with [[Class_FNP|$\\text{FNP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPMV)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15335,6 +15586,7 @@ Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPMV-sel)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15385,6 +15637,7 @@ The class of all (possibly multivalued) [[Class_NPMV|$\\text{NPMV}$]] functions 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPMVt)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15437,6 +15690,7 @@ Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPMVt-sel)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15493,6 +15747,7 @@ Contains [[Class_APX|$\\text{APX}$]] and [[Class_NPOPB|$\\text{NPOPB}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPO)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15549,6 +15804,7 @@ See [[ZooRefs#ACG+99|[ACG+99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPOPB)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15613,6 +15869,7 @@ See also [[Class_VNPk|$\\text{VNP}_\\text{k}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPR)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15665,6 +15922,7 @@ On the other hand, this result does not relativize if we allow strings of unboun
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15725,6 +15983,7 @@ Contains [[Class_NPSVt|$\\text{NPSV}_\\text{t}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPSV)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15781,6 +16040,7 @@ Has the same relation to href="#npsv">NPSV as [[Class_P-Sel|$\\text{P-Sel}$]] do
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPSV-sel)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15833,6 +16093,7 @@ Contained in [[Class_NPMVt|$\\text{NPMV}_\\text{t}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPSVt)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15889,6 +16150,7 @@ Defined in [[ZooRefs#HHN+95|[HHN+95] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPSVt-sel)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -15949,6 +16211,7 @@ Contained in [[Class_PHcc|$\\text{PH}^\\text{cc}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16001,6 +16264,7 @@ Has the same relation to [[Class_NPcc|$\\text{NP}^\\text{cc}\\text{}$]] and [[Cl
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NPkcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16065,6 +16329,7 @@ See also: [[Class_NLT|$\\text{NLT}$]], [[Class_Q|$\\text{Q}$]], [[Class_QL|$\\te
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NQL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16121,6 +16386,7 @@ Contrast with [[Class_QMA|$\\text{QMA}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16181,6 +16447,7 @@ Contained in DSPACE(f(n)^2^) [[ZooRefs#Sav70|[Sav70] ]], and indeed RevSPACE(f(n
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16233,6 +16500,7 @@ Is contained in [[Class_E|$\\text{E}$]], [[Class_NT*|$\\text{NT*}$]], and [[Clas
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NT)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16289,6 +16557,7 @@ Contains [[Class_NT|$\\text{NT}$]] and is contained in [[Class_⊕P|$\\text{⊕P
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NT*)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16349,6 +16618,7 @@ For any constructible superpolynomial f, NTIME(f(n)) with [[Class_NP|$\\text{NP}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_NTIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16401,6 +16671,7 @@ The set of languages [[Class_L|$\\text{L}$]] such that for every k, there is a l
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Nearly-P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16457,6 +16728,7 @@ Defined by [[ZooRefs#ASV00|[ASV00] ]] (though they didn't use the name [[Class_O
 
 == See Also ==
 
+<<FullSearch(linkto:Class_OCQ)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16513,6 +16785,7 @@ Contrast with [[Class_FNP|$\\text{FNP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_OptP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16605,6 +16878,7 @@ In descriptive complexity, [[Class_P|$\\text{P}$]] can be defined by three diffe
 
 == See Also ==
 
+<<FullSearch(linkto:Class_P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16661,6 +16935,7 @@ Equals [[Class_PPP|$\\text{P}^\\text{PP}\\text{}$]] (exercise for the visitor).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PSharpP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16711,6 +16986,7 @@ Contains [[Class_PH|$\\text{PH}$]] [[ZooRefs#Tod89|[Tod89] ]].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PSharpP[1])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16767,6 +17043,7 @@ Contains [[Class_Almost-P|$\\text{Almost-P}$]] and is contained in [[Class_P/pol
 
 == See Also ==
 
+<<FullSearch(linkto:Class_P-Close)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16823,6 +17100,7 @@ Contained in [[Class_PBP|$\\text{PBP}$]], as well as [[Class_BPP-OBDD|$\\text{BP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_P-OBDD)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16879,6 +17157,7 @@ There exist P-selective sets that are not recursive (i.e. not in [[Class_R|$\\te
 
 == See Also ==
 
+<<FullSearch(linkto:Class_P-Sel)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -16935,6 +17214,7 @@ If [[Class_NP|$\\text{NP}$]] is contained in [[Class_P/log|$\\text{P/log}$]] the
 
 == See Also ==
 
+<<FullSearch(linkto:Class_P/log)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17029,6 +17309,7 @@ Strictly contains [[Class_IC[log,poly]|$\\text{IC[log,poly]}$]] and [[Class_P/lo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_P/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17085,6 +17366,7 @@ Equals [[Class_TC0|$\\text{TC}^\\text{0}\\text{}$]] and [[Class_C=AC0|$\\text{C}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17141,6 +17423,7 @@ Contains [[Class_P-OBDD|$\\text{P-OBDD}$]], BP,,d,,(P).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PBP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17197,6 +17480,7 @@ See also [[Class_PR|$\\text{P}_\\text{R}\\text{}$]], [[Class_NPC|$\\text{NP}_\\t
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17257,6 +17541,7 @@ Contained in GPCD(r(n),q(n)).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PCD(r(n),q(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17359,6 +17644,7 @@ Another weird oracle fact: since [[Class_NP|$\\text{NP}$]] does not equal [[Clas
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PCP(r(n),q(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17415,6 +17701,7 @@ See also [[Class_BQPCTC|$\\text{BQP}_\\text{CTC}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PCTC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17467,6 +17754,7 @@ Is not contained in [[Class_P/poly|$\\text{P/poly}$]] [[ZooRefs#BFT98|[BFT98] ]]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17517,6 +17805,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PF)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17579,6 +17868,7 @@ An interesting question is whether [[Class_NP|$\\text{NP}$]] = PFCHK(log n) rela
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PFCHK(t(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17685,6 +17975,7 @@ Since [[Class_NP|$\\text{NP}$]] is the class of query expressible in second-orde
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17741,6 +18032,7 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]], where it was also shown (among other thin
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PHcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17801,6 +18093,7 @@ Contained in [[Class_PIO|$\\text{PIO}$]].  This containment is strict, since if 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PINC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17857,6 +18150,7 @@ Strictly contains [[Class_PINC|$\\text{PINC}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PIO)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17913,6 +18207,7 @@ See also: [[Class_BPPKT|$\\text{BPP}^\\text{KT}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -17965,6 +18260,7 @@ Defined in [[ZooRefs#GP91|[GP91] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PKC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18021,6 +18317,7 @@ PL^PL^ = [[Class_PL|$\\text{PL}$]] (see [[ZooRefs#HO02|[HO02] ]]).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18073,6 +18370,7 @@ Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL1|$\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PL1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18125,6 +18423,7 @@ I believe it's the same as [[Class_PPA|$\\text{PPA}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PLF)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18175,6 +18474,7 @@ The class of [[Class_TFNP|$\\text{TFNP}$]] function problems that are guaranteed
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PLL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18255,6 +18555,7 @@ Whether [[Class_PLS|$\\text{PLS}$]] is not in [[Class_PPP|$\\text{PPP}$]] relati
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PLS)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18307,6 +18608,7 @@ Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL∞|
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PL∞)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18357,6 +18659,7 @@ See [[Class_Δ2P|$\\text{Δ}_\\text{2}\\text{P}$]].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18409,6 +18712,7 @@ If P^NP[1]^ = P^NP[2]^, then P^NP[1]^ = [[Class_PNP[log]|$\\text{P}^\\text{NP[lo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PNP[k])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18473,6 +18777,7 @@ Contains [[Class_PNP[k]|$\\text{P}^\\text{NP[k]}\\text{}$]] for all constants k.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PNP[log])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18529,6 +18834,7 @@ For all k, [[Class_P|$\\text{P}$]] with log^k^ adaptive queries to [[Class_NP|$\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PNP[log^2])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18581,6 +18887,7 @@ Equals [[Class_PPA|$\\text{PPA}$]] [[ZooRefs#Pap90|[Pap90] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PODN)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18679,6 +18986,7 @@ By contrast, there exists an oracle relative to which [[Class_PP|$\\text{PP}$]] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18731,6 +19039,7 @@ If [[Class_PP/poly|$\\text{PP/poly}$]] = [[Class_P/poly|$\\text{P/poly}$]] then 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18809,6 +19118,7 @@ There exist oracles relative to which [[Class_PPA|$\\text{PPA}$]] does not conta
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PPA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18879,6 +19189,7 @@ There exists an oracle relative to which [[Class_PPP|$\\text{PPP}$]] is not cont
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PPAD)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -18939,6 +19250,7 @@ Contains [[Class_PPAD|$\\text{PPAD}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PPADS)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19035,6 +19347,7 @@ Since the permanent of a matrix is #P-complete [[ZooRefs#Val79|[Val79] ]], Toda'
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19095,6 +19408,7 @@ Defined in [[ZooRefs#Pap83|[Pap83] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PPSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19151,6 +19465,7 @@ See Also: [[Class_UPPcc|$\\text{UPP}^\\text{cc}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PPcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19207,6 +19522,7 @@ Defined in [[ZooRefs#Kur83|[Kur83] ]], where it was actually put forward as a se
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PQUERY)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19283,6 +19599,7 @@ See also [[Class_PC|$\\text{P}_\\text{C}\\text{}$]], [[Class_NPC|$\\text{NP}_\\t
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PR)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19343,6 +19660,7 @@ Equals [[Class_PPADS|$\\text{PPADS}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PSK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19423,6 +19741,7 @@ A canonical PSPACE-complete problem is Quantified Boolean Formula (QBF): Given a
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19473,6 +19792,7 @@ Contains [[Class_QMA/qpoly|$\\text{QMA/qpoly}$]] [Aar06b].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PSPACE/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19525,6 +19845,7 @@ The union of PT/WK(log^k^n, n^k^) over all constants k equals [[Class_NC|$\\text
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PT/WK(f(n),g(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19577,6 +19898,7 @@ Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PT1|$\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PT1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19627,6 +19949,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PTAPE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19687,6 +20010,7 @@ Defined in [[ZooRefs#ACG+99|[ACG+99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PTAS)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19747,6 +20071,7 @@ Same as [[Class_SZK|$\\text{SZK}$]], but now the two distributions must be ident
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19811,6 +20136,7 @@ Defined in [[ZooRefs#BFS86|[BFS86] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Pcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19875,6 +20201,7 @@ See also: [[Class_SelfNP|$\\text{SelfNP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PermUP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19931,6 +20258,7 @@ The present veterinarian concurs that [[Class_PhP|$\\text{PhP}$]] is an unhealth
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PhP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -19987,6 +20315,7 @@ More formally, [[Class_Pkcc|$\\text{P}_\\text{k}\\text{}^\\text{cc}\\text{}$]] i
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Pkcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20063,6 +20392,7 @@ The class of problems solvable in quantum polynomial time if we take the probabi
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PostBQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20115,6 +20445,7 @@ Equals PrSPACE(f(n)) [[ZooRefs#Jun85|[Jun85] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PrHSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20171,6 +20502,7 @@ Equals Pr,,H,,SPACE(f(n)) [[ZooRefs#Jun85|[Jun85] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PrSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20223,6 +20555,7 @@ Defined in [[ZooRefs#BF99|[BF99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PromiseBPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20279,6 +20612,7 @@ Same as [[Class_PromiseBQP|$\\text{PromiseBQP}$]], but for [[Class_BQP|$\\text{B
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PromiseBQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20329,6 +20663,7 @@ The class of promise problems solvable by a [[Class_P|$\\text{P}$]] machine.}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PromiseP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20385,6 +20720,7 @@ Contained in [[Class_PromiseBPP|$\\text{PromiseBPP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PromiseRP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20437,6 +20773,7 @@ Although not originally stated with this notation, the main result of [[ZooRefs#
 
 == See Also ==
 
+<<FullSearch(linkto:Class_PromiseUP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20487,6 +20824,7 @@ Equals [[Class_PNP[log]|$\\text{P}^\\text{NP[log]}\\text{}$]] ([[ZooRefs#BH91|[B
 
 == See Also ==
 
+<<FullSearch(linkto:Class_P||NP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20539,6 +20877,7 @@ Contains [[Class_GCSL|$\\text{GCSL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Q)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20603,6 +20942,7 @@ Contains [[Class_AC0|$\\text{AC}^\\text{0}\\text{}$]], and is contained in [[Cla
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20655,6 +20995,7 @@ Defined in [[ZooRefs#Moo99|[Moo99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QAC0[m])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20711,6 +21052,7 @@ Defined in [[ZooRefs#Moo99|[Moo99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QACC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20765,6 +21107,7 @@ QAC^0^[2] = [[Class_QACC0|$\\text{QACC}^\\text{0}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QACf0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20821,6 +21164,7 @@ Contains [[Class_QMA|$\\text{QMA}$]] and is contained in [[Class_QIP[2]|$\\text{
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QAM)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20871,6 +21215,7 @@ The class of decision problems recognized by quantum context-free languages, whi
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QCFL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20939,6 +21284,7 @@ The class of decision problems for which a "yes" answer can be verified by a qua
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QCMA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -20995,6 +21341,7 @@ QH,,i,, is defined to be [[Class_PNP[k]|$\\text{P}^\\text{NP[k]}\\text{}$]]; tha
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21077,6 +21424,7 @@ See also: [[Class_QIP[2]|$\\text{QIP[2]}$]], [[Class_QSZK|$\\text{QSZK}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QIP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21129,6 +21477,7 @@ Contains [[Class_QSZK|$\\text{QSZK}$]] [[ZooRefs#Wat02|[Wat02] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QIP[2])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21185,6 +21534,7 @@ See also: [[Class_Q|$\\text{Q}$]], [[Class_NQL|$\\text{NQL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21303,6 +21653,7 @@ Subsequently Kempe and Regev [[ZooRefs#KR03|[KR03] ]] showed that even 3-Local H
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21367,6 +21718,7 @@ Defined in [[ZooRefs#KMY01|[KMY01] ]].  It is unknown whether QMA(k) = QMA(2) fo
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMA(2))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21419,6 +21771,7 @@ Defined in [[ZooRefs#AR03|[AR03] ]], where it was also shown that [[Class_QMA-pl
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMA-plus)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21469,6 +21822,7 @@ Is contained in [[Class_PSPACE/poly|$\\text{PSPACE/poly}$]] [Aar06b].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMA/qpoly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21525,6 +21879,7 @@ This result was later improved in [[ZooRefs#GN13|[GN13] ]] where it was shown th
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMA1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21581,6 +21936,7 @@ Hence [[Class_QMAM|$\\text{QMAM}$]] contains [[Class_PSPACE|$\\text{PSPACE}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMAM)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21633,6 +21989,7 @@ Equals [[Class_BQP|$\\text{BQP}$]] [[ZooRefs#MW05|[MW05] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMAlog)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21701,6 +22058,7 @@ Fascinatingly, no relationship between [[Class_QMIP|$\\text{QMIP}$]] and [[Class
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMIP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21753,6 +22111,7 @@ Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPle
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMIPle)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21805,6 +22164,7 @@ Defined in [[ZooRefs#KM02|[KM02] ]], where it was also shown that [[Class_QMIPne
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QMIPne)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21869,6 +22229,7 @@ See also: [[Class_RNC|$\\text{RNC}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QNC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21925,6 +22286,7 @@ Contained in [[Class_QNCf0|$\\text{QNC}_\\text{f}\\text{}^\\text{0}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QNC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -21981,6 +22343,7 @@ See also [[ZooRefs#MN02|[MN02] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QNC1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22037,6 +22400,7 @@ Contains [[Class_QNC0|$\\text{QNC}^\\text{0}\\text{}$]], and is contained in [[C
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QNCf0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22087,6 +22451,7 @@ Equals DTIME(2^polylog(n)^).}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22139,6 +22504,7 @@ Has the same relationship to [[Class_QP|$\\text{QP}$]] that [[Class_E|$\\text{E}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QPLIN)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22191,6 +22557,7 @@ According to [[ZooRefs#BG94|[BG94] ]], Beigel and Feigenbaum and (independently)
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QPSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22255,6 +22622,7 @@ Defined in [[ZooRefs#Gut05|[Gut05] ]], where it was also shown that [[Class_QRG|
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QRG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22325,6 +22693,7 @@ QRG(1) is trivially contained in QRG(2) (and hence [[Class_PSPACE|$\\text{PSPACE
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QRG(1))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22381,6 +22750,7 @@ QRG(2) is trivially contained in [[Class_SQG|$\\text{SQG}$]] (and hence [[Class_
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QRG(2))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22441,6 +22811,7 @@ Other than these trivial bounds, very little is known of QRG(k) for intermediate
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QRG(k))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22503,6 +22874,7 @@ Contains [[Class_QMA|$\\text{QMA}$]] (and indeed P^QMA^), and is contained in [[
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QS2P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22575,6 +22947,7 @@ One can assume without loss of generality that protocols are public-coin, as for
 
 == See Also ==
 
+<<FullSearch(linkto:Class_QSZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22635,6 +23008,7 @@ Strictly contains [[Class_PR|$\\text{PR}$]], the primitive recursive functions (
 
 == See Also ==
 
+<<FullSearch(linkto:Class_R)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22687,6 +23061,7 @@ Contains [[Class_RP|$\\text{RP}$]] and [[Class_ZBQP|$\\text{ZBQP}$]], and is con
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RBQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22775,6 +23150,7 @@ Indeed, [[Class_RE|$\\text{RE}$]] contains infinitely many nonequivalent 'T-degr
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22851,6 +23227,7 @@ Equals the class solvable by nondeterministic finite automata (NDFA's).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_REG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22911,6 +23288,7 @@ Contains [[Class_RG[1]|$\\text{RG[1]}$]], and is contained in [[Class_QRG|$\\tex
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -22977,6 +23355,7 @@ RG(1) is trivially contained in RG(2) (and hence [[Class_PSPACE|$\\text{PSPACE}$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RG(1))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23029,6 +23408,7 @@ RG(2) is contained in [[Class_PSPACE|$\\text{PSPACE}$]], and they are equal, unr
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RG(2))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23081,6 +23461,7 @@ Other than trivial bounds, very little is known of RG(k) for intermediate values
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RG(k))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23137,6 +23518,7 @@ Contains [[Class_S2P|$\\text{S}_\\text{2}\\text{P}$]] and is contained in [[Clas
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RG[1])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23193,6 +23575,7 @@ Contained in [[Class_RL|$\\text{RL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RHL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23243,6 +23626,7 @@ Has the same relation to BP,,H,,SPACE(f(n)) as [[Class_RP|$\\text{RP}$]] does to
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RHSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23305,6 +23689,7 @@ Contained in [[Class_SC|$\\text{SC}$]] [[ZooRefs#Nis92|[Nis92] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23365,6 +23750,7 @@ See also: [[Class_coRNC|$\\text{coRNC}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RNC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23447,6 +23833,7 @@ Contains the problem of testing whether an integer is prime [[ZooRefs#AH87|[AH87
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23503,6 +23890,7 @@ See also [[Class_FPT|$\\text{FPT}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23561,6 +23949,7 @@ The communication cost (the sum of the number of random bits used and bits writt
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RPkcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23613,6 +24002,7 @@ Contains [[Class_ZQP|$\\text{ZQP}$]] and [[Class_RBQP|$\\text{RBQP}$]], and is c
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23669,6 +24059,7 @@ Same as [[Class_RL|$\\text{RL}$]], but for O(f(n))-space instead of logarithmic-
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23721,6 +24112,7 @@ Was shown to equal DSPACE(f(n)) [[ZooRefs#LMT97|[LMT97] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_RevSPACE(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23773,6 +24165,7 @@ Has been implicated in a collapse scandal involving [[Class_AM[polylog]|$\\text{
 
 == See Also ==
 
+<<FullSearch(linkto:Class_S2-EXP•PNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23851,6 +24244,7 @@ Has been implicated in a collapse scandal involving [[Class_AM[polylog]|$\\text{
 
 == See Also ==
 
+<<FullSearch(linkto:Class_S2P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23907,6 +24301,7 @@ Defined by [[ZooRefs#BCD+89|[BCD+89] ]], who also showed that SAC,,k,, is closed
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SAC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -23959,6 +24354,7 @@ Not closed under complement [[ZooRefs#BCD+89|[BCD+89] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24015,6 +24411,7 @@ Contained in [[Class_⊕SAC1|$\\text{⊕SAC}^\\text{1}\\text{}$]] [[ZooRefs#GW96
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SAC1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24067,6 +24464,7 @@ Defined in [[ZooRefs#Pap83|[Pap83] ]], where it was also observed that [[Class_S
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SAPTIME)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24135,6 +24533,7 @@ There exists an oracle relative to which [[Class_SBP|$\\text{SBP}$]] is not cont
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SBP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24187,6 +24586,7 @@ Defined by Kuperberg in [[ZooRefs#Kup09|[Kup09] ]], where he showed that [[Class
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SBQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24259,6 +24659,7 @@ Deterministic context-free languages (DCFL's) can be recognized in [[Class_SC|$\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24311,6 +24712,7 @@ Defined in [[ZooRefs#IPZ01|[IPZ01] ]], who also gave reductions showing that if 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24377,6 +24779,7 @@ There exists an oracle relative to which [[Class_SEH|$\\text{SEH}$]] is not cont
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SEH)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24441,6 +24844,7 @@ SF,,4,, is contained in BP ⊕P^Mod_3P ^ [[Class_⊕P|$\\text{⊕P}$]] ^ Mod_3P 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SFk)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24511,6 +24915,7 @@ See also: [[Class_PKC|$\\text{PKC}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SKC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24609,6 +25014,7 @@ The story ends with the remarkable result that [[Class_SL|$\\text{SL}$]] = [[Cla
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24669,6 +25075,7 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SLICEWISE PSPACE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24749,6 +25156,7 @@ total order
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24813,6 +25221,7 @@ This means that [[Class_SO|$\\text{SO}$]] with only existantial second-order qua
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SO)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24869,6 +25278,7 @@ Those formulae can be made in prenex form where the second order is existential 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SO(Horn))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24925,6 +25335,7 @@ Those formulaes can be made in prenex form where the second order is existential
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SO(Krom))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -24981,6 +25392,7 @@ Contains FO(poly(n)).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SO-E)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25035,6 +25447,7 @@ In Descriptive complexity we can see that
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SO[LFP])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25089,6 +25502,7 @@ In Descriptive complexity we can see that :
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SO[TC])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25147,6 +25561,7 @@ SO[2^{n^{O(1)}}] is equal to EXPTIME it is also another way to write SO(LFP)
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SO[t(n)])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25203,6 +25618,7 @@ Defined in [[ZooRefs#KRS90|[KRS90] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25255,6 +25671,7 @@ Contains [[Class_TALLY|$\\text{TALLY}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SPARSE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25319,6 +25736,7 @@ Equals the set of problems low for [[Class_GapL|$\\text{GapL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SPL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25409,6 +25827,7 @@ Contains a whole gaggle of problems for solvable black-box groups: solvability t
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25489,6 +25908,7 @@ Same as [[Class_QRG|$\\text{QRG}$]], except that now the verifier can exchange o
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SQG)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25539,6 +25959,7 @@ The intersection of DTIME(2^n^ε^) over all ε>0.  (Note that the algorithm used
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SUBEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25667,6 +26088,7 @@ Zero-knowledge proofs were first studied in [[ZooRefs#GMW91|[GMW91] ]], [[ZooRef
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25723,6 +26145,7 @@ Contains [[Class_NISZKh|$\\text{NISZK}_\\text{h}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SZKh)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25783,6 +26206,7 @@ See also: [[Class_PermUP|$\\text{PermUP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_SelfNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25835,6 +26259,7 @@ Contained in [[Class_SPARSE|$\\text{SPARSE}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_TALLY)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25923,6 +26348,7 @@ In a breakthrough result [[ZooRefs#Hes01|[Hes01] ]] (building on [[ZooRefs#BCH86
 
 == See Also ==
 
+<<FullSearch(linkto:Class_TC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -25987,6 +26413,7 @@ Subclasses include [[Class_PPA|$\\text{PPA}$]], [[Class_PPP|$\\text{PPP}$]], and
 
 == See Also ==
 
+<<FullSearch(linkto:Class_TFNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26039,6 +26466,7 @@ See [[ZooRefs#Koz92|[Koz92] ]] for example.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_TREE-REGULAR)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26103,6 +26531,7 @@ contained in the third level of [[Class_PH|$\\text{PH}$]], which might provide w
 
 == See Also ==
 
+<<FullSearch(linkto:Class_TreeBQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26167,6 +26596,7 @@ Defined in [[ZooRefs#NR98|[NR98] ]], where it was also shown that, even though [
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UAP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26227,6 +26657,7 @@ See also [[Class_coUCC|$\\text{coUCC}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UCC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26279,6 +26710,7 @@ Strictly contains Deterministic [[Class_CFL|$\\text{CFL}$]].  Strictly contained
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UCFL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26329,6 +26761,7 @@ Has the same relation to [[Class_E|$\\text{E}$]] as [[Class_UP|$\\text{UP}$]] do
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26381,6 +26814,7 @@ If [[Class_UL|$\\text{UL}$]] = [[Class_NL|$\\text{NL}$]], then [[Class_FNL|$\\te
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26437,6 +26871,7 @@ Note that in [[Class_UL/poly|$\\text{UL/poly}$]], the witness must be unique eve
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UL/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26515,6 +26950,7 @@ There exists an oracle relative to which [[Class_P|$\\text{P}$]] is strictly con
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26569,6 +27005,7 @@ See also: [[Class_PPcc|$\\text{PP}^\\text{cc}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_UPPcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26633,6 +27070,7 @@ Contains [[Class_coNP|$\\text{coNP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_US)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26693,6 +27131,7 @@ Introduced in [[ZooRefs#HN06|[HN06] ]]; see there for formal definitions.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_VCk)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26749,6 +27188,7 @@ See also [[Class_VCk|$\\text{VC}_\\text{k}\\text{}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_VCor)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26805,6 +27245,7 @@ Surprisingly, [[Class_VNCk|$\\text{VNC}_\\text{k}\\text{}$]] = [[Class_VPk|$\\te
 
 == See Also ==
 
+<<FullSearch(linkto:Class_VNCk)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26887,6 +27328,7 @@ In both cases, [[Class_PH|$\\text{PH}$]] collapses to [[Class_Σ2P|$\\text{Σ}_\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_VNPk)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -26943,6 +27385,7 @@ Properly contains [[Class_REG|$\\text{REG}$]]. Properly contained in [[Class_DCF
 
 == See Also ==
 
+<<FullSearch(linkto:Class_VPL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27007,6 +27450,7 @@ More formally, the input consists of constants c,,1,,,...,c,,m,, and indetermina
 
 == See Also ==
 
+<<FullSearch(linkto:Class_VPk)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27063,6 +27507,7 @@ The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under
 
 == See Also ==
 
+<<FullSearch(linkto:Class_VQPk)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27115,6 +27560,7 @@ W^*^[1] = [[Class_W[1]|$\\text{W[1]}$]] [[ZooRefs#DFT96|[DFT96] ]], and W^*^[2] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_W*[t])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27173,6 +27619,7 @@ Defined in [[ZooRefs#BGM02|[BGM02] ]], where it is also shown that [[Class_WAPP|
 
 == See Also ==
 
+<<FullSearch(linkto:Class_WAPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27257,6 +27704,7 @@ Simulating [[Class_P|$\\text{P}$]] in WHILE^rec/cons^ is quite more subtle, [[Cl
 
 == See Also ==
 
+<<FullSearch(linkto:Class_WHILE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27323,6 +27771,7 @@ Contains [[Class_SPP|$\\text{SPP}$]] and [[Class_LWPP|$\\text{LWPP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_WPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27373,6 +27822,7 @@ The union of [[Class_W[t]|$\\text{W[t]}$]] over all t.}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_W[*])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27445,6 +27895,7 @@ If [[Class_FPT|$\\text{FPT}$]] = [[Class_W[1]|$\\text{W[1]}$]] then [[Class_NP|$
 
 == See Also ==
 
+<<FullSearch(linkto:Class_W[1])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27509,6 +27960,7 @@ Contains [[Class_W[SAT]|$\\text{W[SAT]}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_W[P])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27573,6 +28025,7 @@ Contains [[Class_W[t]|$\\text{W[t]}$]] for every t, and is contained in [[Class_
 
 == See Also ==
 
+<<FullSearch(linkto:Class_W[SAT])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27641,6 +28094,7 @@ Contained in [[Class_W[SAT]|$\\text{W[SAT]}$]] and in [[Class_W*[t]|$\\text{W}^\
 
 == See Also ==
 
+<<FullSearch(linkto:Class_W[t])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27701,6 +28155,7 @@ Defined by [[ZooRefs#CHT+04|[CHT+04] ]], whose motivation was a connection to th
 
 == See Also ==
 
+<<FullSearch(linkto:Class_XOR-MIP*[2,1])>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27761,6 +28216,7 @@ Strictly contains [[Class_FPT|$\\text{FPT}$]] (by diagonalization).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_XP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27813,6 +28269,7 @@ Defined in [[ZooRefs#DF99|[DF99] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_XPuniform)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27863,6 +28320,7 @@ A term of derision, used against a complexity class.}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_YACC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27933,6 +28391,7 @@ Is contained in [[Class_NP|$\\text{NP}$]] ∩ [[Class_coNP|$\\text{coNP}$]] and 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_YP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -27995,6 +28454,7 @@ Contains [[Class_BPP|$\\text{BPP}$]] and [[Class_YP|$\\text{YP}$]], and is conta
 
 == See Also ==
 
+<<FullSearch(linkto:Class_YPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28047,6 +28507,7 @@ Contains [[Class_BQP|$\\text{BQP}$]] and [[Class_YPP|$\\text{YPP}$]], and is con
 
 == See Also ==
 
+<<FullSearch(linkto:Class_YQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28107,6 +28568,7 @@ Contains [[Class_ZPP|$\\text{ZPP}$]] and is contained in [[Class_RBQP|$\\text{RB
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ZBQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28159,6 +28621,7 @@ Zero-knowledge proofs were introduced in [[ZooRefs#GMR89|[GMR89] ]], and further
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28211,6 +28674,7 @@ Same as [[Class_ZPP|$\\text{ZPP}$]], but with 2^O(n)^-time instead of polynomial
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ZPE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28291,6 +28755,7 @@ There exists an oracle relative to which [[Class_ZPP|$\\text{ZPP}$]] = [[Class_E
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ZPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28343,6 +28808,7 @@ For any constructible superpolynomial f, ZPTIME(f(n)) with [[Class_NP|$\\text{NP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ZPTIME(f(n)))>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28399,6 +28865,7 @@ Contains [[Class_EQP|$\\text{EQP}$]] and [[Class_ZBQP|$\\text{ZBQP}$]] and is co
 
 == See Also ==
 
+<<FullSearch(linkto:Class_ZQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28449,6 +28916,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coAM)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28499,6 +28967,7 @@ Equals [[Class_NQP|$\\text{NQP}$]] [[ZooRefs#FGH+98|[FGH+98] ]].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coC=P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28549,6 +29018,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coMA)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28599,6 +29069,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coModkP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28649,6 +29120,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coNE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28701,6 +29173,7 @@ Contained in [[Class_NEXP/poly|$\\text{NEXP/poly}$]] (folklore result reported i
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coNEXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28751,6 +29224,7 @@ Equals [[Class_NL|$\\text{NL}$]] [[ZooRefs#Imm88|[Imm88] ]] [[ZooRefs#Sze87|[Sze
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coNL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28819,6 +29293,7 @@ Every problem in [[Class_coNP|$\\text{coNP}$]] has an [[Class_IP|$\\text{IP}$]] 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28875,6 +29350,7 @@ Note: At the suggestion of Luis Antuñes, the above specimen of the Complexity 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coNP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28925,6 +29401,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coNPcc)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -28975,6 +29452,7 @@ Equals [[Class_C=P|$\\text{C}_\\text{=}\\text{P}$]] [[ZooRefs#FGH+98|[FGH+98] ]]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coNQP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29027,6 +29505,7 @@ The problem "given a computable predicate [[Class_P|$\\text{P}$]], is [[Class_P|
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coRE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29077,6 +29556,7 @@ Contains the problem of whether a bipartite graph has a perfect matching [[ZooRe
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coRNC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29133,6 +29613,7 @@ Defined in [[ZooRefs#Gil77|[Gil77] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coRP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29183,6 +29664,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coSL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29233,6 +29715,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coSPARSE)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29285,6 +29768,7 @@ Given a colored graph G with at most two vertices having any given color, does G
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coUCC)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29335,6 +29819,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_coUP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29385,6 +29870,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_cofrIP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29441,6 +29927,7 @@ Assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_compIP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29497,6 +29984,7 @@ Contains [[Class_NPC|$\\text{NPC}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_compNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29563,6 +30051,7 @@ Assuming [[Class_NEE|$\\text{NEE}$]] is not contained in [[Class_BPEE|$\\text{BP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_frIP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29613,6 +30102,7 @@ Alternate name for [[Class_k-PBP|$\\text{k-PBP}$]].}}}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_k-BWBP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29673,6 +30163,7 @@ k-BQBP can be defined similarly.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_k-EQBP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29741,6 +30232,7 @@ See also BP,,d,,(P).
 
 == See Also ==
 
+<<FullSearch(linkto:Class_k-PBP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29791,6 +30283,7 @@ Defined in [[ZooRefs#GS90|[GS90] ]].  Equals [[Class_mP|$\\text{mP}$]] by defini
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mAL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29851,6 +30344,7 @@ Contained in (nonuniform versions of) [[Class_mNL|$\\text{mNL}$]] and [[Class_mc
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29915,6 +30409,7 @@ Strictly contains [[Class_mTC0|$\\text{mTC}^\\text{0}\\text{}$]] [[ZooRefs#Yao89
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mNC1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -29979,6 +30474,7 @@ See also: [[Class_mL|$\\text{mL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mNL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30035,6 +30531,7 @@ Strictly contains [[Class_mP|$\\text{mP}$]] [[ZooRefs#Raz85|[Raz85] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mNP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30103,6 +30600,7 @@ See also: [[Class_mNC1|$\\text{mNC}^\\text{1}\\text{}$]], [[Class_mL|$\\text{mL}
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30155,6 +30653,7 @@ More straightforward to define than [[Class_mP|$\\text{mP}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mP/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30215,6 +30714,7 @@ Strictly contained in [[Class_mNC1|$\\text{mNC}^\\text{1}\\text{}$]] [[ZooRefs#Y
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mTC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30267,6 +30767,7 @@ See also: [[Class_mL|$\\text{mL}$]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_mcoNL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30319,6 +30820,7 @@ In contrast to [[Class_L|$\\text{L}$]], which is contained in [[Class_P|$\\text{
 
 == See Also ==
 
+<<FullSearch(linkto:Class_polyL)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30371,6 +30873,7 @@ Defined in [[ZooRefs#KST+89|[KST+89] ]], where it is also shown that [[Class_spa
 
 == See Also ==
 
+<<FullSearch(linkto:Class_span-P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30421,6 +30924,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_symP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30489,6 +30993,7 @@ If [[Class_P|$\\text{P}$]] = [[Class_NP|$\\text{NP}$]], then any polynomial-size
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Δ2P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30539,6 +31044,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Θ2P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30591,6 +31097,7 @@ Along with [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{P}$]], comprises the second 
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Π2P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30657,6 +31164,7 @@ For any fixed k, there is a problem in [[Class_Σ2P|$\\text{Σ}_\\text{2}\\text{
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Σ2P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30719,6 +31227,7 @@ Defined in [[ZooRefs#Can96|[Can96] ]], where it was also observed that [[Class_�
 
 == See Also ==
 
+<<FullSearch(linkto:Class_Φ2P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30783,6 +31292,7 @@ There exist oracles relative to which basically any consistent inclusion structu
 
 == See Also ==
 
+<<FullSearch(linkto:Class_βP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30839,6 +31349,7 @@ It turns out that, for any δ>0, [[Class_δ-BPP|$\\text{δ-BPP}$]] = [[Class_BPP
 
 == See Also ==
 
+<<FullSearch(linkto:Class_δ-BPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30891,6 +31402,7 @@ For any δ>0, [[Class_δ-RP|$\\text{δ-RP}$]] = [[Class_RP|$\\text{RP}$]] [[ZooR
 
 == See Also ==
 
+<<FullSearch(linkto:Class_δ-RP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -30957,6 +31469,7 @@ Contains [[Class_NP|$\\text{NP}$]] and [[Class_BPP|$\\text{BPP}$]], and is conta
 
 == See Also ==
 
+<<FullSearch(linkto:Class_∃BPP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -31007,6 +31520,7 @@ Contains [[Class_NP|$\\text{NP}$]] and [[Class_NISZK|$\\text{NISZK}$]], and is c
 
 == See Also ==
 
+<<FullSearch(linkto:Class_∃NISZK)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -31059,6 +31573,7 @@ There exists an oracle relative to which [[Class_⊕EXP|$\\text{⊕EXP}$]] = [[C
 
 == See Also ==
 
+<<FullSearch(linkto:Class_⊕EXP)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -31119,6 +31634,7 @@ Solving a linear system over Z,,2,, is complete for [[Class_⊕L|$\\text{⊕L}$]
 
 == See Also ==
 
+<<FullSearch(linkto:Class_⊕L)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -31171,6 +31687,7 @@ Contains [[Class_NL/poly|$\\text{NL/poly}$]] [[ZooRefs#GW96|[GW96] ]].
 
 == See Also ==
 
+<<FullSearch(linkto:Class_⊕L/poly)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -31245,6 +31762,7 @@ Equals Mod,,2^m,,P for every positive integer m.
 
 == See Also ==
 
+<<FullSearch(linkto:Class_⊕P)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -31295,6 +31813,7 @@ CategoryClassical
 
 == See Also ==
 
+<<FullSearch(linkto:Class_⊕SAC0)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
@@ -31347,6 +31866,7 @@ Defined in [[ZooRefs#GW96|[GW96] ]], where it was also shown that [[Class_⊕SAC
 
 == See Also ==
 
+<<FullSearch(linkto:Class_⊕SAC1)>>
 '''
 _, rev, _ = editor.get_rev()
 p = None
