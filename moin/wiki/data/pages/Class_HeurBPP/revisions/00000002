@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= HeurBPP - Heuristic BPP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of problems for which a 1-1/poly(n) fraction of instances are solvable by a [[Class_BPP|$\text{BPP}$]] machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[ZooRefs#FS04|[FS04] ]] showed a strict hierarchy theorem for [[Class_HeurBPP|$\text{HeurBPP}$]]; thus, [[Class_HeurBPP|$\text{HeurBPP}$]] does not equal HeurBPTIME(n^c^) for any fixed c.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

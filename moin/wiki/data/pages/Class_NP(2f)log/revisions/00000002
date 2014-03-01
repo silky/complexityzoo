@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= NP/log - NP With Logarithmic Advice =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_NP/poly|$\text{NP/poly}$]], except that now the advice string is logarithmic-size.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Shown in [[ZooRefs#FK05|[FK05] ]] that [[Class_EXP|$\text{EXP}$]] ⊆ [[Class_NP/log|$\text{NP/log}$]] if and only if [[Class_EXP|$\text{EXP}$]] = [[Class_P||NP|$\text{P}^\text{||NP}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

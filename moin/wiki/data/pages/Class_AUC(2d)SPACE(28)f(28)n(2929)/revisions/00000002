@@ -1,0 +1,43 @@
+
+<<TableOfContents()>>
+
+
+
+= AUC-SPACE(f(n)) - Randomized Alternating f(n)-Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of problems decidable by an O(f(n))-space Turing machine with three kinds of quantifiers: existential, universal, and randomized.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contains GAN-SPACE(f(n)).
+
+
+
+AUC-SPACE(poly(n)) = [[Class_SAPTIME|$\text{SAPTIME}$]] = [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Pap83|[Pap83] ]].
+
+
+
+[[ZooRefs#Con92|[Con92] ]] shows that AUC-SPACE(log n) has a natural complete problem, and is contained in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

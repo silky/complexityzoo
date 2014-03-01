@@ -1,0 +1,73 @@
+
+<<TableOfContents()>>
+
+
+
+= NEXP - Nondeterministic EXP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Nondeterministic exponential time (i.e. NTIME(2^p(n)^) for p a polynomial).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_MIP|$\text{MIP}$]] [[ZooRefs#BFL91|[BFL91] ]] (but not relative to all oracles).
+
+
+
+[[Class_NEXP|$\text{NEXP}$]] is in [[Class_MIP*|$\text{MIP*}$]] [[ZooRefs#IV12|[IV12] ]].
+
+
+
+[[Class_NEXP|$\text{NEXP}$]] is in [[Class_P/poly|$\text{P/poly}$]] if and only if [[Class_NEXP|$\text{NEXP}$]] = [[Class_MA|$\text{MA}$]] [[ZooRefs#IKW01|[IKW01] ]].
+
+
+
+[[ZooRefs#KI02|[KI02] ]] show the following:
+
+
+
+If [[Class_P|$\text{P}$]] = [[Class_RP|$\text{RP}$]], then [[Class_NEXP|$\text{NEXP}$]] is not computable by polynomial-size arithmetic circuits.
+
+If [[Class_P|$\text{P}$]] = [[Class_BPP|$\text{BPP}$]] and if checking whether a Boolean circuit computes a function that is close to a low-degree polynomial over a finite field is in [[Class_P|$\text{P}$]], then [[Class_NEXP|$\text{NEXP}$]] is not in [[Class_P/poly|$\text{P/poly}$]].
+
+If [[Class_NEXP|$\text{NEXP}$]] is in [[Class_P/poly|$\text{P/poly}$]], then matrix permanent is NEXP-complete.
+
+
+
+Does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#SFM78|[SFM78] ]].
+
+
+
+Does not equal [[Class_EXP|$\text{EXP}$]] if and only if there is a sparse set in [[Class_NP|$\text{NP}$]] that is not in [[Class_P|$\text{P}$]].
+
+
+
+There exists an oracle relative to which [[Class_EXP|$\text{EXP}$]] = [[Class_NEXP|$\text{NEXP}$]] but still [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#Dek76|[Dek76] ]].
+
+
+
+The theory of reals with addition (see [[Class_EXPSPACE|$\text{EXPSPACE}$]]) is hard for [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#FR74|[FR74] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_NEXP)>>

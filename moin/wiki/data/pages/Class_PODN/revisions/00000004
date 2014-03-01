@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= PODN - Polynomial Odd Degree Node =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The subclass of [[Class_TFNP|$\text{TFNP}$]] function problems that are guaranteed to have a solution because of the lemma that "every finite graph has an even number of odd-degree nodes."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_PPA|$\text{PPA}$]] [[ZooRefs#Pap90|[Pap90] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_PODN)>>

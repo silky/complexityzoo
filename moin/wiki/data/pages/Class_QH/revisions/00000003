@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= QH - Query Hierarchy Over NP =
+
+----
+CategoryClassical CategoryHierarchy 
+
+== Description ==
+
+{{{#!description
+
+QH,,k,, is defined to be [[Class_PNP[k]|$\text{P}^\text{NP[k]}\text{}$]]; that is, [[Class_P|$\text{P}$]] with k queries to an [[Class_NP|$\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\text{QH}$]] is the union of QH,,k,, over all nonnegative k.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[Class_QH|$\text{QH}$]] = [[Class_BH|$\text{BH}$]] [[ZooRefs#Wag88|[Wag88] ]]; thus, either both hierarchies are infinite or both collapse to some finite level.
+
+
+
+QH,,i,, is defined to be [[Class_PNP[k]|$\text{P}^\text{NP[k]}\text{}$]]; that is, [[Class_P|$\text{P}$]] with k queries to an [[Class_NP|$\text{NP}$]] oracle (where k is a constant).  Then [[Class_QH|$\text{QH}$]] is the union of QH,,i,, over all nonnegative i.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:QH)>>

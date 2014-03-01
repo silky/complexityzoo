@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= MAC^0^ - Majority of AC0 =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AC0|$\text{AC}^\text{0}\text{}$]], except now we're allowed a single unbounded-fanin majority gate at the root.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#JKS02|[JKS02] ]].
+
+
+
+[[Class_MAC0|$\text{MAC}^\text{0}\text{}$]] is strictly contained in [[Class_TC0|$\text{TC}^\text{0}\text{}$]] [[ZooRefs#ABF+94|[ABF+94] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

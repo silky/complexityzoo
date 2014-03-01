@@ -1,0 +1,49 @@
+
+<<TableOfContents()>>
+
+
+
+= mNC^1^ - Monotone NC1 =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a family of monotone [[Class_NC1|$\text{NC}^\text{1}\text{}$]] circuits (i.e. AND and OR gates only).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+A uniformity condition could also be imposed.
+
+
+
+Defined in [[ZooRefs#GS90|[GS90] ]].
+
+
+
+Strictly contained in [[Class_mNL|$\text{mNL}$]] [[ZooRefs#KW88|[KW88] ]], and indeed in [[Class_mL|$\text{mL}$]] [[ZooRefs#GS91|[GS91] ]].
+
+
+
+Strictly contains [[Class_mTC0|$\text{mTC}^\text{0}\text{}$]] [[ZooRefs#Yao89|[Yao89] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_mNC1)>>

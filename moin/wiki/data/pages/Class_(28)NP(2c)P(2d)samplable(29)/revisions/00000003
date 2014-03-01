@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= (NP,P-samplable) - Average NP With Samplable Distributions =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+See [[Class_AvgP|$\text{AvgP}$]] for basic notions of average-case complexity.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+(NP,P-samplable) is the same as [[Class_DistNP|$\text{DistNP}$]], except that the distribution μ only needs to be samplable in polynomial time.  μ's cumulative density function does not need to be computable in polynomial time.
+
+
+
+Any problem complete for [[Class_DistNP|$\text{DistNP}$]] is also complete for (NP,P-samplable) [[ZooRefs#IL90|[IL90] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:(NP,P-samplable))>>

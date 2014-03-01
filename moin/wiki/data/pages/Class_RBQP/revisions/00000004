@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= RBQP - Strict Quantum RP =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+The class of problems in [[Class_NP|$\text{NP}$]] whose witnesses are in [[Class_FBQP|$\text{FBQP}$]].  For example, the set of square-free numbers is in coRBQP using only the fact that factoring is in [[Class_FBQP|$\text{FBQP}$]].  (Even without a proof that the factors are prime, the factorization proves that there is a square divisor.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contains [[Class_RP|$\text{RP}$]] and [[Class_ZBQP|$\text{ZBQP}$]], and is contained in [[Class_BQP|$\text{BQP}$]] and [[Class_RQP|$\text{RQP}$]].  Defined here to clarify [[Class_EQP|$\text{EQP}$]]; see also [[Class_ZBQP|$\text{ZBQP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_RBQP)>>

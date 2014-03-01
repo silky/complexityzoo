@@ -1,0 +1,59 @@
+
+<<TableOfContents()>>
+
+
+
+= P,,R,, - Polynomial-Time Over The Reals =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Basically, the class of functions definable by recursively building up arithmetic functions: addition, multiplication, exponentiation, tetration, etc.  What's not allowed is to "diagonalize" a whole series of such functions to produce an even faster-growing one.  Thus, the Ackermann function was proposed in 1928 as an example of a recursive function that's not primitive recursive, showing that [[Class_PR|$\text{PR}$]] is strictly contained in [[Class_R|$\text{R}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Alternatively, the [[Class_PR|$\text{PR}$]] functions are exactly those functions that can be computed via programs in any reasonable, idealized ALGOL-like programming language where only definite loops are allowed, that is, loops where the number of iterations is specified before the loop starts (so FOR-loops are okay but not WHILE- or REPEAT-loops), and recursive calls are not allowed.
+
+
+
+An interesting difference is that [[Class_PR|$\text{PR}$]] functions can be explicitly enumerated, whereas functions in [[Class_R|$\text{R}$]] cannot be (since otherwise the halting problem would be decidable).  That is, [[Class_PR|$\text{PR}$]] is a "syntactic" class whereas [[Class_R|$\text{R}$]] is "semantic."
+
+
+
+On the other hand, we can "enumerate" any [[Class_RE|$\text{RE}$]] set by a [[Class_PR|$\text{PR}$]] function in the following sense: given an input (M,k), where M is a Turing machine and k is an integer, if M halts within k steps then output M; otherwise output nothing.  Then the union of the outputs, over all possible inputs (M,k), is exactly the set of M that halt.
+
+
+
+[[Class_PR|$\text{PR}$]] strictly contains [[Class_ELEMENTARY|$\text{ELEMENTARY}$]].
+
+
+
+An analog of [[Class_P|$\text{P}$]] for Turing machines over a real number field.
+
+
+
+Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
+
+
+
+See also [[Class_PC|$\text{P}_\text{C}\text{}$]], [[Class_NPC|$\text{NP}_\text{C}\text{}$]], [[Class_NPR|$\text{NP}_\text{R}\text{}$]], [[Class_VPk|$\text{VP}_\text{k}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= HVSZK - Honest-Verifier SZK =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems that have [[Class_SZK|$\text{SZK}$]] protocols assuming an honest verifier (i.e. one who doesn't try to learn more about the problem by deviating from the protocol).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_SZK|$\text{SZK}$]] [[ZooRefs#Oka96|[Oka96] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_HVSZK)>>

@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= SBQP - Small Bounded-Error Quantum Polynomial-Time =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which there exists a polynomial-time quantum algorithm that accepts with probability at least 2^−p(n)^ if the answer is "yes", and with probability at most 2^−p(n)−1^ if the answer is "no", for some polynomial p.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined by Kuperberg in [[ZooRefs#Kup09|[Kup09] ]], where he showed that [[Class_SBQP|$\text{SBQP}$]] = [[Class_A0PP|$\text{A}_\text{0}\text{PP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= HeurP - Heuristic P =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of distributional problems solvable by a [[Class_P|$\text{P}$]] machine. Defined in [[ZooRefs#Imp95|[Imp95] ]], though he calls the class HP.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Alternately, [[ZooRefs#BT06|[BT06] ]] define [[Class_HeurP|$\text{HeurP}$]] as being the set of tuples $(L,D)$, where $L$ is a language and $D$ is a distribution of problem instances, such that there exists an algorithm $A$ satisfying two properties:
+
+
+
+For every n\in\mathbb{N}, for every x in the support of D, and for every \delta>0, A(x;n,\delta) runs in time bounded by \mathrm{poly}(n/\delta).
+
+ For every \delta>0, A(\cdot;\cdot,\delta) is a heuristic algorithm for (L,D) whose error probability is bounded by \delta.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

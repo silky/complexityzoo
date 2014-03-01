@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= CNP - Continuous NP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+A nondeterministic analog of [[Class_CP|$\text{CP}$]].  Defined in [[ZooRefs#SF98|[SF98] ]], which should be consulted for the definition (it has something to do with strange attractors, I think).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The authors raise the question of whether [[Class_CP|$\text{CP}$]] equals [[Class_CNP|$\text{CNP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:CNP)>>

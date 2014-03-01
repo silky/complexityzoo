@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= C,,=,,L - Exact-Counting L =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_C=P|$\text{C}_\text{=}\text{P}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+C,,=,,L^C=L^ = L^C=L^ [[ZooRefs#ABO99|[ABO99] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

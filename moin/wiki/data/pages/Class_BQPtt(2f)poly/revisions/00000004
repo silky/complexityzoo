@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= BQP,,tt,,/poly - BQP/mpoly With Truth-Table Queries =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP/mpoly|$\text{BQP/mpoly}$]], except that the machine only gets to make nonadaptive queries to whatever oracle it might have.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [NY03b], where it was also shown that [[Class_P|$\text{P}$]] is not contained in [[Class_BQPtt/poly|$\text{BQP}_\text{tt}\text{/poly}$]] relative to an oracle.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_BQPtt/poly)>>

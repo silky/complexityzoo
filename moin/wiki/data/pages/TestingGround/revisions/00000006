@@ -1,0 +1,15 @@
+<<TableOfContents()>>
+
+= References =
+
+==== Aar02 ====
+S. Aaronson. Quantum lower bound for the collision problem,
+''Proceedings of ACM STOC'2002'', pp. 635-642, 2002.
+arXiv:[[http://arxiv.org/abs/quant-ph/0111102|quant-ph/0111102]].
+
+==== Aar03 ====
+S. Aaronson.
+Lower bounds for local search by quantum arguments,
+''Proceedings of ACM STOC 2004''.
+arXiv:[[http://arxiv.org/abs/quant-ph/0307149|quant-ph/0307149]],
+ECCC [[http://eccc.uni-trier.de/eccc-reports/2003/TR03-057/|TR03-057]].

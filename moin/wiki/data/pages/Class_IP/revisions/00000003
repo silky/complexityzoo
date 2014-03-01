@@ -1,0 +1,69 @@
+
+<<TableOfContents()>>
+
+
+
+= IP - Interactive Proof =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a probabilistic polynomial-time verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+If the answer is "yes," the prover must be able to behave in such a way that the verifier accepts with probability at least 2/3 (over the choice of the verifier's random bits).
+
+If the answer is "no," then however the prover behaves the verifier must reject with probability at least 2/3.
+
+
+
+Defined in [[ZooRefs#GMR89|[GMR89] ]], with the motivation of providing a framework for the introduction of zero-knowledge proofs (see the class [[Class_ZK|$\text{ZK}$]]). Interestingly, the power of general interactive proof systems is not decreased if the verifier is only allowed random queries (i.e., it merely tosses coins and sends any outcome to the prover). The latter model, known as the Arthur-Merlin (or public-coin) model was introduced independently (but later) in [[ZooRefs#Bab85|[Bab85] ]], and a strong equivalent (which preserves the number of rounds) is proved in [[ZooRefs#GS86|[GS86] ]]. 
+
+Often, it is required that the prover can convince the verifier to accept correct assertions with probability 1; this is called perfect completeness.
+
+However, the definitions with one-sided and two-sided error can be shown to be equivalent (see [[ZooRefs#FGM+89|[FGM+89] ]]).
+
+
+
+First demonstration to the power of interactive proofs was given by showing that for graph nonisomorphism (a problem not known in [[Class_NP|$\text{NP}$]]) has such proofs [[ZooRefs#GMW91|[GMW91] ]]. Five years later is was shown that
+
+[[Class_IP|$\text{IP}$]] contains [[Class_PH|$\text{PH}$]] [[ZooRefs#LFK+90|[LFK+90] ]], and indeed (this was discovered only a few weeks later) equals [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Sha90|[Sha90] ]].  On the other hand, [[Class_coNP|$\text{coNP}$]] is not contained in [[Class_IP|$\text{IP}$]] relative to a random oracle [[ZooRefs#CCG+94|[CCG+94] ]].
+
+
+
+See also: [[Class_MIP|$\text{MIP}$]], [[Class_QIP|$\text{QIP}$]], [[Class_MA|$\text{MA}$]], [[Class_AM|$\text{AM}$]].
+
+
+
+The class of decision problems for which a "yes" answer can be verified by an interactive proof.  Here a [[Class_BPP|$\text{BPP}$]] (i.e. probabilistic polynomial-time) verifier sends messages back and forth with an all-powerful prover.  They can have polynomially many rounds of interaction. Given the verifier's algorithm, at the end:
+
+
+
+[[Class_IP|$\text{IP}$]] contains [[Class_PH|$\text{PH}$]] [[ZooRefs#LFK+90|[LFK+90] ]], and indeed (this was discovered only a few days later) equals [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Sha90|[Sha90] ]].  On the other hand, [[Class_coNP|$\text{coNP}$]] is not contained in [[Class_IP|$\text{IP}$]] relative to a random oracle [[ZooRefs#CCG+94|[CCG+94] ]].
+
+
+
+See also: [[Class_MIP|$\text{MIP}$]], [[Class_QIP|$\text{QIP}$]], [[Class_MA|$\text{MA}$]], [[Class_AM|$\text{AM}$]].
+== Relations ==
+
+{{{#!class_relations
+{"version": 1.0, "class": "IP", "relations": {"contained_in": [], "equals": [{"class": "PSPACE"}, {"class": "QIP"}]}}
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:IP)>>

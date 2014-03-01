@@ -1,0 +1,43 @@
+
+<<TableOfContents()>>
+
+
+
+= RP,,k,,^cc^ - Randomized Pcc =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of functions $F$ which can be computed by $k$ players with access to shared random bits in the number-on-forehead (defined as in [[Class_Pkcc|$\text{P}_\text{k}\text{}^\text{cc}\text{}$]]) model, subject to two constraints:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The communication cost (the sum of the number of random bits used and bits written to the shared blackboard) is O(	extrm{polylog}(n)).
+
+ If F(X_1, \dots, X_k) = 1, then the players decide correctly with probably at least 2/3, whereas if F(X_1, \dots, X_k) = 0, the players always decide correctly.
+
+
+
+[[Class_NPkcc|$\text{NP}_\text{k}\text{}^\text{cc}\text{}$]] is not equal to [[Class_RPkcc|$\text{RP}_\text{k}\text{}^\text{cc}\text{}$]] for $k\le(1-\delta)\cdot\log n$ players, for any constant $\delta>0$ [[ZooRefs#DP08|[DP08] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_RPkcc)>>

@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= compNP - Competitive NP Proof System =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems [[Class_L|$\text{L}$]] in [[Class_NP|$\text{NP}$]] such that, if the answer is "yes," then a proof can be constructed in polynomial time given access only to an oracle for [[Class_L|$\text{L}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contains [[Class_NPC|$\text{NPC}$]].
+
+
+
+[[ZooRefs#BG94|[BG94] ]] show that [[Class_compNP|$\text{compNP}$]] is contained in [[Class_frIP|$\text{frIP}$]], and that assuming [[Class_NEE|$\text{NEE}$]] is not contained in [[Class_BPEE|$\text{BPEE}$]], [[Class_compNP|$\text{compNP}$]] does not equal [[Class_NP|$\text{NP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_compNP)>>

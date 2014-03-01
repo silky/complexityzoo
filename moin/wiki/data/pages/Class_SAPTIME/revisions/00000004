@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= SAPTIME - Stochastic Alternating Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of problems solvable by a polynomial-time Turing machine with three kinds of quantifiers: existential, universal, and randomized.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#Pap83|[Pap83] ]], where it was also observed that [[Class_SAPTIME|$\text{SAPTIME}$]] = [[Class_PSPACE|$\text{PSPACE}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_SAPTIME)>>

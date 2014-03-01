@@ -1,0 +1,53 @@
+
+<<TableOfContents()>>
+
+
+
+= PPAD - Polynomial Parity Argument (Directed) =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Same as [[Class_PPA|$\text{PPA}$]], except now the graph is directed, and we're asked to find either a source or a sink.
+
+
+
+Contained in [[Class_PPA|$\text{PPA}$]] and [[Class_PPADS|$\text{PPADS}$]].
+
+
+
+NASH, the problem of finding a Nash equilibrium in a normal form game of two or more players with specified utilities, is in [[Class_PPAD|$\text{PPAD}$]] [Pap94b], and proved to be complete for [[Class_PPAD|$\text{PPAD}$]] with four players in [[ZooRefs#DGP05|[DGP05] ]], and shortly after extended to the case of three players [[ZooRefs#DP05|[DP05] ]] and independently [[ZooRefs#CD05|[CD05] ]].
+
+
+
+There exists an oracle relative to which [[Class_PPP|$\text{PPP}$]] is not contained in [[Class_PPAD|$\text{PPAD}$]] [[ZooRefs#BCE+95|[BCE+95] ]].
+
+There exists an oracle relative to which [[Class_PPAD|$\text{PPAD}$]] is not contained in [[Class_BQP|$\text{BQP}$]] [[ZooRefs#Li11|[Li11] ]].
+
+
+
+There exists an oracle relative to which [[Class_PPP|$\text{PPP}$]] is not contained in [[Class_PPAD|$\text{PPAD}$]] [[ZooRefs#BCE+95|[BCE+95] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

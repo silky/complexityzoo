@@ -1,0 +1,51 @@
+
+<<TableOfContents()>>
+
+
+
+= AW[SAT] - Alternating W[SAT] =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Basically has the same relation to [[Class_W[SAT]|$\text{W[SAT]}$]] as [[Class_PSPACE|$\text{PSPACE}$]] does to [[Class_NP|$\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The class of decision problems of the form (x,r,k,,1,,,...,k,,r,,) (r,k,,1,,,...,k,,r,, parameters), that are fixed-parameter reducible to the following problem, for some constant h:
+
+
+
+Parameterized QBFSAT: Given a Boolean formula F (with no restriction on depth), over disjoint variable sets S,,1,,,...,S,,r,,.  Does there exist an assignment to S,,1,, of Hamming weight k,,1,,, such that for all assignments to S,,2,, of Hamming weight k,,2,,, etc. (alternating 'there exists' and 'for all'), F is satisfied?
+
+
+
+See [[Class_W[1]|$\text{W[1]}$]] for the definition of fixed-parameter reducibility.
+
+
+
+Defined in [[ZooRefs#DF99|[DF99] ]].
+
+
+
+Contains [[Class_AW[*]|$\text{AW[*]}$]], and is contained in [[Class_AW[P]|$\text{AW[P]}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

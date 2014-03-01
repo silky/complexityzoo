@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= AM[polylog] - AM With Polylog Rounds =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AM|$\text{AM}$]], except that we allow polylog(n) rounds of interaction between Arthur and Merlin instead of a constant number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Not much is known about [[Class_AM[polylog]|$\text{AM[polylog]}$]] -- for example, whether it sits in [[Class_PH|$\text{PH}$]].  However, [[ZooRefs#SS04|[SS04] ]] show that if [[Class_AM[polylog]|$\text{AM[polylog]}$]] contains [[Class_coNP|$\text{coNP}$]], then [[Class_EH|$\text{EH}$]] collapses to [[Class_S2-EXP•PNP|$\text{S}_\text{2}\text{-EXP•P}^\text{NP}\text{}$]].  ([[ZooRefs#PV04|[PV04] ]] improved the collapse to [[Class_AMEXP|$\text{AM}_\text{EXP}\text{}$]].)
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_AM[polylog])>>

@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= LOGCFL - Logarithmically Reducible to CFL =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems reducible in [[Class_L|$\text{L}$]] to the problem of deciding membership in a context-free language.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equivalently, [[Class_LOGCFL|$\text{LOGCFL}$]] is the class of decision problems solvable by a uniform family of [[Class_AC1|$\text{AC}^\text{1}\text{}$]] circuits, in which no AND gate has fan-in exceeding 2 (see e.g. [[ZooRefs#Joh90|[Joh90] ]], p. 137).
+
+
+
+[[Class_LOGCFL|$\text{LOGCFL}$]] is closed under complement [[ZooRefs#BCD+89|[BCD+89] ]].
+
+
+
+Contains [[Class_NL|$\text{NL}$]] [[ZooRefs#Sud78|[Sud78] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_LOGCFL)>>

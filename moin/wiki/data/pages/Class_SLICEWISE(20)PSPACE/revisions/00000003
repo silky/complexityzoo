@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= SLICEWISE PSPACE - Parametrized PSPACE =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The parameterized version of [[Class_PSPACE|$\text{PSPACE}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Same as [[Class_FPT|$\text{FPT}$]], except that now on input (x,k) (k a parameter), the space used must be f(k)p(|x|), where p is a polynomial.
+
+
+
+If [[Class_P|$\text{P}$]] = [[Class_PSPACE|$\text{PSPACE}$]], then [[Class_FPT|$\text{FPT}$]] = SLICEWISE [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+Defined in [[ZooRefs#DF99|[DF99] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:SLICEWISE PSPACE)>>

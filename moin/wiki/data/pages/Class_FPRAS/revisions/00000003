@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= FPRAS - Fully Polynomial Randomized Approximation Scheme =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The subclass of [[Class_SharpP|$\text{#P}$]] counting problems whose answer, y, is approximable in the following sense.  There exists a randomized algorithm that, with probability at least 1-δ, approximates y to within an ε multiplicative factor in time polynomial in n (the input size), 1/ε, and log(1/δ).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The permanent of a nonnegative matrix is in [[Class_FPRAS|$\text{FPRAS}$]] [[ZooRefs#JSV01|[JSV01] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:FPRAS)>>

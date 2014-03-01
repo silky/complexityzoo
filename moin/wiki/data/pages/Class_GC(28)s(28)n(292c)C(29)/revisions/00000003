@@ -1,0 +1,55 @@
+
+<<TableOfContents()>>
+
+
+
+= GC(s(n),C) - Guess and Check =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+guessing s(n) bits, then
+
+verifying the answer in complexity class C.
+
+
+
+For example, GC(p(n),P) = [[Class_NP|$\text{NP}$]] where p is a polynomial.
+
+
+
+Defined in [[ZooRefs#CC93|[CC93] ]].
+
+
+
+Umans [[ZooRefs#Uma98|[Uma98] ]] has shown that given a DNF expression Φ, the Shortest Implicant problem is GC(log^2^n, coNP)-complete.
+
+
+
+Umans [[ZooRefs#Uma98|[Uma98] ]] has shown that given a DNF expression Φ, the Shortest Implicant problem (is there a conjunction of at most k negated or non-negated literals that implies Φ?) is GC(log^2^n, coNP)-complete.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:GC(s(n),C))>>

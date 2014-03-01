@@ -1,0 +1,20 @@
+= #SAT =
+
+----
+CategoryProblem
+
+== Description ==
+
+{{{#!description
+This is the counting version of [[Problem_SAT|SAT]]: Given a Boolean formula, compute how many satisfying truth assignments it has.
+}}}
+
+
+== Properties ==
+
+{{{#!problem_relations
+{"version": 1.0, "problem": "#SAT", "relations": {"complete_for": [{"class": "PH"}] }}
+}}}
+
+
+== Related Problems ==

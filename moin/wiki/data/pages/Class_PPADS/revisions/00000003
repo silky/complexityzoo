@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= PPADS - Polynomial Parity Argument (Directed, Sink) =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Same as [[Class_PPA|$\text{PPA}$]], except now the graph is directed, and we're asked to find a sink.
+
+
+
+Contained in [[Class_PPP|$\text{PPP}$]].
+
+
+
+Contains [[Class_PPAD|$\text{PPAD}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:PPADS)>>

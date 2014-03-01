@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= polyL - Polylogarithmic Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals DSPACE((log n)^c^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+In contrast to [[Class_L|$\text{L}$]], which is contained in [[Class_P|$\text{P}$]], it is not known if [[Class_polyL|$\text{polyL}$]] is contained in [[Class_P|$\text{P}$]] or vice versa.  On the other hand, we do know that [[Class_polyL|$\text{polyL}$]] does not equal [[Class_P|$\text{P}$]], since (for example) [[Class_polyL|$\text{polyL}$]] does not have complete problems under many-to-one logspace reductions.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_polyL)>>

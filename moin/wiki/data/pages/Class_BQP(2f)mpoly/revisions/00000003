@@ -1,0 +1,49 @@
+
+<<TableOfContents()>>
+
+
+
+= BQP/mpoly - BQP With Polynomial-Size Deterministic Merlin-Like Advice =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of languages recognized by a syntactic [[Class_BQP|$\text{BQP}$]] machine with deterministic polynomial advice that depends only on the input length, such that the output is correct with probability 2/3 when the advice is good.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Can also be defined as the class of problems solvable by a nonuniform family of polynomial-size quantum circuits, just as [[Class_P/poly|$\text{P/poly}$]] is the class solvable by a nonuniform family of polynomial-size classical circuits.
+
+
+
+Referred to with a variety of other ad hoc names, including [[Class_BQP/poly|$\text{BQP/poly}$]] on occassion.
+
+
+
+Contains [[Class_BQP/qlog|$\text{BQP/qlog}$]], and is contained in [[Class_BQP/qpoly|$\text{BQP/qpoly}$]].
+
+
+
+Does not contain [[Class_ESPACE|$\text{ESPACE}$]] [[ZooRefs#NY03|[NY03] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:BQP/mpoly)>>

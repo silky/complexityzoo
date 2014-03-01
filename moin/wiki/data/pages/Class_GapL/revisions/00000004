@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= GapL - Gap Logarithmic-Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_L|$\text{L}$]] as [[Class_GapP|$\text{GapP}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_GapL)>>

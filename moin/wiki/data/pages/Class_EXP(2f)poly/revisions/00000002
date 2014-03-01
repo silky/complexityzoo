@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= EXP/poly - Exponential Time With Polynomial-Size Advice =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable in [[Class_EXP|$\text{EXP}$]] with the help of a polynomial-length advice string that depends only on the input length.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contains [[Class_BQP/qpoly|$\text{BQP/qpoly}$]] [Aar04b].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= BPP/rlog - BPP With Logarithmic Deterministic Merlin-Like Advice =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of problems solvable by a syntactic [[Class_BPP|$\text{BPP}$]] machine with O(log n) random advice bits whose probability distribution depends only on the input length n.  For each n, there exists good advice such that the output is correct with probability at least 2/3.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contains [[Class_BPP/mlog|$\text{BPP/mlog}$]].  The inclusion is strict, because [[Class_BPP/rlog|$\text{BPP/rlog}$]] contains any finitely sparse language by fingerprinting; see the discussion for [[Class_ALL|$\text{ALL}$]].
+
+
+
+Contained in [[Class_BPP//log|$\text{BPP//log}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:BPP/rlog)>>

@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= MaxSNP,,0,, - Generating Class of MaxSNP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of function problems expressible as "find a relation such that the set of k-tuples for which a given [[Class_SNP|$\text{SNP}$]] predicate holds has maximum cardinality."}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+For example (see [[ZooRefs#Pap94|[Pap94] ]]), the Max-Cut problem can be expressed as follows:
+
+
+
+Given a graph G, find a subset S of vertices that maximizes the number of pairs (u,v) of vertices such that u is in S, and v is not in S, and G has an edge from u to v.
+
+
+
+Defined in [[ZooRefs#PY88|[PY88] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:MaxSNP0)>>

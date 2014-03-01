@@ -1,0 +1,75 @@
+
+<<TableOfContents()>>
+
+
+
+= P - Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class that started it all.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The class of decision problems solvable in polynomial time by a Turing machine.  (See also [[Class_FP|$\text{FP}$]], for function problems.)
+
+
+
+Defined in [[ZooRefs#Edm65|[Edm65] ]], [[ZooRefs#Cob64|[Cob64] ]], [[ZooRefs#Rab60|[Rab60] ]], and other seminal early papers.
+
+
+
+Contains some highly nontrivial problems, including linear programming [[ZooRefs#Kha79|[Kha79] ]] and finding a maximum matching in a general graph [[ZooRefs#Edm65|[Edm65] ]].
+
+
+
+Contains the problem of testing whether an integer is prime [[ZooRefs#AKS02|[AKS02] ]], an important result that improved on a proof requiring an assumption of the generalized Riemann hypothesis [[ZooRefs#Mil76|[Mil76] ]].
+
+
+
+A decision problem is P-complete if it is in [[Class_P|$\text{P}$]], and if every problem in [[Class_P|$\text{P}$]] can be reduced to it in [[Class_L|$\text{L}$]] (logarithmic space).  The canonical P-complete problem is circuit evaluation: given a Boolean circuit and an input, decide what the circuit outputs when given the input.
+
+
+
+Important subclasses of [[Class_P|$\text{P}$]] include [[Class_L|$\text{L}$]], [[Class_NL|$\text{NL}$]], [[Class_NC|$\text{NC}$]], and [[Class_SC|$\text{SC}$]].
+
+
+
+[[Class_P|$\text{P}$]] is contained in [[Class_NP|$\text{NP}$]], but whether they're equal seemed to be an open problem when I last checked.
+
+
+
+Efforts to generalize [[Class_P|$\text{P}$]] resulted in [[Class_BPP|$\text{BPP}$]] and [[Class_BQP|$\text{BQP}$]].
+
+
+
+The nonuniform version is [[Class_P/poly|$\text{P/poly}$]], the monotone version is [[Class_mP|$\text{mP}$]], and versions over the real and complex number fields are [[Class_PR|$\text{P}_\text{R}\text{}$]] and [[Class_PC|$\text{P}_\text{C}\text{}$]] respectively.
+
+
+
+In descriptive complexity, [[Class_P|$\text{P}$]] can be defined by three different kind of formulae, FO(lfp) which is also FO(n^{O(1)})], and also as SO(Horn)
+
+
+
+[[Class_P|$\text{P}$]] queries are exactly the one that can be written in the While^/cons^ languages.
+== Relations ==
+
+{{{#!class_relations
+{"version": 1.0, "class": "P", "relations": {"contained_in": [{"class": "EXP"}, {"class": "NP"}], "equals": []}}
+}}}
+
+
+== See Also ==

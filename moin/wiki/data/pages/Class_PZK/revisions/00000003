@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= PZK - Perfect Zero Knowledge =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_SZK|$\text{SZK}$]], but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over the verifier's view of his interaction with the prover, conditioned on the verifier's random coins, and (2) the distribution over views that the verifier can simulate without the prover's help.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contained in [[Class_SZK|$\text{SZK}$]].
+
+
+
+See also: [[Class_CZK|$\text{CZK}$]].
+
+
+
+Same as [[Class_SZK|$\text{SZK}$]], but now the two distributions must be identical, not merely statistically close.  (The "two distributions" are (1) the distribution over Arthur's view of his interaction with Merlin, conditioned on Arthur's random coins, and (2) the distribution over views that Arthur can simulate without Merlin's help.)
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:PZK)>>

@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= FO(t(n)) - First-Order =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be expressed by a first-order logic predicate, with a block of restricted quantifiers repeated t(n) times.  See [[ZooRefs#Imm98|[Imm98] ]] for a full definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+FO(poly(n)) = [[Class_P|$\text{P}$]] (see [[ZooRefs#Var82|[Var82] ]] for example).
+
+
+
+FO(poly(n)) is contained in [[Class_SO-E|$\text{SO-E}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_FO(t(n)))>>

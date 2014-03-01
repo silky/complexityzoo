@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= C,,=,,AC^0^ - Exact-Counting AC0 =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of problems for which there exists a [[Class_DiffAC0|$\text{DiffAC}^\text{0}\text{}$]] function f such that the answer is "yes" on input x if and only if f(x)=0.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_TC0|$\text{TC}^\text{0}\text{}$]] and [[Class_PAC0|$\text{PAC}^\text{0}\text{}$]] under logspace uniformity [[ZooRefs#ABL98|[ABL98] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:C=AC0)>>

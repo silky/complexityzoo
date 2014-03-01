@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= (NP ∩ coNP)/poly - Nonuniform NP ∩ coNP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Together with [[Class_NP/poly|$\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\text{coNP/poly}$]], has the same relation to [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] as [[Class_P/poly|$\text{P/poly}$]] has to [[Class_P|$\text{P}$]].  A language in ([[Class_NP|$\text{NP}$]] ∩ coNP)/poly is defined by a single language in [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]] which is then modified by advice.  A language in [[Class_NP/poly|$\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\text{coNP/poly}$]] comes from two possibly different languages in [[Class_NP|$\text{NP}$]] and [[Class_coNP|$\text{coNP}$]] which become the same with good advice.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+There is an oracle relative to which [[Class_NP/poly|$\text{NP/poly}$]] ∩ [[Class_coNP/poly|$\text{coNP/poly}$]], indeed NP/1 ∩ coNP/1, is not contained in ([[Class_NP|$\text{NP}$]] ∩ coNP)/poly [[ZooRefs#FFK+93|[FFK+93] ]].  Recently they improved this to NP/1 ∩ [[Class_coNP|$\text{coNP}$]] [[ZooRefs#FF..|[FF..] ]].
+
+
+
+If [[Class_NP|$\text{NP}$]] is contained in ([[Class_NP|$\text{NP}$]] ∩ coNP)/poly, then [[Class_PH|$\text{PH}$]] collapses to S,,2,,P^NP ∩ [[Class_coNP|$\text{coNP}\text{}$]] [[ZooRefs#CCH+01|[CCH+01] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:(NP ∩ coNP)/poly)>>

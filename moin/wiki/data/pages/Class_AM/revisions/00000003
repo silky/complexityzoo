@@ -1,0 +1,71 @@
+
+<<TableOfContents()>>
+
+
+
+= AM - Arthur-Merlin =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by an Arthur-Merlin protocol, as follows.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Arthur, a [[Class_BPP|$\text{BPP}$]] (i.e. probabilistic polynomial-time) verifier, generates a "challenge" based on the input, and sends it together with his random coins to Merlin.  Merlin sends back a response, and then Arthur decides whether to accept.  Given an algorithm for Arthur, we require that
+
+
+
+If the answer is "yes," then Merlin can act in such a way that Arthur accepts with probability at least 2/3 (over the choice of Arthur's random bits).
+
+If the answer is "no," then however Merlin acts, Arthur will reject with probability at least 2/3.
+
+
+
+Surprisingly, it turns out that such a system is just as powerful as a private-coin one, in which Arthur does not need to send his random coins to Merlin [[ZooRefs#GS86|[GS86] ]].  So, Arthur never needs to hide information from Merlin.
+
+
+
+Furthermore, define AM[k] similarly to [[Class_AM|$\text{AM}$]], except that Arthur and Merlin have k rounds of interaction.  Then for all constant k>2, AM[k] = AM[2] = [[Class_AM|$\text{AM}$]] [[ZooRefs#BM88|[BM88] ]].  Also, the result of [[ZooRefs#GS86|[GS86] ]] can then be stated as follows: IP[k] is contained in AM[k+2] for every k (constant or non-constant).
+
+
+
+[[Class_AM|$\text{AM}$]] contains graph nonisomorphism.
+
+
+
+Contains [[Class_NP|$\text{NP}$]], [[Class_BPP|$\text{BPP}$]], and [[Class_SZK|$\text{SZK}$]], and is contained in [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]] and [[Class_NP/poly|$\text{NP/poly}$]].
+
+
+
+If [[Class_AM|$\text{AM}$]] contains [[Class_coNP|$\text{coNP}$]] then [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] ∩ [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
+
+
+
+There exists an oracle relative to which [[Class_AM|$\text{AM}$]] is not contained in [[Class_PP|$\text{PP}$]] [[ZooRefs#Ver92|[Ver92] ]].
+
+
+
+[[Class_AM|$\text{AM}$]] = [[Class_NP|$\text{NP}$]] under a strong derandomization assumption: namely that some language in [[Class_NE|$\text{NE}$]] ∩ [[Class_coNE|$\text{coNE}$]] requires nondeterministic circuits of size 2^Ω(n)^ ([[ZooRefs#MV99|[MV99] ]], improving [[ZooRefs#KM99|[KM99] ]]).  (A nondeterministic circuit C has two inputs, x and y, and accepts on x if there exists a y such that C(x,y)=1.)
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:AM)>>

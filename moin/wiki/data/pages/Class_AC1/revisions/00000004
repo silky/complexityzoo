@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= AC^1^ - Unbounded Fanin Log-Depth Circuits =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+See [[Class_AC|$\text{AC}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_AC1)>>

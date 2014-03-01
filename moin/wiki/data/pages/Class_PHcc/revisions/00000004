@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= PH^cc^ - Communication Complexity PH =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The obvious generalization of [[Class_NPcc|$\text{NP}^\text{cc}\text{}$]] and [[Class_coNPcc|$\text{coNP}^\text{cc}\text{}$]] to a nondeterministic hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+It is unknown whether Σ,,2,,^cc^ equals Π,,2,,^cc^.
+
+
+
+Defined in [[ZooRefs#BFS86|[BFS86] ]], where it was also shown (among other things) that [[Class_BPPcc|$\text{BPP}^\text{cc}\text{}$]] is contained in Σ,,2,,^cc^ ∩ Π,,2,,^cc^.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_PHcc)>>

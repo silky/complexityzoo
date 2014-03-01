@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= SO[LFP] - Second-Order logic with least fixed point =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+[[Class_SO[LFP]|$\text{SO[LFP]}$]] is to [[Class_SO|$\text{SO}$]] what FO[LFP] is to [[Class_FO|$\text{FO}$]]. The LFP operator can now also take second-order variable as argument.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+In Descriptive complexity we can see that 
+
+[[Class_SO[LFP]|$\text{SO[LFP]}$]] is  equal to EXPTIME.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

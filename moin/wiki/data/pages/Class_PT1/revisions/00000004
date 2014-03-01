@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= PT,,1,, - Polynomial Threshold Functions =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of Boolean functions f:{-1,1}^n^->{-1,1} such that f(x)=sgn(p(x)), where p is a polynomial having a number of terms polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PT1|$\text{PT}_\text{1}\text{}$]] contains [[Class_PL1|$\text{PL}_\text{1}\text{}$]] (and this inclusion is strict), and that [[Class_PT1|$\text{PT}_\text{1}\text{}$]] is contained in [[Class_PL∞|$\text{PL}_\text{∞}\text{}$]] (and this inclusion is strict).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_PT1)>>

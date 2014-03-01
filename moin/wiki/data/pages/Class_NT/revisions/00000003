@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= NT - Near-Testable =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems such that whether the answer on input x agrees with the answer on input x-1 (that is, the lexicographic predecessor of x) is solvable in polynomial time.  The Turing machine has to decide agreement or disagreement without access to the answer for x-1.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Is contained in [[Class_E|$\text{E}$]], [[Class_NT*|$\text{NT*}$]], and [[Class_⊕P|$\text{⊕P}$]].  Defined in [[ZooRefs#GHJ+91|[GHJ+91] ]] to study ⊕P-complete problems.  They show  that [[Class_P|$\text{P}$]], [[Class_NT|$\text{NT}$]], [[Class_NT*|$\text{NT*}$]], and [[Class_⊕P|$\text{⊕P}$]] are either all equal or strictly nested.  In particular, they differ with probability 1 relative to a random oracle.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:NT)>>

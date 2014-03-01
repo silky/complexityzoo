@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= NPMV,,t,, - NPMV Total =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of all (possibly multivalued) [[Class_NPMV|$\text{NPMV}$]] functions that are total (that is, defined for every input).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:NPMVt)>>

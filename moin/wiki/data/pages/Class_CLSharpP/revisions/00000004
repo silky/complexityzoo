@@ -1,0 +1,47 @@
+
+<<TableOfContents()>>
+
+
+
+= CL#P - Cluster Sharp-P =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of [[Class_SharpP|$\text{#P}$]] function problems such that some underlying [[Class_NP|$\text{NP}$]] machine $M$ witnessing membership in [[Class_SharpP|$\text{#P}$]] has}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+"clustered" accepting paths. That is:
+
+
+
+There exists a polynomial p such that each computation path of M on each input x is exactly p(|x|) bits long.
+
+There is a length-respecting total order A having polynomial-time computable adjacency checks on the computation paths of M.
+
+The accepting paths of M on any input x are contiguous with respect to A.
+
+
+
+Defined in [[ZooRefs#HHK+05|[HHK+05] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_CLSharpP)>>

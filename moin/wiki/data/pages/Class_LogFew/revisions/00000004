@@ -1,0 +1,43 @@
+
+<<TableOfContents()>>
+
+
+
+= LogFew - Logspace-Bounded Few =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NL|$\text{NL}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The number of accepting paths on input x is f(x), and
+
+The answer is 'yes' if and only if R(x,f(x))=1, where [[Class_R|$\text{R}$]] is some predicate computable in [[Class_L|$\text{L}$]].
+
+
+
+Defined in [[ZooRefs#BDH+92|[BDH+92] ]], where it was also shown that [[Class_LogFew|$\text{LogFew}$]] is contained in [[Class_ModkL|$\text{Mod}_\text{k}\text{L}$]] for all k>1.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_LogFew)>>

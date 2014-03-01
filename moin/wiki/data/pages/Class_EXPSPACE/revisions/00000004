@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= EXPSPACE - Exponential Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals the union of DSPACE(2^p(n)^) over all polynomials p.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+See also: [[Class_ESPACE|$\text{ESPACE}$]].
+
+
+
+Given a first-order statement about real numbers, involving only addition and comparison (no multiplication), we can decide in [[Class_EXPSPACE|$\text{EXPSPACE}$]] whether it's true or not [[ZooRefs#Ber80|[Ber80] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_EXPSPACE)>>

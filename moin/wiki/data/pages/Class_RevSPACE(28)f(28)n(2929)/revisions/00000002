@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= RevSPACE(f(n)) - Reversible f(n)-Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable in space O(f(n)) by a reversible Turing machine (a deterministic Turing machine for which every configuration has at most one immediate predecessor).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Was shown to equal DSPACE(f(n)) [[ZooRefs#LMT97|[LMT97] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

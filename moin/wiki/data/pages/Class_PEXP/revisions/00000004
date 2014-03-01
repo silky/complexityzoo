@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= PEXP - Probabilistic Exponential-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to [[Class_EXP|$\text{EXP}$]] as [[Class_PP|$\text{PP}$]] does to [[Class_P|$\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Is not contained in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#BFT98|[BFT98] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_PEXP)>>

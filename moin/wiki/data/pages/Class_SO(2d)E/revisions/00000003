@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= SO-E - Second Order Existential =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer is expressible by a proposition with second-order existential quantifiers followed by a first-order formula.  See [[ZooRefs#Imm98|[Imm98] ]] for a full definition.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[Class_SO-E|$\text{SO-E}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Fag74|[Fag74] ]].
+
+
+
+Contains FO(poly(n)).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:SO-E)>>

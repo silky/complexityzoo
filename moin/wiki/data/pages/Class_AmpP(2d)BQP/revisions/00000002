@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= AmpP-BQP - BQP Restricted To AmpP States =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Similar to [[Class_TreeBQP|$\text{TreeBQP}$]] except that the quantum computer's state at each time step is restricted to being exponentially close to a state in AmpP (that is, a state for which the amplitudes are computable by a classical polynomial-size circuit).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [Aar03b], where it was also observed that [[Class_AmpP-BQP|$\text{AmpP-BQP}$]] is contained in the third level of [[Class_PH|$\text{PH}$]], just as [[Class_TreeBQP|$\text{TreeBQP}$]] is.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

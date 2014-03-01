@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= NE/poly - Nonuniform NE =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Contains [[Class_coNE|$\text{coNE}$]], just as [[Class_NEXP/poly|$\text{NEXP/poly}$]] contains [[Class_coNEXP|$\text{coNEXP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_NE/poly)>>

@@ -1,0 +1,47 @@
+
+<<TableOfContents()>>
+
+
+
+= QMA(2) - Quantum MA With Multiple Certificates =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QMA|$\text{QMA}$]], except that now the verifier is given two polynomial-size quantum certificates, which are guaranteed to be unentangled.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#KMY01|[KMY01] ]].
+
+
+
+It was shown in [[ZooRefs#ABD+08|[ABD+08] ]] that a conjecture they call the Strong Amplification Conjecture implies that QMA(2) is contained in [[Class_PSPACE|$\text{PSPACE}$]]. The authors also show that there exists no perfectly disentangler that can be used to simulate QMA(2) in [[Class_QMA|$\text{QMA}$]], though other approaches to showing [[Class_QMA|$\text{QMA}$]] = QMA(2) may still exist.
+
+
+
+It was shown in [[ZooRefs#HM13|[HM13] ]] that QMA(k) = QMA(2) for k >= 2. However we still do not know if QMA(2) = [[Class_QMA|$\text{QMA}$]] and we also do not know any upper bound for QMA(2) better than [[Class_NEXP|$\text{NEXP}$]].
+
+
+
+Defined in [[ZooRefs#KMY01|[KMY01] ]].  It is unknown whether QMA(k) = QMA(2) for all k>2, and also whether QMA(2) = [[Class_QMA|$\text{QMA}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

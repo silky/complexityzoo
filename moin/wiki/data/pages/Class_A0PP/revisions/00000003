@@ -1,0 +1,53 @@
+
+<<TableOfContents()>>
+
+
+
+= A,,0,,PP - One-Sided Analog of AWPP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_SBP|$\text{SBP}$]], except that f is a nonnegative-valued [[Class_GapP|$\text{GapP}$]] function rather than a [[Class_SharpP|$\text{#P}$]] function.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#Vya03|[Vya03] ]], where the following was also shown:
+
+
+
+[[Class_A0PP|$\text{A}_\text{0}\text{PP}$]] contains [[Class_QMA|$\text{QMA}$]], [[Class_AWPP|$\text{AWPP}$]], and [[Class_coC=P|$\text{coC}_\text{=}\text{P}$]].
+
+[[Class_A0PP|$\text{A}_\text{0}\text{PP}$]] is contained in [[Class_PP|$\text{PP}$]].
+
+If [[Class_A0PP|$\text{A}_\text{0}\text{PP}$]] = [[Class_PP|$\text{PP}$]] then [[Class_PH|$\text{PH}$]] is contained in [[Class_PP|$\text{PP}$]].
+
+
+
+Kuperberg ([[ZooRefs#Kup09|[Kup09] ]]) showed that [[Class_A0PP|$\text{A}_\text{0}\text{PP}$]] = [[Class_SBQP|$\text{SBQP}$]].
+
+
+
+Same as [[Class_SBP|$\text{SBP}$]], except that f is a [[Class_GapP|$\text{GapP}$]] rather than [[Class_SharpP|$\text{#P}$]] function.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:A0PP)>>

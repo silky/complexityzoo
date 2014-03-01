@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= QNC^1^ - Quantum NC1 =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QNC1|$\text{QNC}^\text{1}\text{}$]], but for the exact rather than bounded-error case.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+In contrast to [[Class_NC1|$\text{NC}^\text{1}\text{}$]], it is not clear how to simulate [[Class_QNC1|$\text{QNC}^\text{1}\text{}$]] on a quantum computer in which one qubit is initialized to a pure state, and the remaining qubits are in the maximally mixed state [[ZooRefs#ASV00|[ASV00] ]].
+
+
+
+See also [[ZooRefs#MN02|[MN02] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

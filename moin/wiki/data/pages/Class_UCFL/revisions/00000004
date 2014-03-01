@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= UCFL - Unambiguous CFL =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of context-free languages which can be represented by grammars where each word in the language has exactly one leftmost derivation.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Strictly contains Deterministic [[Class_CFL|$\text{CFL}$]].  Strictly contained in [[Class_CFL|$\text{CFL}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_UCFL)>>

@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= PL,,1,, - Polynomially-Bounded L1 Spectral Norm =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the sum of absolute values of Fourier coefficients of f is bounded by a polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL1|$\text{PL}_\text{1}\text{}$]] is contained in [[Class_PT1|$\text{PT}_\text{1}\text{}$]] (and this inclusion is strict).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

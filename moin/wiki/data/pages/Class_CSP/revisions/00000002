@@ -1,0 +1,53 @@
+
+<<TableOfContents()>>
+
+
+
+= CSP - Constraint Satisfaction Problems =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#FV93|[FV93] ]] as the class of languages corresponding to fixed templates (where a template is a set of allowed constraints on values and variables) in the general Constraint Satisfaction Problem. Under this construction, 3SAT may be expressed as the fixed template (over the alphabet $\{0,1\}$) containing $C_0, C_1, C_2, C_3$:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+$\begin{matrix}
+
+    C_0 & = & \{0,1\}^3 \backslash (0,0,0) \\
+
+    C_1 & = & \{0,1\}^3 \backslash (1,0,0) \\
+
+    C_2 & = & \{0,1\}^3 \backslash (1,1,0) \\
+
+    C_3 & = & \{0,1\}^3 \backslash (1,1,1)
+
+\end{matrix}$
+
+
+
+For example, a 3SAT clause $(x \vee y \vee \neg z)$ is represented in the [[Class_CSP|$\text{CSP}$]] construction as $C_1(z, x, y) \in I$. By similar constructions, any k-SAT problem can be seen to be in [[Class_CSP|$\text{CSP}$]]. The class also includes Graph k-Coloring (for $k\in\mathbb{N}$), Graph H-Coloring (for some graph $H$) and Linear Programming mod $q$.
+
+
+
+In [[ZooRefs#FV93|[FV93] ]], where the class is defined, the authors show that every problem in [[Class_MMSNP|$\text{MMSNP}$]] is reducible under randomized polynomial-time reductions to a problem in [[Class_CSP|$\text{CSP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

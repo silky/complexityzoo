@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= MaxPB - MaxNP Polynomially Bounded =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The subclass of [[Class_MaxNP|$\text{MaxNP}$]] problems for which the cost function is guaranteed always to be bounded by a polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[Class_MinPB|$\text{MinPB}$]] can be defined similarly.
+
+
+
+Defined in [[ZooRefs#KT94|[KT94] ]].
+
+
+
+The closure of [[Class_MaxPB|$\text{MaxPB}$]] under [[Class_PTAS|$\text{PTAS}$]] reductions equals [[Class_NPOPB|$\text{NPOPB}$]] [[ZooRefs#CKS+99|[CKS+99] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_MaxPB)>>

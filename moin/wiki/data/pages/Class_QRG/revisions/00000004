@@ -1,0 +1,49 @@
+
+<<TableOfContents()>>
+
+
+
+= QRG - Quantum Refereed Games =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_RG|$\text{RG}$]], except that now the verifier is a [[Class_BQP|$\text{BQP}$]] machine, and can exchange polynomially many quantum messages with the competing provers.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The two provers are computationally unbounded, but must obey the laws of quantum mechanics.  Also, we can assume without loss of generality that the provers share no entanglement, because adversaries gain no advantage by sharing information.
+
+
+
+Defined in [[ZooRefs#Gut05|[Gut05] ]], where it was also shown that [[Class_QRG|$\text{QRG}$]] is contained in [[Class_NEXP|$\text{NEXP}$]] ∩ [[Class_coNEXP|$\text{coNEXP}$]].
+
+
+
+[[Class_QRG|$\text{QRG}$]] trivially contains [[Class_RG|$\text{RG}$]] (and hence [[Class_EXP|$\text{EXP}$]]), as well as [[Class_SQG|$\text{SQG}$]].
+
+
+
+[[Class_QRG|$\text{QRG}$]] is contained in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#GW07|[GW07] ]].  Hence [[Class_QRG|$\text{QRG}$]] = [[Class_RG|$\text{RG}$]] = [[Class_EXP|$\text{EXP}$]] and finding optimal strategies for zero-sum quantum games is no harder than finding optimal strategies for zero-sum classical games.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_QRG)>>

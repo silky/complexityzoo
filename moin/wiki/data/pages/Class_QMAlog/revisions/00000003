@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= QMA,,log,, - QMA With Logarithmic-Size Proofs =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_QMA|$\text{QMA}$]] except that the quantum proof has O(log n) qubits instead of a polynomial number.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_BQP|$\text{BQP}$]] [[ZooRefs#MW05|[MW05] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:QMAlog)>>

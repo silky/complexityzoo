@@ -1,0 +1,43 @@
+
+<<TableOfContents()>>
+
+
+
+= mL - Monotone L =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a family of monotone log-width polynomial-size leveled circuits.  (A leveled circuit is one where gates on each level can depend only on the level immediately below it.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#GS90|[GS90] ]], who raise as an open problem to define a uniform version of [[Class_mL|$\text{mL}$]].
+
+
+
+Strictly contains [[Class_mNC1|$\text{mNC}^\text{1}\text{}$]] [[ZooRefs#GS91|[GS91] ]].
+
+
+
+Contained in (nonuniform versions of) [[Class_mNL|$\text{mNL}$]] and [[Class_mcoNL|$\text{mcoNL}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

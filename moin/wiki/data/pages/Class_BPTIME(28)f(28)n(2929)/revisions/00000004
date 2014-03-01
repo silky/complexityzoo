@@ -1,0 +1,61 @@
+
+<<TableOfContents()>>
+
+
+
+= BPTIME(f(n)) - Bounded-Error Probabilistic f(n)-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BPP|$\text{BPP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#Gil77|[Gil77] ]].
+
+
+
+BPTIME(n^log n^) does not equal BPTIME(2^n^ε^) for any ε>0 [[ZooRefs#KV88|[KV88] ]].  Proving a stronger time hierarchy theorem for BPTIME is a longstanding open problem; see [[ZooRefs#BH97|[BH97] ]] for details.
+
+
+
+[[ZooRefs#Bar02|[Bar02] ]] has shown the following:
+
+
+
+If we allow a small number of advice bits (say log n), then there is a strict hierarchy: for every d at least 1, BPTIME(n^d^)/(log n) does not equal BPTIME(n^d+1^)/(log n).
+
+In the uniform setting, if [[Class_BPP|$\text{BPP}$]] has complete problems then BPTIME(n^d^) does not equal BPTIME(n^d+1^).
+
+BPTIME(n) does not equal [[Class_NP|$\text{NP}$]].
+
+
+
+Subsequently, [[ZooRefs#FS04|[FS04] ]] managed to reduce the number of advice bits to only 1: BPTIME(n^d^)/1 does not equal BPTIME(n^d+1^)/1.  They also proved a hierarchy theorem for HeurBPTIME.
+
+
+
+For another bounded-error hierarchy result, see [[Class_BPQP|$\text{BPQP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_BPTIME(f(n)))>>

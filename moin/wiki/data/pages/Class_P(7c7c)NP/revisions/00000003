@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= P^||NP^ - P With Parallel Queries To NP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals [[Class_PNP[log]|$\text{P}^\text{NP[log]}\text{}$]] ([[ZooRefs#BH91|[BH91] ]] and [[ZooRefs#Hem89|[Hem89] ]] independently).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:P||NP)>>

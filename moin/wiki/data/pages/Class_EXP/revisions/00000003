@@ -1,0 +1,85 @@
+
+<<TableOfContents()>>
+
+
+
+= EXP - Exponential Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals the union of DTIME(2^p(n)^) over all polynomials p.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Also equals [[Class_P|$\text{P}$]] with [[Class_E|$\text{E}$]] oracle.
+
+
+
+If [[Class_L|$\text{L}$]] = [[Class_P|$\text{P}$]] then [[Class_PSPACE|$\text{PSPACE}$]] = [[Class_EXP|$\text{EXP}$]].
+
+
+
+If [[Class_EXP|$\text{EXP}$]] is in [[Class_P/poly|$\text{P/poly}$]] then [[Class_EXP|$\text{EXP}$]] = [[Class_MA|$\text{MA}$]] [[ZooRefs#BFL91|[BFL91] ]].
+
+
+
+Problems complete for [[Class_EXP|$\text{EXP}$]] under many-one reductions have measure 0 in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#May94|[May94] ]], [[ZooRefs#JL95|[JL95] ]].
+
+
+
+There exist oracles relative to which
+
+
+
+[[Class_EXP|$\text{EXP}$]] = [[Class_NP|$\text{NP}$]] = [[Class_ZPP|$\text{ZPP}$]] [Hel84a], [Hel84b], [[ZooRefs#Kur85|[Kur85] ]], [[ZooRefs#Hel86|[Hel86] ]],
+
+[[Class_EXP|$\text{EXP}$]] = [[Class_NEXP|$\text{NEXP}$]] but still [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#Dek76|[Dek76] ]],
+
+[[Class_EXP|$\text{EXP}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Dek76|[Dek76] ]].
+
+
+
+[[ZooRefs#BT04|[BT04] ]] show the following rather striking result: let A be many-one complete for [[Class_EXP|$\text{EXP}$]], and let S be any set in [[Class_P|$\text{P}$]] of subexponential density.  Then A-S is Turing-complete for [[Class_EXP|$\text{EXP}$]].
+
+
+
+[[ZooRefs#SM03|[SM03] ]] show that if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size, then [[Class_P|$\text{P}$]] can be simulated in [[Class_MAPOLYLOG|$\text{MA}_\text{POLYLOG}\text{}$]] such that no deterministic polynomial-time adversary can generate a list of inputs for a [[Class_P|$\text{P}$]] problem that includes one which fails to be simulated. As a result, [[Class_EXP|$\text{EXP}$]] ⊆ [[Class_MA|$\text{MA}$]] if [[Class_EXP|$\text{EXP}$]] has circuits of polynomial size.
+
+
+
+[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\text{EXP}$]] $\not\subseteq$ [[Class_NP/poly|$\text{NP/poly}$]] implies [[Class_EXP|$\text{EXP}$]] $\not\subseteq$ P^||NP^/poly.
+
+
+
+In descriptive complexity EXPTIME can be defined as SO(2^{n^{O(1)}}) which is also SO(LFP)
+
+
+
+[[Class_EXP|$\text{EXP}$]] = [[Class_NP|$\text{NP}$]] = [[Class_ZPP|$\text{ZPP}$]] [[ZooRefs#Hel84|[Hel84] ]],
+
+[[Class_EXP|$\text{EXP}$]] = [[Class_NEXP|$\text{NEXP}$]] but still [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] [[ZooRefs#Dek76|[Dek76] ]],
+
+[[Class_EXP|$\text{EXP}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Dek76|[Dek76] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:EXP)>>

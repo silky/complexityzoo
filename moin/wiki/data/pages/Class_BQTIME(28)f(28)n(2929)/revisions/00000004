@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= BQTIME(f(n)) - Bounded-Error Quantum f(n)-Time =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_BQP|$\text{BQP}$]], but with f(n)-time (for some constructible function f) rather than polynomial-time machines.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#BV97|[BV97] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_BQTIME(f(n)))>>

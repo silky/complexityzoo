@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= PromiseBPP - Promise-Problem BPP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_PromiseRP|$\text{PromiseRP}$]], but for [[Class_BPP|$\text{BPP}$]] instead of [[Class_RP|$\text{RP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#BF99|[BF99] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

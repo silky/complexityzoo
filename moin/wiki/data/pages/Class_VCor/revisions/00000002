@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= VC,,or,, - Verification Class With OR =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of languages that have verification presentable as the OR of m instances of SAT, each of size n. (m is the witness length of an instance and n is the instance length.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Introduced in [[ZooRefs#HN06|[HN06] ]].
+
+
+
+See also [[Class_VCk|$\text{VC}_\text{k}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

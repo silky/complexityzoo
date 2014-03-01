@@ -1,0 +1,55 @@
+
+<<TableOfContents()>>
+
+
+
+= AH - Arithmetic Hierarchy =
+
+----
+CategoryClassical CategoryHierarchy 
+
+== Description ==
+
+{{{#!description
+
+The analog of [[Class_PH|$\text{PH}$]] in computability theory.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Let Δ,,0,, = Σ,,0,, = Π,,0,, = [[Class_R|$\text{R}$]].  Then for i>0, let
+
+
+
+Δ,,i,, = [[Class_R|$\text{R}$]] with Σ,,i-1,, oracle.
+
+Σ,,i,, = [[Class_RE|$\text{RE}$]] with Σ,,i-1,, oracle.
+
+Π,,i,, = [[Class_coRE|$\text{coRE}$]] with Σ,,i-1,, oracle.
+
+
+
+Then [[Class_AH|$\text{AH}$]] is the union of these classes for all nonnegative constant i.
+
+
+
+Each level of [[Class_AH|$\text{AH}$]] strictly contains the levels below it.
+
+
+
+An equivalent definition is: $\Sigma_0=\Delta_0=\Pi_0$ is the set of numbers decided by formula with one free variable and bounded quantifier, where the primitives are + and $\times$. A bounded quantifier is of the form $ \phi=\forall i<j \psi $ or $\phi=\exists i<j  \psi$ where  $j$ is considered to be free in $\phi$. Then $\Sigma_{i+1}$ is the sets of number validating a formula of the form $\exists X_1\dots\exists X_n,\psi$ with $\psi\in\Delta_i$. $\Delta_i$ is the set of formula who are negation of $\Sigma_i$ formula. $\Pi_i=\Sigma_i\cap\Delta_i$
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

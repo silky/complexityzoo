@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= DET - Determinant =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems reducible in [[Class_L|$\text{L}$]] to the problem of computing the determinant of an n-by-n matrix of n-bit integers.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#Coo85|[Coo85] ]].
+
+
+
+Contained in [[Class_NC2|$\text{NC}^\text{2}\text{}$]], and contains [[Class_NL|$\text{NL}$]] and [[Class_PL|$\text{PL}$]] [[ZooRefs#BCP83|[BCP83] ]].
+
+
+
+Graph isomorphism is hard for [[Class_DET|$\text{DET}$]] under L-reductions [[ZooRefs#Tor00|[Tor00] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_DET)>>

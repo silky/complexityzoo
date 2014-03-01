@@ -1,0 +1,67 @@
+
+<<TableOfContents()>>
+
+
+
+= RP - Randomized Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+If the answer is 'yes,' at least 1/2 of computation paths accept.
+
+If the answer is 'no,' all computation paths reject.
+
+
+
+Defined in [[ZooRefs#Gil77|[Gil77] ]] (implicitly: the class VPP that is defined is equivalent to [[Class_RP|$\text{RP}$]] by running the recognizer as many times as necessary to reach probability 1/2).
+
+
+
+Contains the problem of testing whether an integer is prime [[ZooRefs#AH87|[AH87] ]], although this problem was subsequently shown to be in [[Class_P|$\text{P}$]] [[ZooRefs#AKS02|[AKS02] ]].
+
+
+
+For other problems in [[Class_RP|$\text{RP}$]], see the standard text on randomized algorithms, [[ZooRefs#MR95|[MR95] ]].
+
+
+
+Has the same p-measure as [[Class_ZPP|$\text{ZPP}$]]. Moreover, this measure is either zero or one. If the measure is non-zero, then [[Class_ZPP|$\text{ZPP}$]] = [[Class_BPP|$\text{BPP}$]] = [[Class_EXP|$\text{EXP}$]] [[ZooRefs#IM03|[IM03] ]].
+
+
+
+See also: [[Class_coRP|$\text{coRP}$]], [[Class_ZPP|$\text{ZPP}$]], [[Class_BPP|$\text{BPP}$]].
+
+
+
+Defined in [[ZooRefs#Gil77|[Gil77] ]].
+
+
+
+Contains the problem of testing whether an integer is prime [[ZooRefs#AH87|[AH87] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_RP)>>

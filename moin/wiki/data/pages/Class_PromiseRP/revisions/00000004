@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= PromiseRP - Promise-Problem RP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of promise problems solvable by an [[Class_RP|$\text{RP}$]] machine. I.e., the machine must accept with probability at least 1/2 for "yes" inputs, and with probability 0 for "no" inputs, but could have acceptance probability between 0 and 1/2 for inputs that do not satisfy the promise.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#BF99|[BF99] ]], where it was also shown that [[Class_BPP|$\text{BPP}$]] is in RP^PromiseRP[1]^ (i.e. with a single oracle query to [[Class_PromiseRP|$\text{PromiseRP}$]]).
+
+
+
+Contained in [[Class_PromiseBPP|$\text{PromiseBPP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_PromiseRP)>>

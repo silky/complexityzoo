@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= AL - Alternating L =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_AP|$\text{AP}$]], but for logarithmic-space instead of polynomial-time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[Class_AL|$\text{AL}$]] = [[Class_P|$\text{P}$]] [[ZooRefs#CKS81|[CKS81] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

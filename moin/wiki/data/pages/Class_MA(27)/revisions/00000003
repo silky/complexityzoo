@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= MA' - Sparse MA =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The subclass of [[Class_MA|$\text{MA}$]] such that for each input size n, there is a sparse set S,,n,, that Merlin's proof string always belongs to (no matter what the input is).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#KST93|[KST93] ]], where it is also observed that if graph isomorphism is in [[Class_P/poly|$\text{P/poly}$]], then the complement of graph isomorphism is in [[Class_MA'|$\text{MA'}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:MA')>>

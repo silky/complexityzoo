@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= NPSPACE - Nondeterministic PSPACE =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals [[Class_PSPACE|$\text{PSPACE}$]] [[ZooRefs#Sav70|[Sav70] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+On the other hand, this result does not relativize if we allow strings of unbounded length to be written to the oracle tape.  In particular, there exists an oracle relative to which [[Class_NPSPACE|$\text{NPSPACE}$]] is not contained in [[Class_EXP|$\text{EXP}$]] [[ZooRefs#GTW+91|[GTW+91] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:NPSPACE)>>

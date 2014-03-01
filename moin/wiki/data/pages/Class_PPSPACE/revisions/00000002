@@ -1,0 +1,43 @@
+
+<<TableOfContents()>>
+
+
+
+= PPSPACE - Probabilistic PSPACE =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_IPP|$\text{IPP}$]], except that [[Class_IPP|$\text{IPP}$]] uses private coins while [[Class_PPSPACE|$\text{PPSPACE}$]] uses public coins.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Can also be defined as a probabilistic version of [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+Equals [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+Defined in [[ZooRefs#Pap83|[Pap83] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

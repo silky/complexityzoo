@@ -1,0 +1,47 @@
+
+<<TableOfContents()>>
+
+
+
+= mNL - Monotone NL =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+See [[Class_mP|$\text{mP}$]] for the definition of a monotone nondeterministic Turing machine, due to [[ZooRefs#GS90|[GS90] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+[[Class_mNL|$\text{mNL}$]] is the class of decision problems solvable by a monotone nondeterministic log-space Turing machine.
+
+
+
+[[Class_mNL|$\text{mNL}$]] does not equal [[Class_mcoNL|$\text{mcoNL}$]] [[ZooRefs#GS90|[GS90] ]], in contrast to the case for [[Class_NL|$\text{NL}$]] and [[Class_coNL|$\text{coNL}$]].
+
+
+
+Also, [[Class_mNL|$\text{mNL}$]] strictly contains [[Class_mNC1|$\text{mNC}^\text{1}\text{}$]] [[ZooRefs#KW88|[KW88] ]].
+
+
+
+See also: [[Class_mL|$\text{mL}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

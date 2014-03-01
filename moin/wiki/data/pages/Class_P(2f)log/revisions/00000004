@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= P/log - P With Logarithmic Advice =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_P/poly|$\text{P/poly}$]], except that the advice string for input size n can have length at most logarithmic in n, rather than polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Strictly contained in [[Class_IC[log,poly]|$\text{IC[log,poly]}$]].
+
+
+
+If [[Class_NP|$\text{NP}$]] is contained in [[Class_P/log|$\text{P/log}$]] then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_P/log)>>

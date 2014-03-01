@@ -1,0 +1,47 @@
+
+<<TableOfContents()>>
+
+
+
+= SO - Second-Order logic =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+We define second-order variable  has got an arity k and represent any proposition of arity $k$. They are usually written in upper-case.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Second order logic is the set of [[Class_FO|$\text{FO}$]] formulae where we add quantification over second-order variables.
+
+
+
+Every formuale is equivalent to a formulae in prenex normal form, where we first write quantification on variable on second order and then a FO-formulae in prenex normal form.
+
+
+
+In Descriptive complexity we can see that [[Class_SO|$\text{SO}$]] is equal to [[Class_PH|$\text{PH}$]], more precisely we have that formulae in prenex normal form where existantial and universal of second order alternate k times are the kth level of the polynomial hierarchy.
+
+
+
+This means that [[Class_SO|$\text{SO}$]] with only existantial second-order quantification is equal to $\Sigma^1$ which is [[Class_NP|$\text{NP}$]], and with only universal quantification is equal to $\Pi^1$ which is Co-NP.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

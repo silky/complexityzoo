@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= EEXP - Double-Exponential Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals DTIME(2^2^p(n)^^) for p a polynomial.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Also known as 2-EXP.
+
+
+
+Contains [[Class_EE|$\text{EE}$]], and is contained in [[Class_NEEXP|$\text{NEEXP}$]].
+
+
+
+Equals DTIME(2^2^p(n)^) for p a polynomial.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:EEXP)>>

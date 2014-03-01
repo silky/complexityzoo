@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= RG(2) - Two-turn (one-round) Refereed Games =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_RG|$\text{RG}$]], except that now the verifier can exchange only two messages with each prover. Messages are exchanged in parallel, so the verifier cannot process the answer from one prover before preparing the question for the other.  See also RG(k).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+RG(2) is contained in [[Class_PSPACE|$\text{PSPACE}$]], and they are equal, unrelativized [FK97b].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_RG(2))>>

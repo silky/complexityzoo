@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= PromiseUP - Promise-Problem UP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of promise problems solvable by an [[Class_UP|$\text{UP}$]] machine. I.e., the nondeterministic machine must have a unique accepting path for "yes" inputs, and no accepting paths "no" inputs, but could have any number of accepting paths for inputs that do not satisfy the promise.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Although not originally stated with this notation, the main result of [[ZooRefs#VV86|[VV86] ]] is that [[Class_NP|$\text{NP}$]] is contained in RP^PromiseUP^.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:PromiseUP)>>

@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= GapP - Gap Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of functions f(x) such that for some [[Class_NP|$\text{NP}$]] machine, f(x) is the number of accepting paths minus the number of rejecting paths.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equivalently, the closure of the [[Class_SharpP|$\text{#P}$]] functions under subtraction.
+
+
+
+Defined in [[ZooRefs#FFK94|[FFK94] ]] and independently [[ZooRefs#Gup95|[Gup95] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

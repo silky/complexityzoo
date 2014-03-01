@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= mTC^0^ - Monotone TC0 =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a family of monotone [[Class_TC0|$\text{TC}^\text{0}\text{}$]] circuits (i.e. constant-depth, polynomial-size, AND, OR, and threshold gates, but no NOT gates).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+A uniformity condition could also be imposed.
+
+
+
+Defined in [[ZooRefs#GS90|[GS90] ]].
+
+
+
+Strictly contained in [[Class_mNC1|$\text{mNC}^\text{1}\text{}$]] [[ZooRefs#Yao89|[Yao89] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:mTC0)>>

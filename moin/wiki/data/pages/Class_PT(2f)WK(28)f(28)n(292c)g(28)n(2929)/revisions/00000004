@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= PT/WK(f(n),g(n)) - Parallel Time f(n) / Work g(n) =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a uniform family of Boolean circuits with depth upper-bounded by f(n) and size (number of gates) upper-bounded by g(n).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The union of PT/WK(log^k^n, n^k^) over all constants k equals [[Class_NC|$\text{NC}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_PT/WK(f(n),g(n)))>>

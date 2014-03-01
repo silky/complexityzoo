@@ -1,0 +1,53 @@
+
+<<TableOfContents()>>
+
+
+
+= SBP - Small Bounded-Error Probability =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which the following holds.  There exists a [[Class_SharpP|$\text{#P}$]] function f and an [[Class_FP|$\text{FP}$]] function g such that, for all inputs x,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+If the answer is "yes" then f(x) > g(x).
+
+If the answer is "no" then f(x) < g(x)/2.
+
+
+
+Defined in [[ZooRefs#BGM02|[BGM02] ]], where the following was also shown:
+
+
+
+[[Class_SBP|$\text{SBP}$]] contains [[Class_MA|$\text{MA}$]], [[Class_WAPP|$\text{WAPP}$]], and [[Class_∃BPP|$\text{∃BPP}$]].
+
+[[Class_SBP|$\text{SBP}$]] is contained in [[Class_AM|$\text{AM}$]] and [[Class_BPPpath|$\text{BPP}_\text{path}\text{}$]].
+
+There exists an oracle relative to which [[Class_SBP|$\text{SBP}$]] is not contained in [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]].
+
+[[Class_SBP|$\text{SBP}$]] is closed under union.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:SBP)>>

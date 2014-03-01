@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= QMA/qpoly - QMA With Polynomial-Size Quantum Advice =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+Is contained in [[Class_PSPACE/poly|$\text{PSPACE/poly}$]] [Aar06b].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_QMA/qpoly)>>

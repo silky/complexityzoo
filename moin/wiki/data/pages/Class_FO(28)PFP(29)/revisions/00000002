@@ -1,0 +1,47 @@
+
+<<TableOfContents()>>
+
+
+
+= FO(PFP) - First-order with partial fixed point =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+FO(pfp) is the set of boolean queries definable with first-order formulae with a partial fixed point operator.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Let $k$ be an integer, $x, y$  vectors of $k$ variables, $P$ a second-order variable of arity $k$, and $\phi$ a FO(PFP) function using $x$ and $P$ as variables, then we can define iteratively $(P_i)_{i\in N}$ such that $P_0(x)=false$ and $P_i(x)=\phi(P_{i-1},x)$ which means that the property $P_i$ is true on the input $x$ if $\phi$ is true on input $x$, and when the variable $P$ is replaced by $P_{i-1}$. Then, either there is a fixed point, or the list of $(P_i)$ is looping.
+
+
+
+PFP($\phi_{P,x})(y)$ is defined as the value of the fixed point of $(P_i)$ on y if there is a fixed point, else as false.
+
+
+
+Since $P$s are property of arity $k$, there is at most $2^{n^k}$ values for the $P_i$s, so with a poly-space counter we can check if there is a loop or not.
+
+
+
+It was proved in [[ZooRefs#Imm98|[Imm98] ]] that FO(pfp) is equal to [[Class_PSPACE|$\text{PSPACE}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

@@ -1,0 +1,61 @@
+
+<<TableOfContents()>>
+
+
+
+= FO[$t(n)$] - Iterated First-Order logic =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Let $t(n)$ be a function from integers to integers.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+$(\forall x [[Class_P|$\text{P}$]]) Q$ abbreviates $(\forall x (P\Rightarrow Q))$ and $(\exists x [[Class_P|$\text{P}$]]) Q$ abbreviates $(\exists x ([[Class_P|$\text{P}$]] \wedge Q))$.
+
+
+
+A quantifier block is a list $(Q_1 x_1. \phi_1)...(Q_k x_k. \phi_k)$ where the $\phi_i$s are quantifier free FO-formulae and each $Q_i$s is either $\forall$ or $\exists$.
+
+If $Q$ is a quantifier block then $[Q]^{t(n)}$ is the block consisting of $t(n)$ iterated copies of $Q$. 
+
+Note that there are $k*t(n)$ quantifiers in the list, but only k variables; each variable is used $t(n)$ times.
+
+
+
+FO[$t(n)$] consists of the FO-formulae with quantifier blocks that are iterated $\Theta(t(n))$ times.
+
+
+
+In Descriptive complexity we can see that :
+
+
+
+FO[(\log n)^i] is equal to fo-uniform AC^i^, and in fact [[Class_FO[t(n)]|$\text{FO[t(n)]}$]] is fo-uniform [[Class_AC|$\text{AC}$]] of depth t(n)
+
+FO[(\log n)^{O(1)}] is equal to [[Class_NC|$\text{NC}$]]
+
+FO[n^{O(1)}] is equal to [[Class_P|$\text{P}$]] and FO(LFP)
+
+FO[2^{n^{O(1)}}] is equal to [[Class_PSPACE|$\text{PSPACE}$]] and FO(PFP)
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:FO[t(n)])>>

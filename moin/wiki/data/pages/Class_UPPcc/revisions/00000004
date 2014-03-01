@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= UPP^cc^ - Unrestricted Communication Analogue of PP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined by [[ZooRefs#BFS86|[BFS86] ]], [[Class_UPPcc|$\text{UPP}^\text{cc}\text{}$]] is one of two communication complexity analogues of [[Class_PP|$\text{PP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+[[Class_UPPcc|$\text{UPP}^\text{cc}\text{}$]] is the class of all languages defined by functions $f : \{0,1\}^n \times \{0,1\}^n \to \{0,1\}$ which are computable by polylogarithmic protocols that accept with probability strictly greater than 1/2 when $f(x,y) = 1$ and accept with probably strictly less than 1/2 otherwise. No accounting is made for how many random bits are consulted during the protocol.
+
+
+
+See also: [[Class_PPcc|$\text{PP}^\text{cc}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_UPPcc)>>

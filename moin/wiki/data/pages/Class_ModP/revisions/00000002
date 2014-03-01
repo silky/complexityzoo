@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= ModP - ModkP With Arbitrary k =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a [[Class_ModkP|$\text{Mod}_\text{k}\text{P}$]] machine where k can vary depending on the input.  The only requirement is that 0^k^ be computable in polynomial time.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#KT96|[KT96] ]], where it was also shown that [[Class_ModP|$\text{ModP}$]] is contained in [[Class_AmpMP|$\text{AmpMP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

@@ -1,0 +1,61 @@
+
+<<TableOfContents()>>
+
+
+
+= LOGNP - Logarithmically-Restricted NP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems expressible in logical form as}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists y such that for all j in S, the predicate φ(I,s,,j,,,x,y,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in [[Class_P|$\text{P}$]].
+
+
+
+LOGNP,,0,, is the subclass in which φ is a first-order predicate without quantifiers and x and y are bounded lists of indices of input bits.  [[Class_LOGNP|$\text{LOGNP}$]] is also the closure of LOGNP,,0,, under many-one reduction.
+
+
+
+The motivation is that the analogue of LOGNP,,0,, without the logarithmic bound on |S| is [[Class_SO-E|$\text{SO-E}$]], which by Fagin's theorem equals [[Class_NP|$\text{NP}$]] [[ZooRefs#Fag74|[Fag74] ]].
+
+
+
+Defined in [[ZooRefs#PY96|[PY96] ]], where it was also shown that the following problem is complete for [[Class_LOGNP|$\text{LOGNP}$]] under many-one reductions:
+
+
+
+Vapnik-Chervonenkis (V-C) Dimension.  Given a family F of subsets of a set U, find a subset of S of U of maximum cardinality, such that every subset of S can be written as the intersection of S with some set in F.
+
+
+
+Contains [[Class_LOGSNP|$\text{LOGSNP}$]], and is contained in [[Class_βP|$\text{βP}$]] (indeed β,,2,,P).
+
+
+
+The set of I for which there exists a subset S={s,,1,,,...,s,,log n,,} of {1,...,n} of size log n, such that for all x there exists y such that for all j, the predicate φ(I,s,,j,,,x,y,j) holds.  Here x and y are logarithmic-length strings, or equivalently polynomially bounded numbers, and φ is computable in [[Class_P|$\text{P}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_LOGNP)>>

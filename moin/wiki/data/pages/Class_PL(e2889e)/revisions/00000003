@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= PL,,∞,, - Polynomially-Bounded L∞-1 Spectral Norm =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of Boolean functions f:{-1,1}^n^->{-1,1} such that the maximum of |α|^-1^, over all Fourier coefficients α of f, is upper-bounded by a polynomial in n.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#BS90|[BS90] ]], where it was also shown that [[Class_PL∞|$\text{PL}_\text{∞}\text{}$]] contains [[Class_PT1|$\text{PT}_\text{1}\text{}$]] (and this inclusion is strict).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:PL∞)>>

@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= F-TAPE(f(n)) - Provable DSPACE(f(n)) For Formal System F =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems that can be proven to be solvable in O(f(n)) space on a deterministic Turing machine, from the axioms of formal system F.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#Har78|[Har78] ]].
+
+
+
+See also F-TIME(f(n)).  The results about F-TAPE mirror those about F-TIME, but in some cases are sharper.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:F-TAPE(f(n)))>>

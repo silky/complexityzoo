@@ -1,0 +1,155 @@
+
+<<TableOfContents()>>
+
+
+
+= NP - Nondeterministic Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of dashed hopes and idle dreams.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+More formally: an "NP machine" is a nondeterministic polynomial-time Turing machine.
+
+
+
+Then [[Class_NP|$\text{NP}$]] is the class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that
+
+
+
+If the answer is "yes," at least one computation path accepts.
+
+If the answer is "no," all computation paths reject.
+
+
+
+Equivalently, [[Class_NP|$\text{NP}$]] is the class of decision problems such that, if the answer is "yes," then there is a proof of this fact, of length polynomial in the size of the input, that can be verified in [[Class_P|$\text{P}$]] (i.e. by a deterministic polynomial-time algorithm).  On the other hand, if the answer is "no," then the algorithm must declare invalid any purported proof that the answer is "yes."
+
+
+
+For example, the SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments. SAT is in [[Class_NP|$\text{NP}$]], since a "yes" answer can be proved by just exhibiting a satisfying assignment.
+
+
+
+A decision problem is NP-complete if (1) it is in [[Class_NP|$\text{NP}$]], and (2) any problem in [[Class_NP|$\text{NP}$]] can be reduced to it (under some notion of reduction).  The class of NP-complete problems is sometimes called [[Class_NPC|$\text{NPC}$]].
+
+
+
+That NP-complete problems exist is immediate from the definition.  The seminal result of Cook [[ZooRefs#Coo71|[Coo71] ]], Karp [[ZooRefs#Kar72|[Kar72] ]], and Levin [[ZooRefs#Lev73|[Lev73] ]] is that many natural problems (that have nothing to do with Turing machines) are NP-complete.
+
+
+
+The first such problem to be shown NP-complete was SAT [[ZooRefs#Coo71|[Coo71] ]].  Other classic NP-complete problems include:
+
+
+
+3-Colorability: Given a graph, can each vertex be colored red, green, or blue so that no two neighboring vertices have the same color?
+
+Hamiltonian Cycle: Given a graph, is there a cycle that visits each vertex exactly once?
+
+Traveling Salesperson: Given a set of n cities, and the distance
+
+between each pair of cities, is there a route that visits each city exactly
+
+once before returning to the starting city, and has length at most T?
+
+Maximum Clique: Given a graph, are there k vertices all of which are neighbors of each other?
+
+Subset Sum: Given a collection of integers, is there a subset of the integers that sums to exactly x?
+
+
+
+For many, many more NP-complete problems, see [[ZooRefs#GJ79|[GJ79] ]].
+
+
+
+[[Class_NP|$\text{NP}$]] contains [[Class_P|$\text{P}$]].  I've discovered a marvelous proof that [[Class_NP|$\text{NP}$]] and [[Class_P|$\text{P}$]] are unequal, but this web page is too small to contain it.  Too bad, since otherwise I'd be eligible for $1,000,000 [[ZooRefs#CMI00|[CMI00] ]].
+
+
+
+There exists an oracle relative to which [[Class_P|$\text{P}$]] and [[Class_NP|$\text{NP}$]] are unequal [[ZooRefs#BGS75|[BGS75] ]].  Indeed, [[Class_P|$\text{P}$]] and [[Class_NP|$\text{NP}$]] are unequal relative to a random oracle with probability 1 [[ZooRefs#BG81|[BG81] ]] (see [[ZooRefs#AFM01|[AFM01] ]] for a novel take on this result).  Though random oracle results are not always indicative about the unrelativized case [[ZooRefs#CCG+94|[CCG+94] ]].
+
+
+
+There even exists an oracle relative to which the [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] problem is outside the usual axioms of set theory [[ZooRefs#HH76|[HH76] ]].
+
+
+
+If we restrict to monotone classes, [[Class_mP|$\text{mP}$]] is strictly contained in [[Class_mNP|$\text{mNP}$]] [[ZooRefs#Raz85|[Raz85] ]].
+
+
+
+Perhaps the most important insight anyone has had into [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] is to be found in [[ZooRefs#RR97|[RR97] ]].  There the authors show that no 'natural proof' can separate [[Class_P|$\text{P}$]] from [[Class_NP|$\text{NP}$]] (or more precisely, place [[Class_NP|$\text{NP}$]] outside of [[Class_P/poly|$\text{P/poly}$]]), unless secure pseudorandom generators do not exist.  A proof is 'natural' if it satisfies two conditions called constructivity and largeness; essentially all lower bound techniques known to date satisfy these conditions.  To obtain unnatural proof techniques, some people suspect we need to relate [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] to heavy-duty 'traditional' mathematics, for instance algebraic geometry.  See [[ZooRefs#MS02|[MS02] ]] (and the survey article [[ZooRefs#Reg02|[Reg02] ]]) for a development of this point of view.
+
+
+
+For more on [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]] (circa 1992) see [[ZooRefs#Sip92|[Sip92] ]].  For an opinion poll, see [[ZooRefs#Gas02|[Gas02] ]].
+
+
+
+If [[Class_P|$\text{P}$]] equals [[Class_NP|$\text{NP}$]], then [[Class_NP|$\text{NP}$]] equals its complement [[Class_coNP|$\text{coNP}$]].  Whether [[Class_NP|$\text{NP}$]] equals [[Class_coNP|$\text{coNP}$]] is also open.  [[Class_NP|$\text{NP}$]] and [[Class_coNP|$\text{coNP}$]] can be extended to the polynomial hierarchy [[Class_PH|$\text{PH}$]].
+
+
+
+The set of decision problems in [[Class_NP|$\text{NP}$]], but not in [[Class_P|$\text{P}$]] or [[Class_NPC|$\text{NPC}$]], is sometimes called [[Class_NPI|$\text{NPI}$]].  If [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]] then [[Class_NPI|$\text{NPI}$]] is nonempty [[ZooRefs#Lad75|[Lad75] ]].
+
+
+
+Probabilistic generalizations of [[Class_NP|$\text{NP}$]] include [[Class_MA|$\text{MA}$]] and [[Class_AM|$\text{AM}$]].  If [[Class_NP|$\text{NP}$]] is in [[Class_coAM|$\text{coAM}$]] (or [[Class_BPP|$\text{BPP}$]]) then [[Class_PH|$\text{PH}$]] collapses to [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] [[ZooRefs#BHZ87|[BHZ87] ]].
+
+
+
+[[Class_PH|$\text{PH}$]] also collapses to [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] if [[Class_NP|$\text{NP}$]] is in [[Class_P/poly|$\text{P/poly}$]] [[ZooRefs#KL82|[KL82] ]].
+
+
+
+There exist oracles relative to which [[Class_NP|$\text{NP}$]] is not in [[Class_BQP|$\text{BQP}$]] [[ZooRefs#BBB+97|[BBB+97] ]].
+
+
+
+An alternate characterization is [[Class_NP|$\text{NP}$]] = PCP(log n, O(1)) [[ZooRefs#ALM+98|[ALM+98] ]].
+
+
+
+Also, [[ZooRefs#Fag74|[Fag74] ]] showed that [[Class_NP|$\text{NP}$]] is precisely the class of decision problems reducible to a graph-theoretic property expressible in second-order existential logic. This leads to the subclass [[Class_SNP|$\text{SNP}$]].
+
+
+
+It is known that if any NP-complete language is sparse (contains no more than a polynomial number of strings of length $n$), then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]]. [[ZooRefs#BH08|[BH08] ]] improved this result, showing that if any language in [[Class_NP|$\text{NP}$]] has an NP-hard set of subexponential density, then [[Class_coNP|$\text{coNP}$]] is contained in [[Class_NP/poly|$\text{NP/poly}$]] and thus, by [[ZooRefs#Yap82|[Yap82] ]], [[Class_PH|$\text{PH}$]] collapses to the third level.
+
+
+
+[[Class_NP|$\text{NP}$]] is equal to [[Class_SO-E|$\text{SO-E}$]], the second-order queries where the second-order quantifiers are only existantials.
+
+
+
+For example, the SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments.  SAT is in [[Class_NP|$\text{NP}$]], since a "yes" answer can be proved by just exhibiting a satisfying assignment.
+
+
+
+Also, [[ZooRefs#Fag74|[Fag74] ]] gave a logical characterization of [[Class_NP|$\text{NP}$]], which leads to the subclass [[Class_SNP|$\text{SNP}$]].
+== Relations ==
+
+{{{#!class_relations
+{"version": 1.0, "class": "NP", "relations": {"contained_in": [{"class": "EXP"}], "equals": [{"class": "PCP(r(n),q(n))", "condition": "$r(n) = \\log(n), q(n) = O(1)$"}]}}
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:NP)>>

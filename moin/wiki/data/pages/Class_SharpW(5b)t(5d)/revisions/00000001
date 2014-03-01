@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= #W[t] - Sharp-W[t] =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Roughly, the analogue of [[Class_SharpP|$\text{#P}$]] for parameterized complexity.  I.e. the class of parameterized counting problems that are fixed-parameter parsimonious reducible to the following problem:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+#WSAT: Given a Boolean formula, count the number of satisfying assignments of Hamming weight k (where k is the parameter).
+
+
+
+Defined in [[ZooRefs#FG02|[FG02] ]], which should be consulted for the full definition.  [[ZooRefs#FG02|[FG02] ]] also showed that there exist #W[1]-complete problems whose corresponding decision problems are fixed-parameter tractable (i.e. in [[Class_FPT|$\text{FPT}$]]).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

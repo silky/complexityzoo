@@ -1,0 +1,93 @@
+
+<<TableOfContents()>>
+
+
+
+= BPP - Bounded-Error Probabilistic Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+If the answer is 'yes' then at least 2/3 of the computation paths accept.
+
+If the answer is 'no' then at most 1/3 of the computation paths accept.
+
+
+
+(Here all computation paths have the same length.)
+
+
+
+Often identified as the class of feasible problems for a computer with access to a genuine random-number source.
+
+
+
+Defined in [[ZooRefs#Gil77|[Gil77] ]].
+
+
+
+Contained in [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] ∩ [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]] [[ZooRefs#Lau83|[Lau83] ]], and indeed in ZPP^NP^ [[ZooRefs#GZ97|[GZ97] ]].
+
+
+
+If [[Class_BPP|$\text{BPP}$]] contains [[Class_NP|$\text{NP}$]], then [[Class_RP|$\text{RP}$]] = [[Class_NP|$\text{NP}$]] [Ko82,Gil77] and [[Class_PH|$\text{PH}$]] is contained in [[Class_BPP|$\text{BPP}$]] [[ZooRefs#Zac88|[Zac88] ]].
+
+
+
+If any problem in [[Class_E|$\text{E}$]] requires circuits of size 2^Ω(n)^, then [[Class_BPP|$\text{BPP}$]] = [[Class_P|$\text{P}$]] [[ZooRefs#IW97|[IW97] ]] (in other words, [[Class_BPP|$\text{BPP}$]] can be derandomized).
+
+
+
+Indeed, any proof that [[Class_BPP|$\text{BPP}$]] = [[Class_P|$\text{P}$]] requires showing either that [[Class_NEXP|$\text{NEXP}$]] is not in [[Class_P/poly|$\text{P/poly}$]], or else that [[Class_SharpP|$\text{#P}$]] requires superpolynomial-size arithmetic circuits [[ZooRefs#KI02|[KI02] ]].
+
+
+
+[[Class_BPP|$\text{BPP}$]] is not known to contain complete problems.  [[ZooRefs#Sip82|[Sip82] ]], [[ZooRefs#HH86|[HH86] ]] give oracles relative to which [[Class_BPP|$\text{BPP}$]] has no complete problems.
+
+
+
+There exist oracles relative to which [[Class_P|$\text{P}$]] = [[Class_RP|$\text{RP}$]] but still [[Class_P|$\text{P}$]] is not equal to [[Class_BPP|$\text{BPP}$]] [[ZooRefs#BF99|[BF99] ]].
+
+
+
+In contrast to the case of [[Class_P|$\text{P}$]], it is unknown whether [[Class_BPP|$\text{BPP}$]] collapses to BPTIME(n^c^) for some fixed constant c.  However, [[ZooRefs#Bar02|[Bar02] ]] and [[ZooRefs#FS04|[FS04] ]] have shown hierarchy theorems for [[Class_BPP|$\text{BPP}$]] with a small amount of advice.
+
+
+
+A zero-one law exists stating that [[Class_BPP|$\text{BPP}$]] has p-measure zero unless [[Class_BPP|$\text{BPP}$]] = [[Class_EXP|$\text{EXP}$]] [[ZooRefs#Mel00|[Mel00] ]].
+
+
+
+Equals [[Class_Almost-P|$\text{Almost-P}$]].
+
+
+
+See also: [[Class_BPPpath|$\text{BPP}_\text{path}\text{}$]].
+
+
+
+If [[Class_BPP|$\text{BPP}$]] contains [[Class_NP|$\text{NP}$]], then [[Class_RP|$\text{RP}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#Ko82|[Ko82] ]] and [[Class_PH|$\text{PH}$]] is contained in [[Class_BPP|$\text{BPP}$]] [[ZooRefs#Zac88|[Zac88] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

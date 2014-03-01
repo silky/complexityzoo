@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= P-Sel - P-Selective Sets =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which there's a polynomial-time algorithm with the following property.  Whenever it's given two instances, a "yes" and a "no" instance, the algorithm can always decide which is the "yes" instance.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#Sel79|[Sel79] ]], where it was also shown that if [[Class_NP|$\text{NP}$]] is contained in [[Class_P-Sel|$\text{P-Sel}$]] then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]].
+
+
+
+There exist P-selective sets that are not recursive (i.e. not in [[Class_R|$\text{R}$]]).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

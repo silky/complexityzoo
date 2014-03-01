@@ -1,0 +1,47 @@
+
+<<TableOfContents()>>
+
+
+
+= MaxSNP - Maximization SNP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of optimization problems reducible by an "L-reduction" to a problem in [[Class_MaxSNP0|$\text{MaxSNP}_\text{0}\text{}$]].  (Note: 'L' stands for linear -- this is not the same as an [[Class_L|$\text{L}$]] reduction!  For more details see [[ZooRefs#PY88|[PY88] ]].)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#PY88|[PY88] ]], where the following was also shown:
+
+
+
+Max3SAT is MaxSNP-complete.  (Max3SAT is the problem of finding an assignment that maximizes the number of satisfied clauses in a CNF formula with at most 3 literals per clause.)
+
+Any problem in [[Class_MaxSNP|$\text{MaxSNP}$]] can be approximated to within a fixed ratio.
+
+
+
+The closure of [[Class_MaxSNP|$\text{MaxSNP}$]] under [[Class_PTAS|$\text{PTAS}$]] reduction is [[Class_APX|$\text{APX}$]] [[ZooRefs#KMS+99|[KMS+99] ]], [[ZooRefs#CT94|[CT94] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_MaxSNP)>>

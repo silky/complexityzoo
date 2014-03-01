@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= CFL - Context-Free Languages =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Does not equal [[Class_QCFL|$\text{QCFL}$]] [[ZooRefs#MC00|[MC00] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contained in [[Class_LOGCFL|$\text{LOGCFL}$]].
+
+
+
+Strictly contains [[Class_DCFL|$\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]] and indeed [[Class_UCFL|$\text{UCFL}$]].
+
+
+
+Strictly contains [[Class_DCFL|$\text{DCFL}$]] [[ZooRefs#Bra77|[Bra77] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:CFL)>>

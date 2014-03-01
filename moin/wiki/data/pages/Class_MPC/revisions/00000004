@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= MPC - Monotone Planar Circuits =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a family of monotone stratified planar circuits (a uniformity condition may also be imposed).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Such a circuit can contain only AND and OR gates of bounded fanin.  It must be embeddable in the plane with no wires crossing.  Furthermore, the input bits can only be accessed at the bottom level, where they are listed in order (x,,1,,,...,x,,n,,).
+
+
+
+Defined in [[ZooRefs#DC89|[DC89] ]].
+
+
+
+[[ZooRefs#BLM+99|[BLM+99] ]] showed that we can assume without loss of generality that the circuit has width n and depth n^3^.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_MPC)>>

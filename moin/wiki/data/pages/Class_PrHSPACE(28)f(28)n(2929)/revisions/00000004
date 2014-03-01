@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= Pr,,H,,SPACE(f(n)) - Unbounded-Error Halting Probabilistic f(n)-Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to DSPACE(f(n)) as [[Class_PP|$\text{PP}$]] does to [[Class_P|$\text{P}$]].  The Turing machine has to halt on every input and every setting of the random tape.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals PrSPACE(f(n)) [[ZooRefs#Jun85|[Jun85] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_PrHSPACE(f(n)))>>

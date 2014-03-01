@@ -1,0 +1,48 @@
+
+<<TableOfContents()>>
+
+
+
+= ModL - ModL =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+A language $L\in\mathsf{ModL}$ if there are functions $f\in\mathsf{GapL}$ and $g\in\mathsf{FL}$ such that for all strings $x$:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+There exists a prime p and a natural number lpha such that g(x)=0^{p^{lpha}}.
+
+ x\in [[Class_L|$\text{L}$]] if and only if f(x)\equiv0(\left|g(x)
+ight|).
+
+
+
+Thus, for any prime $p$ and natural number $\alpha$, $\mathsf{Mod}_{p^{\alpha}}\mathsf{L}\subseteq\mathsf{ModL}$. Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
+
+
+
+Defined in [[ZooRefs#AV04|[AV04] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:ModL)>>

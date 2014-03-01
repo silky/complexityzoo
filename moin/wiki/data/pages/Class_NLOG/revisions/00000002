@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= NLOG - NL With Nondeterministic Oracle Tape =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_NL|$\text{NL}$]] -- but if there's an oracle, then [[Class_NLOG|$\text{NLOG}$]] can make queries nondeterministically on a polynomial-size, one-way oracle tape.  ([[Class_NL|$\text{NL}$]], by contrast, can use nondeterministic transitions only on the worktape; oracle queries have to be deterministic.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+See [[ZooRefs#LL76|[LL76] ]] or [[ZooRefs#HCK+88|[HCK+88] ]] for more information.
+
+
+
+Although [[Class_NLOG|$\text{NLOG}$]] is contained in [[Class_P|$\text{P}$]], there exists an oracle relative to which that is not the case.  This illustrates that care is needed when defining oracle access mechanisms.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

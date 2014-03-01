@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= NAuxPDA^p^ - Nondeterministic Auxiliary Pushdown Automata =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of problems solvable by nondeterministic logarithmic-space and polynomial-time Turing machines with auxiliary pushdown.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_LOGCFL|$\text{LOGCFL}$]] [[ZooRefs#Sud78|[Sud78] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:NAuxPDAp)>>

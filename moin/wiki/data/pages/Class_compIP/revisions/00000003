@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= compIP - Competitive IP Proof System =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_compNP|$\text{compNP}$]] but for interactive ([[Class_IP|$\text{IP}$]]) proofs instead of [[Class_NP|$\text{NP}$]] proofs.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+More formally, [[Class_compIP|$\text{compIP}$]] is the class of decision problems [[Class_L|$\text{L}$]] in [[Class_IP|$\text{IP}$]] = [[Class_PSPACE|$\text{PSPACE}$]] such that, if the answer is "yes," then that can be proven by an interactive protocol between a [[Class_BPP|$\text{BPP}$]] verifier and a prover, a [[Class_BPP|$\text{BPP}$]] machine with access only to an oracle for [[Class_L|$\text{L}$]].
+
+
+
+Assuming [[Class_NEE|$\text{NEE}$]] is not contained in [[Class_BPEE|$\text{BPEE}$]], [[Class_NP|$\text{NP}$]] (and indeed [[Class_NP|$\text{NP}$]] ∩ [[Class_Coh|$\text{Coh}$]]) is not contained in [[Class_compIP|$\text{compIP}$]] [[ZooRefs#BG94|[BG94] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:compIP)>>

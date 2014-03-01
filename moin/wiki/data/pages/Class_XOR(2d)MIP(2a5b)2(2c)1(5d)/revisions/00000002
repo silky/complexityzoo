@@ -1,0 +1,43 @@
+
+<<TableOfContents()>>
+
+
+
+= XOR-MIP*[2,1] - MIP*[2,1] With 1-Bit Proofs =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_MIP*[2,1]|$\text{MIP*[2,1]}$]], but with the further restriction that both provers send only a single bit to the verifier, and the verifier's output is a function of the exclusive-OR of those bits.  There should exist 0<a<b<1 such that if the answer is "yes", then for some responses of the provers the verifier accepts with probability at least b, while if the answer is "no", then for all responses of the provers the verifier accepts with probability at most a.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined by [[ZooRefs#CHT+04|[CHT+04] ]], whose motivation was a connection to the Bell and CHSH inequalities of quantum physics.
+
+
+
+[[Class_XOR-MIP*[2,1]|$\text{XOR-MIP*[2,1]}$]] is contained in [[Class_NEXP|$\text{NEXP}$]] [[ZooRefs#CHT+04|[CHT+04] ]].
+
+
+
+[[Class_XOR-MIP*[2,1]|$\text{XOR-MIP*[2,1]}$]] is contained in [[Class_QIP[2]|$\text{QIP[2]}$]] [[ZooRefs#Weh06|[Weh06] ]]
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

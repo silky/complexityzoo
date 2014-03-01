@@ -1,0 +1,59 @@
+
+<<TableOfContents()>>
+
+
+
+= MMSNP - Monadic Monotone SNP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\text{SNP}$]].  There are three syntactic restrictions defining the subclass [[Class_MMSNP|$\text{MMSNP}$]], based on the form of the [[Class_SNP|$\text{SNP}$]] formula defining the language:}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The second order existentially quantified variables, known as the proof relations, are restricted to be monadic.  (Monadic relations can be treated as sets.)
+
+ Any relations in the formula other than the proof relations must occur only negated (the formula is monotone).
+
+ No inequality relations can occur in the formula.
+
+
+
+[[Class_MMSNP|$\text{MMSNP}$]] seems to obey dichotomy, by excluding languages that are NP-intermediate.  This is still open but widely believed.  Dropping any of the restrictions monotone/monadic/without inequalities allows NP-intermediate languages unless [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]], since any problem in [[Class_NP|$\text{NP}$]] is polynomial time equivalent to a problem in each of these broader classes.  [[Class_MMSNP|$\text{MMSNP}$]] therefore seems to be a maximal fragment of [[Class_NP|$\text{NP}$]] where NP-intermediate languages are excluded.
+
+
+
+Every constraint satisfaction problem with a fixed target structure is expressible in [[Class_MMSNP|$\text{MMSNP}$]], and there is a polynomial time Turing reduction from every [[Class_MMSNP|$\text{MMSNP}$]] query to finitely many constraint satisfaction problems.  [[Class_MMSNP|$\text{MMSNP}$]] therefore seems to capture the class of constraint satisfaction problems with fixed templates, [[Class_CSP|$\text{CSP}$]].
+
+
+
+Defined in [[ZooRefs#FV93|[FV93] ]] as a subclass of [[Class_SNP|$\text{SNP}$]], where the second order existentially quantified variables are sets (monadic) and any relations in the first-order part occur negated (monotone).  Further, no inequalities can occur in the first-order part.
+
+
+
+[[Class_MMSNP|$\text{MMSNP}$]] seems to obey dichotomy, by excluding Ladner languages.  This is still open but widely believed.  Dropping any of the restrictions monotone/monadic/without inequalities          allows Ladner languages unless [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]], since any problem in [[Class_NP|$\text{NP}$]] is polynomial time equivalent to a problem in each of these broader classes.  [[Class_MMSNP|$\text{MMSNP}$]] therefore seems to be a maximal fragment of [[Class_NP|$\text{NP}$]] where Ladner languages are excluded.
+
+
+
+Every constraint satisfaction problem is expressible in [[Class_MMSNP|$\text{MMSNP}$]], and there is a polynomial time Turing reduction from every [[Class_MMSNP|$\text{MMSNP}$]] query to finitely many constraint satisfaction problems.  [[Class_MMSNP|$\text{MMSNP}$]] therefore seems to capture the class of constraint satisfaction problems.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

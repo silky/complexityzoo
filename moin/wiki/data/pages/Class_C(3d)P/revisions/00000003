@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= C,,=,,P - Exact-Counting Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that the number of accepting paths exactly equals the number of rejecting paths, if and only if the answer is 'yes.'}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_coNQP|$\text{coNQP}$]] [[ZooRefs#FGH+98|[FGH+98] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:C=P)>>

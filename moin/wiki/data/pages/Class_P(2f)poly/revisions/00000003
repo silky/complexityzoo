@@ -1,0 +1,79 @@
+
+<<TableOfContents()>>
+
+
+
+= P/poly - Nonuniform Polynomial-Time =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by a family of polynomial-size Boolean circuits.  The family can be nonuniform; that is, there could be a completely different circuit for each input length.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equivalently, [[Class_P/poly|$\text{P/poly}$]] is the class of decision problems solvable by a polynomial-time Turing machine that receives an 'advice string,' that depends only on the size n of the input, and that itself has size upper-bounded by a polynomial in n.
+
+
+
+Contains [[Class_BPP|$\text{BPP}$]] by the progenitor of derandomization arguments [[ZooRefs#Adl78|[Adl78] ]] [[ZooRefs#KL82|[KL82] ]].  By extension, BPP/poly, BPP/mpoly, and BPP/rpoly all equal [[Class_P/poly|$\text{P/poly}$]]. (By contrast, there is an oracle relative to which [[Class_BPP/log|$\text{BPP/log}$]] does not equal [[Class_BPP/mlog|$\text{BPP/mlog}$]], while [[Class_BPP/mlog|$\text{BPP/mlog}$]] and [[Class_BPP/rlog|$\text{BPP/rlog}$]] are not equal relative to any oracle.)
+
+
+
+[[ZooRefs#KL82|[KL82] ]] showed that, if [[Class_P/poly|$\text{P/poly}$]] contains [[Class_NP|$\text{NP}$]], then [[Class_PH|$\text{PH}$]] collapses to the second level, [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]].
+
+
+
+They also showed:
+
+
+
+If [[Class_PSPACE|$\text{PSPACE}$]] is in [[Class_P/poly|$\text{P/poly}$]] then [[Class_PSPACE|$\text{PSPACE}$]] equals [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] ∩ [[Class_Π2P|$\text{Π}_\text{2}\text{P}$]].
+
+If [[Class_EXP|$\text{EXP}$]] is in [[Class_P/poly|$\text{P/poly}$]] then [[Class_EXP|$\text{EXP}$]] = [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]].
+
+
+
+It was later shown that, if [[Class_NP|$\text{NP}$]] is contained in [[Class_P/poly|$\text{P/poly}$]], then [[Class_PH|$\text{PH}$]] collapses to ZPP^NP^ [[ZooRefs#KW98|[KW98] ]] and indeed [[Class_S2P|$\text{S}_\text{2}\text{P}$]] [[ZooRefs#Cai01|[Cai01] ]]. This seems close to optimal, since there exists an oracle relative to which the collapse cannot be improved to [[Class_Δ2P|$\text{Δ}_\text{2}\text{P}$]] [[ZooRefs#Wil85|[Wil85] ]].
+
+
+
+If [[Class_NP|$\text{NP}$]] is not contained in [[Class_P/poly|$\text{P/poly}$]], then [[Class_P|$\text{P}$]] does not equal [[Class_NP|$\text{NP}$]].  Much of the effort toward separating [[Class_P|$\text{P}$]] from [[Class_NP|$\text{NP}$]] is based on this observation.  However, a 'natural proof' as defined by [[ZooRefs#RR97|[RR97] ]] cannot be used to show [[Class_NP|$\text{NP}$]] is outside [[Class_P/poly|$\text{P/poly}$]], if there is any pseudorandom generator in [[Class_P/poly|$\text{P/poly}$]] that has hardness 2^Ω(n^ε)^ for some ε>0.
+
+
+
+If [[Class_NP|$\text{NP}$]] is contained in [[Class_P/poly|$\text{P/poly}$]], then [[Class_MA|$\text{MA}$]] = [[Class_AM|$\text{AM}$]] [[ZooRefs#AKS+95|[AKS+95] ]]
+
+
+
+The monotone version of [[Class_P/poly|$\text{P/poly}$]] is [[Class_mP/poly|$\text{mP/poly}$]].
+
+
+
+[[Class_P/poly|$\text{P/poly}$]] has measure 0 in [[Class_E|$\text{E}$]] with [[Class_Σ2P|$\text{Σ}_\text{2}\text{P}$]] oracle [May94b].
+
+
+
+Strictly contains [[Class_IC[log,poly]|$\text{IC[log,poly]}$]] and [[Class_P/log|$\text{P/log}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:P/poly)>>

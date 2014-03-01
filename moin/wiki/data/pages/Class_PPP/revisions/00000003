@@ -1,0 +1,81 @@
+
+<<TableOfContents()>>
+
+
+
+= P^PP^ - P With PP Oracle =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [Pap94b]; see also [[ZooRefs#BCE+95|[BCE+95] ]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The subclass of [[Class_TFNP|$\text{TFNP}$]] function problems that are guaranteed to have a solution because of the Pigeonhole Principle.
+
+
+
+More precisely, we're given a Boolean circuit, that maps n-bit strings to n-bit strings.  The problem is to return either an input that maps to 0^n^, or two inputs that map to the same output.
+
+
+
+Contained in [[Class_TFNP|$\text{TFNP}$]].
+
+
+
+Contains [[Class_PPADS|$\text{PPADS}$]].
+
+
+
+[[ZooRefs#BCE+95|[BCE+95] ]] give oracles relative to which [[Class_PPP|$\text{PPP}$]] is not contained in [[Class_PPA|$\text{PPA}$]] and [[Class_PPAD|$\text{PPAD}$]], and [[Class_PPA|$\text{PPA}$]] is not contained in [[Class_PPP|$\text{PPP}$]].
+
+
+
+[[ZooRefs#Mor01|[Mor01] ]] gives an oracle relative to which [[Class_PPP|$\text{PPP}$]] is not contained in [[Class_PLS|$\text{PLS}$]].
+
+
+
+Whether [[Class_PLS|$\text{PLS}$]] is not contained in [[Class_PPP|$\text{PPP}$]] relative to some oracle remains open.
+
+
+
+A level of the counting hierarchy [[Class_CH|$\text{CH}$]].
+
+
+
+It is not known whether there exists an oracle relative to which [[Class_PPP|$\text{P}^\text{PP}\text{}$]] does not equal [[Class_PSPACE|$\text{PSPACE}$]].
+
+
+
+Contains PP^PH^ [[ZooRefs#Tod89|[Tod89] ]].
+
+
+
+Equals [[Class_PSharpP|$\text{P}^\text{#P}\text{}$]] (exercise for the visitor).
+
+
+
+Since the permanent of a matrix is #P-complete [[ZooRefs#Val79|[Val79] ]], Toda's theorem implies that any problem in the polynomial hierarchy can be solved by computing a sequence of permanents.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:PPP)>>

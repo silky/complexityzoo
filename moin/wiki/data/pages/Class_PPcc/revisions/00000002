@@ -1,0 +1,39 @@
+
+<<TableOfContents()>>
+
+
+
+= PP^cc^ - Analogue of PP for Communication Complexity =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Defined in [[ZooRefs#BFS86|[BFS86] ]], [[Class_PPcc|$\text{PP}^\text{cc}\text{}$]] is one of two ways to define a communication complexity analogue of [[Class_PP|$\text{PP}$]]. In [[Class_PPcc|$\text{PP}^\text{cc}\text{}$]], we note that in an algorithm that uses an amount of random bits bounded by $c$, the bias between the accept and reject probabilities can be no smaller than $2^c$. Thus, in [[Class_PPcc|$\text{PP}^\text{cc}\text{}$]], the communication complexity is defined as the sum of the traditional communication complexity (the number of exchanged bits) and the log of the reciprocal of the worst-case (smallest) bias.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The difference between this class and [[Class_UPPcc|$\text{UPP}^\text{cc}\text{}$]] is discussed further in [[ZooRefs#BVW07|[BVW07] ]], where it is shown that [[Class_PPcc|$\text{PP}^\text{cc}\text{}$]] ⊂ [[Class_UPPcc|$\text{UPP}^\text{cc}\text{}$]].
+
+
+
+See Also: [[Class_UPPcc|$\text{UPP}^\text{cc}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

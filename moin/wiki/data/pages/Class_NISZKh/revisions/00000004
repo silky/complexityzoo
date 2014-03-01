@@ -1,0 +1,49 @@
+
+<<TableOfContents()>>
+
+
+
+= NISZK,,h,, - NISZK With Limited Help =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The non-interactive analogue of [[Class_SZKh|$\text{SZK}_\text{h}\text{}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#BG03|[BG03] ]], where the following was also shown:
+
+
+
+[[Class_NISZKh|$\text{NISZK}_\text{h}\text{}$]] contains [[Class_NISZK|$\text{NISZK}$]] and is contained in [[Class_SZK|$\text{SZK}$]].
+
+Graph Isomorphism is in [[Class_NISZKh|$\text{NISZK}_\text{h}\text{}$]].
+
+The following problem is complete for [[Class_NISZKh|$\text{NISZK}_\text{h}\text{}$]]: Given two functions from {0,1}^n^ to {0,1}^n^ (specified by circuits), decide whether their ranges are almost equal or almost disjoint, given that one of these is the case.
+
+
+
+The quantum lower bound for the set comparison problem in [[ZooRefs#Aar02|[Aar02] ]] implies an oracle relative to which [[Class_NISZKh|$\text{NISZK}_\text{h}\text{}$]] is not in [[Class_BQP|$\text{BQP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_NISZKh)>>

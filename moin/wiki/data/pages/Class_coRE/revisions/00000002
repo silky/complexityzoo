@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= coRE - Complement of RE =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Does not equal [[Class_RE|$\text{RE}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The problem "given a computable predicate [[Class_P|$\text{P}$]], is [[Class_P|$\text{P}$]] true of all positive integers?" is coRE-complete.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

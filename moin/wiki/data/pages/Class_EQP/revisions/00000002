@@ -1,0 +1,47 @@
+
+<<TableOfContents()>>
+
+
+
+= EQP - Exact Quantum Polynomial-Time =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+The same as [[Class_BQP|$\text{BQP}$]], except that the quantum algorithm must return the correct answer with probability 1, and run in polynomial time with probability 1.  Unlike bounded-error quantum computing, there is no theory of universal QTMs for exact quantum computing models.  In the original definition in [[ZooRefs#BV97|[BV97] ]], each language in [[Class_EQP|$\text{EQP}$]] is computed by a single QTM, equivalently to a uniform family of quantum circuits with a finite gate set [[Class_K|$\text{K}$]] whose amplitudes can be computed in polynomial time. See [[Class_EQPK|$\text{EQP}_\text{K}\text{}$]].  However, some results require an infinite gate set.  The official definition here is that the gate set should be finite.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Without loss of generality, the amplitudes in the gate set [[Class_K|$\text{K}$]] are algebraic numbers [[ZooRefs#ADH97|[ADH97] ]].
+
+
+
+There is an oracle that separates [[Class_EQP|$\text{EQP}$]] from [[Class_NP|$\text{NP}$]] [[ZooRefs#BV97|[BV97] ]], indeed from [[Class_Δ2P|$\text{Δ}_\text{2}\text{P}$]] [[ZooRefs#GP01|[GP01] ]].  There is also an oracle relative to which [[Class_EQP|$\text{EQP}$]] is not in Mod,,p,,P where p is prime [[ZooRefs#GV02|[GV02] ]].  On the other hand, [[Class_EQP|$\text{EQP}$]] is in [[Class_LWPP|$\text{LWPP}$]] [[ZooRefs#FR98|[FR98] ]].
+
+
+
+P^||NP[2k]^ is contained in EQP^||NP[k]^, where "||NP[k]" denotes k nonadaptive oracle queries to [[Class_NP|$\text{NP}$]] (queries that cannot depend on the results of previous queries) [[ZooRefs#BD99|[BD99] ]].
+
+
+
+See also [[Class_ZBQP|$\text{ZBQP}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

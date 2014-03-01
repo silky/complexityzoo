@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= coNEXP - Complement of NEXP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Contained in [[Class_NEXP/poly|$\text{NEXP/poly}$]] (folklore result reported in [Fortnow's weblog]).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contained in [[Class_NEXP/poly|$\text{NEXP/poly}$]] (folklore result reported in [weblog]).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

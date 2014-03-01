@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= AW[*] - Alternating W[*] =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The union of [[Class_AW[t]|$\text{AW[t]}$]] over all t.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:AW[*])>>

@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= YQP - Yaroslav BQP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Is to [[Class_YPP|$\text{YPP}$]] as [[Class_BQP|$\text{BQP}$]] is to [[Class_BPP|$\text{BPP}$]], and [[Class_QMA|$\text{QMA}$]] is to [[Class_MA|$\text{MA}$]].  The machine is now a quantum computer and the advice is a quantum state |ψ_n>.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contains [[Class_BQP|$\text{BQP}$]] and [[Class_YPP|$\text{YPP}$]], and is contained in [[Class_QMA|$\text{QMA}$]] and [[Class_BQP/qpoly|$\text{BQP/qpoly}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_YQP)>>

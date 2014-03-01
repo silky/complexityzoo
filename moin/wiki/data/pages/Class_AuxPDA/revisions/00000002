@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= AuxPDA - Auxiliary Pushdown Automata =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equivalent to [[Class_NAuxPDAp|$\text{NAuxPDA}^\text{p}\text{}$]] without the running-time restriction.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Equals [[Class_P|$\text{P}$]] [Coo71b].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

@@ -1,0 +1,10 @@
+= #SAT =
+
+== Description ==
+
+{{{$!descrption
+This is the counting version of [[Problem_SAT|SAT]]: Given a Boolean formula, compute how many satisfying truth assignments it has.
+}}}
+
+
+== Related Problems ==

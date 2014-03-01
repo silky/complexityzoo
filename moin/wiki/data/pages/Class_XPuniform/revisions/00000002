@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= XP,,uniform,, - Uniform XP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_XP|$\text{XP}$]] except that the algorithm used must be the same for each k (though it can take k as input).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined in [[ZooRefs#DF99|[DF99] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= EESPACE - Double-Exponential Space With Linear Exponent =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Equals DSPACE(2^2^O(n)^^).}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Is not contained in [[Class_BQP/qpoly|$\text{BQP/qpoly}$]] [[ZooRefs#NY03|[NY03] ]].
+
+
+
+Equals DSPACE(2^2^O(n)^).
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:EESPACE)>>

@@ -1,0 +1,49 @@
+
+<<TableOfContents()>>
+
+
+
+= L,,k,,P - Low Hierarchy In NP =
+
+----
+CategoryClassical CategoryHierarchy 
+
+== Description ==
+
+{{{#!description
+
+The class of problems A such that Σ,,k,,P^A^ = Σ,,k,,P; that is, adding A as an oracle does not increase the power of the k^th^ level of the polynomial hierarchy.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+L,,1,,P = [[Class_NP|$\text{NP}$]] ∩ [[Class_coNP|$\text{coNP}$]].
+
+
+
+For all k, L,,k,, is contained in L,,k+1,, and in [[Class_NP|$\text{NP}$]].
+
+
+
+Defined in [[ZooRefs#Sch83|[Sch83] ]].
+
+
+
+See also [[Class_HkP|$\text{H}_\text{k}\text{P}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_LkP)>>

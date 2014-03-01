@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= EL,,k,,P - Extended Low Hierarchy =
+
+----
+CategoryClassical CategoryHierarchy 
+
+== Description ==
+
+{{{#!description
+
+An extension of [[Class_LkP|$\text{L}_\text{k}\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The class of problems A such that Σ,,k,,P^A^ is contained in Σ,,k-1,,P^A,NP^.
+
+
+
+Defined in [[ZooRefs#BBS86|[BBS86] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_ELkP)>>

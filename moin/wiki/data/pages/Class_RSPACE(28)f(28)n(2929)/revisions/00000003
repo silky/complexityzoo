@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= RSPACE(f(n)) - Randomized f(n)-Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Same as [[Class_RL|$\text{RL}$]], but for O(f(n))-space instead of logarithmic-space.  (Just as an [[Class_RL|$\text{RL}$]] machine must run in polynomial time, so an RSPACE(f(n)) machine must run in 2^O(f(n))^ time.)}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Contained in NSPACE(f(n)) and BPSPACE(f(n)).
+
+
+
+Same as [[Class_RL|$\text{RL}$]], but for O(f(n))-space instead of logarithmic-space.
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:RSPACE(f(n)))>>

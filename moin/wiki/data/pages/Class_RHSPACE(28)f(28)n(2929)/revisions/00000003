@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= R,,H,,SPACE(f(n)) - One-Sided Error Halting Probabilistic f(n)-Space =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+Has the same relation to BP,,H,,SPACE(f(n)) as [[Class_RP|$\text{RP}$]] does to [[Class_BPP|$\text{BPP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:RHSPACE(f(n)))>>

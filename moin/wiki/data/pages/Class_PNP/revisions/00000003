@@ -1,0 +1,35 @@
+
+<<TableOfContents()>>
+
+
+
+= P^NP^ - P With Oracle Access To NP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+See [[Class_Δ2P|$\text{Δ}_\text{2}\text{P}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:PNP)>>

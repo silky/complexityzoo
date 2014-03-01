@@ -1,0 +1,71 @@
+
+<<TableOfContents()>>
+
+
+
+= BH - Boolean Hierarchy Over NP =
+
+----
+CategoryClassical CategoryHierarchy 
+
+== Description ==
+
+{{{#!description
+
+The smallest class that contains [[Class_NP|$\text{NP}$]] and is closed under union, intersection, and complement.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+The levels are defined as follows:
+
+
+
+BH,,1,, = [[Class_NP|$\text{NP}$]].
+
+BH,,2i,, is the class of languages that are the intersection of a BH,,2i-1,, language with a [[Class_coNP|$\text{coNP}$]] language.
+
+BH,,2i+1,, is the class of languages that are the union of a BH,,2i,, language with an [[Class_NP|$\text{NP}$]] language.
+
+
+
+Then [[Class_BH|$\text{BH}$]] is the union over all i of BH,,i,,.
+
+
+
+Defined in [[ZooRefs#WW85|[WW85] ]].
+
+
+
+For more detail see [[ZooRefs#CGH+88|[CGH+88] ]].
+
+
+
+Contained in [[Class_Δ2P|$\text{Δ}_\text{2}\text{P}$]] and indeed in [[Class_PNP[log]|$\text{P}^\text{NP[log]}\text{}$]].
+
+
+
+If [[Class_BH|$\text{BH}$]] collapses at any level, then [[Class_PH|$\text{PH}$]] collapses to Σ,,3,,P [[ZooRefs#Kad88|[Kad88] ]].
+
+
+
+See also: [[Class_DP|$\text{DP}$]], [[Class_QH|$\text{QH}$]].
+
+
+
+See also: [[Class_QH|$\text{QH}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==

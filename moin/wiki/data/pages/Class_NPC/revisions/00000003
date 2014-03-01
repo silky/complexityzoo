@@ -1,0 +1,87 @@
+
+<<TableOfContents()>>
+
+
+
+= NP,,C,, - NP Over The Complex Numbers =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems such that (1) they're in [[Class_NP|$\text{NP}$]] and (2) every problem in [[Class_NP|$\text{NP}$]] is reducible to them (under some notion of reduction).  In other words, the hardest problems in [[Class_NP|$\text{NP}$]].}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Two notions of reduction from problem A to problem B are usually considered:
+
+
+
+Karp or many-one reductions.  Here a polynomial-time algorithm is given as input an instance of problem A, and must produce as output an instance of problem B.
+
+Turing reductions, in this context also called Cook reductions.  Here the algorithm for problem B can make arbitrarily many calls to an oracle for problem A.
+
+
+
+Some examples of NP-complete problems are discussed under the entry for [[Class_NP|$\text{NP}$]].
+
+
+
+The classic reference on [[Class_NPC|$\text{NPC}$]] is [[ZooRefs#GJ79|[GJ79] ]].
+
+
+
+Unless [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]], [[Class_NPC|$\text{NPC}$]] does not contain any sparse problems: that is, problems such that the number of 'yes' instances of size n is upper-bounded by a polynomial in n [[ZooRefs#Mah82|[Mah82] ]].
+
+
+
+A famous conjecture [[ZooRefs#BH77|[BH77] ]] asserts that all NP-complete problems are polynomial-time isomorphic -- i.e. between any two problems, there is a one-to-one and onto Karp reduction. If that's true, the NP-complete problems could be interpreted as mere "relabelings" of one another.
+
+
+
+NP-complete problems are p-superterse unless [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]] [[ZooRefs#BKS95|[BKS95] ]].  This means that, given k Boolean formulas F,,1,,,...,F,,k,,, if you can rule out even one of the 2^k^ possibilities in polynomial time (e.g., "if F,,1,,,...,F,,k-1,, are all unsatisfiable then F,,k,, is satisfiable"), then [[Class_P|$\text{P}$]] = [[Class_NP|$\text{NP}$]].
+
+
+
+An analog of [[Class_NP|$\text{NP}$]] for Turing machines over a complex number field.
+
+
+
+Defined in [[ZooRefs#BCS+97|[BCS+97] ]].
+
+
+
+It is unknown whether [[Class_PC|$\text{P}_\text{C}\text{}$]] = [[Class_NPC|$\text{NP}_\text{C}\text{}$]], nor are implications known among this question, [[Class_PR|$\text{P}_\text{R}\text{}$]] versus [[Class_NPR|$\text{NP}_\text{R}\text{}$]], and [[Class_P|$\text{P}$]] versus [[Class_NP|$\text{NP}$]].
+
+
+
+However, [[ZooRefs#CKK+95|[CKK+95] ]] show that if [[Class_P/poly|$\text{P/poly}$]] does not equal [[Class_NP/poly|$\text{NP/poly}$]] then [[Class_PC|$\text{P}_\text{C}\text{}$]] does not equal [[Class_NPC|$\text{NP}_\text{C}\text{}$]].
+
+
+
+[[ZooRefs#BCS+97|[BCS+97] ]] show the following striking result.  For a positive integer n, let t(n) denote the minimum number of additions, subtractions, and multiplications needed to construct n, starting from 1.  If for every sequence {n,,k,,} of positive integers, t(n,,k,, k!) grows faster than polylogarithmically in k, then [[Class_PC|$\text{P}_\text{C}\text{}$]] does not equal [[Class_NPC|$\text{NP}_\text{C}\text{}$]].
+
+
+
+See also [[Class_VNPk|$\text{VNP}_\text{k}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:NPC)>>

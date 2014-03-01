@@ -1,0 +1,45 @@
+
+<<TableOfContents()>>
+
+
+
+= UCC - Unique Connected Component =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of problems reducible in [[Class_L|$\text{L}$]] to the problem of whether an undirected graph has a unique connected component.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+See [[ZooRefs#AG00|[AG00] ]] for more information.
+
+
+
+Contained in [[Class_SL|$\text{SL}$]].
+
+
+
+See also [[Class_coUCC|$\text{coUCC}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:UCC)>>

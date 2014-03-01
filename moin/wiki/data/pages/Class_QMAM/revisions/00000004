@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= QMAM - Quantum Merlin-Arthur-Merlin Public-Coin Interactive Proofs =
+
+----
+CategoryQuantum 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems for which a "yes" answer can be verified by a public-coin quantum MAM protocol, as follows.  Merlin sends a polynomial-size quantum state to Arthur.  Arthur then flips some classical coins (in fact, he only has to flip one without loss of generality) and sends the outcome to Merlin.  At this stage Arthur is not yet allowed to perform any quantum operations.  Merlin then sends Arthur another quantum state.  Finally, Arthur performs a [[Class_BQP|$\text{BQP}$]] operation on both of the states simultaneously, and either accepts or rejects.  The completeness and soundness requirements are the same as for [[Class_AM|$\text{AM}$]].  Also, Merlin's messages might be entangled.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Defined by Marriott and Watrous [[ZooRefs#MW05|[MW05] ]], who also showed that [[Class_QMAM|$\text{QMAM}$]] = QIP(3) = [[Class_QIP|$\text{QIP}$]].
+
+
+
+Hence [[Class_QMAM|$\text{QMAM}$]] contains [[Class_PSPACE|$\text{PSPACE}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_QMAM)>>

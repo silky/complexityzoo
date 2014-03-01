@@ -1,0 +1,41 @@
+
+<<TableOfContents()>>
+
+
+
+= BPP^KT^ - BPP With Time-Bounded Kolmogorov Complexity Oracle =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+[[Class_BPP|$\text{BPP}$]] with an oracle that, given a string x, returns the minimum over all programs [[Class_P|$\text{P}$]] that output x,,i,, on input i, of the length of [[Class_P|$\text{P}$]] plus the maximum time taken by [[Class_P|$\text{P}$]] on any input.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+A similar class was defined in [[ZooRefs#ABK+02|[ABK+02] ]], where it was also shown that in [[Class_BPPKT|$\text{BPP}^\text{KT}\text{}$]] one can factor, compute discrete logarithms, and more generally invert any one-way function on a non-negligible fraction of inputs.
+
+
+
+See also: [[Class_PK|$\text{P}^\text{K}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:BPPKT)>>

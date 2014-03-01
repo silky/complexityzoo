@@ -1,0 +1,37 @@
+
+<<TableOfContents()>>
+
+
+
+= ALOGTIME - Logarithmic time alternating RAM =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+[[Class_ALOGTIME|$\text{ALOGTIME}$]] is the class of languages decidable in logarithmic time by a random access alternating Turing machine.}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+Known to be equal to U,,E^*^,,-uniform [[Class_NC1|$\text{NC}^\text{1}\text{}$]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
+
+<<FullSearch(linkto:Class_ALOGTIME)>>

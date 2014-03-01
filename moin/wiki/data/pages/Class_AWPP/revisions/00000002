@@ -1,0 +1,49 @@
+
+<<TableOfContents()>>
+
+
+
+= AWPP - Almost WPP =
+
+----
+CategoryClassical 
+
+== Description ==
+
+{{{#!description
+
+The class of decision problems solvable by an [[Class_NP|$\text{NP}$]] machine such that for some polynomial-time computable (i.e. [[Class_FP|$\text{FP}$]]) function f,}}}
+
+== Complete Problem ==
+
+{{{#!complete_problem
+
+}}}
+
+== Comments ==
+
+
+
+If the answer is "no," then the difference between the number of accepting and rejecting paths is non-negative and at most 2^-poly(n)^f(x).
+
+If the answer is "yes," then the difference is between (1-2^-poly(n)^)f(x) and f(x).
+
+
+
+Defined in [[ZooRefs#FFK94|[FFK94] ]].
+
+
+
+Contains [[Class_BQP|$\text{BQP}$]] [[ZooRefs#FR98|[FR98] ]], [[Class_WAPP|$\text{WAPP}$]] [[ZooRefs#BGM02|[BGM02] ]], [[Class_LWPP|$\text{LWPP}$]], and [[Class_WPP|$\text{WPP}$]].
+
+
+
+Contained in [[Class_APP|$\text{APP}$]] [[ZooRefs#Fen02|[Fen02] ]].
+== Relations ==
+
+{{{#!class_relations
+
+}}}
+
+
+== See Also ==
