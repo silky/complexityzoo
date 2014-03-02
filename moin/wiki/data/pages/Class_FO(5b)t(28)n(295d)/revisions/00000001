@@ -3,7 +3,7 @@
 
 
 
-= FO[t(n)] - Iterated First-Order logic =
+= FO[$t(n)$] - Iterated First-Order logic =
 
 ----
 CategoryClassical 
@@ -22,14 +22,11 @@ Let $t(n)$ be a function from integers to integers.}}}
 
 == Comments ==
 
-$(\
-orall x [[Class_P|$\text{P}$]]) Q$ abbreviates $(\
-orall x (P\\Rightarrow Q))$ and $(\\exists x [[Class_P|$\text{P}$]]) Q$ abbreviates $(\\exists x ([[Class_P|$\text{P}$]] \\wedge Q))$.
+$(\forall x [[Class_P|$\text{P}$]]) Q$ abbreviates $(\forall x (P\Rightarrow Q))$ and $(\exists x [[Class_P|$\text{P}$]]) Q$ abbreviates $(\exists x ([[Class_P|$\text{P}$]] \wedge Q))$.
 
 
 
-A quantifier block is a list $(Q_1 x_1. \\phi_1)...(Q_k x_k. \\phi_k)$ where the $\\phi_i$s are quantifier free FO-formulae and each $Q_i$s is either $\
-orall$ or $\\exists$.
+A quantifier block is a list $(Q_1 x_1. \phi_1)...(Q_k x_k. \phi_k)$ where the $\phi_i$s are quantifier free FO-formulae and each $Q_i$s is either $\forall$ or $\exists$.
 
 If $Q$ is a quantifier block then $[Q]^{t(n)}$ is the block consisting of $t(n)$ iterated copies of $Q$. 
 
@@ -37,7 +34,7 @@ Note that there are $k*t(n)$ quantifiers in the list, but only k variables; each
 
 
 
-FO[$t(n)$] consists of the FO-formulae with quantifier blocks that are iterated $\\Theta(t(n))$ times.
+FO[$t(n)$] consists of the FO-formulae with quantifier blocks that are iterated $\Theta(t(n))$ times.
 
 
 
@@ -60,3 +57,5 @@ FO[2^{n^{O(1)}}] is equal to [[Class_PSPACE|$\text{PSPACE}$]] and FO(PFP)
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_FO[t(n)])>>

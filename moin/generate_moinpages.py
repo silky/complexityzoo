@@ -15003,7 +15003,7 @@ The class of dashed hopes and idle dreams.}}}
 
 {{{#!complete_problem
 
-<<Include(Problem_3-SAT, "3-SAT", 3, from="^== Description ==$", to="^== Properties ==$")>>
+<<Include(Problem_k-SAT, "k-SAT", 3, from="^== Description ==$", to="^== Properties ==$")>>
 
 }}}
 

@@ -28,11 +28,11 @@ We define a relation of order $o$ and arity $k$ to be a subset of $k$-tuple of r
 
 
 
-$HO^o$ is the set of formulae with quantification up to order O. $\\Sigma^i_j$(resp. $\\Pi_j^i$) is defined as the set of formula in $HO^{i+1}$ beginning by an existantial (resp universal) quantifier followed by at most $j-1$ alternation of quantifiers.
+$HO^o$ is the set of formulae with quantification up to order O. $\Sigma^i_j$(resp. $\Pi_j^i$) is defined as the set of formula in $HO^{i+1}$ beginning by an existantial (resp universal) quantifier followed by at most $j-1$ alternation of quantifiers.
 
 
 
-This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that $\\Sigma^i_j=\\exp_2^{i-1}(n^O(1))^{\\Sigma^P_{j-1}}$ where $\\Sigma^P_{j-1}$ is the $j$th level of the polynomial hierarchy.
+This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that $\Sigma^i_j=\exp_2^{i-1}(n^O(1))^{\Sigma^P_{j-1}}$ where $\Sigma^P_{j-1}$ is the $j$th level of the polynomial hierarchy.
 == Relations ==
 
 {{{#!class_relations
@@ -41,3 +41,5 @@ This class was define in [[ZooRefs#HT06|[HT06] ]], and it was proved that $\\Sig
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_HO)>>

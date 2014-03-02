@@ -24,8 +24,7 @@ Like [[Class_Pcc|$\text{P}^\text{cc}\text{}$]], but with $k$ players, where each
 
 
 
-More formally, [[Class_Pkcc|$\text{P}_\text{k}\text{}^\text{cc}\text{}$]] is the class of functions $F:X_1\	imes X_2 \	imes \\cdots \	imes X_k \	o \\{0,1\\}$ where for all $i\\in[1..k]$, $X_k\\in\\{0,1\\}^n$, such that $F$ is solvable in a deterministic sense by $k$ players, each of which is aware of all inputs $X_i$ other than his own, and such that $O\\left(\\mathrm{poly}(\\log n)\
-ight)$ bits of communication are used.
+More formally, [[Class_Pkcc|$\text{P}_\text{k}\text{}^\text{cc}\text{}$]] is the class of functions $F:X_1\times X_2 \times \cdots \times X_k \to \{0,1\}$ where for all $i\in[1..k]$, $X_k\in\{0,1\}^n$, such that $F$ is solvable in a deterministic sense by $k$ players, each of which is aware of all inputs $X_i$ other than his own, and such that $O\left(\mathrm{poly}(\log n)\right)$ bits of communication are used.
 
 
 
@@ -38,3 +37,5 @@ ight)$ bits of communication are used.
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_Pkcc)>>

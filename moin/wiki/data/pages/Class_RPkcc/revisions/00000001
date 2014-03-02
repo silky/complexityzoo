@@ -30,7 +30,7 @@ The communication cost (the sum of the number of random bits used and bits writt
 
 
 
-[[Class_NPkcc|$\text{NP}_\text{k}\text{}^\text{cc}\text{}$]] is not equal to [[Class_RPkcc|$\text{RP}_\text{k}\text{}^\text{cc}\text{}$]] for $k\\le(1-\\delta)\\cdot\\log n$ players, for any constant $\\delta>0$ [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPkcc|$\text{NP}_\text{k}\text{}^\text{cc}\text{}$]] is not equal to [[Class_RPkcc|$\text{RP}_\text{k}\text{}^\text{cc}\text{}$]] for $k\le(1-\delta)\cdot\log n$ players, for any constant $\delta>0$ [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 {{{#!class_relations
@@ -39,3 +39,5 @@ The communication cost (the sum of the number of random bits used and bits writt
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_RPkcc)>>

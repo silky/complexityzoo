@@ -1,0 +1,26 @@
+= k-SAT - Satisfiability  =
+
+----
+CategoryProblem
+
+
+== Description ==
+
+{{{#!description
+The SAT problem is to decide whether a given Boolean formula has any satisfying truth assignments. SAT is in NP, since a "yes" answer can be proved by just exhibiting a satisfying assignment. 
+
+For some natural number $k$, an instance of k-SAT is an instance of SAT in conjunctive normal form (CNF) where all clauses are the logical OR of $k$ Boolean variables. 
+}}}
+
+
+== Properties ==
+
+{{{#!problem_relations
+{"version": 1.0, "problem": "SAT", "relations": {
+ "complete_for": [{"class": "NP", "condition": "$k = 3$"}], 
+ "contained_in": [{"class": "NP"}, {"class": "P", "condition": "$k = 2$"}]
+}}
+}}}
+
+
+== Related Problems ==

@@ -24,7 +24,7 @@ The set of all problems reducible to matrix multiplication. That is, the set of 
 
 
 
-Currently, the best known algorithm for multiplying two $n\	imes n$ matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of $O(n^{2.376})$ [[ZooRefs#CW90|[CW90] ]]. Note that for the general problem, a lower bound of $\\Omega(n^2)$ is trivial from the number of elements being considered.
+Currently, the best known algorithm for multiplying two $n\times n$ matrices is the Coppersmith–Winograd_algorithm, which has a time complexity of $O(n^{2.376})$ [[ZooRefs#CW90|[CW90] ]]. Note that for the general problem, a lower bound of $\Omega(n^2)$ is trivial from the number of elements being considered.
 == Relations ==
 
 {{{#!class_relations
@@ -33,3 +33,5 @@ Currently, the best known algorithm for multiplying two $n\	imes n$ matrices is 
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_MM)>>

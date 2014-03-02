@@ -60,9 +60,7 @@ There exist oracles relative to which
 
 
 
-[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\text{EXP}$]] $\
-ot\\subseteq$ [[Class_NP/poly|$\text{NP/poly}$]] implies [[Class_EXP|$\text{EXP}$]] $\
-ot\\subseteq$ P^||NP^/poly.
+[[ZooRefs#SU05|[SU05] ]] show that [[Class_EXP|$\text{EXP}$]] $\not\subseteq$ [[Class_NP/poly|$\text{NP/poly}$]] implies [[Class_EXP|$\text{EXP}$]] $\not\subseteq$ P^||NP^/poly.
 
 
 
@@ -83,3 +81,5 @@ In descriptive complexity EXPTIME can be defined as SO(2^{n^{O(1)}}) which is al
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_EXP)>>

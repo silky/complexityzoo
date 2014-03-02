@@ -24,7 +24,7 @@ Same as [[Class_QMA|$\text{QMA}$]] except that for a "yes" instance, there exist
 
 
 
-Defined in [[ZooRefs#Bra06|[Bra06] ]]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any $ k \\geq 4$. It was also shown there that Quantum 2-SAT is in [[Class_P|$\text{P}$]].
+Defined in [[ZooRefs#Bra06|[Bra06] ]]. It was shown there that Quantum k-SAT is QMA,,1,,-complete for any $ k \geq 4$. It was also shown there that Quantum 2-SAT is in [[Class_P|$\text{P}$]].
 
 
 
@@ -37,3 +37,5 @@ This result was later improved in [[ZooRefs#GN13|[GN13] ]] where it was shown th
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_QMA1)>>

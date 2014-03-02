@@ -24,8 +24,7 @@ FO(LFP) is the set of boolean queries definable with first-order fixed-point for
 
 
 
-We can obtain the monotony by restricting the formula $\\phi$ to have only positive occurrences of $P$ (i.e. there is an even number of negations before every occurrence of $P$). We can also describe LFP($\\phi_{P,x}$) as syntactic sugar of PFP($\\psi_{P,x}$) where $\\psi(P,x)=\\phi(P,x)\
-ee P(x)$.
+We can obtain the monotony by restricting the formula $\phi$ to have only positive occurrences of $P$ (i.e. there is an even number of negations before every occurrence of $P$). We can also describe LFP($\phi_{P,x}$) as syntactic sugar of PFP($\psi_{P,x}$) where $\psi(P,x)=\phi(P,x)\vee P(x)$.
 
 
 
@@ -38,3 +37,5 @@ Thanks to monotonicity we only add and never remove vectors to the truth table o
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_FO(LFP))>>

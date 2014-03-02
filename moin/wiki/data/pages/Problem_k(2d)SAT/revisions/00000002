@@ -1,0 +1,21 @@
+= 3-SAT =
+
+----
+CategoryProblem
+
+
+== Description ==
+
+{{{#!description
+Given a boolean formula, decide if it is true or not.
+}}}
+
+
+== Properties ==
+
+{{{#!problem_relations
+{"version": 1.0, "problem": "SAT", "relations": {"complete_for": [{"class": "NP"}] }}
+}}}
+
+
+== Related Problems ==

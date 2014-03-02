@@ -31,3 +31,5 @@ Same as [[Class_MaxPB|$\text{MaxPB}$]] but for minimization instead of maximizat
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_MinPB)>>

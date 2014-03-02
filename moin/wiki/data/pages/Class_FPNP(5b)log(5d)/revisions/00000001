@@ -31,3 +31,5 @@ Given a graph, the problem of outputting the size of its maximum clique is compl
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_FPNP[log])>>

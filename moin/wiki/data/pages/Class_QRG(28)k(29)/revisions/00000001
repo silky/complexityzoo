@@ -24,7 +24,7 @@ Same as [[Class_QRG|$\text{QRG}$]], except that now the verifier exchanges exact
 
 
 
-QRG(k) trivially contains RG(k) for each k (and hence [[Class_PSPACE|$\text{PSPACE}$]] when $ k \\geq 2$).  QRG(4) trivially contains [[Class_SQG|$\text{SQG}$]].
+QRG(k) trivially contains RG(k) for each k (and hence [[Class_PSPACE|$\text{PSPACE}$]] when $ k \geq 2$).  QRG(4) trivially contains [[Class_SQG|$\text{SQG}$]].
 
 
 
@@ -41,3 +41,5 @@ Other than these trivial bounds, very little is known of QRG(k) for intermediate
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_QRG(k))>>

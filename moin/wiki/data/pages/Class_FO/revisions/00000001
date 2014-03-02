@@ -38,16 +38,11 @@ Since in a computer elements are only pointers or string of bit, thoses assumpti
 
 
 
-The language [[Class_FO|$\text{FO}$]] is then defined as the closure by conjunction ( $\\wedge$), negation ($\
-eg$) and universal quantification ($\
-orall$) over element of the structures. We also often use existantial quantification ($\\exists$) and disjunction ($\
-ee$) but those can be defined thanks to the 3 first symbols.
+The language [[Class_FO|$\text{FO}$]] is then defined as the closure by conjunction ( $\wedge$), negation ($\neg$) and universal quantification ($\forall$) over element of the structures. We also often use existantial quantification ($\exists$) and disjunction ($\vee$) but those can be defined thanks to the 3 first symbols.
 
 
 
-The semantics of the formulae in [[Class_FO|$\text{FO}$]] is straightforward, $\
-eg A$ is true iff $A$ is false, $A\\wedge B$ is true iff $A$ is true and $B$ is true, and ($\
-orall x P$) is true iff whatever element we decide that $x$ is we can choose, $P$ is true.
+The semantics of the formulae in [[Class_FO|$\text{FO}$]] is straightforward, $\neg A$ is true iff $A$ is false, $A\wedge B$ is true iff $A$ is true and $B$ is true, and ($\forall x P$) is true iff whatever element we decide that $x$ is we can choose, $P$ is true.
 
 
 
@@ -64,3 +59,5 @@ Every formulae is equivalent to a formulae in prenexe normal form where we put r
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_FO)>>

@@ -24,11 +24,11 @@ FO(pfp) is the set of boolean queries definable with first-order formulae with a
 
 
 
-Let $k$ be an integer, $x, y$  vectors of $k$ variables, $P$ a second-order variable of arity $k$, and $\\phi$ a FO(PFP) function using $x$ and $P$ as variables, then we can define iteratively $(P_i)_{i\\in N}$ such that $P_0(x)=false$ and $P_i(x)=\\phi(P_{i-1},x)$ which means that the property $P_i$ is true on the input $x$ if $\\phi$ is true on input $x$, and when the variable $P$ is replaced by $P_{i-1}$. Then, either there is a fixed point, or the list of $(P_i)$ is looping.
+Let $k$ be an integer, $x, y$  vectors of $k$ variables, $P$ a second-order variable of arity $k$, and $\phi$ a FO(PFP) function using $x$ and $P$ as variables, then we can define iteratively $(P_i)_{i\in N}$ such that $P_0(x)=false$ and $P_i(x)=\phi(P_{i-1},x)$ which means that the property $P_i$ is true on the input $x$ if $\phi$ is true on input $x$, and when the variable $P$ is replaced by $P_{i-1}$. Then, either there is a fixed point, or the list of $(P_i)$ is looping.
 
 
 
-PFP($\\phi_{P,x})(y)$ is defined as the value of the fixed point of $(P_i)$ on y if there is a fixed point, else as false.
+PFP($\phi_{P,x})(y)$ is defined as the value of the fixed point of $(P_i)$ on y if there is a fixed point, else as false.
 
 
 
@@ -45,3 +45,5 @@ It was proved in [[ZooRefs#Imm98|[Imm98] ]] that FO(pfp) is equal to [[Class_PSP
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_FO(PFP))>>

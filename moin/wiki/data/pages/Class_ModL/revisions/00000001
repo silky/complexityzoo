@@ -12,7 +12,7 @@ CategoryClassical
 
 {{{#!description
 
-A language $L\\in\\mathsf{ModL}$ if there are functions $f\\in\\mathsf{GapL}$ and $g\\in\\mathsf{FL}$ such that for all strings $x$:}}}
+A language $L\in\mathsf{ModL}$ if there are functions $f\in\mathsf{GapL}$ and $g\in\mathsf{FL}$ such that for all strings $x$:}}}
 
 == Complete Problem ==
 
@@ -31,7 +31,7 @@ ight|).
 
 
 
-Thus, for any prime $p$ and natural number $\lpha$, $\\mathsf{Mod}_{p^{\lpha}}\\mathsf{L}\\subseteq\\mathsf{ModL}$. Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
+Thus, for any prime $p$ and natural number $\alpha$, $\mathsf{Mod}_{p^{\alpha}}\mathsf{L}\subseteq\mathsf{ModL}$. Moreover, FL^ModL^ = FL^GapL^ [[ZooRefs#AV04|[AV04] ]].
 
 
 
@@ -44,3 +44,5 @@ Defined in [[ZooRefs#AV04|[AV04] ]].
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_ModL)>>

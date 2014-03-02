@@ -17,6 +17,9 @@ The class of dashed hopes and idle dreams.}}}
 
 {{{#!complete_problem
 
+(When $k=3$)
+<<Include(Problem_k-SAT, "k-SAT", 3, from="^== Description ==$", to="^== Properties ==$")>>
+
 }}}
 
 == Comments ==

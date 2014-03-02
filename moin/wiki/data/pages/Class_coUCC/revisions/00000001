@@ -33,3 +33,5 @@ Given a colored graph G with at most two vertices having any given color, does G
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_coUCC)>>

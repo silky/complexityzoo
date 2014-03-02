@@ -44,8 +44,7 @@ It follows that, if the problems complete for [[Class_E|$\text{E}$]] under Turin
 
 
 
-[[ZooRefs#BF03|[BF03] ]] gave a proof that if [[Class_E|$\text{E}$]] = [[Class_NE|$\text{NE}$]], then no sparse set is collapsing, where they defined a set $A$ to be collapsing if $A\
-otin\\mathsf{P}$ and if for all $B$ such that $A$ and $B$ are Turing reducible to each other, $A$ and $B$ are many-to-one reducible to each other.
+[[ZooRefs#BF03|[BF03] ]] gave a proof that if [[Class_E|$\text{E}$]] = [[Class_NE|$\text{NE}$]], then no sparse set is collapsing, where they defined a set $A$ to be collapsing if $A\notin\mathsf{P}$ and if for all $B$ such that $A$ and $B$ are Turing reducible to each other, $A$ and $B$ are many-to-one reducible to each other.
 
 
 
@@ -58,3 +57,5 @@ Contrast with [[Class_EXP|$\text{EXP}$]].
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_E)>>

@@ -3,7 +3,7 @@
 
 
 
-= SO[t(n)] - Iterated Second-Order logic =
+= SO[$t(n)$] - Iterated Second-Order logic =
 
 ----
 CategoryClassical 
@@ -39,3 +39,5 @@ SO[2^{n^{O(1)}}] is equal to EXPTIME it is also another way to write SO(LFP)
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_SO[t(n)])>>

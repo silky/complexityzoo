@@ -33,3 +33,5 @@ Same as [[Class_ZPP|$\text{ZPP}$]], but with 2^O(n)^-time instead of polynomial-
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_ZPE)>>

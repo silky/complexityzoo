@@ -64,7 +64,7 @@ It was shown in [CPO7] that if the [[Class_NP|$\text{NP}$]] Machine Hypothesis h
 
 $
 
-    \\mathsf{P}^{\\mathrm{SAT}[1]} = \\mathsf{P}^{\\mathrm{SAT}[2]} \\Rightarrow \\mathsf{PH} \\subseteq \\mathsf{NP}
+    \mathsf{P}^{\mathrm{SAT}[1]} = \mathsf{P}^{\mathrm{SAT}[2]} \Rightarrow \mathsf{PH} \subseteq \mathsf{NP}
 
 $.
 
@@ -87,3 +87,5 @@ Since [[Class_NP|$\text{NP}$]] is the class of query expressible in second-order
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_PH)>>

@@ -24,7 +24,7 @@ Same as [[Class_RG|$\text{RG}$]], except that now the verifier exchanges exactly
 
 
 
-Other than trivial bounds, very little is known of RG(k) for intermediate values of k. For example, does RG(k) = [[Class_PSPACE|$\text{PSPACE}$]] for each constant $k\\geq 2$?
+Other than trivial bounds, very little is known of RG(k) for intermediate values of k. For example, does RG(k) = [[Class_PSPACE|$\text{PSPACE}$]] for each constant $k\geq 2$?
 == Relations ==
 
 {{{#!class_relations
@@ -33,3 +33,5 @@ Other than trivial bounds, very little is known of RG(k) for intermediate values
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_RG(k))>>

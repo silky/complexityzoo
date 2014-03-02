@@ -37,3 +37,5 @@ The determinant of an n-by-n matrix of indeterminates is VQP,,k,,-complete under
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_VQPk)>>

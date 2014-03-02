@@ -41,3 +41,5 @@ AUC-SPACE(poly(n)) = [[Class_SAPTIME|$\text{SAPTIME}$]] = [[Class_PSPACE|$\text{
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_AUC-SPACE(f(n)))>>

@@ -24,7 +24,7 @@ A comparator gate consists of two inputs and outputs the minimum of its two inpu
 
 
 
-[[Class_CC|$\text{CC}$]] is defined as the class of problems log-space many-one reducible to CCVP [[ZooRefs#MS89|[MS89] ]]. At present it is only known that NL$\\subseteq$CC$\\subseteq$P [[ZooRefs#MS89|[MS89] ]]. [[Class_CC|$\text{CC}$]] is an example of a complexity class neither known to be in [[Class_NC|$\text{NC}$]] nor P-complete.
+[[Class_CC|$\text{CC}$]] is defined as the class of problems log-space many-one reducible to CCVP [[ZooRefs#MS89|[MS89] ]]. At present it is only known that NL$\subseteq$CC$\subseteq$P [[ZooRefs#MS89|[MS89] ]]. [[Class_CC|$\text{CC}$]] is an example of a complexity class neither known to be in [[Class_NC|$\text{NC}$]] nor P-complete.
 
 
 
@@ -37,3 +37,5 @@ Natural complete problems for the [[Class_CC|$\text{CC}$]] class include Stable 
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_CC)>>

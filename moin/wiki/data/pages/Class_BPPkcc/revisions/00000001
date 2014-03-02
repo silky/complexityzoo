@@ -24,7 +24,7 @@ Has the same relation to [[Class_BPPcc|$\text{BPP}^\text{cc}\text{}$]] and [[Cla
 
 
 
-[[Class_NPkcc|$\text{NP}_\text{k}\text{}^\text{cc}\text{}$]] is not contained in [[Class_BPPkcc|$\text{BPP}_\text{k}\text{}^\text{cc}\text{}$]] for $k\\le(1-\\delta)\\cdot\\log n$ players, for any constant $\\delta>0$ [[ZooRefs#DP08|[DP08] ]].
+[[Class_NPkcc|$\text{NP}_\text{k}\text{}^\text{cc}\text{}$]] is not contained in [[Class_BPPkcc|$\text{BPP}_\text{k}\text{}^\text{cc}\text{}$]] for $k\le(1-\delta)\cdot\log n$ players, for any constant $\delta>0$ [[ZooRefs#DP08|[DP08] ]].
 == Relations ==
 
 {{{#!class_relations
@@ -33,3 +33,5 @@ Has the same relation to [[Class_BPPcc|$\text{BPP}^\text{cc}\text{}$]] and [[Cla
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_BPPkcc)>>

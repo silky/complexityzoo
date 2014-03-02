@@ -37,3 +37,5 @@ By linear programming, GAN-SPACE(log n) is contained in [[Class_P|$\text{P}$]].
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_GAN-SPACE(f(n)))>>

@@ -33,3 +33,5 @@ Defined as Heur,,\delta,,DTIME, but for non-deterministic heuristic algorithms.}
 
 
 == See Also ==
+
+<<FullSearch(linkto:Class_HeurNTIME\delta)>>
