@@ -43,18 +43,8 @@ def macro_ListClasses (macro):
 
         return m.group(1)
 
-    def getTitle (content):
-        reg = u"= (.*) ="
-        srch = re.search(reg, content)
-        if srch:
-            bit = srch.group(0).split(' - ')
-            if len(bit) != 2:
-                # Probably a wrong thing.
-                return ""
-            else:
-                return bit[1].strip(' =')
 
-    tuples = [ (p.page_name[len("Class_"):], getTitle(p.getPageText())) for p in pages ]
+    tuples = [ (p.page_name[len("Class_"):], wikiutil.getPageTitle(p)) for p in pages ]
     info   = sorted(tuples, key=sorty)
 
     last = None

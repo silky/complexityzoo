@@ -36,8 +36,11 @@ text {
 }
 
 div.info { 
+    font-size: 1em;
     display: none;
-    width: 230px;
+    padding: 20px;
+    width: 370px;
+    background: #eaeaea;
     float: left;
     color: black;
 }
@@ -52,7 +55,7 @@ div.info {
 #
 
 JS = '''
-var WIDTH = 600, HEIGHT = 500;
+var WIDTH = 600, HEIGHT = 600;
 
 var lastInfoBox = null;
 
@@ -186,30 +189,28 @@ def execute (pagename, request, fieldname='class_names'):
     def pname (x):
         return x[len("Class_"):]
 
-    for p in allPages:
-        complete_problem = wikiutil.getPageSection("complete_problem", p.get_data())
-        description      = wikiutil.getPageSection("description",      p.get_data())
-
+    def rendered (content):
         formatter = HtmlFormatter(request)
         formatter.setPage(request.page)
 
         request.page.formatter = formatter
         request.formatter = formatter
-        parser = WikiParser(complete_problem, request, line_anchors=False)
+        parser = WikiParser(content, request, line_anchors=False)
 
         formatter.startContent('')
         output = request.redirectedOutput(parser.format, formatter)
         formatter.endContent('')
+        return output
 
-        complete_problem = output
 
-        # Somehow render these sections correctly using the standard
-        # technique.
+    for p in allPages:
+        complete_problem = rendered(wikiutil.getPageSection("complete_problem", p.get_data()))
+        description      = rendered(wikiutil.getPageSection("description", p.get_data()))
 
         info_divs += '''<div class="info" id="info%(page_name)s">
-    <h4>
-        <a href='Class_%(page_name)s'>%(page_name)s</a>
-    </h4>
+    <h3>
+        <a href='Class_%(page_name)s'>%(page_name)s</a> - %(page_title)s
+    </h3>
     <hr />
     <b>Description</b>
     <p>
@@ -223,6 +224,7 @@ def execute (pagename, request, fieldname='class_names'):
 
 </div>''' % {
         "page_name": pname(p.page_name),
+        "page_title": wikiutil.getPageTitle(p),
         "desc":      description,
         "prob":      complete_problem,
         }

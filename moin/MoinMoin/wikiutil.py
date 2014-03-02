@@ -48,6 +48,20 @@ CHILD_PREFIX_LEN = len(CHILD_PREFIX)
 #############################################################################
 ### Utils for processing class pages.
 #############################################################################
+
+
+def getPageTitle (page):
+    content = page.getPageText()
+    reg = u"= (.*) ="
+    srch = re.search(reg, content)
+    if srch:
+        bit = srch.group(0).split(' - ')
+        if len(bit) != 2:
+            return ""
+        else:
+            return bit[1].strip(' =')
+
+
 def classFilter (name):
     """ Matches Complexity Class pages. """
     return (re.match("^Class", name) != None)
@@ -88,6 +102,10 @@ def getRelationsAsNxGraph (pages):
     for (key, val) in data.iteritems():
         for c in val["relations"]["contained_in"]:
             graph.add_edge(c["class"], key)
+
+        # for c in val["relations"]["contains"]:
+        #     graph.add_edge(c["class"], key)
+
     return graph
 #
 
